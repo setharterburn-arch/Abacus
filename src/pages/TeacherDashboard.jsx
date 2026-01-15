@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
+import CreateAssignment from '../components/teacher/CreateAssignment';
 
 const TeacherDashboard = ({ profile }) => {
     const [classes, setClasses] = useState([]);
     const [newClassName, setNewClassName] = useState('');
+    const [activeClass, setActiveClass] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -86,11 +88,26 @@ const TeacherDashboard = ({ profile }) => {
                             {classes.map(cls => (
                                 <li key={cls.id} style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                        <strong>{cls.name}</strong>
-                                        <span className="badge" style={{ background: '#eee', padding: '0.25rem 0.5rem', borderRadius: '4px', fontFamily: 'monospace' }}>
-                                            {cls.join_code}
-                                        </span>
+                                        <div>
+                                            <strong>{cls.name}</strong>
+                                            <div style={{ fontSize: '0.8rem', color: 'gray', marginTop: '0.2rem' }}>
+                                                Code: <span style={{ fontFamily: 'monospace', background: '#eee', padding: '2px 4px', borderRadius: '4px' }}>{cls.join_code}</span>
+                                            </div>
+                                        </div>
+                                        <button
+                                            className="btn btn-secondary"
+                                            style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                            onClick={() => setActiveClass(activeClass === cls.id ? null : cls.id)}
+                                        >
+                                            {activeClass === cls.id ? 'Close' : 'Create Assignment'}
+                                        </button>
                                     </div>
+                                    {activeClass === cls.id && (
+                                        <CreateAssignment
+                                            classId={cls.id}
+                                            onClose={() => setActiveClass(null)}
+                                        />
+                                    )}
                                 </li>
                             ))}
                         </ul>
