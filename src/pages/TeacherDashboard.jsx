@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
 import CreateAssignment from '../components/teacher/CreateAssignment';
 import ClassRoster from '../components/teacher/ClassRoster';
+import CurriculumLibrary from '../components/teacher/CurriculumLibrary';
 
 const TeacherDashboard = ({ profile }) => {
     const [classes, setClasses] = useState([]);
     const [newClassName, setNewClassName] = useState('');
     const [activeClass, setActiveClass] = useState(null);
     const [viewingRoster, setViewingRoster] = useState(null);
+    const [viewingCurriculum, setViewingCurriculum] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -96,14 +98,42 @@ const TeacherDashboard = ({ profile }) => {
                                                 Code: <span style={{ fontFamily: 'monospace', background: '#eee', padding: '2px 4px', borderRadius: '4px' }}>{cls.join_code}</span>
                                             </div>
                                         </div>
-                                        <button
-                                            className="btn btn-secondary"
-                                            style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
-                                            onClick={() => setActiveClass(activeClass === cls.id ? null : cls.id)}
-                                        >
-                                            {activeClass === cls.id ? 'Close' : 'Create Assignment'}
-                                        </button>
+                                        <div style={{ display: 'flex', gap: '0.5rem' }}>
+                                            <button
+                                                className="btn btn-secondary"
+                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                onClick={() => setViewingRoster(viewingRoster === cls.id ? null : cls.id)}
+                                            >
+                                                {viewingRoster === cls.id ? 'Close Gradebook' : 'Gradebook'}
+                                            </button>
+                                            <button
+                                                className="btn btn-secondary"
+                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                onClick={() => setViewingCurriculum(viewingCurriculum === cls.id ? null : cls.id)}
+                                            >
+                                                {viewingCurriculum === cls.id ? 'Close Library' : 'Curriculum'}
+                                            </button>
+                                            <button
+                                                className="btn btn-primary"
+                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                onClick={() => setActiveClass(activeClass === cls.id ? null : cls.id)}
+                                            >
+                                                {activeClass === cls.id ? 'Close' : 'AI Generator'}
+                                            </button>
+                                        </div>
                                     </div>
+                                    {viewingRoster === cls.id && (
+                                        <ClassRoster
+                                            classId={cls.id}
+                                            onClose={() => setViewingRoster(null)}
+                                        />
+                                    )}
+                                    {viewingCurriculum === cls.id && (
+                                        <CurriculumLibrary
+                                            classId={cls.id}
+                                            onClose={() => setViewingCurriculum(null)}
+                                        />
+                                    )}
                                     {activeClass === cls.id && (
                                         <CreateAssignment
                                             classId={cls.id}
