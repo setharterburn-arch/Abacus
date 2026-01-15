@@ -66,3 +66,54 @@ create policy "Enrollments are viewable by everyone."
 create policy "Students can enroll themselves."
   on class_students for insert
   with check ( auth.uid() = student_id );
+
+-- ASSIGNMENTS & SUBMISSIONS
+
+create table assignments (
+  id uuid default uuid_generate_v4() primary key,
+  class_id uuid references classes(id) not null,
+  title text not null,
+  description text,
+  questions jsonb not null, -- Array of { question, options, answer }
+  due_date timestamptz,
+  created_at timestamptz default now()
+);
+
+alter table assignments enable row level security;
+
+-- Teachers can manage assignments for their own classes
+create policy "Teachers can manage their class assignments."
+  on assignments for all
+  using ( exists (select 1 from classes where id = assignments.class_id and teacher_id = auth.uid()) );
+
+-- Students can view assignments for classes they joined
+create policy "Students can view class assignments."
+  on assignments for select
+  using ( exists (select 1 from class_students where class_id = assignments.class_id and student_id = auth.uid()) );
+
+create table assignment_submissions (
+  id uuid default uuid_generate_v4() primary key,
+  assignment_id uuid references assignments(id) not null,
+  student_id uuid references profiles(id) not null,
+  answers jsonb not null, -- Student's answers
+  score int,
+  status text default 'submitted',
+  submitted_at timestamptz default now()
+);
+
+alter table assignment_submissions enable row level security;
+
+-- Students can insert/view their own submissions
+create policy "Students can manage own submissions."
+  on assignment_submissions for all
+  using ( auth.uid() = student_id );
+
+-- Teachers can view submissions for their assignments
+create policy "Teachers can view submissions."
+  on assignment_submissions for select
+  using ( exists (
+    select 1 from assignments
+    join classes on classes.id = assignments.class_id
+    where assignments.id = assignment_submissions.assignment_id
+    and classes.teacher_id = auth.uid()
+  ));
