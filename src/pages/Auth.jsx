@@ -33,27 +33,20 @@ const Auth = () => {
                 const { data: { user }, error: signUpError } = await supabase.auth.signUp({
                     email,
                     password,
+                    options: {
+                        data: {
+                            role,
+                            first_name: firstName,
+                            last_name: lastName,
+                            grade_level: role === 'student' ? gradeLevel : null
+                        }
+                    }
                 });
 
                 if (signUpError) throw signUpError;
 
                 if (user) {
-                    // Create Profile
-                    const { error: profileError } = await supabase
-                        .from('profiles')
-                        .insert([
-                            {
-                                id: user.id,
-                                email,
-                                role,
-                                first_name: firstName,
-                                last_name: lastName,
-                                grade_level: role === 'student' ? gradeLevel : null
-                            }
-                        ]);
-
-                    if (profileError) throw profileError;
-
+                    // Profile creation is now handled by a Database Trigger
                     alert('Registration successful! Please sign in.');
                     setIsLogin(true);
                 }
