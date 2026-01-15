@@ -1,4 +1,7 @@
+import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import { supabase } from './supabase';
+
+const StoreContext = createContext();
 
 export const initialState = {
     session: null,
