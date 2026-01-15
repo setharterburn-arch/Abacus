@@ -23,6 +23,32 @@ const Navigation = () => {
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>Math Whiz 🧮</div>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                    <NavLink
+                        to="/dashboard"
+                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                    >
+                        Dashboard
+                    </NavLink>
+
+                    <NavLink
+                        to="/test"
+                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                    >
+                        Test Zone
+                    </NavLink>
+
+                    {state.profile?.role === 'admin' && (
+                        <NavLink
+                            to="/admin"
+                            className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                            style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                        >
+                            Admin
+                        </NavLink>
+                    )}
+
                     <button
                         onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
                         className="btn"
@@ -31,27 +57,14 @@ const Navigation = () => {
                     >
                         {state.theme === 'dark' ? '🌙' : '☀️'}
                     </button>
-                    <NavLink
-                        to="/dashboard"
-                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+
+                    <button
+                        onClick={() => dispatch({ type: 'LOGOUT' })}
+                        className="btn btn-secondary"
+                        style={{ padding: '0.5rem 1rem' }}
                     >
-                        Dashboard
-                    </NavLink>
-                    <NavLink
-                        to="/test"
-                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                    >
-                        Test Zone
-                    </NavLink>
-                    <NavLink
-                        to="/admin"
-                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                    >
-                        Parents
-                    </NavLink>
+                        Logout
+                    </button>
                 </div>
             </div>
         </nav>
