@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
 import CreateAssignment from '../components/teacher/CreateAssignment';
+import ClassRoster from '../components/teacher/ClassRoster';
 
 const TeacherDashboard = ({ profile }) => {
     const [classes, setClasses] = useState([]);
     const [newClassName, setNewClassName] = useState('');
     const [activeClass, setActiveClass] = useState(null);
+    const [viewingRoster, setViewingRoster] = useState(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
