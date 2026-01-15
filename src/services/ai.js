@@ -4,6 +4,9 @@ const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 export const generateAssignment = async (topic, gradeLevel, questionCount = 5, difficulty = 'medium') => {
+  if (!apiKey) {
+    throw new Error("Missing Gemini API Key. Please configure VITE_GEMINI_API_KEY in Vercel.");
+  }
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   const prompt = `
