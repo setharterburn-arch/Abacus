@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useStore } from '../services/store';
-import { getCurriculumSets, updateCurriculumStatus } from '../services/database';
+import { getCurriculumSets, updateCurriculumStatus, saveStudentGrade } from '../services/database';
 import HomeworkList from '../components/dashboard/HomeworkList';
 
 const TestZone = () => {
@@ -51,22 +51,27 @@ const TestZone = () => {
         }
 
         setResults({ correct, total, feedback });
+        const gradeData = {
+            date: new Date().toISOString(),
+            score: Math.round((correct / total) * 100),
+            feedback,
+            title: activeSet?.title || 'Test'
+        };
+
+        // Save grade to Supabase
+        await saveStudentGrade(gradeData);
+
+        // Save grade to Store for local UI
+        dispatch({
+            type: 'ADD_GRADE',
+            payload: gradeData
+        });
+
         setCompleted(true);
         setLoading(false);
 
         // Refresh assignments list
         await loadAssignments();
-
-        // Save grade
-        dispatch({
-            type: 'ADD_GRADE',
-            payload: {
-                date: new Date().toISOString(),
-                score: Math.round((correct / total) * 100),
-                feedback,
-                title: activeSet?.title || 'Test'
-            }
-        });
     };
 
     const quitTest = () => {

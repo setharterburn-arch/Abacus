@@ -5,11 +5,15 @@ import { useStore } from '../../services/store';
 const Navigation = () => {
     const { state } = useStore();
 
+    React.useEffect(() => {
+        document.documentElement.setAttribute('data-theme', state.theme);
+    }, [state.theme]);
+
     if (!state.user) return null;
 
     return (
         <nav style={{
-            backgroundColor: 'white',
+            backgroundColor: 'var(--color-bg-card)',
             padding: '1rem',
             boxShadow: 'var(--shadow-sm)',
             position: 'sticky',
@@ -18,7 +22,15 @@ const Navigation = () => {
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>Math Whiz 🧮</div>
-                <div style={{ display: 'flex', gap: '1rem' }}>
+                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                    <button
+                        onClick={() => state.dispatch({ type: 'TOGGLE_THEME' })}
+                        className="btn"
+                        style={{ padding: '0.5rem', fontSize: '1.2rem', background: 'transparent' }}
+                        title="Toggle Dark Mode"
+                    >
+                        {state.theme === 'dark' ? '🌙' : '☀️'}
+                    </button>
                     <NavLink
                         to="/dashboard"
                         className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}

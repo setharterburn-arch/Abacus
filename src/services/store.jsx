@@ -2,16 +2,16 @@ import React, { createContext, useContext, useReducer, useEffect } from 'react';
 
 const StoreContext = createContext();
 
-const initialState = {
+export const initialState = {
     user: JSON.parse(localStorage.getItem('user')) || null, // { name, age, grade }
     apiKey: import.meta.env.VITE_GEMINI_API_KEY || null,
     homework: [],
     grades: JSON.parse(localStorage.getItem('grades')) || [],
     settings: JSON.parse(localStorage.getItem('settings')) || { questionCount: 5, difficulty: 'Medium' },
-    theme: 'light'
+    theme: localStorage.getItem('theme') || 'light'
 };
 
-const reducer = (state, action) => {
+export const reducer = (state, action) => {
     switch (action.type) {
         case 'SET_USER':
             localStorage.setItem('user', JSON.stringify(action.payload));
@@ -29,6 +29,10 @@ const reducer = (state, action) => {
         case 'LOGOUT':
             localStorage.removeItem('user');
             return { ...state, user: null };
+        case 'TOGGLE_THEME':
+            const newTheme = state.theme === 'light' ? 'dark' : 'light';
+            localStorage.setItem('theme', newTheme);
+            return { ...state, theme: newTheme };
         default:
             return state;
     }
