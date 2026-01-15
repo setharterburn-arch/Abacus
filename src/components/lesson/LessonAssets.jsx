@@ -137,3 +137,13 @@ export const WorkshopBackground = () => (
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.2)' }} />
     </div>
 );
+
+export const GardenBackground = () => (
+    <div style={{
+        position: 'absolute', inset: 0, zIndex: 0,
+        backgroundImage: 'url(https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=2664&auto=format&fit=crop)',
+        backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'hidden'
+    }}>
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.1)' }} />
+    </div>
+);

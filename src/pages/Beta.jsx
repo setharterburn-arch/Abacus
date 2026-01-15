@@ -40,6 +40,13 @@ const Beta = () => {
             description: 'Measurement (1-2). Use a ruler to measure wood planks.',
             path: '/beta/measure',
             tags: ['Grade 1', 'Measurement']
+        },
+        {
+            id: 'graph',
+            title: '📊 Graph Garden',
+            description: 'Data & Graphing. Grow a bar chart!',
+            path: '/beta/graph',
+            tags: ['Data', '1st Grade']
         }
     ];
 
