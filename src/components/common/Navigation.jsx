@@ -44,6 +44,16 @@ const Navigation = () => {
                         </NavLink>
                     )}
 
+                    {state.profile?.role === 'teacher' && (
+                        <NavLink
+                            to="/feedback"
+                            className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                            style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                        >
+                            Feedback
+                        </NavLink>
+                    )}
+
                     <NavLink
                         to="/test"
                         className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}

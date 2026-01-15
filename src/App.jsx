@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
+import Feedback from './pages/Feedback';
 import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/auth" element={<Auth />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/worksheets" element={<Worksheets />} />
+            <Route path="/feedback" element={<Feedback />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/test" element={<TestZone />} />
             <Route path="*" element={<Navigate to="/" />} />
