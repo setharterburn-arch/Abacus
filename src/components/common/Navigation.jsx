@@ -21,7 +21,10 @@ const Navigation = () => {
             zIndex: 100
         }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>Math Whiz 🧮</div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>
+                    <img src="/logo.jpg" alt="Abacus Logo" style={{ height: '40px', borderRadius: '50%' }} />
+                    Abacus
+                </div>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     <NavLink
                         to="/dashboard"
