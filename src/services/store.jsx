@@ -1,34 +1,41 @@
-import React, { createContext, useContext, useReducer, useEffect } from 'react';
-
-const StoreContext = createContext();
+import { supabase } from './supabase';
 
 export const initialState = {
-    user: JSON.parse(localStorage.getItem('user')) || null, // { name, age, grade }
+    session: null,
+    profile: null, // { role, first_name, last_name, ... }
+    loading: true,
+    user: null, // legacy support until full refactor
     apiKey: import.meta.env.VITE_GEMINI_API_KEY || null,
     homework: [],
-    grades: JSON.parse(localStorage.getItem('grades')) || [],
+    grades: [],
     settings: JSON.parse(localStorage.getItem('settings')) || { questionCount: 5, difficulty: 'Medium' },
     theme: localStorage.getItem('theme') || 'light'
 };
 
 export const reducer = (state, action) => {
     switch (action.type) {
-        case 'SET_USER':
-            localStorage.setItem('user', JSON.stringify(action.payload));
-            return { ...state, user: action.payload };
-        // case 'SET_API_KEY': removed for security
+        case 'SET_SESSION':
+            return {
+                ...state,
+                session: action.payload.session,
+                profile: action.payload.profile,
+                user: action.payload.profile, // Map profile to user for compatibility
+                loading: false
+            };
+        case 'SET_API_KEY':
+            return { ...state, apiKey: action.payload };
         case 'SET_HOMEWORK':
             return { ...state, homework: action.payload };
         case 'ADD_GRADE':
+            // TODO: persist to database
             const newGrades = [...state.grades, action.payload];
-            localStorage.setItem('grades', JSON.stringify(newGrades));
             return { ...state, grades: newGrades };
         case 'SET_SETTINGS':
             localStorage.setItem('settings', JSON.stringify(action.payload));
             return { ...state, settings: action.payload };
         case 'LOGOUT':
-            localStorage.removeItem('user');
-            return { ...state, user: null };
+            supabase.auth.signOut();
+            return { ...state, session: null, profile: null, user: null };
         case 'TOGGLE_THEME':
             const newTheme = state.theme === 'light' ? 'dark' : 'light';
             localStorage.setItem('theme', newTheme);
@@ -40,6 +47,39 @@ export const reducer = (state, action) => {
 
 export const StoreProvider = ({ children }) => {
     const [state, dispatch] = useReducer(reducer, initialState);
+
+    useEffect(() => {
+        // Check active session
+        supabase.auth.getSession().then(({ data: { session } }) => {
+            fetchProfile(session, dispatch);
+        });
+
+        const {
+            data: { subscription },
+        } = supabase.auth.onAuthStateChange((_event, session) => {
+            fetchProfile(session, dispatch);
+        });
+
+        return () => subscription.unsubscribe();
+    }, []);
+
+    // Helper to fetch additional profile data
+    const fetchProfile = async (session, dispatch) => {
+        if (!session) {
+            dispatch({ type: 'SET_SESSION', payload: { session: null, profile: null } });
+            return;
+        }
+
+        const { data: profile } = await supabase
+            .from('profiles')
+            .select('*')
+            .eq('id', session.user.id)
+            .single();
+
+        // If no profile exists yet (new sign up), we might pass partial data
+        // But ideally we create profile on sign up.
+        dispatch({ type: 'SET_SESSION', payload: { session, profile } });
+    };
 
     return (
         <StoreContext.Provider value={{ state, dispatch }}>

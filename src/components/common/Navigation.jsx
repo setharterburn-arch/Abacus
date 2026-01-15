@@ -9,7 +9,7 @@ const Navigation = () => {
         document.documentElement.setAttribute('data-theme', state.theme);
     }, [state.theme]);
 
-    if (!state.user) return null;
+    if (!state.session && !state.user) return null; // Wait for session or legacy user
 
     return (
         <nav style={{

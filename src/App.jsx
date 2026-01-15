@@ -8,13 +8,16 @@ import TestZone from './pages/TestZone';
 import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
 
+import Auth from './pages/Auth';
+
 const App = () => {
   return (
     <StoreProvider>
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/" element={<Auth />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/test" element={<TestZone />} />
