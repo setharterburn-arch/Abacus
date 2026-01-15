@@ -47,6 +47,13 @@ const Beta = () => {
             description: 'Data & Graphing. Grow a bar chart!',
             path: '/beta/graph',
             tags: ['Data', '1st Grade']
+        },
+        {
+            id: 'cosmic',
+            title: '✨ Cosmic Constellations',
+            description: 'Geometry (K-5). Connect the glowing stars!',
+            path: '/beta/cosmic',
+            tags: ['Geometry', 'Space']
         }
     ];
 

@@ -147,3 +147,14 @@ export const GardenBackground = () => (
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.1)' }} />
     </div>
 );
+
+export const CosmicBackground = () => (
+    <div style={{
+        position: 'absolute', inset: 0, zIndex: 0,
+        backgroundColor: '#0f172a',
+        backgroundImage: 'url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=2672&auto=format&fit=crop)',
+        backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'hidden'
+    }}>
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(15, 23, 42, 0.4)' }} />
+    </div>
+);
