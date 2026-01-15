@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../services/store';
-import { initializeAI } from '../services/ai';
+
 
 const Landing = () => {
     const { state, dispatch } = useStore();
@@ -19,7 +19,6 @@ const Landing = () => {
 
     useEffect(() => {
         if (state.user && state.apiKey) {
-            initializeAI(state.apiKey);
             navigate('/dashboard');
         }
     }, [state.user, state.apiKey, navigate]);
@@ -28,7 +27,6 @@ const Landing = () => {
         e.preventDefault();
         if (formData.apiKey) {
             dispatch({ type: 'SET_API_KEY', payload: formData.apiKey });
-            initializeAI(formData.apiKey);
         }
 
         const user = {
