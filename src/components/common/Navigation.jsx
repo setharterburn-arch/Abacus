@@ -54,7 +54,7 @@ const Navigation = () => {
                         </NavLink>
                     )}
 
-                    {state.profile?.role === 'teacher' && (
+                    {(state.profile?.role === 'teacher' || state.profile?.role === 'admin') && (
                         <NavLink
                             to="/beta"
                             className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
