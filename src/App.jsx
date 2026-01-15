@@ -7,7 +7,6 @@ import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
 import Feedback from './pages/Feedback';
-import InteractiveLessonNew from './pages/InteractiveLessonNew'; // Cleaning this up later
 import ApplesLesson from './pages/beta/ApplesLesson';
 import Beta from './pages/Beta';
 import ChatInterface from './components/chat/ChatInterface';
