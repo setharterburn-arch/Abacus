@@ -85,6 +85,7 @@ export const StoreProvider = ({ children }) => {
 
         // If no profile exists yet (new sign up), we might pass partial data
         // But ideally we create profile on sign up.
+        console.log("Fetched Profile:", profile);
         dispatch({ type: 'SET_SESSION', payload: { session, profile } });
     };
 
