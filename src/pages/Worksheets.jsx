@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import worksheetsData from '../data/worksheets.json';
+import WorksheetGenerator from '../components/worksheets/WorksheetGenerator';
 
 const Worksheets = () => {
     const [selectedGrade, setSelectedGrade] = useState('all');
@@ -28,6 +29,10 @@ const Worksheets = () => {
                 <h1 style={{ margin: '0 0 0.5rem 0' }}>📄 Printable Worksheets</h1>
                 <p style={{ color: 'gray', margin: 0 }}>Browse and print math worksheets for your students</p>
             </header>
+
+            <div style={{ marginBottom: '3rem' }}>
+                <WorksheetGenerator />
+            </div>
 
             {selectedWorksheet ? (
                 <div>

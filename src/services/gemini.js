@@ -5,11 +5,6 @@ const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 let genAI = null;
 let model = null;
 
-if (API_KEY) {
-    genAI = new GoogleGenerativeAI(API_KEY);
-    model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-}
-
 const SYSTEM_PROMPT = `
 You are Professor Abacus, a friendly, energetic, and wise Lion Cub from ancient Sumeria.
 You love mathematics and helping students (Grades K-5) learn.
@@ -29,37 +24,44 @@ Format:
 - Use emojis lightly (🦁, ✨, 📐).
 `;
 
+if (API_KEY) {
+    genAI = new GoogleGenerativeAI(API_KEY);
+    model = genAI.getGenerativeModel({
+        model: "gemini-1.5-flash",
+        systemInstruction: SYSTEM_PROMPT
+    });
+}
+
 export const sendMessageToAbacus = async (history, userMessage, context = "") => {
     if (!model) {
-        console.error("Gemini API Key missing");
+        console.error("Gemini API Key missing or invalid");
         return "Roar? I can't seem to connect to my brain properly. (Check API Key)";
     }
 
     try {
-        // Construct the chat history for the API
-        // history is expected to be array of { role: 'user' | 'model', parts: [{ text: '' }] }
+        // Filter out the initial greeting if it exists to clean up history
+        // Gemini expects alternating roles starting with User
+        const cleanHistory = history
+            .filter(msg => msg.text !== "Hoot... I mean Roar! 🦁 I'm Professor Abacus. Click me if you need help!")
+            .map(msg => ({
+                role: msg.sender === 'user' ? 'user' : 'model',
+                parts: [{ text: msg.text }]
+            }));
+
         const chat = model.startChat({
-            history: [
-                {
-                    role: "user",
-                    parts: [{ text: SYSTEM_PROMPT + "\nCurrent Context: " + context }]
-                },
-                {
-                    role: "model",
-                    parts: [{ text: "Roar! I am Professor Abacus! I am ready to help you learn math! 🦁" }]
-                },
-                ...history.map(msg => ({
-                    role: msg.sender === 'user' ? 'user' : 'model',
-                    parts: [{ text: msg.text }]
-                }))
-            ]
+            history: cleanHistory
         });
 
-        const result = await chat.sendMessage(userMessage);
+        // Add context to the specific message if provided
+        const finalMessage = context
+            ? `[Context: ${context}] ${userMessage}`
+            : userMessage;
+
+        const result = await chat.sendMessage(finalMessage);
         const response = await result.response;
         return response.text();
     } catch (error) {
         console.error("Gemini Error:", error);
-        return "Rowr... something distracted me. Can you say that again?";
+        return "Rowr... something distracted me. Can you say that again? 🦁";
     }
 };
