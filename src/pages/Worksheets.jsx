@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { supabase } from '../services/supabase';
+import { createWorksheetPDF } from '../services/pdfService';
 import worksheetsData from '../data/worksheets.json';
 import WorksheetGenerator from '../components/worksheets/WorksheetGenerator';
 
@@ -6,21 +8,50 @@ const Worksheets = () => {
     const [selectedGrade, setSelectedGrade] = useState('all');
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedWorksheet, setSelectedWorksheet] = useState(null);
+    const [dbWorksheets, setDbWorksheets] = useState([]);
+
+    React.useEffect(() => {
+        const fetchWorksheets = async () => {
+            const { data } = await supabase
+                .from('worksheets')
+                .select('*')
+                .order('created_at', { ascending: false });
+            setDbWorksheets(data || []);
+        };
+        fetchWorksheets();
+    }, []);
+
+    // Combine static and dynamic worksheets
+    const allWorksheets = [...dbWorksheets, ...worksheetsData];
 
     // Filter worksheets
-    const filteredWorksheets = worksheetsData.filter(ws => {
+    const filteredWorksheets = allWorksheets.filter(ws => {
         const matchesGrade = selectedGrade === 'all' || ws.grade_level === parseInt(selectedGrade);
         const matchesSearch = ws.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
             ws.topic.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            ws.description.toLowerCase().includes(searchQuery.toLowerCase());
+            (ws.description && ws.description.toLowerCase().includes(searchQuery.toLowerCase())); // Check description existence
         return matchesGrade && matchesSearch;
     });
 
-    const handlePrint = (worksheet) => {
-        const printWindow = window.open(worksheet.worksheet, '_blank');
-        printWindow.onload = () => {
-            printWindow.print();
-        };
+    const handlePrint = async (worksheet) => {
+        if (worksheet.problems) {
+            // It's a DB worksheet, generate on fly
+            try {
+                const doc = await createWorksheetPDF(worksheet.topic, worksheet.grade_level, worksheet.problems);
+                const pdfBlob = doc.output('bloburl');
+                window.open(pdfBlob, '_blank');
+            } catch (e) {
+                alert("Error generating PDF: " + e.message);
+            }
+        } else {
+            // Static file
+            const printWindow = window.open(worksheet.worksheet, '_blank');
+            if (printWindow) {
+                printWindow.onload = () => {
+                    printWindow.print();
+                };
+            }
+        }
     };
 
     return (
@@ -60,12 +91,22 @@ const Worksheets = () => {
                             </span>
                         </div>
 
-                        <div style={{ border: '2px solid #eee', borderRadius: '8px', overflow: 'hidden' }}>
-                            <img
-                                src={selectedWorksheet.worksheet}
-                                alt={selectedWorksheet.title}
-                                style={{ width: '100%', display: 'block' }}
-                            />
+                        <div style={{ border: '2px solid #eee', borderRadius: '8px', overflow: 'hidden', background: '#f9f9f9', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '300px' }}>
+                            {selectedWorksheet.problems ? (
+                                <div style={{ padding: '2rem', textAlign: 'center', color: '#666' }}>
+                                    <h3>📄 Digital Worksheet</h3>
+                                    <p>{selectedWorksheet.problems.length} Problems Generated</p>
+                                    <button className="btn btn-primary" onClick={() => handlePrint(selectedWorksheet)}>
+                                        Open PDF View
+                                    </button>
+                                </div>
+                            ) : (
+                                <img
+                                    src={selectedWorksheet.worksheet}
+                                    alt={selectedWorksheet.title}
+                                    style={{ width: '100%', display: 'block' }}
+                                />
+                            )}
                         </div>
                     </div>
                 </div>
@@ -143,13 +184,21 @@ const Worksheets = () => {
                                         borderRadius: '4px',
                                         overflow: 'hidden',
                                         marginBottom: '1rem',
-                                        background: '#f9f9f9'
+                                        background: '#f9f9f9',
+                                        height: '150px',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center'
                                     }}>
-                                        <img
-                                            src={ws.worksheet}
-                                            alt={ws.title}
-                                            style={{ width: '100%', display: 'block' }}
-                                        />
+                                        {ws.problems ? (
+                                            <span style={{ fontSize: '3rem' }}>📄</span>
+                                        ) : (
+                                            <img
+                                                src={ws.worksheet}
+                                                alt={ws.title}
+                                                style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                            />
+                                        )}
                                     </div>
 
                                     <h4 style={{ margin: '0 0 0.5rem 0', fontSize: '1.1rem' }}>{ws.title}</h4>

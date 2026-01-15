@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { jsPDF } from 'jspdf';
-import QRCode from 'qrcode';
+import { supabase } from '../../services/supabase';
+import { useStore } from '../../services/store';
+import { createWorksheetPDF } from '../../services/pdfService';
 
 const WorksheetGenerator = () => {
+    const { state: { profile } } = useStore();
     const [topic, setTopic] = useState('addition');
     const [gradeLevel, setGradeLevel] = useState(1);
     const [problemCount, setProblemCount] = useState(10);
@@ -77,59 +79,14 @@ const WorksheetGenerator = () => {
         return problems;
     };
 
-    const createPDF = async (problems, batchIndex = 0) => {
-        const keyData = problems.map(p => p.answer);
-        const qrPayload = JSON.stringify({ t: topic, g: gradeLevel, k: keyData });
-        const qrDataUrl = await QRCode.toDataURL(qrPayload);
 
-        const doc = new jsPDF();
-
-        // Fonts & Styling
-        doc.setFont("helvetica", "bold");
-        doc.setFontSize(22);
-        doc.setTextColor(40, 40, 40);
-        doc.text("Abacus Math Worksheet", 105, 20, { align: "center" });
-
-        doc.setFont("helvetica", "normal");
-        doc.setFontSize(12);
-        doc.text(`Topic: ${topic.toUpperCase()} (Grade ${gradeLevel})`, 20, 35);
-        doc.text(`Date: ________________`, 140, 35);
-        doc.text(`Name: ________________`, 140, 45);
-
-        // Grid
-        doc.setFontSize(16);
-        let y = 60;
-        let x = 20;
-
-        problems.forEach((p, index) => {
-            const text = `${index + 1})   ${p.num1} ${p.operator} ${p.num2} = ______`;
-            doc.text(text, x, y);
-            if ((index + 1) % 2 === 0) {
-                x = 20;
-                y += 20;
-            } else {
-                x = 110;
-            }
-        });
-
-        // Footer
-        const footerY = 250;
-        doc.addImage(qrDataUrl, 'PNG', 170, footerY - 10, 25, 25);
-
-        doc.setFontSize(10);
-        doc.setTextColor(100);
-        doc.text("Scan for Answer Key", 182, footerY + 20, { align: "center" });
-        doc.text("Powered by Abacus Homeschool", 105, 280, { align: "center" });
-
-        return doc;
-    };
 
     const handleDownload = async () => {
         setIsGenerating(true);
         try {
             for (let i = 0; i < batchSize; i++) {
                 const problems = generateProblems();
-                const doc = await createPDF(problems, i);
+                const doc = await createWorksheetPDF(topic, gradeLevel, problems);
                 const fileName = `worksheet-${topic}-G${gradeLevel}-${i + 1}.pdf`;
                 doc.save(fileName);
             }
@@ -142,12 +99,34 @@ const WorksheetGenerator = () => {
 
     const handleSaveToLib = async () => {
         setIsSaving(true);
-        // Mock Save Functionality for now since full Supabase integration requires context
-        // Ideally: await supabase.from('worksheets').insert({...})
-        setTimeout(() => {
-            alert(`Saved ${batchSize} worksheet(s) to the Library! (Simulated)`);
-            setIsSaving(false);
-        }, 1000);
+        try {
+            const savedWorksheets = [];
+
+            for (let i = 0; i < batchSize; i++) {
+                const problems = generateProblems();
+                const title = `Worksheet: ${topic} (G${gradeLevel})`;
+
+                savedWorksheets.push({
+                    teacher_id: profile?.id || null, // Allow save even if anon (or handle auth check)
+                    title: title,
+                    topic: topic,
+                    grade_level: gradeLevel,
+                    problem_count: problemCount,
+                    problems: problems,
+                    is_public: true
+                });
+            }
+
+            const { error } = await supabase.from('worksheets').insert(savedWorksheets);
+
+            if (error) throw error;
+
+            alert(`Saved ${batchSize} worksheet(s) to the Library!`);
+        } catch (error) {
+            console.error(error);
+            alert("Error saving: " + error.message);
+        }
+        setIsSaving(false);
     };
 
     return (
