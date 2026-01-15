@@ -7,7 +7,9 @@ import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
 import Feedback from './pages/Feedback';
-import InteractiveLesson from './pages/InteractiveLesson';
+import InteractiveLessonNew from './pages/InteractiveLessonNew'; // Cleaning this up later
+import ApplesLesson from './pages/beta/ApplesLesson';
+import Beta from './pages/Beta';
 import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
 
@@ -26,7 +28,8 @@ const App = () => {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/worksheets" element={<Worksheets />} />
             <Route path="/feedback" element={<Feedback />} />
-            <Route path="/lesson" element={<InteractiveLesson />} />
+            <Route path="/beta" element={<Beta />} />
+            <Route path="/beta/apples" element={<ApplesLesson />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/test" element={<TestZone />} />
             <Route path="*" element={<Navigate to="/" />} />

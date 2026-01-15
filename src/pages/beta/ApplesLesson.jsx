@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { ProfessorHoot, OrchardBackground } from '../components/lesson/LessonAssets';
+import { ProfessorHoot, OrchardBackground, AssetImages } from '../../components/lesson/LessonAssets';
+import { audioManager } from '../../services/audio';
 
-const InteractiveLesson = () => {
+const ApplesLesson = () => {
+    console.log("InteractiveLesson loaded");
     const [currentStep, setCurrentStep] = useState(0);
     const [count, setCount] = useState(0);
     const [clickedItems, setClickedItems] = useState([]);
@@ -318,6 +320,8 @@ const InteractiveLesson = () => {
     );
 };
 
+// --- Sub-components (using Real Images) ---
+
 const Apple = ({ i, onClick, isClicked }) => {
     // Random positions
     const positions = [
@@ -329,7 +333,7 @@ const Apple = ({ i, onClick, isClicked }) => {
         <motion.div
             style={{
                 position: 'absolute', ...positions[i], cursor: 'pointer',
-                fontSize: '5rem',
+                width: '80px', height: '80px',
                 userSelect: 'none'
             }}
             initial={{ scale: 0 }}
@@ -338,7 +342,11 @@ const Apple = ({ i, onClick, isClicked }) => {
             whileTap={{ scale: 0.8 }}
             onClick={onClick}
         >
-            🍎
+            <img
+                src={AssetImages.apple}
+                alt="Apple"
+                style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'drop-shadow(0 5px 5px rgba(0,0,0,0.3))' }}
+            />
         </motion.div>
     );
 };
@@ -355,18 +363,22 @@ const Star = ({ i, onClick, isClicked }) => {
         <motion.div
             style={{
                 position: 'absolute', ...positions[i], cursor: 'pointer',
-                fontSize: '4rem',
+                width: '70px', height: '70px',
                 userSelect: 'none'
             }}
             initial={{ scale: 0 }}
             animate={isClicked ? { scale: 1.5, rotate: 360, opacity: 0 } : { scale: 1, rotate: 0, opacity: 1 }}
-            whileHover={{ scale: 1.3, color: '#eab308' }}
+            whileHover={{ scale: 1.3, filter: 'brightness(1.2)' }}
             whileTap={{ scale: 0.8 }}
             onClick={onClick}
         >
-            ⭐
+            <img
+                src={AssetImages.star}
+                alt="Star"
+                style={{ width: '100%', height: '100%', objectFit: 'contain', filter: 'drop-shadow(0 0 10px gold)' }}
+            />
         </motion.div>
     );
 }
 
-export default InteractiveLesson;
+export default ApplesLesson;

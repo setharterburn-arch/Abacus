@@ -1,11 +1,12 @@
 import { Howl } from 'howler';
 
 const ELEVENLABS_API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY;
-// Professor Hoot's voice ID (using a popular pre-made one, e.g., 'Clyde' or similar friendly deep voice)
-// You can change this ID. '21m00Tcm4TlvDq8ikWAM' is Rachel (default), let's find a better one or use a default.
-// Using 'MF3mGyEYCl7XYWlgT9G0' (Callum - friendly guy) or just 'ErXwobaYiN019PkySvjV' (Antoni).
-// Let's use 'FGY2WhTYq4u0I1O31p32' (Fin - energetic).
-const VOICE_ID = 'FGY2WhTYq4u0I1O31p32';
+// Voice Options:
+// Antoni (Friendly Male): 'ErXwobaYiN019PkySvjV'
+// Rachel (Clear Female): '21m00Tcm4TlvDq8ikWAM'
+// Domi (Energetic Female): 'AZnzlk1XvdvUeBnXmlld'
+// Josh (Deep Male): 'TxGEqnHWrfWFTfGW9XjX'
+const VOICE_ID = 'ErXwobaYiN019PkySvjV';
 
 class AudioManager {
     constructor() {
@@ -49,6 +50,8 @@ class AudioManager {
         }
 
         try {
+            console.log(`[Audio] Generating speech with key: ${ELEVENLABS_API_KEY?.substring(0, 5)}...`);
+
             const response = await fetch(
                 `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`,
                 {
@@ -60,16 +63,22 @@ class AudioManager {
                     },
                     body: JSON.stringify({
                         text: text,
-                        model_id: "eleven_monolingual_v1",
+                        model_id: "eleven_multilingual_v2", // Better pacing/emotion
                         voice_settings: {
-                            stability: 0.5,
-                            similarity_boost: 0.75,
+                            stability: 0.8, // Higher = more consistent/stable (often slower/clearer)
+                            similarity_boost: 0.5,
+                            style: 0.0, // Keeping it neutral/calm
+                            use_speaker_boost: true
                         }
                     }),
                 }
             );
 
-            if (!response.ok) throw new Error('Speech generation failed');
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                console.error('[Audio] ElevenLabs API Error:', response.status, errorData);
+                throw new Error(`ElevenLabs API failed: ${response.status} - ${JSON.stringify(errorData)}`);
+            }
 
             const blob = await response.blob();
             const url = URL.createObjectURL(blob);
@@ -88,9 +97,15 @@ class AudioManager {
             sound.play();
 
         } catch (error) {
-            console.error("ElevenLabs Error:", error);
+            console.error("[Audio] Fallback to TTS due to:", error);
             // Fallback to browser TTS if API fails/quota exceeded
             const utterance = new SpeechSynthesisUtterance(text);
+            // Try to make the fallback voice slightly better
+            const voices = window.speechSynthesis.getVoices();
+            // Try to find a google or english female voice
+            const preferredVoice = voices.find(v => v.name.includes('Google') && v.name.includes('English')) || voices[0];
+            if (preferredVoice) utterance.voice = preferredVoice;
+
             window.speechSynthesis.speak(utterance);
         }
     }
