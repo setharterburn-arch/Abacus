@@ -6,7 +6,7 @@ const ChatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
     const [messages, setMessages] = useState([
-        { sender: 'abacus', text: "Hoot... I mean Roar! 🦁 I'm Professor Abacus. Click me if you need help!" }
+        { sender: 'abacus', text: "Roar! 🦁 I'm Professor Abacus. Click me if you need help!" }
     ]);
     const [isOpen, setIsOpen] = useState(false);
     const [isLoading, setIsLoading] = useState(false);

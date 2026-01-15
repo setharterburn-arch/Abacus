@@ -28,6 +28,12 @@ const WorksheetGenerator = () => {
                 } else if (gradeLevel === 2) { // G2: 10-100
                     num1 = Math.floor(Math.random() * 50) + 10;
                     num2 = Math.floor(Math.random() * 40) + 1;
+                } else if (gradeLevel === 6) { // Decimals
+                    num1 = (Math.random() * 100).toFixed(2);
+                    num2 = (Math.random() * 100).toFixed(2);
+                    // Convert back to number for addition, then string for display if needed
+                    num1 = parseFloat(num1);
+                    num2 = parseFloat(num2);
                 } else { // G3+: 100-1000
                     num1 = Math.floor(Math.random() * 500) + 100;
                     num2 = Math.floor(Math.random() * 500) + 100;
@@ -39,6 +45,9 @@ const WorksheetGenerator = () => {
                 if (gradeLevel <= 1) { // Small numbers, positive result
                     num1 = Math.floor(Math.random() * 10) + 5;
                     num2 = Math.floor(Math.random() * num1);
+                } else if (gradeLevel === 6) { // Decimals
+                    num1 = parseFloat((Math.random() * 100).toFixed(2));
+                    num2 = parseFloat((Math.random() * num1).toFixed(2));
                 } else { // Larger numbers
                     num1 = Math.floor(Math.random() * 100) + 20;
                     num2 = Math.floor(Math.random() * 100);
@@ -53,6 +62,9 @@ const WorksheetGenerator = () => {
                 } else if (gradeLevel === 3) { // 1-12 facts
                     num1 = Math.floor(Math.random() * 12) + 1;
                     num2 = Math.floor(Math.random() * 10) + 1;
+                } else if (gradeLevel === 6) { // Large Multiplication
+                    num1 = Math.floor(Math.random() * 50) + 10;
+                    num2 = Math.floor(Math.random() * 50) + 10;
                 } else { // Multi-digit
                     num1 = Math.floor(Math.random() * 20) + 5;
                     num2 = Math.floor(Math.random() * 10) + 2;
@@ -173,6 +185,7 @@ const WorksheetGenerator = () => {
                         <option value="3">3rd Grade (Hundreds / Facts)</option>
                         <option value="4">4th Grade (Advanced)</option>
                         <option value="5">5th Grade (Expert)</option>
+                        <option value="6">6th Grade (Master / Pre-Algebra)</option>
                     </select>
                 </div>
 

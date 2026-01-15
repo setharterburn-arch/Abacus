@@ -16,7 +16,7 @@ const Shop = () => {
     return (
         <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
             <h1 style={{ fontSize: '3rem', textAlign: 'center', marginBottom: '1rem', color: '#7c3aed' }}>
-                Hoot's Fashion Shop 🎩
+                Abacus's Fashion Shop 🎩
             </h1>
 
             <div style={{ textAlign: 'center', fontSize: '1.5rem', marginBottom: '3rem', background: '#fef3c7', padding: '1rem', borderRadius: '50px', display: 'inline-block', border: '2px solid #f59e0b' }}>

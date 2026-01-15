@@ -9,7 +9,7 @@ const Beta = () => {
         {
             id: 'apples',
             title: '🍎 Apple Picking',
-            description: 'Pre-K Counting. Help Professor Hoot pick apples.',
+            description: 'Pre-K Counting. Help Professor Abacus pick apples.',
             path: '/beta/apples',
             tags: ['Pre-K', 'Counting']
         },

@@ -99,7 +99,9 @@ const StudentDashboard = ({ profile }) => {
                     <p style={{ color: 'var(--color-text-muted)' }}>Ready to learn, {profile.first_name}?</p>
                 </div>
                 <div style={{ textAlign: 'right' }}>
-                    <strong>Grade {profile.grade_level}</strong>
+                    <strong>
+                        {profile.grade_level === 0 ? 'Kindergarten' : `Grade ${profile.grade_level}`}
+                    </strong>
                 </div>
             </header>
 

@@ -42,7 +42,7 @@ export const sendMessageToAbacus = async (history, userMessage, context = "") =>
         // Filter out the initial greeting if it exists to clean up history
         // Gemini expects alternating roles starting with User
         const cleanHistory = history
-            .filter(msg => msg.text !== "Hoot... I mean Roar! 🦁 I'm Professor Abacus. Click me if you need help!")
+            .filter(msg => msg.text !== "Roar! 🦁 I'm Professor Abacus. Click me if you need help!")
             .map(msg => ({
                 role: msg.sender === 'user' ? 'user' : 'model',
                 parts: [{ text: msg.text }]

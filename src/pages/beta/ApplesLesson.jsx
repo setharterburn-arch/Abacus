@@ -50,7 +50,7 @@ const ApplesLesson = () => {
             },
             {
                 type: 'celebration',
-                narration: "You did it! You're a natural math wizard. Hoot hoot!",
+                narration: "You did it! You're a natural math wizard. Roar!",
                 visual: 'celebration'
             }
         ]
