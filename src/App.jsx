@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
+import Worksheets from './pages/Worksheets';
 import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
 
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/" element={<Auth />} />
             <Route path="/auth" element={<Auth />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/worksheets" element={<Worksheets />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/test" element={<TestZone />} />
             <Route path="*" element={<Navigate to="/" />} />

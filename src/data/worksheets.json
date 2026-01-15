@@ -1,0 +1,50 @@
+[
+    {
+        "id": "k-counting-1-10",
+        "title": "Counting 1-10",
+        "description": "Practice counting objects from 1 to 10",
+        "grade_level": 0,
+        "topic": "Counting",
+        "worksheet": "/worksheets/k-counting-1-10.png"
+    },
+    {
+        "id": "1-addition-facts",
+        "title": "Addition Facts (0-10)",
+        "description": "Practice basic addition with numbers 0-10",
+        "grade_level": 1,
+        "topic": "Addition",
+        "worksheet": "/worksheets/1-addition-facts.png"
+    },
+    {
+        "id": "2-place-value",
+        "title": "Place Value: Tens and Ones",
+        "description": "Identify tens and ones in two-digit numbers",
+        "grade_level": 2,
+        "topic": "Place Value",
+        "worksheet": "/worksheets/2-place-value.png"
+    },
+    {
+        "id": "3-multiplication-2s",
+        "title": "Multiplication Tables - 2s",
+        "description": "Practice multiplication facts for 2s",
+        "grade_level": 3,
+        "topic": "Multiplication",
+        "worksheet": "/worksheets/3-multiplication-2s.png"
+    },
+    {
+        "id": "4-long-division",
+        "title": "Long Division Practice",
+        "description": "Solve 2-digit by 1-digit division problems",
+        "grade_level": 4,
+        "topic": "Division",
+        "worksheet": "/worksheets/4-long-division.png"
+    },
+    {
+        "id": "5-fractions-multiply",
+        "title": "Multiplying Fractions",
+        "description": "Multiply fractions and simplify answers",
+        "grade_level": 5,
+        "topic": "Fractions",
+        "worksheet": "/worksheets/5-fractions-multiply.png"
+    }
+]
