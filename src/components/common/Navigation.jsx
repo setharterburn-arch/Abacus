@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useStore } from '../../services/store';
 
 const Navigation = () => {
-    const { state } = useStore();
+    const { state, dispatch } = useStore();
 
     React.useEffect(() => {
         document.documentElement.setAttribute('data-theme', state.theme);
@@ -24,7 +24,7 @@ const Navigation = () => {
                 <div style={{ fontWeight: 'bold', fontSize: '1.2rem', color: 'var(--color-primary)' }}>Math Whiz 🧮</div>
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     <button
-                        onClick={() => state.dispatch({ type: 'TOGGLE_THEME' })}
+                        onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
                         className="btn"
                         style={{ padding: '0.5rem', fontSize: '1.2rem', background: 'transparent' }}
                         title="Toggle Dark Mode"
