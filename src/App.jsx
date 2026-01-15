@@ -8,6 +8,8 @@ import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
 import Feedback from './pages/Feedback';
 import ApplesLesson from './pages/beta/ApplesLesson';
+import SpaceRaceLesson from './pages/beta/SpaceRaceLesson';
+import PizzaPartyLesson from './pages/beta/PizzaPartyLesson';
 import Beta from './pages/Beta';
 import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
@@ -29,6 +31,8 @@ const App = () => {
             <Route path="/feedback" element={<Feedback />} />
             <Route path="/beta" element={<Beta />} />
             <Route path="/beta/apples" element={<ApplesLesson />} />
+            <Route path="/beta/space" element={<SpaceRaceLesson />} />
+            <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/test" element={<TestZone />} />
             <Route path="*" element={<Navigate to="/" />} />

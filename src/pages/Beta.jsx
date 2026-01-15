@@ -8,10 +8,24 @@ const Beta = () => {
     const modules = [
         {
             id: 'apples',
-            title: '🍎 Apple Picking Adventure',
-            description: 'A pre-K counting lesson with immersive audio and visual rewards.',
+            title: '🍎 Apple Picking',
+            description: 'Pre-K Counting. Help Professor Hoot pick apples.',
             path: '/beta/apples',
-            tags: ['Pre-K', 'Counting', 'Audio']
+            tags: ['Pre-K', 'Counting']
+        },
+        {
+            id: 'space',
+            title: '🚀 Space Race',
+            description: 'Multiplication (x2). Launch the rocket by skip counting!',
+            path: '/beta/space',
+            tags: ['Grade 2', 'Multiplication']
+        },
+        {
+            id: 'pizza',
+            title: '🍕 Pizza Party',
+            description: 'Fractions Intro. Identify 1/2 and 1/4 of a pizza.',
+            path: '/beta/pizza',
+            tags: ['Grade 1', 'Fractions']
         }
     ];
 
