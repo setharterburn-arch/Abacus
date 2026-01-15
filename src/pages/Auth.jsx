@@ -62,7 +62,7 @@ const Auth = () => {
         <div className="container" style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <div className="card" style={{ maxWidth: '400px', width: '100%' }}>
                 <h2 style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>
-                    {isLogin ? 'Welcome Back!' : 'Join Math Whiz'}
+                    {isLogin ? 'Welcome Back!' : 'Join Math Whiz (v1.1)'}
                 </h2>
 
                 <form onSubmit={handleAuth}>
