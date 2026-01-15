@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useStore } from '../services/store';
 import { saveCurriculumSet, getCurriculumSets, updateCurriculumStatus, deleteCurriculumSet } from '../services/database';
 import { SYLLABUS } from '../data/syllabus';
@@ -11,9 +12,14 @@ const Admin = () => {
     const [curriculumSets, setCurriculumSets] = useState([]);
     const [generating, setGenerating] = useState(false);
 
+    const navigate = useNavigate();
+
     useEffect(() => {
+        if (!state.loading && state.profile?.role !== 'admin') {
+            navigate('/dashboard');
+        }
         loadCurriculum();
-    }, []);
+    }, [state.profile, state.loading, navigate]);
 
     const loadCurriculum = async () => {
         const sets = await getCurriculumSets();

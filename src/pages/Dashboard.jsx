@@ -17,6 +17,18 @@ const Dashboard = () => {
 
     if (!state.profile) return null;
 
+    if (state.profile.role === 'admin') {
+        return (
+            <div className="container" style={{ padding: '2rem', textAlign: 'center' }}>
+                <h1>Admin Dashboard</h1>
+                <p>Welcome, Administrator.</p>
+                <button className="btn btn-primary" onClick={() => navigate('/admin')}>
+                    Go to Admin Portal
+                </button>
+            </div>
+        );
+    }
+
     return (
         <div>
             {state.profile.role === 'teacher' ? (

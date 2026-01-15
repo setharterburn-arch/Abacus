@@ -19,7 +19,11 @@ export const reducer = (state, action) => {
                 ...state,
                 session: action.payload.session,
                 profile: action.payload.profile,
-                user: action.payload.profile, // Map profile to user for compatibility
+                user: action.payload.profile ? {
+                    ...action.payload.profile,
+                    name: action.payload.profile.first_name, // Map first_name to name
+                    grade: action.payload.profile.grade_level // Map grade_level to grade
+                } : null,
                 loading: false
             };
         case 'SET_API_KEY':
