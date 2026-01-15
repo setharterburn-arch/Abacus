@@ -117,3 +117,23 @@ export const PizzaBackground = () => (
         <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.1)' }} />
     </div>
 );
+
+export const SafariBackground = () => (
+    <div style={{
+        position: 'absolute', inset: 0, zIndex: 0,
+        backgroundImage: 'url(https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?q=80&w=2669&auto=format&fit=crop)',
+        backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'hidden'
+    }}>
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.1)' }} />
+    </div>
+);
+
+export const WorkshopBackground = () => (
+    <div style={{
+        position: 'absolute', inset: 0, zIndex: 0,
+        backgroundImage: 'url(https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2670&auto=format&fit=crop)',
+        backgroundSize: 'cover', backgroundPosition: 'center', overflow: 'hidden'
+    }}>
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(255,255,255,0.2)' }} />
+    </div>
+);

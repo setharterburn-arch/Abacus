@@ -10,6 +10,8 @@ import Feedback from './pages/Feedback';
 import ApplesLesson from './pages/beta/ApplesLesson';
 import SpaceRaceLesson from './pages/beta/SpaceRaceLesson';
 import PizzaPartyLesson from './pages/beta/PizzaPartyLesson';
+import ShapeSafariLesson from './pages/beta/ShapeSafariLesson';
+import MeasurementLesson from './pages/beta/MeasurementLesson';
 import Shop from './pages/Shop';
 import Beta from './pages/Beta';
 import Navigation from './components/common/Navigation';
@@ -43,6 +45,8 @@ const App = () => {
                 <Route path="/beta/apples" element={<ApplesLesson />} />
                 <Route path="/beta/space" element={<SpaceRaceLesson />} />
                 <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
+                <Route path="/beta/shapes" element={<ShapeSafariLesson />} />
+                <Route path="/beta/measure" element={<MeasurementLesson />} />
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/admin" element={<Admin />} />
                 <Route path="/test" element={<TestZone />} />

@@ -26,6 +26,20 @@ const Beta = () => {
             description: 'Fractions Intro. Identify 1/2 and 1/4 of a pizza.',
             path: '/beta/pizza',
             tags: ['Grade 1', 'Fractions']
+        },
+        {
+            id: 'shapes',
+            title: '🦁 Shape Safari',
+            description: 'Geometry (K-1). Find hidden triangles and squares in the jungle.',
+            path: '/beta/shapes',
+            tags: ['Grade K', 'Geometry']
+        },
+        {
+            id: 'measure',
+            title: '🔨 Carpenter Workshop',
+            description: 'Measurement (1-2). Use a ruler to measure wood planks.',
+            path: '/beta/measure',
+            tags: ['Grade 1', 'Measurement']
         }
     ];
 
