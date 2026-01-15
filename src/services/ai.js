@@ -7,7 +7,7 @@ export const generateAssignment = async (topic, gradeLevel, questionCount = 5, d
   if (!apiKey) {
     throw new Error("Missing Gemini API Key. Please configure VITE_GEMINI_API_KEY in Vercel.");
   }
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
 
   const prompt = `
         Create a math assignment for a ${gradeLevel}th grade student.
@@ -41,7 +41,7 @@ export const generateAssignment = async (topic, gradeLevel, questionCount = 5, d
 };
 
 export const chatWithTutor = async (history, message, context) => {
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash-exp" });
 
   // Construct a system instruction based on context
   const systemInstruction = `
