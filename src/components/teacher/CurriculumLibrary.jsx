@@ -72,8 +72,25 @@ const CurriculumLibrary = ({ classId, onClose }) => {
 
                     <div style={{ maxHeight: '300px', overflowY: 'auto', background: '#f5f5f5', padding: '1rem', borderRadius: '8px', marginBottom: '1rem' }}>
                         {selectedSet.questions.map((q, i) => (
-                            <div key={i} style={{ marginBottom: '1rem', color: '#333' }}>
+                            <div key={i} style={{ marginBottom: '1.5rem', color: '#333' }}>
                                 <strong>{i + 1}. {q.question}</strong>
+
+                                {/* Display image if present */}
+                                {q.image && (
+                                    <div style={{ textAlign: 'center', margin: '0.5rem 0' }}>
+                                        <img
+                                            src={q.image}
+                                            alt="Question illustration"
+                                            style={{
+                                                maxWidth: '100%',
+                                                maxHeight: '200px',
+                                                borderRadius: '4px',
+                                                objectFit: 'contain'
+                                            }}
+                                        />
+                                    </div>
+                                )}
+
                                 <ul style={{ fontSize: '0.9rem', marginTop: '0.5rem' }}>
                                     {q.options.map((opt, j) => (
                                         <li key={j} style={{ color: opt === q.answer ? 'green' : 'inherit' }}>
