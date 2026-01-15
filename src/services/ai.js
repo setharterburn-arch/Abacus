@@ -33,8 +33,10 @@ export const generateAssignment = async (topic, gradeLevel, questionCount = 5, d
 
     return JSON.parse(jsonString);
   } catch (error) {
+  } catch (error) {
     console.error("AI Generation Error:", error);
-    throw new Error("Failed to generate assignment. Please try again.");
+    // Pass the real error message to the UI
+    throw new Error(error.message || "Failed to generate assignment.");
   }
 };
 
