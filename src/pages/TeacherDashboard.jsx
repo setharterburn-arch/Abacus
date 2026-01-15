@@ -59,6 +59,26 @@ const TeacherDashboard = ({ profile }) => {
         }
     };
 
+    const updateClass = async (e) => {
+        e.preventDefault();
+        if (!editingClass || !editingClass.name.trim()) return;
+
+        try {
+            const { error } = await supabase
+                .from('classes')
+                .update({ name: editingClass.name })
+                .eq('id', editingClass.id);
+
+            if (error) throw error;
+
+            setClasses(classes.map(c => c.id === editingClass.id ? { ...c, name: editingClass.name } : c));
+            setEditingClass(null);
+            alert('Class name updated!');
+        } catch (error) {
+            alert('Error updating class: ' + error.message);
+        }
+    };
+
     return (
         <div className="container" style={{ padding: '2rem' }}>
             <header style={{ marginBottom: '2rem' }}>
@@ -93,7 +113,35 @@ const TeacherDashboard = ({ profile }) => {
                                 <li key={cls.id} style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                         <div>
-                                            <strong>{cls.name}</strong>
+                                            {editingClass?.id === cls.id ? (
+                                                <form onSubmit={updateClass} style={{ display: 'flex', gap: '0.5rem' }}>
+                                                    <input
+                                                        className="input"
+                                                        style={{ padding: '0.25rem 0.5rem' }}
+                                                        value={editingClass.name}
+                                                        onChange={(e) => setEditingClass({ ...editingClass, name: e.target.value })}
+                                                        autoFocus
+                                                    />
+                                                    <button className="btn btn-primary" style={{ padding: '0.25rem 0.5rem', fontSize: '0.8rem' }}>💾</button>
+                                                    <button
+                                                        type="button"
+                                                        className="btn btn-secondary"
+                                                        style={{ padding: '0.25rem 0.5rem', fontSize: '0.8rem' }}
+                                                        onClick={() => setEditingClass(null)}
+                                                    >❌</button>
+                                                </form>
+                                            ) : (
+                                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                                                    <strong>{cls.name}</strong>
+                                                    <button
+                                                        onClick={() => setEditingClass({ id: cls.id, name: cls.name })}
+                                                        style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem', opacity: 0.5 }}
+                                                        title="Rename Class"
+                                                    >
+                                                        ✏️
+                                                    </button>
+                                                </div>
+                                            )}
                                             <div style={{ fontSize: '0.8rem', color: 'gray', marginTop: '0.2rem' }}>
                                                 Code: <span style={{ fontFamily: 'monospace', background: '#eee', padding: '2px 4px', borderRadius: '4px' }}>{cls.join_code}</span>
                                             </div>
