@@ -102,18 +102,20 @@ const Landing = () => {
                             </div>
                         </div>
 
-                        <div style={{ marginBottom: '1.5rem' }}>
-                            <label>Gemini API Key (Ask Parent)</label>
-                            <input
-                                type="password"
-                                className="input"
-                                required={!state.apiKey}
-                                placeholder="AI Key..."
-                                value={formData.apiKey}
-                                onChange={e => setFormData({ ...formData, apiKey: e.target.value })}
-                            />
-                            <small style={{ color: 'var(--color-text-muted)' }}>Required for AI Tutor</small>
-                        </div>
+                        {!state.apiKey && (
+                            <div style={{ marginBottom: '1.5rem' }}>
+                                <label>Gemini API Key (Ask Parent)</label>
+                                <input
+                                    type="password"
+                                    className="input"
+                                    required
+                                    placeholder="AI Key..."
+                                    value={formData.apiKey}
+                                    onChange={e => setFormData({ ...formData, apiKey: e.target.value })}
+                                />
+                                <small style={{ color: 'var(--color-text-muted)' }}>Required for AI Tutor</small>
+                            </div>
+                        )}
 
                         <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>
                             Start Adventure 🚀
