@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
 import AssignmentRunner from '../components/student/AssignmentRunner';
+import XPBar from '../components/gamification/XPBar';
 
 const StudentDashboard = ({ profile }) => {
     const [assignments, setAssignments] = useState([]);
@@ -91,6 +92,7 @@ const StudentDashboard = ({ profile }) => {
 
     return (
         <div className="container" style={{ padding: '2rem 1rem' }}>
+            <XPBar />
             <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
                 <div>
                     <h1 style={{ color: 'var(--color-primary)' }}>Student Dashboard</h1>

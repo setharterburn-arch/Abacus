@@ -10,9 +10,15 @@ import Feedback from './pages/Feedback';
 import ApplesLesson from './pages/beta/ApplesLesson';
 import SpaceRaceLesson from './pages/beta/SpaceRaceLesson';
 import PizzaPartyLesson from './pages/beta/PizzaPartyLesson';
+import Shop from './pages/Shop';
 import Beta from './pages/Beta';
-import ChatInterface from './components/chat/ChatInterface';
 import Navigation from './components/common/Navigation';
+
+import { GamificationProvider } from './context/GamificationContext';
+import LevelUpModal from './components/gamification/LevelUpModal';
+
+import { ChatProvider } from './context/ChatContext';
+import AbacusWidget from './components/chat/AbacusWidget';
 
 import Auth from './pages/Auth';
 import ErrorBoundary from './components/common/ErrorBoundary';
@@ -21,24 +27,30 @@ const App = () => {
   return (
     <ErrorBoundary>
       <StoreProvider>
-        <BrowserRouter>
-          <Navigation />
-          <Routes>
-            <Route path="/" element={<Auth />} />
-            <Route path="/auth" element={<Auth />} />
-            <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/worksheets" element={<Worksheets />} />
-            <Route path="/feedback" element={<Feedback />} />
-            <Route path="/beta" element={<Beta />} />
-            <Route path="/beta/apples" element={<ApplesLesson />} />
-            <Route path="/beta/space" element={<SpaceRaceLesson />} />
-            <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
-            <Route path="/admin" element={<Admin />} />
-            <Route path="/test" element={<TestZone />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-          <ChatInterface />
-        </BrowserRouter>
+        <GamificationProvider>
+          <ChatProvider>
+            <BrowserRouter>
+              <Navigation />
+              <LevelUpModal />
+              <AbacusWidget />
+              <Routes>
+                <Route path="/" element={<Auth />} />
+                <Route path="/auth" element={<Auth />} />
+                <Route path="/dashboard" element={<Dashboard />} />
+                <Route path="/worksheets" element={<Worksheets />} />
+                <Route path="/feedback" element={<Feedback />} />
+                <Route path="/beta" element={<Beta />} />
+                <Route path="/beta/apples" element={<ApplesLesson />} />
+                <Route path="/beta/space" element={<SpaceRaceLesson />} />
+                <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
+                <Route path="/shop" element={<Shop />} />
+                <Route path="/admin" element={<Admin />} />
+                <Route path="/test" element={<TestZone />} />
+                <Route path="*" element={<Navigate to="/" />} />
+              </Routes>
+            </BrowserRouter>
+          </ChatProvider>
+        </GamificationProvider>
       </StoreProvider>
     </ErrorBoundary>
   );

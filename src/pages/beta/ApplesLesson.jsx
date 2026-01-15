@@ -3,9 +3,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { ProfessorHoot, OrchardBackground, AssetImages } from '../../components/lesson/LessonAssets';
 import { audioManager } from '../../services/audio';
+import { useGamification } from '../../context/GamificationContext';
 
 const ApplesLesson = () => {
     console.log("InteractiveLesson loaded");
+    const { awardXP } = useGamification();
     const [currentStep, setCurrentStep] = useState(0);
     const [count, setCount] = useState(0);
     const [clickedItems, setClickedItems] = useState([]);
@@ -28,7 +30,7 @@ const ApplesLesson = () => {
         steps: [
             {
                 type: 'intro',
-                narration: "Hoot hoot! I'm Professor Hoot. Welcome to the Math Orchard! Today we're going to pick some delicious apples.",
+                narration: "Roar! I'm Professor Abacus. Welcome to the Math Orchard! Today we're going to pick some delicious apples.",
                 instruction: "Click 'Start' to begin!",
                 visual: 'welcome'
             },
@@ -83,6 +85,7 @@ const ApplesLesson = () => {
 
             if (newCount === currentStepData.targetCount) {
                 audioManager.playSfx('success');
+                awardXP(20);
                 confetti({
                     particleCount: 150,
                     spread: 100,

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { ProfessorHoot, PizzaBackground, AssetImages } from '../../components/lesson/LessonAssets';
+import { ProfessorAbacus, PizzaBackground, AssetImages } from '../../components/lesson/LessonAssets';
 import { audioManager } from '../../services/audio';
+import { useGamification } from '../../context/GamificationContext';
 
 const PizzaPartyLesson = () => {
+    const { awardXP } = useGamification();
     const [currentStep, setCurrentStep] = useState(0);
     const [slices, setSlices] = useState([true, true, true, true]); // 4 slices present
 
@@ -20,7 +22,7 @@ const PizzaPartyLesson = () => {
         steps: [
             {
                 type: 'intro',
-                narration: "Hoot hoot! I'm starving! Can you help me learn fractions with this delicious pepperoni pizza?",
+                narration: "Roar! I'm starving! Can you help me learn fractions with this delicious pepperoni pizza?",
                 instruction: "Click 'Start' to cook!",
                 visual: 'welcome'
             },
@@ -64,6 +66,7 @@ const PizzaPartyLesson = () => {
         // Feedback
         if (slicesLeft === currentStepData.targetSlicesLeft) {
             audioManager.playSfx('success');
+            awardXP(15);
             audioManager.speak("Perfect! That's half the pizza!");
             setTimeout(() => nextStep(), 2000);
         } else if (slicesLeft < currentStepData.targetSlicesLeft) {
@@ -93,7 +96,7 @@ const PizzaPartyLesson = () => {
             <div className="container" style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 
                 <motion.div style={{ position: 'absolute', top: '20px', right: '20px', zIndex: 20 }}>
-                    <ProfessorHoot />
+                    <ProfessorAbacus />
                 </motion.div>
 
                 <AnimatePresence mode='wait'>

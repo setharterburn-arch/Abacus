@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { ProfessorHoot, SpaceBackground, AssetImages } from '../../components/lesson/LessonAssets';
+import { ProfessorAbacus, SpaceBackground, AssetImages } from '../../components/lesson/LessonAssets';
 import { audioManager } from '../../services/audio';
+import { useGamification } from '../../context/GamificationContext';
 
 const SpaceRaceLesson = () => {
+    const { awardXP } = useGamification();
     const [currentStep, setCurrentStep] = useState(0);
     const [count, setCount] = useState(0); // For progress tracking
     const [clickedItems, setClickedItems] = useState([]);
+    const [isSpeaking, setIsSpeaking] = useState(false);
 
     // Initial Ambience
     useEffect(() => {
@@ -17,11 +20,11 @@ const SpaceRaceLesson = () => {
     }, []);
 
     const lesson = {
-        title: "Space Race Multiplication! 🚀",
+        title: "Space Race Mission 🚀",
         steps: [
             {
                 type: 'intro',
-                narration: "Hoot hoot! Put on your space helmet! We need to power the rocket by counting by twos.",
+                narration: "Ground Control to Professor Abacus! We need to launch the rocket. Can you help me count down?",
                 instruction: "Ready for blast off?",
                 visual: 'welcome'
             },
@@ -62,6 +65,7 @@ const SpaceRaceLesson = () => {
 
             if (count + 1 === currentStepData.targetSequence.length) {
                 audioManager.playSfx('success');
+                awardXP(30); // Higher reward for math!
                 setTimeout(() => {
                     nextStep();
                 }, 1500);
@@ -94,9 +98,9 @@ const SpaceRaceLesson = () => {
             {/* Main Area */}
             <div className="container" style={{ position: 'relative', zIndex: 10, height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
 
-                {/* Professor Hoot in Space Helmet (Imaginary helmet for now) */}
+                {/* Professor Abacus in Space Helmet (Imaginary helmet for now) */}
                 <motion.div style={{ position: 'absolute', bottom: '20px', left: '20px', zIndex: 20 }}>
-                    <ProfessorHoot />
+                    <ProfessorAbacus speaking={isSpeaking} />
                 </motion.div>
 
                 <AnimatePresence mode='wait'>
