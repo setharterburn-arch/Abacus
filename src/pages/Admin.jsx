@@ -1,153 +1,314 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../services/store';
-import { saveCurriculumSet, getCurriculumSets, updateCurriculumStatus, deleteCurriculumSet } from '../services/database';
-import { SYLLABUS } from '../data/syllabus';
-import { generateFromSyllabus } from '../services/curriculum_engine';
+import { supabase } from '../services/supabase';
+import curriculumData from '../data/curriculum.json';
 
 const Admin = () => {
-    const { state, dispatch } = useStore();
-    const [activeTab, setActiveTab] = useState('browser'); // 'browser' or 'library'
-    const [selectedGrade, setSelectedGrade] = useState(state.user?.grade || "1");
-    const [curriculumSets, setCurriculumSets] = useState([]);
-    const [generating, setGenerating] = useState(false);
-
+    const { state } = useStore();
     const navigate = useNavigate();
+    const [activeTab, setActiveTab] = useState('overview');
+    const [teachers, setTeachers] = useState([]);
+    const [students, setStudents] = useState([]);
+    const [feedback, setFeedback] = useState([]);
+    const [assignments, setAssignments] = useState([]);
+    const [submissions, setSubmissions] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         if (!state.loading && state.profile?.role !== 'admin') {
             navigate('/dashboard');
         }
-        loadCurriculum();
+        loadAdminData();
     }, [state.profile, state.loading, navigate]);
 
-    const loadCurriculum = async () => {
-        const sets = await getCurriculumSets();
-        setCurriculumSets(sets);
-    };
-
-    const handleAssignModule = async (module) => {
-        setGenerating(true);
+    const loadAdminData = async () => {
+        setLoading(true);
         try {
-            // 1. Generate questions using Engine
-            const data = await generateFromSyllabus(module);
+            // Load all teachers
+            const { data: teachersData } = await supabase
+                .from('profiles')
+                .select('*')
+                .eq('role', 'teacher')
+                .order('created_at', { ascending: false });
+            setTeachers(teachersData || []);
 
-            // 2. Hydrate with Syllabus data
-            const newSet = {
-                ...data,
-                grade: selectedGrade,
-                status: 'assigned', // Auto-assign for now? Or draft? Let's assign immediately for ease.
-                createdAt: new Date().toISOString()
-            };
+            // Load all students
+            const { data: studentsData } = await supabase
+                .from('profiles')
+                .select('*')
+                .eq('role', 'student')
+                .order('created_at', { ascending: false });
+            setStudents(studentsData || []);
 
-            // 3. Save
-            await saveCurriculumSet(newSet);
-            await loadCurriculum();
-            alert(`Assigned "${module.title}"!`);
+            // Load all feedback
+            const { data: feedbackData } = await supabase
+                .from('feedback')
+                .select('*')
+                .order('created_at', { ascending: false });
+            setFeedback(feedbackData || []);
+
+            // Load all assignments
+            const { data: assignmentsData } = await supabase
+                .from('assignments')
+                .select('*, classes(name)')
+                .order('created_at', { ascending: false });
+            setAssignments(assignmentsData || []);
+
+            // Load all submissions
+            const { data: submissionsData } = await supabase
+                .from('assignment_submissions')
+                .select('*, profiles(first_name, last_name, email)')
+                .order('created_at', { ascending: false });
+            setSubmissions(submissionsData || []);
+
         } catch (error) {
-            console.error(error);
-            alert("Error assigning module.");
+            console.error('Error loading admin data:', error);
         } finally {
-            setGenerating(false);
+            setLoading(false);
         }
     };
 
-    const handleDelete = async (id) => {
-        if (confirm("Delete this set?")) {
-            await deleteCurriculumSet(id);
-            await loadCurriculum();
+    const updateFeedbackStatus = async (id, status) => {
+        try {
+            await supabase
+                .from('feedback')
+                .update({ status })
+                .eq('id', id);
+            await loadAdminData();
+        } catch (error) {
+            console.error('Error updating feedback:', error);
         }
     };
 
-    const isAssigned = (title) => {
-        // Simple check if title already exists in library
-        return curriculumSets.some(s => s.title === title && s.status !== 'completed');
-    };
+    if (loading) {
+        return <div className="container" style={{ padding: '2rem', textAlign: 'center' }}>Loading...</div>;
+    }
 
     return (
-        <div className="container" style={{ padding: '2rem 1rem' }}>
-            <h1 style={{ marginBottom: '2rem', color: 'var(--color-primary)' }}>Admin Portal 🍎</h1>
+        <div className="container" style={{ padding: '2rem', maxWidth: '1400px' }}>
+            <header style={{ marginBottom: '2rem' }}>
+                <h1 style={{ margin: '0 0 0.5rem 0' }}>🎓 Admin Dashboard</h1>
+                <p style={{ color: 'gray', margin: 0 }}>Manage users, curriculum, grades, and feedback</p>
+            </header>
 
             {/* Tabs */}
-            <div style={{ display: 'flex', gap: '1rem', marginBottom: '2rem', borderBottom: '2px solid #eee' }}>
-                <button
-                    className={`btn ${activeTab === 'browser' ? 'btn-primary' : 'btn-secondary'}`}
-                    onClick={() => setActiveTab('browser')}
-                >
-                    Curriculum Browser
-                </button>
-                <button
-                    className={`btn ${activeTab === 'library' ? 'btn-primary' : 'btn-secondary'}`}
-                    onClick={() => setActiveTab('library')}
-                >
-                    Assigned / Library ({curriculumSets.length})
-                </button>
+            <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+                {['overview', 'teachers', 'students', 'curriculum', 'grades', 'feedback'].map(tab => (
+                    <button
+                        key={tab}
+                        className={`btn ${activeTab === tab ? 'btn-primary' : ''}`}
+                        onClick={() => setActiveTab(tab)}
+                        style={{ textTransform: 'capitalize' }}
+                    >
+                        {tab}
+                    </button>
+                ))}
             </div>
 
-            {/* BROWSER TAB */}
-            {activeTab === 'browser' && (
-                <div>
-                    <div style={{ marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <label style={{ fontWeight: 'bold' }}>Select Grade Level:</label>
-                        <select
-                            className="input"
-                            style={{ width: 'auto', margin: 0 }}
-                            value={selectedGrade}
-                            onChange={(e) => setSelectedGrade(e.target.value)}
-                        >
-                            {Object.keys(SYLLABUS).map(g => (
-                                <option key={g} value={g}>{g === 'K' ? 'Kindergarten' : `Grade ${g}`}</option>
-                            ))}
-                        </select>
+            {/* Overview Tab */}
+            {activeTab === 'overview' && (
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>👨‍🏫</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{teachers.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Teachers</p>
                     </div>
-
-                    <div style={{ display: 'grid', gap: '1rem' }}>
-                        {SYLLABUS[selectedGrade]?.map(module => {
-                            const assigned = isAssigned(module.title);
-                            return (
-                                <div key={module.id} className="card" style={{
-                                    display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                                    borderLeft: `4px solid ${assigned ? 'var(--color-accent)' : '#ddd'}`
-                                }}>
-                                    <div>
-                                        <h3 style={{ margin: '0 0 0.5rem 0' }}>{module.title}</h3>
-                                        <p style={{ margin: 0, color: 'var(--color-text-muted)' }}>{module.description}</p>
-                                    </div>
-                                    <button
-                                        className={`btn ${assigned ? 'btn-secondary' : 'btn-primary'}`}
-                                        onClick={() => !assigned && handleAssignModule(module)}
-                                        disabled={assigned || generating}
-                                    >
-                                        {assigned ? 'Assigned' : generating ? '...' : 'Assign Class'}
-                                    </button>
-                                </div>
-                            );
-                        })}
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>👨‍🎓</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{students.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Students</p>
+                    </div>
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📚</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{curriculumData.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Curriculum Sets</p>
+                    </div>
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📝</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{assignments.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Assignments</p>
+                    </div>
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>✅</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{submissions.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Submissions</p>
+                    </div>
+                    <div className="card" style={{ textAlign: 'center', padding: '2rem' }}>
+                        <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>💬</div>
+                        <h2 style={{ margin: '0 0 0.5rem 0', fontSize: '2.5rem', color: 'var(--color-primary)' }}>{feedback.length}</h2>
+                        <p style={{ margin: 0, color: 'gray' }}>Feedback Items</p>
                     </div>
                 </div>
             )}
 
-            {/* LIBRARY TAB */}
-            {activeTab === 'library' && (
-                <div style={{ display: 'grid', gap: '1rem' }}>
-                    {curriculumSets.length === 0 && <p>No active assignments.</p>}
-                    {curriculumSets.map(set => (
-                        <div key={set.id} className="card" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                            <div>
-                                <h3 style={{ margin: 0 }}>{set.title}</h3>
-                                <div style={{ fontSize: '0.9rem', color: '#666', marginTop: '0.25rem' }}>
-                                    {set.status.toUpperCase()} • {set.questions?.length} Questions
+            {/* Teachers Tab */}
+            {activeTab === 'teachers' && (
+                <div>
+                    <h2 style={{ marginBottom: '1rem' }}>Teachers ({teachers.length})</h2>
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                        {teachers.map(teacher => (
+                            <div key={teacher.id} className="card">
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                    <div>
+                                        <h4 style={{ margin: '0 0 0.25rem 0' }}>{teacher.first_name} {teacher.last_name}</h4>
+                                        <p style={{ margin: 0, fontSize: '0.9rem', color: 'gray' }}>{teacher.email}</p>
+                                        <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.85rem', color: 'gray' }}>
+                                            Joined: {new Date(teacher.created_at).toLocaleDateString()}
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <button
-                                className="btn"
-                                style={{ background: '#ffebee', color: '#c62828' }}
-                                onClick={() => handleDelete(set.id)}
-                            >
-                                Remove
-                            </button>
-                        </div>
-                    ))}
+                        ))}
+                        {teachers.length === 0 && <p style={{ color: 'gray' }}>No teachers yet.</p>}
+                    </div>
+                </div>
+            )}
+
+            {/* Students Tab */}
+            {activeTab === 'students' && (
+                <div>
+                    <h2 style={{ marginBottom: '1rem' }}>Students ({students.length})</h2>
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                        {students.map(student => (
+                            <div key={student.id} className="card">
+                                <div style={{ display: 'flex', justifyContent: 'between', alignItems: 'center' }}>
+                                    <div>
+                                        <h4 style={{ margin: '0 0 0.25rem 0' }}>{student.first_name} {student.last_name}</h4>
+                                        <p style={{ margin: 0, fontSize: '0.9rem', color: 'gray' }}>{student.email}</p>
+                                        <div style={{ marginTop: '0.5rem', display: 'flex', gap: '0.5rem' }}>
+                                            <span className="badge" style={{ background: '#e3f2fd', color: '#1565c0' }}>
+                                                Grade {student.grade_level}
+                                            </span>
+                                            <span className="badge" style={{ background: '#f3e5f5', color: '#7b1fa2' }}>
+                                                {submissions.filter(s => s.student_id === student.id).length} submissions
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                        {students.length === 0 && <p style={{ color: 'gray' }}>No students yet.</p>}
+                    </div>
+                </div>
+            )}
+
+            {/* Curriculum Tab */}
+            {activeTab === 'curriculum' && (
+                <div>
+                    <h2 style={{ marginBottom: '1rem' }}>Curriculum Library ({curriculumData.length} sets)</h2>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
+                        {curriculumData.slice(0, 20).map(set => (
+                            <div key={set.id} className="card">
+                                <h4 style={{ margin: '0 0 0.5rem 0' }}>{set.title}</h4>
+                                <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.9rem', color: 'gray' }}>{set.description}</p>
+                                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                                    <span className="badge" style={{ background: '#e3f2fd', color: '#1565c0', fontSize: '0.75rem' }}>
+                                        Grade {set.grade_level === 0 ? 'K' : set.grade_level}
+                                    </span>
+                                    <span className="badge" style={{ background: '#f3e5f5', color: '#7b1fa2', fontSize: '0.75rem' }}>
+                                        {set.topic}
+                                    </span>
+                                    <span className="badge" style={{ background: '#e8f5e9', color: '#2e7d32', fontSize: '0.75rem' }}>
+                                        {set.questions.length} questions
+                                    </span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    {curriculumData.length > 20 && (
+                        <p style={{ marginTop: '1rem', color: 'gray', textAlign: 'center' }}>
+                            Showing first 20 of {curriculumData.length} sets
+                        </p>
+                    )}
+                </div>
+            )}
+
+            {/* Grades Tab */}
+            {activeTab === 'grades' && (
+                <div>
+                    <h2 style={{ marginBottom: '1rem' }}>Recent Submissions ({submissions.length})</h2>
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                        {submissions.slice(0, 50).map(sub => (
+                            <div key={sub.id} className="card">
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                    <div>
+                                        <h4 style={{ margin: '0 0 0.25rem 0' }}>
+                                            {sub.profiles?.first_name} {sub.profiles?.last_name}
+                                        </h4>
+                                        <p style={{ margin: 0, fontSize: '0.9rem', color: 'gray' }}>
+                                            {sub.profiles?.email}
+                                        </p>
+                                        <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.85rem', color: 'gray' }}>
+                                            Submitted: {new Date(sub.created_at).toLocaleString()}
+                                        </p>
+                                    </div>
+                                    <div style={{ textAlign: 'right' }}>
+                                        <div style={{
+                                            fontSize: '2rem',
+                                            fontWeight: 'bold',
+                                            color: sub.score >= 80 ? '#10b981' : sub.score >= 60 ? '#f59e0b' : '#ef4444'
+                                        }}>
+                                            {sub.score}%
+                                        </div>
+                                        <span className="badge" style={{
+                                            background: sub.status === 'graded' ? '#e8f5e9' : '#fff3e0',
+                                            color: sub.status === 'graded' ? '#2e7d32' : '#e65100'
+                                        }}>
+                                            {sub.status}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                        {submissions.length === 0 && <p style={{ color: 'gray' }}>No submissions yet.</p>}
+                    </div>
+                </div>
+            )}
+
+            {/* Feedback Tab */}
+            {activeTab === 'feedback' && (
+                <div>
+                    <h2 style={{ marginBottom: '1rem' }}>Teacher Feedback ({feedback.length})</h2>
+                    <div style={{ display: 'grid', gap: '1rem' }}>
+                        {feedback.map(item => (
+                            <div key={item.id} className="card">
+                                <div style={{ marginBottom: '1rem' }}>
+                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'start', marginBottom: '0.5rem' }}>
+                                        <div>
+                                            <h4 style={{ margin: '0 0 0.25rem 0' }}>{item.subject}</h4>
+                                            <p style={{ margin: 0, fontSize: '0.85rem', color: 'gray' }}>
+                                                From: {item.user_name} ({item.user_email})
+                                            </p>
+                                        </div>
+                                        <span className="badge" style={{
+                                            background: item.category === 'bug' ? '#ffebee' : item.category === 'feature' ? '#e3f2fd' : '#f3e5f5',
+                                            color: item.category === 'bug' ? '#c62828' : item.category === 'feature' ? '#1565c0' : '#7b1fa2'
+                                        }}>
+                                            {item.category}
+                                        </span>
+                                    </div>
+                                    <p style={{ margin: '0.5rem 0', whiteSpace: 'pre-wrap' }}>{item.message}</p>
+                                    <p style={{ margin: '0.5rem 0 0 0', fontSize: '0.85rem', color: 'gray' }}>
+                                        {new Date(item.created_at).toLocaleString()}
+                                    </p>
+                                </div>
+                                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                                    {['new', 'reviewed', 'in-progress', 'resolved'].map(status => (
+                                        <button
+                                            key={status}
+                                            className={`btn ${item.status === status ? 'btn-primary' : ''}`}
+                                            onClick={() => updateFeedbackStatus(item.id, status)}
+                                            style={{ fontSize: '0.85rem', padding: '0.4rem 0.8rem', textTransform: 'capitalize' }}
+                                        >
+                                            {status}
+                                        </button>
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
+                        {feedback.length === 0 && <p style={{ color: 'gray' }}>No feedback yet.</p>}
+                    </div>
                 </div>
             )}
         </div>
