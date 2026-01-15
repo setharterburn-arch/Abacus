@@ -32,8 +32,7 @@ export const generateAssignment = async (topic, gradeLevel, questionCount = 5, d
     const jsonString = text.replace(/```json/g, '').replace(/```/g, '').trim();
 
     return JSON.parse(jsonString);
-  } catch (error) {
-  } catch (error) {
+
     console.error("AI Generation Error:", error);
     // Pass the real error message to the UI
     throw new Error(error.message || "Failed to generate assignment.");
