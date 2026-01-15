@@ -45,7 +45,8 @@
           "10",
           "20"
         ],
-        "answer": "10"
+        "answer": "10",
+        "image": "/curriculum-images/counting-fingers-10.png"
       },
       {
         "question": "What is 10 + 5?",
@@ -75,7 +76,8 @@
           "4",
           "5"
         ],
-        "answer": "3"
+        "answer": "3",
+        "image": "/curriculum-images/shape-triangle.png"
       },
       {
         "question": "How many sides does a square have?",
@@ -85,7 +87,8 @@
           "4",
           "5"
         ],
-        "answer": "4"
+        "answer": "4",
+        "image": "/curriculum-images/shape-square.png"
       },
       {
         "question": "Which shape has no corners?",
@@ -95,7 +98,8 @@
           "Circle",
           "Rectangle"
         ],
-        "answer": "Circle"
+        "answer": "Circle",
+        "image": "/curriculum-images/shape-circle.png"
       },
       {
         "question": "How many corners does a rectangle have?",
@@ -1095,7 +1099,8 @@
           "1/4",
           "1/8"
         ],
-        "answer": "1/4"
+        "answer": "1/4",
+        "image": "/curriculum-images/fraction-pizza-quarter.png"
       },
       {
         "question": "If you eat 2 of 6 cookies, what fraction?",
@@ -1115,7 +1120,8 @@
           "1",
           "2"
         ],
-        "answer": "1"
+        "answer": "1",
+        "image": "/curriculum-images/fraction-pizza-half.png"
       },
       {
         "question": "Which is larger: 1/2 or 1/4?",
@@ -1755,7 +1761,8 @@
           "5",
           "1"
         ],
-        "answer": "3"
+        "answer": "3",
+        "image": "/curriculum-images/coordinate-grid-basic.png"
       },
       {
         "question": "Point (0, 5): which is y-coordinate?",
@@ -4035,7 +4042,8 @@
           "16",
           "18"
         ],
-        "answer": "16"
+        "answer": "16",
+        "image": "/curriculum-images/rectangle-perimeter.png"
       },
       {
         "question": "Square with side 6. Perimeter?",

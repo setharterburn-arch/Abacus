@@ -80,6 +80,23 @@ const AssignmentRunner = ({ assignment, studentId, onClose }) => {
                 {assignment.questions.map((q, i) => (
                     <div key={i} className="card">
                         <h4 style={{ margin: '0 0 1rem 0' }}>Question {i + 1}</h4>
+
+                        {/* Display image if present */}
+                        {q.image && (
+                            <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+                                <img
+                                    src={q.image}
+                                    alt="Question illustration"
+                                    style={{
+                                        maxWidth: '100%',
+                                        maxHeight: '300px',
+                                        borderRadius: '8px',
+                                        objectFit: 'contain'
+                                    }}
+                                />
+                            </div>
+                        )}
+
                         <p style={{ fontSize: '1.2rem', marginBottom: '1.5rem' }}>{q.question}</p>
 
                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
