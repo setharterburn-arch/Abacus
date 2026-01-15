@@ -59,6 +59,8 @@ const TeacherDashboard = ({ profile }) => {
         }
     };
 
+    const [editingClass, setEditingClass] = useState(null);
+
     const updateClass = async (e) => {
         e.preventDefault();
         if (!editingClass || !editingClass.name.trim()) return;
