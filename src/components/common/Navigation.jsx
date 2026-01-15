@@ -34,61 +34,23 @@ const Navigation = () => {
                         Dashboard
                     </NavLink>
 
-                    <NavLink
-                        to="/shop"
-                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                        style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                    >
-                        Shop 🎩
-                    </NavLink>
-
                     {state.profile?.role === 'teacher' && (
                         <NavLink
                             to="/worksheets"
                             className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
                             style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
                         >
-                            Worksheets
-                        </NavLink>
-                    )}
-
-                    {state.profile?.role === 'teacher' && (
-                        <NavLink
-                            to="/feedback"
-                            className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                            style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                        >
-                            Feedback
-                        </NavLink>
-                    )}
-
-                    {(state.profile?.role === 'teacher' || state.profile?.role === 'admin') && (
-                        <NavLink
-                            to="/beta"
-                            className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                            style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                        >
-                            Beta 🧪
+                            Worksheets 🖨️
                         </NavLink>
                     )}
 
                     <NavLink
-                        to="/test"
+                        to="/account"
                         className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
                         style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
                     >
-                        Test Zone
+                        My Account 👤
                     </NavLink>
-
-                    {state.profile?.role === 'admin' && (
-                        <NavLink
-                            to="/admin"
-                            className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                            style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                        >
-                            Admin
-                        </NavLink>
-                    )}
 
                     <button
                         onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
@@ -97,14 +59,6 @@ const Navigation = () => {
                         title="Toggle Dark Mode"
                     >
                         {state.theme === 'dark' ? '🌙' : '☀️'}
-                    </button>
-
-                    <button
-                        onClick={() => dispatch({ type: 'LOGOUT' })}
-                        className="btn btn-secondary"
-                        style={{ padding: '0.5rem 1rem' }}
-                    >
-                        Logout
                     </button>
                 </div>
             </div>

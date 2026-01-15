@@ -23,6 +23,7 @@ import { ChatProvider } from './context/ChatContext';
 import AbacusWidget from './components/chat/AbacusWidget';
 
 import Auth from './pages/Auth';
+import MyAccount from './pages/MyAccount';
 import ErrorBoundary from './components/common/ErrorBoundary';
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
               <Routes>
                 <Route path="/" element={<Auth />} />
                 <Route path="/auth" element={<Auth />} />
+                <Route path="/account" element={<MyAccount />} />
                 <Route path="/dashboard" element={<Dashboard />} />
                 <Route path="/worksheets" element={<Worksheets />} />
                 <Route path="/feedback" element={<Feedback />} />
