@@ -10,12 +10,16 @@ const InteractiveLesson = () => {
     const [showCelebration, setShowCelebration] = useState(false);
     const [isSpeaking, setIsSpeaking] = useState(false);
 
-    // Audio effects
-    const playPop = () => {
-        const audio = new Audio('https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3'); // Simple pop sound
-        audio.volume = 0.5;
-        audio.play().catch(e => console.log("Audio play error", e));
-    };
+    // Initial Ambience
+    useEffect(() => {
+        // Start ambience on first user interaction or mount if allowed
+        const handleStart = () => audioManager.startAmbience();
+        window.addEventListener('click', handleStart, { once: true });
+        return () => {
+            audioManager.cleanup();
+            window.removeEventListener('click', handleStart);
+        };
+    }, []);
 
     const lesson = {
         title: "Apple Picking Adventure! 🍎",
@@ -50,49 +54,42 @@ const InteractiveLesson = () => {
 
     const currentStepData = lesson.steps[currentStep];
 
-    const speak = (text) => {
-        // Cancel any previous speech
-        window.speechSynthesis.cancel();
-
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = 0.9;
-        utterance.pitch = 1.1;
-        utterance.onstart = () => setIsSpeaking(true);
-        utterance.onend = () => setIsSpeaking(false);
-        window.speechSynthesis.speak(utterance);
-    };
-
     useEffect(() => {
         if (currentStepData?.narration) {
+            setIsSpeaking(true);
             // Small delay to allow transition to finish
-            const timer = setTimeout(() => speak(currentStepData.narration), 800);
+            const timer = setTimeout(() => {
+                audioManager.speak(currentStepData.narration);
+                // Rough estimate for "speaking" animation - in real app use onend callback
+                setTimeout(() => setIsSpeaking(false), 3000);
+            }, 800);
             return () => clearTimeout(timer);
         }
     }, [currentStep]);
 
     const handleItemClick = (index) => {
         if (!clickedItems.includes(index)) {
-            playPop();
+            // physics bounce effect handled by framer-motion in component
+            audioManager.playSfx('pop');
+
             const newCount = count + 1;
             setClickedItems([...clickedItems, index]);
             setCount(newCount);
 
             // Speak just the number clearly
-            window.speechSynthesis.cancel();
-            const numberUtterance = new SpeechSynthesisUtterance(newCount.toString());
-            numberUtterance.rate = 1.2;
-            window.speechSynthesis.speak(numberUtterance);
+            audioManager.speak(newCount.toString());
 
             if (newCount === currentStepData.targetCount) {
+                audioManager.playSfx('success');
                 confetti({
-                    particleCount: 100,
-                    spread: 70,
+                    particleCount: 150,
+                    spread: 100,
                     origin: { y: 0.6 }
                 });
                 setTimeout(() => {
-                    speak("Perfect! That's all of them!");
+                    audioManager.speak("Perfect! That's all of them!");
                     nextStepDelay();
-                }, 1000);
+                }, 1500);
             }
         }
     };
