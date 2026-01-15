@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { supabase } from '../services/supabase';
-import { generateAssignment } from '../services/ai';
+import { supabase } from '../../services/supabase';
+import { generateAssignment } from '../../services/ai';
 import { useNavigate } from 'react-router-dom';
 
 const CreateAssignment = ({ classId, onClose }) => {

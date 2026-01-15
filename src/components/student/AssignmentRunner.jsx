@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { supabase } from '../services/supabase';
+import { supabase } from '../../services/supabase';
 
 const AssignmentRunner = ({ assignment, studentId, onClose }) => {
     const [answers, setAnswers] = useState({}); // { 0: 'Option A', 1: 'Option B' }
