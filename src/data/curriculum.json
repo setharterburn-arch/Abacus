@@ -1,6 +1,126 @@
 [
   {
-    "id": "add-facts-1-10",
+    "id": "k-counting-1-20",
+    "title": "Counting 1-20",
+    "description": "Practice counting and number recognition",
+    "grade_level": 0,
+    "topic": "Counting",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What number comes after 5?",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What number comes before 10?",
+        "options": [
+          "8",
+          "9",
+          "11",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Count: 1, 2, 3, __?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "How many fingers do you have?",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "20"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 10 + 5?",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-basic",
+    "title": "Basic Shapes",
+    "description": "Identify circles, squares, and triangles",
+    "grade_level": 0,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "How many sides does a triangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "How many sides does a square have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which shape has no corners?",
+        "options": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Circle"
+      },
+      {
+        "question": "How many corners does a rectangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What shape is a stop sign?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Octagon"
+        ],
+        "answer": "Octagon"
+      }
+    ]
+  },
+  {
+    "id": "1-add-facts-1-10",
     "title": "Addition Facts (1-10)",
     "description": "Practice basic addition with numbers 1-10",
     "grade_level": 1,
@@ -9,33 +129,58 @@
     "questions": [
       {
         "question": "What is 2 + 3?",
-        "options": ["4", "5", "6", "7"],
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
         "answer": "5"
       },
       {
         "question": "What is 5 + 4?",
-        "options": ["8", "9", "10", "11"],
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
         "answer": "9"
       },
       {
         "question": "What is 1 + 7?",
-        "options": ["6", "7", "8", "9"],
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
         "answer": "8"
       },
       {
         "question": "What is 6 + 3?",
-        "options": ["8", "9", "10", "11"],
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
         "answer": "9"
       },
       {
         "question": "What is 4 + 4?",
-        "options": ["6", "7", "8", "9"],
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
         "answer": "8"
       }
     ]
   },
   {
-    "id": "sub-facts-1-10",
+    "id": "1-sub-facts-1-10",
     "title": "Subtraction Facts (1-10)",
     "description": "Practice basic subtraction with numbers 1-10",
     "grade_level": 1,
@@ -44,68 +189,238 @@
     "questions": [
       {
         "question": "What is 8 - 3?",
-        "options": ["4", "5", "6", "7"],
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
         "answer": "5"
       },
       {
         "question": "What is 10 - 4?",
-        "options": ["5", "6", "7", "8"],
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
         "answer": "6"
       },
       {
         "question": "What is 7 - 2?",
-        "options": ["4", "5", "6", "7"],
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
         "answer": "5"
       },
       {
         "question": "What is 9 - 5?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "answer": "4"
       },
       {
         "question": "What is 6 - 6?",
-        "options": ["0", "1", "2", "3"],
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
         "answer": "0"
       }
     ]
   },
   {
-    "id": "counting-to-20",
-    "title": "Counting to 20",
+    "id": "1-counting-to-100",
+    "title": "Counting to 100",
     "description": "Number recognition and counting practice",
     "grade_level": 1,
     "topic": "Counting",
     "difficulty": "easy",
     "questions": [
       {
-        "question": "What number comes after 12?",
-        "options": ["11", "13", "14", "15"],
-        "answer": "13"
+        "question": "What number comes after 49?",
+        "options": [
+          "48",
+          "50",
+          "51",
+          "52"
+        ],
+        "answer": "50"
       },
       {
-        "question": "What number comes before 18?",
-        "options": ["16", "17", "19", "20"],
-        "answer": "17"
+        "question": "What number comes before 30?",
+        "options": [
+          "28",
+          "29",
+          "31",
+          "32"
+        ],
+        "answer": "29"
       },
       {
-        "question": "How many is 10 + 5?",
-        "options": ["14", "15", "16", "17"],
-        "answer": "15"
+        "question": "Count by 10s: 10, 20, 30, __?",
+        "options": [
+          "35",
+          "40",
+          "50",
+          "60"
+        ],
+        "answer": "40"
       },
       {
-        "question": "What is 20 - 1?",
-        "options": ["18", "19", "20", "21"],
-        "answer": "19"
+        "question": "What is 50 + 10?",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "answer": "60"
       },
       {
-        "question": "Count by 2s: 2, 4, 6, __?",
-        "options": ["7", "8", "9", "10"],
-        "answer": "8"
+        "question": "Count by 5s: 5, 10, 15, __?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "25"
+        ],
+        "answer": "20"
       }
     ]
   },
   {
-    "id": "place-value-tens-ones",
+    "id": "1-comparing-numbers",
+    "title": "Comparing Numbers",
+    "description": "Greater than, less than, equal to",
+    "grade_level": 1,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which is larger: 15 or 12?",
+        "options": [
+          "15",
+          "12",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Which is smaller: 8 or 11?",
+        "options": [
+          "8",
+          "11",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Is 20 greater than 19?",
+        "options": [
+          "Yes",
+          "No",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "question": "Which equals 10: 5+5 or 6+3?",
+        "options": [
+          "5+5",
+          "6+3",
+          "Both",
+          "Neither"
+        ],
+        "answer": "5+5"
+      },
+      {
+        "question": "What is the smallest: 7, 4, or 9?",
+        "options": [
+          "7",
+          "4",
+          "9",
+          "All same"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "1-patterns",
+    "title": "Number Patterns",
+    "description": "Identify and continue patterns",
+    "grade_level": 1,
+    "topic": "Patterns",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Continue: 2, 4, 6, __?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Continue: 5, 10, 15, __?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Continue: 1, 3, 5, __?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What comes next: 10, 20, 30, __?",
+        "options": [
+          "35",
+          "40",
+          "50",
+          "60"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "Pattern: 3, 6, 9, __?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12"
+      }
+    ]
+  },
+  {
+    "id": "2-place-value-tens-ones",
     "title": "Place Value: Tens and Ones",
     "description": "Understanding tens and ones place values",
     "grade_level": 2,
@@ -113,34 +428,359 @@
     "difficulty": "easy",
     "questions": [
       {
-        "question": "In the number 34, what digit is in the tens place?",
-        "options": ["3", "4", "7", "10"],
+        "question": "In 34, what digit is in the tens place?",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "10"
+        ],
         "answer": "3"
       },
       {
         "question": "What is 2 tens and 5 ones?",
-        "options": ["23", "25", "27", "52"],
+        "options": [
+          "23",
+          "25",
+          "27",
+          "52"
+        ],
         "answer": "25"
       },
       {
-        "question": "In the number 67, what digit is in the ones place?",
-        "options": ["6", "7", "13", "60"],
+        "question": "In 67, what digit is in the ones place?",
+        "options": [
+          "6",
+          "7",
+          "13",
+          "60"
+        ],
         "answer": "7"
       },
       {
         "question": "What number has 4 tens and 8 ones?",
-        "options": ["48", "84", "12", "40"],
+        "options": [
+          "48",
+          "84",
+          "12",
+          "40"
+        ],
         "answer": "48"
       },
       {
         "question": "How many tens are in 90?",
-        "options": ["0", "9", "10", "90"],
+        "options": [
+          "0",
+          "9",
+          "10",
+          "90"
+        ],
         "answer": "9"
       }
     ]
   },
   {
-    "id": "mult-tables-2-5",
+    "id": "2-add-2digit",
+    "title": "2-Digit Addition",
+    "description": "Adding two-digit numbers",
+    "grade_level": 2,
+    "topic": "Addition",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 23 + 14?",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37"
+      },
+      {
+        "question": "What is 45 + 32?",
+        "options": [
+          "75",
+          "77",
+          "79",
+          "81"
+        ],
+        "answer": "77"
+      },
+      {
+        "question": "What is 18 + 21?",
+        "options": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "answer": "39"
+      },
+      {
+        "question": "What is 56 + 13?",
+        "options": [
+          "67",
+          "68",
+          "69",
+          "70"
+        ],
+        "answer": "69"
+      },
+      {
+        "question": "What is 29 + 30?",
+        "options": [
+          "57",
+          "58",
+          "59",
+          "60"
+        ],
+        "answer": "59"
+      }
+    ]
+  },
+  {
+    "id": "2-sub-2digit",
+    "title": "2-Digit Subtraction",
+    "description": "Subtracting two-digit numbers",
+    "grade_level": 2,
+    "topic": "Subtraction",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 45 - 12?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": "33"
+      },
+      {
+        "question": "What is 78 - 23?",
+        "options": [
+          "53",
+          "54",
+          "55",
+          "56"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "What is 90 - 45?",
+        "options": [
+          "43",
+          "44",
+          "45",
+          "46"
+        ],
+        "answer": "45"
+      },
+      {
+        "question": "What is 67 - 34?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": "33"
+      },
+      {
+        "question": "What is 50 - 18?",
+        "options": [
+          "30",
+          "31",
+          "32",
+          "33"
+        ],
+        "answer": "32"
+      }
+    ]
+  },
+  {
+    "id": "2-skip-counting",
+    "title": "Skip Counting",
+    "description": "Count by 2s, 5s, and 10s",
+    "grade_level": 2,
+    "topic": "Counting",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Count by 2s: 10, 12, 14, __?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "16"
+      },
+      {
+        "question": "Count by 5s: 25, 30, 35, __?",
+        "options": [
+          "36",
+          "38",
+          "40",
+          "45"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "Count by 10s: 40, 50, 60, __?",
+        "options": [
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "answer": "70"
+      },
+      {
+        "question": "Count by 2s: 20, 22, 24, __?",
+        "options": [
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "answer": "26"
+      },
+      {
+        "question": "Count by 5s: 50, 55, 60, __?",
+        "options": [
+          "61",
+          "63",
+          "65",
+          "70"
+        ],
+        "answer": "65"
+      }
+    ]
+  },
+  {
+    "id": "2-time-hours",
+    "title": "Telling Time: Hours",
+    "description": "Read clocks to the hour and half-hour",
+    "grade_level": 2,
+    "topic": "Time",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If the hour hand points to 3, what time is it?",
+        "options": [
+          "2:00",
+          "3:00",
+          "4:00",
+          "5:00"
+        ],
+        "answer": "3:00"
+      },
+      {
+        "question": "What is 30 minutes after 2:00?",
+        "options": [
+          "2:15",
+          "2:30",
+          "2:45",
+          "3:00"
+        ],
+        "answer": "2:30"
+      },
+      {
+        "question": "How many minutes in 1 hour?",
+        "options": [
+          "30",
+          "45",
+          "60",
+          "90"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "What time is half past 5?",
+        "options": [
+          "4:30",
+          "5:00",
+          "5:30",
+          "6:00"
+        ],
+        "answer": "5:30"
+      },
+      {
+        "question": "If it's 7:00, what time was it 1 hour ago?",
+        "options": [
+          "5:00",
+          "6:00",
+          "7:00",
+          "8:00"
+        ],
+        "answer": "6:00"
+      }
+    ]
+  },
+  {
+    "id": "2-money-coins",
+    "title": "Counting Money: Coins",
+    "description": "Count pennies, nickels, dimes, quarters",
+    "grade_level": 2,
+    "topic": "Money",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How much is a nickel worth?",
+        "options": [
+          "1¢",
+          "5¢",
+          "10¢",
+          "25¢"
+        ],
+        "answer": "5¢"
+      },
+      {
+        "question": "How much is a dime worth?",
+        "options": [
+          "1¢",
+          "5¢",
+          "10¢",
+          "25¢"
+        ],
+        "answer": "10¢"
+      },
+      {
+        "question": "How much is a quarter worth?",
+        "options": [
+          "5¢",
+          "10¢",
+          "25¢",
+          "50¢"
+        ],
+        "answer": "25¢"
+      },
+      {
+        "question": "How much is 2 dimes?",
+        "options": [
+          "10¢",
+          "15¢",
+          "20¢",
+          "25¢"
+        ],
+        "answer": "20¢"
+      },
+      {
+        "question": "How much is 1 quarter + 1 nickel?",
+        "options": [
+          "25¢",
+          "30¢",
+          "35¢",
+          "40¢"
+        ],
+        "answer": "30¢"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-2-5",
     "title": "Multiplication Tables (2s and 5s)",
     "description": "Practice multiplication facts for 2 and 5",
     "grade_level": 3,
@@ -149,33 +789,58 @@
     "questions": [
       {
         "question": "What is 2 × 6?",
-        "options": ["10", "12", "14", "16"],
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
         "answer": "12"
       },
       {
         "question": "What is 5 × 4?",
-        "options": ["15", "20", "25", "30"],
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
         "answer": "20"
       },
       {
         "question": "What is 2 × 9?",
-        "options": ["16", "18", "20", "22"],
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
         "answer": "18"
       },
       {
         "question": "What is 5 × 7?",
-        "options": ["30", "35", "40", "45"],
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
         "answer": "35"
       },
       {
         "question": "What is 2 × 8?",
-        "options": ["14", "16", "18", "20"],
+        "options": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
         "answer": "16"
       }
     ]
   },
   {
-    "id": "mult-tables-3-4",
+    "id": "3-mult-tables-3-4",
     "title": "Multiplication Tables (3s and 4s)",
     "description": "Practice multiplication facts for 3 and 4",
     "grade_level": 3,
@@ -184,33 +849,178 @@
     "questions": [
       {
         "question": "What is 3 × 5?",
-        "options": ["12", "15", "18", "21"],
+        "options": [
+          "12",
+          "15",
+          "18",
+          "21"
+        ],
         "answer": "15"
       },
       {
         "question": "What is 4 × 6?",
-        "options": ["20", "24", "28", "32"],
+        "options": [
+          "20",
+          "24",
+          "28",
+          "32"
+        ],
         "answer": "24"
       },
       {
         "question": "What is 3 × 8?",
-        "options": ["21", "24", "27", "30"],
+        "options": [
+          "21",
+          "24",
+          "27",
+          "30"
+        ],
         "answer": "24"
       },
       {
         "question": "What is 4 × 7?",
-        "options": ["24", "28", "32", "36"],
+        "options": [
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
         "answer": "28"
       },
       {
         "question": "What is 3 × 9?",
-        "options": ["24", "27", "30", "33"],
+        "options": [
+          "24",
+          "27",
+          "30",
+          "33"
+        ],
         "answer": "27"
       }
     ]
   },
   {
-    "id": "division-basics",
+    "id": "3-mult-tables-6-7",
+    "title": "Multiplication Tables (6s and 7s)",
+    "description": "Practice multiplication facts for 6 and 7",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 6 × 4?",
+        "options": [
+          "20",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "What is 7 × 5?",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 6 × 7?",
+        "options": [
+          "36",
+          "40",
+          "42",
+          "48"
+        ],
+        "answer": "42"
+      },
+      {
+        "question": "What is 7 × 8?",
+        "options": [
+          "49",
+          "54",
+          "56",
+          "63"
+        ],
+        "answer": "56"
+      },
+      {
+        "question": "What is 6 × 9?",
+        "options": [
+          "48",
+          "52",
+          "54",
+          "60"
+        ],
+        "answer": "54"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-8-9",
+    "title": "Multiplication Tables (8s and 9s)",
+    "description": "Practice multiplication facts for 8 and 9",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 8 × 6?",
+        "options": [
+          "42",
+          "48",
+          "54",
+          "56"
+        ],
+        "answer": "48"
+      },
+      {
+        "question": "What is 9 × 7?",
+        "options": [
+          "56",
+          "63",
+          "72",
+          "81"
+        ],
+        "answer": "63"
+      },
+      {
+        "question": "What is 8 × 8?",
+        "options": [
+          "56",
+          "60",
+          "64",
+          "72"
+        ],
+        "answer": "64"
+      },
+      {
+        "question": "What is 9 × 9?",
+        "options": [
+          "72",
+          "81",
+          "90",
+          "99"
+        ],
+        "answer": "81"
+      },
+      {
+        "question": "What is 8 × 9?",
+        "options": [
+          "64",
+          "72",
+          "80",
+          "81"
+        ],
+        "answer": "72"
+      }
+    ]
+  },
+  {
+    "id": "3-division-basics",
     "title": "Division Basics",
     "description": "Introduction to division concepts",
     "grade_level": 3,
@@ -219,68 +1029,358 @@
     "questions": [
       {
         "question": "What is 12 ÷ 3?",
-        "options": ["2", "3", "4", "5"],
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
         "answer": "4"
       },
       {
         "question": "What is 20 ÷ 5?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "answer": "4"
       },
       {
         "question": "What is 18 ÷ 6?",
-        "options": ["2", "3", "4", "5"],
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
         "answer": "3"
       },
       {
         "question": "What is 24 ÷ 4?",
-        "options": ["4", "5", "6", "7"],
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
         "answer": "6"
       },
       {
         "question": "What is 15 ÷ 3?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "answer": "5"
       }
     ]
   },
   {
-    "id": "fractions-intro",
+    "id": "3-fractions-intro",
     "title": "Introduction to Fractions",
     "description": "Understanding basic fractions (halves, thirds, fourths)",
-    "grade_level": 4,
+    "grade_level": 3,
     "topic": "Fractions",
     "difficulty": "medium",
     "questions": [
       {
-        "question": "What fraction of a pizza is 1 slice out of 4 equal slices?",
-        "options": ["1/2", "1/3", "1/4", "1/8"],
+        "question": "What fraction is 1 slice of 4 equal slices?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/8"
+        ],
         "answer": "1/4"
       },
       {
-        "question": "If you eat 2 out of 6 cookies, what fraction did you eat?",
-        "options": ["1/2", "1/3", "2/6", "3/6"],
+        "question": "If you eat 2 of 6 cookies, what fraction?",
+        "options": [
+          "1/2",
+          "1/3",
+          "2/6",
+          "3/6"
+        ],
         "answer": "2/6"
       },
       {
         "question": "What is 1/2 + 1/2?",
-        "options": ["1/4", "2/2", "1", "2"],
+        "options": [
+          "1/4",
+          "2/2",
+          "1",
+          "2"
+        ],
         "answer": "1"
       },
       {
-        "question": "Which fraction is larger: 1/2 or 1/4?",
-        "options": ["1/2", "1/4", "They are equal", "Cannot compare"],
+        "question": "Which is larger: 1/2 or 1/4?",
+        "options": [
+          "1/2",
+          "1/4",
+          "Equal",
+          "Cannot compare"
+        ],
         "answer": "1/2"
       },
       {
         "question": "What is half of 10?",
-        "options": ["3", "4", "5", "6"],
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
         "answer": "5"
       }
     ]
   },
   {
-    "id": "decimals-intro",
+    "id": "3-measurement-length",
+    "title": "Measurement: Length",
+    "description": "Inches, feet, centimeters, meters",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many inches in 1 foot?",
+        "options": [
+          "6",
+          "10",
+          "12",
+          "24"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "How many feet in 1 yard?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "How many centimeters in 1 meter?",
+        "options": [
+          "10",
+          "50",
+          "100",
+          "1000"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "Which is longer: 1 meter or 1 foot?",
+        "options": [
+          "Meter",
+          "Foot",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Meter"
+      },
+      {
+        "question": "What is 2 feet in inches?",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "30"
+        ],
+        "answer": "24"
+      }
+    ]
+  },
+  {
+    "id": "3-word-problems",
+    "title": "Word Problems",
+    "description": "Solve real-world math problems",
+    "grade_level": 3,
+    "topic": "Problem Solving",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Sarah has 12 apples. She gives 4 to Tom. How many left?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "A box has 5 rows of 6 eggs. How many total?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "Mike ran 3 miles Monday and 4 miles Tuesday. Total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "There are 24 students. They sit in 4 equal groups. How many per group?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "A book costs $8. You have $20. How much change?",
+        "options": [
+          "$10",
+          "$11",
+          "$12",
+          "$13"
+        ],
+        "answer": "$12"
+      }
+    ]
+  },
+  {
+    "id": "4-mult-multi-digit",
+    "title": "Multi-Digit Multiplication",
+    "description": "Multiply 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 23 × 4?",
+        "options": [
+          "82",
+          "88",
+          "92",
+          "96"
+        ],
+        "answer": "92"
+      },
+      {
+        "question": "What is 15 × 6?",
+        "options": [
+          "80",
+          "85",
+          "90",
+          "95"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "What is 34 × 3?",
+        "options": [
+          "96",
+          "99",
+          "102",
+          "105"
+        ],
+        "answer": "102"
+      },
+      {
+        "question": "What is 12 × 8?",
+        "options": [
+          "88",
+          "92",
+          "96",
+          "100"
+        ],
+        "answer": "96"
+      },
+      {
+        "question": "What is 27 × 5?",
+        "options": [
+          "125",
+          "130",
+          "135",
+          "140"
+        ],
+        "answer": "135"
+      }
+    ]
+  },
+  {
+    "id": "4-division-long",
+    "title": "Long Division",
+    "description": "Divide 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Division",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 48 ÷ 4?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 63 ÷ 7?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 56 ÷ 8?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What is 72 ÷ 9?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 45 ÷ 5?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "4-decimals-intro",
     "title": "Introduction to Decimals",
     "description": "Understanding decimal place values (tenths)",
     "grade_level": 4,
@@ -289,98 +1389,1313 @@
     "questions": [
       {
         "question": "What is 0.5 as a fraction?",
-        "options": ["1/5", "1/2", "5/10", "Both B and C"],
+        "options": [
+          "1/5",
+          "1/2",
+          "5/10",
+          "Both B and C"
+        ],
         "answer": "Both B and C"
       },
       {
         "question": "What is 2.3 + 1.4?",
-        "options": ["3.5", "3.7", "4.7", "3.1"],
+        "options": [
+          "3.5",
+          "3.7",
+          "4.7",
+          "3.1"
+        ],
         "answer": "3.7"
       },
       {
         "question": "Which is larger: 0.8 or 0.3?",
-        "options": ["0.8", "0.3", "They are equal", "Cannot compare"],
+        "options": [
+          "0.8",
+          "0.3",
+          "Equal",
+          "Cannot compare"
+        ],
         "answer": "0.8"
       },
       {
         "question": "What is 5.0 - 2.5?",
-        "options": ["2.0", "2.5", "3.0", "3.5"],
+        "options": [
+          "2.0",
+          "2.5",
+          "3.0",
+          "3.5"
+        ],
         "answer": "2.5"
       },
       {
-        "question": "How do you write 'three tenths' as a decimal?",
-        "options": ["0.03", "0.3", "3.0", "30"],
+        "question": "How do you write 'three tenths'?",
+        "options": [
+          "0.03",
+          "0.3",
+          "3.0",
+          "30"
+        ],
         "answer": "0.3"
       }
     ]
   },
   {
-    "id": "fractions-advanced",
-    "title": "Advanced Fractions",
-    "description": "Adding and comparing fractions",
+    "id": "4-fractions-equivalent",
+    "title": "Equivalent Fractions",
+    "description": "Finding and simplifying equivalent fractions",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Which equals 1/2?",
+        "options": [
+          "2/3",
+          "2/4",
+          "3/4",
+          "3/5"
+        ],
+        "answer": "2/4"
+      },
+      {
+        "question": "Simplify: 4/8",
+        "options": [
+          "1/2",
+          "2/3",
+          "3/4",
+          "Cannot simplify"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "Which equals 3/4?",
+        "options": [
+          "6/8",
+          "4/6",
+          "5/8",
+          "2/3"
+        ],
+        "answer": "6/8"
+      },
+      {
+        "question": "Simplify: 6/9",
+        "options": [
+          "1/2",
+          "2/3",
+          "3/4",
+          "Cannot simplify"
+        ],
+        "answer": "2/3"
+      },
+      {
+        "question": "Which equals 2/3?",
+        "options": [
+          "3/4",
+          "4/6",
+          "5/6",
+          "3/5"
+        ],
+        "answer": "4/6"
+      }
+    ]
+  },
+  {
+    "id": "4-area-perimeter",
+    "title": "Area and Perimeter",
+    "description": "Calculate area and perimeter of rectangles",
+    "grade_level": 4,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Perimeter of square with side 5?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Area of rectangle: length 6, width 3?",
+        "options": [
+          "9",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "Perimeter of rectangle: length 8, width 4?",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "Area of square with side 7?",
+        "options": [
+          "28",
+          "35",
+          "42",
+          "49"
+        ],
+        "answer": "49"
+      },
+      {
+        "question": "What is perimeter?",
+        "options": [
+          "Inside space",
+          "Distance around",
+          "Volume",
+          "Weight"
+        ],
+        "answer": "Distance around"
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-operations",
+    "title": "Decimal Operations",
+    "description": "Add, subtract, multiply decimals",
     "grade_level": 5,
+    "topic": "Decimals",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 3.5 + 2.8?",
+        "options": [
+          "5.3",
+          "6.0",
+          "6.3",
+          "6.8"
+        ],
+        "answer": "6.3"
+      },
+      {
+        "question": "What is 7.2 - 3.6?",
+        "options": [
+          "3.4",
+          "3.6",
+          "4.4",
+          "4.6"
+        ],
+        "answer": "3.6"
+      },
+      {
+        "question": "What is 2.5 × 4?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 0.6 + 0.9?",
+        "options": [
+          "1.3",
+          "1.5",
+          "1.7",
+          "1.9"
+        ],
+        "answer": "1.5"
+      },
+      {
+        "question": "What is 5.0 - 1.25?",
+        "options": [
+          "3.25",
+          "3.50",
+          "3.75",
+          "4.00"
+        ],
+        "answer": "3.75"
+      }
+    ]
+  },
+  {
+    "id": "5-percentages",
+    "title": "Introduction to Percentages",
+    "description": "Understanding percent and converting",
+    "grade_level": 5,
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 50% as a fraction?",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "What is 25% as a decimal?",
+        "options": [
+          "0.025",
+          "0.25",
+          "2.5",
+          "25"
+        ],
+        "answer": "0.25"
+      },
+      {
+        "question": "What is 100% of 50?",
+        "options": [
+          "25",
+          "50",
+          "75",
+          "100"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "What is 10% of 100?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What percent is 1/4?",
+        "options": [
+          "10%",
+          "20%",
+          "25%",
+          "50%"
+        ],
+        "answer": "25%"
+      }
+    ]
+  },
+  {
+    "id": "5-volume",
+    "title": "Volume of Rectangular Prisms",
+    "description": "Calculate volume using length × width × height",
+    "grade_level": 5,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Volume: length 3, width 2, height 4?",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "Volume of cube with side 3?",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "36"
+        ],
+        "answer": "27"
+      },
+      {
+        "question": "Volume: 5 × 4 × 2?",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "What is volume measured in?",
+        "options": [
+          "Square units",
+          "Cubic units",
+          "Linear units",
+          "Degrees"
+        ],
+        "answer": "Cubic units"
+      },
+      {
+        "question": "Volume: 6 × 3 × 3?",
+        "options": [
+          "36",
+          "45",
+          "54",
+          "63"
+        ],
+        "answer": "54"
+      }
+    ]
+  },
+  {
+    "id": "5-coordinate-plane",
+    "title": "Coordinate Plane",
+    "description": "Plot and identify points on a grid",
+    "grade_level": 5,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Point (3, 2): which is x-coordinate?",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "1"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Point (0, 5): which is y-coordinate?",
+        "options": [
+          "0",
+          "5",
+          "Both",
+          "Neither"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Origin is at which point?",
+        "options": [
+          "(1, 1)",
+          "(0, 0)",
+          "(1, 0)",
+          "(0, 1)"
+        ],
+        "answer": "(0, 0)"
+      },
+      {
+        "question": "Point (4, 4) is in which quadrant?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "I"
+      },
+      {
+        "question": "How many axes on coordinate plane?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "5-order-operations",
+    "title": "Order of Operations",
+    "description": "PEMDAS: Parentheses, Exponents, Multiply/Divide, Add/Subtract",
+    "grade_level": 5,
+    "topic": "Problem Solving",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 2 + 3 × 4?",
+        "options": [
+          "14",
+          "20",
+          "24",
+          "32"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "What is (2 + 3) × 4?",
+        "options": [
+          "14",
+          "20",
+          "24",
+          "32"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "What is 10 - 2 × 3?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "24"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 12 ÷ 3 + 2?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 5 × (3 + 2)?",
+        "options": [
+          "13",
+          "17",
+          "25",
+          "30"
+        ],
+        "answer": "25"
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-add-sub",
+    "title": "Adding and Subtracting Fractions",
+    "description": "Add and subtract fractions with like denominators",
+    "grade_level": 4,
     "topic": "Fractions",
     "difficulty": "hard",
     "questions": [
       {
         "question": "What is 1/4 + 1/4?",
-        "options": ["1/8", "2/8", "1/2", "2/4"],
+        "options": [
+          "1/8",
+          "2/8",
+          "1/2",
+          "2/4"
+        ],
         "answer": "1/2"
       },
       {
         "question": "What is 3/5 - 1/5?",
-        "options": ["2/5", "2/10", "4/5", "1/5"],
+        "options": [
+          "2/5",
+          "2/10",
+          "4/5",
+          "1/5"
+        ],
         "answer": "2/5"
       },
       {
-        "question": "Which is larger: 3/4 or 2/3?",
-        "options": ["3/4", "2/3", "They are equal", "Cannot compare"],
-        "answer": "3/4"
+        "question": "What is 2/6 + 3/6?",
+        "options": [
+          "5/6",
+          "5/12",
+          "1/2",
+          "2/3"
+        ],
+        "answer": "5/6"
       },
       {
-        "question": "What is 1/2 of 12?",
-        "options": ["4", "5", "6", "7"],
-        "answer": "6"
+        "question": "What is 7/8 - 3/8?",
+        "options": [
+          "4/8",
+          "1/2",
+          "Both A and B",
+          "4/16"
+        ],
+        "answer": "Both A and B"
       },
       {
-        "question": "Simplify: 4/8",
-        "options": ["1/2", "2/4", "8/16", "Cannot simplify"],
-        "answer": "1/2"
+        "question": "What is 1/3 + 1/3?",
+        "options": [
+          "1/6",
+          "2/6",
+          "2/3",
+          "1"
+        ],
+        "answer": "2/3"
       }
     ]
   },
   {
-    "id": "geometry-shapes",
-    "title": "Basic Geometry: Shapes",
-    "description": "Identifying and understanding basic shapes",
+    "id": "3-rounding",
+    "title": "Rounding Numbers",
+    "description": "Round to nearest 10 and 100",
+    "grade_level": 3,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Round 47 to nearest 10",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "60"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "Round 123 to nearest 100",
+        "options": [
+          "100",
+          "120",
+          "130",
+          "200"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "Round 85 to nearest 10",
+        "options": [
+          "80",
+          "85",
+          "90",
+          "100"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Round 249 to nearest 100",
+        "options": [
+          "200",
+          "240",
+          "250",
+          "300"
+        ],
+        "answer": "200"
+      },
+      {
+        "question": "Round 55 to nearest 10",
+        "options": [
+          "50",
+          "55",
+          "60",
+          "100"
+        ],
+        "answer": "60"
+      }
+    ]
+  },
+  {
+    "id": "2-even-odd",
+    "title": "Even and Odd Numbers",
+    "description": "Identify even and odd numbers",
+    "grade_level": 2,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Is 8 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even"
+      },
+      {
+        "question": "Is 15 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Odd"
+      },
+      {
+        "question": "Which is even: 7, 9, or 12?",
+        "options": [
+          "7",
+          "9",
+          "12",
+          "All"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 6 + 4?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "Is 0 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even"
+      }
+    ]
+  },
+  {
+    "id": "5-fractions-multiply",
+    "title": "Multiplying Fractions",
+    "description": "Multiply fractions by whole numbers and fractions",
     "grade_level": 5,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 1/2 × 4?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/3 × 6?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/2 × 1/2?",
+        "options": [
+          "1/2",
+          "1/4",
+          "1",
+          "2"
+        ],
+        "answer": "1/4"
+      },
+      {
+        "question": "What is 2/3 × 3?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/4 × 8?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "4-angles",
+    "title": "Types of Angles",
+    "description": "Identify acute, right, and obtuse angles",
+    "grade_level": 4,
     "topic": "Geometry",
     "difficulty": "medium",
     "questions": [
       {
-        "question": "How many sides does a triangle have?",
-        "options": ["2", "3", "4", "5"],
-        "answer": "3"
-      },
-      {
-        "question": "What shape has 4 equal sides and 4 right angles?",
-        "options": ["Rectangle", "Square", "Triangle", "Circle"],
-        "answer": "Square"
-      },
-      {
-        "question": "How many degrees are in a right angle?",
-        "options": ["45", "60", "90", "180"],
+        "question": "How many degrees in a right angle?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
         "answer": "90"
       },
       {
-        "question": "What is the perimeter of a square with side length 5?",
-        "options": ["10", "15", "20", "25"],
+        "question": "An acute angle is less than how many degrees?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "An obtuse angle is greater than?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "How many degrees in a straight line?",
+        "options": [
+          "90",
+          "120",
+          "180",
+          "360"
+        ],
+        "answer": "180"
+      },
+      {
+        "question": "How many degrees in a full circle?",
+        "options": [
+          "90",
+          "180",
+          "270",
+          "360"
+        ],
+        "answer": "360"
+      }
+    ]
+  },
+  {
+    "id": "3-data-graphs",
+    "title": "Reading Bar Graphs",
+    "description": "Interpret data from bar graphs",
+    "grade_level": 3,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If a bar reaches 5, what does that mean?",
+        "options": [
+          "5 items",
+          "5 people",
+          "5 units",
+          "All of these"
+        ],
+        "answer": "All of these"
+      },
+      {
+        "question": "Which axis shows categories?",
+        "options": [
+          "X-axis",
+          "Y-axis",
+          "Both",
+          "Neither"
+        ],
+        "answer": "X-axis"
+      },
+      {
+        "question": "Which axis shows values/numbers?",
+        "options": [
+          "X-axis",
+          "Y-axis",
+          "Both",
+          "Neither"
+        ],
+        "answer": "Y-axis"
+      },
+      {
+        "question": "If red bar is at 8 and blue at 5, difference?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "13"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What does the tallest bar represent?",
+        "options": [
+          "Smallest value",
+          "Largest value",
+          "Average",
+          "Total"
+        ],
+        "answer": "Largest value"
+      }
+    ]
+  },
+  {
+    "id": "5-ratios",
+    "title": "Introduction to Ratios",
+    "description": "Understanding ratios and proportions",
+    "grade_level": 5,
+    "topic": "Ratios",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Ratio of 2 to 4 can be written as?",
+        "options": [
+          "2:4",
+          "2/4",
+          "1:2",
+          "All of these"
+        ],
+        "answer": "All of these"
+      },
+      {
+        "question": "Simplify ratio 4:8",
+        "options": [
+          "1:2",
+          "2:4",
+          "4:8",
+          "Cannot simplify"
+        ],
+        "answer": "1:2"
+      },
+      {
+        "question": "If ratio is 3:5, and first is 6, second is?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "15"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "Ratio of 10 to 20 simplified?",
+        "options": [
+          "1:2",
+          "2:4",
+          "5:10",
+          "10:20"
+        ],
+        "answer": "1:2"
+      },
+      {
+        "question": "In 12 apples and 8 oranges, ratio of apples to oranges?",
+        "options": [
+          "2:3",
+          "3:2",
+          "4:3",
+          "3:4"
+        ],
+        "answer": "3:2"
+      }
+    ]
+  },
+  {
+    "id": "4-prime-composite",
+    "title": "Prime and Composite Numbers",
+    "description": "Identify prime and composite numbers",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Is 7 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Prime"
+      },
+      {
+        "question": "Is 12 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Composite"
+      },
+      {
+        "question": "Which is prime: 9, 11, or 15?",
+        "options": [
+          "9",
+          "11",
+          "15",
+          "All"
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "Is 1 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Neither"
+      },
+      {
+        "question": "What is the smallest prime number?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "5-mean-median-mode",
+    "title": "Mean, Median, and Mode",
+    "description": "Calculate average, middle, and most common",
+    "grade_level": 5,
+    "topic": "Data",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Mean of 2, 4, 6?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Median of 1, 3, 5, 7, 9?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Mode of 2, 3, 3, 4, 5?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Mean of 10, 20, 30?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
         "answer": "20"
       },
       {
-        "question": "What is the area of a rectangle with length 6 and width 3?",
-        "options": ["9", "12", "15", "18"],
-        "answer": "18"
+        "question": "Median of 4, 8, 12, 16?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "3-capacity",
+    "title": "Capacity and Volume",
+    "description": "Cups, pints, quarts, gallons, liters",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many cups in 1 pint?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "How many pints in 1 quart?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "How many quarts in 1 gallon?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which is larger: 1 liter or 1 cup?",
+        "options": [
+          "Liter",
+          "Cup",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Liter"
+      },
+      {
+        "question": "How many cups in 1 quart?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "2-place-value-hundreds",
+    "title": "Place Value: Hundreds",
+    "description": "Understanding hundreds, tens, and ones",
+    "grade_level": 2,
+    "topic": "Place Value",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "In 345, what digit is in hundreds place?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "9"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 4 hundreds, 2 tens, 6 ones?",
+        "options": [
+          "246",
+          "426",
+          "462",
+          "624"
+        ],
+        "answer": "426"
+      },
+      {
+        "question": "In 789, what digit is in tens place?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "17"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "How many tens in 300?",
+        "options": [
+          "3",
+          "30",
+          "300",
+          "3000"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "What number has 5 hundreds, 0 tens, 3 ones?",
+        "options": [
+          "53",
+          "503",
+          "530",
+          "5003"
+        ],
+        "answer": "503"
+      }
+    ]
+  },
+  {
+    "id": "k-comparing-sizes",
+    "title": "Comparing Sizes",
+    "description": "Bigger, smaller, longer, shorter",
+    "grade_level": 0,
+    "topic": "Measurement",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which is bigger: elephant or mouse?",
+        "options": [
+          "Elephant",
+          "Mouse",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Elephant"
+      },
+      {
+        "question": "Which is longer: pencil or crayon?",
+        "options": [
+          "Pencil",
+          "Crayon",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Pencil"
+      },
+      {
+        "question": "Which is taller: tree or flower?",
+        "options": [
+          "Tree",
+          "Flower",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Tree"
+      },
+      {
+        "question": "Which holds more: cup or bucket?",
+        "options": [
+          "Cup",
+          "Bucket",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Bucket"
+      },
+      {
+        "question": "Which is heavier: feather or rock?",
+        "options": [
+          "Feather",
+          "Rock",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Rock"
+      }
+    ]
+  },
+  {
+    "id": "1-add-to-20",
+    "title": "Addition to 20",
+    "description": "Adding numbers with sums up to 20",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 9 + 8?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 7 + 6?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 8 + 9?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 10 + 7?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 6 + 8?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      }
+    ]
+  },
+  {
+    "id": "4-factors-multiples",
+    "title": "Factors and Multiples",
+    "description": "Find factors and multiples of numbers",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Which is a factor of 12?",
+        "options": [
+          "5",
+          "4",
+          "7",
+          "8"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which is a multiple of 5?",
+        "options": [
+          "12",
+          "17",
+          "20",
+          "23"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "List factors of 6",
+        "options": [
+          "1,2,3,6",
+          "1,6",
+          "2,3",
+          "1,2,6"
+        ],
+        "answer": "1,2,3,6"
+      },
+      {
+        "question": "Is 24 a multiple of 6?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "question": "What is the greatest common factor of 8 and 12?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
       }
     ]
   }
