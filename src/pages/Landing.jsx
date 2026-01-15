@@ -103,6 +103,7 @@ const Landing = () => {
                         </div>
 
                         {!state.apiKey && (
+                            // Only show input if API key is not provided via env vars
                             <div style={{ marginBottom: '1.5rem' }}>
                                 <label>Gemini API Key (Ask Parent)</label>
                                 <input
