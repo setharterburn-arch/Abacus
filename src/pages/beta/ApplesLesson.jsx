@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import { ProfessorHoot, OrchardBackground, AssetImages } from '../../components/lesson/LessonAssets';
+import { ProfessorAbacus, OrchardBackground, AssetImages } from '../../components/lesson/LessonAssets';
 import { audioManager } from '../../services/audio';
 import { useGamification } from '../../context/GamificationContext';
 
@@ -189,7 +189,7 @@ const ApplesLesson = () => {
                                 </motion.div>
                             )}
                         </AnimatePresence>
-                        <ProfessorHoot speaking={isSpeaking} state={count > 0 ? 'happy' : 'neutral'} />
+                        <ProfessorAbacus speaking={isSpeaking} state={count > 0 ? 'happy' : 'neutral'} />
                     </div>
                 </motion.div>
 
