@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import LandingPage from './pages/LandingPage';
 import DemoLessons from './pages/DemoLessons';
 import DiagnosticTest from './pages/DiagnosticTest';
+import CurriculumGenerator from './pages/CurriculumGenerator';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
@@ -61,6 +62,7 @@ const AppRoutes = () => {
         <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/admin" element={<Admin />} />
+        <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
         <Route path="/test" element={<TestZone />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
