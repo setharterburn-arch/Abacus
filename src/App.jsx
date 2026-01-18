@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import LandingPage from './pages/LandingPage';
 import DemoLessons from './pages/DemoLessons';
+import DiagnosticTest from './pages/DiagnosticTest';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
@@ -46,6 +47,7 @@ const AppRoutes = () => {
         <Route path="/account" element={<MyAccount />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/demo" element={<DemoLessons />} />
+        <Route path="/diagnostic" element={<DiagnosticTest />} />
         <Route path="/worksheets" element={<Worksheets />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/beta" element={<Beta />} />
