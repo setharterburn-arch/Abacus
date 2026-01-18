@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useStore } from '../../services/store';
-import { supabase } from '../../services/supabase';
-import curriculumData from '../../data/curriculum.json';
+import { useStore } from '../services/store';
+import { supabase } from '../services/supabase';
+import curriculumData from '../data/curriculum.json';
 
 const DiagnosticTest = () => {
     const navigate = useNavigate();
