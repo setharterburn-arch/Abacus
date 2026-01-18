@@ -1,0 +1,207 @@
+{
+  "summary": {
+    "total_sets": 184,
+    "total_issues": 1,
+    "total_warnings": 30
+  },
+  "issues": [
+    {
+      "set": "Counting 1-20",
+      "grade": "Kindergarten",
+      "question_num": 5,
+      "question": "What is 10 + 5?",
+      "issue": "Arithmetic operations not appropriate for Kindergarten",
+      "severity": "HIGH"
+    }
+  ],
+  "warnings": [
+    {
+      "set": "Ordinal Numbers",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Ordinal Numbers",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Basic Word Problems",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Basic Word Problems",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Basic Word Problems",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Basic Word Problems",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Basic Word Problems",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Using Ten Frames",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Using Ten Frames",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Using Ten Frames",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 3 - 1",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 4 - 2",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 5 - 3",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 6 - 1",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 7 - 2",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 8 - 3",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 9 - 1",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 10 - 2",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 3 - 3",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 4 - 1",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 5 - 2",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 6 - 3",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 7 - 1",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 8 - 2",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtraction: 9 - 3",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    }
+  ],
+  "grade_distribution": {
+    "Kindergarten": 55,
+    "Grade 1": 49,
+    "Grade 2": 26,
+    "Grade 3": 20,
+    "Grade 4": 17,
+    "Grade 5": 17
+  }
+}
