@@ -1,20 +1,17 @@
 {
   "summary": {
     "total_sets": 184,
-    "total_issues": 1,
-    "total_warnings": 30
+    "total_issues": 0,
+    "total_warnings": 31
   },
-  "issues": [
+  "issues": [],
+  "warnings": [
     {
       "set": "Counting 1-20",
       "grade": "Kindergarten",
       "question_num": 5,
-      "question": "What is 10 + 5?",
-      "issue": "Arithmetic operations not appropriate for Kindergarten",
-      "severity": "HIGH"
-    }
-  ],
-  "warnings": [
+      "issue": "Question too long (18 words, max recommended: 10)"
+    },
     {
       "set": "Ordinal Numbers",
       "grade": "Grade 1",
