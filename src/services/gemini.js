@@ -27,7 +27,7 @@ Format:
 if (API_KEY) {
     genAI = new GoogleGenerativeAI(API_KEY);
     model = genAI.getGenerativeModel({
-        model: "gemini-pro",
+        model: "gemini-2.0-flash-exp",
         systemInstruction: SYSTEM_PROMPT
     });
 }
