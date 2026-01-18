@@ -50,6 +50,14 @@ const Navigation = () => {
                                 Dashboard
                             </NavLink>
 
+                            <NavLink
+                                to="/practice"
+                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                            >
+                                Practice 🎯
+                            </NavLink>
+
                             {state.profile?.role === 'teacher' && (
                                 <NavLink
                                     to="/worksheets"
