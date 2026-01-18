@@ -1,10 +1,147 @@
 {
   "summary": {
-    "total_sets": 184,
-    "total_issues": 0,
-    "total_warnings": 31
+    "total_sets": 285,
+    "total_issues": 17,
+    "total_warnings": 111
   },
-  "issues": [],
+  "issues": [
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 1,
+      "question": "Count by tens: 10, 20, 30, __?",
+      "issue": "Number 30 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 2,
+      "question": "What number comes after 60 when counting by tens?",
+      "issue": "Number 60 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 3,
+      "question": "What are 30 and 10 more?",
+      "issue": "Number 30 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 4,
+      "question": "What is the next number? 80, 90, ___",
+      "issue": "Number 90 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 5,
+      "question": "Which is bigger, 50 or 30?",
+      "issue": "Number 50 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 6,
+      "question": "What number is ten less than 60?",
+      "issue": "Number 60 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 7,
+      "question": "Count by tens to 30. How many numbers did you say?",
+      "issue": "Number 30 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 9,
+      "question": "10, 30, 50... What's missing?",
+      "issue": "Number 50 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 10,
+      "question": "Is 90 closer to 100 or 10?",
+      "issue": "Number 100 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 1,
+      "question": "What number comes after 29?",
+      "issue": "Number 29 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 3,
+      "question": "What number comes before 42?",
+      "issue": "Number 42 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 4,
+      "question": "Is 35 closer to 30 or 40?",
+      "issue": "Number 40 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 5,
+      "question": "Which number is bigger: 48 or 38?",
+      "issue": "Number 48 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 6,
+      "question": "Count: 10, 20, __, 40, 50. What's missing?",
+      "issue": "Number 50 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 8,
+      "question": "Which group has 45 stars?",
+      "issue": "Number 45 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 9,
+      "question": "What number is ten more than 25?",
+      "issue": "Number 25 too large (max: 20)",
+      "severity": "HIGH"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 10,
+      "question": "Is 21 closer to 20 or 30?",
+      "issue": "Number 30 too large (max: 20)",
+      "severity": "HIGH"
+    }
+  ],
   "warnings": [
     {
       "set": "Counting 1-20",
@@ -191,14 +328,495 @@
       "grade": "Grade 1",
       "question_num": 1,
       "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Sorting Shapes",
+      "grade": "Kindergarten",
+      "question_num": 9,
+      "issue": "Question too long (11 words, max recommended: 10)"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 7,
+      "issue": "Question too long (11 words, max recommended: 10)"
+    },
+    {
+      "set": "Counting to 100 by Tens",
+      "grade": "Kindergarten",
+      "question_num": 8,
+      "issue": "Question too long (11 words, max recommended: 10)"
+    },
+    {
+      "set": "Counting to 50",
+      "grade": "Kindergarten",
+      "question_num": 7,
+      "issue": "Question too long (11 words, max recommended: 10)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Strategies - Counting On",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Subtracting with Pictures",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Facts 0-10",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Facts 0-10",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Addition Facts 0-10",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (15 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (16 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (19 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (17 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (15 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (16 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (14 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (14 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (15 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Addition Within 10",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (16 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (15 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Word Problems - Subtraction Within 10",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Understanding Place Value (Tens and Ones)",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (13 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (16 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (18 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Non-Standard Units",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 1,
+      "issue": "Question too long (18 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (16 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 5,
+      "issue": "Question too long (10 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 7,
+      "issue": "Question too long (12 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 8,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (18 words, max recommended: 8)"
+    },
+    {
+      "set": "Telling Time to the Hour",
+      "grade": "Grade 1",
+      "question_num": 10,
+      "issue": "Question too long (18 words, max recommended: 8)"
+    },
+    {
+      "set": "Adding Three Numbers",
+      "grade": "Grade 1",
+      "question_num": 2,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Adding Three Numbers",
+      "grade": "Grade 1",
+      "question_num": 3,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Adding Three Numbers",
+      "grade": "Grade 1",
+      "question_num": 4,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Adding Three Numbers",
+      "grade": "Grade 1",
+      "question_num": 6,
+      "issue": "Question too long (11 words, max recommended: 8)"
+    },
+    {
+      "set": "Adding Three Numbers",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Creating and Interpreting Bar Graphs",
+      "grade": "Grade 1",
+      "question_num": 9,
+      "issue": "Question too long (9 words, max recommended: 8)"
+    },
+    {
+      "set": "Measuring Length with Inches and Centimeters",
+      "grade": "Grade 2",
+      "question_num": 10,
+      "issue": "Question too long (18 words, max recommended: 16)"
+    },
+    {
+      "set": "Telling Time to the Half Hour",
+      "grade": "Grade 2",
+      "question_num": 1,
+      "issue": "Question too long (20 words, max recommended: 16)"
+    },
+    {
+      "set": "Telling Time to the Half Hour",
+      "grade": "Grade 2",
+      "question_num": 3,
+      "issue": "Question too long (23 words, max recommended: 16)"
+    },
+    {
+      "set": "Telling Time to the Half Hour",
+      "grade": "Grade 2",
+      "question_num": 10,
+      "issue": "Question too long (21 words, max recommended: 16)"
+    },
+    {
+      "set": "Creating and Interpreting Pictographs",
+      "grade": "Grade 2",
+      "question_num": 2,
+      "issue": "Question too long (17 words, max recommended: 16)"
+    },
+    {
+      "set": "Creating and Interpreting Pictographs",
+      "grade": "Grade 2",
+      "question_num": 5,
+      "issue": "Question too long (21 words, max recommended: 16)"
+    },
+    {
+      "set": "Creating and Interpreting Pictographs",
+      "grade": "Grade 2",
+      "question_num": 10,
+      "issue": "Question too long (17 words, max recommended: 16)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 2",
+      "question_num": 2,
+      "issue": "Question too long (20 words, max recommended: 16)"
+    },
+    {
+      "set": "Fact Families",
+      "grade": "Grade 2",
+      "question_num": 3,
+      "issue": "Question too long (17 words, max recommended: 16)"
     }
   ],
   "grade_distribution": {
-    "Kindergarten": 55,
-    "Grade 1": 49,
-    "Grade 2": 26,
-    "Grade 3": 20,
-    "Grade 4": 17,
-    "Grade 5": 17
+    "Kindergarten": 70,
+    "Grade 1": 70,
+    "Grade 2": 46,
+    "Grade 3": 35,
+    "Grade 4": 32,
+    "Grade 5": 27,
+    "Grade 6": 5
   }
 }

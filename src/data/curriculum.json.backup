@@ -1,0 +1,8440 @@
+[
+  {
+    "id": "k-counting-1-20",
+    "title": "Counting 1-20",
+    "description": "Practice counting and number recognition",
+    "grade_level": 0,
+    "topic": "Counting",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What number comes after 5?",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What number comes before 10?",
+        "options": [
+          "8",
+          "9",
+          "11",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Count: 1, 2, 3, __?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "How many fingers do you have?",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "20"
+        ],
+        "answer": "10",
+        "image": "/curriculum-images/counting-fingers-10.png"
+      },
+      {
+        "question": "How many dots? ● ● ● ● ● ● ● ● ● ● ● ● ● ● ●",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-basic",
+    "title": "Basic Shapes",
+    "description": "Identify circles, squares, and triangles",
+    "grade_level": 0,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "How many sides does a triangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/shape-triangle.png"
+      },
+      {
+        "question": "How many sides does a square have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-square.png"
+      },
+      {
+        "question": "Which shape has no corners?",
+        "options": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Circle",
+        "image": "/curriculum-images/shape-circle.png"
+      },
+      {
+        "question": "How many corners does a rectangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What shape is a stop sign?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Octagon"
+        ],
+        "answer": "Octagon"
+      }
+    ]
+  },
+  {
+    "id": "1-add-facts-1-10",
+    "title": "Addition Facts (1-10)",
+    "description": "Practice basic addition with numbers 1-10",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is 2 + 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What is 5 + 4?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 1 + 7?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 6 + 3?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 4 + 4?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      }
+    ]
+  },
+  {
+    "id": "1-sub-facts-1-10",
+    "title": "Subtraction Facts (1-10)",
+    "description": "Practice basic subtraction with numbers 1-10",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is 8 - 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What is 10 - 4?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 7 - 2?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What is 9 - 5?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 6 - 6?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "0"
+      }
+    ]
+  },
+  {
+    "id": "1-counting-to-100",
+    "title": "Counting to 100",
+    "description": "Number recognition and counting practice",
+    "grade_level": 1,
+    "topic": "Counting",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What number comes after 49?",
+        "options": [
+          "48",
+          "50",
+          "51",
+          "52"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "What number comes before 30?",
+        "options": [
+          "28",
+          "29",
+          "31",
+          "32"
+        ],
+        "answer": "29"
+      },
+      {
+        "question": "Count by 10s: 10, 20, 30, __?",
+        "options": [
+          "35",
+          "40",
+          "50",
+          "60"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "What is 50 + 10?",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "Count by 5s: 5, 10, 15, __?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      }
+    ]
+  },
+  {
+    "id": "1-comparing-numbers",
+    "title": "Comparing Numbers",
+    "description": "Greater than, less than, equal to",
+    "grade_level": 1,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which is larger: 15 or 12?",
+        "options": [
+          "15",
+          "12",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Which is smaller: 8 or 11?",
+        "options": [
+          "8",
+          "11",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Is 20 greater than 19?",
+        "options": [
+          "Yes",
+          "No",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "question": "Which equals 10: 5+5 or 6+3?",
+        "options": [
+          "5+5",
+          "6+3",
+          "Both",
+          "Neither"
+        ],
+        "answer": "5+5"
+      },
+      {
+        "question": "What is the smallest: 7, 4, or 9?",
+        "options": [
+          "7",
+          "4",
+          "9",
+          "All same"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "1-patterns",
+    "title": "Number Patterns",
+    "description": "Identify and continue patterns",
+    "grade_level": 1,
+    "topic": "Patterns",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Continue: 2, 4, 6, __?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Continue: 5, 10, 15, __?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Continue: 1, 3, 5, __?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What comes next: 10, 20, 30, __?",
+        "options": [
+          "35",
+          "40",
+          "50",
+          "60"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "Pattern: 3, 6, 9, __?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12"
+      }
+    ]
+  },
+  {
+    "id": "2-place-value-tens-ones",
+    "title": "Place Value: Tens and Ones",
+    "description": "Understanding tens and ones place values",
+    "grade_level": 2,
+    "topic": "Place Value",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "In 34, what digit is in the tens place?",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "10"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 2 tens and 5 ones?",
+        "options": [
+          "23",
+          "25",
+          "27",
+          "52"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "In 67, what digit is in the ones place?",
+        "options": [
+          "6",
+          "7",
+          "13",
+          "60"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What number has 4 tens and 8 ones?",
+        "options": [
+          "48",
+          "84",
+          "12",
+          "40"
+        ],
+        "answer": "48"
+      },
+      {
+        "question": "How many tens are in 90?",
+        "options": [
+          "0",
+          "9",
+          "10",
+          "90"
+        ],
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "2-add-2digit",
+    "title": "2-Digit Addition",
+    "description": "Adding two-digit numbers",
+    "grade_level": 2,
+    "topic": "Addition",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 23 + 14?",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37"
+      },
+      {
+        "question": "What is 45 + 32?",
+        "options": [
+          "75",
+          "77",
+          "79",
+          "81"
+        ],
+        "answer": "77"
+      },
+      {
+        "question": "What is 18 + 21?",
+        "options": [
+          "37",
+          "38",
+          "39",
+          "40"
+        ],
+        "answer": "39"
+      },
+      {
+        "question": "What is 56 + 13?",
+        "options": [
+          "67",
+          "68",
+          "69",
+          "70"
+        ],
+        "answer": "69"
+      },
+      {
+        "question": "What is 29 + 30?",
+        "options": [
+          "57",
+          "58",
+          "59",
+          "60"
+        ],
+        "answer": "59"
+      }
+    ]
+  },
+  {
+    "id": "2-sub-2digit",
+    "title": "2-Digit Subtraction",
+    "description": "Subtracting two-digit numbers",
+    "grade_level": 2,
+    "topic": "Subtraction",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 45 - 12?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": "33"
+      },
+      {
+        "question": "What is 78 - 23?",
+        "options": [
+          "53",
+          "54",
+          "55",
+          "56"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "What is 90 - 45?",
+        "options": [
+          "43",
+          "44",
+          "45",
+          "46"
+        ],
+        "answer": "45"
+      },
+      {
+        "question": "What is 67 - 34?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": "33"
+      },
+      {
+        "question": "What is 50 - 18?",
+        "options": [
+          "30",
+          "31",
+          "32",
+          "33"
+        ],
+        "answer": "32"
+      }
+    ]
+  },
+  {
+    "id": "2-skip-counting",
+    "title": "Skip Counting",
+    "description": "Count by 2s, 5s, and 10s",
+    "grade_level": 2,
+    "topic": "Counting",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Count by 2s: 10, 12, 14, __?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "16"
+      },
+      {
+        "question": "Count by 5s: 25, 30, 35, __?",
+        "options": [
+          "36",
+          "38",
+          "40",
+          "45"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "Count by 10s: 40, 50, 60, __?",
+        "options": [
+          "65",
+          "70",
+          "75",
+          "80"
+        ],
+        "answer": "70"
+      },
+      {
+        "question": "Count by 2s: 20, 22, 24, __?",
+        "options": [
+          "25",
+          "26",
+          "27",
+          "28"
+        ],
+        "answer": "26"
+      },
+      {
+        "question": "Count by 5s: 50, 55, 60, __?",
+        "options": [
+          "61",
+          "63",
+          "65",
+          "70"
+        ],
+        "answer": "65"
+      }
+    ]
+  },
+  {
+    "id": "2-time-hours",
+    "title": "Telling Time: Hours",
+    "description": "Read clocks to the hour and half-hour",
+    "grade_level": 2,
+    "topic": "Time",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If the hour hand points to 3, what time is it?",
+        "options": [
+          "2:00",
+          "3:00",
+          "4:00",
+          "5:00"
+        ],
+        "answer": "3:00"
+      },
+      {
+        "question": "What is 30 minutes after 2:00?",
+        "options": [
+          "2:15",
+          "2:30",
+          "2:45",
+          "3:00"
+        ],
+        "answer": "2:30"
+      },
+      {
+        "question": "How many minutes in 1 hour?",
+        "options": [
+          "30",
+          "45",
+          "60",
+          "90"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "What time is half past 5?",
+        "options": [
+          "4:30",
+          "5:00",
+          "5:30",
+          "6:00"
+        ],
+        "answer": "5:30"
+      },
+      {
+        "question": "If it's 7:00, what time was it 1 hour ago?",
+        "options": [
+          "5:00",
+          "6:00",
+          "7:00",
+          "8:00"
+        ],
+        "answer": "6:00"
+      }
+    ]
+  },
+  {
+    "id": "2-money-coins",
+    "title": "Counting Money: Coins",
+    "description": "Count pennies, nickels, dimes, quarters",
+    "grade_level": 2,
+    "topic": "Money",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How much is a nickel worth?",
+        "options": [
+          "1\u00a2",
+          "5\u00a2",
+          "10\u00a2",
+          "25\u00a2"
+        ],
+        "answer": "5\u00a2"
+      },
+      {
+        "question": "How much is a dime worth?",
+        "options": [
+          "1\u00a2",
+          "5\u00a2",
+          "10\u00a2",
+          "25\u00a2"
+        ],
+        "answer": "10\u00a2"
+      },
+      {
+        "question": "How much is a quarter worth?",
+        "options": [
+          "5\u00a2",
+          "10\u00a2",
+          "25\u00a2",
+          "50\u00a2"
+        ],
+        "answer": "25\u00a2"
+      },
+      {
+        "question": "How much is 2 dimes?",
+        "options": [
+          "10\u00a2",
+          "15\u00a2",
+          "20\u00a2",
+          "25\u00a2"
+        ],
+        "answer": "20\u00a2"
+      },
+      {
+        "question": "How much is 1 quarter + 1 nickel?",
+        "options": [
+          "25\u00a2",
+          "30\u00a2",
+          "35\u00a2",
+          "40\u00a2"
+        ],
+        "answer": "30\u00a2"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-2-5",
+    "title": "Multiplication Tables (2s and 5s)",
+    "description": "Practice multiplication facts for 2 and 5",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 2 \u00d7 6?",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 5 \u00d7 4?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "What is 2 \u00d7 9?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "What is 5 \u00d7 7?",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 2 \u00d7 8?",
+        "options": [
+          "14",
+          "16",
+          "18",
+          "20"
+        ],
+        "answer": "16"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-3-4",
+    "title": "Multiplication Tables (3s and 4s)",
+    "description": "Practice multiplication facts for 3 and 4",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 3 \u00d7 5?",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "21"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "What is 4 \u00d7 6?",
+        "options": [
+          "20",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "What is 3 \u00d7 8?",
+        "options": [
+          "21",
+          "24",
+          "27",
+          "30"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "What is 4 \u00d7 7?",
+        "options": [
+          "24",
+          "28",
+          "32",
+          "36"
+        ],
+        "answer": "28"
+      },
+      {
+        "question": "What is 3 \u00d7 9?",
+        "options": [
+          "24",
+          "27",
+          "30",
+          "33"
+        ],
+        "answer": "27"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-6-7",
+    "title": "Multiplication Tables (6s and 7s)",
+    "description": "Practice multiplication facts for 6 and 7",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 6 \u00d7 4?",
+        "options": [
+          "20",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "What is 7 \u00d7 5?",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 6 \u00d7 7?",
+        "options": [
+          "36",
+          "40",
+          "42",
+          "48"
+        ],
+        "answer": "42"
+      },
+      {
+        "question": "What is 7 \u00d7 8?",
+        "options": [
+          "49",
+          "54",
+          "56",
+          "63"
+        ],
+        "answer": "56"
+      },
+      {
+        "question": "What is 6 \u00d7 9?",
+        "options": [
+          "48",
+          "52",
+          "54",
+          "60"
+        ],
+        "answer": "54"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-8-9",
+    "title": "Multiplication Tables (8s and 9s)",
+    "description": "Practice multiplication facts for 8 and 9",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 8 \u00d7 6?",
+        "options": [
+          "42",
+          "48",
+          "54",
+          "56"
+        ],
+        "answer": "48"
+      },
+      {
+        "question": "What is 9 \u00d7 7?",
+        "options": [
+          "56",
+          "63",
+          "72",
+          "81"
+        ],
+        "answer": "63"
+      },
+      {
+        "question": "What is 8 \u00d7 8?",
+        "options": [
+          "56",
+          "60",
+          "64",
+          "72"
+        ],
+        "answer": "64"
+      },
+      {
+        "question": "What is 9 \u00d7 9?",
+        "options": [
+          "72",
+          "81",
+          "90",
+          "99"
+        ],
+        "answer": "81"
+      },
+      {
+        "question": "What is 8 \u00d7 9?",
+        "options": [
+          "64",
+          "72",
+          "80",
+          "81"
+        ],
+        "answer": "72"
+      }
+    ]
+  },
+  {
+    "id": "3-division-basics",
+    "title": "Division Basics",
+    "description": "Introduction to division concepts",
+    "grade_level": 3,
+    "topic": "Division",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 12 \u00f7 3?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 20 \u00f7 5?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 18 \u00f7 6?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 24 \u00f7 4?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 15 \u00f7 3?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "3-fractions-intro",
+    "title": "Introduction to Fractions",
+    "description": "Understanding basic fractions (halves, thirds, fourths)",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What fraction is 1 slice of 4 equal slices?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/8"
+        ],
+        "answer": "1/4",
+        "image": "/curriculum-images/fraction-pizza-quarter.png"
+      },
+      {
+        "question": "If you eat 2 of 6 cookies, what fraction?",
+        "options": [
+          "1/2",
+          "1/3",
+          "2/6",
+          "3/6"
+        ],
+        "answer": "2/6"
+      },
+      {
+        "question": "What is 1/2 + 1/2?",
+        "options": [
+          "1/4",
+          "2/2",
+          "1",
+          "2"
+        ],
+        "answer": "1",
+        "image": "/curriculum-images/fraction-pizza-half.png"
+      },
+      {
+        "question": "Which is larger: 1/2 or 1/4?",
+        "options": [
+          "1/2",
+          "1/4",
+          "Equal",
+          "Cannot compare"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "What is half of 10?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "3-measurement-length",
+    "title": "Measurement: Length",
+    "description": "Inches, feet, centimeters, meters",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many inches in 1 foot?",
+        "options": [
+          "6",
+          "10",
+          "12",
+          "24"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "How many feet in 1 yard?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "How many centimeters in 1 meter?",
+        "options": [
+          "10",
+          "50",
+          "100",
+          "1000"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "Which is longer: 1 meter or 1 foot?",
+        "options": [
+          "Meter",
+          "Foot",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Meter"
+      },
+      {
+        "question": "What is 2 feet in inches?",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "30"
+        ],
+        "answer": "24"
+      }
+    ]
+  },
+  {
+    "id": "3-word-problems",
+    "title": "Word Problems",
+    "description": "Solve real-world math problems",
+    "grade_level": 3,
+    "topic": "Problem Solving",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Sarah has 12 apples. She gives 4 to Tom. How many left?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "A box has 5 rows of 6 eggs. How many total?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "Mike ran 3 miles Monday and 4 miles Tuesday. Total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "There are 24 students. They sit in 4 equal groups. How many per group?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "A book costs $8. You have $20. How much change?",
+        "options": [
+          "$10",
+          "$11",
+          "$12",
+          "$13"
+        ],
+        "answer": "$12"
+      }
+    ]
+  },
+  {
+    "id": "4-mult-multi-digit",
+    "title": "Multi-Digit Multiplication",
+    "description": "Multiply 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 23 \u00d7 4?",
+        "options": [
+          "82",
+          "88",
+          "92",
+          "96"
+        ],
+        "answer": "92"
+      },
+      {
+        "question": "What is 15 \u00d7 6?",
+        "options": [
+          "80",
+          "85",
+          "90",
+          "95"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "What is 34 \u00d7 3?",
+        "options": [
+          "96",
+          "99",
+          "102",
+          "105"
+        ],
+        "answer": "102"
+      },
+      {
+        "question": "What is 12 \u00d7 8?",
+        "options": [
+          "88",
+          "92",
+          "96",
+          "100"
+        ],
+        "answer": "96"
+      },
+      {
+        "question": "What is 27 \u00d7 5?",
+        "options": [
+          "125",
+          "130",
+          "135",
+          "140"
+        ],
+        "answer": "135"
+      }
+    ]
+  },
+  {
+    "id": "4-division-long",
+    "title": "Long Division",
+    "description": "Divide 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Division",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 48 \u00f7 4?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 63 \u00f7 7?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 56 \u00f7 8?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What is 72 \u00f7 9?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 45 \u00f7 5?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "4-decimals-intro",
+    "title": "Introduction to Decimals",
+    "description": "Understanding decimal place values (tenths)",
+    "grade_level": 4,
+    "topic": "Decimals",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 0.5 as a fraction?",
+        "options": [
+          "1/5",
+          "1/2",
+          "5/10",
+          "Both B and C"
+        ],
+        "answer": "Both B and C"
+      },
+      {
+        "question": "What is 2.3 + 1.4?",
+        "options": [
+          "3.5",
+          "3.7",
+          "4.7",
+          "3.1"
+        ],
+        "answer": "3.7"
+      },
+      {
+        "question": "Which is larger: 0.8 or 0.3?",
+        "options": [
+          "0.8",
+          "0.3",
+          "Equal",
+          "Cannot compare"
+        ],
+        "answer": "0.8"
+      },
+      {
+        "question": "What is 5.0 - 2.5?",
+        "options": [
+          "2.0",
+          "2.5",
+          "3.0",
+          "3.5"
+        ],
+        "answer": "2.5"
+      },
+      {
+        "question": "How do you write 'three tenths'?",
+        "options": [
+          "0.03",
+          "0.3",
+          "3.0",
+          "30"
+        ],
+        "answer": "0.3"
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-equivalent",
+    "title": "Equivalent Fractions",
+    "description": "Finding and simplifying equivalent fractions",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Which equals 1/2?",
+        "options": [
+          "2/3",
+          "2/4",
+          "3/4",
+          "3/5"
+        ],
+        "answer": "2/4"
+      },
+      {
+        "question": "Simplify: 4/8",
+        "options": [
+          "1/2",
+          "2/3",
+          "3/4",
+          "Cannot simplify"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "Which equals 3/4?",
+        "options": [
+          "6/8",
+          "4/6",
+          "5/8",
+          "2/3"
+        ],
+        "answer": "6/8"
+      },
+      {
+        "question": "Simplify: 6/9",
+        "options": [
+          "1/2",
+          "2/3",
+          "3/4",
+          "Cannot simplify"
+        ],
+        "answer": "2/3"
+      },
+      {
+        "question": "Which equals 2/3?",
+        "options": [
+          "3/4",
+          "4/6",
+          "5/6",
+          "3/5"
+        ],
+        "answer": "4/6"
+      }
+    ]
+  },
+  {
+    "id": "4-area-perimeter",
+    "title": "Area and Perimeter",
+    "description": "Calculate area and perimeter of rectangles",
+    "grade_level": 4,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Perimeter of square with side 5?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Area of rectangle: length 6, width 3?",
+        "options": [
+          "9",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "Perimeter of rectangle: length 8, width 4?",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "Area of square with side 7?",
+        "options": [
+          "28",
+          "35",
+          "42",
+          "49"
+        ],
+        "answer": "49"
+      },
+      {
+        "question": "What is perimeter?",
+        "options": [
+          "Inside space",
+          "Distance around",
+          "Volume",
+          "Weight"
+        ],
+        "answer": "Distance around"
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-operations",
+    "title": "Decimal Operations",
+    "description": "Add, subtract, multiply decimals",
+    "grade_level": 5,
+    "topic": "Decimals",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 3.5 + 2.8?",
+        "options": [
+          "5.3",
+          "6.0",
+          "6.3",
+          "6.8"
+        ],
+        "answer": "6.3"
+      },
+      {
+        "question": "What is 7.2 - 3.6?",
+        "options": [
+          "3.4",
+          "3.6",
+          "4.4",
+          "4.6"
+        ],
+        "answer": "3.6"
+      },
+      {
+        "question": "What is 2.5 \u00d7 4?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 0.6 + 0.9?",
+        "options": [
+          "1.3",
+          "1.5",
+          "1.7",
+          "1.9"
+        ],
+        "answer": "1.5"
+      },
+      {
+        "question": "What is 5.0 - 1.25?",
+        "options": [
+          "3.25",
+          "3.50",
+          "3.75",
+          "4.00"
+        ],
+        "answer": "3.75"
+      }
+    ]
+  },
+  {
+    "id": "5-percentages",
+    "title": "Introduction to Percentages",
+    "description": "Understanding percent and converting",
+    "grade_level": 5,
+    "topic": "Percentages",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 50% as a fraction?",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "What is 25% as a decimal?",
+        "options": [
+          "0.025",
+          "0.25",
+          "2.5",
+          "25"
+        ],
+        "answer": "0.25"
+      },
+      {
+        "question": "What is 100% of 50?",
+        "options": [
+          "25",
+          "50",
+          "75",
+          "100"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "What is 10% of 100?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What percent is 1/4?",
+        "options": [
+          "10%",
+          "20%",
+          "25%",
+          "50%"
+        ],
+        "answer": "25%"
+      }
+    ]
+  },
+  {
+    "id": "5-volume",
+    "title": "Volume of Rectangular Prisms",
+    "description": "Calculate volume using length \u00d7 width \u00d7 height",
+    "grade_level": 5,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Volume: length 3, width 2, height 4?",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "Volume of cube with side 3?",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "36"
+        ],
+        "answer": "27"
+      },
+      {
+        "question": "Volume: 5 \u00d7 4 \u00d7 2?",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "What is volume measured in?",
+        "options": [
+          "Square units",
+          "Cubic units",
+          "Linear units",
+          "Degrees"
+        ],
+        "answer": "Cubic units"
+      },
+      {
+        "question": "Volume: 6 \u00d7 3 \u00d7 3?",
+        "options": [
+          "36",
+          "45",
+          "54",
+          "63"
+        ],
+        "answer": "54"
+      }
+    ]
+  },
+  {
+    "id": "5-coordinate-plane",
+    "title": "Coordinate Plane",
+    "description": "Plot and identify points on a grid",
+    "grade_level": 5,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Point (3, 2): which is x-coordinate?",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "1"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/coordinate-grid-basic.png"
+      },
+      {
+        "question": "Point (0, 5): which is y-coordinate?",
+        "options": [
+          "0",
+          "5",
+          "Both",
+          "Neither"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Origin is at which point?",
+        "options": [
+          "(1, 1)",
+          "(0, 0)",
+          "(1, 0)",
+          "(0, 1)"
+        ],
+        "answer": "(0, 0)"
+      },
+      {
+        "question": "Point (4, 4) is in which quadrant?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "I"
+      },
+      {
+        "question": "How many axes on coordinate plane?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "5-order-operations",
+    "title": "Order of Operations",
+    "description": "PEMDAS: Parentheses, Exponents, Multiply/Divide, Add/Subtract",
+    "grade_level": 5,
+    "topic": "Problem Solving",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 2 + 3 \u00d7 4?",
+        "options": [
+          "14",
+          "20",
+          "24",
+          "32"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "What is (2 + 3) \u00d7 4?",
+        "options": [
+          "14",
+          "20",
+          "24",
+          "32"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "What is 10 - 2 \u00d7 3?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "24"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 12 \u00f7 3 + 2?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 5 \u00d7 (3 + 2)?",
+        "options": [
+          "13",
+          "17",
+          "25",
+          "30"
+        ],
+        "answer": "25"
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-add-sub",
+    "title": "Adding and Subtracting Fractions",
+    "description": "Add and subtract fractions with like denominators",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 1/4 + 1/4?",
+        "options": [
+          "1/8",
+          "2/8",
+          "1/2",
+          "2/4"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "What is 3/5 - 1/5?",
+        "options": [
+          "2/5",
+          "2/10",
+          "4/5",
+          "1/5"
+        ],
+        "answer": "2/5"
+      },
+      {
+        "question": "What is 2/6 + 3/6?",
+        "options": [
+          "5/6",
+          "5/12",
+          "1/2",
+          "2/3"
+        ],
+        "answer": "5/6"
+      },
+      {
+        "question": "What is 7/8 - 3/8?",
+        "options": [
+          "4/8",
+          "1/2",
+          "Both A and B",
+          "4/16"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "question": "What is 1/3 + 1/3?",
+        "options": [
+          "1/6",
+          "2/6",
+          "2/3",
+          "1"
+        ],
+        "answer": "2/3"
+      }
+    ]
+  },
+  {
+    "id": "3-rounding",
+    "title": "Rounding Numbers",
+    "description": "Round to nearest 10 and 100",
+    "grade_level": 3,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Round 47 to nearest 10",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "60"
+        ],
+        "answer": "50"
+      },
+      {
+        "question": "Round 123 to nearest 100",
+        "options": [
+          "100",
+          "120",
+          "130",
+          "200"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "Round 85 to nearest 10",
+        "options": [
+          "80",
+          "85",
+          "90",
+          "100"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "Round 249 to nearest 100",
+        "options": [
+          "200",
+          "240",
+          "250",
+          "300"
+        ],
+        "answer": "200"
+      },
+      {
+        "question": "Round 55 to nearest 10",
+        "options": [
+          "50",
+          "55",
+          "60",
+          "100"
+        ],
+        "answer": "60"
+      }
+    ]
+  },
+  {
+    "id": "2-even-odd",
+    "title": "Even and Odd Numbers",
+    "description": "Identify even and odd numbers",
+    "grade_level": 2,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Is 8 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even"
+      },
+      {
+        "question": "Is 15 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Odd"
+      },
+      {
+        "question": "Which is even: 7, 9, or 12?",
+        "options": [
+          "7",
+          "9",
+          "12",
+          "All"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "What is 6 + 4?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "Is 0 even or odd?",
+        "options": [
+          "Even",
+          "Odd",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even"
+      }
+    ]
+  },
+  {
+    "id": "5-fractions-multiply",
+    "title": "Multiplying Fractions",
+    "description": "Multiply fractions by whole numbers and fractions",
+    "grade_level": 5,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 1/2 \u00d7 4?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/3 \u00d7 6?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/2 \u00d7 1/2?",
+        "options": [
+          "1/2",
+          "1/4",
+          "1",
+          "2"
+        ],
+        "answer": "1/4"
+      },
+      {
+        "question": "What is 2/3 \u00d7 3?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 1/4 \u00d7 8?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "4-angles",
+    "title": "Types of Angles",
+    "description": "Identify acute, right, and obtuse angles",
+    "grade_level": 4,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many degrees in a right angle?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "An acute angle is less than how many degrees?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "An obtuse angle is greater than?",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "How many degrees in a straight line?",
+        "options": [
+          "90",
+          "120",
+          "180",
+          "360"
+        ],
+        "answer": "180"
+      },
+      {
+        "question": "How many degrees in a full circle?",
+        "options": [
+          "90",
+          "180",
+          "270",
+          "360"
+        ],
+        "answer": "360"
+      }
+    ]
+  },
+  {
+    "id": "3-data-graphs",
+    "title": "Reading Bar Graphs",
+    "description": "Interpret data from bar graphs",
+    "grade_level": 3,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If a bar reaches 5, what does that mean?",
+        "options": [
+          "5 items",
+          "5 people",
+          "5 units",
+          "All of these"
+        ],
+        "answer": "All of these"
+      },
+      {
+        "question": "Which axis shows categories?",
+        "options": [
+          "X-axis",
+          "Y-axis",
+          "Both",
+          "Neither"
+        ],
+        "answer": "X-axis"
+      },
+      {
+        "question": "Which axis shows values/numbers?",
+        "options": [
+          "X-axis",
+          "Y-axis",
+          "Both",
+          "Neither"
+        ],
+        "answer": "Y-axis"
+      },
+      {
+        "question": "If red bar is at 8 and blue at 5, difference?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "13"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What does the tallest bar represent?",
+        "options": [
+          "Smallest value",
+          "Largest value",
+          "Average",
+          "Total"
+        ],
+        "answer": "Largest value"
+      }
+    ]
+  },
+  {
+    "id": "5-ratios",
+    "title": "Introduction to Ratios",
+    "description": "Understanding ratios and proportions",
+    "grade_level": 5,
+    "topic": "Ratios",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Ratio of 2 to 4 can be written as?",
+        "options": [
+          "2:4",
+          "2/4",
+          "1:2",
+          "All of these"
+        ],
+        "answer": "All of these"
+      },
+      {
+        "question": "Simplify ratio 4:8",
+        "options": [
+          "1:2",
+          "2:4",
+          "4:8",
+          "Cannot simplify"
+        ],
+        "answer": "1:2"
+      },
+      {
+        "question": "If ratio is 3:5, and first is 6, second is?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "15"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "Ratio of 10 to 20 simplified?",
+        "options": [
+          "1:2",
+          "2:4",
+          "5:10",
+          "10:20"
+        ],
+        "answer": "1:2"
+      },
+      {
+        "question": "In 12 apples and 8 oranges, ratio of apples to oranges?",
+        "options": [
+          "2:3",
+          "3:2",
+          "4:3",
+          "3:4"
+        ],
+        "answer": "3:2"
+      }
+    ]
+  },
+  {
+    "id": "4-prime-composite",
+    "title": "Prime and Composite Numbers",
+    "description": "Identify prime and composite numbers",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Is 7 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Prime"
+      },
+      {
+        "question": "Is 12 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Composite"
+      },
+      {
+        "question": "Which is prime: 9, 11, or 15?",
+        "options": [
+          "9",
+          "11",
+          "15",
+          "All"
+        ],
+        "answer": "11"
+      },
+      {
+        "question": "Is 1 prime or composite?",
+        "options": [
+          "Prime",
+          "Composite",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Neither"
+      },
+      {
+        "question": "What is the smallest prime number?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "5-mean-median-mode",
+    "title": "Mean, Median, and Mode",
+    "description": "Calculate average, middle, and most common",
+    "grade_level": 5,
+    "topic": "Data",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Mean of 2, 4, 6?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Median of 1, 3, 5, 7, 9?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Mode of 2, 3, 3, 4, 5?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Mean of 10, 20, 30?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Median of 4, 8, 12, 16?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "3-capacity",
+    "title": "Capacity and Volume",
+    "description": "Cups, pints, quarts, gallons, liters",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many cups in 1 pint?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "How many pints in 1 quart?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "How many quarts in 1 gallon?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which is larger: 1 liter or 1 cup?",
+        "options": [
+          "Liter",
+          "Cup",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Liter"
+      },
+      {
+        "question": "How many cups in 1 quart?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "2-place-value-hundreds",
+    "title": "Place Value: Hundreds",
+    "description": "Understanding hundreds, tens, and ones",
+    "grade_level": 2,
+    "topic": "Place Value",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "In 345, what digit is in hundreds place?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "9"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 4 hundreds, 2 tens, 6 ones?",
+        "options": [
+          "246",
+          "426",
+          "462",
+          "624"
+        ],
+        "answer": "426"
+      },
+      {
+        "question": "In 789, what digit is in tens place?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "17"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "How many tens in 300?",
+        "options": [
+          "3",
+          "30",
+          "300",
+          "3000"
+        ],
+        "answer": "30"
+      },
+      {
+        "question": "What number has 5 hundreds, 0 tens, 3 ones?",
+        "options": [
+          "53",
+          "503",
+          "530",
+          "5003"
+        ],
+        "answer": "503"
+      }
+    ]
+  },
+  {
+    "id": "k-comparing-sizes",
+    "title": "Comparing Sizes",
+    "description": "Bigger, smaller, longer, shorter",
+    "grade_level": 0,
+    "topic": "Measurement",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which is bigger: elephant or mouse?",
+        "options": [
+          "Elephant",
+          "Mouse",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Elephant"
+      },
+      {
+        "question": "Which is longer: pencil or crayon?",
+        "options": [
+          "Pencil",
+          "Crayon",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Pencil"
+      },
+      {
+        "question": "Which is taller: tree or flower?",
+        "options": [
+          "Tree",
+          "Flower",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Tree"
+      },
+      {
+        "question": "Which holds more: cup or bucket?",
+        "options": [
+          "Cup",
+          "Bucket",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Bucket"
+      },
+      {
+        "question": "Which is heavier: feather or rock?",
+        "options": [
+          "Feather",
+          "Rock",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Rock"
+      }
+    ]
+  },
+  {
+    "id": "1-add-to-20",
+    "title": "Addition to 20",
+    "description": "Adding numbers with sums up to 20",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is 9 + 8?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 7 + 6?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What is 8 + 9?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 10 + 7?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "17"
+      },
+      {
+        "question": "What is 6 + 8?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      }
+    ]
+  },
+  {
+    "id": "4-factors-multiples",
+    "title": "Factors and Multiples",
+    "description": "Find factors and multiples of numbers",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Which is a factor of 12?",
+        "options": [
+          "5",
+          "4",
+          "7",
+          "8"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "Which is a multiple of 5?",
+        "options": [
+          "12",
+          "17",
+          "20",
+          "23"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "List factors of 6",
+        "options": [
+          "1,2,3,6",
+          "1,6",
+          "2,3",
+          "1,2,6"
+        ],
+        "answer": "1,2,3,6"
+      },
+      {
+        "question": "Is 24 a multiple of 6?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "question": "What is the greatest common factor of 8 and 12?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
+      }
+    ]
+  },
+  {
+    "id": "k-colors-shapes",
+    "title": "Colors and Shapes",
+    "description": "Identify colors and match shapes",
+    "grade_level": 0,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What color is the sky?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "answer": "Blue"
+      },
+      {
+        "question": "What shape is a ball?",
+        "options": [
+          "Square",
+          "Triangle",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Circle"
+      },
+      {
+        "question": "How many sides does a rectangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What color is grass?",
+        "options": [
+          "Blue",
+          "Red",
+          "Green",
+          "Yellow"
+        ],
+        "answer": "Green"
+      },
+      {
+        "question": "Which shape has 3 sides?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Triangle"
+      }
+    ]
+  },
+  {
+    "id": "k-number-order",
+    "title": "Number Order",
+    "description": "Put numbers in order from smallest to largest",
+    "grade_level": 0,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which is smallest: 3, 7, or 5?",
+        "options": [
+          "3",
+          "7",
+          "5",
+          "All same"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Which is largest: 2, 9, or 6?",
+        "options": [
+          "2",
+          "9",
+          "6",
+          "All same"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "Put in order: 4, 1, 3. What comes first?",
+        "options": [
+          "4",
+          "1",
+          "3",
+          "Cannot tell"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "What number is between 5 and 7?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "Which is bigger: 10 or 8?",
+        "options": [
+          "10",
+          "8",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "1-doubles-facts",
+    "title": "Doubles Facts",
+    "description": "Adding the same number twice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is 3 + 3?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 5 + 5?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 7 + 7?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "What is 4 + 4?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 6 + 6?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12"
+      }
+    ]
+  },
+  {
+    "id": "1-number-bonds-10",
+    "title": "Number Bonds to 10",
+    "description": "Find pairs that make 10",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What + 4 = 10?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What + 7 = 10?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What + 2 = 10?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What + 5 = 10?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What + 9 = 10?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "id": "1-sub-from-10",
+    "title": "Subtracting from 10",
+    "description": "Subtract numbers from 10",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is 10 - 3?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "What is 10 - 6?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is 10 - 1?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 10 - 8?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 10 - 5?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "2-add-with-regrouping",
+    "title": "Addition with Regrouping",
+    "description": "2-digit addition requiring carrying",
+    "grade_level": 2,
+    "topic": "Addition",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 27 + 15?",
+        "options": [
+          "40",
+          "41",
+          "42",
+          "43"
+        ],
+        "answer": "42"
+      },
+      {
+        "question": "What is 38 + 24?",
+        "options": [
+          "60",
+          "61",
+          "62",
+          "63"
+        ],
+        "answer": "62"
+      },
+      {
+        "question": "What is 49 + 33?",
+        "options": [
+          "80",
+          "81",
+          "82",
+          "83"
+        ],
+        "answer": "82"
+      },
+      {
+        "question": "What is 56 + 28?",
+        "options": [
+          "82",
+          "83",
+          "84",
+          "85"
+        ],
+        "answer": "84"
+      },
+      {
+        "question": "What is 67 + 19?",
+        "options": [
+          "84",
+          "85",
+          "86",
+          "87"
+        ],
+        "answer": "86"
+      }
+    ]
+  },
+  {
+    "id": "2-sub-with-regrouping",
+    "title": "Subtraction with Regrouping",
+    "description": "2-digit subtraction requiring borrowing",
+    "grade_level": 2,
+    "topic": "Subtraction",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 42 - 17?",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "What is 53 - 28?",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "What is 71 - 36?",
+        "options": [
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 64 - 29?",
+        "options": [
+          "33",
+          "34",
+          "35",
+          "36"
+        ],
+        "answer": "35"
+      },
+      {
+        "question": "What is 80 - 47?",
+        "options": [
+          "31",
+          "32",
+          "33",
+          "34"
+        ],
+        "answer": "33"
+      }
+    ]
+  },
+  {
+    "id": "2-word-problems-add-sub",
+    "title": "Word Problems: Addition and Subtraction",
+    "description": "Solve story problems",
+    "grade_level": 2,
+    "topic": "Problem Solving",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Tim has 15 marbles. He gets 8 more. How many now?",
+        "options": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "answer": "23"
+      },
+      {
+        "question": "Sara had 30 stickers. She gave away 12. How many left?",
+        "options": [
+          "16",
+          "17",
+          "18",
+          "19"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "There are 25 birds. 10 fly away. How many remain?",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Jake has 18 toys. He gets 7 more for his birthday. Total?",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "A box has 40 crayons. 15 are used. How many unused?",
+        "options": [
+          "23",
+          "24",
+          "25",
+          "26"
+        ],
+        "answer": "25"
+      }
+    ]
+  },
+  {
+    "id": "3-mult-tables-10-11-12",
+    "title": "Multiplication Tables (10s, 11s, 12s)",
+    "description": "Practice higher multiplication facts",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 10 \u00d7 7?",
+        "options": [
+          "60",
+          "70",
+          "80",
+          "90"
+        ],
+        "answer": "70"
+      },
+      {
+        "question": "What is 11 \u00d7 5?",
+        "options": [
+          "45",
+          "50",
+          "55",
+          "60"
+        ],
+        "answer": "55"
+      },
+      {
+        "question": "What is 12 \u00d7 4?",
+        "options": [
+          "44",
+          "46",
+          "48",
+          "50"
+        ],
+        "answer": "48"
+      },
+      {
+        "question": "What is 10 \u00d7 9?",
+        "options": [
+          "80",
+          "90",
+          "100",
+          "110"
+        ],
+        "answer": "90"
+      },
+      {
+        "question": "What is 12 \u00d7 6?",
+        "options": [
+          "60",
+          "66",
+          "72",
+          "78"
+        ],
+        "answer": "72"
+      }
+    ]
+  },
+  {
+    "id": "3-division-with-remainders",
+    "title": "Division with Remainders",
+    "description": "Divide and find remainders",
+    "grade_level": 3,
+    "topic": "Division",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 17 \u00f7 5? (remainder)",
+        "options": [
+          "2 R2",
+          "3 R2",
+          "3 R1",
+          "4 R1"
+        ],
+        "answer": "3 R2"
+      },
+      {
+        "question": "What is 23 \u00f7 4? (remainder)",
+        "options": [
+          "5 R2",
+          "5 R3",
+          "6 R1",
+          "6 R2"
+        ],
+        "answer": "5 R3"
+      },
+      {
+        "question": "What is 19 \u00f7 6? (remainder)",
+        "options": [
+          "2 R7",
+          "3 R1",
+          "3 R2",
+          "4 R1"
+        ],
+        "answer": "3 R1"
+      },
+      {
+        "question": "What is 26 \u00f7 7? (remainder)",
+        "options": [
+          "3 R4",
+          "3 R5",
+          "4 R2",
+          "4 R3"
+        ],
+        "answer": "3 R5"
+      },
+      {
+        "question": "What is 31 \u00f7 8? (remainder)",
+        "options": [
+          "3 R6",
+          "3 R7",
+          "4 R1",
+          "4 R3"
+        ],
+        "answer": "3 R7"
+      }
+    ]
+  },
+  {
+    "id": "3-fractions-comparing",
+    "title": "Comparing Fractions",
+    "description": "Which fraction is larger or smaller",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Which is larger: 1/2 or 1/3?",
+        "options": [
+          "1/2",
+          "1/3",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": "1/2"
+      },
+      {
+        "question": "Which is larger: 3/4 or 1/2?",
+        "options": [
+          "3/4",
+          "1/2",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": "3/4"
+      },
+      {
+        "question": "Which is smaller: 1/4 or 1/8?",
+        "options": [
+          "1/4",
+          "1/8",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": "1/8"
+      },
+      {
+        "question": "Which is larger: 2/3 or 1/3?",
+        "options": [
+          "2/3",
+          "1/3",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": "2/3"
+      },
+      {
+        "question": "Are 2/4 and 1/2 equal?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "3-measurement-weight",
+    "title": "Measurement: Weight",
+    "description": "Ounces, pounds, grams, kilograms",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many ounces in 1 pound?",
+        "options": [
+          "8",
+          "12",
+          "16",
+          "20"
+        ],
+        "answer": "16"
+      },
+      {
+        "question": "Which is heavier: 1 kilogram or 1 pound?",
+        "options": [
+          "Kilogram",
+          "Pound",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Kilogram"
+      },
+      {
+        "question": "How many grams in 1 kilogram?",
+        "options": [
+          "100",
+          "500",
+          "1000",
+          "10000"
+        ],
+        "answer": "1000"
+      },
+      {
+        "question": "What unit measures a person's weight?",
+        "options": [
+          "Inches",
+          "Pounds",
+          "Gallons",
+          "Degrees"
+        ],
+        "answer": "Pounds"
+      },
+      {
+        "question": "Which is lighter: a feather or a brick?",
+        "options": [
+          "Feather",
+          "Brick",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "Feather"
+      }
+    ]
+  },
+  {
+    "id": "4-decimals-tenths-hundredths",
+    "title": "Decimals: Tenths and Hundredths",
+    "description": "Understanding decimal place values",
+    "grade_level": 4,
+    "topic": "Decimals",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "In 3.45, what digit is in the tenths place?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "45"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "In 7.89, what digit is in the hundredths place?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "89"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 0.7 as a fraction?",
+        "options": [
+          "7/10",
+          "7/100",
+          "1/7",
+          "70/100"
+        ],
+        "answer": "7/10"
+      },
+      {
+        "question": "What is 0.25 as a fraction?",
+        "options": [
+          "1/4",
+          "1/25",
+          "25/10",
+          "2/5"
+        ],
+        "answer": "1/4"
+      },
+      {
+        "question": "Which is larger: 0.6 or 0.06?",
+        "options": [
+          "0.6",
+          "0.06",
+          "Equal",
+          "Cannot tell"
+        ],
+        "answer": "0.6"
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-mixed-numbers",
+    "title": "Mixed Numbers and Improper Fractions",
+    "description": "Convert between mixed numbers and improper fractions",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 1 1/2 as an improper fraction?",
+        "options": [
+          "2/2",
+          "3/2",
+          "4/2",
+          "5/2"
+        ],
+        "answer": "3/2"
+      },
+      {
+        "question": "What is 7/4 as a mixed number?",
+        "options": [
+          "1 1/4",
+          "1 2/4",
+          "1 3/4",
+          "2 1/4"
+        ],
+        "answer": "1 3/4"
+      },
+      {
+        "question": "What is 2 1/3 as an improper fraction?",
+        "options": [
+          "5/3",
+          "6/3",
+          "7/3",
+          "8/3"
+        ],
+        "answer": "7/3"
+      },
+      {
+        "question": "What is 9/5 as a mixed number?",
+        "options": [
+          "1 2/5",
+          "1 3/5",
+          "1 4/5",
+          "2 1/5"
+        ],
+        "answer": "1 4/5"
+      },
+      {
+        "question": "What is 3 1/4 as an improper fraction?",
+        "options": [
+          "11/4",
+          "12/4",
+          "13/4",
+          "14/4"
+        ],
+        "answer": "13/4"
+      }
+    ]
+  },
+  {
+    "id": "4-geometry-triangles",
+    "title": "Types of Triangles",
+    "description": "Equilateral, isosceles, scalene triangles",
+    "grade_level": 4,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A triangle with all sides equal is?",
+        "options": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Right"
+        ],
+        "answer": "Equilateral"
+      },
+      {
+        "question": "A triangle with 2 equal sides is?",
+        "options": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Obtuse"
+        ],
+        "answer": "Isosceles"
+      },
+      {
+        "question": "A triangle with no equal sides is?",
+        "options": [
+          "Equilateral",
+          "Isosceles",
+          "Scalene",
+          "Acute"
+        ],
+        "answer": "Scalene"
+      },
+      {
+        "question": "How many degrees in all triangle angles combined?",
+        "options": [
+          "90",
+          "180",
+          "270",
+          "360"
+        ],
+        "answer": "180"
+      },
+      {
+        "question": "A right triangle has one angle of?",
+        "options": [
+          "45\u00b0",
+          "60\u00b0",
+          "90\u00b0",
+          "180\u00b0"
+        ],
+        "answer": "90\u00b0"
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-multiply-divide",
+    "title": "Multiplying and Dividing Decimals",
+    "description": "Operations with decimals",
+    "grade_level": 5,
+    "topic": "Decimals",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 0.5 \u00d7 6?",
+        "options": [
+          "2",
+          "2.5",
+          "3",
+          "3.5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 1.2 \u00d7 5?",
+        "options": [
+          "5",
+          "5.5",
+          "6",
+          "6.5"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "What is 4.8 \u00f7 2?",
+        "options": [
+          "2.2",
+          "2.4",
+          "2.6",
+          "2.8"
+        ],
+        "answer": "2.4"
+      },
+      {
+        "question": "What is 0.8 \u00d7 10?",
+        "options": [
+          "0.8",
+          "8",
+          "80",
+          "800"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 3.6 \u00f7 4?",
+        "options": [
+          "0.7",
+          "0.8",
+          "0.9",
+          "1.0"
+        ],
+        "answer": "0.9"
+      }
+    ]
+  },
+  {
+    "id": "5-fractions-divide",
+    "title": "Dividing Fractions",
+    "description": "Divide fractions and mixed numbers",
+    "grade_level": 5,
+    "topic": "Fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 1/2 \u00f7 2?",
+        "options": [
+          "1/2",
+          "1/4",
+          "1",
+          "2"
+        ],
+        "answer": "1/4"
+      },
+      {
+        "question": "What is 3/4 \u00f7 3?",
+        "options": [
+          "1/4",
+          "1/3",
+          "3/12",
+          "Both A and C"
+        ],
+        "answer": "1/4"
+      },
+      {
+        "question": "What is 2/3 \u00f7 2?",
+        "options": [
+          "1/3",
+          "2/6",
+          "Both A and B",
+          "4/3"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "question": "What is 1 \u00f7 1/2?",
+        "options": [
+          "1/2",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "What is 4 \u00f7 1/4?",
+        "options": [
+          "1",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "16"
+      }
+    ]
+  },
+  {
+    "id": "5-geometry-circles",
+    "title": "Circles: Radius and Diameter",
+    "description": "Understanding parts of a circle",
+    "grade_level": 5,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "The distance across a circle through center is?",
+        "options": [
+          "Radius",
+          "Diameter",
+          "Circumference",
+          "Chord"
+        ],
+        "answer": "Diameter"
+      },
+      {
+        "question": "The distance from center to edge is?",
+        "options": [
+          "Radius",
+          "Diameter",
+          "Circumference",
+          "Arc"
+        ],
+        "answer": "Radius"
+      },
+      {
+        "question": "If radius is 5, what is diameter?",
+        "options": [
+          "2.5",
+          "5",
+          "10",
+          "15"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "If diameter is 12, what is radius?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "24"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "The distance around a circle is?",
+        "options": [
+          "Radius",
+          "Diameter",
+          "Circumference",
+          "Area"
+        ],
+        "answer": "Circumference"
+      }
+    ]
+  },
+  {
+    "id": "5-integers-intro",
+    "title": "Introduction to Integers",
+    "description": "Positive and negative numbers",
+    "grade_level": 5,
+    "topic": "Number Sense",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is -5 + 8?",
+        "options": [
+          "-13",
+          "-3",
+          "3",
+          "13"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What is 4 - 7?",
+        "options": [
+          "-11",
+          "-3",
+          "3",
+          "11"
+        ],
+        "answer": "-3"
+      },
+      {
+        "question": "Which is colder: -10\u00b0 or -5\u00b0?",
+        "options": [
+          "-10\u00b0",
+          "-5\u00b0",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "-10\u00b0"
+      },
+      {
+        "question": "What is the opposite of 6?",
+        "options": [
+          "-6",
+          "1/6",
+          "6",
+          "0"
+        ],
+        "answer": "-6"
+      },
+      {
+        "question": "What is -3 + 3?",
+        "options": [
+          "-6",
+          "-3",
+          "0",
+          "6"
+        ],
+        "answer": "0"
+      }
+    ]
+  },
+  {
+    "id": "k-patterns-colors",
+    "title": "Color Patterns",
+    "description": "Identify and continue color patterns",
+    "grade_level": 0,
+    "topic": "Patterns",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Pattern: Red, Blue, Red, Blue, __?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ],
+        "answer": "Red"
+      },
+      {
+        "question": "Pattern: Green, Green, Yellow, Green, Green, __?",
+        "options": [
+          "Green",
+          "Yellow",
+          "Red",
+          "Blue"
+        ],
+        "answer": "Yellow"
+      },
+      {
+        "question": "How many colors in: Red, Blue, Red, Blue?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Pattern: A, B, A, B, __?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A"
+      },
+      {
+        "question": "What comes next: \ud83d\udd34\ud83d\udd35\ud83d\udd34\ud83d\udd35__?",
+        "options": [
+          "\ud83d\udd34",
+          "\ud83d\udd35",
+          "\ud83d\udfe2",
+          "\ud83d\udfe1"
+        ],
+        "answer": "\ud83d\udd34"
+      }
+    ]
+  },
+  {
+    "id": "1-ordinal-numbers",
+    "title": "Ordinal Numbers",
+    "description": "First, second, third, etc.",
+    "grade_level": 1,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What comes after first?",
+        "options": [
+          "Zero",
+          "Second",
+          "Third",
+          "Last"
+        ],
+        "answer": "Second"
+      },
+      {
+        "question": "What comes before third?",
+        "options": [
+          "First",
+          "Second",
+          "Fourth",
+          "Fifth"
+        ],
+        "answer": "Second"
+      },
+      {
+        "question": "If you're 5th in line, how many are ahead?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is the 3rd letter of the alphabet?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "In a race, what place is right after 2nd?",
+        "options": [
+          "1st",
+          "2nd",
+          "3rd",
+          "4th"
+        ],
+        "answer": "3rd"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-intro",
+    "title": "Introduction to Arrays",
+    "description": "Understanding rows and columns",
+    "grade_level": 2,
+    "topic": "Multiplication",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "An array has 3 rows of 4. How many total?",
+        "options": [
+          "7",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "2 rows of 5 makes how many?",
+        "options": [
+          "7",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "4 rows of 3 equals?",
+        "options": [
+          "7",
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "If you have 3 rows of 6, total items?",
+        "options": [
+          "9",
+          "15",
+          "18",
+          "21"
+        ],
+        "answer": "18"
+      },
+      {
+        "question": "5 rows of 2 makes?",
+        "options": [
+          "7",
+          "8",
+          "10",
+          "12"
+        ],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "id": "3-perimeter-simple",
+    "title": "Finding Perimeter",
+    "description": "Add all sides to find perimeter",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Rectangle: sides 5, 3, 5, 3. Perimeter?",
+        "options": [
+          "13",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": "16",
+        "image": "/curriculum-images/rectangle-perimeter.png"
+      },
+      {
+        "question": "Square with side 6. Perimeter?",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "36"
+        ],
+        "answer": "24"
+      },
+      {
+        "question": "Triangle: sides 4, 5, 6. Perimeter?",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Rectangle: length 8, width 2. Perimeter?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "Square with side 9. Perimeter?",
+        "options": [
+          "18",
+          "27",
+          "36",
+          "81"
+        ],
+        "answer": "36"
+      }
+    ]
+  },
+  {
+    "id": "4-long-multiplication",
+    "title": "Long Multiplication",
+    "description": "Multiply 2-digit by 2-digit numbers",
+    "grade_level": 4,
+    "topic": "Multiplication",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 12 \u00d7 11?",
+        "options": [
+          "122",
+          "132",
+          "142",
+          "152"
+        ],
+        "answer": "132"
+      },
+      {
+        "question": "What is 15 \u00d7 12?",
+        "options": [
+          "170",
+          "180",
+          "190",
+          "200"
+        ],
+        "answer": "180"
+      },
+      {
+        "question": "What is 20 \u00d7 13?",
+        "options": [
+          "240",
+          "250",
+          "260",
+          "270"
+        ],
+        "answer": "260"
+      },
+      {
+        "question": "What is 14 \u00d7 15?",
+        "options": [
+          "200",
+          "210",
+          "220",
+          "230"
+        ],
+        "answer": "210"
+      },
+      {
+        "question": "What is 25 \u00d7 12?",
+        "options": [
+          "280",
+          "290",
+          "300",
+          "310"
+        ],
+        "answer": "300"
+      }
+    ]
+  },
+  {
+    "id": "5-exponents-intro",
+    "title": "Introduction to Exponents",
+    "description": "Understanding powers and exponents",
+    "grade_level": 5,
+    "topic": "Number Sense",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 2\u00b3 (2 to the power of 3)?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What is 5\u00b2?",
+        "options": [
+          "7",
+          "10",
+          "25",
+          "50"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "What is 10\u00b2?",
+        "options": [
+          "20",
+          "50",
+          "100",
+          "1000"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "What is 3\u00b2?",
+        "options": [
+          "5",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is 4\u00b2?",
+        "options": [
+          "8",
+          "12",
+          "16",
+          "20"
+        ],
+        "answer": "16"
+      }
+    ]
+  },
+  {
+    "id": "k-more-less",
+    "title": "More and Less",
+    "description": "Understand concepts of more and less",
+    "grade_level": 0,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which has more: 5 apples or 3 apples?",
+        "options": [
+          "5",
+          "3",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Which has less: 7 toys or 9 toys?",
+        "options": [
+          "7",
+          "9",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "If you have 4 and get 2 more, you have?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "If you have 8 and give away 3, you have?",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "11"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Which group has more: \ud83c\udf4e\ud83c\udf4e\ud83c\udf4e or \ud83c\udf4e\ud83c\udf4e?",
+        "options": [
+          "First",
+          "Second",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "First"
+      }
+    ]
+  },
+  {
+    "id": "1-fact-families",
+    "title": "Fact Families",
+    "description": "Related addition and subtraction facts",
+    "grade_level": 1,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If 3 + 4 = 7, then 7 - 4 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "7"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "If 5 + 2 = 7, then 7 - 5 = ?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "7"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "If 8 - 3 = 5, then 5 + 3 = ?",
+        "options": [
+          "2",
+          "5",
+          "8",
+          "11"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "If 6 + 4 = 10, then 10 - 6 = ?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "10"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "If 9 - 2 = 7, then 2 + 7 = ?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "2-estimation",
+    "title": "Estimation",
+    "description": "Round and estimate answers",
+    "grade_level": 2,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "About how much is 19 + 21?",
+        "options": [
+          "30",
+          "40",
+          "50",
+          "60"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "About how much is 48 - 22?",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "Round 37 to nearest 10",
+        "options": [
+          "30",
+          "35",
+          "40",
+          "50"
+        ],
+        "answer": "40"
+      },
+      {
+        "question": "About how much is 29 + 31?",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "Round 64 to nearest 10",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": "60"
+      }
+    ]
+  },
+  {
+    "id": "3-area-simple",
+    "title": "Finding Area",
+    "description": "Calculate area of rectangles",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Rectangle: length 5, width 3. Area?",
+        "options": [
+          "8",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Square with side 4. Area?",
+        "options": [
+          "8",
+          "12",
+          "16",
+          "20"
+        ],
+        "answer": "16"
+      },
+      {
+        "question": "Rectangle: length 7, width 2. Area?",
+        "options": [
+          "9",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "Square with side 6. Area?",
+        "options": [
+          "12",
+          "24",
+          "30",
+          "36"
+        ],
+        "answer": "36"
+      },
+      {
+        "question": "Rectangle: length 10, width 3. Area?",
+        "options": [
+          "13",
+          "26",
+          "30",
+          "33"
+        ],
+        "answer": "30"
+      }
+    ]
+  },
+  {
+    "id": "4-gcf-lcm",
+    "title": "GCF and LCM",
+    "description": "Greatest common factor and least common multiple",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "GCF of 12 and 18?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "9"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "GCF of 8 and 12?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "LCM of 3 and 4?",
+        "options": [
+          "7",
+          "12",
+          "15",
+          "24"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "LCM of 2 and 5?",
+        "options": [
+          "7",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "GCF of 15 and 20?",
+        "options": [
+          "3",
+          "5",
+          "10",
+          "15"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "5-algebraic-expressions",
+    "title": "Simple Algebraic Expressions",
+    "description": "Evaluate expressions with variables",
+    "grade_level": 5,
+    "topic": "Algebra",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "If x = 5, what is x + 3?",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "15"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "If y = 4, what is 2y?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "If a = 7, what is a - 2?",
+        "options": [
+          "2",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "If b = 3, what is 3b?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "If n = 10, what is n \u00f7 2?",
+        "options": [
+          "2",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "k-before-after",
+    "title": "Before and After",
+    "description": "What comes before and after a number",
+    "grade_level": 0,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What comes after 7?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What comes before 4?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "What comes after 12?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "13"
+      },
+      {
+        "question": "What comes before 9?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "What comes after 15?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "16"
+      }
+    ]
+  },
+  {
+    "id": "1-missing-addends",
+    "title": "Missing Addends",
+    "description": "Find the missing number in addition",
+    "grade_level": 1,
+    "topic": "Addition",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "5 + __ = 9",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "__ + 6 = 10",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "7 + __ = 12",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "__ + 8 = 15",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "9 + __ = 14",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      }
+    ]
+  },
+  {
+    "id": "2-number-lines",
+    "title": "Using Number Lines",
+    "description": "Add and subtract using number lines",
+    "grade_level": 2,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Start at 5, jump forward 3. Where are you?",
+        "options": [
+          "2",
+          "5",
+          "8",
+          "15"
+        ],
+        "answer": "8"
+      },
+      {
+        "question": "Start at 10, jump back 4. Where are you?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "14"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "Start at 7, jump forward 5. Where are you?",
+        "options": [
+          "2",
+          "7",
+          "12",
+          "35"
+        ],
+        "answer": "12"
+      },
+      {
+        "question": "Start at 15, jump back 8. Where are you?",
+        "options": [
+          "7",
+          "8",
+          "15",
+          "23"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "Start at 20, jump forward 10. Where are you?",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "200"
+        ],
+        "answer": "30"
+      }
+    ]
+  },
+  {
+    "id": "3-elapsed-time",
+    "title": "Elapsed Time",
+    "description": "Calculate time passed",
+    "grade_level": 3,
+    "topic": "Time",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "From 2:00 to 5:00, how many hours passed?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "From 1:30 to 3:30, how many hours?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "From 9:00 AM to 12:00 PM, how many hours?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "From 4:15 to 5:15, how many minutes?",
+        "options": [
+          "30",
+          "45",
+          "60",
+          "75"
+        ],
+        "answer": "60"
+      },
+      {
+        "question": "From 10:00 to 10:45, how many minutes?",
+        "options": [
+          "15",
+          "30",
+          "45",
+          "60"
+        ],
+        "answer": "45"
+      }
+    ]
+  },
+  {
+    "id": "4-coordinate-grid",
+    "title": "Coordinate Grid Basics",
+    "description": "Plot points on a coordinate grid",
+    "grade_level": 4,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Point (2, 3): x-coordinate is?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Point (5, 1): y-coordinate is?",
+        "options": [
+          "1",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "1"
+      },
+      {
+        "question": "Where is (0, 0)?",
+        "options": [
+          "Top left",
+          "Top right",
+          "Origin",
+          "Bottom right"
+        ],
+        "answer": "Origin"
+      },
+      {
+        "question": "Point (3, 3) is how many right from origin?",
+        "options": [
+          "0",
+          "3",
+          "6",
+          "9"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Point (4, 2) is how many up from origin?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "2"
+      }
+    ]
+  },
+  {
+    "id": "5-probability-intro",
+    "title": "Introduction to Probability",
+    "description": "Likely, unlikely, certain, impossible",
+    "grade_level": 5,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Flipping a coin: heads or tails is?",
+        "options": [
+          "Certain",
+          "Likely",
+          "Unlikely",
+          "Impossible"
+        ],
+        "answer": "Likely"
+      },
+      {
+        "question": "The sun rising tomorrow is?",
+        "options": [
+          "Certain",
+          "Likely",
+          "Unlikely",
+          "Impossible"
+        ],
+        "answer": "Certain"
+      },
+      {
+        "question": "Rolling a 7 on a 6-sided die is?",
+        "options": [
+          "Certain",
+          "Likely",
+          "Unlikely",
+          "Impossible"
+        ],
+        "answer": "Impossible"
+      },
+      {
+        "question": "Picking a red marble from a bag of all red marbles?",
+        "options": [
+          "Certain",
+          "Likely",
+          "Unlikely",
+          "Impossible"
+        ],
+        "answer": "Certain"
+      },
+      {
+        "question": "What is the probability of flipping heads? (fraction)",
+        "options": [
+          "1/4",
+          "1/3",
+          "1/2",
+          "1"
+        ],
+        "answer": "1/2"
+      }
+    ]
+  },
+  {
+    "id": "k-sorting",
+    "title": "Sorting Objects",
+    "description": "Sort by size, color, or shape",
+    "grade_level": 0,
+    "topic": "Data",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "How can you sort: big ball, small ball, big box?",
+        "options": [
+          "By color",
+          "By size",
+          "By taste",
+          "Cannot sort"
+        ],
+        "answer": "By size"
+      },
+      {
+        "question": "How can you sort: red car, blue car, red ball?",
+        "options": [
+          "By color",
+          "By number",
+          "By weight",
+          "Cannot sort"
+        ],
+        "answer": "By color"
+      },
+      {
+        "question": "Which doesn't belong: circle, square, triangle, dog?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Dog"
+        ],
+        "answer": "Dog"
+      },
+      {
+        "question": "Sort by shape: \u2b55\ud83d\udd3a\u2b55\ud83d\udd3a. How many circles?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Which is different: \ud83c\udf4e\ud83c\udf4e\ud83c\udf4c\ud83c\udf4e?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "answer": "Third"
+      }
+    ]
+  },
+  {
+    "id": "1-word-problems-basic",
+    "title": "Basic Word Problems",
+    "description": "Simple addition and subtraction stories",
+    "grade_level": 1,
+    "topic": "Problem Solving",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "You have 3 apples. You get 2 more. How many total?",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "There are 7 birds. 3 fly away. How many left?",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "10"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "You have 5 crayons. You find 4 more. Total?",
+        "options": [
+          "1",
+          "5",
+          "9",
+          "20"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "8 cookies on a plate. You eat 2. How many left?",
+        "options": [
+          "2",
+          "6",
+          "8",
+          "10"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "6 kids playing. 3 more join. How many now?",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "18"
+        ],
+        "answer": "9"
+      }
+    ]
+  },
+  {
+    "id": "2-fact-fluency",
+    "title": "Fact Fluency Practice",
+    "description": "Quick recall of basic facts",
+    "grade_level": 2,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Quick! 7 + 8 = ?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "15"
+      },
+      {
+        "question": "Quick! 13 - 6 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "Quick! 9 + 5 = ?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      },
+      {
+        "question": "Quick! 16 - 9 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      },
+      {
+        "question": "Quick! 8 + 6 = ?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14"
+      }
+    ]
+  },
+  {
+    "id": "3-symmetry",
+    "title": "Lines of Symmetry",
+    "description": "Identify symmetrical shapes",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many lines of symmetry in a square?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "How many lines of symmetry in a circle?",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "Infinite"
+        ],
+        "answer": "Infinite"
+      },
+      {
+        "question": "Does a rectangle have symmetry?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      },
+      {
+        "question": "How many lines of symmetry in a triangle (equilateral)?",
+        "options": [
+          "0",
+          "1",
+          "3",
+          "6"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Is a heart shape symmetrical?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "Yes"
+      }
+    ]
+  },
+  {
+    "id": "4-roman-numerals",
+    "title": "Roman Numerals",
+    "description": "Read and write Roman numerals",
+    "grade_level": 4,
+    "topic": "Number Sense",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What is V in Roman numerals?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "50"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "What is X in Roman numerals?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "50"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is IV?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": "4"
+      },
+      {
+        "question": "What is IX?",
+        "options": [
+          "6",
+          "9",
+          "11",
+          "14"
+        ],
+        "answer": "9"
+      },
+      {
+        "question": "What is XV?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "15"
+      }
+    ]
+  },
+  {
+    "id": "5-scientific-notation",
+    "title": "Scientific Notation Basics",
+    "description": "Understanding powers of 10",
+    "grade_level": 5,
+    "topic": "Number Sense",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "What is 10\u00b9?",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "What is 10\u00b2?",
+        "options": [
+          "2",
+          "20",
+          "100",
+          "200"
+        ],
+        "answer": "100"
+      },
+      {
+        "question": "What is 10\u00b3?",
+        "options": [
+          "3",
+          "30",
+          "300",
+          "1000"
+        ],
+        "answer": "1000"
+      },
+      {
+        "question": "How do you write 1000 as a power of 10?",
+        "options": [
+          "10\u00b9",
+          "10\u00b2",
+          "10\u00b3",
+          "10\u2074"
+        ],
+        "answer": "10\u00b3"
+      },
+      {
+        "question": "What is 10\u2070?",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "100"
+        ],
+        "answer": "1"
+      }
+    ]
+  },
+  {
+    "id": "k-positional-words",
+    "title": "Positional Words",
+    "description": "Above, below, next to, between",
+    "grade_level": 0,
+    "topic": "Geometry",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "The bird is ___ the tree (in branches)",
+        "options": [
+          "Under",
+          "Above",
+          "In",
+          "Next to"
+        ],
+        "answer": "In"
+      },
+      {
+        "question": "The cat is ___ the table (on floor)",
+        "options": [
+          "On",
+          "Under",
+          "Above",
+          "In"
+        ],
+        "answer": "Under"
+      },
+      {
+        "question": "The book is ___ the desk (on top)",
+        "options": [
+          "Under",
+          "In",
+          "On",
+          "Below"
+        ],
+        "answer": "On"
+      },
+      {
+        "question": "You are ___ two friends (middle)",
+        "options": [
+          "Above",
+          "Below",
+          "Between",
+          "Under"
+        ],
+        "answer": "Between"
+      },
+      {
+        "question": "The sun is ___ the clouds",
+        "options": [
+          "Under",
+          "Below",
+          "Above",
+          "Between"
+        ],
+        "answer": "Above"
+      }
+    ]
+  },
+  {
+    "id": "1-tens-frames",
+    "title": "Using Ten Frames",
+    "description": "Visualize numbers with ten frames",
+    "grade_level": 1,
+    "topic": "Number Sense",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "A full ten frame shows?",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": "10"
+      },
+      {
+        "question": "A ten frame with 7 dots has how many empty?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "7"
+        ],
+        "answer": "3"
+      },
+      {
+        "question": "Two full ten frames show?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "20"
+      },
+      {
+        "question": "A ten frame with 4 dots needs how many more to fill?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        "answer": "6"
+      },
+      {
+        "question": "1 full + 1 half ten frame (5) = ?",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "15"
+      }
+    ]
+  },
+  {
+    "id": "2-temperature",
+    "title": "Reading Temperature",
+    "description": "Fahrenheit and Celsius basics",
+    "grade_level": 2,
+    "topic": "Measurement",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Water freezes at __ degrees Fahrenheit",
+        "options": [
+          "0",
+          "32",
+          "100",
+          "212"
+        ],
+        "answer": "32"
+      },
+      {
+        "question": "Water boils at __ degrees Fahrenheit",
+        "options": [
+          "32",
+          "100",
+          "212",
+          "451"
+        ],
+        "answer": "212"
+      },
+      {
+        "question": "Which is warmer: 50\u00b0F or 80\u00b0F?",
+        "options": [
+          "50\u00b0F",
+          "80\u00b0F",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "80\u00b0F"
+      },
+      {
+        "question": "Which is colder: 20\u00b0F or 40\u00b0F?",
+        "options": [
+          "20\u00b0F",
+          "40\u00b0F",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "20\u00b0F"
+      },
+      {
+        "question": "Normal body temperature is about?",
+        "options": [
+          "32\u00b0F",
+          "70\u00b0F",
+          "98\u00b0F",
+          "212\u00b0F"
+        ],
+        "answer": "98\u00b0F"
+      }
+    ]
+  },
+  {
+    "id": "3-bar-graphs",
+    "title": "Creating Bar Graphs",
+    "description": "Make and interpret bar graphs",
+    "grade_level": 3,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If 5 people like pizza, bar should reach?",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "10"
+        ],
+        "answer": "5"
+      },
+      {
+        "question": "Bar at 8 means?",
+        "options": [
+          "8 items",
+          "8 people",
+          "8 units",
+          "All of these"
+        ],
+        "answer": "All of these"
+      },
+      {
+        "question": "Tallest bar shows?",
+        "options": [
+          "Least",
+          "Most",
+          "Average",
+          "Total"
+        ],
+        "answer": "Most"
+      },
+      {
+        "question": "If red=6 and blue=4, difference?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "10"
+        ],
+        "answer": "2"
+      },
+      {
+        "question": "Bars should be?",
+        "options": [
+          "Same width",
+          "Different widths",
+          "Circles",
+          "Lines"
+        ],
+        "answer": "Same width"
+      }
+    ]
+  },
+  {
+    "id": "4-line-plots",
+    "title": "Line Plots",
+    "description": "Create and read line plots",
+    "grade_level": 4,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "On a line plot, X's represent?",
+        "options": [
+          "Nothing",
+          "Data points",
+          "Errors",
+          "Lines"
+        ],
+        "answer": "Data points"
+      },
+      {
+        "question": "If there are 3 X's above 5, what does it mean?",
+        "options": [
+          "3 fives",
+          "3 data points at 5",
+          "15",
+          "Both A and B"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "question": "The mode is the value with?",
+        "options": [
+          "Least X's",
+          "Most X's",
+          "No X's",
+          "One X"
+        ],
+        "answer": "Most X's"
+      },
+      {
+        "question": "Line plots show data on a?",
+        "options": [
+          "Circle",
+          "Number line",
+          "Bar",
+          "Pie"
+        ],
+        "answer": "Number line"
+      },
+      {
+        "question": "If 5 has 4 X's and 6 has 2 X's, total data points?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6"
+      }
+    ]
+  },
+  {
+    "id": "5-stem-leaf-plots",
+    "title": "Stem-and-Leaf Plots",
+    "description": "Read stem-and-leaf plots",
+    "grade_level": 5,
+    "topic": "Data",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "In stem-and-leaf, stem 2 | leaf 5 means?",
+        "options": [
+          "7",
+          "25",
+          "52",
+          "2.5"
+        ],
+        "answer": "25"
+      },
+      {
+        "question": "Stem 3 | leaves 2, 7 represents?",
+        "options": [
+          "32, 37",
+          "23, 27",
+          "3.2, 3.7",
+          "5, 10"
+        ],
+        "answer": "32, 37"
+      },
+      {
+        "question": "What does the stem represent?",
+        "options": [
+          "Ones",
+          "Tens",
+          "Hundreds",
+          "Decimals"
+        ],
+        "answer": "Tens"
+      },
+      {
+        "question": "What does the leaf represent?",
+        "options": [
+          "Ones",
+          "Tens",
+          "Hundreds",
+          "Decimals"
+        ],
+        "answer": "Ones"
+      },
+      {
+        "question": "Stem 4 | leaf 0 means?",
+        "options": [
+          "4",
+          "40",
+          "04",
+          "0.4"
+        ],
+        "answer": "40"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-1",
+    "title": "Counting to 1",
+    "description": "Practice counting objects up to 1",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many squares do you see?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "image": "/curriculum-images/count-1-square.svg"
+      },
+      {
+        "question": "Count the squares. Which number is correct?",
+        "options": [
+          "1",
+          "3",
+          "0",
+          "4"
+        ],
+        "answer": "1",
+        "image": "/curriculum-images/count-1-square.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-2",
+    "title": "Counting to 2",
+    "description": "Practice counting objects up to 2",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many stars do you see?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/count-2-star.svg"
+      },
+      {
+        "question": "Count the stars. Which number is correct?",
+        "options": [
+          "2",
+          "4",
+          "0",
+          "5"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/count-2-star.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-3",
+    "title": "Counting to 3",
+    "description": "Practice counting objects up to 3",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many apples do you see?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/count-3-apple.svg"
+      },
+      {
+        "question": "Count the apples. Which number is correct?",
+        "options": [
+          "3",
+          "5",
+          "1",
+          "6"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/count-3-apple.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-4",
+    "title": "Counting to 4",
+    "description": "Practice counting objects up to 4",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many circles do you see?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/count-4-circle.svg"
+      },
+      {
+        "question": "Count the circles. Which number is correct?",
+        "options": [
+          "4",
+          "6",
+          "2",
+          "7"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/count-4-circle.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-5",
+    "title": "Counting to 5",
+    "description": "Practice counting objects up to 5",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many squares do you see?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/count-5-square.svg"
+      },
+      {
+        "question": "Count the squares. Which number is correct?",
+        "options": [
+          "5",
+          "7",
+          "3",
+          "8"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/count-5-square.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-6",
+    "title": "Counting to 6",
+    "description": "Practice counting objects up to 6",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many stars do you see?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/count-6-star.svg"
+      },
+      {
+        "question": "Count the stars. Which number is correct?",
+        "options": [
+          "6",
+          "8",
+          "4",
+          "9"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/count-6-star.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-7",
+    "title": "Counting to 7",
+    "description": "Practice counting objects up to 7",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many apples do you see?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/count-7-apple.svg"
+      },
+      {
+        "question": "Count the apples. Which number is correct?",
+        "options": [
+          "7",
+          "9",
+          "5",
+          "10"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/count-7-apple.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-8",
+    "title": "Counting to 8",
+    "description": "Practice counting objects up to 8",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many circles do you see?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/count-8-circle.svg"
+      },
+      {
+        "question": "Count the circles. Which number is correct?",
+        "options": [
+          "8",
+          "10",
+          "6",
+          "11"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/count-8-circle.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-9",
+    "title": "Counting to 9",
+    "description": "Practice counting objects up to 9",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many squares do you see?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "image": "/curriculum-images/count-9-square.svg"
+      },
+      {
+        "question": "Count the squares. Which number is correct?",
+        "options": [
+          "9",
+          "11",
+          "7",
+          "12"
+        ],
+        "answer": "9",
+        "image": "/curriculum-images/count-9-square.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-10",
+    "title": "Counting to 10",
+    "description": "Practice counting objects up to 10",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many stars do you see?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "image": "/curriculum-images/count-10-star.svg"
+      },
+      {
+        "question": "Count the stars. Which number is correct?",
+        "options": [
+          "10",
+          "12",
+          "8",
+          "13"
+        ],
+        "answer": "10",
+        "image": "/curriculum-images/count-10-star.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-11",
+    "title": "Counting to 11",
+    "description": "Practice counting objects up to 11",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many apples do you see?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "11",
+        "image": "/curriculum-images/count-11-apple.svg"
+      },
+      {
+        "question": "Count the apples. Which number is correct?",
+        "options": [
+          "11",
+          "13",
+          "9",
+          "14"
+        ],
+        "answer": "11",
+        "image": "/curriculum-images/count-11-apple.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-12",
+    "title": "Counting to 12",
+    "description": "Practice counting objects up to 12",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many circles do you see?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "12",
+        "image": "/curriculum-images/count-12-circle.svg"
+      },
+      {
+        "question": "Count the circles. Which number is correct?",
+        "options": [
+          "12",
+          "14",
+          "10",
+          "15"
+        ],
+        "answer": "12",
+        "image": "/curriculum-images/count-12-circle.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-13",
+    "title": "Counting to 13",
+    "description": "Practice counting objects up to 13",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many squares do you see?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "13",
+        "image": "/curriculum-images/count-13-square.svg"
+      },
+      {
+        "question": "Count the squares. Which number is correct?",
+        "options": [
+          "13",
+          "15",
+          "11",
+          "16"
+        ],
+        "answer": "13",
+        "image": "/curriculum-images/count-13-square.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-14",
+    "title": "Counting to 14",
+    "description": "Practice counting objects up to 14",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many stars do you see?",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "14",
+        "image": "/curriculum-images/count-14-star.svg"
+      },
+      {
+        "question": "Count the stars. Which number is correct?",
+        "options": [
+          "14",
+          "16",
+          "12",
+          "17"
+        ],
+        "answer": "14",
+        "image": "/curriculum-images/count-14-star.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-15",
+    "title": "Counting to 15",
+    "description": "Practice counting objects up to 15",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many apples do you see?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "15",
+        "image": "/curriculum-images/count-15-apple.svg"
+      },
+      {
+        "question": "Count the apples. Which number is correct?",
+        "options": [
+          "15",
+          "17",
+          "13",
+          "18"
+        ],
+        "answer": "15",
+        "image": "/curriculum-images/count-15-apple.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-16",
+    "title": "Counting to 16",
+    "description": "Practice counting objects up to 16",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many circles do you see?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "16",
+        "image": "/curriculum-images/count-16-circle.svg"
+      },
+      {
+        "question": "Count the circles. Which number is correct?",
+        "options": [
+          "16",
+          "18",
+          "14",
+          "19"
+        ],
+        "answer": "16",
+        "image": "/curriculum-images/count-16-circle.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-17",
+    "title": "Counting to 17",
+    "description": "Practice counting objects up to 17",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many squares do you see?",
+        "options": [
+          "16",
+          "17",
+          "18",
+          "19"
+        ],
+        "answer": "17",
+        "image": "/curriculum-images/count-17-square.svg"
+      },
+      {
+        "question": "Count the squares. Which number is correct?",
+        "options": [
+          "17",
+          "19",
+          "15",
+          "20"
+        ],
+        "answer": "17",
+        "image": "/curriculum-images/count-17-square.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-18",
+    "title": "Counting to 18",
+    "description": "Practice counting objects up to 18",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many stars do you see?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "answer": "18",
+        "image": "/curriculum-images/count-18-star.svg"
+      },
+      {
+        "question": "Count the stars. Which number is correct?",
+        "options": [
+          "18",
+          "20",
+          "16",
+          "21"
+        ],
+        "answer": "18",
+        "image": "/curriculum-images/count-18-star.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-19",
+    "title": "Counting to 19",
+    "description": "Practice counting objects up to 19",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many apples do you see?",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        "answer": "19",
+        "image": "/curriculum-images/count-19-apple.svg"
+      },
+      {
+        "question": "Count the apples. Which number is correct?",
+        "options": [
+          "19",
+          "21",
+          "17",
+          "22"
+        ],
+        "answer": "19",
+        "image": "/curriculum-images/count-19-apple.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-counting-20",
+    "title": "Counting to 20",
+    "description": "Practice counting objects up to 20",
+    "grade_level": 0,
+    "topic": "Counting",
+    "questions": [
+      {
+        "question": "How many circles do you see?",
+        "options": [
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "answer": "20",
+        "image": "/curriculum-images/count-20-circle.svg"
+      },
+      {
+        "question": "Count the circles. Which number is correct?",
+        "options": [
+          "20",
+          "22",
+          "18",
+          "23"
+        ],
+        "answer": "20",
+        "image": "/curriculum-images/count-20-circle.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-circle-0",
+    "title": "Identifying Circles",
+    "description": "Learn about circles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Circle",
+        "image": "/curriculum-images/shape-circle-0.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "0",
+        "image": "/curriculum-images/shape-circle-0.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-square-1",
+    "title": "Identifying Squares",
+    "description": "Learn about squares and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Square",
+        "image": "/curriculum-images/shape-square-1.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-square-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-triangle-2",
+    "title": "Identifying Triangles",
+    "description": "Learn about triangles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "image": "/curriculum-images/shape-triangle-2.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/shape-triangle-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-rectangle-3",
+    "title": "Identifying Rectangles",
+    "description": "Learn about rectangles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Rectangle",
+        "image": "/curriculum-images/shape-rectangle-3.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-rectangle-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-circle-4",
+    "title": "Identifying Circles",
+    "description": "Learn about circles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Circle",
+        "image": "/curriculum-images/shape-circle-4.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "0",
+        "image": "/curriculum-images/shape-circle-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-square-5",
+    "title": "Identifying Squares",
+    "description": "Learn about squares and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Square",
+        "image": "/curriculum-images/shape-square-5.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-square-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-triangle-6",
+    "title": "Identifying Triangles",
+    "description": "Learn about triangles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "image": "/curriculum-images/shape-triangle-6.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/shape-triangle-6.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-rectangle-7",
+    "title": "Identifying Rectangles",
+    "description": "Learn about rectangles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Rectangle",
+        "image": "/curriculum-images/shape-rectangle-7.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-rectangle-7.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-circle-8",
+    "title": "Identifying Circles",
+    "description": "Learn about circles and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Circle",
+        "image": "/curriculum-images/shape-circle-8.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "0",
+        "image": "/curriculum-images/shape-circle-8.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-shapes-square-9",
+    "title": "Identifying Squares",
+    "description": "Learn about squares and their properties",
+    "grade_level": 0,
+    "topic": "Shapes",
+    "questions": [
+      {
+        "question": "What shape is this?",
+        "options": [
+          "Circle",
+          "Square",
+          "Triangle",
+          "Rectangle"
+        ],
+        "answer": "Square",
+        "image": "/curriculum-images/shape-square-9.svg"
+      },
+      {
+        "question": "How many sides does this shape have?",
+        "options": [
+          "0",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/shape-square-9.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-0",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-1",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-2-5.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-2-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-2",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-3-6.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-3-6.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-3",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-4-7.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-4-7.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-4",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-5-1.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-5-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-5",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-6-2.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-6-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-6",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-7-3.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-7-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-7",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-8",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-2-5.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-2-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-9",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-3-6.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-3-6.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-10",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-4-7.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-4-7.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-11",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-5-1.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-5-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-12",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-6-2.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-6-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-13",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-7-3.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-7-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "k-compare-14",
+    "title": "Comparing Groups",
+    "description": "Practice comparing quantities",
+    "grade_level": 0,
+    "topic": "Comparison",
+    "questions": [
+      {
+        "question": "Which group has MORE?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Right (pink)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      },
+      {
+        "question": "Which group has LESS?",
+        "options": [
+          "Left (blue)",
+          "Right (pink)",
+          "They are equal",
+          "Cannot tell"
+        ],
+        "answer": "Left (blue)",
+        "image": "/curriculum-images/compare-1-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-0",
+    "title": "Addition: 1 + 3",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      },
+      {
+        "question": "1 + 3 = ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-1",
+    "title": "Addition: 2 + 4",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      },
+      {
+        "question": "2 + 4 = ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-2",
+    "title": "Addition: 3 + 5",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      },
+      {
+        "question": "3 + 5 = ?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-3",
+    "title": "Addition: 4 + 1",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      },
+      {
+        "question": "4 + 1 = ?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-4",
+    "title": "Addition: 5 + 2",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      },
+      {
+        "question": "5 + 2 = ?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-5",
+    "title": "Addition: 1 + 3",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      },
+      {
+        "question": "1 + 3 = ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-6",
+    "title": "Addition: 2 + 4",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      },
+      {
+        "question": "2 + 4 = ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-7",
+    "title": "Addition: 3 + 5",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      },
+      {
+        "question": "3 + 5 = ?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-8",
+    "title": "Addition: 4 + 1",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      },
+      {
+        "question": "4 + 1 = ?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-9",
+    "title": "Addition: 5 + 2",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      },
+      {
+        "question": "5 + 2 = ?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-10",
+    "title": "Addition: 1 + 3",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      },
+      {
+        "question": "1 + 3 = ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-11",
+    "title": "Addition: 2 + 4",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      },
+      {
+        "question": "2 + 4 = ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-12",
+    "title": "Addition: 3 + 5",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      },
+      {
+        "question": "3 + 5 = ?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-13",
+    "title": "Addition: 4 + 1",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      },
+      {
+        "question": "4 + 1 = ?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-14",
+    "title": "Addition: 5 + 2",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      },
+      {
+        "question": "5 + 2 = ?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-15",
+    "title": "Addition: 1 + 3",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      },
+      {
+        "question": "1 + 3 = ?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/add-1-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-16",
+    "title": "Addition: 2 + 4",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      },
+      {
+        "question": "2 + 4 = ?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/add-2-4.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-17",
+    "title": "Addition: 3 + 5",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      },
+      {
+        "question": "3 + 5 = ?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/add-3-5.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-18",
+    "title": "Addition: 4 + 1",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      },
+      {
+        "question": "4 + 1 = ?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/add-4-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-addition-visual-19",
+    "title": "Addition: 5 + 2",
+    "description": "Visual addition practice",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      },
+      {
+        "question": "5 + 2 = ?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "image": "/curriculum-images/add-5-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-0",
+    "title": "Subtraction: 3 - 1",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 1 circles, how many are left?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-3-1.svg"
+      },
+      {
+        "question": "3 - 1 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-3-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-1",
+    "title": "Subtraction: 4 - 2",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 2 circles, how many are left?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-4-2.svg"
+      },
+      {
+        "question": "4 - 2 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-4-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-2",
+    "title": "Subtraction: 5 - 3",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 3 circles, how many are left?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-5-3.svg"
+      },
+      {
+        "question": "5 - 3 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/subtract-5-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-3",
+    "title": "Subtraction: 6 - 1",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 1 circles, how many are left?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-6-1.svg"
+      },
+      {
+        "question": "6 - 1 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-6-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-4",
+    "title": "Subtraction: 7 - 2",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 2 circles, how many are left?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-7-2.svg"
+      },
+      {
+        "question": "7 - 2 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-7-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-5",
+    "title": "Subtraction: 8 - 3",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 3 circles, how many are left?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-8-3.svg"
+      },
+      {
+        "question": "8 - 3 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "image": "/curriculum-images/subtract-8-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-6",
+    "title": "Subtraction: 9 - 1",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 1 circles, how many are left?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/subtract-9-1.svg"
+      },
+      {
+        "question": "9 - 1 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/subtract-9-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-7",
+    "title": "Subtraction: 10 - 2",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 2 circles, how many are left?",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/subtract-10-2.svg"
+      },
+      {
+        "question": "10 - 2 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/subtract-10-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-8",
+    "title": "Subtraction: 3 - 3",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 3 circles, how many are left?",
+        "options": [
+          "0",
+          "1",
+          "0",
+          "2"
+        ],
+        "answer": "0",
+        "image": "/curriculum-images/subtract-3-3.svg"
+      },
+      {
+        "question": "3 - 3 = ?",
+        "options": [
+          "0",
+          "0",
+          "1",
+          "2"
+        ],
+        "answer": "0",
+        "image": "/curriculum-images/subtract-3-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-9",
+    "title": "Subtraction: 4 - 1",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 1 circles, how many are left?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-4-1.svg"
+      },
+      {
+        "question": "4 - 1 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-4-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-10",
+    "title": "Subtraction: 5 - 2",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 2 circles, how many are left?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-5-2.svg"
+      },
+      {
+        "question": "5 - 2 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-5-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-11",
+    "title": "Subtraction: 6 - 3",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 3 circles, how many are left?",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-6-3.svg"
+      },
+      {
+        "question": "6 - 3 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/subtract-6-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-12",
+    "title": "Subtraction: 7 - 1",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 1 circles, how many are left?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-7-1.svg"
+      },
+      {
+        "question": "7 - 1 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-7-1.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-13",
+    "title": "Subtraction: 8 - 2",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 2 circles, how many are left?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-8-2.svg"
+      },
+      {
+        "question": "8 - 2 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-8-2.svg"
+      }
+    ]
+  },
+  {
+    "id": "1-subtraction-visual-14",
+    "title": "Subtraction: 9 - 3",
+    "description": "Visual subtraction practice",
+    "grade_level": 1,
+    "topic": "Subtraction",
+    "questions": [
+      {
+        "question": "If you cross out 3 circles, how many are left?",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-9-3.svg"
+      },
+      {
+        "question": "9 - 3 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/subtract-9-3.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-0",
+    "title": "Arrays: 2 \u00d7 3",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "3"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/array-2x3.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/array-2x3.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-1",
+    "title": "Arrays: 3 \u00d7 4",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "4"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/array-3x4.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "12",
+        "image": "/curriculum-images/array-3x4.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-2",
+    "title": "Arrays: 4 \u00d7 2",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/array-4x2.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/array-4x2.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-3",
+    "title": "Arrays: 2 \u00d7 3",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "3"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/array-2x3.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/array-2x3.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-4",
+    "title": "Arrays: 3 \u00d7 4",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "4"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/array-3x4.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "12",
+        "image": "/curriculum-images/array-3x4.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-5",
+    "title": "Arrays: 4 \u00d7 2",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/array-4x2.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/array-4x2.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-6",
+    "title": "Arrays: 2 \u00d7 3",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "3"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/array-2x3.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/array-2x3.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-7",
+    "title": "Arrays: 3 \u00d7 4",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "4"
+        ],
+        "answer": "3",
+        "image": "/curriculum-images/array-3x4.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "12",
+        "image": "/curriculum-images/array-3x4.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-8",
+    "title": "Arrays: 4 \u00d7 2",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "4",
+        "image": "/curriculum-images/array-4x2.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "image": "/curriculum-images/array-4x2.svg"
+      }
+    ]
+  },
+  {
+    "id": "2-arrays-9",
+    "title": "Arrays: 2 \u00d7 3",
+    "description": "Understanding arrays and multiplication",
+    "grade_level": 2,
+    "topic": "Arrays",
+    "questions": [
+      {
+        "question": "How many rows are there?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "3"
+        ],
+        "answer": "2",
+        "image": "/curriculum-images/array-2x3.svg"
+      },
+      {
+        "question": "How many circles in total?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "image": "/curriculum-images/array-2x3.svg"
+      }
+    ]
+  }
+]
