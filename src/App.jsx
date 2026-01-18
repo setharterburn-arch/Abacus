@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { StoreProvider } from './services/store';
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
+import LandingPage from './pages/LandingPage';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
@@ -28,8 +29,11 @@ import AbacusWidget from './components/chat/AbacusWidget';
 import Auth from './pages/Auth';
 import MyAccount from './pages/MyAccount';
 import ErrorBoundary from './components/common/ErrorBoundary';
+import { useStore } from './services/store';
 
 const App = () => {
+  const { state: { session } } = useStore();
+
   return (
     <ErrorBoundary>
       <StoreProvider>
@@ -40,7 +44,7 @@ const App = () => {
               <LevelUpModal />
               <AbacusWidget />
               <Routes>
-                <Route path="/" element={<Auth />} />
+                <Route path="/" element={session ? <Dashboard /> : <LandingPage />} />
                 <Route path="/auth" element={<Auth />} />
                 <Route path="/account" element={<MyAccount />} />
                 <Route path="/dashboard" element={<Dashboard />} />
