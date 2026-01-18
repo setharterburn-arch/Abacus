@@ -71,7 +71,7 @@ const Navigation = () => {
                     ) : (
                         <>
                             <button
-                                onClick={() => navigate('/beta')}
+                                onClick={() => navigate('/demo')}
                                 className="btn"
                                 style={{ padding: '0.5rem 1rem' }}
                             >

@@ -4,6 +4,7 @@ import { StoreProvider } from './services/store';
 import Landing from './pages/Landing';
 import Dashboard from './pages/Dashboard';
 import LandingPage from './pages/LandingPage';
+import DemoLessons from './pages/DemoLessons';
 import Admin from './pages/Admin';
 import TestZone from './pages/TestZone';
 import Worksheets from './pages/Worksheets';
@@ -44,6 +45,7 @@ const AppRoutes = () => {
         <Route path="/auth" element={<Auth />} />
         <Route path="/account" element={<MyAccount />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/demo" element={<DemoLessons />} />
         <Route path="/worksheets" element={<Worksheets />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/beta" element={<Beta />} />

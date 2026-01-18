@@ -139,7 +139,7 @@ const LandingPage = () => {
                         </button>
                         <button
                             className="btn btn-secondary"
-                            onClick={() => navigate('/beta')}
+                            onClick={() => navigate('/demo')}
                             style={{ fontSize: '1.2rem', padding: '1rem 2rem' }}
                         >
                             Try Demo Lessons 🎮
