@@ -54,6 +54,13 @@ const Beta = () => {
             description: 'Geometry (K-5). Connect the glowing stars!',
             path: '/beta/cosmic',
             tags: ['Geometry', 'Space']
+        },
+        {
+            id: 'crystal-vault',
+            title: '💎 The Crystal Vault',
+            description: 'Geometry Puzzle. Match magical gemstones to their pedestals!',
+            path: '/beta/crystal-vault',
+            tags: ['Geometry', 'AI-Generated', 'Premium']
         }
     ];
 

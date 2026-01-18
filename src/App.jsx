@@ -14,6 +14,7 @@ import ShapeSafariLesson from './pages/beta/ShapeSafariLesson';
 import MeasurementLesson from './pages/beta/MeasurementLesson';
 import GraphGardenLesson from './pages/beta/GraphGardenLesson';
 import CosmicConstellationsLesson from './pages/beta/CosmicConstellationsLesson';
+import CrystalVaultLesson from './pages/beta/CrystalVaultLesson';
 import Shop from './pages/Shop';
 import Beta from './pages/Beta';
 import Navigation from './components/common/Navigation';
@@ -53,6 +54,7 @@ const App = () => {
                 <Route path="/beta/measure" element={<MeasurementLesson />} />
                 <Route path="/beta/graph" element={<GraphGardenLesson />} />
                 <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
+                <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/admin" element={<Admin />} />
                 <Route path="/test" element={<TestZone />} />
