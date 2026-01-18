@@ -19,13 +19,14 @@ model = genai.GenerativeModel('gemini-2.0-flash-exp')
 
 # Define curriculum expansion plan
 CURRICULUM_PLAN = """
-Generate a comprehensive math curriculum JSON file with 100 curriculum sets covering grades K-6.
+Generate a comprehensive math curriculum JSON file with 50 curriculum sets covering grades K-6.
 
 CRITICAL REQUIREMENTS:
 1. Output ONLY valid JSON - no markdown, no explanations, just the JSON array
 2. Each set must have: id, title, description, grade_level, topic, difficulty, questions
 3. Each question must have: question, options (4 choices), answer, hints (3 levels), explanation
 4. Follow age-appropriateness rules strictly
+5. Keep questions concise and clear
 
 AGE-APPROPRIATENESS RULES:
 - Kindergarten (grade_level: 0): Counting 1-20, shapes, patterns. NO arithmetic symbols (+, -, ×, ÷)
@@ -36,14 +37,14 @@ AGE-APPROPRIATENESS RULES:
 - Grade 5 (grade_level: 5): Fraction operations, decimal operations, volume
 - Grade 6 (grade_level: 6): Ratios, percentages, negative numbers, basic algebra
 
-DISTRIBUTION (100 sets total):
-- Kindergarten: 15 sets
-- Grade 1: 20 sets
-- Grade 2: 20 sets
-- Grade 3: 15 sets
-- Grade 4: 15 sets
-- Grade 5: 10 sets
-- Grade 6: 5 sets
+DISTRIBUTION (50 sets total):
+- Kindergarten: 8 sets
+- Grade 1: 10 sets
+- Grade 2: 10 sets
+- Grade 3: 8 sets
+- Grade 4: 7 sets
+- Grade 5: 5 sets
+- Grade 6: 2 sets
 
 TOPICS TO COVER:
 Kindergarten: Counting, Number Recognition, Shapes, Patterns, Comparing Numbers, Sorting
@@ -92,8 +93,8 @@ Generate 100 complete curriculum sets following this specification. Return ONLY 
 print("="*80)
 print("BULK CURRICULUM GENERATOR")
 print("="*80)
-print("\nGenerating 100 curriculum sets using Gemini AI...")
-print("This may take 30-60 seconds...\n")
+print("\nGenerating 50 curriculum sets using Gemini AI...")
+print("This may take 20-40 seconds...\n")
 
 try:
     # Generate curriculum

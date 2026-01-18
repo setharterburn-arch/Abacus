@@ -30,13 +30,13 @@ const Navigation = () => {
                         alignItems: 'center',
                         gap: '0.5rem',
                         fontWeight: 'bold',
-                        fontSize: '1.2rem',
+                        fontSize: '1.44rem',
                         color: 'var(--color-primary)',
                         textDecoration: 'none'
                     }}
                 >
                     <img src="/logo.jpg" alt="Abacus Logo" style={{ height: '40px', borderRadius: '50%', border: '2px solid var(--color-text)' }} />
-                    Abacus
+                    Abacus Learn
                 </NavLink>
 
                 <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
