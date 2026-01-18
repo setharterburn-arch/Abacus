@@ -62,6 +62,16 @@ export const sendMessageToAbacus = async (history, userMessage, context = "") =>
         return response.text();
     } catch (error) {
         console.error("Gemini Error:", error);
-        return "Rowr... something distracted me. Can you say that again? 🦁";
+        console.error("Error details:", error.message, error.response);
+
+        // More helpful error messages
+        if (error.message?.includes('API key')) {
+            return "Roar! My API key seems to have an issue. Please check the console. 🦁";
+        }
+        if (error.message?.includes('quota') || error.message?.includes('429')) {
+            return "Roar! I've been thinking too much today (API quota exceeded). Try again later! 🦁";
+        }
+
+        return `Rowr... something went wrong: ${error.message || 'Unknown error'}. Check the console for details. 🦁`;
     }
 };
