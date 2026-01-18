@@ -2,10 +2,17 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useGamification } from '../context/GamificationContext';
+import { useStore } from '../services/store';
 
 const MyAccount = () => {
     const navigate = useNavigate();
     const { stats } = useGamification();
+    const { dispatch } = useStore();
+
+    const handleLogout = async () => {
+        dispatch({ type: 'LOGOUT' });
+        navigate('/');
+    };
 
     const menuItems = [
         {
@@ -73,10 +80,11 @@ const MyAccount = () => {
             </div>
 
             <button
-                onClick={() => navigate('/')}
-                style={{ display: 'block', margin: '3rem auto 0 auto', background: 'transparent', border: 'none', color: '#ef4444', cursor: 'pointer', fontSize: '1rem' }}
+                onClick={handleLogout}
+                className="btn"
+                style={{ display: 'block', margin: '3rem auto 0 auto', background: '#ef4444', color: 'white', border: 'none' }}
             >
-                Log Out
+                Log Out 🚪
             </button>
         </div>
     );

@@ -41,7 +41,10 @@ export const reducer = (state, action) => {
             localStorage.setItem('settings', JSON.stringify(action.payload));
             return { ...state, settings: action.payload };
         case 'LOGOUT':
+            // Clear session from Supabase
             supabase.auth.signOut();
+            // Clear any cached data
+            localStorage.removeItem('abacus_gamification');
             return { ...state, session: null, profile: null, user: null };
         case 'TOGGLE_THEME':
             const newTheme = state.theme === 'light' ? 'dark' : 'light';
