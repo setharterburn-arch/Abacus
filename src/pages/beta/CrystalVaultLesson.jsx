@@ -5,11 +5,11 @@ import { audioManager } from '../../services/audio';
 import { useGamification } from '../../context/GamificationContext';
 import confetti from 'canvas-confetti';
 
-// Import AI-generated assets
-import crystalCaveBg from '/Users/setharterburn/.gemini/antigravity/brain/479cfd8c-49e8-4170-8270-444a708a4a0c/crystal_cave_background_1768749373821.png';
-import gemstoneCube from '/Users/setharterburn/.gemini/antigravity/brain/479cfd8c-49e8-4170-8270-444a708a4a0c/gemstone_cube_1768749388421.png';
-import gemstonePyramid from '/Users/setharterburn/.gemini/antigravity/brain/479cfd8c-49e8-4170-8270-444a708a4a0c/gemstone_pyramid_1768749402353.png';
-import gemstoneSphere from '/Users/setharterburn/.gemini/antigravity/brain/479cfd8c-49e8-4170-8270-444a708a4a0c/gemstone_sphere_1768749415728.png';
+// Use public assets instead of absolute paths
+const crystalCaveBg = '/assets/crystal-vault/background.png';
+const gemstoneCube = '/assets/crystal-vault/cube.png';
+const gemstonePyramid = '/assets/crystal-vault/pyramid.png';
+const gemstoneSphere = '/assets/crystal-vault/sphere.png';
 
 const Gemstone = ({ id, type, image, isPlaced, onDragStart, onDragEnd }) => {
     return (
