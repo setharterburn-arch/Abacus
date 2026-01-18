@@ -31,40 +31,46 @@ import MyAccount from './pages/MyAccount';
 import ErrorBoundary from './components/common/ErrorBoundary';
 import { useStore } from './services/store';
 
-const App = () => {
+const AppRoutes = () => {
   const { state: { session } } = useStore();
 
+  return (
+    <BrowserRouter>
+      <Navigation />
+      <LevelUpModal />
+      <AbacusWidget />
+      <Routes>
+        <Route path="/" element={session ? <Dashboard /> : <LandingPage />} />
+        <Route path="/auth" element={<Auth />} />
+        <Route path="/account" element={<MyAccount />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/worksheets" element={<Worksheets />} />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/beta" element={<Beta />} />
+        <Route path="/beta/apples" element={<ApplesLesson />} />
+        <Route path="/beta/space" element={<SpaceRaceLesson />} />
+        <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
+        <Route path="/beta/shapes" element={<ShapeSafariLesson />} />
+        <Route path="/beta/measure" element={<MeasurementLesson />} />
+        <Route path="/beta/graph" element={<GraphGardenLesson />} />
+        <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
+        <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/admin" element={<Admin />} />
+        <Route path="/test" element={<TestZone />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+const App = () => {
   return (
     <ErrorBoundary>
       <StoreProvider>
         <GamificationProvider>
           <ChatProvider>
-            <BrowserRouter>
-              <Navigation />
-              <LevelUpModal />
-              <AbacusWidget />
-              <Routes>
-                <Route path="/" element={session ? <Dashboard /> : <LandingPage />} />
-                <Route path="/auth" element={<Auth />} />
-                <Route path="/account" element={<MyAccount />} />
-                <Route path="/dashboard" element={<Dashboard />} />
-                <Route path="/worksheets" element={<Worksheets />} />
-                <Route path="/feedback" element={<Feedback />} />
-                <Route path="/beta" element={<Beta />} />
-                <Route path="/beta/apples" element={<ApplesLesson />} />
-                <Route path="/beta/space" element={<SpaceRaceLesson />} />
-                <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
-                <Route path="/beta/shapes" element={<ShapeSafariLesson />} />
-                <Route path="/beta/measure" element={<MeasurementLesson />} />
-                <Route path="/beta/graph" element={<GraphGardenLesson />} />
-                <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
-                <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
-                <Route path="/shop" element={<Shop />} />
-                <Route path="/admin" element={<Admin />} />
-                <Route path="/test" element={<TestZone />} />
-                <Route path="*" element={<Navigate to="/" />} />
-              </Routes>
-            </BrowserRouter>
+            <AppRoutes />
           </ChatProvider>
         </GamificationProvider>
       </StoreProvider>
