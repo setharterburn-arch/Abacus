@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../services/supabase';
 import AssignmentRunner from '../components/student/AssignmentRunner';
+import MasteryWidget from '../components/dashboard/MasteryWidget';
 import XPBar from '../components/gamification/XPBar';
 
 const StudentDashboard = ({ profile }) => {
@@ -105,7 +106,7 @@ const StudentDashboard = ({ profile }) => {
                 </div>
             </header>
 
-            <div style={{ display: 'grid', gap: '2rem', marginBottom: '2rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginBottom: '2rem' }}>
                 <div className="card">
                     <h3>Join a Class</h3>
                     <form onSubmit={joinClass} style={{ display: 'flex', gap: '1rem', marginTop: '0.5rem' }}>
@@ -118,6 +119,8 @@ const StudentDashboard = ({ profile }) => {
                         <button className="btn btn-primary">Join</button>
                     </form>
                 </div>
+
+                <MasteryWidget />
             </div>
 
             <div>
