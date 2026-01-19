@@ -30,6 +30,7 @@ const InteractiveAddition = () => {
                 audioRef.current.pause();
             }
             audioRef.current = new Audio(audioFile);
+            audioRef.current.playbackRate = 1.15; // Speed up 15% for more natural sound
             audioRef.current.play().catch(err => console.log('Audio play failed:', err));
         }
     }, [step]);
@@ -38,6 +39,7 @@ const InteractiveAddition = () => {
     useEffect(() => {
         if (showFeedback) {
             const feedbackAudio = new Audio(audioFiles[isCorrect ? 'correct' : 'wrong']);
+            feedbackAudio.playbackRate = 1.15; // Speed up 15% for more natural sound
             feedbackAudio.play().catch(err => console.log('Audio play failed:', err));
         }
     }, [showFeedback, isCorrect]);
