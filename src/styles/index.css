@@ -230,6 +230,224 @@ textarea {
   content: '✓';
 }
 
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ========================================
+   MOBILE RESPONSIVE STYLES
+   ======================================== */
+
+/* Mobile-first responsive typography */
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Responsive container */
+.container {
+  padding: 0 1rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+/* Touch-friendly buttons */
+@media (max-width: 768px) {
+  .btn {
+    min-height: 44px;
+    /* iOS recommended touch target */
+    min-width: 44px;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+/* Responsive cards */
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Responsive grid layouts */
+@media (max-width: 768px) {
+
+  /* Stack grid items on mobile */
+  [style*="display: grid"],
+  [style*="display:grid"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Stack flex items on mobile */
+  [style*="display: flex"][style*="gap"] {
+    flex-direction: column;
+  }
+}
+
+/* Responsive text sizes */
+@media (max-width: 768px) {
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+  }
+
+  h2 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+  }
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 768px) {
+
+  /* Make navigation stack vertically on mobile */
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  /* Full-width navigation buttons on mobile */
+  nav .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Responsive tables */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Hide/show elements based on screen size */
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+
+  /* Reduce padding on mobile */
+  section,
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  /* Smaller gaps */
+  [style*="gap: 2rem"],
+  [style*="gap:2rem"] {
+    gap: 1rem !important;
+  }
+}
+
+/* Touch-friendly form inputs */
+@media (max-width: 768px) {
+
+  input,
+  select,
+  textarea {
+    min-height: 44px;
+    font-size: 16px;
+    /* Prevents iOS zoom on focus */
+    padding: 0.75rem;
+  }
+}
+
+/* Responsive modals */
+@media (max-width: 768px) {
+
+  [class*="modal"],
+  [style*="position: fixed"] {
+    padding: 1rem !important;
+  }
+
+  [class*="modal"]>div,
+  [style*="position: fixed"]>div {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
+
+/* Prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+* {
+  max-width: 100%;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile-friendly scrollable areas */
+@media (max-width: 768px) {
+
+  [style*="overflow: auto"],
+  [style*="overflow:auto"],
+  [style*="overflow-y: auto"],
+  [style*="overflow-y:auto"] {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Landscape orientation adjustments */
+@media (max-width: 768px) and (orientation: landscape) {
+
+  /* Reduce vertical padding in landscape */
+  section,
+  .section {
+    padding: 1rem;
+  }
+}
+
 /* Playful animations */
 @keyframes wiggle {
 

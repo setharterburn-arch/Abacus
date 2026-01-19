@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useStore } from '../../services/store';
 
 const Navigation = () => {
     const { state, dispatch } = useStore();
     const navigate = useNavigate();
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     React.useEffect(() => {
         document.documentElement.setAttribute('data-theme', state.theme);
     }, [state.theme]);
 
     const isLoggedIn = state.session || state.user;
+
+    const toggleMobileMenu = () => {
+        setMobileMenuOpen(!mobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setMobileMenuOpen(false);
+    };
 
     return (
         <nav style={{
@@ -30,16 +39,40 @@ const Navigation = () => {
                         alignItems: 'center',
                         gap: '0.5rem',
                         fontWeight: 'bold',
-                        fontSize: '1.44rem',
+                        fontSize: 'clamp(1.1rem, 3vw, 1.44rem)',
                         color: 'var(--color-primary)',
                         textDecoration: 'none'
                     }}
+                    onClick={closeMobileMenu}
                 >
                     <img src="/logo.jpg" alt="Abacus Logo" style={{ height: '40px', borderRadius: '50%', border: '2px solid var(--color-text)' }} />
-                    Abacus Learn
+                    <span className="desktop-only">Abacus Learn</span>
+                    <span className="mobile-only">Abacus</span>
                 </NavLink>
 
-                <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                {/* Hamburger Menu Button (Mobile Only) */}
+                <button
+                    className="mobile-only"
+                    onClick={toggleMobileMenu}
+                    style={{
+                        background: 'none',
+                        border: '2px solid var(--color-text)',
+                        borderRadius: 'var(--radius-md)',
+                        padding: '0.5rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '4px',
+                        cursor: 'pointer'
+                    }}
+                    aria-label="Toggle menu"
+                >
+                    <span style={{ width: '24px', height: '3px', background: 'var(--color-text)', borderRadius: '2px', transition: 'all 0.3s' }} />
+                    <span style={{ width: '24px', height: '3px', background: 'var(--color-text)', borderRadius: '2px', transition: 'all 0.3s' }} />
+                    <span style={{ width: '24px', height: '3px', background: 'var(--color-text)', borderRadius: '2px', transition: 'all 0.3s' }} />
+                </button>
+
+                {/* Desktop Navigation */}
+                <div className="desktop-only" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                     {isLoggedIn ? (
                         <>
                             <NavLink
@@ -86,33 +119,99 @@ const Navigation = () => {
                         </>
                     ) : (
                         <>
-                            <button
-                                onClick={() => navigate('/demo')}
-                                className="btn"
-                                style={{ padding: '0.5rem 1rem' }}
-                            >
-                                Demo Lessons 🎮
-                            </button>
-                            <button
-                                onClick={() => navigate('/auth')}
+                            <NavLink
+                                to="/auth"
                                 className="btn btn-primary"
-                                style={{ padding: '0.5rem 1rem' }}
+                                style={{ textDecoration: 'none', padding: '0.5rem 1.5rem' }}
                             >
-                                Sign In / Sign Up
-                            </button>
+                                Sign In
+                            </NavLink>
                         </>
                     )}
-
-                    <button
-                        onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
-                        className="btn"
-                        style={{ padding: '0.5rem', fontSize: '1.2rem', background: 'transparent' }}
-                        title="Toggle Dark Mode"
-                    >
-                        {state.theme === 'dark' ? '🌙' : '☀️'}
-                    </button>
                 </div>
             </div>
+
+            {/* Mobile Menu Dropdown */}
+            {mobileMenuOpen && (
+                <div
+                    className="mobile-only"
+                    style={{
+                        position: 'absolute',
+                        top: '100%',
+                        left: 0,
+                        right: 0,
+                        background: 'var(--color-bg-card)',
+                        borderBottom: '3px solid var(--color-text)',
+                        boxShadow: 'var(--shadow-lg)',
+                        padding: '1rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '0.75rem'
+                    }}
+                >
+                    {isLoggedIn ? (
+                        <>
+                            <NavLink
+                                to="/dashboard"
+                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                onClick={closeMobileMenu}
+                            >
+                                Dashboard 🏠
+                            </NavLink>
+
+                            <NavLink
+                                to="/practice"
+                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                onClick={closeMobileMenu}
+                            >
+                                Practice 🎯
+                            </NavLink>
+
+                            <NavLink
+                                to="/assignments"
+                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                onClick={closeMobileMenu}
+                            >
+                                Assignments 📋
+                            </NavLink>
+
+                            {state.profile?.role === 'teacher' && (
+                                <NavLink
+                                    to="/worksheets"
+                                    className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                    style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                    onClick={closeMobileMenu}
+                                >
+                                    Worksheets 🖨️
+                                </NavLink>
+                            )}
+
+                            <NavLink
+                                to="/account"
+                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                onClick={closeMobileMenu}
+                            >
+                                My Account 👤
+                            </NavLink>
+                        </>
+                    ) : (
+                        <>
+                            <NavLink
+                                to="/auth"
+                                className="btn btn-primary"
+                                style={{ textDecoration: 'none', padding: '0.75rem 1.5rem', width: '100%', textAlign: 'center' }}
+                                onClick={closeMobileMenu}
+                            >
+                                Sign In
+                            </NavLink>
+                        </>
+                    )}
+                </div>
+            )}
         </nav>
     );
 };
