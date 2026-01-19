@@ -1,32 +1,53 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { StoreProvider } from './services/store';
-import Landing from './pages/Landing';
-import Dashboard from './pages/Dashboard';
-import LandingPage from './pages/LandingPage';
-import DemoLessons from './pages/DemoLessons';
-import DiagnosticTest from './pages/DiagnosticTest';
-import AdaptivePractice from './pages/AdaptivePractice';
-import CurriculumGenerator from './pages/CurriculumGenerator';
-import Admin from './pages/Admin';
-import TestZone from './pages/TestZone';
-import Worksheets from './pages/Worksheets';
-import Feedback from './pages/Feedback';
-import ApplesLesson from './pages/beta/ApplesLesson';
-import SpaceRaceLesson from './pages/beta/SpaceRaceLesson';
-import PizzaPartyLesson from './pages/beta/PizzaPartyLesson';
-import ShapeSafariLesson from './pages/beta/ShapeSafariLesson';
-import MeasurementLesson from './pages/beta/MeasurementLesson';
-import GraphGardenLesson from './pages/beta/GraphGardenLesson';
-import CosmicConstellationsLesson from './pages/beta/CosmicConstellationsLesson';
-import CrystalVaultLesson from './pages/beta/CrystalVaultLesson';
-import VideoTutorials from './pages/beta/VideoTutorials';
-import InteractiveAddition from './pages/beta/InteractiveAddition';
-import LearningPaths from './pages/LearningPaths';
-import Assignments from './pages/Assignments';
-import Shop from './pages/Shop';
-import Beta from './pages/Beta';
 import Navigation from './components/common/Navigation';
+
+// Lazy load all page components for code splitting
+const Landing = lazy(() => import('./pages/Landing'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+const LandingPage = lazy(() => import('./pages/LandingPage'));
+const DemoLessons = lazy(() => import('./pages/DemoLessons'));
+const DiagnosticTest = lazy(() => import('./pages/DiagnosticTest'));
+const AdaptivePractice = lazy(() => import('./pages/AdaptivePractice'));
+const CurriculumGenerator = lazy(() => import('./pages/CurriculumGenerator'));
+const Admin = lazy(() => import('./pages/Admin'));
+const TestZone = lazy(() => import('./pages/TestZone'));
+const Worksheets = lazy(() => import('./pages/Worksheets'));
+const Feedback = lazy(() => import('./pages/Feedback'));
+const LearningPaths = lazy(() => import('./pages/LearningPaths'));
+const Assignments = lazy(() => import('./pages/Assignments'));
+const Shop = lazy(() => import('./pages/Shop'));
+const Beta = lazy(() => import('./pages/Beta'));
+
+// Beta lessons
+const ApplesLesson = lazy(() => import('./pages/beta/ApplesLesson'));
+const SpaceRaceLesson = lazy(() => import('./pages/beta/SpaceRaceLesson'));
+const PizzaPartyLesson = lazy(() => import('./pages/beta/PizzaPartyLesson'));
+const ShapeSafariLesson = lazy(() => import('./pages/beta/ShapeSafariLesson'));
+const MeasurementLesson = lazy(() => import('./pages/beta/MeasurementLesson'));
+const GraphGardenLesson = lazy(() => import('./pages/beta/GraphGardenLesson'));
+const CosmicConstellationsLesson = lazy(() => import('./pages/beta/CosmicConstellationsLesson'));
+const CrystalVaultLesson = lazy(() => import('./pages/beta/CrystalVaultLesson'));
+const VideoTutorials = lazy(() => import('./pages/beta/VideoTutorials'));
+const InteractiveAddition = lazy(() => import('./pages/beta/InteractiveAddition'));
+
+// Loading component
+const PageLoader = () => (
+  <div style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    background: 'var(--color-bg)',
+    color: 'var(--color-text)'
+  }}>
+    <div style={{ textAlign: 'center' }}>
+      <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🧮</div>
+      <div>Loading...</div>
+    </div>
+  </div>
+);
 
 import { GamificationProvider } from './context/GamificationContext';
 import LevelUpModal from './components/gamification/LevelUpModal';
@@ -47,35 +68,37 @@ const AppRoutes = () => {
       <Navigation />
       <LevelUpModal />
       <AbacusWidget />
-      <Routes>
-        <Route path="/" element={session ? <Dashboard /> : <LandingPage />} />
-        <Route path="/auth" element={<Auth />} />
-        <Route path="/account" element={<MyAccount />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/demo" element={<DemoLessons />} />
-        <Route path="/diagnostic" element={<DiagnosticTest />} />
-        <Route path="/practice" element={<AdaptivePractice />} />
-        <Route path="/worksheets" element={<Worksheets />} />
-        <Route path="/feedback" element={<Feedback />} />
-        <Route path="/beta" element={<Beta />} />
-        <Route path="/beta/apples" element={<ApplesLesson />} />
-        <Route path="/beta/space" element={<SpaceRaceLesson />} />
-        <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
-        <Route path="/beta/shapes" element={<ShapeSafariLesson />} />
-        <Route path="/beta/measure" element={<MeasurementLesson />} />
-        <Route path="/beta/graph" element={<GraphGardenLesson />} />
-        <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
-        <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
-        <Route path="/beta/videos" element={<VideoTutorials />} />
-        <Route path="/beta/interactive-addition" element={<InteractiveAddition />} />
-        <Route path="/learning-paths" element={<LearningPaths />} />
-        <Route path="/assignments" element={<Assignments />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
-        <Route path="/test" element={<TestZone />} />
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
+      <Suspense fallback={<PageLoader />}>
+        <Routes>
+          <Route path="/" element={session ? <Dashboard /> : <LandingPage />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/account" element={<MyAccount />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/demo" element={<DemoLessons />} />
+          <Route path="/diagnostic" element={<DiagnosticTest />} />
+          <Route path="/practice" element={<AdaptivePractice />} />
+          <Route path="/worksheets" element={<Worksheets />} />
+          <Route path="/feedback" element={<Feedback />} />
+          <Route path="/beta" element={<Beta />} />
+          <Route path="/beta/apples" element={<ApplesLesson />} />
+          <Route path="/beta/space" element={<SpaceRaceLesson />} />
+          <Route path="/beta/pizza" element={<PizzaPartyLesson />} />
+          <Route path="/beta/shapes" element={<ShapeSafariLesson />} />
+          <Route path="/beta/measure" element={<MeasurementLesson />} />
+          <Route path="/beta/graph" element={<GraphGardenLesson />} />
+          <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
+          <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
+          <Route path="/beta/videos" element={<VideoTutorials />} />
+          <Route path="/beta/interactive-addition" element={<InteractiveAddition />} />
+          <Route path="/learning-paths" element={<LearningPaths />} />
+          <Route path="/assignments" element={<Assignments />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
+          <Route path="/test" element={<TestZone />} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 };
