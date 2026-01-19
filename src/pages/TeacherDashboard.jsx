@@ -134,10 +134,21 @@ const TeacherDashboard = ({ profile }) => {
                                                 </form>
                                             ) : (
                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                                                    <strong>{cls.name}</strong>
+                                                    <strong style={{ fontSize: 'clamp(1rem, 3vw, 1.2rem)' }}>{cls.name}</strong>
                                                     <button
                                                         onClick={() => setEditingClass({ id: cls.id, name: cls.name })}
-                                                        style={{ background: 'none', border: 'none', cursor: 'pointer', fontSize: '1rem', opacity: 0.5 }}
+                                                        style={{
+                                                            background: 'var(--color-bg)',
+                                                            border: '2px solid var(--color-text)',
+                                                            borderRadius: '0.5rem',
+                                                            cursor: 'pointer',
+                                                            fontSize: '1rem',
+                                                            padding: '0.25rem 0.5rem',
+                                                            opacity: 0.7,
+                                                            transition: 'opacity 0.2s'
+                                                        }}
+                                                        onMouseEnter={(e) => e.target.style.opacity = '1'}
+                                                        onMouseLeave={(e) => e.target.style.opacity = '0.7'}
                                                         title="Rename Class"
                                                     >
                                                         ✏️
@@ -148,24 +159,24 @@ const TeacherDashboard = ({ profile }) => {
                                                 Code: <span style={{ fontFamily: 'monospace', background: '#eee', padding: '2px 4px', borderRadius: '4px' }}>{cls.join_code}</span>
                                             </div>
                                         </div>
-                                        <div style={{ display: 'flex', gap: '0.5rem' }}>
+                                        <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
                                             <button
                                                 className="btn btn-secondary"
-                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                style={{ fontSize: 'clamp(0.7rem, 2vw, 0.8rem)', padding: 'clamp(0.3rem, 1vw, 0.4rem) clamp(0.5rem, 2vw, 0.8rem)', whiteSpace: 'nowrap' }}
                                                 onClick={() => setViewingRoster(viewingRoster === cls.id ? null : cls.id)}
                                             >
                                                 {viewingRoster === cls.id ? 'Close Gradebook' : 'Gradebook'}
                                             </button>
                                             <button
                                                 className="btn btn-secondary"
-                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                style={{ fontSize: 'clamp(0.7rem, 2vw, 0.8rem)', padding: 'clamp(0.3rem, 1vw, 0.4rem) clamp(0.5rem, 2vw, 0.8rem)', whiteSpace: 'nowrap' }}
                                                 onClick={() => setViewingCurriculum(viewingCurriculum === cls.id ? null : cls.id)}
                                             >
                                                 {viewingCurriculum === cls.id ? 'Close Library' : 'Curriculum'}
                                             </button>
                                             <button
                                                 className="btn btn-primary"
-                                                style={{ fontSize: '0.8rem', padding: '0.4rem 0.8rem' }}
+                                                style={{ fontSize: 'clamp(0.7rem, 2vw, 0.8rem)', padding: 'clamp(0.3rem, 1vw, 0.4rem) clamp(0.5rem, 2vw, 0.8rem)', whiteSpace: 'nowrap' }}
                                                 onClick={() => setActiveClass(activeClass === cls.id ? null : cls.id)}
                                             >
                                                 {activeClass === cls.id ? 'Close' : 'AI Generator'}
