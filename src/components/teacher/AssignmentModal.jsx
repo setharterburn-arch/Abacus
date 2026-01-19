@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import supabase from '../../services/supabase';
+import { supabase } from '../../services/supabase';
 
 const AssignmentModal = ({ content, type, classId, students, onClose, onAssigned }) => {
     const [assignTo, setAssignTo] = useState('class');
