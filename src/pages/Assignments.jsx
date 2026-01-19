@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
-import supabase from '../services/supabase';
+import { supabase } from '../services/supabase';
 
 const Assignments = () => {
     const { state } = useStore();
