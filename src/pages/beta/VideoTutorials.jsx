@@ -8,28 +8,13 @@ const VideoTutorials = () => {
 
     const tutorials = [
         {
-            id: 'addition',
-            title: '➕ Addition (2 + 3)',
-            description: 'Learn basic addition with visual counting using apples!',
-            videoSrc: '/videos/addition_tutorial.mp4',
-            transcript: `In this tutorial, we learn what 2 + 3 equals. We start by showing 2 apples, then add 3 more apples. By counting all the apples together (1, 2, 3, 4, 5), we discover that 2 + 3 = 5!`,
-            grade: 'K-1'
-        },
-        {
-            id: 'subtraction',
-            title: '➖ Subtraction with Regrouping (23 - 15)',
-            description: 'Master subtraction with borrowing using base-10 blocks!',
-            videoSrc: '/videos/subtraction_tutorial.mp4',
-            transcript: `This tutorial teaches subtraction with regrouping. We solve 23 - 15 by first trying to subtract 5 from 3 in the ones place. Since we can't, we borrow 1 ten (which equals 10 ones) from the tens place. Now we have 13 ones, and we can subtract: 13 - 5 = 8. In the tens place, 1 - 1 = 0. So 23 - 15 = 8!`,
-            grade: '2'
-        },
-        {
-            id: 'multiplication',
-            title: '✖️ Multiplication (3 × 4)',
-            description: 'Understand multiplication as repeated addition and arrays!',
-            videoSrc: '/videos/multiplication_tutorial.mp4',
-            transcript: `We explore what 3 × 4 means. Multiplication is "groups of" - so 3 × 4 means 3 groups of 4. We visualize this as an array with 3 rows and 4 dots in each row. We can also think of it as repeated addition: 4 + 4 + 4. By counting all the dots, we find that 3 × 4 = 12!`,
-            grade: '3'
+            id: 'test',
+            title: '➕ Addition Test (Coqui TTS)',
+            description: 'Test video with FREE Coqui TTS voiceover - Learn addition with visual counting!',
+            videoSrc: '/videos/test_video.mp4',
+            transcript: `This is a test video using Coqui TTS (free, self-hosted voice generation). In this tutorial, we learn what 2 + 3 equals. We start by showing 2 apples, then add 3 more apples. By counting all the apples together (1, 2, 3, 4, 5), we discover that 2 + 3 = 5! Voice generated using our own VPS server at $0 cost.`,
+            grade: 'K-1',
+            voiceProvider: 'Coqui TTS (Free)'
         }
     ];
 
