@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
@@ -9,6 +9,38 @@ const InteractiveAddition = () => {
     const [answer, setAnswer] = useState('');
     const [showFeedback, setShowFeedback] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
+    const audioRef = useRef(null);
+
+    // Audio files for each step
+    const audioFiles = {
+        0: '/audio/narrations/addition/intro.wav',
+        1: '/audio/narrations/addition/first.wav',
+        2: '/audio/narrations/addition/second.wav',
+        3: '/audio/narrations/addition/question.wav',
+        4: '/audio/narrations/addition/celebration.wav',
+        correct: '/audio/narrations/addition/correct.wav',
+        wrong: '/audio/narrations/addition/wrong.wav'
+    };
+
+    // Play narration when step changes
+    useEffect(() => {
+        const audioFile = audioFiles[step];
+        if (audioFile) {
+            if (audioRef.current) {
+                audioRef.current.pause();
+            }
+            audioRef.current = new Audio(audioFile);
+            audioRef.current.play().catch(err => console.log('Audio play failed:', err));
+        }
+    }, [step]);
+
+    // Play feedback audio
+    useEffect(() => {
+        if (showFeedback) {
+            const feedbackAudio = new Audio(audioFiles[isCorrect ? 'correct' : 'wrong']);
+            feedbackAudio.play().catch(err => console.log('Audio play failed:', err));
+        }
+    }, [showFeedback, isCorrect]);
 
     const steps = [
         {
