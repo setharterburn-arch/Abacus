@@ -71,9 +71,16 @@ const VideoTutorials = () => {
                     <p style={{ marginBottom: '0.5rem', color: '#555' }}>
                         These videos are generated using <strong>Manim</strong>, a free Python library for creating mathematical animations.
                     </p>
-                    <p style={{ color: '#555' }}>
+                    <p style={{ marginBottom: '1rem', color: '#555' }}>
                         <strong>Please provide feedback:</strong> Are the animations clear? Is the pacing good? What would you improve?
                     </p>
+                    <button
+                        onClick={() => navigate('/beta/interactive-addition')}
+                        className="btn btn-primary"
+                        style={{ width: '100%' }}
+                    >
+                        🎮 Try Interactive Version (Better Pacing!)
+                    </button>
                 </div>
 
                 {/* Tutorial Videos */}

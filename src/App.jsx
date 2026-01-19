@@ -21,6 +21,7 @@ import GraphGardenLesson from './pages/beta/GraphGardenLesson';
 import CosmicConstellationsLesson from './pages/beta/CosmicConstellationsLesson';
 import CrystalVaultLesson from './pages/beta/CrystalVaultLesson';
 import VideoTutorials from './pages/beta/VideoTutorials';
+import InteractiveAddition from './pages/beta/InteractiveAddition';
 import Shop from './pages/Shop';
 import Beta from './pages/Beta';
 import Navigation from './components/common/Navigation';
@@ -64,6 +65,7 @@ const AppRoutes = () => {
         <Route path="/beta/cosmic" element={<CosmicConstellationsLesson />} />
         <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
         <Route path="/beta/videos" element={<VideoTutorials />} />
+        <Route path="/beta/interactive-addition" element={<InteractiveAddition />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
