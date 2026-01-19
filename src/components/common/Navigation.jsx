@@ -31,7 +31,7 @@ const Navigation = () => {
             zIndex: 100,
             borderBottom: '3px solid var(--color-text)'
         }}>
-            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '0 1rem' }}>
                 <NavLink
                     to="/"
                     style={{
