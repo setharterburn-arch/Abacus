@@ -25,6 +25,9 @@ const Navigation = () => {
         <nav style={{
             backgroundColor: 'var(--color-bg-card)',
             padding: '1rem',
+            paddingTop: 'max(1rem, env(safe-area-inset-top))',
+            paddingLeft: 'max(1rem, env(safe-area-inset-left))',
+            paddingRight: 'max(1rem, env(safe-area-inset-right))',
             boxShadow: 'var(--shadow-sm)',
             position: 'sticky',
             top: 0,
