@@ -8,60 +8,79 @@ def parse_learning_paths(markdown_file):
         content = f.read()
     
     paths = []
-    current_grade = None
+    current_grade = 0
     
-    # Split by path sections
-    sections = re.split(r'###\s+Path\s+\d+:', content)
+    # Split content by lines to track grade changes
+    lines = content.split('\n')
+    current_path = None
+    in_modules = False
     
-    for i, section in enumerate(sections[1:], 1):  # Skip first split (header)
-        lines = section.strip().split('\n')
+    for line in lines:
+        # Check for grade header
+        grade_match = re.match(r'##\s+Grade\s+([K0-9]+)', line)
+        if grade_match:
+            grade_str = grade_match.group(1)
+            current_grade = 0 if grade_str == 'K' else int(grade_str)
+            continue
         
-        # Extract title (first line)
-        title = lines[0].strip()
+        # Check for path header
+        path_match = re.match(r'###\s+Path\s+\d+:\s+(.+)', line)
+        if path_match:
+            # Save previous path if exists
+            if current_path:
+                paths.append(current_path)
+            
+            # Start new path
+            title = path_match.group(1).strip()
+            grade_prefix = 'k' if current_grade == 0 else str(current_grade)
+            path_id = f"{grade_prefix}-{title.lower().replace(' ', '-').replace('(', '').replace(')', '').replace('&', 'and')}"
+            
+            current_path = {
+                "id": path_id,
+                "title": title,
+                "description": "",
+                "grade_level": current_grade,
+                "estimated_time": 25,
+                "modules": [],
+                "total_questions": 0,
+                "prerequisites": [],
+                "next_paths": []
+            }
+            in_modules = False
+            continue
         
         # Extract description
-        desc_match = re.search(r'\*\*Description:\*\*\s+(.+)', section)
-        description = desc_match.group(1) if desc_match else ""
+        if current_path and '**Description:**' in line:
+            desc_match = re.search(r'\*\*Description:\*\*\s+(.+)', line)
+            if desc_match:
+                current_path['description'] = desc_match.group(1).strip()
+            continue
         
         # Extract estimated time
-        time_match = re.search(r'\*\*Estimated Time:\*\*\s+(\d+)\s+minutes', section)
-        estimated_time = int(time_match.group(1)) if time_match else 25
+        if current_path and '**Estimated Time:**' in line:
+            time_match = re.search(r'\*\*Estimated Time:\*\*\s+(\d+)\s+minutes', line)
+            if time_match:
+                current_path['estimated_time'] = int(time_match.group(1))
+            continue
         
-        # Extract modules
-        modules = []
-        in_modules = False
-        for line in lines:
-            if '**Modules:**' in line:
-                in_modules = True
-                continue
-            if in_modules and line.strip().startswith('*'):
-                module_id = line.strip().lstrip('* ').strip()
-                if module_id:
-                    modules.append(module_id)
+        # Check for modules section
+        if current_path and '**Modules:**' in line:
+            in_modules = True
+            continue
         
-        # Determine grade from section context
-        grade_match = re.search(r'##\s+Grade\s+([K0-9]+)', content[:content.index(section)])
-        if grade_match:
-            grade_str = grade_match.groups()[-1]  # Get last match
-            current_grade = 0 if grade_str == 'K' else int(grade_str)
-        
-        # Create path ID
-        grade_prefix = 'k' if current_grade == 0 else str(current_grade)
-        path_id = f"{grade_prefix}-{title.lower().replace(' ', '-').replace('(', '').replace(')', '')}"
-        
-        path = {
-            "id": path_id,
-            "title": title,
-            "description": description,
-            "grade_level": current_grade,
-            "estimated_time": estimated_time,
-            "modules": modules,
-            "total_questions": len(modules) * 12,  # Estimate 12 questions per module
-            "prerequisites": [],
-            "next_paths": []
-        }
-        
-        paths.append(path)
+        # Extract module IDs
+        if current_path and in_modules and line.strip().startswith('*'):
+            module_id = line.strip().lstrip('* ').strip()
+            if module_id:
+                current_path['modules'].append(module_id)
+    
+    # Add the last path
+    if current_path:
+        paths.append(current_path)
+    
+    # Calculate total questions for each path
+    for path in paths:
+        path['total_questions'] = len(path['modules']) * 12
     
     return paths
 
