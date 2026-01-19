@@ -1,0 +1,25 @@
+/* Class button grid for mobile */
+.class-buttons {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .class-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        width: 100%;
+    }
+
+    .class-buttons .btn:last-child {
+        grid-column: span 2;
+    }
+
+    .class-card-container {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 1rem;
+    }
+}

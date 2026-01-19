@@ -3,6 +3,7 @@ import { supabase } from '../services/supabase';
 import CreateAssignment from '../components/teacher/CreateAssignment';
 import ClassRoster from '../components/teacher/ClassRoster';
 import CurriculumLibrary from '../components/teacher/CurriculumLibrary';
+import '../styles/teacher-dashboard.css';
 
 const TeacherDashboard = ({ profile }) => {
     const [classes, setClasses] = useState([]);
@@ -113,7 +114,7 @@ const TeacherDashboard = ({ profile }) => {
                         <ul style={{ listStyle: 'none', padding: 0 }}>
                             {classes.map(cls => (
                                 <li key={cls.id} style={{ padding: '1rem', borderBottom: '1px solid #eee' }}>
-                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                    <div className="class-card-container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                         <div>
                                             {editingClass?.id === cls.id ? (
                                                 <form onSubmit={updateClass} style={{ display: 'flex', gap: '0.5rem' }}>
@@ -159,7 +160,7 @@ const TeacherDashboard = ({ profile }) => {
                                                 Code: <span style={{ fontFamily: 'monospace', background: '#eee', padding: '2px 4px', borderRadius: '4px' }}>{cls.join_code}</span>
                                             </div>
                                         </div>
-                                        <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+                                        <div className="class-buttons">
                                             <button
                                                 className="btn btn-secondary"
                                                 style={{ fontSize: 'clamp(0.7rem, 2vw, 0.8rem)', padding: 'clamp(0.3rem, 1vw, 0.4rem) clamp(0.5rem, 2vw, 0.8rem)', whiteSpace: 'nowrap' }}
