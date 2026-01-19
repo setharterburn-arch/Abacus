@@ -1,0 +1,342 @@
+[
+  {
+    "id": "k-counting-fundamentals",
+    "title": "Counting Fundamentals",
+    "description": "Master counting from 1-20 and number recognition",
+    "grade_level": 0,
+    "estimated_time": 25,
+    "modules": [
+      "k-counting-1-20",
+      "k-number-order",
+      "k-comparing-sizes"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-shape-discovery",
+    "title": "Shape Discovery",
+    "description": "Learn to identify and describe basic shapes",
+    "grade_level": 0,
+    "estimated_time": 20,
+    "modules": [
+      "k-shapes-basic",
+      "k-colors-shapes"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-addition-introduction",
+    "title": "Addition Introduction",
+    "description": "Begin learning addition with small numbers",
+    "grade_level": 0,
+    "estimated_time": 22,
+    "modules": [
+      "k-counting-1-20",
+      "k-comparing-sizes"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-addition-mastery-1-10",
+    "title": "Addition Mastery (1-10)",
+    "description": "Master addition facts from 1 to 10",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "1-add-facts-1-10",
+      "1-doubles-facts",
+      "1-number-bonds-10",
+      "1-add-to-20"
+    ],
+    "total_questions": 48,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-subtraction-basics",
+    "title": "Subtraction Basics",
+    "description": "Learn subtraction facts and strategies",
+    "grade_level": 0,
+    "estimated_time": 25,
+    "modules": [
+      "1-sub-facts-1-10",
+      "1-sub-from-10"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-counting-&-number-sense",
+    "title": "Counting & Number Sense",
+    "description": "Develop strong number sense to 100",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "1-counting-to-100",
+      "1-comparing-numbers",
+      "1-patterns"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-place-value-foundation",
+    "title": "Place Value Foundation",
+    "description": "Understand tens, ones, and hundreds",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "2-place-value-tens-ones",
+      "2-place-value-hundreds",
+      "2-even-odd"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-two-digit-addition-&-subtraction",
+    "title": "Two-Digit Addition & Subtraction",
+    "description": "Add and subtract two-digit numbers",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "2-add-2digit",
+      "2-sub-2digit",
+      "2-skip-counting"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-time-&-money",
+    "title": "Time & Money",
+    "description": "Tell time and count money",
+    "grade_level": 0,
+    "estimated_time": 25,
+    "modules": [
+      "2-time-hours",
+      "2-money-coins"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-multiplication-tables-2-5",
+    "title": "Multiplication Tables (2-5)",
+    "description": "Master multiplication facts for 2, 3, 4, and 5",
+    "grade_level": 0,
+    "estimated_time": 32,
+    "modules": [
+      "3-mult-tables-2-5",
+      "3-mult-tables-3-4"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-multiplication-tables-6-9",
+    "title": "Multiplication Tables (6-9)",
+    "description": "Master multiplication facts for 6, 7, 8, and 9",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "3-mult-tables-6-7",
+      "3-mult-tables-8-9"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-division-basics",
+    "title": "Division Basics",
+    "description": "Learn division concepts and basic facts",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "3-division-basics",
+      "3-word-problems"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-fractions-introduction",
+    "title": "Fractions Introduction",
+    "description": "Understand basic fractions",
+    "grade_level": 0,
+    "estimated_time": 25,
+    "modules": [
+      "3-fractions-intro",
+      "3-rounding"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-measurement-&-data",
+    "title": "Measurement & Data",
+    "description": "Measure length and interpret graphs",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "3-measurement-length",
+      "3-capacity",
+      "3-data-graphs"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-multi-digit-multiplication",
+    "title": "Multi-Digit Multiplication",
+    "description": "Multiply larger numbers",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "4-mult-multi-digit",
+      "4-factors-multiples",
+      "4-prime-composite"
+    ],
+    "total_questions": 36,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-long-division",
+    "title": "Long Division",
+    "description": "Master long division",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "4-division-long"
+    ],
+    "total_questions": 12,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-fractions-operations",
+    "title": "Fractions Operations",
+    "description": "Add, subtract, and work with equivalent fractions",
+    "grade_level": 0,
+    "estimated_time": 32,
+    "modules": [
+      "4-fractions-equivalent",
+      "4-fractions-add-sub"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-decimals-introduction",
+    "title": "Decimals Introduction",
+    "description": "Learn about decimals and their operations",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "4-decimals-intro"
+    ],
+    "total_questions": 12,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-geometry-basics",
+    "title": "Geometry Basics",
+    "description": "Explore angles, area, and perimeter",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "4-area-perimeter",
+      "4-angles"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-decimal-operations",
+    "title": "Decimal Operations",
+    "description": "Add, subtract, multiply, and divide decimals",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "5-decimals-operations",
+      "5-percentages"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-advanced-fractions",
+    "title": "Advanced Fractions",
+    "description": "Multiply fractions and solve complex problems",
+    "grade_level": 0,
+    "estimated_time": 28,
+    "modules": [
+      "5-fractions-multiply"
+    ],
+    "total_questions": 12,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-ratios-&-proportions",
+    "title": "Ratios & Proportions",
+    "description": "Understand ratios and their applications",
+    "grade_level": 0,
+    "estimated_time": 25,
+    "modules": [
+      "5-ratios"
+    ],
+    "total_questions": 12,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-coordinate-plane-&-geometry",
+    "title": "Coordinate Plane & Geometry",
+    "description": "Plot points and calculate volume",
+    "grade_level": 0,
+    "estimated_time": 32,
+    "modules": [
+      "5-coordinate-plane",
+      "5-volume"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  },
+  {
+    "id": "k-statistics-&-order-of-operations",
+    "title": "Statistics & Order of Operations",
+    "description": "Calculate mean, median, mode and use PEMDAS",
+    "grade_level": 0,
+    "estimated_time": 30,
+    "modules": [
+      "5-mean-median-mode",
+      "5-order-operations"
+    ],
+    "total_questions": 24,
+    "prerequisites": [],
+    "next_paths": []
+  }
+]
