@@ -164,7 +164,7 @@ const CurriculumLibrary = ({ classId, onClose }) => {
                 </p>
 
                 {/* Content List */}
-                <div style={{ maxHeight: '400px', overflow: 'auto' }}>
+                <div key={activeTab} style={{ maxHeight: '400px', overflow: 'auto' }}>
                     {activeTab === 'curriculum' ? (
                         filteredCurriculum.map((set, idx) => (
                             <div
