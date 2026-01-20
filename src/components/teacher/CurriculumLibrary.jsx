@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../../services/supabase';
-import curriculumData from '../../data/curriculum.json';
 import learningPaths from '../../data/learning_paths.json';
 import AssignmentModal from './AssignmentModal';
 
@@ -11,8 +10,18 @@ const CurriculumLibrary = ({ classId, onClose }) => {
     const [assignmentModal, setAssignmentModal] = useState(null);
     const [classStudents, setClassStudents] = useState([]);
 
+    // Dynamic loading state
+    const [curriculumData, setCurriculumData] = useState([]);
+    const [loadingCurriculum, setLoadingCurriculum] = useState(true);
+
     useEffect(() => {
         loadClassStudents();
+
+        // Dynamically load curriculum
+        import('../../data/curriculum.json').then(module => {
+            setCurriculumData(module.default);
+            setLoadingCurriculum(false);
+        });
     }, [classId]);
 
     const loadClassStudents = async () => {

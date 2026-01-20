@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
 import AdaptiveQuizEngine from '../components/adaptive/AdaptiveQuizEngine';
-import curriculumData from '../data/curriculum.json';
+// Removed static import: import curriculumData from '../data/curriculum.json';
 
 const AdaptivePractice = () => {
     const { state } = useStore();
@@ -12,8 +12,18 @@ const AdaptivePractice = () => {
     const [quizActive, setQuizActive] = useState(false);
     const [results, setResults] = useState(null);
 
-    // Get unique topics from curriculum
-    const topics = [...new Set(curriculumData.map(set => set.topic))].sort();
+    const [topics, setTopics] = useState([]);
+    const [loadingTopics, setLoadingTopics] = useState(true);
+
+    useEffect(() => {
+        // Dynamically load curriculum to get topics
+        import('../data/curriculum.json').then(module => {
+            const data = module.default;
+            const uniqueTopics = [...new Set(data.map(set => set.topic))].sort();
+            setTopics(uniqueTopics);
+            setLoadingTopics(false);
+        });
+    }, []);
 
     const handleTopicSelect = (topic) => {
         setSelectedTopic(topic);

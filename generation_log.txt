@@ -27734,3 +27734,1129 @@
   quota_id: "GenerateRequestsPerDayPerProjectPerModel"
 }
 ]
+[2026-01-19 12:43:51] ============================================================
+[2026-01-19 12:43:51] 🚀 Abacus Learn Content Generation (Claude API)
+[2026-01-19 12:43:51] ============================================================
+[2026-01-19 12:43:51] 🎯 Starting curriculum generation...
+[2026-01-19 12:43:51] Target: 100 sets
+[2026-01-19 12:43:51] 📚 Loaded 661 existing sets
+[2026-01-19 12:43:51] 📊 Generating ~1 sets per topic
+[2026-01-19 12:43:51] ✅ Generated 661 total curriculum sets
+[2026-01-19 12:43:51] ============================================================
+[2026-01-19 12:43:51] ✅ GENERATION COMPLETE!
+[2026-01-19 12:43:51] 📊 Curriculum Sets: 661
+[2026-01-19 12:43:51] ❌ Errors: 0
+[2026-01-19 12:43:51] ============================================================
+[2026-01-19 12:57:59] ============================================================
+[2026-01-19 12:57:59] 🚀 Generating Curriculum for Grades 1-5
+[2026-01-19 12:57:59] ============================================================
+[2026-01-19 12:57:59] 📚 Loaded 661 existing sets
+[2026-01-19 12:57:59] Current distribution:
+[2026-01-19 12:57:59]   Grade 0: 390 sets
+[2026-01-19 12:57:59]   Grade 1: 126 sets
+[2026-01-19 12:57:59]   Grade 2: 46 sets
+[2026-01-19 12:57:59]   Grade 3: 35 sets
+[2026-01-19 12:57:59]   Grade 4: 32 sets
+[2026-01-19 12:57:59]   Grade 5: 27 sets
+[2026-01-19 12:57:59]   Grade 6: 5 sets
+[2026-01-19 12:57:59] 📝 Grade 1 - Addition - Facts to 10 - Set 1
+[2026-01-19 12:57:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFPpj4Apjndh8gz7wuF'}
+[2026-01-19 12:58:00] 📝 Grade 1 - Addition - Facts to 10 - Set 2
+[2026-01-19 12:58:00] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFPsgA7oA6rHsoBQ8aY'}
+[2026-01-19 12:58:01] 📝 Grade 1 - Addition - Facts to 10 - Set 3
+[2026-01-19 12:58:01] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFPvQs5PuZ18CqP15jY'}
+[2026-01-19 12:58:01] 📝 Grade 1 - Addition - Facts to 10 - Set 4
+[2026-01-19 12:58:01] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFPxzeSnMiBH9GxyrUT'}
+[2026-01-19 12:58:02] 📝 Grade 1 - Addition - Facts to 20 - Set 1
+[2026-01-19 12:58:02] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQ1qYbQcAhUqHNMbCV'}
+[2026-01-19 12:58:03] 📝 Grade 1 - Addition - Facts to 20 - Set 2
+[2026-01-19 12:58:03] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQ4pt7nNQDvuHa5Kye'}
+[2026-01-19 12:58:03] 📝 Grade 1 - Addition - Facts to 20 - Set 3
+[2026-01-19 12:58:03] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQ7XbbGUqUDCS6xZ8t'}
+[2026-01-19 12:58:04] 📝 Grade 1 - Addition - Facts to 20 - Set 4
+[2026-01-19 12:58:04] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQAiLbQ1D9pRgMzran'}
+[2026-01-19 12:58:04] 📝 Grade 1 - Addition - Word Problems - Set 1
+[2026-01-19 12:58:05] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQDGdUWKwcBD66JRMB'}
+[2026-01-19 12:58:05] 📝 Grade 1 - Addition - Word Problems - Set 2
+[2026-01-19 12:58:05] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQFvsanJkSJfqoRPB1'}
+[2026-01-19 12:58:06] 📝 Grade 1 - Addition - Word Problems - Set 3
+[2026-01-19 12:58:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQJX9P14je9KdCGd9N'}
+[2026-01-19 12:58:06] 📝 Grade 1 - Addition - Word Problems - Set 4
+[2026-01-19 12:58:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQM5vqh8Htq3tkBLEi'}
+[2026-01-19 12:58:07] 📝 Grade 1 - Addition - Missing Addends - Set 1
+[2026-01-19 12:58:07] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQPdy1NPwMAhC6fQwX'}
+[2026-01-19 12:58:07] 📝 Grade 1 - Addition - Missing Addends - Set 2
+[2026-01-19 12:58:08] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQS73x41RaL5M7wTRY'}
+[2026-01-19 12:58:08] 📝 Grade 1 - Addition - Missing Addends - Set 3
+[2026-01-19 12:58:08] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQUb87MmUwsGmVgXmY'}
+[2026-01-19 12:58:09] 📝 Grade 1 - Addition - Missing Addends - Set 4
+[2026-01-19 12:58:09] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQXxHExYBDskLze2bo'}
+[2026-01-19 12:58:09] 📝 Grade 1 - Addition - Three Numbers - Set 1
+[2026-01-19 12:58:10] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQaoS8AY29QnueT2dc'}
+[2026-01-19 12:58:10] 📝 Grade 1 - Addition - Three Numbers - Set 2
+[2026-01-19 12:58:10] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQdKzKUZhnDpbs1SFK'}
+[2026-01-19 12:58:11] 📝 Grade 1 - Addition - Three Numbers - Set 3
+[2026-01-19 12:58:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQfs2vcCMHfMKiq5Ga'}
+[2026-01-19 12:58:11] 📝 Grade 1 - Addition - Three Numbers - Set 4
+[2026-01-19 12:58:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQieTqur9hUvmhqDN6'}
+[2026-01-19 12:58:12] 📝 Grade 1 - Subtraction - Facts to 10 - Set 1
+[2026-01-19 12:58:12] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQmC1VNRpxy9d22pnL'}
+[2026-01-19 12:58:13] 📝 Grade 1 - Subtraction - Facts to 10 - Set 2
+[2026-01-19 12:58:13] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQok43CsDHMgxD6nN7'}
+[2026-01-19 12:58:13] 📝 Grade 1 - Subtraction - Facts to 10 - Set 3
+[2026-01-19 12:58:13] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQrM54MjGPPQQvtbBj'}
+[2026-01-19 12:58:14] 📝 Grade 1 - Subtraction - Facts to 10 - Set 4
+[2026-01-19 12:58:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQtvr6VqBmcbimB717'}
+[2026-01-19 12:58:14] 📝 Grade 1 - Subtraction - Facts to 20 - Set 1
+[2026-01-19 12:58:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQwRfGh4jA46H3m7pK'}
+[2026-01-19 12:58:15] 📝 Grade 1 - Subtraction - Facts to 20 - Set 2
+[2026-01-19 12:58:15] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFQyxDVB2kXetLNh1Lo'}
+[2026-01-19 12:58:16] 📝 Grade 1 - Subtraction - Facts to 20 - Set 3
+[2026-01-19 12:58:16] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFR2VGNrQWePPUfgJWL'}
+[2026-01-19 12:58:16] 📝 Grade 1 - Subtraction - Facts to 20 - Set 4
+[2026-01-19 12:58:16] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFR524yJqKDpgCL4S42'}
+[2026-01-19 12:58:17] 📝 Grade 1 - Subtraction - Word Problems - Set 1
+[2026-01-19 12:58:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFR7Zri8uf4QCgdRjVU'}
+[2026-01-19 12:58:17] 📝 Grade 1 - Subtraction - Word Problems - Set 2
+[2026-01-19 12:58:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRAJZVKsxstqJ5Pg8T'}
+[2026-01-19 12:58:18] 📝 Grade 1 - Subtraction - Word Problems - Set 3
+[2026-01-19 12:58:18] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRCt69BDD27VCkSgMi'}
+[2026-01-19 12:58:19] 📝 Grade 1 - Subtraction - Word Problems - Set 4
+[2026-01-19 12:58:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRFSdLW4Ef7oh5s8LW'}
+[2026-01-19 12:58:19] 📝 Grade 1 - Subtraction - Fact Families - Set 1
+[2026-01-19 12:58:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRHxBzx6GLmgxXTfWq'}
+[2026-01-19 12:58:20] 📝 Grade 1 - Subtraction - Fact Families - Set 2
+[2026-01-19 12:58:20] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRLU15RwCkNGZhQmCX'}
+[2026-01-19 12:58:20] 📝 Grade 1 - Subtraction - Fact Families - Set 3
+[2026-01-19 12:58:20] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRNzJsb1HvhYeHuMew'}
+[2026-01-19 12:58:21] 📝 Grade 1 - Subtraction - Fact Families - Set 4
+[2026-01-19 12:58:21] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRRWcN1tQoCAqnG98j'}
+[2026-01-19 12:58:22] 📝 Grade 1 - Subtraction - Missing Numbers - Set 1
+[2026-01-19 12:58:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRU4u8x8zFe52qPVdG'}
+[2026-01-19 12:58:22] 📝 Grade 1 - Subtraction - Missing Numbers - Set 2
+[2026-01-19 12:58:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRWeRj3dww3NBZz5yW'}
+[2026-01-19 12:58:23] 📝 Grade 1 - Subtraction - Missing Numbers - Set 3
+[2026-01-19 12:58:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRZAjXBLVijTzNhWdk'}
+[2026-01-19 12:58:23] 📝 Grade 1 - Subtraction - Missing Numbers - Set 4
+[2026-01-19 12:58:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRbeZaVR3yGciX6NBh'}
+[2026-01-19 12:58:24] 📝 Grade 1 - Place Value - Tens and Ones - Set 1
+[2026-01-19 12:58:24] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFReELRK7ZFSbjagLha'}
+[2026-01-19 12:58:24] 📝 Grade 1 - Place Value - Tens and Ones - Set 2
+[2026-01-19 12:58:25] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRgocoSY6qGypMkUq8'}
+[2026-01-19 12:58:25] 📝 Grade 1 - Place Value - Tens and Ones - Set 3
+[2026-01-19 12:58:25] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRjU6vxpThrNecNRvQ'}
+[2026-01-19 12:58:26] 📝 Grade 1 - Place Value - Tens and Ones - Set 4
+[2026-01-19 12:58:26] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRoFK5RnHXaASx1FDq'}
+[2026-01-19 12:58:27] 📝 Grade 1 - Place Value - Comparing Numbers - Set 1
+[2026-01-19 12:58:27] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRqqLSxRT5XUZkVTbH'}
+[2026-01-19 12:58:27] 📝 Grade 1 - Place Value - Comparing Numbers - Set 2
+[2026-01-19 12:58:27] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRtP8j8qyKpFWbYbzP'}
+[2026-01-19 12:58:28] 📝 Grade 1 - Place Value - Comparing Numbers - Set 3
+[2026-01-19 12:58:28] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRwH1kAUp1ZEruDtr3'}
+[2026-01-19 12:58:28] 📝 Grade 1 - Place Value - Comparing Numbers - Set 4
+[2026-01-19 12:58:29] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFRypJfnptfuzCdpN4k'}
+[2026-01-19 12:58:29] 📝 Grade 1 - Place Value - Number Patterns - Set 1
+[2026-01-19 12:58:29] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFS2uqj4bzL9xM6wajC'}
+[2026-01-19 12:58:30] 📝 Grade 1 - Place Value - Number Patterns - Set 2
+[2026-01-19 12:58:30] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFS5Z6T8JSfHfush6mh'}
+[2026-01-19 12:58:30] 📝 Grade 1 - Place Value - Number Patterns - Set 3
+[2026-01-19 12:58:30] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFS83uUn75pfpw8VX7w'}
+[2026-01-19 12:58:31] 📝 Grade 1 - Place Value - Number Patterns - Set 4
+[2026-01-19 12:58:31] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSAchLPrzTn95p8St1'}
+[2026-01-19 12:58:32] 📝 Grade 1 - Place Value - Skip Counting - Set 1
+[2026-01-19 12:58:32] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSDBiyjuU93y58NL3j'}
+[2026-01-19 12:58:32] 📝 Grade 1 - Place Value - Skip Counting - Set 2
+[2026-01-19 12:58:32] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSFrTdzQAQvtAb7g64'}
+[2026-01-19 12:58:33] 📝 Grade 1 - Place Value - Skip Counting - Set 3
+[2026-01-19 12:58:33] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSJSExb2BKB22urFdm'}
+[2026-01-19 12:58:33] 📝 Grade 1 - Place Value - Skip Counting - Set 4
+[2026-01-19 12:58:34] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSM4zHVRVtLpLjfejG'}
+[2026-01-19 12:58:34] 📝 Grade 1 - Place Value - Number Order - Set 1
+[2026-01-19 12:58:34] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSQa5v35M6RNP9bpk4'}
+[2026-01-19 12:58:35] 📝 Grade 1 - Place Value - Number Order - Set 2
+[2026-01-19 12:58:35] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFST7dMnRZUSVKAnTq6'}
+[2026-01-19 12:58:35] 📝 Grade 1 - Place Value - Number Order - Set 3
+[2026-01-19 12:58:36] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSVgf8CAxxvV8duber'}
+[2026-01-19 12:58:36] 📝 Grade 1 - Place Value - Number Order - Set 4
+[2026-01-19 12:58:36] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSYBjFN3n2eeLAXZgH'}
+[2026-01-19 12:58:37] 📝 Grade 1 - Measurement - Length - Set 1
+[2026-01-19 12:58:37] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSanVk9wbbBdJTHa7n'}
+[2026-01-19 12:58:37] 📝 Grade 1 - Measurement - Length - Set 2
+[2026-01-19 12:58:38] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSdMHCW7fzUXxQJroT'}
+[2026-01-19 12:58:38] 📝 Grade 1 - Measurement - Length - Set 3
+[2026-01-19 12:58:38] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSgZkvDNcAwU5wuiB2'}
+[2026-01-19 12:58:39] 📝 Grade 1 - Measurement - Length - Set 4
+[2026-01-19 12:58:39] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSj3LN8ESgWmFFsBow'}
+[2026-01-19 12:58:39] 📝 Grade 1 - Measurement - Time - Set 1
+[2026-01-19 12:58:40] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSmcsJPpjHTLuadap1'}
+[2026-01-19 12:58:40] 📝 Grade 1 - Measurement - Time - Set 2
+[2026-01-19 12:58:40] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSqF9UynuaR47RN7us'}
+[2026-01-19 12:58:41] 📝 Grade 1 - Measurement - Time - Set 3
+[2026-01-19 12:58:41] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSt1bB66CzTEHiwyc1'}
+[2026-01-19 12:58:41] 📝 Grade 1 - Measurement - Time - Set 4
+[2026-01-19 12:58:41] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSvY9BtXHFgcjNpxop'}
+[2026-01-19 12:58:42] 📝 Grade 1 - Measurement - Money - Set 1
+[2026-01-19 12:58:42] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFSy7B1m14VzEJQfjBD'}
+[2026-01-19 12:58:43] 📝 Grade 1 - Measurement - Money - Set 2
+[2026-01-19 12:58:43] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFT2fVEH9vx3Ge3aWaX'}
+[2026-01-19 12:58:43] 📝 Grade 1 - Measurement - Money - Set 3
+[2026-01-19 12:58:43] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFT5A49FVFhy8ZaHRGm'}
+[2026-01-19 12:58:44] 📝 Grade 1 - Measurement - Money - Set 4
+[2026-01-19 12:58:44] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFT7kagDTeZwE41sZKP'}
+[2026-01-19 12:58:45] 📝 Grade 2 - Addition - 2-Digit - Set 1
+[2026-01-19 12:58:45] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTAiBDNPpffFT7qjuN'}
+[2026-01-19 12:58:45] 📝 Grade 2 - Addition - 2-Digit - Set 2
+[2026-01-19 12:58:45] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTDLBdFZ7uK3RUUYcn'}
+[2026-01-19 12:58:46] 📝 Grade 2 - Addition - 2-Digit - Set 3
+[2026-01-19 12:58:46] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTFqFQvMMLW5ohiX9Y'}
+[2026-01-19 12:58:46] 📝 Grade 2 - Addition - 2-Digit - Set 4
+[2026-01-19 12:58:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTJSm4HiXkbs6MBbJT'}
+[2026-01-19 12:58:47] 📝 Grade 2 - Addition - 3-Digit - Set 1
+[2026-01-19 12:58:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTMEh9rEGkMnGF7Gfy'}
+[2026-01-19 12:58:48] 📝 Grade 2 - Addition - 3-Digit - Set 2
+[2026-01-19 12:58:48] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTPz8zneaGT2GbyZfK'}
+[2026-01-19 12:58:48] 📝 Grade 2 - Addition - 3-Digit - Set 3
+[2026-01-19 12:58:48] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTSZv8RoDwhC2LwypB'}
+[2026-01-19 12:58:49] 📝 Grade 2 - Addition - 3-Digit - Set 4
+[2026-01-19 12:58:49] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTV8xATLwKHXqcz1iJ'}
+[2026-01-19 12:58:50] 📝 Grade 2 - Addition - Regrouping - Set 1
+[2026-01-19 12:58:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTXnSh3Cfc8m5fnGW1'}
+[2026-01-19 12:58:50] 📝 Grade 2 - Addition - Regrouping - Set 2
+[2026-01-19 12:58:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTaJWFM9jzzupCB45g'}
+[2026-01-19 12:58:51] 📝 Grade 2 - Addition - Regrouping - Set 3
+[2026-01-19 12:58:51] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTcsnadu5qt6sqRfBa'}
+[2026-01-19 12:58:51] 📝 Grade 2 - Addition - Regrouping - Set 4
+[2026-01-19 12:58:51] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTfVHuynEvbZpriBHA'}
+[2026-01-19 12:58:52] 📝 Grade 2 - Addition - Mental Math - Set 1
+[2026-01-19 12:58:52] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTiCkqcnUD56DK3A1Y'}
+[2026-01-19 12:58:53] 📝 Grade 2 - Addition - Mental Math - Set 2
+[2026-01-19 12:58:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTki5Q7tEPPU6cK5KL'}
+[2026-01-19 12:58:53] 📝 Grade 2 - Addition - Mental Math - Set 3
+[2026-01-19 12:58:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFToGN9Qte9m5XRCCAT'}
+[2026-01-19 12:58:54] 📝 Grade 2 - Addition - Mental Math - Set 4
+[2026-01-19 12:58:54] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTqrt2dJARhjx7SLZ2'}
+[2026-01-19 12:58:54] 📝 Grade 2 - Addition - Word Problems - Set 1
+[2026-01-19 12:58:54] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTtMx5cLeV7rBtFuJJ'}
+[2026-01-19 12:58:55] 📝 Grade 2 - Addition - Word Problems - Set 2
+[2026-01-19 12:58:55] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTw3vWytbifu3tR4eS'}
+[2026-01-19 12:58:56] 📝 Grade 2 - Addition - Word Problems - Set 3
+[2026-01-19 12:58:56] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFTydTH4AHkkrk9J25o'}
+[2026-01-19 12:58:56] 📝 Grade 2 - Addition - Word Problems - Set 4
+[2026-01-19 12:58:56] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFU29G8JPyCvjMxNhVd'}
+[2026-01-19 12:58:57] 📝 Grade 2 - Subtraction - 2-Digit - Set 1
+[2026-01-19 12:58:57] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFU4cLjgdERFJz93zN4'}
+[2026-01-19 12:58:57] 📝 Grade 2 - Subtraction - 2-Digit - Set 2
+[2026-01-19 12:58:57] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFU7K4mMgutYnF6xZPo'}
+[2026-01-19 12:58:58] 📝 Grade 2 - Subtraction - 2-Digit - Set 3
+[2026-01-19 12:58:58] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFU9r7jPWyaYvPH29FE'}
+[2026-01-19 12:58:59] 📝 Grade 2 - Subtraction - 2-Digit - Set 4
+[2026-01-19 12:58:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUCPAY3NbRev5djFST'}
+[2026-01-19 12:58:59] 📝 Grade 2 - Subtraction - 3-Digit - Set 1
+[2026-01-19 12:58:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUEtyDH8syJjWVo5E7'}
+[2026-01-19 12:59:00] 📝 Grade 2 - Subtraction - 3-Digit - Set 2
+[2026-01-19 12:59:00] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUHqLHF5tFoFpsZUSg'}
+[2026-01-19 12:59:00] 📝 Grade 2 - Subtraction - 3-Digit - Set 3
+[2026-01-19 12:59:00] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFULKedURs1Y9oChguB'}
+[2026-01-19 12:59:01] 📝 Grade 2 - Subtraction - 3-Digit - Set 4
+[2026-01-19 12:59:01] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUP8KcXVBWJtemJCWG'}
+[2026-01-19 12:59:02] 📝 Grade 2 - Subtraction - Borrowing - Set 1
+[2026-01-19 12:59:02] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUS6REj3hcDdEtGagH'}
+[2026-01-19 12:59:02] 📝 Grade 2 - Subtraction - Borrowing - Set 2
+[2026-01-19 12:59:02] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUUehyoZ66ZwN25ZsV'}
+[2026-01-19 12:59:03] 📝 Grade 2 - Subtraction - Borrowing - Set 3
+[2026-01-19 12:59:03] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUXNuuaTubqdoGD2Mo'}
+[2026-01-19 12:59:04] 📝 Grade 2 - Subtraction - Borrowing - Set 4
+[2026-01-19 12:59:04] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUZsyt41uVpPoCs1UU'}
+[2026-01-19 12:59:04] 📝 Grade 2 - Subtraction - Mental Math - Set 1
+[2026-01-19 12:59:04] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUcQnNbrfqeWXpvSeH'}
+[2026-01-19 12:59:05] 📝 Grade 2 - Subtraction - Mental Math - Set 2
+[2026-01-19 12:59:05] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUf7Vx72NJ66F1ejnb'}
+[2026-01-19 12:59:06] 📝 Grade 2 - Subtraction - Mental Math - Set 3
+[2026-01-19 12:59:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUiZcpjBcfcrTAHusL'}
+[2026-01-19 12:59:06] 📝 Grade 2 - Subtraction - Mental Math - Set 4
+[2026-01-19 12:59:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFUm7AJFfaV29FgK4XM'}
+[2026-01-19 13:00:10] ============================================================
+[2026-01-19 13:00:10] 🚀 Generating Curriculum for Grades 1-5
+[2026-01-19 13:00:10] ============================================================
+[2026-01-19 13:00:10] 📚 Loaded 661 existing sets
+[2026-01-19 13:00:10] Current distribution:
+[2026-01-19 13:00:10]   Grade 0: 390 sets
+[2026-01-19 13:00:10]   Grade 1: 126 sets
+[2026-01-19 13:00:10]   Grade 2: 46 sets
+[2026-01-19 13:00:10]   Grade 3: 35 sets
+[2026-01-19 13:00:10]   Grade 4: 32 sets
+[2026-01-19 13:00:10]   Grade 5: 27 sets
+[2026-01-19 13:00:10]   Grade 6: 5 sets
+[2026-01-19 13:00:10] 📝 Grade 1 - Addition - Facts to 10 - Set 1
+[2026-01-19 13:00:10] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZSy9Q4j8nryVxp7Ua'}
+[2026-01-19 13:00:10] 📝 Grade 1 - Addition - Facts to 10 - Set 2
+[2026-01-19 13:00:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZVWSRRMX6Js9ey2N4'}
+[2026-01-19 13:00:11] 📝 Grade 1 - Addition - Facts to 10 - Set 3
+[2026-01-19 13:00:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZY9BxVYeJec4gyrMo'}
+[2026-01-19 13:00:12] 📝 Grade 1 - Addition - Facts to 10 - Set 4
+[2026-01-19 13:00:12] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZafzo5NwVFTUpkicF'}
+[2026-01-19 13:00:12] 📝 Grade 1 - Addition - Facts to 20 - Set 1
+[2026-01-19 13:00:12] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZdEn6LTeoRJDfYhos'}
+[2026-01-19 13:00:13] 📝 Grade 1 - Addition - Facts to 20 - Set 2
+[2026-01-19 13:00:13] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZfuGHExaiTaLoMP7n'}
+[2026-01-19 13:00:13] 📝 Grade 1 - Addition - Facts to 20 - Set 3
+[2026-01-19 13:00:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZiQL73tPqov3Sjd3o'}
+[2026-01-19 13:00:14] 📝 Grade 1 - Addition - Facts to 20 - Set 4
+[2026-01-19 13:00:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZmNRYEuZrHzqGmGD6'}
+[2026-01-19 13:00:15] 📝 Grade 1 - Addition - Word Problems - Set 1
+[2026-01-19 13:00:15] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZouyNZArX86KPJpZj'}
+[2026-01-19 13:00:15] 📝 Grade 1 - Addition - Word Problems - Set 2
+[2026-01-19 13:00:15] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZrXjZFPnTnSSiYLWb'}
+[2026-01-19 13:00:16] 📝 Grade 1 - Addition - Word Problems - Set 3
+[2026-01-19 13:00:16] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZu71xiTbkY12hF8e3'}
+[2026-01-19 13:00:17] 📝 Grade 1 - Addition - Word Problems - Set 4
+[2026-01-19 13:00:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFZxyg9ZjF8vSjwKQD4'}
+[2026-01-19 13:00:17] 📝 Grade 1 - Addition - Missing Addends - Set 1
+[2026-01-19 13:00:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFa1YDdNfSLCdHfwTXu'}
+[2026-01-19 13:00:18] 📝 Grade 1 - Addition - Missing Addends - Set 2
+[2026-01-19 13:00:18] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFa42nZTpWZGz1UMqUk'}
+[2026-01-19 13:00:19] 📝 Grade 1 - Addition - Missing Addends - Set 3
+[2026-01-19 13:00:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFa6xQDSWgoM5HHQXhG'}
+[2026-01-19 13:00:19] 📝 Grade 1 - Addition - Missing Addends - Set 4
+[2026-01-19 13:00:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFa9VhPTmmLBkPe1iJV'}
+[2026-01-19 13:00:20] 📝 Grade 1 - Addition - Three Numbers - Set 1
+[2026-01-19 13:00:20] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaC2kUZRwfRzgU6Q52'}
+[2026-01-19 13:00:20] 📝 Grade 1 - Addition - Three Numbers - Set 2
+[2026-01-19 13:00:21] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaEWKscpy5HJF92nJe'}
+[2026-01-19 13:00:21] 📝 Grade 1 - Addition - Three Numbers - Set 3
+[2026-01-19 13:00:21] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaH2P53DBTVGiUfK1Z'}
+[2026-01-19 13:00:22] 📝 Grade 1 - Addition - Three Numbers - Set 4
+[2026-01-19 13:00:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaKYSEwgt8BvHUowk2'}
+[2026-01-19 13:00:22] 📝 Grade 1 - Subtraction - Facts to 10 - Set 1
+[2026-01-19 13:00:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaN21k7S5GLL4w7a7V'}
+[2026-01-19 13:00:23] 📝 Grade 1 - Subtraction - Facts to 10 - Set 2
+[2026-01-19 13:00:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaQbYaondwwn4t9NJH'}
+[2026-01-19 13:00:23] 📝 Grade 1 - Subtraction - Facts to 10 - Set 3
+[2026-01-19 13:00:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaT9b7xVyrbXS5N2pP'}
+[2026-01-19 13:00:24] 📝 Grade 1 - Subtraction - Facts to 10 - Set 4
+[2026-01-19 13:00:24] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaVeu12U8mGrjikq46'}
+[2026-01-19 13:00:25] 📝 Grade 1 - Subtraction - Facts to 20 - Set 1
+[2026-01-19 13:00:25] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20241022'}, 'request_id': 'req_011CXHFaYAxCg7qxf61zXYNQ'}
+[2026-01-19 13:00:25] 📝 Grade 1 - Subtraction - Facts to 20 - Set 2
+[2026-01-19 13:00:44] ============================================================
+[2026-01-19 13:00:44] 🚀 Generating Curriculum for Grades 1-5
+[2026-01-19 13:00:44] ============================================================
+[2026-01-19 13:00:44] 📚 Loaded 661 existing sets
+[2026-01-19 13:00:44] Current distribution:
+[2026-01-19 13:00:44]   Grade 0: 390 sets
+[2026-01-19 13:00:44]   Grade 1: 126 sets
+[2026-01-19 13:00:44]   Grade 2: 46 sets
+[2026-01-19 13:00:44]   Grade 3: 35 sets
+[2026-01-19 13:00:44]   Grade 4: 32 sets
+[2026-01-19 13:00:44]   Grade 5: 27 sets
+[2026-01-19 13:00:44]   Grade 6: 5 sets
+[2026-01-19 13:00:44] 📝 Grade 1 - Addition - Facts to 10 - Set 1
+[2026-01-19 13:00:44] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFbz5iHXJZmU4jPZpwi'}
+[2026-01-19 13:00:45] 📝 Grade 1 - Addition - Facts to 10 - Set 2
+[2026-01-19 13:00:45] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFc2d1ZR8uKNccRc31X'}
+[2026-01-19 13:00:45] 📝 Grade 1 - Addition - Facts to 10 - Set 3
+[2026-01-19 13:00:46] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFc5G1KUypsu88tXbND'}
+[2026-01-19 13:00:46] 📝 Grade 1 - Addition - Facts to 10 - Set 4
+[2026-01-19 13:00:46] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFc7xUzjnaXxKnTojA2'}
+[2026-01-19 13:00:47] 📝 Grade 1 - Addition - Facts to 20 - Set 1
+[2026-01-19 13:00:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcATo8qj9DCyqJksWu'}
+[2026-01-19 13:00:47] 📝 Grade 1 - Addition - Facts to 20 - Set 2
+[2026-01-19 13:00:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcCyc5JRTAM9gonF6X'}
+[2026-01-19 13:00:48] 📝 Grade 1 - Addition - Facts to 20 - Set 3
+[2026-01-19 13:00:48] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcFX9pb6LKebJgBGZn'}
+[2026-01-19 13:00:48] 📝 Grade 1 - Addition - Facts to 20 - Set 4
+[2026-01-19 13:00:49] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcJ7B98jasuVPRe68L'}
+[2026-01-19 13:00:49] 📝 Grade 1 - Addition - Word Problems - Set 1
+[2026-01-19 13:00:49] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcLnezH5K2VBG5xyfk'}
+[2026-01-19 13:00:50] 📝 Grade 1 - Addition - Word Problems - Set 2
+[2026-01-19 13:00:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcPMSTAtaLqELQLeTj'}
+[2026-01-19 13:00:50] 📝 Grade 1 - Addition - Word Problems - Set 3
+[2026-01-19 13:00:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcRrko6c5S8KYAZDNA'}
+[2026-01-19 13:00:51] 📝 Grade 1 - Addition - Word Problems - Set 4
+[2026-01-19 13:00:51] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcUQnsU5U9QZtzwdWV'}
+[2026-01-19 13:00:51] 📝 Grade 1 - Addition - Missing Addends - Set 1
+[2026-01-19 13:00:51] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcWtd3rY4XpMjBLoTE'}
+[2026-01-19 13:00:52] 📝 Grade 1 - Addition - Missing Addends - Set 2
+[2026-01-19 13:00:52] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcZQBWjKhTNe2aBcKq'}
+[2026-01-19 13:00:53] 📝 Grade 1 - Addition - Missing Addends - Set 3
+[2026-01-19 13:00:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcc1hGzqrkvvrhKsHo'}
+[2026-01-19 13:00:53] 📝 Grade 1 - Addition - Missing Addends - Set 4
+[2026-01-19 13:00:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFceYkAyDyoetjFicz5'}
+[2026-01-19 13:00:54] 📝 Grade 1 - Addition - Three Numbers - Set 1
+[2026-01-19 13:00:54] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFchZKKmt2wALUMoTtj'}
+[2026-01-19 13:00:55] 📝 Grade 1 - Addition - Three Numbers - Set 2
+[2026-01-19 13:00:55] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFckD4aW7KiAwZcXHhE'}
+[2026-01-19 13:00:55] 📝 Grade 1 - Addition - Three Numbers - Set 3
+[2026-01-19 13:00:55] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcnj7iAfSESGb3Qqkm'}
+[2026-01-19 13:00:56] 📝 Grade 1 - Addition - Three Numbers - Set 4
+[2026-01-19 13:00:56] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcqNs4ed76RR7SXejR'}
+[2026-01-19 13:00:56] 📝 Grade 1 - Subtraction - Facts to 10 - Set 1
+[2026-01-19 13:00:56] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcsydeZSoqpq7GdcYp'}
+[2026-01-19 13:00:57] 📝 Grade 1 - Subtraction - Facts to 10 - Set 2
+[2026-01-19 13:00:57] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcvh6ZYexhJmiwwFsp'}
+[2026-01-19 13:00:58] 📝 Grade 1 - Subtraction - Facts to 10 - Set 3
+[2026-01-19 13:00:58] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFcyEtVPCq7XmAiyMJW'}
+[2026-01-19 13:00:58] 📝 Grade 1 - Subtraction - Facts to 10 - Set 4
+[2026-01-19 13:00:58] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFd1ttGF6G2nFhswdzi'}
+[2026-01-19 13:00:59] 📝 Grade 1 - Subtraction - Facts to 20 - Set 1
+[2026-01-19 13:00:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFd4QgqaLafWAsqAdXZ'}
+[2026-01-19 13:00:59] 📝 Grade 1 - Subtraction - Facts to 20 - Set 2
+[2026-01-19 13:00:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFd6uFtbrSD3QuY3K8H'}
+[2026-01-19 13:01:00] 📝 Grade 1 - Subtraction - Facts to 20 - Set 3
+[2026-01-19 13:01:00] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFd9Sonf4h7A2943cvx'}
+[2026-01-19 13:01:01] 📝 Grade 1 - Subtraction - Facts to 20 - Set 4
+[2026-01-19 13:01:01] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdByreCTLeD6VGpfHy'}
+[2026-01-19 13:01:01] 📝 Grade 1 - Subtraction - Word Problems - Set 1
+[2026-01-19 13:01:01] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdEXQEejGpkrwVL4B5'}
+[2026-01-19 13:01:02] 📝 Grade 1 - Subtraction - Word Problems - Set 2
+[2026-01-19 13:01:02] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdH4hMB35xHhbCvDGa'}
+[2026-01-19 13:01:02] 📝 Grade 1 - Subtraction - Word Problems - Set 3
+[2026-01-19 13:01:03] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdKiwR2WJme3WTTKfK'}
+[2026-01-19 13:01:03] 📝 Grade 1 - Subtraction - Word Problems - Set 4
+[2026-01-19 13:01:03] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdNf3cpvVXKmogBs39'}
+[2026-01-19 13:01:04] 📝 Grade 1 - Subtraction - Fact Families - Set 1
+[2026-01-19 13:01:04] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdRAcLsns9T8QkTisD'}
+[2026-01-19 13:01:04] 📝 Grade 1 - Subtraction - Fact Families - Set 2
+[2026-01-19 13:01:04] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdTwnoVGtuodC3NSdq'}
+[2026-01-19 13:01:05] 📝 Grade 1 - Subtraction - Fact Families - Set 3
+[2026-01-19 13:01:05] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdWeWsGzUcLkcusXBy'}
+[2026-01-19 13:01:06] 📝 Grade 1 - Subtraction - Fact Families - Set 4
+[2026-01-19 13:01:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdZWuQPH4NYEECDnYW'}
+[2026-01-19 13:01:06] 📝 Grade 1 - Subtraction - Missing Numbers - Set 1
+[2026-01-19 13:01:06] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdc7vFeXpNKHjBFbrx'}
+[2026-01-19 13:01:07] 📝 Grade 1 - Subtraction - Missing Numbers - Set 2
+[2026-01-19 13:01:07] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdeghiQEYnwzM4JGQ5'}
+[2026-01-19 13:01:07] 📝 Grade 1 - Subtraction - Missing Numbers - Set 3
+[2026-01-19 13:01:07] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdhDWGgTaDVv8JgfE9'}
+[2026-01-19 13:01:08] 📝 Grade 1 - Subtraction - Missing Numbers - Set 4
+[2026-01-19 13:01:08] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdjm3pCotGQXhdqUcG'}
+[2026-01-19 13:01:09] 📝 Grade 1 - Place Value - Tens and Ones - Set 1
+[2026-01-19 13:01:09] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdnS3BAL15Mw5re5Ey'}
+[2026-01-19 13:01:09] 📝 Grade 1 - Place Value - Tens and Ones - Set 2
+[2026-01-19 13:01:09] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdqNPfnqGq4dyZNRAR'}
+[2026-01-19 13:01:10] 📝 Grade 1 - Place Value - Tens and Ones - Set 3
+[2026-01-19 13:01:10] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdtJkdjWWHdjiw1Vdb'}
+[2026-01-19 13:01:11] 📝 Grade 1 - Place Value - Tens and Ones - Set 4
+[2026-01-19 13:01:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdw3DGxDqYBfv27TPP'}
+[2026-01-19 13:01:11] 📝 Grade 1 - Place Value - Comparing Numbers - Set 1
+[2026-01-19 13:01:11] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFdyigmsSpzUVLEmx5J'}
+[2026-01-19 13:01:12] 📝 Grade 1 - Place Value - Comparing Numbers - Set 2
+[2026-01-19 13:01:12] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFe2TtWL5McokRjvhGJ'}
+[2026-01-19 13:01:12] 📝 Grade 1 - Place Value - Comparing Numbers - Set 3
+[2026-01-19 13:01:13] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFe54AL1qry74pKVztj'}
+[2026-01-19 13:01:13] 📝 Grade 1 - Place Value - Comparing Numbers - Set 4
+[2026-01-19 13:01:13] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFe7dwBq6TL9u8Rszkt'}
+[2026-01-19 13:01:14] 📝 Grade 1 - Place Value - Number Patterns - Set 1
+[2026-01-19 13:01:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeALAT6GRsRA2VLdZM'}
+[2026-01-19 13:01:14] 📝 Grade 1 - Place Value - Number Patterns - Set 2
+[2026-01-19 13:01:14] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeCtCdx8rNZNKBjcNn'}
+[2026-01-19 13:01:15] 📝 Grade 1 - Place Value - Number Patterns - Set 3
+[2026-01-19 13:01:15] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeFRFdeiNtFSjeaNBj'}
+[2026-01-19 13:01:16] 📝 Grade 1 - Place Value - Number Patterns - Set 4
+[2026-01-19 13:01:16] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeHzY1VtJZo5BX9A8q'}
+[2026-01-19 13:01:16] 📝 Grade 1 - Place Value - Skip Counting - Set 1
+[2026-01-19 13:01:16] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeLXLFGbpfm2h3Fghx'}
+[2026-01-19 13:01:17] 📝 Grade 1 - Place Value - Skip Counting - Set 2
+[2026-01-19 13:01:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeP39GpnAkt41r7KHE'}
+[2026-01-19 13:01:17] 📝 Grade 1 - Place Value - Skip Counting - Set 3
+[2026-01-19 13:01:17] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeRZwwZywZwZebBwpL'}
+[2026-01-19 13:01:18] 📝 Grade 1 - Place Value - Skip Counting - Set 4
+[2026-01-19 13:01:18] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeU7z5rkZJFYrWFyRa'}
+[2026-01-19 13:01:18] 📝 Grade 1 - Place Value - Number Order - Set 1
+[2026-01-19 13:01:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeWjzfPNtieCHjr6Y8'}
+[2026-01-19 13:01:19] 📝 Grade 1 - Place Value - Number Order - Set 2
+[2026-01-19 13:01:19] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeZEK9UECraUDFYmXu'}
+[2026-01-19 13:01:20] 📝 Grade 1 - Place Value - Number Order - Set 3
+[2026-01-19 13:01:20] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeboMKSbLNUMX6eLDE'}
+[2026-01-19 13:01:20] 📝 Grade 1 - Place Value - Number Order - Set 4
+[2026-01-19 13:01:20] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeeQ82rzSyL1mgWLWf'}
+[2026-01-19 13:01:21] 📝 Grade 1 - Measurement - Length - Set 1
+[2026-01-19 13:01:21] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFegsSq3RJQa1VThh3Q'}
+[2026-01-19 13:01:21] 📝 Grade 1 - Measurement - Length - Set 2
+[2026-01-19 13:01:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFejPFwL3z5ZPqweDP6'}
+[2026-01-19 13:01:22] 📝 Grade 1 - Measurement - Length - Set 3
+[2026-01-19 13:01:22] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFemuZfnRg1iFHv59CC'}
+[2026-01-19 13:01:23] 📝 Grade 1 - Measurement - Length - Set 4
+[2026-01-19 13:01:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFepVLk6hvKSqnP3BBN'}
+[2026-01-19 13:01:23] 📝 Grade 1 - Measurement - Time - Set 1
+[2026-01-19 13:01:23] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFes57W7bnPXkJesE5j'}
+[2026-01-19 13:01:24] 📝 Grade 1 - Measurement - Time - Set 2
+[2026-01-19 13:01:24] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFeubv6CbNsgWHbLcJX'}
+[2026-01-19 13:01:24] 📝 Grade 1 - Measurement - Time - Set 3
+[2026-01-19 13:01:25] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFexKscyyYVNMWigCcH'}
+[2026-01-19 13:01:25] 📝 Grade 1 - Measurement - Time - Set 4
+[2026-01-19 13:01:25] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFf1CWriFWMPXKVsg6i'}
+[2026-01-19 13:01:26] 📝 Grade 1 - Measurement - Money - Set 1
+[2026-01-19 13:01:26] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFf3kJwSBrnd6cmtoRq'}
+[2026-01-19 13:01:26] 📝 Grade 1 - Measurement - Money - Set 2
+[2026-01-19 13:01:26] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFf6KqbUbNoye6NhytN'}
+[2026-01-19 13:01:27] 📝 Grade 1 - Measurement - Money - Set 3
+[2026-01-19 13:01:27] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFf8ucQtT2To2K785ZF'}
+[2026-01-19 13:01:28] 📝 Grade 1 - Measurement - Money - Set 4
+[2026-01-19 13:01:28] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfBNhLaSMWr8CEVpBG'}
+[2026-01-19 13:01:28] 📝 Grade 2 - Addition - 2-Digit - Set 1
+[2026-01-19 13:01:28] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfE79dyYktjnfUdjqm'}
+[2026-01-19 13:01:29] 📝 Grade 2 - Addition - 2-Digit - Set 2
+[2026-01-19 13:01:29] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfGqcS8TpzR7Vh5KJu'}
+[2026-01-19 13:01:29] 📝 Grade 2 - Addition - 2-Digit - Set 3
+[2026-01-19 13:01:30] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfKZKiie2w9t5jGY4j'}
+[2026-01-19 13:01:30] 📝 Grade 2 - Addition - 2-Digit - Set 4
+[2026-01-19 13:01:30] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfNDooHVySa7iY6LoR'}
+[2026-01-19 13:01:31] 📝 Grade 2 - Addition - 3-Digit - Set 1
+[2026-01-19 13:01:31] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfQjciW4WMB223ic79'}
+[2026-01-19 13:01:31] 📝 Grade 2 - Addition - 3-Digit - Set 2
+[2026-01-19 13:01:31] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfTJedo8KzKmVLptb1'}
+[2026-01-19 13:01:32] 📝 Grade 2 - Addition - 3-Digit - Set 3
+[2026-01-19 13:01:32] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfVuAkxcfPvWZyMCFc'}
+[2026-01-19 13:01:32] 📝 Grade 2 - Addition - 3-Digit - Set 4
+[2026-01-19 13:01:33] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfYUTD2Ki4aJT3zez9'}
+[2026-01-19 13:01:33] 📝 Grade 2 - Addition - Regrouping - Set 1
+[2026-01-19 13:01:33] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfb3jWd1JDPD4PYZFh'}
+[2026-01-19 13:01:34] 📝 Grade 2 - Addition - Regrouping - Set 2
+[2026-01-19 13:01:34] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfdrQSwAZTrgKqsXDi'}
+[2026-01-19 13:01:34] 📝 Grade 2 - Addition - Regrouping - Set 3
+[2026-01-19 13:01:34] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfgLj4iiptWntggumk'}
+[2026-01-19 13:01:35] 📝 Grade 2 - Addition - Regrouping - Set 4
+[2026-01-19 13:01:35] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfipYrJvxJh6vHLjH5'}
+[2026-01-19 13:01:35] 📝 Grade 2 - Addition - Mental Math - Set 1
+[2026-01-19 13:01:36] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfmLc6c8irAaeiGNFp'}
+[2026-01-19 13:01:36] 📝 Grade 2 - Addition - Mental Math - Set 2
+[2026-01-19 13:01:36] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfoyrZ6oLoD29n4Lw9'}
+[2026-01-19 13:01:37] 📝 Grade 2 - Addition - Mental Math - Set 3
+[2026-01-19 13:01:37] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfrX9wpzq7Wxyd8AXM'}
+[2026-01-19 13:01:37] 📝 Grade 2 - Addition - Mental Math - Set 4
+[2026-01-19 13:01:37] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfu4CquJ5MDb8Jw56V'}
+[2026-01-19 13:01:38] 📝 Grade 2 - Addition - Word Problems - Set 1
+[2026-01-19 13:01:38] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfwaFziBKrZppnzbaP'}
+[2026-01-19 13:01:38] 📝 Grade 2 - Addition - Word Problems - Set 2
+[2026-01-19 13:01:39] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFfzCGdTpS7aDcz9Qus'}
+[2026-01-19 13:01:39] 📝 Grade 2 - Addition - Word Problems - Set 3
+[2026-01-19 13:01:39] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFg2gLvMZCiDbEmoaKw'}
+[2026-01-19 13:01:40] 📝 Grade 2 - Addition - Word Problems - Set 4
+[2026-01-19 13:01:40] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFg5prHrJw2Uo1nYMYo'}
+[2026-01-19 13:01:40] 📝 Grade 2 - Subtraction - 2-Digit - Set 1
+[2026-01-19 13:01:41] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFg8SryCf6X1NEwVyzf'}
+[2026-01-19 13:01:41] 📝 Grade 2 - Subtraction - 2-Digit - Set 2
+[2026-01-19 13:01:41] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgAyfQQwU1SCWyuAVE'}
+[2026-01-19 13:01:42] 📝 Grade 2 - Subtraction - 2-Digit - Set 3
+[2026-01-19 13:01:42] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgDXhfLQkAwpa5YicN'}
+[2026-01-19 13:01:42] 📝 Grade 2 - Subtraction - 2-Digit - Set 4
+[2026-01-19 13:01:42] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgG41RZKQeZPnN9boD'}
+[2026-01-19 13:01:43] 📝 Grade 2 - Subtraction - 3-Digit - Set 1
+[2026-01-19 13:01:43] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgJcJAhb5A1RHWLfmE'}
+[2026-01-19 13:01:43] 📝 Grade 2 - Subtraction - 3-Digit - Set 2
+[2026-01-19 13:01:44] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgMLWJhrB3rbZWEWoV'}
+[2026-01-19 13:01:44] 📝 Grade 2 - Subtraction - 3-Digit - Set 3
+[2026-01-19 13:01:44] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgPq5F4PYMeTghqDg6'}
+[2026-01-19 13:01:45] 📝 Grade 2 - Subtraction - 3-Digit - Set 4
+[2026-01-19 13:01:45] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgSPN8QoV1vtGEwab6'}
+[2026-01-19 13:01:45] 📝 Grade 2 - Subtraction - Borrowing - Set 1
+[2026-01-19 13:01:45] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgV2cK7RnUqERafEae'}
+[2026-01-19 13:01:46] 📝 Grade 2 - Subtraction - Borrowing - Set 2
+[2026-01-19 13:01:46] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgXb9VJi8WWXhctaaM'}
+[2026-01-19 13:01:46] 📝 Grade 2 - Subtraction - Borrowing - Set 3
+[2026-01-19 13:01:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgaARonye5v7ofxxdw'}
+[2026-01-19 13:01:47] 📝 Grade 2 - Subtraction - Borrowing - Set 4
+[2026-01-19 13:01:47] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgciUM6bCmg918SZCM'}
+[2026-01-19 13:01:48] 📝 Grade 2 - Subtraction - Mental Math - Set 1
+[2026-01-19 13:01:48] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgfDYFb6EqAEDrqKqk'}
+[2026-01-19 13:01:48] 📝 Grade 2 - Subtraction - Mental Math - Set 2
+[2026-01-19 13:01:48] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFghkaoQqRs9zDaZNWu'}
+[2026-01-19 13:01:49] 📝 Grade 2 - Subtraction - Mental Math - Set 3
+[2026-01-19 13:01:49] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgkV3WkbS2viXzUL7b'}
+[2026-01-19 13:01:49] 📝 Grade 2 - Subtraction - Mental Math - Set 4
+[2026-01-19 13:01:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgo45UAMQW7PvqW3iX'}
+[2026-01-19 13:01:50] 📝 Grade 2 - Subtraction - Word Problems - Set 1
+[2026-01-19 13:01:50] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgqasZUinQQu8KVqZq'}
+[2026-01-19 13:01:51] 📝 Grade 2 - Subtraction - Word Problems - Set 2
+[2026-01-19 13:01:51] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgt4wuc4C5yr5BeGsu'}
+[2026-01-19 13:01:51] 📝 Grade 2 - Subtraction - Word Problems - Set 3
+[2026-01-19 13:01:52] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgvdV8rZHstn8euuom'}
+[2026-01-19 13:01:52] 📝 Grade 2 - Subtraction - Word Problems - Set 4
+[2026-01-19 13:01:52] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFgz57GyHduLxAwAGVu'}
+[2026-01-19 13:01:53] 📝 Grade 2 - Measurement - Length - Set 1
+[2026-01-19 13:01:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFh2etNAhKexv1E5Mnb'}
+[2026-01-19 13:01:53] 📝 Grade 2 - Measurement - Length - Set 2
+[2026-01-19 13:01:53] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFh5LrfJfqf5zSypSkq'}
+[2026-01-19 13:01:54] 📝 Grade 2 - Measurement - Length - Set 3
+[2026-01-19 13:01:54] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFh84pcevHmAbUA22nm'}
+[2026-01-19 13:01:55] 📝 Grade 2 - Measurement - Length - Set 4
+[2026-01-19 13:01:55] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhAwhnhunL16c3HVnr'}
+[2026-01-19 13:01:55] 📝 Grade 2 - Measurement - Weight - Set 1
+[2026-01-19 13:01:55] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhDUWBWeqxUhLy8KJt'}
+[2026-01-19 13:01:56] 📝 Grade 2 - Measurement - Weight - Set 2
+[2026-01-19 13:01:56] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhFzKN9tvjwSYPPE7Y'}
+[2026-01-19 13:01:56] 📝 Grade 2 - Measurement - Weight - Set 3
+[2026-01-19 13:01:57] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhJab3yY9UGUumy2JY'}
+[2026-01-19 13:01:57] 📝 Grade 2 - Measurement - Weight - Set 4
+[2026-01-19 13:01:57] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhMyEJU3CLZeVGSXVW'}
+[2026-01-19 13:01:58] 📝 Grade 2 - Measurement - Capacity - Set 1
+[2026-01-19 13:01:58] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhQYm8Qo7BYWUVP4fj'}
+[2026-01-19 13:01:58] 📝 Grade 2 - Measurement - Capacity - Set 2
+[2026-01-19 13:01:59] ❌ Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-5-sonnet-20240620'}, 'request_id': 'req_011CXHFhTsw1wpwbJLm1vLjh'}
+[2026-01-19 13:02:29] ============================================================
+[2026-01-19 13:02:29] 🚀 Generating Curriculum for Grades 1-5
+[2026-01-19 13:02:29] ============================================================
+[2026-01-19 13:02:29] 📚 Loaded 661 existing sets
+[2026-01-19 13:02:29] Current distribution:
+[2026-01-19 13:02:29]   Grade 0: 390 sets
+[2026-01-19 13:02:29]   Grade 1: 126 sets
+[2026-01-19 13:02:29]   Grade 2: 46 sets
+[2026-01-19 13:02:29]   Grade 3: 35 sets
+[2026-01-19 13:02:29]   Grade 4: 32 sets
+[2026-01-19 13:02:29]   Grade 5: 27 sets
+[2026-01-19 13:02:29]   Grade 6: 5 sets
+[2026-01-19 13:02:29] 📝 Grade 1 - Addition - Facts to 10 - Set 1
+[2026-01-19 13:02:35] 📝 Grade 1 - Addition - Facts to 10 - Set 2
+[2026-01-19 13:02:42] 📝 Grade 1 - Addition - Facts to 10 - Set 3
+[2026-01-19 13:02:49] ❌ Error: Extra data: line 29 column 1 (char 895)
+[2026-01-19 13:02:49] 📝 Grade 1 - Addition - Facts to 10 - Set 4
+[2026-01-19 13:02:59] ❌ Error: Extra data: line 29 column 1 (char 911)
+[2026-01-19 13:02:59] 📝 Grade 1 - Addition - Facts to 20 - Set 1
+[2026-01-19 13:03:05] 📝 Grade 1 - Addition - Facts to 20 - Set 2
+[2026-01-19 13:03:11] 📝 Grade 1 - Addition - Facts to 20 - Set 3
+[2026-01-19 13:03:20] ❌ Error: Extra data: line 29 column 1 (char 1145)
+[2026-01-19 13:03:21] 📝 Grade 1 - Addition - Facts to 20 - Set 4
+[2026-01-19 13:03:28] 📝 Grade 1 - Addition - Word Problems - Set 1
+[2026-01-19 13:03:36] 📝 Grade 1 - Addition - Word Problems - Set 2
+[2026-01-19 13:03:45] 📝 Grade 1 - Addition - Word Problems - Set 3
+[2026-01-19 13:03:53] ❌ Error: Extra data: line 29 column 1 (char 1043)
+[2026-01-19 13:03:53] 📝 Grade 1 - Addition - Word Problems - Set 4
+[2026-01-19 13:04:01] 📝 Grade 1 - Addition - Missing Addends - Set 1
+[2026-01-19 13:04:09] 📝 Grade 1 - Addition - Missing Addends - Set 2
+[2026-01-19 13:04:17] ❌ Error: Extra data: line 41 column 1 (char 1988)
+[2026-01-19 13:04:18] 📝 Grade 1 - Addition - Missing Addends - Set 3
+[2026-01-19 13:04:26] ❌ Error: Extra data: line 29 column 1 (char 1162)
+[2026-01-19 13:04:27] 📝 Grade 1 - Addition - Missing Addends - Set 4
+[2026-01-19 13:04:37] ❌ Error: Extra data: line 27 column 2 (char 1084)
+[2026-01-19 13:04:37] 📝 Grade 1 - Addition - Three Numbers - Set 1
+[2026-01-19 13:04:47] ✅ Saved 671 total sets (10 new)
+[2026-01-19 13:04:47] 📝 Grade 1 - Addition - Three Numbers - Set 2
+[2026-01-19 13:04:54] ❌ Error: Extra data: line 27 column 2 (char 1274)
+[2026-01-19 13:04:55] 📝 Grade 1 - Addition - Three Numbers - Set 3
+[2026-01-19 13:05:05] ❌ Error: Extra data: line 27 column 2 (char 1294)
+[2026-01-19 13:05:05] 📝 Grade 1 - Addition - Three Numbers - Set 4
+[2026-01-19 13:05:20] ❌ Error: Extra data: line 27 column 2 (char 1310)
+[2026-01-19 13:05:21] 📝 Grade 1 - Subtraction - Facts to 10 - Set 1
+[2026-01-19 13:05:25] 📝 Grade 1 - Subtraction - Facts to 10 - Set 2
+[2026-01-19 13:05:32] 📝 Grade 1 - Subtraction - Facts to 10 - Set 3
+[2026-01-19 13:05:37] 📝 Grade 1 - Subtraction - Facts to 10 - Set 4
+[2026-01-19 13:05:42] 📝 Grade 1 - Subtraction - Facts to 20 - Set 1
+[2026-01-19 13:05:48] 📝 Grade 1 - Subtraction - Facts to 20 - Set 2
+[2026-01-19 13:05:55] 📝 Grade 1 - Subtraction - Facts to 20 - Set 3
+[2026-01-19 13:06:03] ❌ Error: Extra data: line 29 column 1 (char 1032)
+[2026-01-19 13:06:03] 📝 Grade 1 - Subtraction - Facts to 20 - Set 4
+[2026-01-19 13:06:09] 📝 Grade 1 - Subtraction - Word Problems - Set 1
+[2026-01-19 13:06:17] 📝 Grade 1 - Subtraction - Word Problems - Set 2
+[2026-01-19 13:06:24] 📝 Grade 1 - Subtraction - Word Problems - Set 3
+[2026-01-19 13:06:32] ❌ Error: Extra data: line 29 column 1 (char 1005)
+[2026-01-19 13:06:33] 📝 Grade 1 - Subtraction - Word Problems - Set 4
+[2026-01-19 13:06:40] ✅ Saved 681 total sets (20 new)
+[2026-01-19 13:06:40] 📝 Grade 1 - Subtraction - Fact Families - Set 1
+[2026-01-19 13:06:45] 📝 Grade 1 - Subtraction - Fact Families - Set 2
+[2026-01-19 13:06:53] 📝 Grade 1 - Subtraction - Fact Families - Set 3
+[2026-01-19 13:07:00] ❌ Error: Extra data: line 29 column 1 (char 985)
+[2026-01-19 13:07:01] 📝 Grade 1 - Subtraction - Fact Families - Set 4
+[2026-01-19 13:07:07] 📝 Grade 1 - Subtraction - Missing Numbers - Set 1
+[2026-01-19 13:07:13] 📝 Grade 1 - Subtraction - Missing Numbers - Set 2
+[2026-01-19 13:07:21] ❌ Error: Extra data: line 35 column 1 (char 1345)
+[2026-01-19 13:07:21] 📝 Grade 1 - Subtraction - Missing Numbers - Set 3
+[2026-01-19 13:07:29] ❌ Error: Extra data: line 29 column 1 (char 1010)
+[2026-01-19 13:07:30] 📝 Grade 1 - Subtraction - Missing Numbers - Set 4
+[2026-01-19 13:07:40] ❌ Error: Extra data: line 27 column 2 (char 974)
+[2026-01-19 13:07:41] 📝 Grade 1 - Place Value - Tens and Ones - Set 1
+[2026-01-19 13:07:47] 📝 Grade 1 - Place Value - Tens and Ones - Set 2
+[2026-01-19 13:07:53] ❌ Error: Expecting value: line 40 column 64 (char 1797)
+[2026-01-19 13:07:53] 📝 Grade 1 - Place Value - Tens and Ones - Set 3
+[2026-01-19 13:08:04] ❌ Error: Extra data: line 35 column 1 (char 1272)
+[2026-01-19 13:08:04] 📝 Grade 1 - Place Value - Tens and Ones - Set 4
+[2026-01-19 13:08:16] ❌ Error: Extra data: line 27 column 2 (char 900)
+[2026-01-19 13:08:17] 📝 Grade 1 - Place Value - Comparing Numbers - Set 1
+[2026-01-19 13:08:23] 📝 Grade 1 - Place Value - Comparing Numbers - Set 2
+[2026-01-19 13:08:31] ❌ Error: Extra data: line 35 column 1 (char 997)
+[2026-01-19 13:08:31] 📝 Grade 1 - Place Value - Comparing Numbers - Set 3
+[2026-01-19 13:08:42] ❌ Error: Extra data: line 27 column 2 (char 866)
+[2026-01-19 13:08:42] 📝 Grade 1 - Place Value - Comparing Numbers - Set 4
+[2026-01-19 13:08:50] ❌ Error: Extra data: line 21 column 2 (char 669)
+[2026-01-19 13:08:50] 📝 Grade 1 - Place Value - Number Patterns - Set 1
+[2026-01-19 13:08:59] 📝 Grade 1 - Place Value - Number Patterns - Set 2
+[2026-01-19 13:09:05] 📝 Grade 1 - Place Value - Number Patterns - Set 3
+[2026-01-19 13:09:16] ❌ Error: Extra data: line 33 column 2 (char 1234)
+[2026-01-19 13:09:17] 📝 Grade 1 - Place Value - Number Patterns - Set 4
+[2026-01-19 13:09:29] ❌ Error: Extra data: line 29 column 1 (char 1055)
+[2026-01-19 13:09:29] 📝 Grade 1 - Place Value - Skip Counting - Set 1
+[2026-01-19 13:09:35] ❌ Error: Expecting value: line 28 column 82 (char 1736)
+[2026-01-19 13:09:35] 📝 Grade 1 - Place Value - Skip Counting - Set 2
+[2026-01-19 13:09:45] ❌ Error: Extra data: line 29 column 1 (char 1477)
+[2026-01-19 13:09:46] 📝 Grade 1 - Place Value - Skip Counting - Set 3
+[2026-01-19 13:09:56] ❌ Error: Extra data: line 35 column 1 (char 1357)
+[2026-01-19 13:09:57] 📝 Grade 1 - Place Value - Skip Counting - Set 4
+[2026-01-19 13:10:12] ❌ Error: Extra data: line 29 column 1 (char 1574)
+[2026-01-19 13:10:12] 📝 Grade 1 - Place Value - Number Order - Set 1
+[2026-01-19 13:10:19] 📝 Grade 1 - Place Value - Number Order - Set 2
+[2026-01-19 13:10:27] ❌ Error: Extra data: line 41 column 1 (char 1566)
+[2026-01-19 13:10:27] 📝 Grade 1 - Place Value - Number Order - Set 3
+[2026-01-19 13:10:35] ❌ Error: Extra data: line 29 column 1 (char 837)
+[2026-01-19 13:10:35] 📝 Grade 1 - Place Value - Number Order - Set 4
+[2026-01-19 13:10:44] ❌ Error: Extra data: line 27 column 2 (char 754)
+[2026-01-19 13:10:45] 📝 Grade 1 - Measurement - Length - Set 1
+[2026-01-19 13:10:50] ✅ Saved 691 total sets (30 new)
+[2026-01-19 13:10:50] 📝 Grade 1 - Measurement - Length - Set 2
+[2026-01-19 13:10:57] ❌ Error: Extra data: line 29 column 1 (char 885)
+[2026-01-19 13:10:58] 📝 Grade 1 - Measurement - Length - Set 3
+[2026-01-19 13:11:05] ❌ Error: Extra data: line 27 column 2 (char 981)
+[2026-01-19 13:11:05] 📝 Grade 1 - Measurement - Length - Set 4
+[2026-01-19 13:11:14] ❌ Error: Extra data: line 29 column 1 (char 889)
+[2026-01-19 13:11:14] 📝 Grade 1 - Measurement - Time - Set 1
+[2026-01-19 13:11:21] 📝 Grade 1 - Measurement - Time - Set 2
+[2026-01-19 13:11:28] ❌ Error: Extra data: line 29 column 1 (char 954)
+[2026-01-19 13:11:29] 📝 Grade 1 - Measurement - Time - Set 3
+[2026-01-19 13:11:37] ❌ Error: Extra data: line 29 column 1 (char 1061)
+[2026-01-19 13:11:37] 📝 Grade 1 - Measurement - Time - Set 4
+[2026-01-19 13:11:45] ❌ Error: Extra data: line 27 column 2 (char 911)
+[2026-01-19 13:11:45] 📝 Grade 1 - Measurement - Money - Set 1
+[2026-01-19 13:11:50] 📝 Grade 1 - Measurement - Money - Set 2
+[2026-01-19 13:11:55] ❌ Error: Extra data: line 35 column 1 (char 1006)
+[2026-01-19 13:11:56] 📝 Grade 1 - Measurement - Money - Set 3
+[2026-01-19 13:12:04] ❌ Error: Extra data: line 29 column 1 (char 863)
+[2026-01-19 13:12:04] 📝 Grade 1 - Measurement - Money - Set 4
+[2026-01-19 13:12:14] 📝 Grade 2 - Addition - 2-Digit - Set 1
+[2026-01-19 13:12:19] 📝 Grade 2 - Addition - 2-Digit - Set 2
+[2026-01-19 13:12:25] 📝 Grade 2 - Addition - 2-Digit - Set 3
+[2026-01-19 13:12:33] ❌ Error: Extra data: line 29 column 1 (char 1046)
+[2026-01-19 13:12:33] 📝 Grade 2 - Addition - 2-Digit - Set 4
+[2026-01-19 13:12:42] ❌ Error: Extra data: line 29 column 1 (char 882)
+[2026-01-19 13:12:43] 📝 Grade 2 - Addition - 3-Digit - Set 1
+[2026-01-19 13:12:49] 📝 Grade 2 - Addition - 3-Digit - Set 2
+[2026-01-19 13:12:55] 📝 Grade 2 - Addition - 3-Digit - Set 3
+[2026-01-19 13:13:02] ❌ Error: Extra data: line 29 column 1 (char 935)
+[2026-01-19 13:13:03] 📝 Grade 2 - Addition - 3-Digit - Set 4
+[2026-01-19 13:13:11] ❌ Error: Extra data: line 27 column 2 (char 922)
+[2026-01-19 13:13:11] 📝 Grade 2 - Addition - Regrouping - Set 1
+[2026-01-19 13:13:18] 📝 Grade 2 - Addition - Regrouping - Set 2
+[2026-01-19 13:13:27] 📝 Grade 2 - Addition - Regrouping - Set 3
+[2026-01-19 13:13:37] ❌ Error: Extra data: line 27 column 2 (char 1180)
+[2026-01-19 13:13:38] 📝 Grade 2 - Addition - Regrouping - Set 4
+[2026-01-19 13:13:45] ❌ Error: Extra data: line 17 column 1 (char 548)
+[2026-01-19 13:13:46] 📝 Grade 2 - Addition - Mental Math - Set 1
+[2026-01-19 13:13:52] ✅ Saved 701 total sets (40 new)
+[2026-01-19 13:13:53] 📝 Grade 2 - Addition - Mental Math - Set 2
+[2026-01-19 13:14:00] 📝 Grade 2 - Addition - Mental Math - Set 3
+[2026-01-19 13:14:09] ❌ Error: Extra data: line 29 column 1 (char 1087)
+[2026-01-19 13:14:09] 📝 Grade 2 - Addition - Mental Math - Set 4
+[2026-01-19 13:14:20] ❌ Error: Extra data: line 29 column 1 (char 922)
+[2026-01-19 13:14:20] 📝 Grade 2 - Addition - Word Problems - Set 1
+[2026-01-19 13:14:29] 📝 Grade 2 - Addition - Word Problems - Set 2
+[2026-01-19 13:14:36] 📝 Grade 2 - Addition - Word Problems - Set 3
+[2026-01-19 13:14:44] ❌ Error: Extra data: line 29 column 1 (char 1046)
+[2026-01-19 13:14:45] 📝 Grade 2 - Addition - Word Problems - Set 4
+[2026-01-19 13:14:54] 📝 Grade 2 - Subtraction - 2-Digit - Set 1
+[2026-01-19 13:14:59] 📝 Grade 2 - Subtraction - 2-Digit - Set 2
+[2026-01-19 13:15:05] 📝 Grade 2 - Subtraction - 2-Digit - Set 3
+[2026-01-19 13:15:12] ❌ Error: Extra data: line 29 column 1 (char 984)
+[2026-01-19 13:15:12] 📝 Grade 2 - Subtraction - 2-Digit - Set 4
+[2026-01-19 13:15:24] ❌ Error: Extra data: line 29 column 1 (char 1160)
+[2026-01-19 13:15:24] 📝 Grade 2 - Subtraction - 3-Digit - Set 1
+[2026-01-19 13:15:34] 📝 Grade 2 - Subtraction - 3-Digit - Set 2
+[2026-01-19 13:15:40] 📝 Grade 2 - Subtraction - 3-Digit - Set 3
+[2026-01-19 13:15:49] ❌ Error: Extra data: line 29 column 1 (char 1216)
+[2026-01-19 13:15:49] 📝 Grade 2 - Subtraction - 3-Digit - Set 4
+[2026-01-19 13:15:59] ❌ Error: Extra data: line 27 column 2 (char 949)
+[2026-01-19 13:15:59] 📝 Grade 2 - Subtraction - Borrowing - Set 1
+[2026-01-19 13:16:06] 📝 Grade 2 - Subtraction - Borrowing - Set 2
+[2026-01-19 13:16:15] ✅ Saved 711 total sets (50 new)
+[2026-01-19 13:16:15] 📝 Grade 2 - Subtraction - Borrowing - Set 3
+[2026-01-19 13:16:24] ❌ Error: Extra data: line 27 column 2 (char 1247)
+[2026-01-19 13:16:25] 📝 Grade 2 - Subtraction - Borrowing - Set 4
+[2026-01-19 13:16:41] ❌ Error: Extra data: line 27 column 2 (char 1727)
+[2026-01-19 13:16:41] 📝 Grade 2 - Subtraction - Mental Math - Set 1
+[2026-01-19 13:16:46] 📝 Grade 2 - Subtraction - Mental Math - Set 2
+[2026-01-19 13:16:52] 📝 Grade 2 - Subtraction - Mental Math - Set 3
+[2026-01-19 13:17:01] ❌ Error: Extra data: line 29 column 1 (char 1107)
+[2026-01-19 13:17:01] 📝 Grade 2 - Subtraction - Mental Math - Set 4
+[2026-01-19 13:17:07] 📝 Grade 2 - Subtraction - Word Problems - Set 1
+[2026-01-19 13:17:14] 📝 Grade 2 - Subtraction - Word Problems - Set 2
+[2026-01-19 13:17:21] 📝 Grade 2 - Subtraction - Word Problems - Set 3
+[2026-01-19 13:17:32] ❌ Error: Extra data: line 27 column 2 (char 1055)
+[2026-01-19 13:17:32] 📝 Grade 2 - Subtraction - Word Problems - Set 4
+[2026-01-19 13:17:39] 📝 Grade 2 - Measurement - Length - Set 1
+[2026-01-19 13:17:47] 📝 Grade 2 - Measurement - Length - Set 2
+[2026-01-19 13:17:52] 📝 Grade 2 - Measurement - Length - Set 3
+[2026-01-19 13:17:59] ❌ Error: Extra data: line 29 column 1 (char 868)
+[2026-01-19 13:17:59] 📝 Grade 2 - Measurement - Length - Set 4
+[2026-01-19 13:18:09] ❌ Error: Extra data: line 29 column 1 (char 1019)
+[2026-01-19 13:18:10] 📝 Grade 2 - Measurement - Weight - Set 1
+[2026-01-19 13:18:15] 📝 Grade 2 - Measurement - Weight - Set 2
+[2026-01-19 13:18:23] ✅ Saved 721 total sets (60 new)
+[2026-01-19 13:18:23] 📝 Grade 2 - Measurement - Weight - Set 3
+[2026-01-19 13:18:33] ❌ Error: Extra data: line 29 column 1 (char 975)
+[2026-01-19 13:18:33] 📝 Grade 2 - Measurement - Weight - Set 4
+[2026-01-19 13:18:43] ❌ Error: Extra data: line 27 column 2 (char 939)
+[2026-01-19 13:18:43] 📝 Grade 2 - Measurement - Capacity - Set 1
+[2026-01-19 13:18:48] 📝 Grade 2 - Measurement - Capacity - Set 2
+[2026-01-19 13:18:56] 📝 Grade 2 - Measurement - Capacity - Set 3
+[2026-01-19 13:19:05] ❌ Error: Extra data: line 29 column 1 (char 1119)
+[2026-01-19 13:19:06] 📝 Grade 2 - Measurement - Capacity - Set 4
+[2026-01-19 13:19:10] 📝 Grade 2 - Measurement - Time - Set 1
+[2026-01-19 13:19:19] 📝 Grade 2 - Measurement - Time - Set 2
+[2026-01-19 13:19:27] 📝 Grade 2 - Measurement - Time - Set 3
+[2026-01-19 13:19:37] ❌ Error: Extra data: line 29 column 1 (char 980)
+[2026-01-19 13:19:38] 📝 Grade 2 - Measurement - Time - Set 4
+[2026-01-19 13:19:50] ❌ Error: Extra data: line 27 column 2 (char 919)
+[2026-01-19 13:19:50] 📝 Grade 2 - Measurement - Money - Set 1
+[2026-01-19 13:19:56] 📝 Grade 2 - Measurement - Money - Set 2
+[2026-01-19 13:20:05] 📝 Grade 2 - Measurement - Money - Set 3
+[2026-01-19 13:20:14] ❌ Error: Extra data: line 27 column 2 (char 823)
+[2026-01-19 13:20:15] 📝 Grade 2 - Measurement - Money - Set 4
+[2026-01-19 13:20:21] ❌ Error: Expecting value: line 34 column 54 (char 1986)
+[2026-01-19 13:20:22] 📝 Grade 2 - Geometry - 2D Shapes - Set 1
+[2026-01-19 13:20:27] 📝 Grade 2 - Geometry - 2D Shapes - Set 2
+[2026-01-19 13:20:33] 📝 Grade 2 - Geometry - 2D Shapes - Set 3
+[2026-01-19 13:20:39] ❌ Error: Extra data: line 29 column 1 (char 930)
+[2026-01-19 13:20:40] 📝 Grade 2 - Geometry - 2D Shapes - Set 4
+[2026-01-19 13:20:52] ❌ Error: Extra data: line 29 column 1 (char 925)
+[2026-01-19 13:20:53] 📝 Grade 2 - Geometry - 3D Shapes - Set 1
+[2026-01-19 13:20:58] ✅ Saved 731 total sets (70 new)
+[2026-01-19 13:20:59] 📝 Grade 2 - Geometry - 3D Shapes - Set 2
+[2026-01-19 13:21:05] 📝 Grade 2 - Geometry - 3D Shapes - Set 3
+[2026-01-19 13:21:11] ❌ Error: Extra data: line 29 column 1 (char 900)
+[2026-01-19 13:21:12] 📝 Grade 2 - Geometry - 3D Shapes - Set 4
+[2026-01-19 13:21:18] 📝 Grade 2 - Geometry - Symmetry - Set 1
+[2026-01-19 13:21:24] ❌ Error: Expecting value: line 52 column 64 (char 2788)
+[2026-01-19 13:21:25] 📝 Grade 2 - Geometry - Symmetry - Set 2
+[2026-01-19 13:21:31] 📝 Grade 2 - Geometry - Symmetry - Set 3
+[2026-01-19 13:21:37] 📝 Grade 2 - Geometry - Symmetry - Set 4
+[2026-01-19 13:21:46] ❌ Error: Extra data: line 29 column 1 (char 916)
+[2026-01-19 13:21:47] 📝 Grade 3 - Multiplication - Tables 2-5 - Set 1
+[2026-01-19 13:21:52] 📝 Grade 3 - Multiplication - Tables 2-5 - Set 2
+[2026-01-19 13:21:57] ❌ Error: Extra data: line 29 column 1 (char 1036)
+[2026-01-19 13:21:58] 📝 Grade 3 - Multiplication - Tables 2-5 - Set 3
+[2026-01-19 13:22:05] 📝 Grade 3 - Multiplication - Tables 2-5 - Set 4
+[2026-01-19 13:22:15] ❌ Error: Extra data: line 29 column 1 (char 1002)
+[2026-01-19 13:22:15] 📝 Grade 3 - Multiplication - Tables 6-9 - Set 1
+[2026-01-19 13:22:21] 📝 Grade 3 - Multiplication - Tables 6-9 - Set 2
+[2026-01-19 13:22:26] 📝 Grade 3 - Multiplication - Tables 6-9 - Set 3
+[2026-01-19 13:22:33] 📝 Grade 3 - Multiplication - Tables 6-9 - Set 4
+[2026-01-19 13:22:38] ✅ Saved 741 total sets (80 new)
+[2026-01-19 13:22:39] 📝 Grade 3 - Multiplication - Arrays - Set 1
+[2026-01-19 13:22:46] 📝 Grade 3 - Multiplication - Arrays - Set 2
+[2026-01-19 13:22:54] ❌ Error: Extra data: line 35 column 1 (char 1430)
+[2026-01-19 13:22:55] 📝 Grade 3 - Multiplication - Arrays - Set 3
+[2026-01-19 13:22:59] ❌ Error: Expecting value: line 28 column 42 (char 1336)
+[2026-01-19 13:23:00] 📝 Grade 3 - Multiplication - Arrays - Set 4
+[2026-01-19 13:23:12] ❌ Error: Extra data: line 27 column 2 (char 1421)
+[2026-01-19 13:23:12] 📝 Grade 3 - Multiplication - Word Problems - Set 1
+[2026-01-19 13:23:20] 📝 Grade 3 - Multiplication - Word Problems - Set 2
+[2026-01-19 13:23:29] 📝 Grade 3 - Multiplication - Word Problems - Set 3
+[2026-01-19 13:23:38] 📝 Grade 3 - Multiplication - Word Problems - Set 4
+[2026-01-19 13:23:45] 📝 Grade 3 - Multiplication - Patterns - Set 1
+[2026-01-19 13:23:53] 📝 Grade 3 - Multiplication - Patterns - Set 2
+[2026-01-19 13:24:01] 📝 Grade 3 - Multiplication - Patterns - Set 3
+[2026-01-19 13:24:08] 📝 Grade 3 - Multiplication - Patterns - Set 4
+[2026-01-19 13:24:18] 📝 Grade 3 - Division - Basic Division - Set 1
+[2026-01-19 13:24:25] ✅ Saved 751 total sets (90 new)
+[2026-01-19 13:24:26] 📝 Grade 3 - Division - Basic Division - Set 2
+[2026-01-19 13:24:34] ❌ Error: Extra data: line 41 column 1 (char 1727)
+[2026-01-19 13:24:35] 📝 Grade 3 - Division - Basic Division - Set 3
+[2026-01-19 13:24:41] 📝 Grade 3 - Division - Basic Division - Set 4
+[2026-01-19 13:24:53] ❌ Error: Extra data: line 27 column 2 (char 1266)
+[2026-01-19 13:24:54] 📝 Grade 3 - Division - Remainders - Set 1
+[2026-01-19 13:25:00] 📝 Grade 3 - Division - Remainders - Set 2
+[2026-01-19 13:25:10] 📝 Grade 3 - Division - Remainders - Set 3
+[2026-01-19 13:25:19] 📝 Grade 3 - Division - Remainders - Set 4
+[2026-01-19 13:25:29] 📝 Grade 3 - Division - Word Problems - Set 1
+[2026-01-19 13:25:36] 📝 Grade 3 - Division - Word Problems - Set 2
+[2026-01-19 13:25:45] 📝 Grade 3 - Division - Word Problems - Set 3
+[2026-01-19 13:25:51] 📝 Grade 3 - Division - Word Problems - Set 4
+[2026-01-19 13:25:58] 📝 Grade 3 - Division - Fact Families - Set 1
+[2026-01-19 13:26:03] ✅ Saved 761 total sets (100 new)
+[2026-01-19 13:26:04] 📝 Grade 3 - Division - Fact Families - Set 2
+[2026-01-19 13:26:12] 📝 Grade 3 - Division - Fact Families - Set 3
+[2026-01-19 13:26:19] 📝 Grade 3 - Division - Fact Families - Set 4
+[2026-01-19 13:26:26] 📝 Grade 3 - Division - Mental Math - Set 1
+[2026-01-19 13:26:33] 📝 Grade 3 - Division - Mental Math - Set 2
+[2026-01-19 13:26:39] 📝 Grade 3 - Division - Mental Math - Set 3
+[2026-01-19 13:26:47] 📝 Grade 3 - Division - Mental Math - Set 4
+[2026-01-19 13:26:54] 📝 Grade 3 - Fractions - Unit Fractions - Set 1
+[2026-01-19 13:27:02] ❌ Error: Expecting value: line 53 column 7 (char 2953)
+[2026-01-19 13:27:02] 📝 Grade 3 - Fractions - Unit Fractions - Set 2
+[2026-01-19 13:27:14] ❌ Error: Extra data: line 41 column 1 (char 2064)
+[2026-01-19 13:27:15] 📝 Grade 3 - Fractions - Unit Fractions - Set 3
+[2026-01-19 13:27:23] 📝 Grade 3 - Fractions - Unit Fractions - Set 4
+[2026-01-19 13:27:36] ❌ Error: Extra data: line 29 column 1 (char 1124)
+[2026-01-19 13:27:37] 📝 Grade 3 - Fractions - Comparing - Set 1
+[2026-01-19 13:27:44] 📝 Grade 3 - Fractions - Comparing - Set 2
+[2026-01-19 13:27:55] ❌ Error: Extra data: line 41 column 1 (char 1769)
+[2026-01-19 13:27:55] 📝 Grade 3 - Fractions - Comparing - Set 3
+[2026-01-19 13:28:07] ❌ Error: Extra data: line 35 column 1 (char 1371)
+[2026-01-19 13:28:07] 📝 Grade 3 - Fractions - Comparing - Set 4
+[2026-01-19 13:28:22] ❌ Error: Extra data: line 33 column 2 (char 1339)
+[2026-01-19 13:28:23] 📝 Grade 3 - Fractions - Equivalent - Set 1
+[2026-01-19 13:28:30] ✅ Saved 771 total sets (110 new)
+[2026-01-19 13:28:30] 📝 Grade 3 - Fractions - Equivalent - Set 2
+[2026-01-19 13:28:44] ❌ Error: Extra data: line 29 column 1 (char 963)
+[2026-01-19 13:28:44] 📝 Grade 3 - Fractions - Equivalent - Set 3
+[2026-01-19 13:28:55] ❌ Error: Extra data: line 35 column 1 (char 1269)
+[2026-01-19 13:28:55] 📝 Grade 3 - Fractions - Equivalent - Set 4
+[2026-01-19 13:29:08] ❌ Error: Extra data: line 27 column 2 (char 1217)
+[2026-01-19 13:29:09] 📝 Grade 3 - Fractions - On Number Line - Set 1
+[2026-01-19 13:29:15] 📝 Grade 3 - Fractions - On Number Line - Set 2
+[2026-01-19 13:29:23] ❌ Error: Extra data: line 35 column 1 (char 1465)
+[2026-01-19 13:29:24] 📝 Grade 3 - Fractions - On Number Line - Set 3
+[2026-01-19 13:29:35] ❌ Error: Extra data: line 29 column 1 (char 1201)
+[2026-01-19 13:29:35] 📝 Grade 3 - Fractions - On Number Line - Set 4
+[2026-01-19 13:29:46] ❌ Error: Extra data: line 29 column 1 (char 1125)
+[2026-01-19 13:29:47] 📝 Grade 3 - Fractions - Word Problems - Set 1
+[2026-01-19 13:29:56] 📝 Grade 3 - Fractions - Word Problems - Set 2
+[2026-01-19 13:30:05] 📝 Grade 3 - Fractions - Word Problems - Set 3
+[2026-01-19 13:30:14] 📝 Grade 3 - Fractions - Word Problems - Set 4
+[2026-01-19 13:30:28] ❌ Error: Extra data: line 27 column 2 (char 1247)
+[2026-01-19 13:30:28] 📝 Grade 3 - Geometry - Angles - Set 1
+[2026-01-19 13:30:36] 📝 Grade 3 - Geometry - Angles - Set 2
+[2026-01-19 13:30:42] ❌ Error: Extra data: line 29 column 1 (char 951)
+[2026-01-19 13:30:43] 📝 Grade 3 - Geometry - Angles - Set 3
+[2026-01-19 13:30:50] ❌ Error: Extra data: line 29 column 1 (char 972)
+[2026-01-19 13:30:50] 📝 Grade 3 - Geometry - Angles - Set 4
+[2026-01-19 13:31:01] ❌ Error: Extra data: line 27 column 2 (char 1063)
+[2026-01-19 13:31:02] 📝 Grade 3 - Geometry - Perimeter - Set 1
+[2026-01-19 13:31:18] 📝 Grade 3 - Geometry - Perimeter - Set 2
+[2026-01-19 13:31:23] 📝 Grade 3 - Geometry - Perimeter - Set 3
+[2026-01-19 13:31:33] ❌ Error: Extra data: line 27 column 2 (char 1343)
+[2026-01-19 13:31:34] 📝 Grade 3 - Geometry - Perimeter - Set 4
+[2026-01-19 13:31:44] ❌ Error: Extra data: line 21 column 2 (char 1017)
+[2026-01-19 13:31:44] 📝 Grade 3 - Geometry - Area - Set 1
+[2026-01-19 13:31:52] 📝 Grade 3 - Geometry - Area - Set 2
+[2026-01-19 13:32:00] ❌ Error: Extra data: line 29 column 1 (char 1325)
+[2026-01-19 13:32:00] 📝 Grade 3 - Geometry - Area - Set 3
+[2026-01-19 13:32:10] ❌ Error: Extra data: line 29 column 1 (char 1242)
+[2026-01-19 13:32:10] 📝 Grade 3 - Geometry - Area - Set 4
+[2026-01-19 13:32:22] ❌ Error: Extra data: line 27 column 2 (char 1357)
+[2026-01-19 13:32:23] 📝 Grade 4 - Multiplication - Multi-Digit - Set 1
+[2026-01-19 13:32:28] 📝 Grade 4 - Multiplication - Multi-Digit - Set 2
+[2026-01-19 13:32:36] ❌ Error: Extra data: line 35 column 1 (char 1618)
+[2026-01-19 13:32:36] 📝 Grade 4 - Multiplication - Multi-Digit - Set 3
+[2026-01-19 13:32:50] ❌ Error: Extra data: line 33 column 2 (char 1953)
+[2026-01-19 13:32:51] 📝 Grade 4 - Multiplication - Multi-Digit - Set 4
+[2026-01-19 13:33:00] ✅ Saved 781 total sets (120 new)
+[2026-01-19 13:33:00] 📝 Grade 4 - Multiplication - Factors - Set 1
+[2026-01-19 13:33:05] 📝 Grade 4 - Multiplication - Factors - Set 2
+[2026-01-19 13:33:15] ❌ Error: Expecting ',' delimiter: line 46 column 149 (char 2740)
+[2026-01-19 13:33:15] 📝 Grade 4 - Multiplication - Factors - Set 3
+[2026-01-19 13:33:23] ❌ Error: Extra data: line 29 column 1 (char 877)
+[2026-01-19 13:33:24] 📝 Grade 4 - Multiplication - Factors - Set 4
+[2026-01-19 13:33:30] 📝 Grade 4 - Multiplication - Multiples - Set 1
+[2026-01-19 13:33:38] 📝 Grade 4 - Multiplication - Multiples - Set 2
+[2026-01-19 13:33:48] 📝 Grade 4 - Multiplication - Multiples - Set 3
+[2026-01-19 13:33:54] 📝 Grade 4 - Multiplication - Multiples - Set 4
+[2026-01-19 13:34:03] 📝 Grade 4 - Multiplication - Prime Numbers - Set 1
+[2026-01-19 13:34:09] 📝 Grade 4 - Multiplication - Prime Numbers - Set 2
+[2026-01-19 13:34:16] ❌ Error: Expecting value: line 34 column 39 (char 1677)
+[2026-01-19 13:34:16] 📝 Grade 4 - Multiplication - Prime Numbers - Set 3
+[2026-01-19 13:34:23] ❌ Error: Extra data: line 29 column 1 (char 943)
+[2026-01-19 13:34:23] 📝 Grade 4 - Multiplication - Prime Numbers - Set 4
+[2026-01-19 13:34:29] 📝 Grade 4 - Multiplication - Word Problems - Set 1
+[2026-01-19 13:34:37] 📝 Grade 4 - Multiplication - Word Problems - Set 2
+[2026-01-19 13:34:44] ✅ Saved 791 total sets (130 new)
+[2026-01-19 13:34:45] 📝 Grade 4 - Multiplication - Word Problems - Set 3
+[2026-01-19 13:34:53] 📝 Grade 4 - Multiplication - Word Problems - Set 4
+[2026-01-19 13:35:00] 📝 Grade 4 - Division - Long Division - Set 1
+[2026-01-19 13:35:09] 📝 Grade 4 - Division - Long Division - Set 2
+[2026-01-19 13:35:17] 📝 Grade 4 - Division - Long Division - Set 3
+[2026-01-19 13:35:26] ❌ Error: Extra data: line 27 column 2 (char 1314)
+[2026-01-19 13:35:26] 📝 Grade 4 - Division - Long Division - Set 4
+[2026-01-19 13:35:34] 📝 Grade 4 - Division - 2-Digit Divisors - Set 1
+[2026-01-19 13:35:41] 📝 Grade 4 - Division - 2-Digit Divisors - Set 2
+[2026-01-19 13:35:50] ❌ Error: Extra data: line 41 column 1 (char 1772)
+[2026-01-19 13:35:50] 📝 Grade 4 - Division - 2-Digit Divisors - Set 3
+[2026-01-19 13:36:04] ❌ Error: Extra data: line 27 column 2 (char 1191)
+[2026-01-19 13:36:05] 📝 Grade 4 - Division - 2-Digit Divisors - Set 4
+[2026-01-19 13:36:14] ❌ Error: Extra data: line 27 column 2 (char 1144)
+[2026-01-19 13:36:15] 📝 Grade 4 - Division - Remainders - Set 1
+[2026-01-19 13:36:22] 📝 Grade 4 - Division - Remainders - Set 2
+[2026-01-19 13:36:33] 📝 Grade 4 - Division - Remainders - Set 3
+[2026-01-19 13:36:44] ❌ Error: Extra data: line 27 column 2 (char 1256)
+[2026-01-19 13:36:45] 📝 Grade 4 - Division - Remainders - Set 4
+[2026-01-19 13:36:52] 📝 Grade 4 - Division - Word Problems - Set 1
+[2026-01-19 13:36:58] ✅ Saved 801 total sets (140 new)
+[2026-01-19 13:36:59] 📝 Grade 4 - Division - Word Problems - Set 2
+[2026-01-19 13:37:07] 📝 Grade 4 - Division - Word Problems - Set 3
+[2026-01-19 13:37:20] ❌ Error: Extra data: line 39 column 2 (char 2098)
+[2026-01-19 13:37:20] 📝 Grade 4 - Division - Word Problems - Set 4
+[2026-01-19 13:37:27] 📝 Grade 4 - Division - Mental Math - Set 1
+[2026-01-19 13:37:36] 📝 Grade 4 - Division - Mental Math - Set 2
+[2026-01-19 13:37:43] 📝 Grade 4 - Division - Mental Math - Set 3
+[2026-01-19 13:37:51] ❌ Error: Extra data: line 29 column 1 (char 1156)
+[2026-01-19 13:37:52] 📝 Grade 4 - Division - Mental Math - Set 4
+[2026-01-19 13:38:01] 📝 Grade 4 - Fractions - Mixed Numbers - Set 1
+[2026-01-19 13:38:09] 📝 Grade 4 - Fractions - Mixed Numbers - Set 2
+[2026-01-19 13:38:19] 📝 Grade 4 - Fractions - Mixed Numbers - Set 3
+[2026-01-19 13:38:30] ❌ Error: Extra data: line 33 column 2 (char 1274)
+[2026-01-19 13:38:31] 📝 Grade 4 - Fractions - Mixed Numbers - Set 4
+[2026-01-19 13:38:40] 📝 Grade 4 - Fractions - Adding - Set 1
+[2026-01-19 13:38:49] 📝 Grade 4 - Fractions - Adding - Set 2
+[2026-01-19 13:39:02] ❌ Error: Extra data: line 33 column 2 (char 1714)
+[2026-01-19 13:39:02] 📝 Grade 4 - Fractions - Adding - Set 3
+[2026-01-19 13:39:14] ❌ Error: Extra data: line 27 column 2 (char 1317)
+[2026-01-19 13:39:14] 📝 Grade 4 - Fractions - Adding - Set 4
+[2026-01-19 13:39:31] ❌ Error: Extra data: line 41 column 1 (char 1450)
+[2026-01-19 13:39:32] 📝 Grade 4 - Fractions - Subtracting - Set 1
+[2026-01-19 13:39:37] ✅ Saved 811 total sets (150 new)
+[2026-01-19 13:39:38] 📝 Grade 4 - Fractions - Subtracting - Set 2
+[2026-01-19 13:39:47] 📝 Grade 4 - Fractions - Subtracting - Set 3
+[2026-01-19 13:39:58] ❌ Error: Extra data: line 29 column 1 (char 1251)
+[2026-01-19 13:39:59] 📝 Grade 4 - Fractions - Subtracting - Set 4
+[2026-01-19 13:40:14] ❌ Error: Extra data: line 29 column 1 (char 1216)
+[2026-01-19 13:40:14] 📝 Grade 4 - Fractions - Multiplying - Set 1
+[2026-01-19 13:40:22] 📝 Grade 4 - Fractions - Multiplying - Set 2
+[2026-01-19 13:40:30] ❌ Error: Extra data: line 29 column 1 (char 1205)
+[2026-01-19 13:40:30] 📝 Grade 4 - Fractions - Multiplying - Set 3
+[2026-01-19 13:40:44] ❌ Error: Extra data: line 33 column 2 (char 1810)
+[2026-01-19 13:40:45] 📝 Grade 4 - Fractions - Multiplying - Set 4
+[2026-01-19 13:40:56] 📝 Grade 4 - Fractions - Comparing - Set 1
+[2026-01-19 13:41:03] 📝 Grade 4 - Fractions - Comparing - Set 2
+[2026-01-19 13:41:12] ❌ Error: Extra data: line 41 column 1 (char 1842)
+[2026-01-19 13:41:13] 📝 Grade 4 - Fractions - Comparing - Set 3
+[2026-01-19 13:41:23] ❌ Error: Extra data: line 35 column 1 (char 1404)
+[2026-01-19 13:41:23] 📝 Grade 4 - Fractions - Comparing - Set 4
+[2026-01-19 13:41:40] ❌ Error: Extra data: line 41 column 1 (char 1722)
+[2026-01-19 13:41:41] 📝 Grade 4 - Decimals - Place Value - Set 1
+[2026-01-19 13:41:48] 📝 Grade 4 - Decimals - Place Value - Set 2
+[2026-01-19 13:41:58] ❌ Error: Extra data: line 33 column 2 (char 1186)
+[2026-01-19 13:41:58] 📝 Grade 4 - Decimals - Place Value - Set 3
+[2026-01-19 13:42:08] ❌ Error: Extra data: line 33 column 2 (char 1189)
+[2026-01-19 13:42:09] 📝 Grade 4 - Decimals - Place Value - Set 4
+[2026-01-19 13:42:21] ❌ Error: Extra data: line 33 column 2 (char 1253)
+[2026-01-19 13:42:22] 📝 Grade 4 - Decimals - Comparing - Set 1
+[2026-01-19 13:42:28] 📝 Grade 4 - Decimals - Comparing - Set 2
+[2026-01-19 13:42:35] ❌ Error: Extra data: line 33 column 2 (char 1178)
+[2026-01-19 13:42:36] 📝 Grade 4 - Decimals - Comparing - Set 3
+[2026-01-19 13:42:46] ❌ Error: Extra data: line 35 column 1 (char 1097)
+[2026-01-19 13:42:47] 📝 Grade 4 - Decimals - Comparing - Set 4
+[2026-01-19 13:43:03] ❌ Error: Extra data: line 39 column 2 (char 1426)
+[2026-01-19 13:43:03] 📝 Grade 4 - Decimals - Rounding - Set 1
+[2026-01-19 13:43:08] 📝 Grade 4 - Decimals - Rounding - Set 2
+[2026-01-19 13:43:16] 📝 Grade 4 - Decimals - Rounding - Set 3
+[2026-01-19 13:43:26] ❌ Error: Extra data: line 33 column 2 (char 1482)
+[2026-01-19 13:43:26] 📝 Grade 4 - Decimals - Rounding - Set 4
+[2026-01-19 13:43:33] 📝 Grade 5 - Decimals - Operations - Set 1
+[2026-01-19 13:43:43] ✅ Saved 821 total sets (160 new)
+[2026-01-19 13:43:43] 📝 Grade 5 - Decimals - Operations - Set 2
+[2026-01-19 13:43:55] ❌ Error: Extra data: line 35 column 1 (char 1884)
+[2026-01-19 13:43:56] 📝 Grade 5 - Decimals - Operations - Set 3
+[2026-01-19 13:44:07] ❌ Error: Extra data: line 29 column 1 (char 1169)
+[2026-01-19 13:44:07] 📝 Grade 5 - Decimals - Operations - Set 4
+[2026-01-19 13:44:25] ❌ Error: Extra data: line 33 column 2 (char 1673)
+[2026-01-19 13:44:25] 📝 Grade 5 - Decimals - Rounding - Set 1
+[2026-01-19 13:44:32] 📝 Grade 5 - Decimals - Rounding - Set 2
+[2026-01-19 13:44:40] 📝 Grade 5 - Decimals - Rounding - Set 3
+[2026-01-19 13:44:47] ❌ Error: Extra data: line 29 column 1 (char 965)
+[2026-01-19 13:44:48] 📝 Grade 5 - Decimals - Rounding - Set 4
+[2026-01-19 13:44:55] 📝 Grade 5 - Decimals - Word Problems - Set 1
+[2026-01-19 13:45:05] 📝 Grade 5 - Decimals - Word Problems - Set 2
+[2026-01-19 13:45:14] 📝 Grade 5 - Decimals - Word Problems - Set 3
+[2026-01-19 13:45:24] 📝 Grade 5 - Decimals - Word Problems - Set 4
+[2026-01-19 13:45:34] 📝 Grade 5 - Decimals - Converting - Set 1
+[2026-01-19 13:45:39] 📝 Grade 5 - Decimals - Converting - Set 2
+[2026-01-19 13:45:49] ❌ Error: Extra data: line 33 column 2 (char 1094)
+[2026-01-19 13:45:50] 📝 Grade 5 - Decimals - Converting - Set 3
+[2026-01-19 13:45:59] ❌ Error: Extra data: line 27 column 2 (char 1130)
+[2026-01-19 13:45:59] 📝 Grade 5 - Decimals - Converting - Set 4
+[2026-01-19 13:46:12] ❌ Error: Extra data: line 27 column 2 (char 858)
+[2026-01-19 13:46:12] 📝 Grade 5 - Decimals - Comparing - Set 1
+[2026-01-19 13:46:20] 📝 Grade 5 - Decimals - Comparing - Set 2
+[2026-01-19 13:46:29] ❌ Error: Extra data: line 39 column 2 (char 1462)
+[2026-01-19 13:46:29] 📝 Grade 5 - Decimals - Comparing - Set 3
+[2026-01-19 13:46:42] ❌ Error: Extra data: line 33 column 2 (char 1362)
+[2026-01-19 13:46:42] 📝 Grade 5 - Decimals - Comparing - Set 4
+[2026-01-19 13:46:57] ❌ Error: Extra data: line 33 column 2 (char 1255)
+[2026-01-19 13:46:57] 📝 Grade 5 - Fractions - Multiplying - Set 1
+[2026-01-19 13:47:06] ✅ Saved 831 total sets (170 new)
+[2026-01-19 13:47:07] 📝 Grade 5 - Fractions - Multiplying - Set 2
+[2026-01-19 13:47:36] ❌ Error: Extra data: line 35 column 1 (char 1718)
+[2026-01-19 13:47:36] 📝 Grade 5 - Fractions - Multiplying - Set 3
+[2026-01-19 13:47:46] ❌ Error: Extra data: line 29 column 1 (char 1212)
+[2026-01-19 13:47:46] 📝 Grade 5 - Fractions - Multiplying - Set 4
+[2026-01-19 13:48:02] ❌ Error: Extra data: line 27 column 2 (char 1355)
+[2026-01-19 13:48:02] 📝 Grade 5 - Fractions - Dividing - Set 1
+[2026-01-19 13:48:11] 📝 Grade 5 - Fractions - Dividing - Set 2
+[2026-01-19 13:48:20] ❌ Error: Extra data: line 33 column 2 (char 1934)
+[2026-01-19 13:48:21] 📝 Grade 5 - Fractions - Dividing - Set 3
+[2026-01-19 13:48:32] ❌ Error: Extra data: line 29 column 1 (char 1330)
+[2026-01-19 13:48:32] 📝 Grade 5 - Fractions - Dividing - Set 4
+[2026-01-19 13:48:49] ❌ Error: Extra data: line 27 column 2 (char 1474)
+[2026-01-19 13:48:50] 📝 Grade 5 - Fractions - Converting - Set 1
+[2026-01-19 13:48:58] 📝 Grade 5 - Fractions - Converting - Set 2
+[2026-01-19 13:49:07] 📝 Grade 5 - Fractions - Converting - Set 3
+[2026-01-19 13:49:16] 📝 Grade 5 - Fractions - Converting - Set 4
+[2026-01-19 13:49:26] 📝 Grade 5 - Fractions - Mixed Operations - Set 1
+[2026-01-19 13:49:39] 📝 Grade 5 - Fractions - Mixed Operations - Set 2
+[2026-01-19 13:49:52] 📝 Grade 5 - Fractions - Mixed Operations - Set 3
+[2026-01-19 13:50:05] ❌ Error: Extra data: line 27 column 2 (char 1465)
+[2026-01-19 13:50:06] 📝 Grade 5 - Fractions - Mixed Operations - Set 4
+[2026-01-19 13:50:16] 📝 Grade 5 - Fractions - Word Problems - Set 1
+[2026-01-19 13:50:27] 📝 Grade 5 - Fractions - Word Problems - Set 2
+[2026-01-19 13:50:35] ✅ Saved 841 total sets (180 new)
+[2026-01-19 13:50:36] 📝 Grade 5 - Fractions - Word Problems - Set 3
+[2026-01-19 13:50:47] ❌ Error: Extra data: line 29 column 1 (char 1356)
+[2026-01-19 13:50:47] 📝 Grade 5 - Fractions - Word Problems - Set 4
+[2026-01-19 13:50:58] 📝 Grade 5 - Geometry - Coordinate Plane - Set 1
+[2026-01-19 13:51:09] ❌ Error: Invalid control character at: line 48 column 29 (char 3529)
+[2026-01-19 13:51:09] 📝 Grade 5 - Geometry - Coordinate Plane - Set 2
+[2026-01-19 13:51:21] 📝 Grade 5 - Geometry - Coordinate Plane - Set 3
+[2026-01-19 13:51:29] 📝 Grade 5 - Geometry - Coordinate Plane - Set 4
+[2026-01-19 13:51:38] 📝 Grade 5 - Geometry - Volume - Set 1
+[2026-01-19 13:51:46] 📝 Grade 5 - Geometry - Volume - Set 2
+[2026-01-19 13:51:55] 📝 Grade 5 - Geometry - Volume - Set 3
+[2026-01-19 13:52:07] ❌ Error: Extra data: line 29 column 1 (char 1591)
+[2026-01-19 13:52:08] 📝 Grade 5 - Geometry - Volume - Set 4
+[2026-01-19 13:52:25] ❌ Error: Extra data: line 27 column 2 (char 1613)
+[2026-01-19 13:52:26] 📝 Grade 5 - Geometry - Surface Area - Set 1
+[2026-01-19 13:52:38] ❌ Error: Invalid control character at: line 48 column 299 (char 4759)
+[2026-01-19 13:52:38] 📝 Grade 5 - Geometry - Surface Area - Set 2
+[2026-01-19 13:52:48] 📝 Grade 5 - Geometry - Surface Area - Set 3
+[2026-01-19 13:53:02] ❌ Error: Extra data: line 29 column 1 (char 1681)
+[2026-01-19 13:53:03] 📝 Grade 5 - Geometry - Surface Area - Set 4
+[2026-01-19 13:53:18] ❌ Error: Extra data: line 27 column 2 (char 1658)
+[2026-01-19 13:53:18] 📝 Grade 5 - Geometry - Transformations - Set 1
+[2026-01-19 13:53:29] 📝 Grade 5 - Geometry - Transformations - Set 2
+[2026-01-19 13:53:38] 📝 Grade 5 - Geometry - Transformations - Set 3
+[2026-01-19 13:53:49] ❌ Error: Extra data: line 27 column 2 (char 1227)
+[2026-01-19 13:53:50] 📝 Grade 5 - Geometry - Transformations - Set 4
+[2026-01-19 13:53:57] ✅ Saved 851 total sets (190 new)
+[2026-01-19 13:53:57] 📝 Grade 5 - Geometry - Patterns - Set 1
+[2026-01-19 13:54:04] 📝 Grade 5 - Geometry - Patterns - Set 2
+[2026-01-19 13:54:10] 📝 Grade 5 - Geometry - Patterns - Set 3
+[2026-01-19 13:54:18] ❌ Error: Extra data: line 29 column 1 (char 1249)
+[2026-01-19 13:54:19] 📝 Grade 5 - Geometry - Patterns - Set 4
+[2026-01-19 13:54:30] ❌ Error: Extra data: line 29 column 1 (char 1417)
+[2026-01-19 13:54:30] 📝 Grade 5 - Ratios - Proportions - Set 1
+[2026-01-19 13:54:37] 📝 Grade 5 - Ratios - Proportions - Set 2
+[2026-01-19 13:54:48] 📝 Grade 5 - Ratios - Proportions - Set 3
+[2026-01-19 13:55:00] ❌ Error: Extra data: line 33 column 2 (char 1521)
+[2026-01-19 13:55:00] 📝 Grade 5 - Ratios - Proportions - Set 4
+[2026-01-19 13:55:13] ❌ Error: Extra data: line 27 column 2 (char 1189)
+[2026-01-19 13:55:14] 📝 Grade 5 - Ratios - Rates - Set 1
+[2026-01-19 13:55:20] 📝 Grade 5 - Ratios - Rates - Set 2
+[2026-01-19 13:55:28] 📝 Grade 5 - Ratios - Rates - Set 3
+[2026-01-19 13:55:39] ❌ Error: Extra data: line 27 column 2 (char 1421)
+[2026-01-19 13:55:40] 📝 Grade 5 - Ratios - Rates - Set 4
+[2026-01-19 13:55:55] ❌ Error: Extra data: line 33 column 2 (char 1544)
+[2026-01-19 13:55:56] 📝 Grade 5 - Ratios - Percentages - Set 1
+[2026-01-19 13:56:02] 📝 Grade 5 - Ratios - Percentages - Set 2
+[2026-01-19 13:56:10] 📝 Grade 5 - Ratios - Percentages - Set 3
+[2026-01-19 13:56:18] ❌ Error: Extra data: line 29 column 1 (char 1147)
+[2026-01-19 13:56:18] 📝 Grade 5 - Ratios - Percentages - Set 4
+[2026-01-19 13:56:30] ❌ Error: Extra data: line 35 column 1 (char 1084)
+[2026-01-19 13:56:31] ============================================================
+[2026-01-19 13:56:31] ✅ COMPLETE! Generated 198 new sets
+[2026-01-19 13:56:31] 📊 Total curriculum sets: 859
+[2026-01-19 13:56:31] ============================================================
+[2026-01-19 13:56:31] 
+New distribution:
+[2026-01-19 13:56:31]   Grade 0: 390 sets
+[2026-01-19 13:56:31]   Grade 1: 159 sets
+[2026-01-19 13:56:31]   Grade 2: 87 sets
+[2026-01-19 13:56:31]   Grade 3: 79 sets
+[2026-01-19 13:56:31]   Grade 4: 73 sets
+[2026-01-19 13:56:31]   Grade 5: 66 sets
+[2026-01-19 13:56:31]   Grade 6: 5 sets

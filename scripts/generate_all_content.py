@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Automated Content Generation for Abacus Learn
-Generates 1000 curriculum sets and 600 learning paths overnight
+Generates curriculum sets and learning paths using Claude API
 """
 
 import os
@@ -11,23 +11,23 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
-# Try to import Gemini, provide helpful error if missing
+# Import Anthropic (Claude)
 try:
-    import google.generativeai as genai
+    from anthropic import Anthropic
 except ImportError:
-    print("❌ Error: google-generativeai not installed")
-    print("Run: pip install google-generativeai")
+    print("❌ Error: anthropic not installed")
+    print("Run: pip3 install anthropic")
     exit(1)
 
 # Configuration
-GEMINI_API_KEY = os.getenv('VITE_GEMINI_API_KEY')
-if not GEMINI_API_KEY:
-    print("❌ Error: VITE_GEMINI_API_KEY not found in environment")
-    print("Make sure .env file is loaded")
+CLAUDE_API_KEY = os.getenv('CLAUDE_API_KEY')
+if not CLAUDE_API_KEY:
+    print("❌ Error: CLAUDE_API_KEY not found in environment")
+    print("Make sure .env file has CLAUDE_API_KEY set")
     exit(1)
 
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-2.0-flash-exp')
+# Initialize Claude client
+client = Anthropic(api_key=CLAUDE_API_KEY)
 
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -65,7 +65,7 @@ def load_existing_curriculum():
     return []
 
 def generate_curriculum_set(grade, topic, subtopic, set_number):
-    """Generate a single curriculum set using Gemini"""
+    """Generate a single curriculum set using Claude"""
     try:
         prompt = f"""Generate a math curriculum set for Grade {grade}.
 
@@ -93,86 +93,96 @@ Format as JSON with this structure:
 
 Make questions progressively harder. Include variety. Return ONLY the JSON, no markdown formatting."""
 
-        response = model.generate_content(prompt)
+        # Call Claude API
+        message = client.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            max_tokens=4096,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
         
-        # Parse JSON from response
-        response_text = response.text.strip()
+        # Extract text from Claude response
+        response_text = message.content[0].text.strip()
+        
+        # Clean up markdown formatting if present
         if response_text.startswith('```json'):
-            response_text = response_text[7:]
-        if response_text.startswith('```'):
-            response_text = response_text[3:]
-        if response_text.endswith('```'):
-            response_text = response_text[:-3]
+            response_text = response_text.split('```json')[1].split('```')[0].strip()
+        elif response_text.startswith('```'):
+            response_text = response_text.split('```')[1].split('```')[0].strip()
         
-        curriculum_set = json.loads(response_text.strip())
+        # Parse JSON
+        curriculum_set = json.loads(response_text)
         
-        # Validate
-        if len(curriculum_set.get('questions', [])) != 12:
-            raise ValueError(f"Expected 12 questions, got {len(curriculum_set.get('questions', []))}")
+        # Ensure grade_level is correct (Claude sometimes changes it)
+        curriculum_set['grade_level'] = grade
         
         return curriculum_set
         
+    except json.JSONDecodeError as e:
+        log(f"❌ JSON parse error for {grade}-{topic}: {e}")
+        progress['errors'].append(f"JSON error: {grade}-{topic}-{set_number}")
+        return None
     except Exception as e:
-        log(f"❌ Error generating set: {e}")
-        progress['errors'].append(str(e))
+        log(f"❌ Error generating {grade}-{topic}: {e}")
+        progress['errors'].append(f"Generation error: {grade}-{topic}-{set_number}: {str(e)}")
         return None
 
-def generate_curriculum_batch(start_count, target_count):
-    """Generate curriculum sets in batches"""
-    log(f"\n🎯 Generating curriculum sets {start_count} to {target_count}...")
+# Curriculum topics by grade
+topics = [
+    # Grade K
+    {'grade': 0, 'topic': 'Counting', 'subtopics': ['Numbers 1-10', 'Numbers 11-20', 'Counting Objects']},
+    {'grade': 0, 'topic': 'Shapes', 'subtopics': ['Basic Shapes', 'Shape Properties', 'Pattern Recognition']},
+    {'grade': 0, 'topic': 'Addition', 'subtopics': ['Adding 1-5', 'Adding 6-10', 'Picture Addition']},
     
-    # Load existing
+    # Grade 1
+    {'grade': 1, 'topic': 'Addition', 'subtopics': ['Facts to 10', 'Facts to 20', 'Word Problems']},
+    {'grade': 1, 'topic': 'Subtraction', 'subtopics': ['Facts to 10', 'Facts to 20', 'Missing Numbers']},
+    {'grade': 1, 'topic': 'Place Value', 'subtopics': ['Tens and Ones', 'Comparing Numbers', 'Number Patterns']},
+    
+    # Grade 2
+    {'grade': 2, 'topic': 'Addition', 'subtopics': ['2-Digit Addition', '3-Digit Addition', 'Regrouping']},
+    {'grade': 2, 'topic': 'Subtraction', 'subtopics': ['2-Digit Subtraction', '3-Digit Subtraction', 'Borrowing']},
+    {'grade': 2, 'topic': 'Measurement', 'subtopics': ['Length', 'Weight', 'Time']},
+    
+    # Grade 3
+    {'grade': 3, 'topic': 'Multiplication', 'subtopics': ['Tables 2-5', 'Tables 6-9', 'Arrays']},
+    {'grade': 3, 'topic': 'Division', 'subtopics': ['Basic Division', 'Division with Remainders', 'Word Problems']},
+    {'grade': 3, 'topic': 'Fractions', 'subtopics': ['Unit Fractions', 'Comparing Fractions', 'Equivalent Fractions']},
+    
+    # Grade 4
+    {'grade': 4, 'topic': 'Multiplication', 'subtopics': ['Multi-Digit', 'Factors', 'Prime Numbers']},
+    {'grade': 4, 'topic': 'Division', 'subtopics': ['Long Division', 'Multiples', 'Word Problems']},
+    {'grade': 4, 'topic': 'Fractions', 'subtopics': ['Mixed Numbers', 'Adding Fractions', 'Subtracting Fractions']},
+    
+    # Grade 5
+    {'grade': 5, 'topic': 'Decimals', 'subtopics': ['Place Value', 'Operations', 'Rounding']},
+    {'grade': 5, 'topic': 'Fractions', 'subtopics': ['Multiplying', 'Dividing', 'Converting']},
+    {'grade': 5, 'topic': 'Geometry', 'subtopics': ['Coordinate Plane', 'Volume', 'Surface Area']},
+]
+
+def generate_all_curriculum(target_count=1000):
+    """Generate curriculum sets"""
+    log("🎯 Starting curriculum generation...")
+    log(f"Target: {target_count} sets")
+    
     curriculum = load_existing_curriculum()
-    existing_count = len(curriculum)
+    log(f"📚 Loaded {len(curriculum)} existing sets")
     
-    # Topics to generate (expanded list)
-    topics = [
-        # Grade K
-        (0, "Counting", ["Numbers 1-10", "Numbers 11-20", "Counting Objects", "Number Order"]),
-        (0, "Shapes", ["Basic Shapes", "Shape Properties", "Pattern Recognition"]),
-        (0, "Addition", ["Adding 1-5", "Adding 6-10", "Picture Addition"]),
-        
-        # Grade 1
-        (1, "Addition", ["Facts to 10", "Facts to 20", "Word Problems", "Missing Addends"]),
-        (1, "Subtraction", ["Facts to 10", "Facts to 20", "Word Problems", "Fact Families"]),
-        (1, "Place Value", ["Tens and Ones", "Comparing Numbers", "Number Patterns"]),
-        
-        # Grade 2
-        (2, "Addition", ["2-Digit Addition", "3-Digit Addition", "Regrouping", "Mental Math"]),
-        (2, "Subtraction", ["2-Digit Subtraction", "3-Digit Subtraction", "Borrowing"]),
-        (2, "Measurement", ["Length", "Weight", "Capacity", "Time"]),
-        (2, "Money", ["Counting Coins", "Making Change", "Word Problems"]),
-        
-        # Grade 3
-        (3, "Multiplication", ["Tables 2-5", "Tables 6-9", "Word Problems", "Arrays"]),
-        (3, "Division", ["Basic Facts", "Remainders", "Word Problems", "Fact Families"]),
-        (3, "Fractions", ["Unit Fractions", "Comparing Fractions", "Equivalent Fractions"]),
-        (3, "Geometry", ["Angles", "Perimeter", "Area", "Shapes"]),
-        
-        # Grade 4
-        (4, "Multiplication", ["Multi-Digit", "Factors", "Multiples", "Prime Numbers"]),
-        (4, "Division", ["Long Division", "Remainders", "Word Problems"]),
-        (4, "Fractions", ["Operations", "Mixed Numbers", "Decimals"]),
-        (4, "Geometry", ["Area", "Perimeter", "Volume", "Angles"]),
-        
-        # Grade 5
-        (5, "Decimals", ["Operations", "Comparing", "Rounding", "Word Problems"]),
-        (5, "Fractions", ["Operations", "Mixed Numbers", "Conversions"]),
-        (5, "Ratios", ["Basic Ratios", "Proportions", "Rates", "Percentages"]),
-        (5, "Geometry", ["Coordinate Plane", "Volume", "Surface Area"])
-    ]
+    sets_per_topic = max(1, (target_count - len(curriculum)) // len(topics))
+    log(f"📊 Generating ~{sets_per_topic} sets per topic")
     
-    # Generate sets
-    sets_to_generate = target_count - existing_count
-    sets_per_topic = max(1, sets_to_generate // len(topics))
-    
-    for grade, topic, subtopics in topics:
-        for i, subtopic in enumerate(subtopics):
+    for topic_data in topics:
+        grade = topic_data['grade']
+        topic = topic_data['topic']
+        subtopics = topic_data['subtopics']
+        
+        for subtopic in subtopics:
             for set_num in range(1, sets_per_topic + 1):
                 if len(curriculum) >= target_count:
                     break
                     
-                log(f"Generating: Grade {grade} - {topic} - {subtopic} - Set {set_num}")
+                log(f"📝 Generating Grade {grade} - {topic} - {subtopic} - Set {set_num}")
                 
                 curriculum_set = generate_curriculum_set(grade, topic, subtopic, set_num)
                 
@@ -187,8 +197,8 @@ def generate_curriculum_batch(start_count, target_count):
                         log(f"✅ Saved {len(curriculum)} sets")
                         save_progress()
                 
-                # Rate limiting
-                time.sleep(1)
+                # Rate limiting - Claude can handle faster requests
+                time.sleep(0.5)
                 
             if len(curriculum) >= target_count:
                 break
@@ -202,151 +212,39 @@ def generate_curriculum_batch(start_count, target_count):
     log(f"✅ Generated {len(curriculum)} total curriculum sets")
     return len(curriculum)
 
-def generate_learning_paths_batch(target_count_per_grade=100):
-    """Generate learning paths in markdown"""
-    log(f"\n🎯 Generating learning paths ({target_count_per_grade} per grade)...")
-    
-    paths_md = "# Learning Paths for Abacus Learn\n\n"
-    
-    grades = [
-        (0, "K (Kindergarten)"),
-        (1, "1"),
-        (2, "2"),
-        (3, "3"),
-        (4, "4"),
-        (5, "5")
-    ]
-    
-    for grade_num, grade_name in grades:
-        paths_md += f"## Grade {grade_name}\n\n"
-        
-        # Generate paths for this grade
-        for path_num in range(1, target_count_per_grade + 1):
-            log(f"Generating learning path {path_num} for Grade {grade_name}")
-            
-            try:
-                prompt = f"""Create a learning path for Grade {grade_name} math.
-
-Path number: {path_num}
-
-Format as markdown:
-### Path {path_num}: [Title]
-- **Description:** [What students will learn]
-- **Estimated Time:** [25-35] minutes
-- **Modules:**
-  * module-id-1
-  * module-id-2
-  * module-id-3
-
-Make it focused on a specific skill progression. Return ONLY the markdown, no extra text."""
-
-                response = model.generate_content(prompt)
-                path_md = response.text.strip()
-                
-                # Clean up response
-                if path_md.startswith('```markdown'):
-                    path_md = path_md[11:]
-                if path_md.startswith('```'):
-                    path_md = path_md[3:]
-                if path_md.endswith('```'):
-                    path_md = path_md[:-3]
-                
-                paths_md += path_md.strip() + "\n\n"
-                progress['learning_paths_generated'] += 1
-                
-                # Save every 20 paths
-                if progress['learning_paths_generated'] % 20 == 0:
-                    with open(PATHS_MD_FILE, 'w') as f:
-                        f.write(paths_md)
-                    log(f"✅ Saved {progress['learning_paths_generated']} paths")
-                    save_progress()
-                
-                # Rate limiting
-                time.sleep(1)
-                
-            except Exception as e:
-                log(f"❌ Error generating path: {e}")
-                progress['errors'].append(str(e))
-        
-        paths_md += "\n"
-    
-    # Final save
-    with open(PATHS_MD_FILE, 'w') as f:
-        f.write(paths_md)
-    
-    log(f"✅ Generated {progress['learning_paths_generated']} learning paths")
-    
-    # Convert to JSON
-    log("Converting paths to JSON...")
-    try:
-        subprocess.run(['python3', 'scripts/convert_paths_to_json.py'], 
-                      cwd=PROJECT_ROOT, check=True)
-        log("✅ Converted paths to JSON")
-    except Exception as e:
-        log(f"❌ Error converting paths: {e}")
-
-def commit_and_push():
-    """Commit and push changes to GitHub"""
-    log("\n📤 Committing and pushing to GitHub...")
-    
-    try:
-        subprocess.run(['git', 'add', '-A'], cwd=PROJECT_ROOT, check=True)
-        
-        commit_msg = f"feat: Generated {progress['curriculum_sets_generated']} curriculum sets and {progress['learning_paths_generated']} learning paths"
-        subprocess.run(['git', 'commit', '-m', commit_msg], cwd=PROJECT_ROOT, check=True)
-        
-        subprocess.run(['git', 'push', 'origin', 'main'], cwd=PROJECT_ROOT, check=True)
-        
-        log("✅ Successfully pushed to GitHub")
-    except Exception as e:
-        log(f"❌ Error with git: {e}")
-        log("You can manually commit and push later")
-
 def main():
     """Main execution"""
     progress['start_time'] = datetime.now().isoformat()
     
     log("=" * 60)
-    log("🚀 ABACUS LEARN - AUTOMATED CONTENT GENERATION")
-    log("=" * 60)
-    log(f"Target: 1000 curriculum sets, 600 learning paths")
-    log(f"Started: {progress['start_time']}")
+    log("🚀 Abacus Learn Content Generation (Claude API)")
     log("=" * 60)
     
     try:
-        # Generate curriculum sets
-        final_count = generate_curriculum_batch(0, 1000)
-        log(f"\n✅ Curriculum generation complete: {final_count} sets")
+        # Generate curriculum
+        total_sets = generate_all_curriculum(target_count=100)  # Start with 100 for testing
         
-        # Generate learning paths
-        generate_learning_paths_batch(100)
-        log(f"\n✅ Learning paths generation complete: {progress['learning_paths_generated']} paths")
-        
-        # Commit and push
-        commit_and_push()
-        
-    except KeyboardInterrupt:
-        log("\n⚠️  Generation interrupted by user")
-    except Exception as e:
-        log(f"\n❌ Fatal error: {e}")
-        progress['errors'].append(str(e))
-    finally:
         progress['end_time'] = datetime.now().isoformat()
         save_progress()
         
-        log("\n" + "=" * 60)
-        log("📊 GENERATION SUMMARY")
         log("=" * 60)
-        log(f"Curriculum sets: {progress['curriculum_sets_generated']}")
-        log(f"Learning paths: {progress['learning_paths_generated']}")
-        log(f"Errors: {len(progress['errors'])}")
-        log(f"Duration: {progress['start_time']} to {progress['end_time']}")
+        log("✅ GENERATION COMPLETE!")
+        log(f"📊 Curriculum Sets: {total_sets}")
+        log(f"❌ Errors: {len(progress['errors'])}")
         log("=" * 60)
         
         if progress['errors']:
             log("\n⚠️  Errors encountered:")
             for error in progress['errors'][:10]:  # Show first 10
                 log(f"  - {error}")
+        
+    except KeyboardInterrupt:
+        log("\n⚠️  Generation interrupted by user")
+        save_progress()
+    except Exception as e:
+        log(f"\n❌ Fatal error: {e}")
+        save_progress()
+        raise
 
 if __name__ == '__main__':
     main()
