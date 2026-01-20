@@ -96455,5 +96455,518 @@
         "explanation": "To find the cost of the item, we need to subtract the 25% profit margin from the selling price of $80. The profit margin is 25% of $80, which is $20. The cost of the item is $80 - $20 = $60."
       }
     ]
+  },
+  {
+    "title": "Sums to 10 Practice",
+    "description": "Mastering Sums to 10 concepts",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "What is 2 + 3?",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "1"
+        ],
+        "answer": "5",
+        "hints": [
+          "Think about counting up from 2 three more times.",
+          "Use your fingers to count 2, then add 3 more.",
+          "Imagine having 2 apples and getting 3 more. How many apples do you have in all?"
+        ],
+        "explanation": "2 + 3 = 5. If you start at 2 and count up 3 more, you get to 5."
+      },
+      {
+        "question": "What is 1 + 4?",
+        "options": [
+          "3",
+          "5",
+          "6",
+          "2"
+        ],
+        "answer": "5",
+        "hints": [
+          "What number comes after 4?",
+          "Start with 1 and count four more.",
+          "1 + 4 is the same as 4 + 1"
+        ],
+        "explanation": "1 + 4 = 5. Starting at 1, adding 4 more gives you 5."
+      },
+      {
+        "question": "What is 6 + 0?",
+        "options": [
+          "0",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hints": [
+          "Adding zero to a number doesn't change the number.",
+          "If you have 6 toys and get 0 more, how many toys do you have?",
+          "Remember that zero means nothing."
+        ],
+        "explanation": "6 + 0 = 6. Adding zero to any number results in the same number."
+      },
+      {
+        "question": "What is 3 + 2?",
+        "options": [
+          "6",
+          "4",
+          "5",
+          "1"
+        ],
+        "answer": "5",
+        "hints": [
+          "Start with 3 and count two more.",
+          "Use your fingers to help you count.",
+          "What number is two more than three?"
+        ],
+        "explanation": "3 + 2 = 5. Counting two numbers after 3 gets you to 5."
+      },
+      {
+        "question": "What is 4 + 4?",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "6"
+        ],
+        "answer": "8",
+        "hints": [
+          "Double four.",
+          "Think about two fours.",
+          "If you have 4 apples, and your friend gives you 4 more, how many do you have?"
+        ],
+        "explanation": "4 + 4 = 8. Adding two of the same number together is like doubling it."
+      },
+      {
+        "question": "What is 7 + 1?",
+        "options": [
+          "9",
+          "6",
+          "8",
+          "5"
+        ],
+        "answer": "8",
+        "hints": [
+          "What comes after 7?",
+          "One more than 7 is...?",
+          "If you have seven candies and get one more, how many candies do you have total?"
+        ],
+        "explanation": "7 + 1 = 8. One more than seven is eight."
+      },
+      {
+        "question": "What is 5 + 3?",
+        "options": [
+          "7",
+          "2",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hints": [
+          "Count on from 5 three times.",
+          "What number is three more than 5?",
+          "Use a number line to count up from 5."
+        ],
+        "explanation": "5 + 3 = 8. Starting with 5 and adding 3 gets you to 8."
+      },
+      {
+        "question": "What is 2 + 6?",
+        "options": [
+          "9",
+          "8",
+          "3",
+          "4"
+        ],
+        "answer": "8",
+        "hints": [
+          "Think about adding 6 and 2. Is it the same as 2 + 6?",
+          "Start with the bigger number and add the smaller number.",
+          "What is 6 + 2?"
+        ],
+        "explanation": "2 + 6 = 8. Adding 2 to 6 gives you eight."
+      },
+      {
+        "question": "What is 9 + 1?",
+        "options": [
+          "8",
+          "10",
+          "7",
+          "6"
+        ],
+        "answer": "10",
+        "hints": [
+          "What number comes after 9?",
+          "What number is one more than 9?",
+          "If you have 9 stickers and your friend gives you one more, how many stickers do you have total?"
+        ],
+        "explanation": "9 + 1 = 10. One more than nine is ten."
+      },
+      {
+        "question": "What is 1 + 2?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "5"
+        ],
+        "answer": "3",
+        "hints": [
+          "Count on from 1 two times.",
+          "1 + 2 = ?",
+          "Start with one and count two more numbers."
+        ],
+        "explanation": "1 + 2 = 3. Adding 2 to 1 gives you three."
+      }
+    ],
+    "id": "g1-addition-sumsto10-1768881368",
+    "generated": true,
+    "generated_at": "2026-01-20T03:56:08Z"
+  },
+  {
+    "title": "Sums to 10 Practice",
+    "description": "Mastering Sums to 10 concepts",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "What is 2 + 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hints": [
+          "Count two fingers, then three more. How many fingers are up?",
+          "Use objects like blocks. Put two blocks together with three blocks. How many blocks in total?",
+          "Think of it as 2 and then count up 3 times: 3, 4, 5"
+        ],
+        "explanation": "2 + 3 = 5. When you add 2 and 3 together, you get 5."
+      },
+      {
+        "question": "What is 1 + 4?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "hints": [
+          "Start with 1 and count 4 more.",
+          "Use a number line. Start at 1 and move 4 spaces to the right.",
+          "Imagine one apple and then four more. How many apples?"
+        ],
+        "explanation": "1 + 4 = 5. If you have one and add four more, you have five."
+      },
+      {
+        "question": "What is 5 + 2?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hints": [
+          "Hold up 5 fingers. Add 2 more. Count all the fingers.",
+          "Draw 5 circles and then draw 2 more. Count all the circles.",
+          "Think of it as starting at 5 and counting up 2 times: 6, 7"
+        ],
+        "explanation": "5 + 2 = 7. Five plus two equals seven."
+      },
+      {
+        "question": "What is 3 + 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hints": [
+          "Put three toys with another three toys. How many toys do you have?",
+          "Draw three stars and then three more. Count the stars.",
+          "What number comes after 5?"
+        ],
+        "explanation": "3 + 3 = 6. Three plus three is six."
+      },
+      {
+        "question": "What is 4 + 1?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "hints": [
+          "Start at 4 and count up one more.",
+          "Use your fingers. Show 4 fingers, then add 1 more.",
+          "What number is one more than 4?"
+        ],
+        "explanation": "4 + 1 = 5. Four plus one equals five."
+      },
+      {
+        "question": "What is 0 + 6?",
+        "options": [
+          "0",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hints": [
+          "Remember, adding zero means adding nothing.",
+          "If you have six candies and add zero candies, how many do you have?",
+          "Anything plus zero is itself."
+        ],
+        "explanation": "0 + 6 = 6. Zero plus any number equals that number."
+      },
+      {
+        "question": "What is 2 + 4?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hints": [
+          "Count up four numbers, starting from two.",
+          "Draw two squares and four squares. Count the total number of squares.",
+          "What number comes after 5?"
+        ],
+        "explanation": "2 + 4 = 6. Two plus four equals six."
+      },
+      {
+        "question": "What is 6 + 3?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hints": [
+          "Start with 6 and count up three numbers.",
+          "Use blocks. Put 6 blocks and 3 blocks together. How many blocks are there in total?",
+          "What number comes after 8?"
+        ],
+        "explanation": "6 + 3 = 9. Six plus three equals nine."
+      },
+      {
+        "question": "What is 7 + 2?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hints": [
+          "Hold up 7 fingers. Then hold up 2 more fingers. How many fingers are up?",
+          "Start at the number 7 and count up two more.",
+          "What number comes after 8?"
+        ],
+        "explanation": "7 + 2 = 9. Seven plus two equals nine."
+      },
+      {
+        "question": "What is 8 + 1?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hints": [
+          "Start with 8 and add one more.",
+          "If you have 8 cookies and get one more, how many do you have?",
+          "What is the next number after 8?"
+        ],
+        "explanation": "8 + 1 = 9. Eight plus one equals nine."
+      }
+    ],
+    "id": "g1-addition-sumsto10-1768881379",
+    "generated": true,
+    "generated_at": "2026-01-20T03:56:19Z"
+  },
+  {
+    "title": "Sums to 10 Practice",
+    "description": "Mastering Sums to 10 concepts",
+    "grade_level": 1,
+    "topic": "Addition",
+    "questions": [
+      {
+        "question": "What is 2 + 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hints": [
+          "Think about counting on from 2.",
+          "Hold up 2 fingers on one hand and 3 on the other. How many fingers do you have in total?",
+          "2 + 3 = (1+1) + (1+1+1)"
+        ],
+        "explanation": "2 + 3 = 5"
+      },
+      {
+        "question": "What is 1 + 4?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "hints": [
+          "Start with the bigger number and count up one.",
+          "Draw one circle and then four circles. Count all the circles.",
+          "1 + 4 is the same as 4 + 1"
+        ],
+        "explanation": "1 + 4 = 5"
+      },
+      {
+        "question": "What is 6 + 2?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hints": [
+          "What comes after 6? Count two more.",
+          "Imagine 6 cookies and then you get 2 more. How many cookies do you have?",
+          "Use your fingers to count on from 6."
+        ],
+        "explanation": "6 + 2 = 8"
+      },
+      {
+        "question": "What is 5 + 5?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "hints": [
+          "What do you get if you have 5 fingers on each hand, all added together?",
+          "Think of it as two groups of 5.",
+          "5+5 = 5 x 2"
+        ],
+        "explanation": "5 + 5 = 10"
+      },
+      {
+        "question": "What is 3 + 4?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hints": [
+          "Start with 4 and count on 3 more.",
+          "Draw 3 stars and then 4 stars. Count them all.",
+          "3 + 4 = 1 + 1 + 1 + 1 + 1 + 1 + 1"
+        ],
+        "explanation": "3 + 4 = 7"
+      },
+      {
+        "question": "What is 0 + 7?",
+        "options": [
+          "0",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hints": [
+          "When you add 0 to a number, does it change?",
+          "If you have 0 apples and your friend gives you 7, how many do you have?",
+          "Any number + 0 will always = that number."
+        ],
+        "explanation": "0 + 7 = 7"
+      },
+      {
+        "question": "What is 4 + 1?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "hints": [
+          "What number comes after 4?",
+          "Imagine you have 4 toys, then get 1 more. How many do you have?",
+          "Start at 4 and count forward one."
+        ],
+        "explanation": "4 + 1 = 5"
+      },
+      {
+        "question": "What is 2 + 6?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hints": [
+          "Start at 6 and count two more.",
+          "Picture 2 candies and then 6 more candies.",
+          "2+6 = 1+1+1+1+1+1+1+1"
+        ],
+        "explanation": "2 + 6 = 8"
+      },
+      {
+        "question": "What is 9 + 1?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "hints": [
+          "What comes after 9?",
+          "If you have nine stickers and get one more, what will be the sum?",
+          "The number one after 9"
+        ],
+        "explanation": "9 + 1 = 10"
+      },
+      {
+        "question": "What is 3 + 3?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hints": [
+          "What is double 3?",
+          "Imagine three apples plus another three apples.",
+          "3 + 3 = 3 x 2"
+        ],
+        "explanation": "3 + 3 = 6"
+      }
+    ],
+    "id": "g1-addition-sumsto10-1768881390",
+    "generated": true,
+    "generated_at": "2026-01-20T03:56:30Z"
   }
 ]
