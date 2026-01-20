@@ -117,6 +117,15 @@ const Navigation = () => {
                             >
                                 My Account 👤
                             </NavLink>
+
+                            <button
+                                onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
+                                className="btn"
+                                style={{ padding: '0.5rem 1rem' }}
+                                aria-label="Toggle theme"
+                            >
+                                {state.theme === 'light' ? '🌙' : '☀️'}
+                            </button>
                         </>
                     ) : (
                         <>
@@ -206,6 +215,15 @@ const Navigation = () => {
                                 >
                                     My Account 👤
                                 </NavLink>
+
+                                <button
+                                    onClick={() => dispatch({ type: 'TOGGLE_THEME' })}
+                                    className="btn"
+                                    style={{ padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                    aria-label="Toggle theme"
+                                >
+                                    {state.theme === 'light' ? '🌙 Dark Mode' : '☀️ Light Mode'}
+                                </button>
                             </>
                         ) : (
                             <>
