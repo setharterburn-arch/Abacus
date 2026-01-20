@@ -1,1 +1,393 @@
-[]
+[
+  {
+    "id": "1-w1",
+    "grade_level": 1,
+    "title": "Week 1: Counting to 20",
+    "description": "Practice counting objects up to 20.",
+    "topic": "Counting to 20",
+    "modules": [
+      {
+        "id": "1-w1-m1",
+        "title": "Practice",
+        "type": "visual_counting"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.264Z"
+  },
+  {
+    "id": "1-w2",
+    "grade_level": 1,
+    "title": "Week 2: Addition to 10",
+    "description": "Adding two numbers to make 10.",
+    "topic": "Addition to 10",
+    "modules": [
+      {
+        "id": "1-w2-m1",
+        "title": "Practice",
+        "type": "visual_addition"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "1-w3",
+    "grade_level": 1,
+    "title": "Week 3: Subtraction from 10",
+    "description": "Taking away items.",
+    "topic": "Subtraction from 10",
+    "modules": [
+      {
+        "id": "1-w3-m1",
+        "title": "Practice",
+        "type": "visual_subtraction"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "1-w4",
+    "grade_level": 1,
+    "title": "Week 4: Word Problems (Addition)",
+    "description": "Simple math stories.",
+    "topic": "Word Problems (Addition)",
+    "modules": [
+      {
+        "id": "1-w4-m1",
+        "title": "Practice",
+        "type": "ai_story_addition"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "1-w5",
+    "grade_level": 1,
+    "title": "Week 5: Geometry: Sides & Corners",
+    "description": "Counting sides of shapes.",
+    "topic": "Geometry",
+    "modules": [
+      {
+        "id": "1-w5-m1",
+        "title": "Practice",
+        "type": "visual_shapes_sides"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "2-w1",
+    "grade_level": 2,
+    "title": "Week 1: Place Value (Tens/Ones)",
+    "description": "Understanding tens and ones.",
+    "topic": "Place Value (Tens/Ones)",
+    "modules": [
+      {
+        "id": "2-w1-m1",
+        "title": "Practice",
+        "type": "place_value_100"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "2-w2",
+    "grade_level": 2,
+    "title": "Week 2: Addition to 100",
+    "description": "Adding bigger numbers.",
+    "topic": "Addition to 100",
+    "modules": [
+      {
+        "id": "2-w2-m1",
+        "title": "Practice",
+        "type": "math_basic"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "2-w3",
+    "grade_level": 2,
+    "title": "Week 3: Subtraction to 100",
+    "description": "Subtracting bigger numbers.",
+    "topic": "Subtraction to 100",
+    "modules": [
+      {
+        "id": "2-w3-m1",
+        "title": "Practice",
+        "type": "math_basic"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "2-w4",
+    "grade_level": 2,
+    "title": "Week 4: Money (Coins)",
+    "description": "Counting cents.",
+    "topic": "Money (Coins)",
+    "modules": [
+      {
+        "id": "2-w4-m1",
+        "title": "Practice",
+        "type": "visual_money"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "3-w1",
+    "grade_level": 3,
+    "title": "Week 1: Intro to Multiplication",
+    "description": "Groups of things.",
+    "topic": "Intro to Multiplication",
+    "modules": [
+      {
+        "id": "3-w1-m1",
+        "title": "Practice",
+        "type": "visual_multiplication"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "3-w2",
+    "grade_level": 3,
+    "title": "Week 2: Multiplication Facts (2s, 5s, 10s)",
+    "description": "Skip counting.",
+    "topic": "Multiplication Facts (2s, 5s, 10s)",
+    "modules": [
+      {
+        "id": "3-w2-m1",
+        "title": "Practice",
+        "type": "math_basic"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "3-w3",
+    "grade_level": 3,
+    "title": "Week 3: Intro to Division",
+    "description": "Sharing equally.",
+    "topic": "Intro to Division",
+    "modules": [
+      {
+        "id": "3-w3-m1",
+        "title": "Practice",
+        "type": "visual_division"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "4-w1",
+    "grade_level": 4,
+    "title": "Week 1: Multi-digit Multiplication",
+    "description": "Larger numbers.",
+    "topic": "Multi-digit Multiplication",
+    "modules": [
+      {
+        "id": "4-w1-m1",
+        "title": "Practice",
+        "type": "math_basic"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "4-w2",
+    "grade_level": 4,
+    "title": "Week 2: Factors and Multiples",
+    "description": "Finding factors.",
+    "topic": "Factors and Multiples",
+    "modules": [
+      {
+        "id": "4-w2-m1",
+        "title": "Practice",
+        "type": "math_factors"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "5-w1",
+    "grade_level": 5,
+    "title": "Week 1: Decimals",
+    "description": "Understanding 0.1 and 0.01.",
+    "topic": "Decimals",
+    "modules": [
+      {
+        "id": "5-w1-m1",
+        "title": "Practice",
+        "type": "math_decimals"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "5-w2",
+    "grade_level": 5,
+    "title": "Week 2: Fractions",
+    "description": "Adding fractions.",
+    "topic": "Fractions",
+    "modules": [
+      {
+        "id": "5-w2-m1",
+        "title": "Practice",
+        "type": "math_fractions"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "6-w1",
+    "grade_level": 6,
+    "title": "Week 1: Ratios",
+    "description": "Comparing quantities.",
+    "topic": "Ratios",
+    "modules": [
+      {
+        "id": "6-w1-m1",
+        "title": "Practice",
+        "type": "math_ratios"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "6-w2",
+    "grade_level": 6,
+    "title": "Week 2: Pre-Algebra",
+    "description": "Solving for x.",
+    "topic": "Pre-Algebra",
+    "modules": [
+      {
+        "id": "6-w2-m1",
+        "title": "Practice",
+        "type": "math_algebra"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "k-w1",
+    "grade_level": 0,
+    "title": "Week 1: Learning Numbers 1-5",
+    "description": "Count objects up to 5.",
+    "topic": "Learning Numbers 1-5",
+    "modules": [
+      {
+        "id": "k-w1-m1",
+        "title": "Practice",
+        "type": "visual_counting"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "k-w2",
+    "grade_level": 0,
+    "title": "Week 2: Learning Numbers 6-10",
+    "description": "Count objects up to 10.",
+    "topic": "Learning Numbers 6-10",
+    "modules": [
+      {
+        "id": "k-w2-m1",
+        "title": "Practice",
+        "type": "visual_counting"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "k-w3",
+    "grade_level": 0,
+    "title": "Week 3: Identifying Shapes",
+    "description": "Learn circles, squares, and triangles.",
+    "topic": "Identifying Shapes",
+    "modules": [
+      {
+        "id": "k-w3-m1",
+        "title": "Practice",
+        "type": "visual_shapes"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "k-w4",
+    "grade_level": 0,
+    "title": "Week 4: Simple Addition",
+    "description": "Adding numbers up to 5 with pictures.",
+    "topic": "Simple Addition",
+    "modules": [
+      {
+        "id": "k-w4-m1",
+        "title": "Practice",
+        "type": "visual_addition"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  },
+  {
+    "id": "k-w5",
+    "grade_level": 0,
+    "title": "Week 5: Comparing Sizes",
+    "description": "Which one is bigger?",
+    "topic": "Comparing Sizes",
+    "modules": [
+      {
+        "id": "k-w5-m1",
+        "title": "Practice",
+        "type": "visual_comparison"
+      }
+    ],
+    "estimated_time": 30,
+    "total_questions": 20,
+    "created_at": "2026-01-20T03:46:16.265Z"
+  }
+]
