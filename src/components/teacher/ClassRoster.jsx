@@ -7,6 +7,9 @@ const ClassRoster = ({ classId, onClose }) => {
     const [submissions, setSubmissions] = useState([]);
     const [loading, setLoading] = useState(true);
 
+    const [addEmail, setAddEmail] = useState('');
+    const [addingStudent, setAddingStudent] = useState(false);
+
     useEffect(() => {
         fetchData();
     }, [classId]);
@@ -53,6 +56,54 @@ const ClassRoster = ({ classId, onClose }) => {
         }
     };
 
+    const handleAddStudent = async (e) => {
+        e.preventDefault();
+        if (!addEmail.trim()) return;
+        setAddingStudent(true);
+
+        try {
+            // 1. Find student by email
+            const { data: profiles, error: profileError } = await supabase
+                .from('profiles')
+                .select('id')
+                .eq('email', addEmail.trim())
+                .eq('role', 'student')
+                .single();
+
+            if (profileError || !profiles) {
+                alert('Student not found with that email. Make sure they have a student account.');
+                setAddingStudent(false);
+                return;
+            }
+
+            // 2. Add to class
+            const { error: enrollError } = await supabase
+                .from('class_students')
+                .insert([{
+                    class_id: classId,
+                    student_id: profiles.id
+                }]);
+
+            if (enrollError) {
+                if (enrollError.code === '23505') { // Unique violation
+                    alert('Student is already enrolled in this class.');
+                } else {
+                    throw enrollError;
+                }
+            } else {
+                alert('Student added successfully!');
+                setAddEmail('');
+                fetchData(); // Refresh list
+            }
+
+        } catch (error) {
+            console.error('Error adding student:', error);
+            alert('Failed to add student. Please try again.');
+        } finally {
+            setAddingStudent(false);
+        }
+    };
+
     const getScore = (studentId, assignmentId) => {
         const sub = submissions.find(s => s.student_id === studentId && s.assignment_id === assignmentId);
         return sub ? `${sub.score}%` : '-';
@@ -64,6 +115,37 @@ const ClassRoster = ({ classId, onClose }) => {
                 <h3>📊 Gradebook</h3>
                 <button className="btn" onClick={onClose} style={{ padding: '0.2rem 0.5rem' }}>Close</button>
             </div>
+
+            {/* Add Student Form */}
+            <form onSubmit={handleAddStudent} style={{
+                marginBottom: '1.5rem',
+                padding: '1rem',
+                background: '#f9f9f9',
+                borderRadius: '8px',
+                display: 'flex',
+                gap: '0.5rem',
+                alignItems: 'center'
+            }}>
+                <div style={{ flex: 1 }}>
+                    <input
+                        type="email"
+                        placeholder="Enter student email to enroll..."
+                        value={addEmail}
+                        onChange={(e) => setAddEmail(e.target.value)}
+                        className="input"
+                        style={{ width: '100%' }}
+                        required
+                    />
+                </div>
+                <button
+                    type="submit"
+                    className="btn btn-primary"
+                    disabled={addingStudent}
+                    style={{ whiteSpace: 'nowrap' }}
+                >
+                    {addingStudent ? 'Adding...' : '➕ Add Student'}
+                </button>
+            </form>
 
             {loading ? <p>Loading data...</p> : students.length === 0 ? (
                 <p>No students enrolled yet. Share the code!</p>
