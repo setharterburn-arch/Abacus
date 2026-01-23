@@ -113,7 +113,7 @@ const Auth = () => {
                                         onChange={(e) => setGradeLevel(parseInt(e.target.value))}
                                     >
                                         <option value={0}>Kindergarten</option>
-                                        {[1, 2, 3, 4, 5, 6].map(g => (
+                                        {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(g => (
                                             <option key={g} value={g}>Grade {g}</option>
                                         ))}
                                     </select>
