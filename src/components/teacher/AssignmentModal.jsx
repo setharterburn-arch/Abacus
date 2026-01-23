@@ -14,13 +14,24 @@ const AssignmentModal = ({ content, type, classId, students, onClose, onAssigned
         try {
             const { data: { user } } = await supabase.auth.getUser();
 
+            // Map content.problems to the assignment questions structure
+            // Check if content.problems exists, if not try content.questions (handle varying schema)
+            const sourceQuestions = content.problems || content.questions || [];
+
+            const questions = sourceQuestions.map(q => ({
+                question: q.question,
+                options: q.options || [],
+                answer: q.answer,
+                image: q.image || null
+            }));
+
             // Create ONE assignment for the class
             // The 'assignments' table is class-level. 'assignment_submissions' tracks student progress.
             const assignmentPayload = {
                 class_id: classId,
                 title: content.title,
                 description: instructions || content.description,
-                questions: [], // Required by schema, defaulting to empty array for curriculum sets
+                questions: questions,
                 due_date: dueDate || null,
                 // curriculum_set_id / learning_path_id might need to be added to schema if we want to track them, 
                 // but for now we stick to the existing schema columns to avoid errors.
