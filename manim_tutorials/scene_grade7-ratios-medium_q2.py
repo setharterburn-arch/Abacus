@@ -1,20 +1,17 @@
-from manim import * 
+from manim import *
 
-class Grade7RatiosMedium1(Scene):
+class Grade7RatiosMedium2(Scene):
     def construct(self):
-        boys_girls_ratio = MathTex(r'\frac{3 \text{ boys}}{5 \text{ girls}} = \frac{15 \text{ boys}}{x \text{ girls}}').to_edge(UP)
-        self.play(Write(boys_girls_ratio))
+        ratio_text = MathTex(r'\frac{2}{3} = \frac{x}{9}', color=WHITE).scale(1.2)
+        self.play(Write(ratio_text))
+        self.wait(1)
 
-        cross_multiply = MathTex(r'3 \times x = 5 \times 15').next_to(boys_girls_ratio, DOWN, buff=0.5)
-        self.play(Write(cross_multiply))
+        cross_multiply_text = MathTex(r'3x = 18', color=YELLOW).next_to(ratio_text, DOWN, buff=0.5).scale(1.2)
+        self.play(Write(cross_multiply_text))
+        self.wait(1)
 
-        simplify = MathTex(r'3x = 75').next_to(cross_multiply, DOWN, buff=0.5)
-        self.play(Write(simplify))
+        x_value_text = MathTex(r'x = 6', color=GREEN).next_to(cross_multiply_text, DOWN, buff=0.5).scale(1.2)
+        self.play(Write(x_value_text))
+        self.wait(2)
 
-        solve_for_x = MathTex(r'x = \frac{75}{3} = 25').next_to(simplify, DOWN, buff=0.5)
-        self.play(Write(solve_for_x))
-
-        answer = MathTex(r'25 \text{ girls are there}').next_to(solve_for_x, DOWN, buff=0.5)
-        self.play(Write(answer))
-
-        self.wait(3)
+        self.play(FadeOut(ratio_text, cross_multiply_text, x_value_text))

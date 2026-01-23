@@ -1,17 +1,11 @@
-from manim import * 
+from manim import *
 
-class Grade7RatiosMedium2(Scene):
+class Grade7RatiosMedium3(Scene):
     def construct(self):
-        map_scale = MathTex(r'1 \text{ inch} = 25 \text{ miles}').to_edge(UP)
-        self.play(Write(map_scale))
-
-        distance_on_map = MathTex(r'4 \text{ inches}').next_to(map_scale, DOWN, buff=0.5)
-        self.play(Write(distance_on_map))
-
-        actual_distance = MathTex(r'4 \text{ inches} \times 25 \frac{\text{miles}}{\text{inch}}').next_to(distance_on_map, DOWN, buff=0.5)
-        self.play(Write(actual_distance))
-
-        calculate = MathTex(r'= 100 \text{ miles}').next_to(actual_distance, RIGHT, buff=0.5)
-        self.play(Write(calculate))
-
-        self.wait(3)
+        equation = MathTex(r'\text{Unit Rate} = \frac{150 \text{ miles}}{3 \text{ hours}}', color=WHITE).scale(1.0)
+        self.play(Write(equation))
+        self.wait(1)
+        result = MathTex(r'= 50 \text{ miles/hour}', color=GREEN).next_to(equation, DOWN, buff=0.5).scale(1.0)
+        self.play(Write(result))
+        self.wait(2)
+        self.play(FadeOut(equation, result))

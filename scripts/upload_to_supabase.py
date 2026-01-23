@@ -23,7 +23,7 @@ if not url or not key:
 
 supabase: Client = create_client(url, key)
 
-INPUT_FILE = "data/curriculum_7_9.json"
+INPUT_FILE = "src/data/curriculum.json"
 
 def upload_curriculum():
     print(f"Loading {INPUT_FILE}...")
@@ -38,33 +38,53 @@ def upload_curriculum():
 
     success_count = 0
     fail_count = 0
+    skip_count = 0
 
     for item in data:
         # Prepare payload matching schema
-        # Schema: id (auto), title, description, grade, questions (jsonb), status
         topic = item.get('topic', 'General')
         difficulty = item.get('difficulty', 'Medium')
-        
-        payload = {
-            # "id": item["id"], # Removed to allow UUID generation
-            "title": item["title"],
-            "description": f"{item.get('description', '')} | Topic: {topic} | Difficulty: {difficulty}",
-            "grade": item["grade_level"], # Map 'grade_level' to 'grade'
-            "questions": item["questions"],
-            "status": "published"
-        }
+        title = item["title"]
+        grade = item["grade_level"]
+        description = f"{item.get('description', '')} | Topic: {topic} | Difficulty: {difficulty}"
         
         try:
-             # Using insert instead of upsert since we don't have the UUID
-            response = supabase.table("curriculum_sets").insert(payload).execute()
+            # Check if exists
+            existing = supabase.table("curriculum_sets")\
+                .select("id")\
+                .eq("title", title)\
+                .eq("grade", grade)\
+                .execute()
             
-            print(f"✅ Uploaded: {item['title']}")
-            success_count += 1
+            if existing.data:
+                # Update existing
+                record_id = existing.data[0]['id']
+                payload = {
+                     "description": description,
+                     "questions": item["questions"],
+                     "status": "published"
+                }
+                supabase.table("curriculum_sets").update(payload).eq("id", record_id).execute()
+                print(f"🔄 Updated: {title}")
+                success_count += 1
+            else:
+                # Insert new
+                payload = {
+                    "title": title,
+                    "description": description,
+                    "grade": grade,
+                    "questions": item["questions"],
+                    "status": "published"
+                }
+                supabase.table("curriculum_sets").insert(payload).execute()
+                print(f"✅ Uploaded: {title}")
+                success_count += 1
+                
         except Exception as e:
-            print(f"❌ Failed to upload {item['title']}: {e}")
+            print(f"❌ Failed to upload {title}: {e}")
             fail_count += 1
 
-    print(f"\nUpload Complete. Success: {success_count}, Fail: {fail_count}")
+    print(f"\nUpload Complete. Success: {success_count}, Skips/Updates included in success. Fail: {fail_count}")
 
 if __name__ == "__main__":
     upload_curriculum()

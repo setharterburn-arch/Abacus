@@ -81,7 +81,7 @@ const AdaptivePractice = () => {
                         style={{
                             fontSize: 'clamp(2rem, 5vw, 3rem)',
                             marginBottom: '1rem',
-                            color: 'var(--color-text)'
+                            color: '#44403c' // Hardcoded dark text for light background
                         }}
                     >
                         🎯 Adaptive Practice
@@ -92,7 +92,7 @@ const AdaptivePractice = () => {
                         transition={{ delay: 0.1 }}
                         style={{
                             fontSize: '1.2rem',
-                            color: 'var(--color-text-muted)',
+                            color: '#78716c', // Hardcoded muted dark text
                             maxWidth: '600px',
                             margin: '0 auto'
                         }}

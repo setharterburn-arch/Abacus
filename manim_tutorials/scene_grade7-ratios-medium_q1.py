@@ -1,20 +1,17 @@
-from manim import * 
+from manim import *
 
-class Grade7RatiosMedium0(Scene):
+class Grade7RatiosMedium(Scene):
     def construct(self):
-        flour_eggs_ratio = MathTex(r'\frac{2 \text{ cups flour}}{3 \text{ eggs}} = \frac{x \text{ cups flour}}{6 \text{ eggs}}').to_edge(UP)
-        self.play(Write(flour_eggs_ratio))
+        ratio_text = MathTex(r'\frac{3}{5} = \frac{12}{x}', color=WHITE).scale(1.2)
+        self.play(Write(ratio_text))
+        self.wait(1)
 
-        cross_multiply = MathTex(r'2 \times 6 = 3 \times x').next_to(flour_eggs_ratio, DOWN, buff=0.5)
-        self.play(Write(cross_multiply))
+        cross_multiply_text = MathTex(r'3x = 60', color=YELLOW).next_to(ratio_text, DOWN, buff=0.5).scale(1.2)
+        self.play(Write(cross_multiply_text))
+        self.wait(1)
 
-        simplify = MathTex(r'12 = 3x').next_to(cross_multiply, DOWN, buff=0.5)
-        self.play(Write(simplify))
+        x_value_text = MathTex(r'x = 20', color=GREEN).next_to(cross_multiply_text, DOWN, buff=0.5).scale(1.2)
+        self.play(Write(x_value_text))
+        self.wait(2)
 
-        solve_for_x = MathTex(r'x = \frac{12}{3} = 4').next_to(simplify, DOWN, buff=0.5)
-        self.play(Write(solve_for_x))
-
-        answer = MathTex(r'4 \text{ cups of flour are needed}').next_to(solve_for_x, DOWN, buff=0.5)
-        self.play(Write(answer))
-
-        self.wait(3)
+        self.play(FadeOut(ratio_text, cross_multiply_text, x_value_text))
