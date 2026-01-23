@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../../services/supabase';
+import { getCurriculumSets } from '../../services/database';
 import learningPaths from '../../data/learning_paths.json';
 import AssignmentModal from './AssignmentModal';
 
@@ -16,13 +17,20 @@ const CurriculumLibrary = ({ classId, onClose }) => {
 
     useEffect(() => {
         loadClassStudents();
-
-        // Dynamically load curriculum
-        import('../../data/curriculum.json').then(module => {
-            setCurriculumData(module.default);
-            setLoadingCurriculum(false);
-        });
+        loadCurriculum();
     }, [classId]);
+
+    const loadCurriculum = async () => {
+        setLoadingCurriculum(true);
+        try {
+            const data = await getCurriculumSets();
+            setCurriculumData(data || []);
+        } catch (error) {
+            console.error("Failed to load curriculum:", error);
+        } finally {
+            setLoadingCurriculum(false);
+        }
+    };
 
     const loadClassStudents = async () => {
         try {
@@ -57,10 +65,12 @@ const CurriculumLibrary = ({ classId, onClose }) => {
 
     // Filter curriculum
     const filteredCurriculum = curriculumData.filter(set => {
-        const matchesGrade = set.grade_level === selectedGrade;
+        // Handle both 'grade' (Supabase) and 'grade_level' (Legacy JSON)
+        const setGrade = set.grade !== undefined ? set.grade : set.grade_level;
+        const matchesGrade = setGrade === selectedGrade;
         const matchesSearch = set.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            set.topic.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            set.description.toLowerCase().includes(searchQuery.toLowerCase());
+            (set.topic && set.topic.toLowerCase().includes(searchQuery.toLowerCase())) ||
+            (set.description && set.description.toLowerCase().includes(searchQuery.toLowerCase()));
         return matchesGrade && matchesSearch;
     });
 
@@ -136,6 +146,10 @@ const CurriculumLibrary = ({ classId, onClose }) => {
                         <option value={3}>Grade 3</option>
                         <option value={4}>Grade 4</option>
                         <option value={5}>Grade 5</option>
+                        <option value={6}>Grade 6</option>
+                        <option value={7}>Grade 7</option>
+                        <option value={8}>Grade 8</option>
+                        <option value={9}>Grade 9</option>
                     </select>
                 </div>
 
