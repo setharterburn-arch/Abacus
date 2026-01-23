@@ -62,7 +62,7 @@ const LandingPage = () => {
             <section style={{
                 padding: '4rem 2rem',
                 textAlign: 'center',
-                background: 'linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%)',
+                background: 'linear-gradient(135deg, var(--hero-start) 0%, var(--hero-end) 100%)',
                 position: 'relative',
                 overflow: 'hidden'
             }}>
@@ -198,7 +198,7 @@ const LandingPage = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             viewport={{ once: true }}
                             className="card"
-                            style={{ background: '#fef3c7', borderColor: 'var(--color-primary)' }}
+                            style={{ background: 'var(--bg-teacher)', borderColor: 'var(--color-primary)' }}
                         >
                             <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>
                                 👩‍🏫 For Teachers
@@ -225,7 +225,7 @@ const LandingPage = () => {
                             whileInView={{ x: 0, opacity: 1 }}
                             viewport={{ once: true }}
                             className="card"
-                            style={{ background: '#d1fae5', borderColor: 'var(--color-secondary)' }}
+                            style={{ background: 'var(--bg-student)', borderColor: 'var(--color-secondary)' }}
                         >
                             <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: 'var(--color-secondary)' }}>
                                 🎓 For Students
