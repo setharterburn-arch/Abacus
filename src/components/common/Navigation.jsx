@@ -92,13 +92,15 @@ const Navigation = () => {
                                 Practice 🎯
                             </NavLink>
 
-                            <NavLink
-                                to="/assignments"
-                                className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                                style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
-                            >
-                                Assignments 📋
-                            </NavLink>
+                            {state.profile?.role === 'student' && (
+                                <NavLink
+                                    to="/assignments"
+                                    className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                    style={{ textDecoration: 'none', padding: '0.5rem 1rem' }}
+                                >
+                                    Assignments 📋
+                                </NavLink>
+                            )}
 
                             {state.profile?.role === 'teacher' && (
                                 <NavLink
@@ -187,14 +189,16 @@ const Navigation = () => {
                                     Practice 🎯
                                 </NavLink>
 
-                                <NavLink
-                                    to="/assignments"
-                                    className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
-                                    style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
-                                    onClick={closeMobileMenu}
-                                >
-                                    Assignments 📋
-                                </NavLink>
+                                {state.profile?.role === 'student' && (
+                                    <NavLink
+                                        to="/assignments"
+                                        className={({ isActive }) => isActive ? 'btn btn-primary' : 'btn'}
+                                        style={{ textDecoration: 'none', padding: '0.75rem 1rem', width: '100%', textAlign: 'center' }}
+                                        onClick={closeMobileMenu}
+                                    >
+                                        Assignments 📋
+                                    </NavLink>
+                                )}
 
                                 {state.profile?.role === 'teacher' && (
                                     <NavLink
