@@ -1,0 +1,70 @@
+[
+  {
+    "id": "7-1",
+    "title": "Solving One-Step Equations",
+    "description": "Learn to isolate variables in simple equations using addition, subtraction, multiplication, and division.",
+    "grade_level": 7,
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "questions": [
+      {
+        "question": "Solve for x: x + 3 = 7",
+        "options": [
+          "2",
+          "4",
+          "10",
+          "14"
+        ],
+        "answer": "4",
+        "explanation": "Subtract 3 from both sides of the equation: x + 3 - 3 = 7 - 3  => x = 4",
+        "manim_code": "from manim import *\n\nclass SolveSimpleEquation(Scene):\n    def construct(self):\n        equation = MathTex(\"x + 3 = 7\", color=WHITE).shift(UP)\n        self.play(Write(equation))\n        self.wait(1)\n\n        subtract_3 = MathTex(\"-3\", color=RED).next_to(equation, DOWN, buff=0.5)\n        self.play(Write(subtract_3))\n        self.wait(0.5)\n        \n        arrow = Arrow(subtract_3.get_bottom(), equation.get_bottom(), buff=0.1)\n        self.play(Create(arrow))\n        self.wait(0.5)\n\n        equation_new = MathTex(\"x = 4\", color=GREEN).next_to(subtract_3, DOWN, buff=0.5)\n        self.play(Write(equation_new))\n        self.wait(2)\n"
+      },
+      {
+        "question": "Solve for y: 2y = 10",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "20"
+        ],
+        "answer": "5",
+        "explanation": "Divide both sides of the equation by 2: 2y / 2 = 10 / 2  => y = 5",
+        "manim_code": "from manim import *\n\nclass SolveSimpleEquationDivision(Scene):\n    def construct(self):\n        equation = MathTex(\"2y = 10\", color=WHITE).shift(UP)\n        self.play(Write(equation))\n        self.wait(1)\n\n        divide_by_2 = MathTex(\"\\div 2\", color=RED).next_to(equation, DOWN, buff=0.5)\n        self.play(Write(divide_by_2))\n        self.wait(0.5)\n        \n        arrow = Arrow(divide_by_2.get_bottom(), equation.get_bottom(), buff=0.1)\n        self.play(Create(arrow))\n        self.wait(0.5)\n\n        equation_new = MathTex(\"y = 5\", color=GREEN).next_to(divide_by_2, DOWN, buff=0.5)\n        self.play(Write(equation_new))\n        self.wait(2)\n"
+      }
+    ]
+  },
+  {
+    "id": "8-1",
+    "title": "Solving Quadratic Equations",
+    "description": "Learn to solve quadratic equations by factoring or using the square root property.",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "questions": [
+      {
+        "question": "Solve for x: x^2 - 9 = 0",
+        "options": [
+          "-3, 3",
+          "0, 3",
+          "-9, 9",
+          "3"
+        ],
+        "answer": "-3, 3",
+        "explanation": "Factor the equation: (x - 3)(x + 3) = 0  => x = 3 or x = -3",
+        "manim_code": "from manim import *\n\nclass SolveQuadraticEquation(Scene):\n    def construct(self):\n        equation = MathTex(\"x^2 - 9 = 0\", color=WHITE).shift(UP)\n        self.play(Write(equation))\n        self.wait(1)\n\n        factored = MathTex(\"(x - 3)(x + 3) = 0\", color=YELLOW).next_to(equation, DOWN, buff=0.5)\n        self.play(Write(factored))\n        self.wait(1.5)\n\n        solutions = MathTex(\"x = 3, x = -3\", color=GREEN).next_to(factored, DOWN, buff=0.5)\n        self.play(Write(solutions))\n        self.wait(2)\n"
+      },
+      {
+        "question": "Solve for x: x^2 = 16",
+        "options": [
+          "4",
+          "-4",
+          "-4, 4",
+          "8"
+        ],
+        "answer": "-4, 4",
+        "explanation": "Take the square root of both sides: x = \u00b1\u221a16  => x = 4 or x = -4",
+        "manim_code": "from manim import *\n\nclass SolveQuadraticEquationSquareRoot(Scene):\n    def construct(self):\n        equation = MathTex(\"x^2 = 16\", color=WHITE).shift(UP)\n        self.play(Write(equation))\n        self.wait(1)\n\n        sqrt_operation = MathTex(\"\\sqrt{x^2} = \\pm\\sqrt{16}\", color=YELLOW).next_to(equation, DOWN, buff=0.5)\n        self.play(Write(sqrt_operation))\n        self.wait(1.5)\n\n        solutions = MathTex(\"x = 4, x = -4\", color=GREEN).next_to(sqrt_operation, DOWN, buff=0.5)\n        self.play(Write(solutions))\n        self.wait(2)\n"
+      }
+    ]
+  }
+]

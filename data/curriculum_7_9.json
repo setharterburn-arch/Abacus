@@ -1,0 +1,375 @@
+[
+  {
+    "id": "grade7-ratios-medium",
+    "title": "Understanding Ratios and Proportions",
+    "description": "Explore ratios, proportions, and their applications in real-world scenarios.",
+    "grade_level": 7,
+    "topic": "Ratios",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you want to make a larger batch using 6 cups of flour, how many cups of sugar will you need?",
+        "options": [
+          "4 cups",
+          "9 cups",
+          "6 cups",
+          "12 cups"
+        ],
+        "answer": "9 cups",
+        "hints": [
+          "Set up a proportion.",
+          "Cross-multiply to solve.",
+          "The ratio of flour to sugar must remain constant."
+        ],
+        "explanation": "The ratio of flour to sugar is 2:3.  We can set up the proportion 2/3 = 6/x. Cross-multiplying gives 2x = 18. Dividing both sides by 2 gives x = 9.",
+        "manim_file": "scene_grade7-ratios-medium_q1.py"
+      },
+      {
+        "question": "If 5 apples cost $2.50, how much will 8 apples cost?",
+        "options": [
+          "$3.00",
+          "$4.00",
+          "$4.50",
+          "$5.00"
+        ],
+        "answer": "$4.00",
+        "hints": [
+          "Find the cost of one apple first.",
+          "Multiply the cost of one apple by 8.",
+          "Set up a proportion."
+        ],
+        "explanation": "First, find the cost of one apple: $2.50 / 5 apples = $0.50 per apple. Then, multiply the cost per apple by 8: $0.50 * 8 = $4.00.",
+        "manim_file": "scene_grade7-ratios-medium_q2.py"
+      },
+      {
+        "question": "The scale on a map is 1 inch = 25 miles. If two cities are 4.5 inches apart on the map, what is the actual distance between them?",
+        "options": [
+          "90 miles",
+          "100 miles",
+          "112.5 miles",
+          "125 miles"
+        ],
+        "answer": "112.5 miles",
+        "hints": [
+          "Set up a proportion.",
+          "Multiply the map distance by the scale factor.",
+          "Ensure units are consistent."
+        ],
+        "explanation": "The scale is 1 inch : 25 miles.  Multiply the map distance by the scale factor: 4.5 inches * 25 miles/inch = 112.5 miles.",
+        "manim_file": "scene_grade7-ratios-medium_q3.py"
+      },
+      {
+        "question": "A store sells a shirt for $20. If there is a 15% discount, what is the sale price of the shirt?",
+        "options": [
+          "$15.00",
+          "$17.00",
+          "$17.50",
+          "$18.50"
+        ],
+        "answer": "$17.00",
+        "hints": [
+          "Calculate the discount amount.",
+          "Subtract the discount from the original price.",
+          "Convert the percentage to a decimal."
+        ],
+        "explanation": "Calculate the discount: 15% of $20 = 0.15 * $20 = $3.  Subtract the discount from the original price: $20 - $3 = $17.",
+        "manim_file": "scene_grade7-ratios-medium_q4.py"
+      },
+      {
+        "question": "Two numbers are in the ratio 3:5. If the first number is 12, what is the second number?",
+        "options": [
+          "15",
+          "20",
+          "24",
+          "30"
+        ],
+        "answer": "20",
+        "hints": [
+          "Set up a proportion.",
+          "Cross-multiply to solve.",
+          "The ratio must remain constant."
+        ],
+        "explanation": "The ratio is 3:5.  We can set up the proportion 3/5 = 12/x. Cross-multiplying gives 3x = 60. Dividing both sides by 3 gives x = 20.",
+        "manim_file": "scene_grade7-ratios-medium_q5.py"
+      }
+    ]
+  },
+  {
+    "id": "grade7-ratios-medium",
+    "title": "Understanding Ratios",
+    "description": "Solving problems involving ratios and proportions.",
+    "grade_level": 7,
+    "topic": "Ratios",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A recipe calls for 2 cups of flour for every 3 eggs. If you want to use 6 eggs, how many cups of flour do you need?",
+        "options": [
+          "3 cups",
+          "4 cups",
+          "5 cups",
+          "6 cups"
+        ],
+        "answer": "4 cups",
+        "hints": [
+          "Set up a proportion.",
+          "Cross-multiply to solve for the unknown.",
+          "Make sure your units are consistent."
+        ],
+        "explanation": "The ratio of flour to eggs is 2:3.  We can set up the proportion 2/3 = x/6. Cross-multiplying gives 3x = 12, so x = 4.",
+        "manim_file": "scene_grade7-ratios-medium_q1.py"
+      },
+      {
+        "question": "The ratio of boys to girls in a class is 3:5. If there are 15 boys, how many girls are there?",
+        "options": [
+          "9",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": "25",
+        "hints": [
+          "Set up a proportion.",
+          "Let 'x' be the number of girls.",
+          "Solve for 'x'."
+        ],
+        "explanation": "The ratio of boys to girls is 3:5, so we can set up the proportion 3/5 = 15/x. Cross-multiplying gives 3x = 75, so x = 25.",
+        "manim_file": "scene_grade7-ratios-medium_q2.py"
+      },
+      {
+        "question": "A map has a scale of 1 inch = 25 miles. If two cities are 4 inches apart on the map, what is the actual distance between them?",
+        "options": [
+          "50 miles",
+          "75 miles",
+          "100 miles",
+          "125 miles"
+        ],
+        "answer": "100 miles",
+        "hints": [
+          "Multiply the map distance by the scale factor.",
+          "Ensure units are consistent.",
+          "Direct proportion application."
+        ],
+        "explanation": "Since 1 inch represents 25 miles, 4 inches represents 4 * 25 = 100 miles.",
+        "manim_file": "scene_grade7-ratios-medium_q3.py"
+      },
+      {
+        "question": "Simplify the ratio 12:18.",
+        "options": [
+          "2:3",
+          "3:4",
+          "4:5",
+          "6:9"
+        ],
+        "answer": "2:3",
+        "hints": [
+          "Find the greatest common factor (GCF).",
+          "Divide both numbers by the GCF.",
+          "Reduce to simplest terms."
+        ],
+        "explanation": "The greatest common factor of 12 and 18 is 6. Dividing both numbers by 6 gives 12/6 : 18/6 = 2:3.",
+        "manim_file": "scene_grade7-ratios-medium_q4.py"
+      },
+      {
+        "question": "If 5 apples cost $2.50, how much do 8 apples cost?",
+        "options": [
+          "$3.50",
+          "$4.00",
+          "$4.50",
+          "$5.00"
+        ],
+        "answer": "$4.00",
+        "hints": [
+          "Find the cost of one apple first.",
+          "Multiply the cost of one apple by 8.",
+          "Unit rate problem."
+        ],
+        "explanation": "One apple costs $2.50 / 5 = $0.50. Therefore, 8 apples cost 8 * $0.50 = $4.00.",
+        "manim_file": "scene_grade7-ratios-medium_q5.py"
+      }
+    ]
+  },
+  {
+    "id": "grade7-prealgebra-medium",
+    "title": "Pre-Algebra: Order of Operations",
+    "description": "Applying the order of operations (PEMDAS/BODMAS) to simplify expressions.",
+    "grade_level": 7,
+    "topic": "Pre-Algebra",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Simplify: 12 + (18 \u00f7 3) - 4 \u00d7 2",
+        "options": [
+          "10",
+          "14",
+          "16",
+          "20"
+        ],
+        "answer": "10",
+        "hints": [
+          "Remember PEMDAS/BODMAS.",
+          "Divide before multiplying.",
+          "Add before subtracting."
+        ],
+        "explanation": "First, divide 18 by 3: 18 \u00f7 3 = 6. Then, multiply 4 by 2: 4 \u00d7 2 = 8.  Now we have 12 + 6 - 8.  Adding 12 and 6 gives 18. Finally, subtract 8 from 18: 18 - 8 = 10.",
+        "manim_file": "scene_grade7-prealgebra-medium_q1.py"
+      },
+      {
+        "question": "What is the ratio of 15 apples to 25 oranges in simplest form?",
+        "options": [
+          "3:5",
+          "5:3",
+          "15:25",
+          "1:2"
+        ],
+        "answer": "3:5",
+        "hints": [
+          "Find the greatest common factor (GCF).",
+          "Divide both numbers by the GCF."
+        ],
+        "explanation": "The greatest common factor of 15 and 25 is 5. Dividing both numbers by 5 gives 15/5 = 3 and 25/5 = 5. Therefore, the simplified ratio is 3:5.",
+        "manim_file": "scene_grade7-prealgebra-medium_q2.py"
+      },
+      {
+        "question": "Simplify the expression: 3x + 5 - x + 2",
+        "options": [
+          "2x + 7",
+          "4x + 7",
+          "2x + 3",
+          "4x + 3"
+        ],
+        "answer": "2x + 7",
+        "hints": [
+          "Combine like terms.",
+          "Add or subtract the coefficients of 'x'.",
+          "Add or subtract the constant terms."
+        ],
+        "explanation": "Combine the 'x' terms: 3x - x = 2x. Combine the constant terms: 5 + 2 = 7. Therefore, the simplified expression is 2x + 7.",
+        "manim_file": "scene_grade7-prealgebra-medium_q3.py"
+      },
+      {
+        "question": "Solve for x: 2x + 5 = 11",
+        "options": [
+          "3",
+          "8",
+          "16",
+          "4"
+        ],
+        "answer": "3",
+        "hints": [
+          "Subtract 5 from both sides.",
+          "Divide both sides by 2."
+        ],
+        "explanation": "Subtract 5 from both sides of the equation: 2x + 5 - 5 = 11 - 5, which simplifies to 2x = 6.  Then, divide both sides by 2: 2x / 2 = 6 / 2, which simplifies to x = 3.",
+        "manim_file": "scene_grade7-prealgebra-medium_q4.py"
+      },
+      {
+        "question": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+        "options": [
+          "5",
+          "7",
+          "25",
+          "12"
+        ],
+        "answer": "5",
+        "hints": [
+          "Use the Pythagorean theorem: a^2 + b^2 = c^2",
+          "Substitute the given values for a and b.",
+          "Solve for c."
+        ],
+        "explanation": "Using the Pythagorean theorem, a^2 + b^2 = c^2, where a = 3 and b = 4.  So, 3^2 + 4^2 = c^2, which means 9 + 16 = c^2, or 25 = c^2. Taking the square root of both sides gives c = 5.",
+        "manim_file": "scene_grade7-prealgebra-medium_q5.py"
+      }
+    ]
+  },
+  {
+    "id": "grade7-prealgebra-medium",
+    "title": "Pre-Algebra Basics",
+    "description": "Introduction to pre-algebra concepts and operations.",
+    "grade_level": 7,
+    "topic": "Pre-Algebra",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Simplify the expression: 3(x + 2) - 5",
+        "options": [
+          "3x - 1",
+          "3x + 1",
+          "3x + 11",
+          "3x - 11"
+        ],
+        "answer": "3x + 1",
+        "hints": [
+          "Distribute the 3 first.",
+          "Combine like terms."
+        ],
+        "explanation": "First, distribute the 3: 3(x + 2) = 3x + 6. Then, subtract 5: 3x + 6 - 5 = 3x + 1.",
+        "manim_file": "scene_grade7-prealgebra-medium_q1.py"
+      },
+      {
+        "question": "Solve for x: 2x + 7 = 15",
+        "options": [
+          "x = 4",
+          "x = 11",
+          "x = 22",
+          "x = 8"
+        ],
+        "answer": "x = 4",
+        "hints": [
+          "Subtract 7 from both sides.",
+          "Divide both sides by 2."
+        ],
+        "explanation": "Subtract 7 from both sides: 2x = 8. Divide both sides by 2: x = 4.",
+        "manim_file": "scene_grade7-prealgebra-medium_q2.py"
+      },
+      {
+        "question": "What is the value of | -8 | + | 3 |?",
+        "options": [
+          "-5",
+          "5",
+          "11",
+          "-11"
+        ],
+        "answer": "11",
+        "hints": [
+          "The absolute value of a number is its distance from zero.",
+          "|-a| = a for any negative number -a."
+        ],
+        "explanation": "|-8| = 8 and |3| = 3. Therefore, 8 + 3 = 11.",
+        "manim_file": "scene_grade7-prealgebra-medium_q3.py"
+      },
+      {
+        "question": "Evaluate: 4\u00b2 - 2 * 3 + 1",
+        "options": [
+          "11",
+          "19",
+          "10",
+          "13"
+        ],
+        "answer": "11",
+        "hints": [
+          "Remember the order of operations (PEMDAS/BODMAS).",
+          "Exponents first, then multiplication, then addition and subtraction."
+        ],
+        "explanation": "4\u00b2 = 16. 2 * 3 = 6. Then, 16 - 6 + 1 = 10 + 1 = 11.",
+        "manim_file": "scene_grade7-prealgebra-medium_q4.py"
+      },
+      {
+        "question": "If a = 5 and b = -2, what is the value of a - b?",
+        "options": [
+          "3",
+          "7",
+          "-3",
+          "-7"
+        ],
+        "answer": "7",
+        "hints": [
+          "Subtracting a negative number is the same as adding its positive counterpart.",
+          "a - (-b) = a + b"
+        ],
+        "explanation": "a - b = 5 - (-2) = 5 + 2 = 7.",
+        "manim_file": "scene_grade7-prealgebra-medium_q5.py"
+      }
+    ]
+  }
+]
