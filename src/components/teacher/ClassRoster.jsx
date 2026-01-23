@@ -7,7 +7,8 @@ const ClassRoster = ({ classId, onClose }) => {
     const [submissions, setSubmissions] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    const [addEmail, setAddEmail] = useState('');
+    const [addName, setAddName] = useState({ first: '', last: '' });
+    const [pendingStudents, setPendingStudents] = useState([]);
     const [addingStudent, setAddingStudent] = useState(false);
 
     useEffect(() => {
@@ -16,7 +17,7 @@ const ClassRoster = ({ classId, onClose }) => {
 
     const fetchData = async () => {
         try {
-            // 1. Get Students
+            // 1. Get Enrolled Students
             const { data: studentData, error: studentError } = await supabase
                 .from('class_students')
                 .select('student_id, profiles(first_name, last_name, email)')
@@ -24,7 +25,18 @@ const ClassRoster = ({ classId, onClose }) => {
 
             if (studentError) throw studentError;
 
-            // 2. Get Assignments
+            // 2. Get Pending Students
+            const { data: pendingData, error: pendingError } = await supabase
+                .from('pending_students')
+                .select('*')
+                .eq('class_id', classId)
+                .order('created_at', { ascending: false });
+
+            if (pendingError && pendingError.code !== '42P01') { // Ignore "table does not exist" error if migration hasn't run
+                console.error("Pending fetch error:", pendingError);
+            }
+
+            // 3. Get Assignments & Submissions (Existing logic)
             const { data: assignData, error: assignError } = await supabase
                 .from('assignments')
                 .select('id, title')
@@ -33,75 +45,64 @@ const ClassRoster = ({ classId, onClose }) => {
 
             if (assignError) throw assignError;
 
-            // 3. Get Submissions for these assignments
-            const assignIds = assignData.map(a => a.id);
+            const assignIds = assignData?.map(a => a.id) || [];
+            let subData = [];
             if (assignIds.length > 0) {
-                const { data: subData, error: subError } = await supabase
+                const { data, error } = await supabase
                     .from('assignment_submissions')
                     .select('assignment_id, student_id, score')
                     .in('assignment_id', assignIds);
-
-                if (subError) throw subError;
-                setSubmissions(subData || []);
+                if (!error) subData = data;
             }
 
             setStudents(studentData || []);
+            setPendingStudents(pendingData || []);
             setAssignments(assignData || []);
+            setSubmissions(subData || []);
 
         } catch (error) {
             console.error('Error loading roster:', error);
-            alert('Failed to load roster.');
+            // Don't alert here to avoid spamming if just one part fails
         } finally {
             setLoading(false);
         }
     };
 
-    const handleAddStudent = async (e) => {
+    const handleGenerateCode = async (e) => {
         e.preventDefault();
-        if (!addEmail.trim()) return;
+        if (!addName.first.trim() || !addName.last.trim()) return;
         setAddingStudent(true);
 
         try {
-            // 1. Find student by email
-            const { data: profiles, error: profileError } = await supabase
-                .from('profiles')
-                .select('id')
-                .eq('email', addEmail.trim())
-                .eq('role', 'student')
-                .single();
+            // Generate 6-char code (Uppercase + Numbers, avoiding ambiguous O/0/I/1 if possible, but simple random is fine for this)
+            const code = Math.random().toString(36).substring(2, 8).toUpperCase();
 
-            if (profileError || !profiles) {
-                alert('Student not found with that email. Make sure they have a student account.');
-                setAddingStudent(false);
-                return;
-            }
-
-            // 2. Add to class
-            const { error: enrollError } = await supabase
-                .from('class_students')
+            const { error } = await supabase
+                .from('pending_students')
                 .insert([{
                     class_id: classId,
-                    student_id: profiles.id
+                    first_name: addName.first.trim(),
+                    last_name: addName.last.trim(),
+                    access_code: code
                 }]);
 
-            if (enrollError) {
-                if (enrollError.code === '23505') { // Unique violation
-                    alert('Student is already enrolled in this class.');
-                } else {
-                    throw enrollError;
-                }
-            } else {
-                alert('Student added successfully!');
-                setAddEmail('');
-                fetchData(); // Refresh list
-            }
+            if (error) throw error;
 
+            setAddName({ first: '', last: '' });
+            fetchData();
+            alert(`Generated code for ${addName.first}: ${code}`);
         } catch (error) {
-            console.error('Error adding student:', error);
-            alert('Failed to add student. Please try again.');
+            console.error("Error creating pending student:", error);
+            alert("Failed to generate code. Please try again.");
         } finally {
             setAddingStudent(false);
         }
+    };
+
+    const deletePending = async (id) => {
+        if (!confirm('Remove this pending student?')) return;
+        const { error } = await supabase.from('pending_students').delete().eq('id', id);
+        if (!error) fetchData();
     };
 
     const getScore = (studentId, assignmentId) => {
@@ -116,39 +117,86 @@ const ClassRoster = ({ classId, onClose }) => {
                 <button className="btn" onClick={onClose} style={{ padding: '0.2rem 0.5rem' }}>Close</button>
             </div>
 
-            {/* Add Student Form */}
-            <form onSubmit={handleAddStudent} style={{
+            {/* Add Student Section */}
+            <div style={{
                 marginBottom: '1.5rem',
                 padding: '1rem',
-                background: '#f9f9f9',
+                background: '#f0f9ff',
                 borderRadius: '8px',
-                display: 'flex',
-                gap: '0.5rem',
-                alignItems: 'center'
+                border: '1px solid #bae6fd'
             }}>
-                <div style={{ flex: 1 }}>
+                <h4 style={{ margin: '0 0 0.5rem 0', color: '#0284c7' }}>👶 Add New Student</h4>
+                <form onSubmit={handleGenerateCode} style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                     <input
-                        type="email"
-                        placeholder="Enter student email to enroll..."
-                        value={addEmail}
-                        onChange={(e) => setAddEmail(e.target.value)}
+                        placeholder="First Name"
+                        value={addName.first}
+                        onChange={(e) => setAddName({ ...addName, first: e.target.value })}
                         className="input"
-                        style={{ width: '100%' }}
+                        style={{ flex: 1 }}
                         required
                     />
-                </div>
-                <button
-                    type="submit"
-                    className="btn btn-primary"
-                    disabled={addingStudent}
-                    style={{ whiteSpace: 'nowrap' }}
-                >
-                    {addingStudent ? 'Adding...' : '➕ Add Student'}
-                </button>
-            </form>
+                    <input
+                        placeholder="Last Name"
+                        value={addName.last}
+                        onChange={(e) => setAddName({ ...addName, last: e.target.value })}
+                        className="input"
+                        style={{ flex: 1 }}
+                        required
+                    />
+                    <button
+                        type="submit"
+                        className="btn btn-primary"
+                        disabled={addingStudent}
+                        style={{ whiteSpace: 'nowrap' }}
+                    >
+                        {addingStudent ? 'Generating...' : '🔑 Generate Code'}
+                    </button>
+                </form>
+                <p style={{ fontSize: '0.8rem', color: '#0284c7', margin: '0.5rem 0 0 0' }}>
+                    Create a unique code for a student. They will enter this code when they sign up to automatically join this class.
+                </p>
+            </div>
 
+            {/* Pending Students List */}
+            {pendingStudents.length > 0 && (
+                <div style={{ marginBottom: '1.5rem' }}>
+                    <h4 style={{ color: 'var(--color-secondary)' }}>⏳ Pending Students (Not yet joined)</h4>
+                    <div style={{ display: 'grid', gap: '0.5rem', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))' }}>
+                        {pendingStudents.map(p => (
+                            <div key={p.id} style={{
+                                background: '#fff',
+                                padding: '0.75rem',
+                                border: '1px dashed var(--color-secondary)',
+                                borderRadius: '4px',
+                                display: 'flex',
+                                justifyContent: 'space-between',
+                                alignItems: 'center'
+                            }}>
+                                <div>
+                                    <div style={{ fontWeight: 'bold' }}>{p.first_name} {p.last_name}</div>
+                                    <div style={{
+                                        fontFamily: 'monospace',
+                                        fontSize: '1.2rem',
+                                        background: '#eee',
+                                        padding: '2px 6px',
+                                        borderRadius: '4px',
+                                        display: 'inline-block',
+                                        marginTop: '4px',
+                                        letterSpacing: '2px'
+                                    }}>
+                                        {p.access_code}
+                                    </div>
+                                </div>
+                                <button onClick={() => deletePending(p.id)} style={{ border: 'none', background: 'none', cursor: 'pointer', opacity: 0.5 }}>❌</button>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            <h4 style={{ borderBottom: '2px solid #eee', paddingBottom: '0.5rem' }}>✅ Enrolled Students</h4>
             {loading ? <p>Loading data...</p> : students.length === 0 ? (
-                <p>No students enrolled yet. Share the code!</p>
+                <p style={{ fontStyle: 'italic', color: 'gray' }}>No active students. Add some above!</p>
             ) : (
                 <div style={{ overflowX: 'auto' }}>
                     <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
