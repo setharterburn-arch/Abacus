@@ -165,6 +165,19 @@ const AdaptiveQuizEngine = ({ studentId, topic, onComplete }) => {
                     {currentQuestion.question}
                 </h3>
 
+                {/* Manim Video/Image Support */}
+                {currentQuestion.manim_file && (
+                    <div style={{ marginBottom: '1.5rem', borderRadius: '8px', overflow: 'hidden', border: '1px solid #ddd' }}>
+                        <video
+                            controls
+                            style={{ width: '100%', maxHeight: '300px', backgroundColor: '#000' }}
+                            src={`/videos/${currentQuestion.manim_file.replace('.py', '.mp4')}`}
+                        >
+                            <p>Your browser does not support video playback.</p>
+                        </video>
+                    </div>
+                )}
+
                 {/* Answer options */}
                 <div style={{ display: 'grid', gap: '0.75rem' }}>
                     {currentQuestion.options.map((option, idx) => {
