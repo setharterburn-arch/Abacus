@@ -43,12 +43,12 @@ const LandingPage = () => {
         'Assign AI-generated or curated curriculum',
         'Generate unlimited custom worksheets',
         'Track student progress and grades',
-        'Access to 180+ pre-made curriculum sets',
+        'Access to 900+ pre-made curriculum sets',
         'QR code answer keys for easy grading'
     ];
 
     const forStudents = [
-        'Interactive lessons (K-6th grade)',
+        'Interactive lessons (K-9th grade)',
         'Gamification with XP and levels',
         'AI tutor for personalized help',
         'Fun themes: Space, Safari, Crystal Caves',
