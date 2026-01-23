@@ -178,7 +178,7 @@ const DemoLessons = () => {
                                         📚 Full Library Access
                                     </h3>
                                     <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.5rem' }}>
-                                        These are just 6 examples from our library of <strong>180+ curriculum sets</strong> covering K-6th grade math!
+                                        These are just 6 examples from our library of <strong>900+ curriculum sets</strong> covering K-9th grade math!
                                     </p>
                                     <button
                                         className="btn btn-primary"
