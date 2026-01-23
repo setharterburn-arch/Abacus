@@ -16,15 +16,46 @@ const AssignmentModal = ({ content, type, classId, students, onClose, onAssigned
 
             console.log("DEBUG Assignment Content:", content);
             // Map content.problems to the assignment questions structure
-            // Check if content.problems exists, if not try content.questions (handle varying schema)
-            const sourceQuestions = content.problems || content.questions || [];
+            let questions = [];
 
-            const questions = sourceQuestions.map(q => ({
-                question: q.question,
-                options: q.options || [],
-                answer: q.answer,
-                image: q.image || null
-            }));
+            if (type === 'learning_path' && content.modules) {
+                // Generates questions for Learning Paths dynamically
+                const { generateFromSyllabus } = await import('../../services/curriculum_engine');
+
+                for (const mod of content.modules) {
+                    const generated = await generateFromSyllabus(mod);
+                    // Map generated questions to assignment format
+                    const modQuestions = generated.questions.map(q => ({
+                        question: q.question,
+                        options: q.options || [],
+                        answer: q.correctAnswer || q.answer, // Engine uses correctAnswer
+                        image: q.visual ? JSON.stringify(q.visual) : null // Store visual config if needed, or render later
+                        // Note: AssignmentRunner doesn't support 'visual' object yet, but we can store it.
+                        // Actually, AssignmentRunner expects 'image' URL. 
+                        // For now we might lose the visual if we don't have a renderer in Runner.
+                        // But at least we have text questions.
+                    }));
+                    questions = [...questions, ...modQuestions];
+                }
+            } else {
+                // Static Curriculum Sets
+                // Check if content.problems exists, if not try content.questions (handle varying schema)
+                const sourceQuestions = content.problems || content.questions || [];
+
+                questions = sourceQuestions.map(q => ({
+                    question: q.question,
+                    options: q.options || [],
+                    answer: q.answer,
+                    image: q.image || null
+                }));
+            }
+
+            if (questions.length === 0) {
+                if (!confirm("Warning: No questions found for this item. Create assignment anyway?")) {
+                    setLoading(false);
+                    return;
+                }
+            }
 
             // Create ONE assignment for the class
             // The 'assignments' table is class-level. 'assignment_submissions' tracks student progress.
