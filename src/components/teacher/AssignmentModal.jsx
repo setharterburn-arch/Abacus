@@ -14,6 +14,7 @@ const AssignmentModal = ({ content, type, classId, students, onClose, onAssigned
         try {
             const { data: { user } } = await supabase.auth.getUser();
 
+            console.log("DEBUG Assignment Content:", content);
             // Map content.problems to the assignment questions structure
             // Check if content.problems exists, if not try content.questions (handle varying schema)
             const sourceQuestions = content.problems || content.questions || [];
