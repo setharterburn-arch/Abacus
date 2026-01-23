@@ -82,6 +82,30 @@ const TeacherDashboard = ({ profile }) => {
         }
     };
 
+    const deleteClass = async (id, name) => {
+        if (!confirm(`Are you sure you want to delete "${name}"?\n\nThis will permanently remove:\n- All student enrollments\n- All assignments\n- All student submissions\n\nThis cannot be undone.`)) return;
+
+        try {
+            const { error } = await supabase
+                .from('classes')
+                .delete()
+                .eq('id', id);
+
+            if (error) throw error;
+
+            setClasses(classes.filter(c => c.id !== id));
+            if (activeClass === id) setActiveClass(null);
+            if (viewingRoster === id) setViewingRoster(null);
+            if (viewingCurriculum === id) setViewingCurriculum(null);
+            if (editingClass?.id === id) setEditingClass(null);
+
+            alert('Class deleted successfully.');
+        } catch (error) {
+            console.error('Error deleting class:', error);
+            alert('Error deleting class: ' + error.message);
+        }
+    };
+
     return (
         <div className="container" style={{ padding: '2rem' }}>
             <header style={{ marginBottom: '2rem' }}>
@@ -153,6 +177,26 @@ const TeacherDashboard = ({ profile }) => {
                                                         title="Rename Class"
                                                     >
                                                         ✏️
+                                                    </button>
+                                                    <button
+                                                        onClick={() => deleteClass(cls.id, cls.name)}
+                                                        style={{
+                                                            background: '#fee2e2',
+                                                            color: '#dc2626',
+                                                            border: '2px solid #bef2626', // Typo intended to match style, actually let's make it nice
+                                                            border: '2px solid #fca5a5',
+                                                            borderRadius: '0.5rem',
+                                                            cursor: 'pointer',
+                                                            fontSize: '1rem',
+                                                            padding: '0.25rem 0.5rem',
+                                                            opacity: 0.7,
+                                                            transition: 'opacity 0.2s'
+                                                        }}
+                                                        onMouseEnter={(e) => e.target.style.opacity = '1'}
+                                                        onMouseLeave={(e) => e.target.style.opacity = '0.7'}
+                                                        title="Delete Class"
+                                                    >
+                                                        🗑️
                                                     </button>
                                                 </div>
                                             )}
