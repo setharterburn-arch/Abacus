@@ -50,31 +50,26 @@ const StudentDashboard = ({ profile }) => {
 
     const joinClass = async (e) => {
         e.preventDefault();
+        if (!joinCode.trim()) return;
+
         try {
-            // Find class by code
-            const { data: classData, error: classError } = await supabase
-                .from('classes')
-                .select('id')
-                .eq('join_code', joinCode.toUpperCase())
-                .single();
+            // Call the unified claim function (handles both Class Codes and Student Access Codes)
+            const { data, error } = await supabase
+                .rpc('claim_access_code', { code_input: joinCode.trim() });
 
-            if (classError || !classData) throw new Error('Invalid code');
+            if (error) throw error;
 
-            // Enroll
-            const { error: enrollError } = await supabase
-                .from('class_students')
-                .insert([{ class_id: classData.id, student_id: profile.id }]);
-
-            if (enrollError) {
-                if (enrollError.code === '23505') throw new Error('Already enrolled!'); // unique violation
-                throw enrollError;
+            if (data.success) {
+                alert(data.message);
+                setJoinCode('');
+                fetchAssignments(); // Refresh list
+            } else {
+                throw new Error(data.message || 'Failed to join class');
             }
 
-            alert('Joined class successfully! 🎉');
-            setJoinCode('');
-            fetchAssignments(); // Refresh list
         } catch (error) {
-            alert(error.message);
+            console.error('Join error:', error);
+            alert(error.message || 'Error joining class. Please try again.');
         }
     };
 
