@@ -183,7 +183,6 @@ const TeacherDashboard = ({ profile }) => {
                                                         style={{
                                                             background: '#fee2e2',
                                                             color: '#dc2626',
-                                                            border: '2px solid #bef2626', // Typo intended to match style, actually let's make it nice
                                                             border: '2px solid #fca5a5',
                                                             borderRadius: '0.5rem',
                                                             cursor: 'pointer',

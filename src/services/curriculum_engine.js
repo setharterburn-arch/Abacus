@@ -1,5 +1,5 @@
 
-import { generateHomework } from './ai'; // Helper for fallback/story logic
+import { generateAssignment } from './ai'; // Helper for fallback/story logic
 
 // Helper to get random number
 const rnd = (max) => Math.floor(Math.random() * max) + 1;
