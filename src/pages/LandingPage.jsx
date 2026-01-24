@@ -355,7 +355,7 @@ const LandingPage = () => {
                 borderTop: '3px solid var(--color-text)'
             }}>
                 <p style={{ color: 'var(--color-text-muted)' }}>
-                    © 2026 Abacus Math Homeschool • Made with ❤️ for homeschool families
+                    © 2026 Abacus Math Homeschool • Made with ❤️ for homeschool families • <a href="/faq" style={{ color: 'var(--color-primary)', textDecoration: 'none' }}>FAQ</a>
                 </p>
             </footer>
         </div>

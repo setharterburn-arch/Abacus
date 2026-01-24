@@ -19,6 +19,7 @@ const LearningPaths = lazy(() => import('./pages/LearningPaths'));
 const Assignments = lazy(() => import('./pages/Assignments'));
 const Shop = lazy(() => import('./pages/Shop'));
 const Beta = lazy(() => import('./pages/Beta'));
+const FAQ = lazy(() => import('./pages/FAQ'));
 
 // Beta lessons
 const ApplesLesson = lazy(() => import('./pages/beta/ApplesLesson'));
@@ -96,6 +97,7 @@ const AppRoutes = () => {
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
           <Route path="/test" element={<TestZone />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Suspense>
