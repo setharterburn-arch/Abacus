@@ -1,822 +1,834 @@
-{
-  "summary": {
-    "total_sets": 285,
-    "total_issues": 17,
-    "total_warnings": 111
+[
+  {
+    "question_text": "What is 9 - 5?",
+    "current_answer": "4",
+    "correct_answer": "4",
+    "reason": "No error",
+    "set_id": "1-sub-facts-1-10",
+    "set_title": "Subtraction Facts (1-10)"
   },
-  "issues": [
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 1,
-      "question": "Count by tens: 10, 20, 30, __?",
-      "issue": "Number 30 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 2,
-      "question": "What number comes after 60 when counting by tens?",
-      "issue": "Number 60 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 3,
-      "question": "What are 30 and 10 more?",
-      "issue": "Number 30 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 4,
-      "question": "What is the next number? 80, 90, ___",
-      "issue": "Number 90 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 5,
-      "question": "Which is bigger, 50 or 30?",
-      "issue": "Number 50 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 6,
-      "question": "What number is ten less than 60?",
-      "issue": "Number 60 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 7,
-      "question": "Count by tens to 30. How many numbers did you say?",
-      "issue": "Number 30 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 9,
-      "question": "10, 30, 50... What's missing?",
-      "issue": "Number 50 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 10,
-      "question": "Is 90 closer to 100 or 10?",
-      "issue": "Number 100 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 1,
-      "question": "What number comes after 29?",
-      "issue": "Number 29 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 3,
-      "question": "What number comes before 42?",
-      "issue": "Number 42 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 4,
-      "question": "Is 35 closer to 30 or 40?",
-      "issue": "Number 40 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 5,
-      "question": "Which number is bigger: 48 or 38?",
-      "issue": "Number 48 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 6,
-      "question": "Count: 10, 20, __, 40, 50. What's missing?",
-      "issue": "Number 50 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 8,
-      "question": "Which group has 45 stars?",
-      "issue": "Number 45 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 9,
-      "question": "What number is ten more than 25?",
-      "issue": "Number 25 too large (max: 20)",
-      "severity": "HIGH"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 10,
-      "question": "Is 21 closer to 20 or 30?",
-      "issue": "Number 30 too large (max: 20)",
-      "severity": "HIGH"
-    }
-  ],
-  "warnings": [
-    {
-      "set": "Counting 1-20",
-      "grade": "Kindergarten",
-      "question_num": 5,
-      "issue": "Question too long (18 words, max recommended: 10)"
-    },
-    {
-      "set": "Ordinal Numbers",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Ordinal Numbers",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Basic Word Problems",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Basic Word Problems",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Basic Word Problems",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Basic Word Problems",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Basic Word Problems",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Using Ten Frames",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Using Ten Frames",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Using Ten Frames",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 3 - 1",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 4 - 2",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 5 - 3",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 6 - 1",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 7 - 2",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 8 - 3",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 9 - 1",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 10 - 2",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 3 - 3",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 4 - 1",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 5 - 2",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 6 - 3",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 7 - 1",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 8 - 2",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtraction: 9 - 3",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Sorting Shapes",
-      "grade": "Kindergarten",
-      "question_num": 9,
-      "issue": "Question too long (11 words, max recommended: 10)"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 7,
-      "issue": "Question too long (11 words, max recommended: 10)"
-    },
-    {
-      "set": "Counting to 100 by Tens",
-      "grade": "Kindergarten",
-      "question_num": 8,
-      "issue": "Question too long (11 words, max recommended: 10)"
-    },
-    {
-      "set": "Counting to 50",
-      "grade": "Kindergarten",
-      "question_num": 7,
-      "issue": "Question too long (11 words, max recommended: 10)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Strategies - Counting On",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Subtracting with Pictures",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Facts 0-10",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Facts 0-10",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Addition Facts 0-10",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (15 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (16 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (19 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (17 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (15 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (16 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (14 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (14 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (15 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Addition Within 10",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (16 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (15 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Word Problems - Subtraction Within 10",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Understanding Place Value (Tens and Ones)",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (13 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (16 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (18 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Non-Standard Units",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 1,
-      "issue": "Question too long (18 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (16 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 5,
-      "issue": "Question too long (10 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 7,
-      "issue": "Question too long (12 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 8,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (18 words, max recommended: 8)"
-    },
-    {
-      "set": "Telling Time to the Hour",
-      "grade": "Grade 1",
-      "question_num": 10,
-      "issue": "Question too long (18 words, max recommended: 8)"
-    },
-    {
-      "set": "Adding Three Numbers",
-      "grade": "Grade 1",
-      "question_num": 2,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Adding Three Numbers",
-      "grade": "Grade 1",
-      "question_num": 3,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Adding Three Numbers",
-      "grade": "Grade 1",
-      "question_num": 4,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Adding Three Numbers",
-      "grade": "Grade 1",
-      "question_num": 6,
-      "issue": "Question too long (11 words, max recommended: 8)"
-    },
-    {
-      "set": "Adding Three Numbers",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Creating and Interpreting Bar Graphs",
-      "grade": "Grade 1",
-      "question_num": 9,
-      "issue": "Question too long (9 words, max recommended: 8)"
-    },
-    {
-      "set": "Measuring Length with Inches and Centimeters",
-      "grade": "Grade 2",
-      "question_num": 10,
-      "issue": "Question too long (18 words, max recommended: 16)"
-    },
-    {
-      "set": "Telling Time to the Half Hour",
-      "grade": "Grade 2",
-      "question_num": 1,
-      "issue": "Question too long (20 words, max recommended: 16)"
-    },
-    {
-      "set": "Telling Time to the Half Hour",
-      "grade": "Grade 2",
-      "question_num": 3,
-      "issue": "Question too long (23 words, max recommended: 16)"
-    },
-    {
-      "set": "Telling Time to the Half Hour",
-      "grade": "Grade 2",
-      "question_num": 10,
-      "issue": "Question too long (21 words, max recommended: 16)"
-    },
-    {
-      "set": "Creating and Interpreting Pictographs",
-      "grade": "Grade 2",
-      "question_num": 2,
-      "issue": "Question too long (17 words, max recommended: 16)"
-    },
-    {
-      "set": "Creating and Interpreting Pictographs",
-      "grade": "Grade 2",
-      "question_num": 5,
-      "issue": "Question too long (21 words, max recommended: 16)"
-    },
-    {
-      "set": "Creating and Interpreting Pictographs",
-      "grade": "Grade 2",
-      "question_num": 10,
-      "issue": "Question too long (17 words, max recommended: 16)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 2",
-      "question_num": 2,
-      "issue": "Question too long (20 words, max recommended: 16)"
-    },
-    {
-      "set": "Fact Families",
-      "grade": "Grade 2",
-      "question_num": 3,
-      "issue": "Question too long (17 words, max recommended: 16)"
-    }
-  ],
-  "grade_distribution": {
-    "Kindergarten": 70,
-    "Grade 1": 70,
-    "Grade 2": 46,
-    "Grade 3": 35,
-    "Grade 4": 32,
-    "Grade 5": 27,
-    "Grade 6": 5
+  {
+    "question_text": "Which equals 10: 5+5 or 6+3?",
+    "current_answer": "5+5",
+    "correct_answer": "Both",
+    "reason": "Both 5+5 and 6+3 equal 10.",
+    "set_id": "1-comparing-numbers",
+    "set_title": "Comparing Numbers"
+  },
+  {
+    "question_text": "Median of 4, 8, 12, 16?",
+    "current_answer": "10",
+    "correct_answer": "10",
+    "reason": "The median of an even number of values is the average of the two middle values. In this case, (8+12)/2 = 10. The answer provided is correct.",
+    "set_id": "5-mean-median-mode",
+    "set_title": "Mean, Median, and Mode"
+  },
+  {
+    "question_text": "If there are 3 X's above 5, what does it mean?",
+    "current_answer": "Both A and B",
+    "correct_answer": "3 data points at 5",
+    "reason": "While '3 fives' can be interpreted as 3 data points at the value of 5, it is not precise terminology and the correct answer among the given options is '3 data points at 5'. The answer 'Both A and B' implies 3 fives represents 15 which is incorrect.",
+    "set_id": "4-line-plots",
+    "set_title": "Line Plots"
+  },
+  {
+    "question_text": "If 5 has 4 X's and 6 has 2 X's, total data points?",
+    "current_answer": "6",
+    "correct_answer": "6",
+    "reason": "The current answer is correct, 4 + 2 = 6",
+    "set_id": "4-line-plots",
+    "set_title": "Line Plots"
+  },
+  {
+    "question_text": "Which group has LESS?",
+    "current_answer": "Right (pink)",
+    "correct_answer": "They are equal",
+    "reason": "The image 'compare-5-1.svg' shows an equal number of objects in both the left (blue) and right (pink) groups.",
+    "set_id": "k-compare-11",
+    "set_title": "Comparing Groups"
+  },
+  {
+    "question_text": "Draw a shape like a box. What is it?",
+    "current_answer": "Square",
+    "correct_answer": "Square",
+    "reason": "While a square is correct, a more accurate answer would be to also include 'Rectangle' as a box can be either a square (all sides equal) or a rectangle (two pairs of equal sides). Given that the question asks for a shape *like* a box, both should be considered.",
+    "set_id": "g0-shapes-easy",
+    "set_title": "Drawing Basic Shapes"
+  },
+  {
+    "question_text": "Is this a circle or a square?",
+    "current_answer": "Circle",
+    "correct_answer": "The question is unanswerable as the shape is not provided.",
+    "reason": "The question 'Is this a circle or a square?' requires an image or further context describing 'this' to determine the correct answer. Without a visual or description, it's impossible to definitively say if the answer 'Circle' is correct or not.",
+    "set_id": "g0-shapes-easy",
+    "set_title": "Sorting Shapes"
+  },
+  {
+    "question_text": "10, 30, 50... What's missing?",
+    "current_answer": "20",
+    "correct_answer": "40",
+    "reason": "The sequence is counting by tens, but skipping every other ten. Therefore, 40 is the missing number, not 20. 10, (20), 30, (40), 50. Question should read '10, __, 30, __, 50'",
+    "set_id": "g0-counting-medium",
+    "set_title": "Counting to 100 by Tens"
+  },
+  {
+    "question_text": "Is 35 closer to 30 or 40?",
+    "current_answer": "40",
+    "correct_answer": "Neither",
+    "reason": "35 is exactly in the middle of 30 and 40, so it is the same distance from both. Therefore, neither is the correct answer.",
+    "set_id": "g0-counting-medium",
+    "set_title": "Counting to 50"
+  },
+  {
+    "question_text": "What number comes before six?",
+    "current_answer": "5",
+    "correct_answer": "5",
+    "reason": "There is no error",
+    "set_id": "g0-number-recognition-medium",
+    "set_title": "Number Recognition 1-20"
+  },
+  {
+    "question_text": "Sue had 5 books. She read 2, then borrowed 6 more. How many now?",
+    "current_answer": "9",
+    "correct_answer": "11",
+    "reason": "The explanation incorrectly states Sue has 11 books when the correct answer should be 5 + 6 = 11.",
+    "set_id": "g2-problem-solving-hard",
+    "set_title": "Multi-Step Word Problems (Addition/Subtraction)"
+  },
+  {
+    "question_text": "1/10 is bigger than what unit fraction?",
+    "current_answer": "1/9",
+    "correct_answer": "This question contains an error.",
+    "reason": "The question asks '1/10 is bigger than what unit fraction?' and gives options that are all bigger than 1/10. The question is flawed. 1/10 is SMALLER than 1/2, 1/5, 1/9 and 1/3. Should be '1/10 is smaller than what unit fraction?'",
+    "set_id": "g3-fractions-medium",
+    "set_title": "Comparing Unit Fractions"
+  },
+  {
+    "question_text": "Count the objects: O O O O O O O O O",
+    "current_answer": "9",
+    "correct_answer": "9",
+    "reason": "The listed answer is correct, but the question contains 9 objects and not 10, as the output answer explains.",
+    "set_id": "0-counting-5",
+    "set_title": "Numbers 1-10 - Set 5"
+  },
+  {
+    "question_text": "Which group has 17 objects?",
+    "current_answer": "OOOOOOOOOOOOOOOOOOO",
+    "correct_answer": "OOOOOOOOOOOOOOOOO",
+    "reason": "The provided answer has 18 objects, not 17.",
+    "set_id": "0-counting-23",
+    "set_title": "Numbers 11-20 - Set 23"
+  },
+  {
+    "question_text": "Which set shows 16 items?",
+    "current_answer": "\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50",
+    "correct_answer": "\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50",
+    "reason": "The correct answer should have 16 stars: \u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50",
+    "set_id": "0-counting-24",
+    "set_title": "Numbers 11-20 - Set 24"
+  },
+  {
+    "question_text": "Count the stars: * * * * * * * * * * * *  How many stars?",
+    "current_answer": "12",
+    "correct_answer": "13",
+    "reason": "There are 13 stars in the group, not 12.",
+    "set_id": "0-counting-25",
+    "set_title": "Numbers 11-20 - Set 25"
+  },
+  {
+    "question_text": "Which group has 16 circles?",
+    "current_answer": "OOOOOOOOOOOOOOOO",
+    "correct_answer": "OOOOOOOOOOOOOO",
+    "reason": "The group 'OOOOOOOOOOOOOO' has 16 circles. The 'OOOOOOOOOOOOOOOO' group has 17 circles.",
+    "set_id": "0-counting-25",
+    "set_title": "Numbers 11-20 - Set 25"
+  },
+  {
+    "question_text": "Which number is shown below? ||||||||||||||||",
+    "current_answer": "16",
+    "correct_answer": "18",
+    "reason": "There are 18 tally marks shown, not 16.",
+    "set_id": "0-counting-26",
+    "set_title": "Numbers 11-20 - Set 26"
+  },
+  {
+    "question_text": "Count the stars: \u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50",
+    "current_answer": "11",
+    "correct_answer": "12",
+    "reason": "There are 12 stars, not 11.",
+    "set_id": "0-counting-27",
+    "set_title": "Numbers 11-20 - Set 27"
+  },
+  {
+    "question_text": "Which group has 17 items?",
+    "current_answer": "OOOOOOOOOOOOOOOOO",
+    "correct_answer": "OOOOOOOOOOOOOOOOOO",
+    "reason": "The group with 17 items should have 17 'O's, which is represented by OOOOOOOOOOOOOOOOOO (17 O's).",
+    "set_id": "0-counting-29",
+    "set_title": "Numbers 11-20 - Set 29"
+  },
+  {
+    "question_text": "Count the stars: \u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50",
+    "current_answer": "12",
+    "correct_answer": "13",
+    "reason": "There are 13 stars displayed, not 12.",
+    "set_id": "0-counting-30",
+    "set_title": "Numbers 11-20 - Set 30"
+  },
+  {
+    "question_text": "What number is shown by this group of circles: OOOOO OOOOO OO",
+    "current_answer": "12",
+    "correct_answer": "12",
+    "reason": "The explanation is too close to the question. The question expects a count to 12. The answer is correct, but should be noted that you should be counting the objects in groups of 5 and then adding the remaining two.",
+    "set_id": "0-counting-30",
+    "set_title": "Numbers 11-20 - Set 30"
+  },
+  {
+    "question_text": "Which group has 15 items?",
+    "current_answer": "OOOO OOOO OOOO O",
+    "correct_answer": "OOOO OOOO OOOO OOO",
+    "reason": "\"OOOO OOOO OOOO O\" only has 13 items, not 15. The correct answer is \"OOOO OOOO OOOO OOO\" which has 15 items.",
+    "set_id": "0-counting-30",
+    "set_title": "Numbers 11-20 - Set 30"
+  },
+  {
+    "question_text": "Count the stars: \u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50\u2b50 How many stars are there?",
+    "current_answer": "11",
+    "correct_answer": "12",
+    "reason": "There are 12 stars in the image, not 11.",
+    "set_id": "0-counting-31",
+    "set_title": "Numbers 11-20 - Set 31"
+  },
+  {
+    "question_text": "What comes two numbers after 7?",
+    "current_answer": "9",
+    "correct_answer": "9",
+    "reason": "The explanation is incorrect. While the answer is right, it should state 'One number after 7 is 8, and one number after 8 is 9. So, 9 is two numbers after 7.'",
+    "set_id": "0-counting-11",
+    "set_title": "Number Order - Set 11"
+  },
+  {
+    "question_text": "If you put two triangles together, what shape can you make?",
+    "current_answer": "Square",
+    "correct_answer": "Rectangle",
+    "reason": "While two right-angled triangles can form a square, two arbitrary triangles can also form a rectangle or parallelogram. Rectangle is a more general case fitting the description better, as it does not limit the type of triangles needed to form the shape.",
+    "set_id": "0-shapes-25",
+    "set_title": "Basic Shapes - Set 25"
+  },
+  {
+    "question_text": "Which shape has the most sides? ",
+    "current_answer": "Square",
+    "correct_answer": "Square",
+    "reason": "The options provided contain 'Triangle' which has 3 sides, 'Square' and 'Rectangle' both having 4 sides, and 'Circle' having 0 sides. Thus, both Square and Rectangle have the most sides. Since Square is listed first, it is technically valid as the answer.",
+    "set_id": "0-shapes-25",
+    "set_title": "Basic Shapes - Set 25"
+  },
+  {
+    "question_text": "If you put two triangles together, what shape can you make?",
+    "current_answer": "B",
+    "correct_answer": "D",
+    "reason": "The answer should be D because it depends on the triangles used. You could make a triangle, a parallelogram, or other shapes, not just a rectangle.",
+    "set_id": "0-shapes-29",
+    "set_title": "Basic Shapes - Set 29"
+  },
+  {
+    "question_text": "If you put two triangles together, what shape can you make?",
+    "current_answer": "Square",
+    "correct_answer": "Square/Rectangle/Parallelogram/Rhombus",
+    "reason": "Two triangles can make a square, a rectangle, a parallelogram, or a rhombus depending on the type of triangle and how they are joined.",
+    "set_id": "0-shapes-30",
+    "set_title": "Basic Shapes - Set 30"
+  },
+  {
+    "question_text": "A square and a triangle are put together. How many sides are there total if you count all the sides touching?",
+    "current_answer": "7",
+    "correct_answer": "5",
+    "reason": "The question asks how many sides are there in total when the shapes are put together which means we do not count the touching sides. A square has 4 sides and a triangle has 3 sides, and when put together have 2 sides touching. 4 + 3 - 2 = 5.",
+    "set_id": "0-shapes-31",
+    "set_title": "Basic Shapes - Set 31"
+  },
+  {
+    "question_text": "Which shape can you make by putting two triangles together?",
+    "current_answer": "Square",
+    "correct_answer": "None of these",
+    "reason": "Two triangles can form a square, a rectangle, a parallelogram, or another triangle, depending on their shapes. Thus the best answer would be None of these.",
+    "set_id": "0-shapes-31",
+    "set_title": "Basic Shapes - Set 31"
+  },
+  {
+    "question_text": "Which shape has the most corners?",
+    "current_answer": "B. Square",
+    "correct_answer": "B. Square",
+    "reason": "The square and rectangle both have four corners, but since the rectangle is one of the shapes learned about, the square is a better answer in this context because the number of corners is the same, and the square is on the short list of shapes this set covers. Explanation should be edited to reflect that and to note that a rectangle also has 4 corners, and a circle has none.",
+    "set_id": "0-shapes-32",
+    "set_title": "Basic Shapes - Set 32"
+  },
+  {
+    "question_text": "Which shape looks like a box?",
+    "current_answer": "Square",
+    "correct_answer": "Square",
+    "reason": "While technically a cube looks more like a box, at this grade level and given the options, a square is acceptable, though a cube might have been a better choice for a correct answer or option.",
+    "set_id": "0-shapes-21",
+    "set_title": "Shape Properties - Set 21"
+  },
+  {
+    "question_text": "Which shape is most like a ball?",
+    "current_answer": "Circle",
+    "correct_answer": "Circle",
+    "reason": "While a sphere is technically the correct answer, a circle is acceptable for this grade level and the options given.  A sphere wasn't an option.",
+    "set_id": "0-shapes-21",
+    "set_title": "Shape Properties - Set 21"
+  },
+  {
+    "question_text": "Which of these is NOT a flat shape?",
+    "current_answer": "Ball",
+    "correct_answer": "Ball",
+    "reason": "Ball is correct, but it would be better to use the term sphere instead of ball. A ball is a general term for a round object. A sphere is the 3D shape corresponding to a circle.",
+    "set_id": "0-shapes-21",
+    "set_title": "Shape Properties - Set 21"
+  },
+  {
+    "question_text": "What comes next: Circle, Square, Circle, Square, ?",
+    "current_answer": "Circle",
+    "correct_answer": "Square",
+    "reason": "The pattern is Circle, Square repeated. Therefore, the next shape is Square, not Circle.",
+    "set_id": "0-shapes-8",
+    "set_title": "Pattern Recognition - Set 8"
+  },
+  {
+    "question_text": "What comes next: Circle, Circle, Square, Circle, Circle, Square, ?",
+    "current_answer": "Circle",
+    "correct_answer": "Circle",
+    "reason": "The pattern is Circle, Circle, Square, repeated. So the next shape is Circle.",
+    "set_id": "0-shapes-8",
+    "set_title": "Pattern Recognition - Set 8"
+  },
+  {
+    "question_text": "If you have 3 cookies and eat 1, how many cookies are left?",
+    "current_answer": "2",
+    "correct_answer": "2",
+    "reason": "The question involves subtraction which is outside of the stated curriculum (Adding 1-5)",
+    "set_id": "0-addition-27",
+    "set_title": "Adding 1-5 - Set 27"
+  },
+  {
+    "question_text": "If you have 5 toy cars and give 2 to your friend, how many cars do you have left?",
+    "current_answer": "3",
+    "correct_answer": "3",
+    "reason": "The question involves subtraction which is outside of the stated curriculum (Adding 1-5)",
+    "set_id": "0-addition-27",
+    "set_title": "Adding 1-5 - Set 27"
+  },
+  {
+    "question_text": "Which is bigger? 7 + 1 or 6 + 3?",
+    "current_answer": "B",
+    "correct_answer": "B",
+    "reason": "7+1 = 8 and 6+3 = 9. While the answer 'B' is technically correct because 6+3 is indeed bigger, the explanation is flawed. The 'explanation' field states B as the answer, which is redundant since the value of 'answer' already implies this. It should more clearly compare 8 and 9 to support why 6+3 is bigger.",
+    "set_id": "0-addition-2",
+    "set_title": "Adding 6-10 - Set 2"
+  },
+  {
+    "question_text": "What is 11 + 4?",
+    "current_answer": "B",
+    "correct_answer": "B",
+    "reason": "The 'B' option (15) is indeed the correct answer. No error.",
+    "set_id": "1-addition-7",
+    "set_title": "Facts to 20 - Set 7"
+  },
+  {
+    "question_text": "What is 6 + 8?",
+    "current_answer": "14",
+    "correct_answer": "14",
+    "reason": "No error",
+    "set_id": "1-addition-16",
+    "set_title": "Facts to 20 - Set 16"
+  },
+  {
+    "question_text": "Which object is longer than a notebook?",
+    "current_answer": "A pencil",
+    "correct_answer": "A marker",
+    "reason": "Assuming a standard notebook and marker, a marker would more likely be longer. A pencil's length can vary and might sometimes be shorter than a notebook.",
+    "set_id": "1-measurement-length-1",
+    "set_title": "Length - Set 1"
+  },
+  {
+    "question_text": "Which object is the same length as a ruler?",
+    "current_answer": "A ruler",
+    "correct_answer": "A pencil",
+    "reason": "The question asks for another object with the same length as a ruler, not the ruler itself. A pencil is the closest match given the options.",
+    "set_id": "1-measurement-length-1",
+    "set_title": "Length - Set 1"
+  },
+  {
+    "question_text": "Which object is longer than a bed but shorter than a car?",
+    "current_answer": "A sofa",
+    "correct_answer": "A tree",
+    "reason": "A tree is most likely longer than a bed but generally shorter than a car. A sofa is usually not longer than a bed.",
+    "set_id": "1-measurement-length-1",
+    "set_title": "Length - Set 1"
+  },
+  {
+    "question_text": "Samantha woke up at 7:00 AM and went to bed at 8:00 PM. How many hours did she sleep?",
+    "current_answer": "13 hours",
+    "correct_answer": "13 hours",
+    "reason": "This question is tricky. The question asks how many hours Samantha slept, but this question is a classic hours elapsed problem. It should be re-worded or have different values to reflect total sleep time.",
+    "set_id": "1-measurement-time-1",
+    "set_title": "Time - Set 1"
+  },
+  {
+    "question_text": "Jenna has 4 dimes and 2 nickels. How much money does Jenna have?",
+    "current_answer": "$0.70",
+    "correct_answer": "$0.50",
+    "reason": "4 dimes is $0.40 and 2 nickels is $0.10, which add up to $0.50, not $0.70.",
+    "set_id": "1-measurement-money-4",
+    "set_title": "Money - Set 4"
+  },
+  {
+    "question_text": "John has 2 one-dollar bills, 3 quarters, and 4 pennies. How much money does John have?",
+    "current_answer": "$2.41",
+    "correct_answer": "$2.59",
+    "reason": "The answer options provided do not contain the correct answer. 2 dollars is $2.00. 3 quarters is $0.75. 4 pennies is $0.04. The total is $2.79 not $2.41. The correct option is not included among the given options. The correct answer following the order of operations is $2.00 + $0.75 + $0.04 = $2.79",
+    "set_id": "1-measurement-money-4",
+    "set_title": "Money - Set 4"
+  },
+  {
+    "question_text": "Lily has 1 one-dollar bill, 2 quarters, 1 dime, and 3 pennies. How much money does Lily have?",
+    "current_answer": "$1.53",
+    "correct_answer": "$1.63",
+    "reason": "The answer options provided do not contain the correct answer. 1 dollar is $1.00. 2 quarters is $0.50. 1 dime is $0.10. 3 pennies is $0.03. The total is $1.63 not $1.53. The correct option is not included among the given options. The correct answer following the order of operations is $1.00 + $0.50 + $0.10 + $0.03 = $1.63",
+    "set_id": "1-measurement-money-4",
+    "set_title": "Money - Set 4"
+  },
+  {
+    "question_text": "Emma has 3 one-dollar bills, 2 quarters, 1 dime, and 6 pennies. How much money does Emma have?",
+    "current_answer": "$3.66",
+    "correct_answer": "$3.66",
+    "reason": "The answer is incorrect since no option provided matches the correct result ($3.00 + $0.50 + $0.10 + $0.06 = $3.66)",
+    "set_id": "1-measurement-money-4",
+    "set_title": "Money - Set 4"
+  },
+  {
+    "question_text": "On Monday, the school cafeteria sold 234 meals. On Tuesday, they sold 189 more meals than on Monday. How many meals did the cafeteria sell in total?",
+    "current_answer": "423",
+    "correct_answer": "657",
+    "reason": "The question asks for the total meals sold across both days. The provided answer only calculates the number of meals sold on Tuesday (234+189 = 423). The correct calculation is 234 + (234+189) = 234 + 423 = 657",
+    "set_id": "2-addition-3-digit-2",
+    "set_title": "3-Digit - Set 2"
+  },
+  {
+    "question_text": "There are 54 students in the class and the teacher has 9 boxes of crayons. If the crayons are shared equally, how many crayons will be left over?",
+    "current_answer": "3",
+    "correct_answer": "0",
+    "reason": "The question states that the crayons are shared equally, so 54 divided by 9 is exactly 6 with a remainder of 0.",
+    "set_id": "3-division-remainders-2",
+    "set_title": "Remainders - Set 2"
+  },
+  {
+    "question_text": "There are 81 students in the cafeteria and they are being served lunch in groups of 7. How many students will be left without a lunch?",
+    "current_answer": "0",
+    "correct_answer": "4",
+    "reason": "81 divided by 7 is 11 with a remainder of 4.",
+    "set_id": "3-division-remainders-2",
+    "set_title": "Remainders - Set 2"
+  },
+  {
+    "question_text": "How many prime numbers are there between 1 and 20?",
+    "current_answer": "8",
+    "correct_answer": "8",
+    "reason": "The answer is correct, but the option '8' is not present in the 'options' list.",
+    "set_id": "4-multiplication-prime-numbers-1",
+    "set_title": "Prime Numbers - Set 1"
+  },
+  {
+    "question_text": "If you have 20 apples, and you want to put them in prime number groups, how many groups will you have?",
+    "current_answer": "5",
+    "correct_answer": "2, 3, 5, 7, 11, 13, 17, 19",
+    "reason": "The question is asking how many different *sizes* of prime number groups you *could* make from the apples, not how many groups you can literally make. 20 apples could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, or 19 (if we were talking about more apples). The number of groups isn't limited by the number of apples, but rather what prime numbers we could choose. The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.",
+    "set_id": "4-multiplication-prime-numbers-1",
+    "set_title": "Prime Numbers - Set 1"
+  },
+  {
+    "question_text": "What is the product of the first three prime numbers?",
+    "current_answer": "6",
+    "correct_answer": "30",
+    "reason": "The first three prime numbers are 2, 3, and 5. Their product is 2 * 3 * 5 = 30, not 6. The explanation in the original question is incorrect.",
+    "set_id": "4-multiplication-prime-numbers-1",
+    "set_title": "Prime Numbers - Set 1"
+  },
+  {
+    "question_text": "If you have 24 pencils, and you want to put them in prime number groups, how many groups will you have?",
+    "current_answer": "4",
+    "correct_answer": "2, 3, 5, 7, 11, 13, 17, 19, 23",
+    "reason": "The question is asking how many different *sizes* of prime number groups you *could* make from the pencils, not how many groups you can literally make. 24 pencils could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, 19 or 23 (if we were talking about more pencils). The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.",
+    "set_id": "4-multiplication-prime-numbers-1",
+    "set_title": "Prime Numbers - Set 1"
+  },
+  {
+    "question_text": "If you have 30 marbles, and you want to put them in prime number groups, how many groups will you have?",
+    "current_answer": "6",
+    "correct_answer": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29",
+    "reason": "The question is asking how many different *sizes* of prime number groups you *could* make from the marbles, not how many groups you can literally make. 30 marbles could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, 19, 23 or 29 (if we were talking about more marbles). The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.",
+    "set_id": "4-multiplication-prime-numbers-1",
+    "set_title": "Prime Numbers - Set 1"
+  },
+  {
+    "question_text": "If a box holds 12 apples, how many prime numbers of boxes are needed to hold 96 apples?",
+    "current_answer": "8",
+    "correct_answer": "null",
+    "reason": "The question is nonsensical. It asks for prime numbers of boxes needed, but the calculation results in 8 boxes which is the total number of boxes, not a prime number of boxes needed. The explanation also lists prime numbers incorrectly and doesn't relate them to the question.",
+    "set_id": "4-multiplication-prime-numbers-4",
+    "set_title": "Prime Numbers - Set 4"
+  },
+  {
+    "question_text": "A farmer has 24 chickens. If each chicken lays 2 eggs per day, how many prime numbers of days will it take for the farmer to collect 288 eggs?",
+    "current_answer": "12",
+    "correct_answer": "null",
+    "reason": "The question is nonsensical. The calculation results in 6 days, which is the total number of days. The question asks about the prime number of days needed, and the explanation is flawed. The question is asking how many prime numbers occur before the result. From the explanation, there are 3 prime numbers before the result: 2,3,5.",
+    "set_id": "4-multiplication-prime-numbers-4",
+    "set_title": "Prime Numbers - Set 4"
+  },
+  {
+    "question_text": "A baker makes 21 loaves of bread per day. If she wants to make 126 loaves, how many prime numbers of days will it take her?",
+    "current_answer": "6",
+    "correct_answer": "null",
+    "reason": "The question is nonsensical. The calculation results in 6 days which is the total number of days, not a prime number of days needed. The question is asking how many prime numbers occur before the result. From the explanation, there are 3 prime numbers before the result: 2,3,5.",
+    "set_id": "4-multiplication-prime-numbers-4",
+    "set_title": "Prime Numbers - Set 4"
+  },
+  {
+    "question_text": "A grocery store sells 5 types of apples. If each type of apple comes in a prime number of bags, and the store has a total of 35 bags of apples, how many types of apples does the store sell?",
+    "current_answer": "7",
+    "correct_answer": "5",
+    "reason": "The premise 'each type of apple comes in a prime number of bags' is irrelevant, as the question states the store sells 5 types of apples. The answer 7 is obtained by incorrectly assuming the question is asking to list the types of apples in prime numbers of bags and also doing the division wrong.",
+    "set_id": "4-multiplication-prime-numbers-4",
+    "set_title": "Prime Numbers - Set 4"
+  },
+  {
+    "question_text": "If a bakery sells 4 dozen cookies per day, how many cookies will they sell in 5 days?",
+    "current_answer": "180 cookies",
+    "correct_answer": "240 cookies",
+    "reason": "4 dozen cookies is 4 * 12 = 48 cookies per day. Over 5 days, that's 48 * 5 = 240 cookies, not 180.",
+    "set_id": "4-multiplication-word-problems-3",
+    "set_title": "Word Problems - Set 3"
+  },
+  {
+    "question_text": "A restaurant serves 5 tables, and each table has an average of 4 customers. If the restaurant is open for 6 days, how many total customers will the restaurant serve?",
+    "current_answer": "240 customers",
+    "correct_answer": "120 customers",
+    "reason": "5 tables with 4 customers each is 5 * 4 = 20 customers per day. Over 6 days, that's 20 * 6 = 120 customers, not 240.",
+    "set_id": "4-multiplication-word-problems-3",
+    "set_title": "Word Problems - Set 3"
+  },
+  {
+    "question_text": "A baseball team has 9 players, and each player needs 3 baseballs for practice. If the team practices for 5 days, how many baseballs will they use in total?",
+    "current_answer": "225 baseballs",
+    "correct_answer": "135 baseballs",
+    "reason": "9 players needing 3 baseballs each is 9 * 3 = 27 baseballs per day. Over 5 days, that's 27 * 5 = 135 baseballs, not 225.",
+    "set_id": "4-multiplication-word-problems-3",
+    "set_title": "Word Problems - Set 3"
+  },
+  {
+    "question_text": "There are 2,678 books in a library. If the librarian wants to put the books on shelves that can hold 15 books each, how many shelves does the library need?",
+    "current_answer": "179",
+    "correct_answer": "178",
+    "reason": "2678 divided by 15 is 178 with a remainder of 8.  The question implies that all books must be placed on a shelf, so if there is a remainder, another shelf is needed. However, the question asks 'how many shelves does the library need', which should be interpreted as the number of shelves that will be completely filled. With a remainder of 8 books and a question asking how many shelves will be 'completely filled' the correct answer should be 178 and NOT 179.",
+    "set_id": "4-division-long-division-1",
+    "set_title": "Long Division - Set 1"
+  },
+  {
+    "question_text": "A construction company has 4,735 nails and needs to use them to build 25 birdhouses. If each birdhouse requires the same number of nails, how many nails will each birdhouse use?",
+    "current_answer": "189",
+    "correct_answer": "189",
+    "reason": "4735 / 25 = 189 with a remainder of 10. While the calculation is correct (189), a remainder of 10 is not addressed and makes the question ambiguous since the instructions say each birdhouse must use the same number of nails.",
+    "set_id": "4-division-long-division-1",
+    "set_title": "Long Division - Set 1"
+  },
+  {
+    "question_text": "Sara has 3,456 pencils that she wants to distribute equally among 16 classrooms. How many pencils will each classroom receive?",
+    "current_answer": "215 pencils",
+    "correct_answer": "216 pencils",
+    "reason": "3456 divided by 16 is 216, not 215. The explanation and answer are incorrect.",
+    "set_id": "4-division-long-division-2",
+    "set_title": "Long Division - Set 2"
+  },
+  {
+    "question_text": "A baseball team has 12,456 baseball cards that they want to distribute equally among 48 players. How many cards will each player receive?",
+    "current_answer": "260 cards",
+    "correct_answer": "259 cards",
+    "reason": "12,456 divided by 48 is 259.5. However since it is a question about distributing items, we only need the whole number which is 259, not 260. The explanation and answer are incorrect.",
+    "set_id": "4-division-long-division-2",
+    "set_title": "Long Division - Set 2"
+  },
+  {
+    "question_text": "A teacher has 1,728 colored pencils that need to be divided evenly among 6 classrooms. How many colored pencils will each classroom receive?",
+    "current_answer": "288 pencils",
+    "correct_answer": "288 pencils",
+    "reason": "The provided answer '288 pencils' is present in the explanation but not in the list of options provided to choose from. This is flagged because it is not selectable from the options presented.",
+    "set_id": "4-division-long-division-4",
+    "set_title": "Long Division - Set 4"
+  },
+  {
+    "question_text": "A library has 2,835 books that need to be divided evenly among 7 shelves. How many books will be on each shelf?",
+    "current_answer": "405 books",
+    "correct_answer": "405 books",
+    "reason": "The provided answer '405 books' is present in the explanation but not in the list of options provided to choose from. This is flagged because it is not selectable from the options presented.",
+    "set_id": "4-division-long-division-4",
+    "set_title": "Long Division - Set 4"
+  },
+  {
+    "question_text": "A factory produces 4,256 bolts per day and needs to divide them equally among 8 shipping containers. How many bolts will be in each shipping container?",
+    "current_answer": "532 bolts",
+    "correct_answer": "532 bolts",
+    "reason": "The provided answer '532 bolts' is present in the explanation but not in the list of options provided to choose from. This is flagged because it is not selectable from the options presented.",
+    "set_id": "4-division-long-division-4",
+    "set_title": "Long Division - Set 4"
+  },
+  {
+    "question_text": "A construction company has 6,912 nails that need to be divided equally among 9 work sites. How many nails will each work site receive?",
+    "current_answer": "768 nails",
+    "correct_answer": "768 nails",
+    "reason": "The provided answer '768 nails' is present in the explanation but not in the list of options provided to choose from. This is flagged because it is not selectable from the options presented.",
+    "set_id": "4-division-long-division-4",
+    "set_title": "Long Division - Set 4"
+  },
+  {
+    "question_text": "A bakery has 9,240 cookies that need to be divided equally among 12 local cafes. How many cookies will each cafe receive?",
+    "current_answer": "770 cookies",
+    "correct_answer": "770 cookies",
+    "reason": "The provided answer '770 cookies' is present in the explanation but not in the list of options provided to choose from. This is flagged because it is not selectable from the options presented.",
+    "set_id": "4-division-long-division-4",
+    "set_title": "Long Division - Set 4"
+  },
+  {
+    "question_text": "A bakery made 246 cupcakes. If they were divided equally among 12 customers, how many cupcakes did each customer receive?",
+    "current_answer": "20",
+    "correct_answer": "20 R 6",
+    "reason": "246 divided by 12 is 20 with a remainder of 6. The provided answer is correct numerically to the nearest whole number, but the problem should acknowledge the remainder or specify what to do with it.",
+    "set_id": "4-division-2-digit-divisors-1",
+    "set_title": "2-Digit Divisors - Set 1"
+  },
+  {
+    "question_text": "A company has 825 employees. If the company wants to give each employee a $50 bonus, how much money will the company need to pay in total?",
+    "current_answer": "$41,250",
+    "correct_answer": "$41,250",
+    "reason": "This is a multiplication problem not division. The original question asks to divide, should be a multiplication problem.",
+    "set_id": "4-division-2-digit-divisors-1",
+    "set_title": "2-Digit Divisors - Set 1"
+  },
+  {
+    "question_text": "A school has 952 books in their library. If the books are divided equally among 32 classrooms, how many books will each classroom receive?",
+    "current_answer": "29",
+    "correct_answer": "29 R 24",
+    "reason": "952 divided by 32 is 29 with a remainder of 24. The answer should acknowledge the remainder.",
+    "set_id": "4-division-2-digit-divisors-1",
+    "set_title": "2-Digit Divisors - Set 1"
+  },
+  {
+    "question_text": "Max has 8.72 kilograms of apples. If he rounds this amount to the nearest tenth, how many kilograms of apples does he have?",
+    "current_answer": "8.7 kg",
+    "correct_answer": "8.8 kg",
+    "reason": "8.72 rounded to the nearest tenth is 8.7, but since the hundredths digit is 2 it should be rounded up to 8.8.",
+    "set_id": "4-decimals-rounding-4",
+    "set_title": "Rounding - Set 4"
+  },
+  {
+    "question_text": "A book costs $12.49. If the price is rounded to the nearest dollar, how much will the book cost?",
+    "current_answer": "$12.00",
+    "correct_answer": "$12.00",
+    "reason": "8.72 rounded to the nearest tenth is 8.7, but since the hundredths digit is 2 it should be rounded up to 8.8.",
+    "set_id": "4-decimals-rounding-4",
+    "set_title": "Rounding - Set 4"
+  },
+  {
+    "question_text": "A bakery sells cupcakes for $1.25 each. If Samantha buys 4 cupcakes and pays with a $10.00 bill, how much change will she receive?",
+    "current_answer": "$6.75",
+    "correct_answer": "$5.00",
+    "reason": "The explanation says 4 x $1.25 = $5.00, and $10.00 - $5.00 = $5.00, but the current answer is $6.75.",
+    "set_id": "5-decimals-operations-1",
+    "set_title": "Operations - Set 1"
+  },
+  {
+    "question_text": "A farmer has 12.85 acres of land. He wants to divide the land equally among his 3 children. How many acres will each child receive?",
+    "current_answer": "4.28 acres",
+    "correct_answer": "4.283333333333333 acres",
+    "reason": "12.85 / 3 = 4.283333333333333, which has been rounded down to 4.28. While 4.28 is the closest answer provided, it is inaccurate when the full decimal amount is required.",
+    "set_id": "5-decimals-operations-1",
+    "set_title": "Operations - Set 1"
+  },
+  {
+    "question_text": "A farmer harvested 4.92 acres of crops. Rounded to the nearest tenth, how many acres of crops did the farmer harvest?",
+    "current_answer": "4.9",
+    "correct_answer": "4.9",
+    "reason": "4.  92 rounded to the nearest tenth is 4.9",
+    "set_id": "5-decimals-rounding-1",
+    "set_title": "Rounding - Set 1"
+  },
+  {
+    "question_text": "The weight of a large pumpkin is 8.64 kilograms. If the weight is rounded to the nearest 0.5 kilogram, what is the new weight of the pumpkin?",
+    "current_answer": "8.5 kilograms",
+    "correct_answer": "8.5 kilograms",
+    "reason": "No error. Actually, 8.64 rounded to the nearest 0.5 is 8.5 or 9. However, 8.5 is closer. Current and correct answers are the same.",
+    "set_id": "5-decimals-rounding-2",
+    "set_title": "Rounding - Set 2"
+  },
+  {
+    "question_text": "The length of a piece of string is 27.56 centimeters. If the length is rounded to the nearest 5 centimeters, what is the new length of the string?",
+    "current_answer": "30 centimeters",
+    "correct_answer": "30 centimeters",
+    "reason": "No error. Current and correct answers are the same.",
+    "set_id": "5-decimals-rounding-2",
+    "set_title": "Rounding - Set 2"
+  },
+  {
+    "question_text": "A construction worker needs to order 5.76 meters of wood for a project. If the wood is sold in 0.25 meter increments, how many meters of wood should the worker order?",
+    "current_answer": "6 meters",
+    "correct_answer": "5.75 meters",
+    "reason": "Rounding 5.76 to the nearest 0.25 meter increment is 5.75, not 6.",
+    "set_id": "5-decimals-rounding-4",
+    "set_title": "Rounding - Set 4"
+  },
+  {
+    "question_text": "Jayden bought 5 pencils at $0.75 each and 2 notebooks at $1.50 each. What was the total amount he spent?",
+    "current_answer": "$6.25",
+    "correct_answer": "$6.75",
+    "reason": "5 pencils at $0.75 each is $3.75. 2 notebooks at $1.50 each is $3.00.  $3.75 + $3.00 = $6.75, not $6.25.",
+    "set_id": "5-decimals-word-problems-1",
+    "set_title": "Word Problems - Set 1"
+  },
+  {
+    "question_text": "Alicia bought 3 bags of apples that cost $1.79 each. She also bought 2 bags of oranges that cost $2.50 each. What was the total cost of her purchase?",
+    "current_answer": "$12.87",
+    "correct_answer": "$10.37",
+    "reason": "3 * $1.79 = $5.37 and 2 * $2.50 = $5.00.  $5.37 + $5.00 = $10.37, not $12.87",
+    "set_id": "5-decimals-word-problems-3",
+    "set_title": "Word Problems - Set 3"
+  },
+  {
+    "question_text": "Ava bought 5.3 pounds of apples for $2.49 per pound. She also bought 3.8 pounds of oranges for $1.79 per pound. What was the total cost of her purchase?",
+    "current_answer": "$27.93",
+    "correct_answer": "$20.74",
+    "reason": "5.3 * $2.49 = $13.197 which rounds to $13.20. 3.8 * $1.79 = $6.802 which rounds to $6.80. $13.20 + $6.80 = $20.00, not $27.93. The values used in the explanation are incorrect. 5.3 * 2.49 = 13.197, rounded to 13.20. 3.8 * 1.79 = 6.802, rounded to 6.80. 13.20 + 6.80 = 20.00. The answer is still wrong. Recalculating: 5.3 * 2.49 = 13.197, rounds to 13.20. 3.8 * 1.79 = 6.802, rounds to 6.80. 13.197 + 6.802 = 19.999. Rounding to nearest cent: $20.00. Closest option is $20.74. The explanation should state that 5.3 * 2.49 = $13.20 and 3.8 * 1.79 = $6.80. $13.20 + $6.80 = $20.00.",
+    "set_id": "5-decimals-word-problems-3",
+    "set_title": "Word Problems - Set 3"
+  },
+  {
+    "question_text": "Emma's dog weighs 12.5 pounds. What is the weight in pounds and ounces?",
+    "current_answer": "12 pounds and 5 ounces",
+    "correct_answer": "12 and a half pounds",
+    "reason": "The decimal .5 in 12.5 pounds represents one half of a pound. The options include '12 and a half pounds' which is a more direct and correct answer than 12 pounds and 5 ounces as there are 16 ounces in a pound, so half a pound is 8 ounces, not 5.",
+    "set_id": "5-decimals-converting-1",
+    "set_title": "Converting - Set 1"
+  },
+  {
+    "question_text": "A field is 5.2 acres in size. What is the area of the field in square feet?",
+    "current_answer": "226,872 square feet",
+    "correct_answer": "226,512 square feet",
+    "reason": "The calculation 5.2 x 43,560 equals 226,512, not 226,872. The initially provided answer is incorrect, but the calculation in the explanation is correct. The answer should align with the explanation.",
+    "set_id": "5-decimals-converting-1",
+    "set_title": "Converting - Set 1"
+  },
+  {
+    "question_text": "A family drove 45.6 miles to get to the beach. How many kilometers did they drive?",
+    "current_answer": "73.5 km",
+    "correct_answer": "73.4 km",
+    "reason": "The calculation 45.6 x 1.609 equals 73.3704, which rounds to 73.4 km, not 73.5 km. The initially provided answer is slightly off due to rounding.",
+    "set_id": "5-decimals-converting-1",
+    "set_title": "Converting - Set 1"
+  },
+  {
+    "question_text": "Which decimal is greater: 0.453, 0.45, or 0.4501?",
+    "current_answer": "0.4501",
+    "correct_answer": "0.453",
+    "reason": "0.453 is greater than 0.4501 and 0.45. We can think of 0.45 as 0.4500 and 0.453 as 0.4530. Comparing 0.4530, 0.4501, and 0.4500, we see that 0.4530 is the largest.",
+    "set_id": "5-decimals-comparing-1",
+    "set_title": "Comparing - Set 1"
+  },
+  {
+    "question_text": "Which decimal is greater: 0.6789, 0.679, or 0.67?",
+    "current_answer": "0.6789",
+    "correct_answer": "0.679",
+    "reason": "0.679 is equivalent to 0.6790. Comparing 0.6789 and 0.6790, 0.6790 is greater. Therefore, 0.679 is the greatest value.",
+    "set_id": "5-decimals-comparing-1",
+    "set_title": "Comparing - Set 1"
+  },
+  {
+    "question_text": "Evaluate the expression: 12 \u00f7 (3 + 2) \u00d7 2?",
+    "current_answer": "8",
+    "correct_answer": "4.8",
+    "reason": "The explanation is correct, but the calculation 12 / 5 * 2 results in 4.8, not 8.",
+    "set_id": "7-pre-algebra-order-of-operations-1",
+    "set_title": "Order of Operations - Set 1"
+  },
+  {
+    "question_text": "Simplify: (5 \u00d7 3) - (4 + 1)?",
+    "current_answer": "11",
+    "correct_answer": "10",
+    "reason": "The explanation states the correct steps, but the final result of 15 - 5 is 10, not 11.",
+    "set_id": "7-pre-algebra-order-of-operations-1",
+    "set_title": "Order of Operations - Set 1"
+  },
+  {
+    "question_text": "Calculate: (2 + 3)\u00b2 \u00d7 4?",
+    "current_answer": "49",
+    "correct_answer": "100",
+    "reason": "The explanation is correct, however, the answer to 5 squared (25) multiplied by 4 is 100, not 49.",
+    "set_id": "7-pre-algebra-order-of-operations-1",
+    "set_title": "Order of Operations - Set 1"
+  },
+  {
+    "question_text": "Evaluate: (8 - 2) \u00d7 [3 + (4 \u00f7 2)]?",
+    "current_answer": "20",
+    "correct_answer": "30",
+    "reason": "The steps in the explanation are correct, but the result of 6 * 5 is 30, not 20.",
+    "set_id": "7-pre-algebra-order-of-operations-1",
+    "set_title": "Order of Operations - Set 1"
+  },
+  {
+    "question_text": "Simplify the expression: 2(x - 3) + 4x.",
+    "current_answer": "6x - 2",
+    "correct_answer": "6x - 6",
+    "reason": "2(x-3) + 4x = 2x - 6 + 4x = 6x - 6",
+    "set_id": "7-pre-algebra-expressions-1",
+    "set_title": "Expressions - Set 1"
+  },
+  {
+    "question_text": "If a trapezoid has one base of 8 cm, another base of 12 cm, and legs of equal length, what is the height if the area of the trapezoid is 60 cm\u00b2?",
+    "current_answer": "6 cm",
+    "correct_answer": "6 cm",
+    "reason": "The explanation incorrectly calculates 60 = 10h resulting in h = 12 cm / 5 = 2.4 cm. The correct calculation should be 60 = (1/2) * (8 + 12) * h => 60 = 10h => h = 6 cm",
+    "set_id": "7-geometry-quadrilaterals-1",
+    "set_title": "Quadrilaterals - Set 1"
+  },
+  {
+    "question_text": "In an isosceles trapezoid ABCD, AB || CD, AD = BC = 8 cm, and the height from A to CD is 6 cm. What is the length of base AB if the area is 96 square cm?",
+    "current_answer": "16 cm",
+    "correct_answer": "16 cm",
+    "reason": "The answer is correct, however, the explanation states that we don't have enough information to solve for both bases. It implies that the provided information is insufficient when it is indeed sufficient. The correct explanation should be: Area = (1/2) * (AB + CD) * height. Let AB = x and CD = y. 96 = (1/2) * (x + y) * 6 => 32 = x + y. Since no further information is given and options are provided, one can use test each of the options in the equation to check whether it is a feasible answer. Also since AB || CD, it can be reasonably assumed AB and CD refer to the parallel sides/bases of the trapezoid. If we let AB (the shorter side) equal 16 then CD will equal 16 also, making the isosceles trapezoid a rectangle which satisfies conditions when calculated backwards.",
+    "set_id": "7-geometry-quadrilaterals-1",
+    "set_title": "Quadrilaterals - Set 1"
+  },
+  {
+    "question_text": "If each interior angle of a quadrilateral measures 90 degrees, what type of quadrilateral is it?",
+    "current_answer": "Rectangle",
+    "correct_answer": "Square",
+    "reason": "While a rectangle has 90-degree angles, a square also fits the description. A square is a more specific answer. A rectangle could have sides of unequal length.",
+    "set_id": "7-geometry-quadrilaterals-2",
+    "set_title": "Quadrilaterals - Set 2"
+  },
+  {
+    "question_text": "Illustration: A quadrilateral with one pair of parallel sides and another pair of parallel sides that are not congruent is a ___________.",
+    "current_answer": "Trapezoid",
+    "correct_answer": "None",
+    "reason": "The description implies two pairs of parallel sides, which would be a parallelogram. A trapezoid only has one pair of parallel sides. The question is fundamentally flawed. There is no answer in the given options. There should not be another pair of parallel sides that are not congruent. There should only be the one pair of parallel sides.",
+    "set_id": "7-geometry-quadrilaterals-2",
+    "set_title": "Quadrilaterals - Set 2"
+  },
+  {
+    "question_text": "Which of the following statements about trapezoids is true?",
+    "current_answer": "All trapezoids have two pairs of parallel sides",
+    "correct_answer": "A rectangle is a type of trapezoid",
+    "reason": "A trapezoid has *at least* one pair of parallel sides. A rectangle has two pairs of parallel sides and is therefore a trapezoid.",
+    "set_id": "7-geometry-quadrilaterals-3",
+    "set_title": "Quadrilaterals - Set 3"
   }
-}
+]

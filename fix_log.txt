@@ -1,0 +1,329 @@
+Fixed 65 questions. Deleted 1 questions. Skipped 35 false positives.
+
+[FIX] Set: 1-comparing-numbers
+Q: Which equals 10: 5+5 or 6+3?
+Old Answer: Both -> New Answer: Both
+Reason: Both 5+5 and 6+3 equal 10.
+
+[FIX] Set: 4-line-plots
+Q: If there are 3 X's above 5, what does it mean?
+Old Answer: 3 data points at 5 -> New Answer: 3 data points at 5
+Reason: While '3 fives' can be interpreted as 3 data points at the value of 5, it is not precise terminology and the correct answer among the given options is '3 data points at 5'. The answer 'Both A and B' implies 3 fives represents 15 which is incorrect.
+
+[FIX] Set: k-compare-11
+Q: Which group has LESS?
+Old Answer: They are equal -> New Answer: They are equal
+Reason: The image 'compare-5-1.svg' shows an equal number of objects in both the left (blue) and right (pink) groups.
+
+[FIX] Set: g0-shapes-easy
+Q: Is this a circle or a square?
+Old Answer: The question is unanswerable as the shape is not provided. -> New Answer: The question is unanswerable as the shape is not provided.
+Reason: The question 'Is this a circle or a square?' requires an image or further context describing 'this' to determine the correct answer. Without a visual or description, it's impossible to definitively say if the answer 'Circle' is correct or not.
+
+[FIX] Set: g0-counting-medium
+Q: 10, 30, 50... What's missing?
+Old Answer: 20 -> New Answer: 40
+Reason: The sequence is counting by tens, but skipping every other ten. Therefore, 40 is the missing number, not 20. 10, (20), 30, (40), 50. Question should read '10, __, 30, __, 50'
+
+[FIX] Set: g0-counting-medium
+Q: Is 35 closer to 30 or 40?
+Old Answer: Neither -> New Answer: Neither
+Reason: 35 is exactly in the middle of 30 and 40, so it is the same distance from both. Therefore, neither is the correct answer.
+
+[FIX] Set: g2-problem-solving-hard
+Q: Sue had 5 books. She read 2, then borrowed 6 more. How many now?
+Old Answer: 11 -> New Answer: 11
+Reason: The explanation incorrectly states Sue has 11 books when the correct answer should be 5 + 6 = 11.
+
+[DELETE] Set: g3-fractions-medium | Q: 1/10 is bigger than what unit fraction?
+Reason: The question asks '1/10 is bigger than what unit fraction?' and gives options that are all bigger than 1/10. The question is flawed. 1/10 is SMALLER than 1/2, 1/5, 1/9 and 1/3. Should be '1/10 is smaller than what unit fraction?'
+
+[FIX] Set: 0-counting-23
+Q: Which group has 17 objects?
+Old Answer: OOOOOOOOOOOOOOOOOOO -> New Answer: OOOOOOOOOOOOOOOOO
+Reason: The provided answer has 18 objects, not 17.
+
+[FIX] Set: 0-counting-24
+Q: Which set shows 16 items?
+Old Answer: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ -> New Answer: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+Reason: The correct answer should have 16 stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+
+[FIX] Set: 0-counting-25
+Q: Count the stars: * * * * * * * * * * * *  How many stars?
+Old Answer: 12 -> New Answer: 13
+Reason: There are 13 stars in the group, not 12.
+
+[FIX] Set: 0-counting-25
+Q: Which group has 16 circles?
+Old Answer: OOOOOOOOOOOOOOOO -> New Answer: OOOOOOOOOOOOOO
+Reason: The group 'OOOOOOOOOOOOOO' has 16 circles. The 'OOOOOOOOOOOOOOOO' group has 17 circles.
+
+[FIX] Set: 0-counting-26
+Q: Which number is shown below? ||||||||||||||||
+Old Answer: 11 -> New Answer: 18
+Reason: There are 18 tally marks shown, not 16.
+
+[FIX] Set: 0-counting-27
+Q: Count the stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+Old Answer: 11 -> New Answer: 12
+Reason: There are 12 stars, not 11.
+
+[FIX] Set: 0-counting-29
+Q: Which group has 17 items?
+Old Answer: OOOOOOOOOOOOOOOOO -> New Answer: OOOOOOOOOOOOOOOOOO
+Reason: The group with 17 items should have 17 'O's, which is represented by OOOOOOOOOOOOOOOOOO (17 O's).
+
+[FIX] Set: 0-counting-30
+Q: Count the stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+Old Answer: 12 -> New Answer: 13
+Reason: There are 13 stars displayed, not 12.
+
+[FIX] Set: 0-counting-30
+Q: Which group has 15 items?
+Old Answer: OOOO OOOO OOOO O -> New Answer: OOOO OOOO OOOO OOO
+Reason: "OOOO OOOO OOOO O" only has 13 items, not 15. The correct answer is "OOOO OOOO OOOO OOO" which has 15 items.
+
+[FIX] Set: 0-counting-31
+Q: Count the stars: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ How many stars are there?
+Old Answer: 11 -> New Answer: 12
+Reason: There are 12 stars in the image, not 11.
+
+[FIX] Set: 0-shapes-25
+Q: If you put two triangles together, what shape can you make?
+Old Answer: Square -> New Answer: Rectangle
+Reason: While two right-angled triangles can form a square, two arbitrary triangles can also form a rectangle or parallelogram. Rectangle is a more general case fitting the description better, as it does not limit the type of triangles needed to form the shape.
+
+[FIX] Set: 0-shapes-29
+Q: If you put two triangles together, what shape can you make?
+Old Answer: B -> New Answer: D
+Reason: The answer should be D because it depends on the triangles used. You could make a triangle, a parallelogram, or other shapes, not just a rectangle.
+
+[FIX] Set: 0-shapes-30
+Q: If you put two triangles together, what shape can you make?
+Old Answer: Square -> New Answer: Square/Rectangle/Parallelogram/Rhombus
+Reason: Two triangles can make a square, a rectangle, a parallelogram, or a rhombus depending on the type of triangle and how they are joined.
+
+[FIX] Set: 0-shapes-31
+Q: A square and a triangle are put together. How many sides are there total if you count all the sides touching?
+Old Answer: 7 -> New Answer: 5
+Reason: The question asks how many sides are there in total when the shapes are put together which means we do not count the touching sides. A square has 4 sides and a triangle has 3 sides, and when put together have 2 sides touching. 4 + 3 - 2 = 5.
+
+[FIX] Set: 0-shapes-31
+Q: Which shape can you make by putting two triangles together?
+Old Answer: Square -> New Answer: None of these
+Reason: Two triangles can form a square, a rectangle, a parallelogram, or another triangle, depending on their shapes. Thus the best answer would be None of these.
+
+[FIX] Set: 0-shapes-8
+Q: What comes next: Circle, Square, Circle, Square, ?
+Old Answer: Square -> New Answer: Square
+Reason: The pattern is Circle, Square repeated. Therefore, the next shape is Square, not Circle.
+
+[FIX] Set: 1-measurement-length-1
+Q: Which object is longer than a notebook?
+Old Answer: A marker -> New Answer: A marker
+Reason: Assuming a standard notebook and marker, a marker would more likely be longer. A pencil's length can vary and might sometimes be shorter than a notebook.
+
+[FIX] Set: 1-measurement-length-1
+Q: Which object is the same length as a ruler?
+Old Answer: A pencil -> New Answer: A pencil
+Reason: The question asks for another object with the same length as a ruler, not the ruler itself. A pencil is the closest match given the options.
+
+[FIX] Set: 1-measurement-length-1
+Q: Which object is longer than a bed but shorter than a car?
+Old Answer: A tree -> New Answer: A tree
+Reason: A tree is most likely longer than a bed but generally shorter than a car. A sofa is usually not longer than a bed.
+
+[FIX] Set: 1-measurement-money-4
+Q: Jenna has 4 dimes and 2 nickels. How much money does Jenna have?
+Old Answer: $0.50 -> New Answer: $0.50
+Reason: 4 dimes is $0.40 and 2 nickels is $0.10, which add up to $0.50, not $0.70.
+
+[FIX] Set: 1-measurement-money-4
+Q: John has 2 one-dollar bills, 3 quarters, and 4 pennies. How much money does John have?
+Old Answer: $2.59 -> New Answer: $2.59
+Reason: The answer options provided do not contain the correct answer. 2 dollars is $2.00. 3 quarters is $0.75. 4 pennies is $0.04. The total is $2.79 not $2.41. The correct option is not included among the given options. The correct answer following the order of operations is $2.00 + $0.75 + $0.04 = $2.79
+
+[FIX] Set: 1-measurement-money-4
+Q: Lily has 1 one-dollar bill, 2 quarters, 1 dime, and 3 pennies. How much money does Lily have?
+Old Answer: $1.63 -> New Answer: $1.63
+Reason: The answer options provided do not contain the correct answer. 1 dollar is $1.00. 2 quarters is $0.50. 1 dime is $0.10. 3 pennies is $0.03. The total is $1.63 not $1.53. The correct option is not included among the given options. The correct answer following the order of operations is $1.00 + $0.50 + $0.10 + $0.03 = $1.63
+
+[FIX] Set: 2-addition-3-digit-2
+Q: On Monday, the school cafeteria sold 234 meals. On Tuesday, they sold 189 more meals than on Monday. How many meals did the cafeteria sell in total?
+Old Answer: 657 -> New Answer: 657
+Reason: The question asks for the total meals sold across both days. The provided answer only calculates the number of meals sold on Tuesday (234+189 = 423). The correct calculation is 234 + (234+189) = 234 + 423 = 657
+
+[FIX] Set: 3-division-remainders-2
+Q: There are 54 students in the class and the teacher has 9 boxes of crayons. If the crayons are shared equally, how many crayons will be left over?
+Old Answer: 0 -> New Answer: 0
+Reason: The question states that the crayons are shared equally, so 54 divided by 9 is exactly 6 with a remainder of 0.
+
+[FIX] Set: 3-division-remainders-2
+Q: There are 81 students in the cafeteria and they are being served lunch in groups of 7. How many students will be left without a lunch?
+Old Answer: 4 -> New Answer: 4
+Reason: 81 divided by 7 is 11 with a remainder of 4.
+
+[FIX] Set: 4-multiplication-prime-numbers-1
+Q: If you have 20 apples, and you want to put them in prime number groups, how many groups will you have?
+Old Answer: 2, 3, 5, 7, 11, 13, 17, 19 -> New Answer: 2, 3, 5, 7, 11, 13, 17, 19
+Reason: The question is asking how many different *sizes* of prime number groups you *could* make from the apples, not how many groups you can literally make. 20 apples could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, or 19 (if we were talking about more apples). The number of groups isn't limited by the number of apples, but rather what prime numbers we could choose. The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.
+
+[FIX] Set: 4-multiplication-prime-numbers-1
+Q: What is the product of the first three prime numbers?
+Old Answer: 30 -> New Answer: 30
+Reason: The first three prime numbers are 2, 3, and 5. Their product is 2 * 3 * 5 = 30, not 6. The explanation in the original question is incorrect.
+
+[FIX] Set: 4-multiplication-prime-numbers-1
+Q: If you have 24 pencils, and you want to put them in prime number groups, how many groups will you have?
+Old Answer: 2, 3, 5, 7, 11, 13, 17, 19, 23 -> New Answer: 2, 3, 5, 7, 11, 13, 17, 19, 23
+Reason: The question is asking how many different *sizes* of prime number groups you *could* make from the pencils, not how many groups you can literally make. 24 pencils could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, 19 or 23 (if we were talking about more pencils). The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.
+
+[FIX] Set: 4-multiplication-prime-numbers-1
+Q: If you have 30 marbles, and you want to put them in prime number groups, how many groups will you have?
+Old Answer: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 -> New Answer: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29
+Reason: The question is asking how many different *sizes* of prime number groups you *could* make from the marbles, not how many groups you can literally make. 30 marbles could be split into prime number groups of sizes 2, 3, 5, 7, 11, 13, 17, 19, 23 or 29 (if we were talking about more marbles). The prompt does not explicitly state to chose the number of groups to make as few as possible, it asks what groups of sizes you could create.
+
+[FIX] Set: 4-multiplication-prime-numbers-4
+Q: A grocery store sells 5 types of apples. If each type of apple comes in a prime number of bags, and the store has a total of 35 bags of apples, how many types of apples does the store sell?
+Old Answer: 5 -> New Answer: 5
+Reason: The premise 'each type of apple comes in a prime number of bags' is irrelevant, as the question states the store sells 5 types of apples. The answer 7 is obtained by incorrectly assuming the question is asking to list the types of apples in prime numbers of bags and also doing the division wrong.
+
+[FIX] Set: 4-multiplication-word-problems-3
+Q: If a bakery sells 4 dozen cookies per day, how many cookies will they sell in 5 days?
+Old Answer: 240 cookies -> New Answer: 240 cookies
+Reason: 4 dozen cookies is 4 * 12 = 48 cookies per day. Over 5 days, that's 48 * 5 = 240 cookies, not 180.
+
+[FIX] Set: 4-multiplication-word-problems-3
+Q: A restaurant serves 5 tables, and each table has an average of 4 customers. If the restaurant is open for 6 days, how many total customers will the restaurant serve?
+Old Answer: 120 customers -> New Answer: 120 customers
+Reason: 5 tables with 4 customers each is 5 * 4 = 20 customers per day. Over 6 days, that's 20 * 6 = 120 customers, not 240.
+
+[FIX] Set: 4-multiplication-word-problems-3
+Q: A baseball team has 9 players, and each player needs 3 baseballs for practice. If the team practices for 5 days, how many baseballs will they use in total?
+Old Answer: 135 baseballs -> New Answer: 135 baseballs
+Reason: 9 players needing 3 baseballs each is 9 * 3 = 27 baseballs per day. Over 5 days, that's 27 * 5 = 135 baseballs, not 225.
+
+[FIX] Set: 4-division-long-division-1
+Q: There are 2,678 books in a library. If the librarian wants to put the books on shelves that can hold 15 books each, how many shelves does the library need?
+Old Answer: 178 -> New Answer: 178
+Reason: 2678 divided by 15 is 178 with a remainder of 8.  The question implies that all books must be placed on a shelf, so if there is a remainder, another shelf is needed. However, the question asks 'how many shelves does the library need', which should be interpreted as the number of shelves that will be completely filled. With a remainder of 8 books and a question asking how many shelves will be 'completely filled' the correct answer should be 178 and NOT 179.
+
+[FIX] Set: 4-division-long-division-2
+Q: Sara has 3,456 pencils that she wants to distribute equally among 16 classrooms. How many pencils will each classroom receive?
+Old Answer: 216 pencils -> New Answer: 216 pencils
+Reason: 3456 divided by 16 is 216, not 215. The explanation and answer are incorrect.
+
+[FIX] Set: 4-division-long-division-2
+Q: A baseball team has 12,456 baseball cards that they want to distribute equally among 48 players. How many cards will each player receive?
+Old Answer: 259 cards -> New Answer: 259 cards
+Reason: 12,456 divided by 48 is 259.5. However since it is a question about distributing items, we only need the whole number which is 259, not 260. The explanation and answer are incorrect.
+
+[FIX] Set: 4-division-2-digit-divisors-1
+Q: A bakery made 246 cupcakes. If they were divided equally among 12 customers, how many cupcakes did each customer receive?
+Old Answer: 20 R 6 -> New Answer: 20 R 6
+Reason: 246 divided by 12 is 20 with a remainder of 6. The provided answer is correct numerically to the nearest whole number, but the problem should acknowledge the remainder or specify what to do with it.
+
+[FIX] Set: 4-division-2-digit-divisors-1
+Q: A school has 952 books in their library. If the books are divided equally among 32 classrooms, how many books will each classroom receive?
+Old Answer: 29 R 24 -> New Answer: 29 R 24
+Reason: 952 divided by 32 is 29 with a remainder of 24. The answer should acknowledge the remainder.
+
+[FIX] Set: 4-decimals-rounding-4
+Q: Max has 8.72 kilograms of apples. If he rounds this amount to the nearest tenth, how many kilograms of apples does he have?
+Old Answer: 8.8 kg -> New Answer: 8.8 kg
+Reason: 8.72 rounded to the nearest tenth is 8.7, but since the hundredths digit is 2 it should be rounded up to 8.8.
+
+[FIX] Set: 5-decimals-operations-1
+Q: A bakery sells cupcakes for $1.25 each. If Samantha buys 4 cupcakes and pays with a $10.00 bill, how much change will she receive?
+Old Answer: $5.00 -> New Answer: $5.00
+Reason: The explanation says 4 x $1.25 = $5.00, and $10.00 - $5.00 = $5.00, but the current answer is $6.75.
+
+[FIX] Set: 5-decimals-operations-1
+Q: A farmer has 12.85 acres of land. He wants to divide the land equally among his 3 children. How many acres will each child receive?
+Old Answer: 4.283333333333333 acres -> New Answer: 4.283333333333333 acres
+Reason: 12.85 / 3 = 4.283333333333333, which has been rounded down to 4.28. While 4.28 is the closest answer provided, it is inaccurate when the full decimal amount is required.
+
+[FIX] Set: 5-decimals-rounding-4
+Q: A construction worker needs to order 5.76 meters of wood for a project. If the wood is sold in 0.25 meter increments, how many meters of wood should the worker order?
+Old Answer: 5.75 meters -> New Answer: 5.75 meters
+Reason: Rounding 5.76 to the nearest 0.25 meter increment is 5.75, not 6.
+
+[FIX] Set: 5-decimals-word-problems-1
+Q: Jayden bought 5 pencils at $0.75 each and 2 notebooks at $1.50 each. What was the total amount he spent?
+Old Answer: $6.75 -> New Answer: $6.75
+Reason: 5 pencils at $0.75 each is $3.75. 2 notebooks at $1.50 each is $3.00.  $3.75 + $3.00 = $6.75, not $6.25.
+
+[FIX] Set: 5-decimals-word-problems-3
+Q: Alicia bought 3 bags of apples that cost $1.79 each. She also bought 2 bags of oranges that cost $2.50 each. What was the total cost of her purchase?
+Old Answer: $10.37 -> New Answer: $10.37
+Reason: 3 * $1.79 = $5.37 and 2 * $2.50 = $5.00.  $5.37 + $5.00 = $10.37, not $12.87
+
+[FIX] Set: 5-decimals-word-problems-3
+Q: Ava bought 5.3 pounds of apples for $2.49 per pound. She also bought 3.8 pounds of oranges for $1.79 per pound. What was the total cost of her purchase?
+Old Answer: $20.74 -> New Answer: $20.74
+Reason: 5.3 * $2.49 = $13.197 which rounds to $13.20. 3.8 * $1.79 = $6.802 which rounds to $6.80. $13.20 + $6.80 = $20.00, not $27.93. The values used in the explanation are incorrect. 5.3 * 2.49 = 13.197, rounded to 13.20. 3.8 * 1.79 = 6.802, rounded to 6.80. 13.20 + 6.80 = 20.00. The answer is still wrong. Recalculating: 5.3 * 2.49 = 13.197, rounds to 13.20. 3.8 * 1.79 = 6.802, rounds to 6.80. 13.197 + 6.802 = 19.999. Rounding to nearest cent: $20.00. Closest option is $20.74. The explanation should state that 5.3 * 2.49 = $13.20 and 3.8 * 1.79 = $6.80. $13.20 + $6.80 = $20.00.
+
+[FIX] Set: 5-decimals-converting-1
+Q: Emma's dog weighs 12.5 pounds. What is the weight in pounds and ounces?
+Old Answer: 12 and a half pounds -> New Answer: 12 and a half pounds
+Reason: The decimal .5 in 12.5 pounds represents one half of a pound. The options include '12 and a half pounds' which is a more direct and correct answer than 12 pounds and 5 ounces as there are 16 ounces in a pound, so half a pound is 8 ounces, not 5.
+
+[FIX] Set: 5-decimals-converting-1
+Q: A field is 5.2 acres in size. What is the area of the field in square feet?
+Old Answer: 226,512 square feet -> New Answer: 226,512 square feet
+Reason: The calculation 5.2 x 43,560 equals 226,512, not 226,872. The initially provided answer is incorrect, but the calculation in the explanation is correct. The answer should align with the explanation.
+
+[FIX] Set: 5-decimals-converting-1
+Q: A family drove 45.6 miles to get to the beach. How many kilometers did they drive?
+Old Answer: 73.4 km -> New Answer: 73.4 km
+Reason: The calculation 45.6 x 1.609 equals 73.3704, which rounds to 73.4 km, not 73.5 km. The initially provided answer is slightly off due to rounding.
+
+[FIX] Set: 5-decimals-comparing-1
+Q: Which decimal is greater: 0.453, 0.45, or 0.4501?
+Old Answer: 0.453 -> New Answer: 0.453
+Reason: 0.453 is greater than 0.4501 and 0.45. We can think of 0.45 as 0.4500 and 0.453 as 0.4530. Comparing 0.4530, 0.4501, and 0.4500, we see that 0.4530 is the largest.
+
+[FIX] Set: 5-decimals-comparing-1
+Q: Which decimal is greater: 0.6789, 0.679, or 0.67?
+Old Answer: 0.679 -> New Answer: 0.679
+Reason: 0.679 is equivalent to 0.6790. Comparing 0.6789 and 0.6790, 0.6790 is greater. Therefore, 0.679 is the greatest value.
+
+[FIX] Set: 7-pre-algebra-order-of-operations-1
+Q: Evaluate the expression: 12 ÷ (3 + 2) × 2?
+Old Answer: 4.8 -> New Answer: 4.8
+Reason: The explanation is correct, but the calculation 12 / 5 * 2 results in 4.8, not 8.
+
+[FIX] Set: 7-pre-algebra-order-of-operations-1
+Q: Simplify: (5 × 3) - (4 + 1)?
+Old Answer: 10 -> New Answer: 10
+Reason: The explanation states the correct steps, but the final result of 15 - 5 is 10, not 11.
+
+[FIX] Set: 7-pre-algebra-order-of-operations-1
+Q: Calculate: (2 + 3)² × 4?
+Old Answer: 100 -> New Answer: 100
+Reason: The explanation is correct, however, the answer to 5 squared (25) multiplied by 4 is 100, not 49.
+
+[FIX] Set: 7-pre-algebra-order-of-operations-1
+Q: Evaluate: (8 - 2) × [3 + (4 ÷ 2)]?
+Old Answer: 30 -> New Answer: 30
+Reason: The steps in the explanation are correct, but the result of 6 * 5 is 30, not 20.
+
+[FIX] Set: 7-pre-algebra-expressions-1
+Q: Simplify the expression: 2(x - 3) + 4x.
+Old Answer: 6x - 2 -> New Answer: 6x - 6
+Reason: 2(x-3) + 4x = 2x - 6 + 4x = 6x - 6
+
+[FIX] Set: 7-geometry-quadrilaterals-2
+Q: If each interior angle of a quadrilateral measures 90 degrees, what type of quadrilateral is it?
+Old Answer: Square -> New Answer: Square
+Reason: While a rectangle has 90-degree angles, a square also fits the description. A square is a more specific answer. A rectangle could have sides of unequal length.
+
+[FIX] Set: 7-geometry-quadrilaterals-2
+Q: Illustration: A quadrilateral with one pair of parallel sides and another pair of parallel sides that are not congruent is a ___________.
+Old Answer: None -> New Answer: None
+Reason: The description implies two pairs of parallel sides, which would be a parallelogram. A trapezoid only has one pair of parallel sides. The question is fundamentally flawed. There is no answer in the given options. There should not be another pair of parallel sides that are not congruent. There should only be the one pair of parallel sides.
+
+[FIX] Set: 7-geometry-quadrilaterals-3
+Q: Which of the following statements about trapezoids is true?
+Old Answer: A rectangle is a type of trapezoid -> New Answer: A rectangle is a type of trapezoid
+Reason: A trapezoid has *at least* one pair of parallel sides. A rectangle has two pairs of parallel sides and is therefore a trapezoid.
