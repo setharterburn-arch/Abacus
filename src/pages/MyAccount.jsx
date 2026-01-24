@@ -32,6 +32,12 @@ const MyAccount = () => {
             desc: 'Tell us how we are doing.',
             path: '/feedback',
             color: '#a855f7'
+        },
+        {
+            title: 'Help & FAQ ❓',
+            desc: 'Guides and answers to common questions.',
+            path: '/faq',
+            color: '#10b981'
         }
     ];
 
