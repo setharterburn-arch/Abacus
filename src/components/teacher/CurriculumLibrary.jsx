@@ -147,6 +147,7 @@ const CurriculumLibrary = ({ classId, onClose }) => {
                 </div>
 
                 {/* Grade Level */}
+                {/* Grade Level */}
                 <div style={{ marginBottom: '1rem' }}>
                     <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 'bold' }}>
                         Grade Level
@@ -162,16 +163,17 @@ const CurriculumLibrary = ({ classId, onClose }) => {
                             fontSize: '1rem'
                         }}
                     >
-                        <option value={0}>Kindergarten</option>
-                        <option value={1}>Grade 1</option>
-                        <option value={2}>Grade 2</option>
-                        <option value={3}>Grade 3</option>
-                        <option value={4}>Grade 4</option>
-                        <option value={5}>Grade 5</option>
-                        <option value={6}>Grade 6</option>
-                        <option value={7}>Grade 7</option>
-                        <option value={8}>Grade 8</option>
-                        <option value={9}>Grade 9</option>
+                        {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(g => {
+                            const count = curriculumData.filter(s => {
+                                const sG = s.grade !== undefined ? s.grade : s.grade_level;
+                                return String(sG) === String(g);
+                            }).length;
+                            return (
+                                <option key={g} value={g}>
+                                    {g === 0 ? 'Kindergarten' : `Grade ${g}`} ({count})
+                                </option>
+                            );
+                        })}
                     </select>
                 </div>
 
