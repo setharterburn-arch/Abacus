@@ -280,6 +280,20 @@ const CurriculumLibrary = ({ classId, onClose }) => {
                         No {activeTab === 'curriculum' ? 'curriculum sets' : 'learning paths'} found.
                     </p>
                 )}
+
+                {/* DEBUG: Remove after fixing */}
+                <div style={{ marginTop: '2rem', padding: '1rem', background: '#f3f4f6', fontSize: '0.8rem', borderRadius: '8px' }}>
+                    <strong>Debug Info (Grade {selectedGrade}):</strong>
+                    <pre style={{ whiteSpace: 'pre-wrap' }}>
+                        {JSON.stringify(filteredCurriculum.map(s => ({
+                            title: s.title,
+                            id: s.id,
+                            grade: s.grade,
+                            grade_level: s.grade_level,
+                            effective: s.grade !== undefined ? s.grade : s.grade_level
+                        })), null, 2)}
+                    </pre>
+                </div>
             </div>
 
             {/* Assignment Modal */}
