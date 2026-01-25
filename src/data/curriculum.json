@@ -100844,5 +100844,237 @@
                 "illustration": null
             }
         ]
+    },
+    {
+        "id": "grade7-ratios-medium",
+        "title": "Understanding Ratios",
+        "description": "Exploring and applying the concept of ratios.",
+        "grade_level": 7,
+        "topic": "Ratios",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "A recipe calls for 2 cups of flour for every 3 cups of sugar. If you want to make a larger batch using 6 cups of flour, how many cups of sugar will you need?",
+                "options": [
+                    "4",
+                    "9",
+                    "6",
+                    "8"
+                ],
+                "answer": "9",
+                "hints": [
+                    "Set up a proportion.",
+                    "Cross-multiply.",
+                    "Solve for the unknown."
+                ],
+                "explanation": "The ratio of flour to sugar is 2:3. If we use 6 cups of flour, we set up the proportion 2/3 = 6/x. Cross-multiplying gives 2x = 18, so x = 9.",
+                "manim_file": "scene_grade7-ratios-medium_q1.py"
+            }
+        ]
+    },
+    {
+        "id": "grade8-linearequations-medium",
+        "title": "Solving Linear Equations",
+        "description": "Solving equations of the form y = mx + b.",
+        "grade_level": 8,
+        "topic": "Linear Equations",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Solve for x: 3x + 5 = 14",
+                "options": [
+                    "x = 3",
+                    "x = 4",
+                    "x = 5",
+                    "x = 6"
+                ],
+                "answer": "x = 3",
+                "hints": [
+                    "Subtract 5 from both sides.",
+                    "Divide both sides by 3."
+                ],
+                "explanation": "Subtracting 5 from both sides gives 3x = 9. Dividing both sides by 3 gives x = 3.",
+                "manim_file": "scene_grade8-linearequations-medium_q1.py"
+            }
+        ]
+    },
+    {
+        "id": "grade9-quadratics-medium",
+        "title": "Solving Quadratic Equations",
+        "description": "Solving equations of the form ax^2 + bx + c = 0.",
+        "grade_level": 9,
+        "topic": "Quadratics",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Solve for x: x^2 - 5x + 6 = 0",
+                "options": [
+                    "x = 2, x = 3",
+                    "x = -2, x = -3",
+                    "x = 1, x = 6",
+                    "x = -1, x = -6"
+                ],
+                "answer": "x = 2, x = 3",
+                "hints": [
+                    "Factor the quadratic.",
+                    "Set each factor equal to zero.",
+                    "Solve for x."
+                ],
+                "explanation": "The quadratic factors to (x - 2)(x - 3) = 0. Setting each factor equal to zero gives x - 2 = 0 and x - 3 = 0.  Therefore, x = 2 and x = 3.",
+                "manim_file": "scene_grade9-quadratics-medium_q1.py"
+            }
+        ]
+    },
+    {
+        "id": "grade7-expressions-medium",
+        "title": "Simplifying Algebraic Expressions",
+        "description": "Combining like terms in algebraic expressions.",
+        "grade_level": 7,
+        "topic": "Expressions",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Simplify the expression: 4x + 2y - x + 5y",
+                "options": [
+                    "3x + 7y",
+                    "5x + 7y",
+                    "3x - 3y",
+                    "5x - 3y"
+                ],
+                "answer": "3x + 7y",
+                "hints": [
+                    "Combine the 'x' terms.",
+                    "Combine the 'y' terms."
+                ],
+                "explanation": "Combining the 'x' terms (4x - x) gives 3x. Combining the 'y' terms (2y + 5y) gives 7y. Therefore, the simplified expression is 3x + 7y.",
+                "manim_file": "scene_grade7-expressions-medium_q1.py"
+            }
+        ]
+    },
+    {
+        "id": "grade8-pythagorean-medium",
+        "title": "Applying the Pythagorean Theorem",
+        "description": "Using a^2 + b^2 = c^2 to find the sides of right triangles.",
+        "grade_level": 8,
+        "topic": "Pythagorean Theorem",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+                "options": [
+                    "5",
+                    "7",
+                    "25",
+                    "12"
+                ],
+                "answer": "5",
+                "hints": [
+                    "Use the formula a^2 + b^2 = c^2.",
+                    "Substitute the given values.",
+                    "Solve for c."
+                ],
+                "explanation": "Using the Pythagorean theorem, 3^2 + 4^2 = c^2, so 9 + 16 = c^2, which means 25 = c^2. Taking the square root of both sides gives c = 5.",
+                "manim_file": "scene_grade8-pythagorean-medium_q1.py"
+            }
+        ]
+    },
+    {
+        "id": "grade7-prealgebra-medium",
+        "title": "Order of Operations",
+        "description": "Applying the order of operations (PEMDAS/BODMAS).",
+        "grade_level": 7,
+        "topic": "Pre-Algebra",
+        "difficulty": "medium",
+        "questions": [
+            {
+                "question": "Evaluate: 12 + 3 \u00d7 (8 - 5)",
+                "options": [
+                    "21",
+                    "27",
+                    "45",
+                    "39"
+                ],
+                "answer": "21",
+                "hints": [
+                    "Remember PEMDAS/BODMAS.",
+                    "Parentheses first.",
+                    "Then multiplication.",
+                    "Finally, addition."
+                ],
+                "explanation": "First, solve the parentheses: 8 - 5 = 3. Then, multiply: 3 \u00d7 3 = 9. Finally, add: 12 + 9 = 21.",
+                "manim_file": "scene_grade7-prealgebra-medium_q1.py"
+            },
+            {
+                "question": "Simplify: 4 \u00d7 2 + 16 \u00f7 4 - 3",
+                "options": [
+                    "9",
+                    "12",
+                    "5",
+                    "17"
+                ],
+                "answer": "9",
+                "hints": [
+                    "Remember PEMDAS/BODMAS.",
+                    "Multiplication and division before addition and subtraction.",
+                    "Work from left to right for multiplication and division."
+                ],
+                "explanation": "First, multiply: 4 \u00d7 2 = 8. Then, divide: 16 \u00f7 4 = 4. Now, add and subtract from left to right: 8 + 4 - 3 = 12 - 3 = 9.",
+                "manim_file": "scene_grade7-prealgebra-medium_q2.py"
+            },
+            {
+                "question": "Evaluate: (5 + 3)^2 - 2 \u00d7 7",
+                "options": [
+                    "50",
+                    "60",
+                    "70",
+                    "80"
+                ],
+                "answer": "50",
+                "hints": [
+                    "Parentheses first.",
+                    "Then exponents.",
+                    "Then multiplication.",
+                    "Finally, subtraction."
+                ],
+                "explanation": "First, solve the parentheses: 5 + 3 = 8. Then, calculate the exponent: 8^2 = 64. Next, multiply: 2 \u00d7 7 = 14. Finally, subtract: 64 - 14 = 50.",
+                "manim_file": "scene_grade7-prealgebra-medium_q3.py"
+            },
+            {
+                "question": "Simplify: 24 \u00f7 (2 \u00d7 (5 - 2)) + 1",
+                "options": [
+                    "5",
+                    "6",
+                    "3",
+                    "4"
+                ],
+                "answer": "5",
+                "hints": [
+                    "Inner parentheses first.",
+                    "Then outer parentheses.",
+                    "Then division.",
+                    "Finally, addition."
+                ],
+                "explanation": "First, solve the inner parentheses: 5 - 2 = 3. Then, solve the outer parentheses: 2 \u00d7 3 = 6. Next, divide: 24 \u00f7 6 = 4. Finally, add: 4 + 1 = 5.",
+                "manim_file": "scene_grade7-prealgebra-medium_q4.py"
+            },
+            {
+                "question": "Evaluate: 100 - 4^2 + 3 \u00d7 (10 - 7)",
+                "options": [
+                    "93",
+                    "83",
+                    "73",
+                    "63"
+                ],
+                "answer": "93",
+                "hints": [
+                    "Parentheses first.",
+                    "Then exponents.",
+                    "Then multiplication.",
+                    "Finally, addition and subtraction from left to right."
+                ],
+                "explanation": "First, solve the parentheses: 10 - 7 = 3. Then, calculate the exponent: 4^2 = 16. Next, multiply: 3 \u00d7 3 = 9. Now, add and subtract from left to right: 100 - 16 + 9 = 84 + 9 = 93.",
+                "manim_file": "scene_grade7-prealgebra-medium_q5.py"
+            }
+        ]
     }
 ]
