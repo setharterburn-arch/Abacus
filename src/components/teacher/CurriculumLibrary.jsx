@@ -23,10 +23,31 @@ const CurriculumLibrary = ({ classId, onClose }) => {
     const loadCurriculum = async () => {
         setLoadingCurriculum(true);
         try {
-            const data = await getCurriculumSets();
-            setCurriculumData(data || []);
+            // Load from Supabase
+            const dbData = await getCurriculumSets();
+
+            // Load local JSON (Legacy/Static content)
+            const localModule = await import('../../data/curriculum.json');
+            const localData = localModule.default || [];
+
+            // Merge: Prefer DB items if IDs match (user edits override static)
+            const dbIds = new Set(dbData.map(item => item.id));
+            const merged = [
+                ...dbData,
+                ...localData.filter(item => !dbIds.has(item.id))
+            ];
+
+            setCurriculumData(merged);
         } catch (error) {
             console.error("Failed to load curriculum:", error);
+            // Fallback to empty if both fail, or just local if DB fails?
+            // For now, try to load local even if DB fails
+            try {
+                const localModule = await import('../../data/curriculum.json');
+                setCurriculumData(localModule.default || []);
+            } catch (e) {
+                setCurriculumData([]);
+            }
         } finally {
             setLoadingCurriculum(false);
         }
