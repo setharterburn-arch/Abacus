@@ -3,7 +3,7 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { supabase } from '../../services/supabase';
 import { useStore } from '../../services/store';
-import SmartScoreQuiz from '../adaptive/SmartScoreQuiz';
+import SmartScoreQuiz from '../adaptive/SmartScoreQuizV2';
 
 /**
  * SmartScore Assignment Component

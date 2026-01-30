@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
 import AdaptiveQuizEngine from '../components/adaptive/AdaptiveQuizEngine';
-import SmartScoreQuiz from '../components/adaptive/SmartScoreQuiz';
+import SmartScoreQuiz from '../components/adaptive/SmartScoreQuizV2';
 import { getTopics } from '../services/curriculumService';
 
 const AdaptivePractice = () => {
