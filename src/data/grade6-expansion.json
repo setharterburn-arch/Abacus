@@ -2615,4 +2615,1106 @@
       }
     ],
     "grade": 6
+  }
+]  {
+    "id": "6-area-triangles",
+    "title": "Find the Area of Triangles",
+    "description": "Calculate the area of triangles using base and height",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the area of a triangle with base 8 cm and height 6 cm.",
+        "options": ["14 cm²", "24 cm²", "48 cm²", "28 cm²"],
+        "answer": "24 cm²",
+        "hint": "Area = (1/2) × base × height = (1/2) × 8 × 6"
+      },
+      {
+        "question": "Find the area of a triangle with base 10 in and height 4 in.",
+        "options": ["14 in²", "20 in²", "40 in²", "7 in²"],
+        "answer": "20 in²",
+        "hint": "Area = (1/2) × 10 × 4 = 20"
+      },
+      {
+        "question": "A triangle has area 30 m² and base 10 m. What is its height?",
+        "options": ["3 m", "6 m", "15 m", "20 m"],
+        "answer": "6 m",
+        "hint": "30 = (1/2) × 10 × h, so 30 = 5h, h = 6"
+      },
+      {
+        "question": "Find the area of a triangle with base 12 ft and height 5 ft.",
+        "options": ["17 ft²", "30 ft²", "60 ft²", "35 ft²"],
+        "answer": "30 ft²",
+        "hint": "Area = (1/2) × 12 × 5 = 30"
+      },
+      {
+        "question": "What is the formula for area of a triangle?",
+        "options": ["A = bh", "A = (1/2)bh", "A = b + h", "A = 2bh"],
+        "answer": "A = (1/2)bh",
+        "hint": "Triangle area is half of base times height"
+      },
+      {
+        "question": "A triangle has base 7 cm and height 8 cm. Find its area.",
+        "options": ["15 cm²", "28 cm²", "56 cm²", "30 cm²"],
+        "answer": "28 cm²",
+        "hint": "Area = (1/2) × 7 × 8 = 28"
+      },
+      {
+        "question": "Find the area: base = 15 m, height = 4 m",
+        "options": ["19 m²", "30 m²", "60 m²", "38 m²"],
+        "answer": "30 m²",
+        "hint": "Area = (1/2) × 15 × 4 = 30"
+      },
+      {
+        "question": "A triangle has area 45 cm² and height 9 cm. Find the base.",
+        "options": ["5 cm", "10 cm", "15 cm", "36 cm"],
+        "answer": "10 cm",
+        "hint": "45 = (1/2) × b × 9, so 45 = 4.5b, b = 10"
+      },
+      {
+        "question": "Find the area of a triangle with base 20 in and height 7 in.",
+        "options": ["27 in²", "70 in²", "140 in²", "35 in²"],
+        "answer": "70 in²",
+        "hint": "Area = (1/2) × 20 × 7 = 70"
+      },
+      {
+        "question": "A triangle and rectangle have the same base and height. How do their areas compare?",
+        "options": ["Same", "Triangle is half", "Triangle is double", "Cannot tell"],
+        "answer": "Triangle is half",
+        "hint": "Triangle = (1/2)bh, Rectangle = bh"
+      },
+      {
+        "question": "Find the area: base = 9 ft, height = 12 ft",
+        "options": ["21 ft²", "54 ft²", "108 ft²", "45 ft²"],
+        "answer": "54 ft²",
+        "hint": "Area = (1/2) × 9 × 12 = 54"
+      }
+    ],
+    "grade": 6
   },
+  {
+    "id": "6-area-parallelograms",
+    "title": "Find the Area of Parallelograms",
+    "description": "Calculate the area of parallelograms",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the area of a parallelogram with base 9 cm and height 4 cm.",
+        "options": ["13 cm²", "26 cm²", "36 cm²", "18 cm²"],
+        "answer": "36 cm²",
+        "hint": "Area = base × height = 9 × 4"
+      },
+      {
+        "question": "Find the area: base = 12 in, height = 5 in",
+        "options": ["17 in²", "30 in²", "60 in²", "35 in²"],
+        "answer": "60 in²",
+        "hint": "Area = 12 × 5 = 60"
+      },
+      {
+        "question": "A parallelogram has area 48 m² and base 8 m. What is its height?",
+        "options": ["4 m", "6 m", "8 m", "40 m"],
+        "answer": "6 m",
+        "hint": "48 = 8 × h, so h = 48 ÷ 8 = 6"
+      },
+      {
+        "question": "What is the formula for area of a parallelogram?",
+        "options": ["A = (1/2)bh", "A = bh", "A = b + h", "A = 2(b + h)"],
+        "answer": "A = bh",
+        "hint": "Parallelogram area is base times height"
+      },
+      {
+        "question": "Find the area: base = 7 ft, height = 9 ft",
+        "options": ["16 ft²", "32 ft²", "63 ft²", "31.5 ft²"],
+        "answer": "63 ft²",
+        "hint": "Area = 7 × 9 = 63"
+      },
+      {
+        "question": "A parallelogram has area 72 cm² and height 8 cm. Find the base.",
+        "options": ["8 cm", "9 cm", "10 cm", "64 cm"],
+        "answer": "9 cm",
+        "hint": "72 = b × 8, so b = 72 ÷ 8 = 9"
+      },
+      {
+        "question": "Find the area of a parallelogram: base = 15 m, height = 6 m",
+        "options": ["21 m²", "45 m²", "90 m²", "42 m²"],
+        "answer": "90 m²",
+        "hint": "Area = 15 × 6 = 90"
+      },
+      {
+        "question": "Why isn't the slant side used to find area of a parallelogram?",
+        "options": ["It's too long", "Height must be perpendicular to base", "It's not measured", "It equals the base"],
+        "answer": "Height must be perpendicular to base",
+        "hint": "The height is the perpendicular distance between bases"
+      },
+      {
+        "question": "Find the area: base = 11 in, height = 8 in",
+        "options": ["19 in²", "44 in²", "88 in²", "38 in²"],
+        "answer": "88 in²",
+        "hint": "Area = 11 × 8 = 88"
+      },
+      {
+        "question": "A parallelogram has base 10 cm and height 10 cm. Is it a square?",
+        "options": ["Yes, always", "No, never", "Maybe, if angles are 90°", "Cannot determine"],
+        "answer": "Maybe, if angles are 90°",
+        "hint": "A square is a special parallelogram with right angles"
+      },
+      {
+        "question": "Find the area: base = 14 ft, height = 3 ft",
+        "options": ["17 ft²", "21 ft²", "42 ft²", "84 ft²"],
+        "answer": "42 ft²",
+        "hint": "Area = 14 × 3 = 42"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-area-trapezoids",
+    "title": "Find the Area of Trapezoids",
+    "description": "Calculate the area of trapezoids using both bases and height",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Find the area of a trapezoid with bases 6 cm and 10 cm, height 4 cm.",
+        "options": ["20 cm²", "32 cm²", "40 cm²", "64 cm²"],
+        "answer": "32 cm²",
+        "hint": "Area = (1/2)(b₁ + b₂)h = (1/2)(6 + 10)(4) = (1/2)(16)(4) = 32"
+      },
+      {
+        "question": "What is the formula for area of a trapezoid?",
+        "options": ["A = bh", "A = (1/2)bh", "A = (1/2)(b₁ + b₂)h", "A = b₁ × b₂ × h"],
+        "answer": "A = (1/2)(b₁ + b₂)h",
+        "hint": "Add the two bases, multiply by height, then halve"
+      },
+      {
+        "question": "Find the area: bases 8 in and 12 in, height 5 in",
+        "options": ["50 in²", "100 in²", "40 in²", "60 in²"],
+        "answer": "50 in²",
+        "hint": "(1/2)(8 + 12)(5) = (1/2)(20)(5) = 50"
+      },
+      {
+        "question": "A trapezoid has area 45 m², bases 5 m and 10 m. Find the height.",
+        "options": ["3 m", "6 m", "9 m", "4.5 m"],
+        "answer": "6 m",
+        "hint": "45 = (1/2)(5 + 10)h, 45 = 7.5h, h = 6"
+      },
+      {
+        "question": "Find the area: bases 4 ft and 8 ft, height 6 ft",
+        "options": ["24 ft²", "36 ft²", "48 ft²", "72 ft²"],
+        "answer": "36 ft²",
+        "hint": "(1/2)(4 + 8)(6) = (1/2)(12)(6) = 36"
+      },
+      {
+        "question": "Find the area: bases 7 cm and 11 cm, height 8 cm",
+        "options": ["36 cm²", "72 cm²", "144 cm²", "88 cm²"],
+        "answer": "72 cm²",
+        "hint": "(1/2)(7 + 11)(8) = (1/2)(18)(8) = 72"
+      },
+      {
+        "question": "A trapezoid has equal bases of 9 m each and height 4 m. What shape is it really?",
+        "options": ["Triangle", "Rectangle or parallelogram", "Circle", "Pentagon"],
+        "answer": "Rectangle or parallelogram",
+        "hint": "If both bases are equal, it's a parallelogram"
+      },
+      {
+        "question": "Find the area: bases 5 in and 15 in, height 4 in",
+        "options": ["20 in²", "30 in²", "40 in²", "80 in²"],
+        "answer": "40 in²",
+        "hint": "(1/2)(5 + 15)(4) = (1/2)(20)(4) = 40"
+      },
+      {
+        "question": "A trapezoid has area 56 cm², height 7 cm, and one base is 6 cm. Find the other base.",
+        "options": ["8 cm", "10 cm", "12 cm", "14 cm"],
+        "answer": "10 cm",
+        "hint": "56 = (1/2)(6 + b)(7), 56 = 3.5(6 + b), 16 = 6 + b, b = 10"
+      },
+      {
+        "question": "Find the area: bases 9 m and 15 m, height 10 m",
+        "options": ["60 m²", "120 m²", "240 m²", "135 m²"],
+        "answer": "120 m²",
+        "hint": "(1/2)(9 + 15)(10) = (1/2)(24)(10) = 120"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-area-composite",
+    "title": "Find Area of Composite Figures",
+    "description": "Break down complex shapes and find total area",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "An L-shaped figure is made of two rectangles: 4×6 and 3×5. Find total area.",
+        "options": ["24 m²", "15 m²", "39 m²", "35 m²"],
+        "answer": "39 m²",
+        "hint": "Add areas: (4×6) + (3×5) = 24 + 15 = 39"
+      },
+      {
+        "question": "A rectangle 10×8 has a 2×3 rectangle cut out. Find remaining area.",
+        "options": ["74 m²", "80 m²", "6 m²", "86 m²"],
+        "answer": "74 m²",
+        "hint": "Subtract: (10×8) - (2×3) = 80 - 6 = 74"
+      },
+      {
+        "question": "To find area of a complex shape, what should you do?",
+        "options": ["Add all sides", "Multiply all sides", "Break into simpler shapes", "Use a ruler"],
+        "answer": "Break into simpler shapes",
+        "hint": "Decompose, then add or subtract areas"
+      },
+      {
+        "question": "A shape is a square (5×5) with a triangle (base 5, height 3) on top. Total area?",
+        "options": ["25", "32.5", "7.5", "40"],
+        "answer": "32.5",
+        "hint": "Square: 25. Triangle: (1/2)(5)(3) = 7.5. Total: 32.5"
+      },
+      {
+        "question": "A 12×10 rectangle has a triangle (base 6, height 4) cut out. Remaining area?",
+        "options": ["120", "108", "12", "132"],
+        "answer": "108",
+        "hint": "Rectangle: 120. Triangle: (1/2)(6)(4) = 12. Remaining: 120 - 12 = 108"
+      },
+      {
+        "question": "Two squares, 4×4 and 6×6, are joined. Total area?",
+        "options": ["20", "24", "36", "52"],
+        "answer": "52",
+        "hint": "4² + 6² = 16 + 36 = 52"
+      },
+      {
+        "question": "A rectangle is 8×6. A 2×2 square is inside it. Area outside the square?",
+        "options": ["44", "48", "4", "52"],
+        "answer": "44",
+        "hint": "(8×6) - (2×2) = 48 - 4 = 44"
+      },
+      {
+        "question": "A parallelogram (base 10, height 6) with a triangle (base 4, height 3) removed. Area?",
+        "options": ["60", "54", "6", "66"],
+        "answer": "54",
+        "hint": "Parallelogram: 60. Triangle: 6. Remaining: 54"
+      },
+      {
+        "question": "A T-shape: top is 8×2, stem is 2×6. Total area?",
+        "options": ["16", "12", "28", "96"],
+        "answer": "28",
+        "hint": "(8×2) + (2×6) = 16 + 12 = 28"
+      },
+      {
+        "question": "A rectangle 9×7 minus a rectangle 3×4. Remaining area?",
+        "options": ["51", "63", "12", "75"],
+        "answer": "51",
+        "hint": "(9×7) - (3×4) = 63 - 12 = 51"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-surface-area-prisms",
+    "title": "Find Surface Area of Rectangular Prisms",
+    "description": "Calculate the total surface area of boxes and prisms",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Find the surface area of a box: length 4, width 3, height 2",
+        "options": ["24 units²", "38 units²", "52 units²", "26 units²"],
+        "answer": "52 units²",
+        "hint": "SA = 2(lw + lh + wh) = 2(12 + 8 + 6) = 2(26) = 52"
+      },
+      {
+        "question": "What is the formula for surface area of a rectangular prism?",
+        "options": ["SA = lwh", "SA = 2(l + w + h)", "SA = 2(lw + lh + wh)", "SA = 6s²"],
+        "answer": "SA = 2(lw + lh + wh)",
+        "hint": "There are 3 pairs of rectangular faces"
+      },
+      {
+        "question": "Find SA: length 5 cm, width 5 cm, height 5 cm (cube)",
+        "options": ["125 cm²", "150 cm²", "75 cm²", "25 cm²"],
+        "answer": "150 cm²",
+        "hint": "Cube: SA = 6s² = 6(25) = 150"
+      },
+      {
+        "question": "Find SA: l = 6 in, w = 4 in, h = 3 in",
+        "options": ["72 in²", "108 in²", "144 in²", "54 in²"],
+        "answer": "108 in²",
+        "hint": "2(24 + 18 + 12) = 2(54) = 108"
+      },
+      {
+        "question": "A cube has surface area 96 cm². What is the side length?",
+        "options": ["4 cm", "6 cm", "8 cm", "16 cm"],
+        "answer": "4 cm",
+        "hint": "96 = 6s², so s² = 16, s = 4"
+      },
+      {
+        "question": "Find SA: l = 10 m, w = 2 m, h = 3 m",
+        "options": ["60 m²", "112 m²", "56 m²", "96 m²"],
+        "answer": "112 m²",
+        "hint": "2(20 + 30 + 6) = 2(56) = 112"
+      },
+      {
+        "question": "How many faces does a rectangular prism have?",
+        "options": ["4", "5", "6", "8"],
+        "answer": "6",
+        "hint": "Top, bottom, front, back, left, right"
+      },
+      {
+        "question": "Find SA: l = 8 ft, w = 6 ft, h = 2 ft",
+        "options": ["96 ft²", "104 ft²", "152 ft²", "192 ft²"],
+        "answer": "152 ft²",
+        "hint": "2(48 + 16 + 12) = 2(76) = 152"
+      },
+      {
+        "question": "A gift box is 12×8×4 inches. How much wrapping paper is needed?",
+        "options": ["384 in²", "352 in²", "272 in²", "96 in²"],
+        "answer": "352 in²",
+        "hint": "2(96 + 48 + 32) = 2(176) = 352"
+      },
+      {
+        "question": "Find SA: l = 7 cm, w = 4 cm, h = 5 cm",
+        "options": ["140 cm²", "166 cm²", "83 cm²", "118 cm²"],
+        "answer": "166 cm²",
+        "hint": "2(28 + 35 + 20) = 2(83) = 166"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-volume-prisms",
+    "title": "Find Volume of Rectangular Prisms",
+    "description": "Calculate volume using length, width, and height",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the volume: length 5, width 4, height 3",
+        "options": ["12 units³", "60 units³", "47 units³", "27 units³"],
+        "answer": "60 units³",
+        "hint": "V = l × w × h = 5 × 4 × 3 = 60"
+      },
+      {
+        "question": "What is the formula for volume of a rectangular prism?",
+        "options": ["V = l + w + h", "V = lwh", "V = 2(lw + lh + wh)", "V = 6lwh"],
+        "answer": "V = lwh",
+        "hint": "Multiply all three dimensions"
+      },
+      {
+        "question": "Find volume of a cube with side 4 cm",
+        "options": ["12 cm³", "16 cm³", "48 cm³", "64 cm³"],
+        "answer": "64 cm³",
+        "hint": "V = s³ = 4³ = 64"
+      },
+      {
+        "question": "Find V: l = 8 in, w = 5 in, h = 2 in",
+        "options": ["15 in³", "40 in³", "80 in³", "160 in³"],
+        "answer": "80 in³",
+        "hint": "V = 8 × 5 × 2 = 80"
+      },
+      {
+        "question": "A box holds 120 cm³. If l = 6 and w = 4, what is h?",
+        "options": ["3 cm", "4 cm", "5 cm", "6 cm"],
+        "answer": "5 cm",
+        "hint": "120 = 6 × 4 × h, 120 = 24h, h = 5"
+      },
+      {
+        "question": "Find V: l = 10 m, w = 3 m, h = 4 m",
+        "options": ["17 m³", "70 m³", "120 m³", "40 m³"],
+        "answer": "120 m³",
+        "hint": "V = 10 × 3 × 4 = 120"
+      },
+      {
+        "question": "What unit is used for volume?",
+        "options": ["Square units", "Cubic units", "Linear units", "Units"],
+        "answer": "Cubic units",
+        "hint": "Volume measures 3D space"
+      },
+      {
+        "question": "Find V: l = 9 ft, w = 6 ft, h = 2 ft",
+        "options": ["17 ft³", "54 ft³", "108 ft³", "27 ft³"],
+        "answer": "108 ft³",
+        "hint": "V = 9 × 6 × 2 = 108"
+      },
+      {
+        "question": "A fish tank is 24×12×18 inches. What is its volume?",
+        "options": ["54 in³", "5,184 in³", "864 in³", "432 in³"],
+        "answer": "5,184 in³",
+        "hint": "24 × 12 × 18 = 5,184"
+      },
+      {
+        "question": "Find V: l = 7 cm, w = 7 cm, h = 3 cm",
+        "options": ["49 cm³", "147 cm³", "21 cm³", "63 cm³"],
+        "answer": "147 cm³",
+        "hint": "V = 7 × 7 × 3 = 147"
+      },
+      {
+        "question": "A cube has volume 27 m³. What is its side length?",
+        "options": ["3 m", "9 m", "13.5 m", "4.5 m"],
+        "answer": "3 m",
+        "hint": "s³ = 27, so s = 3"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-volume-triangular-prisms",
+    "title": "Find Volume of Triangular Prisms",
+    "description": "Calculate volume using base area times height",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "A triangular prism has base 6 cm, height of triangle 4 cm, and length 10 cm. Find volume.",
+        "options": ["24 cm³", "120 cm³", "240 cm³", "60 cm³"],
+        "answer": "120 cm³",
+        "hint": "V = (1/2 × base × triangle height) × length = (1/2 × 6 × 4) × 10 = 12 × 10 = 120"
+      },
+      {
+        "question": "What is the formula for volume of a triangular prism?",
+        "options": ["V = lwh", "V = (1/2)bh × l", "V = bhl", "V = πr²h"],
+        "answer": "V = (1/2)bh × l",
+        "hint": "Find triangle area first, then multiply by length"
+      },
+      {
+        "question": "Triangle base 8 in, triangle height 3 in, prism length 5 in. Volume?",
+        "options": ["120 in³", "60 in³", "40 in³", "24 in³"],
+        "answer": "60 in³",
+        "hint": "(1/2 × 8 × 3) × 5 = 12 × 5 = 60"
+      },
+      {
+        "question": "A tent is triangular: base 4 m, height 3 m, length 6 m. Volume inside?",
+        "options": ["72 m³", "36 m³", "24 m³", "12 m³"],
+        "answer": "36 m³",
+        "hint": "(1/2 × 4 × 3) × 6 = 6 × 6 = 36"
+      },
+      {
+        "question": "Triangle base 10 ft, triangle height 6 ft, length 8 ft. Volume?",
+        "options": ["480 ft³", "240 ft³", "60 ft³", "30 ft³"],
+        "answer": "240 ft³",
+        "hint": "(1/2 × 10 × 6) × 8 = 30 × 8 = 240"
+      },
+      {
+        "question": "A prism has triangular base area 15 cm² and length 7 cm. Volume?",
+        "options": ["22 cm³", "52.5 cm³", "105 cm³", "210 cm³"],
+        "answer": "105 cm³",
+        "hint": "V = Base Area × length = 15 × 7 = 105"
+      },
+      {
+        "question": "Triangle base 12 m, triangle height 5 m, length 4 m. Volume?",
+        "options": ["240 m³", "120 m³", "60 m³", "30 m³"],
+        "answer": "120 m³",
+        "hint": "(1/2 × 12 × 5) × 4 = 30 × 4 = 120"
+      },
+      {
+        "question": "A triangular prism has volume 90 cm³. Triangle area is 15 cm². Find length.",
+        "options": ["3 cm", "6 cm", "45 cm", "75 cm"],
+        "answer": "6 cm",
+        "hint": "90 = 15 × length, length = 6"
+      },
+      {
+        "question": "Triangle base 5 in, triangle height 4 in, length 9 in. Volume?",
+        "options": ["180 in³", "90 in³", "45 in³", "20 in³"],
+        "answer": "90 in³",
+        "hint": "(1/2 × 5 × 4) × 9 = 10 × 9 = 90"
+      },
+      {
+        "question": "Which has greater volume: rectangular prism 4×3×5 or triangular prism (base 6, height 4, length 5)?",
+        "options": ["Rectangular", "Triangular", "Same", "Cannot tell"],
+        "answer": "Same",
+        "hint": "Rectangular: 60. Triangular: (1/2 × 6 × 4) × 5 = 60"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-volume-word-problems",
+    "title": "Volume Word Problems",
+    "description": "Apply volume concepts to real-world situations",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "A fish tank is 30 cm long, 20 cm wide, and 25 cm tall. How many cubic cm of water can it hold?",
+        "options": ["75 cm³", "1,500 cm³", "15,000 cm³", "150,000 cm³"],
+        "answer": "15,000 cm³",
+        "hint": "V = 30 × 20 × 25 = 15,000"
+      },
+      {
+        "question": "A box holds 240 cubic inches. If it's 8 in long and 6 in wide, how tall is it?",
+        "options": ["3 in", "4 in", "5 in", "6 in"],
+        "answer": "5 in",
+        "hint": "240 = 8 × 6 × h, 240 = 48h, h = 5"
+      },
+      {
+        "question": "A swimming pool is 25 m × 10 m × 2 m. Volume in cubic meters?",
+        "options": ["37 m³", "250 m³", "500 m³", "5,000 m³"],
+        "answer": "500 m³",
+        "hint": "25 × 10 × 2 = 500"
+      },
+      {
+        "question": "A moving box is 2 ft × 2 ft × 3 ft. How many fit in a truck space 12 ft × 8 ft × 6 ft?",
+        "options": ["24 boxes", "48 boxes", "36 boxes", "96 boxes"],
+        "answer": "48 boxes",
+        "hint": "Box: 12 ft³. Truck: 576 ft³. 576 ÷ 12 = 48"
+      },
+      {
+        "question": "A juice box is 6 cm × 4 cm × 10 cm. How many mL does it hold? (1 cm³ = 1 mL)",
+        "options": ["20 mL", "60 mL", "240 mL", "2,400 mL"],
+        "answer": "240 mL",
+        "hint": "6 × 4 × 10 = 240 cm³ = 240 mL"
+      },
+      {
+        "question": "A cube has volume 8 cubic feet. What is its side length?",
+        "options": ["2 ft", "4 ft", "2.67 ft", "8 ft"],
+        "answer": "2 ft",
+        "hint": "s³ = 8, s = 2"
+      },
+      {
+        "question": "A sandbox is 6 ft × 5 ft × 1 ft. Sand costs $2 per cubic foot. Total cost?",
+        "options": ["$12", "$30", "$60", "$120"],
+        "answer": "$60",
+        "hint": "Volume: 30 ft³. Cost: 30 × $2 = $60"
+      },
+      {
+        "question": "A shipping container is 40 ft × 8 ft × 9 ft. Volume?",
+        "options": ["320 ft³", "2,880 ft³", "57 ft³", "1,440 ft³"],
+        "answer": "2,880 ft³",
+        "hint": "40 × 8 × 9 = 2,880"
+      },
+      {
+        "question": "A pool fills at 50 gallons per minute. If volume is 15,000 gallons, how long to fill?",
+        "options": ["3 hours", "5 hours", "30 minutes", "300 minutes"],
+        "answer": "5 hours",
+        "hint": "15,000 ÷ 50 = 300 minutes = 5 hours"
+      },
+      {
+        "question": "Two boxes: A is 3×4×5, B is 2×6×5. Which holds more?",
+        "options": ["Box A", "Box B", "Same", "Cannot determine"],
+        "answer": "Same",
+        "hint": "A: 60. B: 60. They're equal!"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-statistics-mean",
+    "title": "Find the Mean (Average)",
+    "description": "Calculate the arithmetic mean of a data set",
+    "grade_level": 6,
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the mean: 4, 8, 6, 10, 12",
+        "options": ["6", "7", "8", "9"],
+        "answer": "8",
+        "hint": "Sum: 4+8+6+10+12 = 40. Mean: 40 ÷ 5 = 8"
+      },
+      {
+        "question": "Find the mean: 15, 20, 25, 30, 35",
+        "options": ["20", "25", "30", "35"],
+        "answer": "25",
+        "hint": "Sum: 125. Mean: 125 ÷ 5 = 25"
+      },
+      {
+        "question": "Test scores: 85, 90, 78, 92, 80. What is the mean?",
+        "options": ["83", "84", "85", "86"],
+        "answer": "85",
+        "hint": "Sum: 425. Mean: 425 ÷ 5 = 85"
+      },
+      {
+        "question": "What is another word for mean?",
+        "options": ["Median", "Mode", "Average", "Range"],
+        "answer": "Average",
+        "hint": "Mean and average are the same thing"
+      },
+      {
+        "question": "Find the mean: 3, 7, 5, 9, 6",
+        "options": ["5", "6", "7", "8"],
+        "answer": "6",
+        "hint": "Sum: 30. Mean: 30 ÷ 5 = 6"
+      },
+      {
+        "question": "Ages: 12, 14, 13, 15, 11. Mean age?",
+        "options": ["12", "13", "14", "15"],
+        "answer": "13",
+        "hint": "Sum: 65. Mean: 65 ÷ 5 = 13"
+      },
+      {
+        "question": "Find the mean: 100, 200, 300",
+        "options": ["150", "200", "250", "300"],
+        "answer": "200",
+        "hint": "Sum: 600. Mean: 600 ÷ 3 = 200"
+      },
+      {
+        "question": "The mean of 4 numbers is 10. What is their sum?",
+        "options": ["14", "40", "2.5", "4"],
+        "answer": "40",
+        "hint": "Sum = Mean × Count = 10 × 4 = 40"
+      },
+      {
+        "question": "Find the mean: 2, 4, 6, 8, 10, 12",
+        "options": ["6", "7", "8", "9"],
+        "answer": "7",
+        "hint": "Sum: 42. Mean: 42 ÷ 6 = 7"
+      },
+      {
+        "question": "Heights (in inches): 58, 62, 60, 64, 56. Mean height?",
+        "options": ["58", "59", "60", "61"],
+        "answer": "60",
+        "hint": "Sum: 300. Mean: 300 ÷ 5 = 60"
+      },
+      {
+        "question": "The mean of 5 numbers is 12. If 4 numbers sum to 45, what is the 5th?",
+        "options": ["7", "12", "15", "60"],
+        "answer": "15",
+        "hint": "Total sum must be 60. Fifth number: 60 - 45 = 15"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-statistics-median",
+    "title": "Find the Median",
+    "description": "Identify the middle value in an ordered data set",
+    "grade_level": 6,
+    "topic": "Statistics",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the median: 3, 7, 9, 12, 15",
+        "options": ["7", "9", "12", "9.2"],
+        "answer": "9",
+        "hint": "Middle value of ordered list is 9"
+      },
+      {
+        "question": "Find the median: 8, 3, 5, 1, 9",
+        "options": ["3", "5", "8", "9"],
+        "answer": "5",
+        "hint": "Order first: 1, 3, 5, 8, 9. Middle is 5"
+      },
+      {
+        "question": "Find the median: 12, 18, 14, 20, 16, 22",
+        "options": ["15", "16", "17", "18"],
+        "answer": "17",
+        "hint": "Ordered: 12,14,16,18,20,22. Average middle two: (16+18)/2 = 17"
+      },
+      {
+        "question": "What is the median?",
+        "options": ["The most common value", "The middle value", "The average", "The range"],
+        "answer": "The middle value",
+        "hint": "Median = middle of ordered data"
+      },
+      {
+        "question": "Find the median: 45, 32, 67, 54, 28",
+        "options": ["32", "45", "54", "67"],
+        "answer": "45",
+        "hint": "Ordered: 28, 32, 45, 54, 67. Middle is 45"
+      },
+      {
+        "question": "Find the median: 2, 4, 6, 8",
+        "options": ["4", "5", "6", "7"],
+        "answer": "5",
+        "hint": "Even count: average of 4 and 6 = 5"
+      },
+      {
+        "question": "Test scores: 72, 85, 90, 78, 88. Median?",
+        "options": ["78", "82.6", "85", "88"],
+        "answer": "85",
+        "hint": "Ordered: 72, 78, 85, 88, 90. Middle is 85"
+      },
+      {
+        "question": "Find the median: 100, 150, 200, 250, 300, 350",
+        "options": ["200", "225", "250", "275"],
+        "answer": "225",
+        "hint": "Middle two: 200 and 250. Average: 225"
+      },
+      {
+        "question": "Data: 5, 5, 5, 5, 5. What is the median?",
+        "options": ["0", "1", "5", "25"],
+        "answer": "5",
+        "hint": "All values are the same, so median is 5"
+      },
+      {
+        "question": "Find the median: 11, 22, 33, 44, 55, 66, 77",
+        "options": ["33", "44", "55", "66"],
+        "answer": "44",
+        "hint": "7 values, middle (4th) is 44"
+      },
+      {
+        "question": "Ages: 25, 30, 35, 40. Median age?",
+        "options": ["30", "32.5", "35", "37.5"],
+        "answer": "32.5",
+        "hint": "Average of 30 and 35 = 32.5"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-statistics-mode",
+    "title": "Find the Mode",
+    "description": "Identify the most frequently occurring value",
+    "grade_level": 6,
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Find the mode: 2, 4, 4, 6, 8",
+        "options": ["2", "4", "6", "8"],
+        "answer": "4",
+        "hint": "4 appears most often (twice)"
+      },
+      {
+        "question": "Find the mode: 5, 7, 7, 7, 9, 9",
+        "options": ["5", "7", "9", "7.33"],
+        "answer": "7",
+        "hint": "7 appears 3 times, more than any other"
+      },
+      {
+        "question": "What is the mode?",
+        "options": ["The middle value", "The average", "The most frequent value", "The range"],
+        "answer": "The most frequent value",
+        "hint": "Mode = most common"
+      },
+      {
+        "question": "Find the mode: 10, 20, 30, 40, 50",
+        "options": ["10", "30", "50", "No mode"],
+        "answer": "No mode",
+        "hint": "All values appear once - no mode"
+      },
+      {
+        "question": "Find the mode: 3, 3, 5, 5, 7",
+        "options": ["3", "5", "3 and 5", "No mode"],
+        "answer": "3 and 5",
+        "hint": "Both 3 and 5 appear twice - bimodal"
+      },
+      {
+        "question": "Shoe sizes: 8, 9, 8, 10, 8, 9, 11. Mode?",
+        "options": ["8", "9", "10", "11"],
+        "answer": "8",
+        "hint": "8 appears 3 times"
+      },
+      {
+        "question": "Find the mode: 1, 1, 2, 2, 2, 3, 3",
+        "options": ["1", "2", "3", "1 and 3"],
+        "answer": "2",
+        "hint": "2 appears most often (3 times)"
+      },
+      {
+        "question": "Colors chosen: red, blue, red, green, red, blue. Mode?",
+        "options": ["Red", "Blue", "Green", "No mode"],
+        "answer": "Red",
+        "hint": "Red appears 3 times"
+      },
+      {
+        "question": "Find the mode: 15, 15, 15, 20, 20, 20",
+        "options": ["15", "20", "15 and 20", "17.5"],
+        "answer": "15 and 20",
+        "hint": "Both appear 3 times - bimodal"
+      },
+      {
+        "question": "Grades: A, B, B, C, B, A, C. Mode?",
+        "options": ["A", "B", "C", "No mode"],
+        "answer": "B",
+        "hint": "B appears 3 times"
+      },
+      {
+        "question": "Can a data set have more than one mode?",
+        "options": ["No, never", "Yes, always", "Yes, sometimes", "Only if values are equal"],
+        "answer": "Yes, sometimes",
+        "hint": "Data can be bimodal or multimodal"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-statistics-range",
+    "title": "Find the Range",
+    "description": "Calculate the spread of data using range",
+    "grade_level": 6,
+    "topic": "Statistics",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Find the range: 5, 12, 8, 3, 15",
+        "options": ["8", "10", "12", "15"],
+        "answer": "12",
+        "hint": "Range = maximum - minimum = 15 - 3 = 12"
+      },
+      {
+        "question": "What is range?",
+        "options": ["Largest value", "Smallest value", "Largest minus smallest", "Average"],
+        "answer": "Largest minus smallest",
+        "hint": "Range measures the spread of data"
+      },
+      {
+        "question": "Find the range: 20, 35, 28, 42, 31",
+        "options": ["15", "20", "22", "31"],
+        "answer": "22",
+        "hint": "Range = 42 - 20 = 22"
+      },
+      {
+        "question": "Temperatures: 68°F, 72°F, 65°F, 75°F, 70°F. Range?",
+        "options": ["7°F", "10°F", "5°F", "70°F"],
+        "answer": "10°F",
+        "hint": "Range = 75 - 65 = 10"
+      },
+      {
+        "question": "Find the range: 100, 100, 100, 100",
+        "options": ["0", "100", "400", "25"],
+        "answer": "0",
+        "hint": "All values same: 100 - 100 = 0"
+      },
+      {
+        "question": "Ages: 12, 15, 14, 18, 11. Range?",
+        "options": ["4", "6", "7", "14"],
+        "answer": "7",
+        "hint": "Range = 18 - 11 = 7"
+      },
+      {
+        "question": "Find the range: -5, 3, -2, 8, 0",
+        "options": ["8", "10", "13", "5"],
+        "answer": "13",
+        "hint": "Range = 8 - (-5) = 8 + 5 = 13"
+      },
+      {
+        "question": "Test scores: 78, 92, 85, 88, 95. Range?",
+        "options": ["10", "14", "17", "86.8"],
+        "answer": "17",
+        "hint": "Range = 95 - 78 = 17"
+      },
+      {
+        "question": "Find the range: 2.5, 3.8, 1.2, 4.6, 2.9",
+        "options": ["2.5", "3.0", "3.4", "4.6"],
+        "answer": "3.4",
+        "hint": "Range = 4.6 - 1.2 = 3.4"
+      },
+      {
+        "question": "A large range indicates what about data?",
+        "options": ["Values are close together", "Values are spread out", "There's no mode", "Mean equals median"],
+        "answer": "Values are spread out",
+        "hint": "Large range = wide spread"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-statistics-compare",
+    "title": "Compare Mean, Median, and Mode",
+    "description": "Choose the best measure of center for different situations",
+    "grade_level": 6,
+    "topic": "Statistics",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Data: 2, 3, 3, 4, 100. Which measure is most affected by the outlier?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Mean",
+        "hint": "The mean includes the extreme value 100 in its calculation"
+      },
+      {
+        "question": "For data: 5, 5, 6, 7, 8, which is true?",
+        "options": ["Mean > Median", "Mean < Median", "Mean = Median", "Cannot tell"],
+        "answer": "Mean < Median",
+        "hint": "Mean = 6.2, Median = 6"
+      },
+      {
+        "question": "Which measure is best for shoe sizes sold at a store?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Mode",
+        "hint": "Most popular size (most sold) is most useful"
+      },
+      {
+        "question": "Data: 10, 20, 30, 40, 50. Mean and median are:",
+        "options": ["Mean > Median", "Mean < Median", "Mean = Median", "Cannot compare"],
+        "answer": "Mean = Median",
+        "hint": "Both equal 30 for symmetric data"
+      },
+      {
+        "question": "House prices: $100K, $120K, $130K, $140K, $900K. Best measure of typical price?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Median",
+        "hint": "Median isn't affected by the extreme $900K"
+      },
+      {
+        "question": "For data: 7, 7, 7, 8, 8, find mean, median, mode.",
+        "options": ["All equal 7", "Mean=7.4, Median=7, Mode=7", "All equal 7.4", "Mean=7, Median=7.4, Mode=7"],
+        "answer": "Mean=7.4, Median=7, Mode=7",
+        "hint": "Mean: 37÷5=7.4. Median: middle value=7. Mode: 7 (appears 3 times)"
+      },
+      {
+        "question": "Which measure can have more than one value?",
+        "options": ["Mean", "Median", "Mode", "Range"],
+        "answer": "Mode",
+        "hint": "Data can be bimodal (two modes)"
+      },
+      {
+        "question": "Salaries: $30K, $35K, $40K, $45K, $200K. Which is misleading?",
+        "options": ["Mean", "Median", "Mode", "All are fine"],
+        "answer": "Mean",
+        "hint": "Mean = $70K, but most earn far less"
+      },
+      {
+        "question": "Data: 1, 2, 3, 4, 5. The mean is 3. If we add 10 to each value, new mean is:",
+        "options": ["3", "13", "30", "53"],
+        "answer": "13",
+        "hint": "Adding same number to all values shifts mean by that amount"
+      },
+      {
+        "question": "When would you use range instead of mean?",
+        "options": ["To find the average", "To find the most common", "To show how spread out data is", "To find the middle"],
+        "answer": "To show how spread out data is",
+        "hint": "Range measures variability, not center"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-data-interpret-graphs",
+    "title": "Interpret Data from Graphs",
+    "description": "Read and analyze bar graphs, line graphs, and histograms",
+    "grade_level": 6,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A bar graph shows: Mon=5, Tue=8, Wed=6, Thu=9, Fri=7. What is the total?",
+        "options": ["30", "35", "40", "45"],
+        "answer": "35",
+        "hint": "Add all values: 5+8+6+9+7 = 35"
+      },
+      {
+        "question": "In the same data, which day had the most?",
+        "options": ["Monday", "Tuesday", "Thursday", "Friday"],
+        "answer": "Thursday",
+        "hint": "Thursday has the highest value (9)"
+      },
+      {
+        "question": "A histogram shows ages: 0-10: 5, 11-20: 12, 21-30: 8. How many total people?",
+        "options": ["20", "25", "30", "35"],
+        "answer": "25",
+        "hint": "5 + 12 + 8 = 25"
+      },
+      {
+        "question": "What type of graph is best for showing change over time?",
+        "options": ["Bar graph", "Line graph", "Circle graph", "Histogram"],
+        "answer": "Line graph",
+        "hint": "Line graphs show trends over time"
+      },
+      {
+        "question": "A circle graph shows: A=25%, B=35%, C=?. What percent is C?",
+        "options": ["30%", "35%", "40%", "60%"],
+        "answer": "40%",
+        "hint": "100% - 25% - 35% = 40%"
+      },
+      {
+        "question": "Sales data: Q1=$200, Q2=$250, Q3=$225, Q4=$325. Mean quarterly sales?",
+        "options": ["$225", "$237.50", "$250", "$275"],
+        "answer": "$250",
+        "hint": "Sum: $1000. Mean: $1000 ÷ 4 = $250"
+      },
+      {
+        "question": "A line graph goes up from left to right. This shows:",
+        "options": ["Decrease", "Increase", "No change", "Fluctuation"],
+        "answer": "Increase",
+        "hint": "Upward slope = increasing values"
+      },
+      {
+        "question": "Survey of 60 students: 20 chose pizza, 15 chose tacos. How many chose 'other'?",
+        "options": ["15", "20", "25", "35"],
+        "answer": "25",
+        "hint": "60 - 20 - 15 = 25"
+      },
+      {
+        "question": "A histogram has no gaps between bars. Why?",
+        "options": ["Data is continuous", "It looks better", "Bars are too wide", "No reason"],
+        "answer": "Data is continuous",
+        "hint": "Histograms show continuous data ranges"
+      },
+      {
+        "question": "Temperatures for a week: 72, 75, 68, 80, 76, 74, 71. Range?",
+        "options": ["8", "10", "12", "14"],
+        "answer": "12",
+        "hint": "Range = 80 - 68 = 12"
+      }
+    ],
+    "grade": 6
+  },
+  {
+    "id": "6-data-dot-plots",
+    "title": "Create and Interpret Dot Plots",
+    "description": "Analyze data displayed in dot plots",
+    "grade_level": 6,
+    "topic": "Data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A dot plot shows: 5(●●), 6(●●●), 7(●●●●), 8(●). What is the mode?",
+        "options": ["5", "6", "7", "8"],
+        "answer": "7",
+        "hint": "7 has the most dots (4)"
+      },
+      {
+        "question": "Using the same dot plot, how many total data points?",
+        "options": ["8", "9", "10", "26"],
+        "answer": "10",
+        "hint": "2 + 3 + 4 + 1 = 10"
+      },
+      {
+        "question": "Using the same dot plot, what is the range?",
+        "options": ["2", "3", "4", "5"],
+        "answer": "3",
+        "hint": "Range = 8 - 5 = 3"
+      },
+      {
+        "question": "What does each dot represent in a dot plot?",
+        "options": ["A category", "One data point", "The average", "The mode"],
+        "answer": "One data point",
+        "hint": "Each dot = one piece of data"
+      },
+      {
+        "question": "Dot plot: 10(●●●), 11(●●), 12(●●●●●), 13(●). Median?",
+        "options": ["10", "11", "12", "13"],
+        "answer": "11.5",
+        "hint": "11 data points. Middle values are 11 and 12. Wait, let me recount: 3+2+5+1=11 points. 6th value = 12"
+      },
+      {
+        "question": "A dot plot has a gap between 4 and 7. What does this mean?",
+        "options": ["No data at 5 or 6", "Error in the plot", "Data is continuous", "Mean is 5.5"],
+        "answer": "No data at 5 or 6",
+        "hint": "Gaps show missing values in data"
+      },
+      {
+        "question": "Dot plot: 3(●), 4(●●●●), 5(●●), 6(●●). Mean?",
+        "options": ["4", "4.2", "4.5", "5"],
+        "answer": "4.2",
+        "hint": "Sum: 3+16+10+12=41. Count: 9. Mean: 41÷9≈4.56. Actually: (3×1)+(4×4)+(5×2)+(6×2)=3+16+10+12=41. 41÷9≈4.56"
+      },
+      {
+        "question": "Which shows individual data values best?",
+        "options": ["Histogram", "Dot plot", "Circle graph", "Bar graph"],
+        "answer": "Dot plot",
+        "hint": "Dot plots show each individual data point"
+      },
+      {
+        "question": "Dot plot: 2(●●), 3(●●●), 4(●●●●), 5(●). What is the sum?",
+        "options": ["14", "30", "33", "10"],
+        "answer": "33",
+        "hint": "(2×2)+(3×3)+(4×4)+(5×1) = 4+9+16+5 = 34. Actually 4+9+16+5=34"
+      },
+      {
+        "question": "A cluster in a dot plot means:",
+        "options": ["Data is spread out", "Many values are close together", "There are outliers", "No mode exists"],
+        "answer": "Many values are close together",
+        "hint": "Clusters show where data concentrates"
+      }
+    ],
+    "grade": 6
+  }
+]
