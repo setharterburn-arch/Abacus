@@ -35,7 +35,8 @@
           "5",
           "6"
         ],
-        "answer": "4"
+        "answer": "4",
+        "image": "/curriculum-images/generated/count-1-heart.svg"
       },
       {
         "question": "How many fingers do you have?",
@@ -279,7 +280,8 @@
           "50",
           "60"
         ],
-        "answer": "40"
+        "answer": "40",
+        "image": "/curriculum-images/generated/count-10-star.svg"
       },
       {
         "question": "What is 50 + 10?",
@@ -299,7 +301,8 @@
           "20",
           "25"
         ],
-        "answer": "20"
+        "answer": "20",
+        "image": "/curriculum-images/generated/count-5-heart.svg"
       }
     ]
   },
@@ -618,7 +621,8 @@
           "17",
           "18"
         ],
-        "answer": "16"
+        "answer": "16",
+        "image": "/curriculum-images/generated/count-2-square.svg"
       },
       {
         "question": "Count by 5s: 25, 30, 35, __?",
@@ -628,7 +632,8 @@
           "40",
           "45"
         ],
-        "answer": "40"
+        "answer": "40",
+        "image": "/curriculum-images/generated/count-5-apple.svg"
       },
       {
         "question": "Count by 10s: 40, 50, 60, __?",
@@ -638,7 +643,8 @@
           "75",
           "80"
         ],
-        "answer": "70"
+        "answer": "70",
+        "image": "/curriculum-images/generated/count-10-apple.svg"
       },
       {
         "question": "Count by 2s: 20, 22, 24, __?",
@@ -648,7 +654,8 @@
           "27",
           "28"
         ],
-        "answer": "26"
+        "answer": "26",
+        "image": "/curriculum-images/generated/count-2-circle.svg"
       },
       {
         "question": "Count by 5s: 50, 55, 60, __?",
@@ -658,7 +665,8 @@
           "65",
           "70"
         ],
-        "answer": "65"
+        "answer": "65",
+        "image": "/curriculum-images/generated/count-5-circle.svg"
       }
     ]
   },
@@ -698,7 +706,8 @@
           "60",
           "90"
         ],
-        "answer": "60"
+        "answer": "60",
+        "image": "/curriculum-images/generated/count-1-square.svg"
       },
       {
         "question": "What time is half past 5?",
@@ -9947,7 +9956,8 @@
           "You are counting groups of ten.",
           "Each number gets bigger."
         ],
-        "explanation": "Adding ten more to thirty equals forty."
+        "explanation": "Adding ten more to thirty equals forty.",
+        "image": "/curriculum-images/generated/count-10-square.svg"
       },
       {
         "question": "What number comes after 60 when counting by tens?",
@@ -10195,7 +10205,8 @@
           "Look at the pattern.",
           "Each number increases by ten."
         ],
-        "explanation": "The sequence counts by tens. The missing number is thirty."
+        "explanation": "The sequence counts by tens. The missing number is thirty.",
+        "image": "/curriculum-images/generated/count-10-apple.svg"
       },
       {
         "question": "You have 12 blocks. You find 3 more. How many now?",
@@ -10811,7 +10822,8 @@
           "Think about counting downwards.",
           "Use your fingers to count back."
         ],
-        "explanation": "When counting backwards from 10, 8 comes after 9."
+        "explanation": "When counting backwards from 10, 8 comes after 9.",
+        "image": "/curriculum-images/generated/count-10-apple.svg"
       },
       {
         "question": "What is one less than 7?",
@@ -10843,7 +10855,8 @@
           "Think about taking away one.",
           "Count backwards on your fingers."
         ],
-        "explanation": "4 is the number that comes before 5 when counting down."
+        "explanation": "4 is the number that comes before 5 when counting down.",
+        "image": "/curriculum-images/generated/count-6-apple.svg"
       },
       {
         "question": "Which number is before 4?",
@@ -10891,7 +10904,8 @@
           "Take one away from 2.",
           "What is one less than 2?"
         ],
-        "explanation": "When counting backwards, 1 comes after 2."
+        "explanation": "When counting backwards, 1 comes after 2.",
+        "image": "/curriculum-images/generated/count-3-circle.svg"
       },
       {
         "question": "Which is smaller? 2 or 1?",
@@ -10907,7 +10921,8 @@
           "Which number comes first when counting down?",
           "Which has less?"
         ],
-        "explanation": "1 is smaller than 2. Therefore, it comes after it when counting down."
+        "explanation": "1 is smaller than 2. Therefore, it comes after it when counting down.",
+        "image": "/curriculum-images/generated/compare-2-vs-1.svg"
       },
       {
         "question": "What comes before 2?",
@@ -10939,7 +10954,8 @@
           "What is one less than 5?",
           "5, _"
         ],
-        "explanation": "When counting backward from 5, the second number is 4."
+        "explanation": "When counting backward from 5, the second number is 4.",
+        "image": "/curriculum-images/generated/count-5-circle.svg"
       }
     ]
   },
@@ -11126,7 +11142,8 @@
           "What comes after 5?",
           "Add 1, then add another"
         ],
-        "explanation": "Starting at 5 and counting on 2 gives you 7. 5, 6, 7."
+        "explanation": "Starting at 5 and counting on 2 gives you 7. 5, 6, 7.",
+        "image": "/curriculum-images/generated/count-2-heart.svg"
       },
       {
         "question": "Start with 3. Count on 1. What is the new number?",
@@ -11142,7 +11159,8 @@
           "What comes after 3?",
           "Use your fingers to count"
         ],
-        "explanation": "Counting on 1 from 3 gives you 4. One more than 3 is 4."
+        "explanation": "Counting on 1 from 3 gives you 4. One more than 3 is 4.",
+        "image": "/curriculum-images/generated/count-1-apple.svg"
       },
       {
         "question": "Start with 7. Count on 3. What number is it?",
@@ -11158,7 +11176,8 @@
           "Add 1, then 1, then 1",
           "What's after 7, 8, 9?"
         ],
-        "explanation": "Counting on 3 from 7 gives you 10. 7, 8, 9, 10."
+        "explanation": "Counting on 3 from 7 gives you 10. 7, 8, 9, 10.",
+        "image": "/curriculum-images/generated/count-3-circle.svg"
       },
       {
         "question": "Begin with 1. Count on 4. What is the answer?",
@@ -11174,7 +11193,8 @@
           "What comes after 1?",
           "1, 2, 3, 4, ?"
         ],
-        "explanation": "Starting with 1 and counting on 4 gets you to 5."
+        "explanation": "Starting with 1 and counting on 4 gets you to 5.",
+        "image": "/curriculum-images/generated/count-4-star.svg"
       },
       {
         "question": "Start at 6, count on 4. Which is it?",
@@ -11190,7 +11210,8 @@
           "What's after 6, 7, 8, 9?",
           "Four more than 6"
         ],
-        "explanation": "Starting at 6 and counting on 4 gives you 10."
+        "explanation": "Starting at 6 and counting on 4 gives you 10.",
+        "image": "/curriculum-images/generated/count-4-star.svg"
       },
       {
         "question": "Begin with 2. Count on 5. What is the number?",
@@ -11206,7 +11227,8 @@
           "Count five more",
           "2, 3, 4, 5, 6, ?"
         ],
-        "explanation": "Counting on 5 from 2 gets you to 7. 2, 3, 4, 5, 6, 7"
+        "explanation": "Counting on 5 from 2 gets you to 7. 2, 3, 4, 5, 6, 7",
+        "image": "/curriculum-images/generated/count-5-heart.svg"
       },
       {
         "question": "You start at 4, then count on 3. What is it?",
@@ -11222,7 +11244,8 @@
           "What's after 4, 5, 6?",
           "Use your fingers."
         ],
-        "explanation": "Counting 3 onward from 4 is 7. 4, 5, 6, 7."
+        "explanation": "Counting 3 onward from 4 is 7. 4, 5, 6, 7.",
+        "image": "/curriculum-images/generated/count-3-star.svg"
       },
       {
         "question": "Start with 8. Count on 2. What is the answer?",
@@ -11238,7 +11261,8 @@
           "8, 9, ?",
           "Two more than 8"
         ],
-        "explanation": "Counting on 2 from 8 results in 10. 8, 9, 10."
+        "explanation": "Counting on 2 from 8 results in 10. 8, 9, 10.",
+        "image": "/curriculum-images/generated/count-2-square.svg"
       },
       {
         "question": "Begin with 9. Count on 1. What is the result?",
@@ -11254,7 +11278,8 @@
           "What comes right after 9?",
           "Use your fingers to help"
         ],
-        "explanation": "Adding 1 to 9 is the same as counting on, and it equals 10."
+        "explanation": "Adding 1 to 9 is the same as counting on, and it equals 10.",
+        "image": "/curriculum-images/generated/count-1-square.svg"
       },
       {
         "question": "Start at 0. Count on 6. Where do you end up?",
@@ -11270,7 +11295,8 @@
           "What's after 0, 1, 2, 3, 4, 5?",
           "Just count from zero"
         ],
-        "explanation": "When you start at zero and count on 6, you get 6."
+        "explanation": "When you start at zero and count on 6, you get 6.",
+        "image": "/curriculum-images/generated/count-6-star.svg"
       }
     ]
   },
@@ -11295,7 +11321,8 @@
           "Count all the apples.",
           "Start with the first group then add on the second."
         ],
-        "explanation": "Two apples and one apple makes three apples."
+        "explanation": "Two apples and one apple makes three apples.",
+        "image": "/curriculum-images/generated/count-2-circle.svg"
       },
       {
         "question": "How many cats? (1 cat) + (1 cat)",
@@ -11310,7 +11337,8 @@
           "Count all the cats.",
           "One plus one is..."
         ],
-        "explanation": "One cat and one cat is two cats."
+        "explanation": "One cat and one cat is two cats.",
+        "image": "/curriculum-images/generated/count-1-star.svg"
       },
       {
         "question": "How many dogs? (3 dogs) + (1 dog)",
@@ -11325,7 +11353,8 @@
           "Count all the dogs.",
           "What is three plus one?"
         ],
-        "explanation": "Three dogs and one dog makes four dogs."
+        "explanation": "Three dogs and one dog makes four dogs.",
+        "image": "/curriculum-images/generated/count-3-circle.svg"
       },
       {
         "question": "How many balls? (2 balls) + (2 balls)",
@@ -11340,7 +11369,8 @@
           "Count all the balls.",
           "What is two plus two?"
         ],
-        "explanation": "Two balls and two balls makes four balls."
+        "explanation": "Two balls and two balls makes four balls.",
+        "image": "/curriculum-images/generated/count-2-circle.svg"
       },
       {
         "question": "How many birds? (1 bird) + (2 birds)",
@@ -11355,7 +11385,8 @@
           "Count all the birds.",
           "One plus two equals?"
         ],
-        "explanation": "One bird and two birds equals three birds."
+        "explanation": "One bird and two birds equals three birds.",
+        "image": "/curriculum-images/generated/count-1-circle.svg"
       },
       {
         "question": "How many cars? (3 cars) + (2 cars)",
@@ -11370,7 +11401,8 @@
           "Count all the cars.",
           "What is three and two more?"
         ],
-        "explanation": "Three cars and two cars makes five cars."
+        "explanation": "Three cars and two cars makes five cars.",
+        "image": "/curriculum-images/generated/count-3-star.svg"
       },
       {
         "question": "How many trees? (1 tree) + (3 trees)",
@@ -11385,7 +11417,8 @@
           "Count all the trees.",
           "What is one plus three?"
         ],
-        "explanation": "One tree and three trees totals four trees."
+        "explanation": "One tree and three trees totals four trees.",
+        "image": "/curriculum-images/generated/count-1-square.svg"
       },
       {
         "question": "How many flowers? (2 flowers) + (3 flowers)",
@@ -11400,7 +11433,8 @@
           "Count all the flowers.",
           "What is two and three more?"
         ],
-        "explanation": "Two flowers and three flowers is five flowers."
+        "explanation": "Two flowers and three flowers is five flowers.",
+        "image": "/curriculum-images/generated/count-2-square.svg"
       },
       {
         "question": "How many stars? (4 stars) + (1 star)",
@@ -11415,7 +11449,8 @@
           "Count all the stars.",
           "What is four plus one?"
         ],
-        "explanation": "Four stars and one star makes five stars."
+        "explanation": "Four stars and one star makes five stars.",
+        "image": "/curriculum-images/generated/count-4-circle.svg"
       },
       {
         "question": "How many books? (2 books) + (4 books)",
@@ -11430,7 +11465,8 @@
           "Count all the books.",
           "What is two and four more?"
         ],
-        "explanation": "Two books and four books is six books."
+        "explanation": "Two books and four books is six books.",
+        "image": "/curriculum-images/generated/count-2-star.svg"
       }
     ]
   },
@@ -13402,7 +13438,8 @@
           "What is the hour?",
           "Where is the short hand at 2 o'clock?"
         ],
-        "explanation": "The hour hand points to the 2 for two o'clock."
+        "explanation": "The hour hand points to the 2 for two o'clock.",
+        "image": "/curriculum-images/generated/count-2-circle.svg"
       },
       {
         "question": "The big hand is on the 12. The small hand is on the 4. What time is it?",
@@ -16437,7 +16474,8 @@
           "How many groups of 3 are in 9?",
           "Count by threes."
         ],
-        "explanation": "9 votes / 3 votes/star = 3 stars."
+        "explanation": "9 votes / 3 votes/star = 3 stars.",
+        "image": "/curriculum-images/generated/count-9-circle.svg"
       },
       {
         "question": "How many more like pizza than salad, if each pizza/salad slice equals 1 vote?",
@@ -16453,7 +16491,8 @@
           "Subtract the smaller number from the bigger number.",
           "Compare the values."
         ],
-        "explanation": "Pizza=5, Salad=3.  5-3=2"
+        "explanation": "Pizza=5, Salad=3.  5-3=2",
+        "image": "/curriculum-images/generated/count-1-circle.svg"
       },
       {
         "question": "A chart shows 6 cats and 4 dogs. If each pet gets a paw print, how many paw prints are shown?",
@@ -16469,7 +16508,8 @@
           "What is the total number of pets?",
           "Calculate the sum."
         ],
-        "explanation": "6 cats + 4 dogs = 10 pets."
+        "explanation": "6 cats + 4 dogs = 10 pets.",
+        "image": "/curriculum-images/generated/count-6-heart.svg"
       },
       {
         "question": "A pictograph shows 2 cars. If each car is 5 vehicles, how many vehicles are there?",
@@ -16501,7 +16541,8 @@
           "Count by 4s.",
           "What is 4+4?"
         ],
-        "explanation": "2 stars * 4 votes/star = 8 votes"
+        "explanation": "2 stars * 4 votes/star = 8 votes",
+        "image": "/curriculum-images/generated/count-2-heart.svg"
       },
       {
         "question": "If each heart represents 2 people, and there are 5 hearts, how many people?",
@@ -16751,7 +16792,8 @@
           "Think about nickels.",
           "Follow the pattern."
         ],
-        "explanation": "We are counting by 5s. 10 + 5 = 15."
+        "explanation": "We are counting by 5s. 10 + 5 = 15.",
+        "image": "/curriculum-images/generated/count-5-square.svg"
       },
       {
         "question": "What number is after 30 when counting by 10s?",
@@ -16767,7 +16809,8 @@
           "Think about dimes.",
           "Add 10."
         ],
-        "explanation": "When counting by 10s, the number after 30 is 40."
+        "explanation": "When counting by 10s, the number after 30 is 40.",
+        "image": "/curriculum-images/generated/count-10-circle.svg"
       },
       {
         "question": "Fill in the blank: 10, 20, ___, 40",
@@ -16799,7 +16842,8 @@
           "Count on your fingers.",
           "Add 2."
         ],
-        "explanation": "When counting by 2s, the number after 12 is 14."
+        "explanation": "When counting by 2s, the number after 12 is 14.",
+        "image": "/curriculum-images/generated/count-2-heart.svg"
       },
       {
         "question": "Which list counts by 5?",
@@ -16815,7 +16859,8 @@
           "Look for a pattern of 5.",
           "Check each one."
         ],
-        "explanation": "The list 5, 10, 15 increases by 5 each time."
+        "explanation": "The list 5, 10, 15 increases by 5 each time.",
+        "image": "/curriculum-images/generated/count-5-star.svg"
       },
       {
         "question": "What comes before 20 when counting by 5s?",
@@ -16831,7 +16876,8 @@
           "Think about nickels.",
           "Subtract 5."
         ],
-        "explanation": "When skip counting by 5s, the number before 20 is 15."
+        "explanation": "When skip counting by 5s, the number before 20 is 15.",
+        "image": "/curriculum-images/generated/count-5-square.svg"
       },
       {
         "question": "Count by 10s: 50, 60, 70, ___",
@@ -16847,7 +16893,8 @@
           "What is 10 more than 70?",
           "Follow the pattern."
         ],
-        "explanation": "We are skip counting by 10s. 70 + 10 = 80"
+        "explanation": "We are skip counting by 10s. 70 + 10 = 80",
+        "image": "/curriculum-images/generated/count-10-heart.svg"
       },
       {
         "question": "What comes next: 14, 16, 18, ___?",
@@ -16879,7 +16926,8 @@
           "Think of groups of 10.",
           "Only one increases by 10 each time."
         ],
-        "explanation": "The sequence 10, 20, 30, 40 increases by 10 each time."
+        "explanation": "The sequence 10, 20, 30, 40 increases by 10 each time.",
+        "image": "/curriculum-images/generated/count-10-square.svg"
       }
     ]
   },
@@ -25555,7 +25603,8 @@
           "Both"
         ],
         "answer": "6",
-        "explanation": "6 is smaller than 8."
+        "explanation": "6 is smaller than 8.",
+        "image": "/curriculum-images/generated/compare-8-vs-6.svg"
       },
       {
         "question": "How many circles are there: O O O O O O O",
@@ -25663,7 +25712,8 @@
           "8"
         ],
         "answer": "2",
-        "explanation": "2 is less than 4."
+        "explanation": "2 is less than 4.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       },
       {
         "question": "Count the triangles: △△△△",
@@ -25707,7 +25757,8 @@
           "10"
         ],
         "answer": "8",
-        "explanation": "8 is greater than 6."
+        "explanation": "8 is greater than 6.",
+        "image": "/curriculum-images/generated/compare-8-vs-6.svg"
       },
       {
         "question": "Count the hearts: ❤️❤️❤️❤️❤️❤️",
@@ -25793,7 +25844,8 @@
           "I don't know"
         ],
         "answer": "4",
-        "explanation": "4 is smaller than 6."
+        "explanation": "4 is smaller than 6.",
+        "image": "/curriculum-images/generated/compare-4-vs-6.svg"
       },
       {
         "question": "What number comes before 5?",
@@ -25837,7 +25889,8 @@
           "I don't know"
         ],
         "answer": "8",
-        "explanation": "8 is bigger than 3."
+        "explanation": "8 is bigger than 3.",
+        "image": "/curriculum-images/generated/compare-8-vs-3.svg"
       },
       {
         "question": "What number comes between 6 and 8?",
@@ -25989,7 +26042,8 @@
           "I don't know"
         ],
         "answer": "6",
-        "explanation": "6 is a larger number than 4."
+        "explanation": "6 is a larger number than 4.",
+        "image": "/curriculum-images/generated/compare-6-vs-4.svg"
       },
       {
         "question": "If you have 2 cookies and your friend gives you 1 more, how many cookies do you have?",
@@ -27095,7 +27149,8 @@
           "Both are same"
         ],
         "answer": "7",
-        "explanation": "7 is bigger than 3."
+        "explanation": "7 is bigger than 3.",
+        "image": "/curriculum-images/generated/compare-7-vs-3.svg"
       },
       {
         "question": "Count the squares: ⬜⬜⬜⬜⬜⬜",
@@ -27432,7 +27487,8 @@
           "4"
         ],
         "answer": "3",
-        "explanation": "There are 7 dots. 10 - 7 = 3"
+        "explanation": "There are 7 dots. 10 - 7 = 3",
+        "image": "/curriculum-images/generated/count-10-heart.svg"
       }
     ]
   },
@@ -27496,7 +27552,8 @@
           "7"
         ],
         "answer": "4",
-        "explanation": "4 is smaller than 6."
+        "explanation": "4 is smaller than 6.",
+        "image": "/curriculum-images/generated/compare-4-vs-6.svg"
       },
       {
         "question": "Count the dots: . . . .",
@@ -27659,7 +27716,8 @@
           "I don't know"
         ],
         "answer": "3",
-        "explanation": "3 is bigger than 2."
+        "explanation": "3 is bigger than 2.",
+        "image": "/curriculum-images/generated/compare-2-vs-3.svg"
       },
       {
         "question": "What number comes before 6?",
@@ -27789,7 +27847,8 @@
           "Cannot tell"
         ],
         "answer": "3",
-        "explanation": "3 is smaller than 5."
+        "explanation": "3 is smaller than 5.",
+        "image": "/curriculum-images/generated/compare-3-vs-5.svg"
       },
       {
         "question": "How many fingers are on one hand? (Show only one hand)",
@@ -27833,7 +27892,8 @@
           "Cannot tell"
         ],
         "answer": "8",
-        "explanation": "8 is bigger than 6."
+        "explanation": "8 is bigger than 6.",
+        "image": "/curriculum-images/generated/compare-8-vs-6.svg"
       },
       {
         "question": "Count the leaves: 🍃🍃🍃🍃🍃🍃🍃",
@@ -27963,7 +28023,8 @@
           "I don't know"
         ],
         "answer": "7",
-        "explanation": "7 is bigger than 4."
+        "explanation": "7 is bigger than 4.",
+        "image": "/curriculum-images/generated/compare-7-vs-4.svg"
       },
       {
         "question": "If you have 6 blocks and you take away 1, how many are left?",
@@ -28082,7 +28143,8 @@
           "None"
         ],
         "answer": "4",
-        "explanation": "4 is a larger number than 2."
+        "explanation": "4 is a larger number than 2.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "What number comes before 5?",
@@ -28212,7 +28274,8 @@
           "I don't know"
         ],
         "answer": "5",
-        "explanation": "5 is bigger than 3."
+        "explanation": "5 is bigger than 3.",
+        "image": "/curriculum-images/generated/compare-5-vs-3.svg"
       },
       {
         "question": "Count the circles: ⚪⚪⚪⚪",
@@ -28375,7 +28438,8 @@
           "None"
         ],
         "answer": "4",
-        "explanation": "4 is bigger than 2."
+        "explanation": "4 is bigger than 2.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "How many dots? . . . . . .",
@@ -28752,7 +28816,8 @@
           "Neither"
         ],
         "answer": "3",
-        "explanation": "3 is more than 1."
+        "explanation": "3 is more than 1.",
+        "image": "/curriculum-images/generated/compare-3-vs-1.svg"
       },
       {
         "question": "How many fingers are on one hand?",
@@ -28818,7 +28883,8 @@
           "None"
         ],
         "answer": "5",
-        "explanation": "5 is less than 7."
+        "explanation": "5 is less than 7.",
+        "image": "/curriculum-images/generated/compare-5-vs-7.svg"
       },
       {
         "question": "What number comes after 6?",
@@ -28926,7 +28992,8 @@
           "Both"
         ],
         "answer": "3",
-        "explanation": "3 is smaller than 5."
+        "explanation": "3 is smaller than 5.",
+        "image": "/curriculum-images/generated/compare-3-vs-5.svg"
       },
       {
         "question": "Count the triangles: ▲▲▲▲▲",
@@ -29316,7 +29383,8 @@
           "None"
         ],
         "answer": "3",
-        "explanation": "3 is bigger than 2."
+        "explanation": "3 is bigger than 2.",
+        "image": "/curriculum-images/generated/compare-3-vs-2.svg"
       },
       {
         "question": "What comes after 4?",
@@ -29457,7 +29525,8 @@
           "4"
         ],
         "answer": "3",
-        "explanation": "You are holding up three fingers."
+        "explanation": "You are holding up three fingers.",
+        "image": "/curriculum-images/generated/count-3-circle.svg"
       },
       {
         "question": "What number is shown here: 5",
@@ -29490,7 +29559,8 @@
           "None of the above"
         ],
         "answer": "2",
-        "explanation": "2 is less than 4."
+        "explanation": "2 is less than 4.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       },
       {
         "question": "What comes before 7?",
@@ -29587,7 +29657,8 @@
           "0"
         ],
         "answer": "3",
-        "explanation": "3 is bigger than 1."
+        "explanation": "3 is bigger than 1.",
+        "image": "/curriculum-images/generated/compare-3-vs-1.svg"
       },
       {
         "question": "Count the stars: ⭐⭐⭐",
@@ -29631,7 +29702,8 @@
           "9"
         ],
         "answer": "6",
-        "explanation": "6 is smaller than 8."
+        "explanation": "6 is smaller than 8.",
+        "image": "/curriculum-images/generated/compare-6-vs-8.svg"
       },
       {
         "question": "What number comes before 2?",
@@ -29924,7 +29996,8 @@
           "13"
         ],
         "answer": "20",
-        "explanation": "20 is the highest number in the list."
+        "explanation": "20 is the highest number in the list.",
+        "image": "/curriculum-images/generated/count-11-heart.svg"
       },
       {
         "question": "What number do you get if you add 2 to 16?",
@@ -30391,7 +30464,8 @@
           "17, no"
         ],
         "answer": "17, yes",
-        "explanation": "10 + 7 = 17. 17 is more than 15."
+        "explanation": "10 + 7 = 17. 17 is more than 15.",
+        "image": "/curriculum-images/generated/count-15-circle.svg"
       }
     ]
   },
@@ -31030,7 +31104,8 @@
           "17"
         ],
         "answer": "15",
-        "explanation": "When counting, the number after 14 is 15."
+        "explanation": "When counting, the number after 14 is 15.",
+        "image": "/curriculum-images/generated/count-14-star.svg"
       },
       {
         "question": "Which group has 17 apples?",
@@ -31160,7 +31235,8 @@
           "14"
         ],
         "answer": "13",
-        "explanation": "There are 13 apples in total."
+        "explanation": "There are 13 apples in total.",
+        "image": "/curriculum-images/generated/count-13-square.svg"
       },
       {
         "question": "Which number comes between 15 and 17?",
@@ -31345,7 +31421,8 @@
           "18"
         ],
         "answer": "15",
-        "explanation": "The sequence is 11, 12, 13, 14, 15."
+        "explanation": "The sequence is 11, 12, 13, 14, 15.",
+        "image": "/curriculum-images/generated/count-11-heart.svg"
       },
       {
         "question": "You have 13 cookies and your friend gives you 2 more. How many cookies do you have now?",
@@ -31453,7 +31530,8 @@
           "5"
         ],
         "answer": "20",
-        "explanation": "5 fingers + 5 fingers = 10 fingers. 10+10 = 20."
+        "explanation": "5 fingers + 5 fingers = 10 fingers. 10+10 = 20.",
+        "image": "/curriculum-images/generated/count-5-apple.svg"
       },
       {
         "question": "Which set has 13 items?",
@@ -31627,7 +31705,8 @@
           "11"
         ],
         "answer": "11",
-        "explanation": "One hand has 5 fingers. 5 + 6 = 11"
+        "explanation": "One hand has 5 fingers. 5 + 6 = 11",
+        "image": "/curriculum-images/generated/count-6-square.svg"
       },
       {
         "question": "Which group has 18 objects? (C=Circles, T=Triangles)",
@@ -31746,7 +31825,8 @@
           "14"
         ],
         "answer": "12",
-        "explanation": "10 plus 2 equals 12."
+        "explanation": "10 plus 2 equals 12.",
+        "image": "/curriculum-images/generated/count-10-star.svg"
       },
       {
         "question": "Which number is the biggest?",
@@ -31843,7 +31923,8 @@
           "11"
         ],
         "answer": "13",
-        "explanation": "By counting, we see there are 13 apples."
+        "explanation": "By counting, we see there are 13 apples.",
+        "image": "/curriculum-images/generated/count-13-square.svg"
       },
       {
         "question": "Which number is smaller: 15 or 17?",
@@ -31876,7 +31957,8 @@
           "13"
         ],
         "answer": "15",
-        "explanation": "The numbers are 14, 15, and 16."
+        "explanation": "The numbers are 14, 15, and 16.",
+        "image": "/curriculum-images/generated/count-14-square.svg"
       },
       {
         "question": "If you have 10 crayons and get 6 more, how many crayons do you have?",
@@ -32777,7 +32859,8 @@
           "11"
         ],
         "answer": "11",
-        "explanation": "5 + 6 = 11"
+        "explanation": "5 + 6 = 11",
+        "image": "/curriculum-images/generated/count-6-star.svg"
       },
       {
         "question": "Order these numbers from smallest to largest: 11, 20, 15, 13",
@@ -33099,7 +33182,8 @@
           "11"
         ],
         "answer": "11",
-        "explanation": "10 + 1 = 11"
+        "explanation": "10 + 1 = 11",
+        "image": "/curriculum-images/generated/count-10-apple.svg"
       },
       {
         "question": "What number is shown here: 13?",
@@ -33348,7 +33432,8 @@
           "17"
         ],
         "answer": "13",
-        "explanation": "Counting backwards, the number before 14 is 13."
+        "explanation": "Counting backwards, the number before 14 is 13.",
+        "image": "/curriculum-images/generated/count-15-square.svg"
       }
     ]
   },
@@ -33541,7 +33626,8 @@
           "13"
         ],
         "answer": "12",
-        "explanation": "There are 12 stars."
+        "explanation": "There are 12 stars.",
+        "image": "/curriculum-images/generated/count-12-circle.svg"
       },
       {
         "question": "Which number comes before 19?",
@@ -33596,7 +33682,8 @@
           "17"
         ],
         "answer": "15",
-        "explanation": "13 + 2 = 15"
+        "explanation": "13 + 2 = 15",
+        "image": "/curriculum-images/generated/count-13-circle.svg"
       },
       {
         "question": "Fill in the missing number: 16, ___, 18, 19",
@@ -33789,7 +33876,8 @@
           "Fourteen"
         ],
         "answer": "Eleven",
-        "explanation": "11 apples are called Eleven."
+        "explanation": "11 apples are called Eleven.",
+        "image": "/curriculum-images/generated/count-11-apple.svg"
       },
       {
         "question": "Which number comes after 12?",
@@ -39126,7 +39214,8 @@
           "7"
         ],
         "answer": "7",
-        "explanation": "Counting from 3 to 7 includes the numbers 3, 4, 5, 6, and 7. The last number said is 7."
+        "explanation": "Counting from 3 to 7 includes the numbers 3, 4, 5, 6, and 7. The last number said is 7.",
+        "image": "/curriculum-images/generated/count-3-star.svg"
       }
     ]
   },
@@ -39190,7 +39279,8 @@
           "None"
         ],
         "answer": "4",
-        "explanation": "4 is further along when we count, so it is bigger."
+        "explanation": "4 is further along when we count, so it is bigger.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "What comes before 5?",
@@ -39234,7 +39324,8 @@
           "None"
         ],
         "answer": "1",
-        "explanation": "1 comes before 3 when we count, so it is smaller."
+        "explanation": "1 comes before 3 when we count, so it is smaller.",
+        "image": "/curriculum-images/generated/compare-1-vs-3.svg"
       },
       {
         "question": "What comes next: 1, 2, 3, _?",
@@ -40285,7 +40376,8 @@
           "2"
         ],
         "answer": "1",
-        "explanation": "1 comes before 3 when counting."
+        "explanation": "1 comes before 3 when counting.",
+        "image": "/curriculum-images/generated/compare-3-vs-1.svg"
       },
       {
         "question": "What comes before 5?",
@@ -40307,7 +40399,8 @@
           "3"
         ],
         "answer": "4",
-        "explanation": "4 comes after 2 when counting."
+        "explanation": "4 comes after 2 when counting.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       },
       {
         "question": "Fill in the missing number: 1, __, 3",
@@ -40437,7 +40530,8 @@
           "None"
         ],
         "answer": "4",
-        "explanation": "4 is bigger than 2."
+        "explanation": "4 is bigger than 2.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "Which number comes next: 1, 2, ___?",
@@ -40459,7 +40553,8 @@
           "None"
         ],
         "answer": "3",
-        "explanation": "3 is smaller than 5."
+        "explanation": "3 is smaller than 5.",
+        "image": "/curriculum-images/generated/compare-5-vs-3.svg"
       },
       {
         "question": "What comes between 2 and 4?",
@@ -40719,7 +40814,8 @@
           "None"
         ],
         "answer": "4",
-        "explanation": "4 comes later when counting, so it is bigger."
+        "explanation": "4 comes later when counting, so it is bigger.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       },
       {
         "question": "What number comes between 3 and 5?",
@@ -40752,7 +40848,8 @@
           "None"
         ],
         "answer": "3",
-        "explanation": "3 comes earlier when counting, so it is smaller."
+        "explanation": "3 comes earlier when counting, so it is smaller.",
+        "image": "/curriculum-images/generated/compare-6-vs-3.svg"
       },
       {
         "question": "What is the next number after 7?",
@@ -41241,7 +41338,8 @@
           "2"
         ],
         "answer": "3",
-        "explanation": "The number 3 is bigger than 2 and smaller than 4."
+        "explanation": "The number 3 is bigger than 2 and smaller than 4.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       }
     ]
   },
@@ -41272,7 +41370,8 @@
           "None of the above"
         ],
         "answer": "2",
-        "explanation": "2 is smaller than 3."
+        "explanation": "2 is smaller than 3.",
+        "image": "/curriculum-images/generated/compare-2-vs-3.svg"
       },
       {
         "question": "What number comes before 4?",
@@ -41371,7 +41470,8 @@
           "5"
         ],
         "answer": "3",
-        "explanation": "Counting backwards is 5, 4, 3..."
+        "explanation": "Counting backwards is 5, 4, 3...",
+        "image": "/curriculum-images/generated/count-5-heart.svg"
       },
       {
         "question": "What number is one more than 4 and one less than 6?",
@@ -41523,7 +41623,8 @@
           "0"
         ],
         "answer": "4",
-        "explanation": "When counting backwards, the numbers decrease by one."
+        "explanation": "When counting backwards, the numbers decrease by one.",
+        "image": "/curriculum-images/generated/count-5-circle.svg"
       }
     ]
   },
@@ -41576,7 +41677,8 @@
           "1"
         ],
         "answer": "4",
-        "explanation": "4 is a larger number than 2."
+        "explanation": "4 is a larger number than 2.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "What comes first: 5, 3, or 1?",
@@ -41664,7 +41766,8 @@
           "5, 4, 3, 2"
         ],
         "answer": "4, 3, 2, 1",
-        "explanation": "Counting backwards from 4 means going down in order, so 4, 3, 2, 1 is correct."
+        "explanation": "Counting backwards from 4 means going down in order, so 4, 3, 2, 1 is correct.",
+        "image": "/curriculum-images/generated/count-4-star.svg"
       }
     ]
   },
@@ -42499,7 +42602,8 @@
           "1"
         ],
         "answer": "4",
-        "explanation": "4 is further along when counting than 2."
+        "explanation": "4 is further along when counting than 2.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "Which group is in order from smallest to largest?",
@@ -42640,7 +42744,8 @@
           "10"
         ],
         "answer": "9",
-        "explanation": "When counting up, 9 comes after 8."
+        "explanation": "When counting up, 9 comes after 8.",
+        "image": "/curriculum-images/generated/count-8-apple.svg"
       },
       {
         "question": "Which group of numbers is in the correct order?",
@@ -42693,7 +42798,8 @@
           "I don't know"
         ],
         "answer": "4",
-        "explanation": "4 is further along in the counting sequence than 2, so it's bigger."
+        "explanation": "4 is further along in the counting sequence than 2, so it's bigger.",
+        "image": "/curriculum-images/generated/compare-4-vs-2.svg"
       },
       {
         "question": "Which number is missing: 1, __, 3?",
@@ -42823,7 +42929,8 @@
           "2"
         ],
         "answer": "1",
-        "explanation": "1 is less than 3."
+        "explanation": "1 is less than 3.",
+        "image": "/curriculum-images/generated/compare-3-vs-1.svg"
       },
       {
         "question": "What number comes before 4?",
@@ -42856,7 +42963,8 @@
           "3"
         ],
         "answer": "5",
-        "explanation": "5 is more than 2."
+        "explanation": "5 is more than 2.",
+        "image": "/curriculum-images/generated/compare-2-vs-5.svg"
       },
       {
         "question": "What comes next: 3, 4, ___?",
@@ -42975,7 +43083,8 @@
           "I don't know"
         ],
         "answer": "4",
-        "explanation": "4 is further along when counting than 2."
+        "explanation": "4 is further along when counting than 2.",
+        "image": "/curriculum-images/generated/compare-2-vs-4.svg"
       },
       {
         "question": "Which number is smaller, 5 or 3?",
@@ -42986,7 +43095,8 @@
           "I don't know"
         ],
         "answer": "3",
-        "explanation": "3 comes before 5 when counting."
+        "explanation": "3 comes before 5 when counting.",
+        "image": "/curriculum-images/generated/compare-5-vs-3.svg"
       },
       {
         "question": "What comes next: 1, 2, ___?",
@@ -44428,7 +44538,8 @@
           "5"
         ],
         "answer": "4",
-        "explanation": "There is one big triangle, and 3 smaller triangles."
+        "explanation": "There is one big triangle, and 3 smaller triangles.",
+        "image": "/curriculum-images/generated/compare-4-vs-3.svg"
       },
       {
         "question": "Which object is shaped like a circle?",
@@ -51939,7 +52050,8 @@
           "4"
         ],
         "answer": "4",
-        "explanation": "Visualizing or drawing a 2x2 square grid shows it is made of 4 smaller squares."
+        "explanation": "Visualizing or drawing a 2x2 square grid shows it is made of 4 smaller squares.",
+        "image": "/curriculum-images/generated/count-2-apple.svg"
       },
       {
         "question": "I am a shape with 4 sides. All my sides are straight and equal. What am I?",
@@ -59085,7 +59197,8 @@
           "2"
         ],
         "answer": "4",
-        "explanation": "4 - 1 = 3, 3 + 1 = 4"
+        "explanation": "4 - 1 = 3, 3 + 1 = 4",
+        "image": "/curriculum-images/generated/count-1-heart.svg"
       },
       {
         "question": "3 + 2 = ?",
@@ -61515,7 +61628,8 @@
           "None"
         ],
         "answer": "6 + 3",
-        "explanation": "7+1 = 8 and 6+3 = 9. 9 is bigger than 8."
+        "explanation": "7+1 = 8 and 6+3 = 9. 9 is bigger than 8.",
+        "image": "/curriculum-images/generated/compare-7-vs-1.svg"
       }
     ]
   },
@@ -61938,7 +62052,8 @@
           "Cannot tell"
         ],
         "answer": "They are the same",
-        "explanation": "7+2=9 and 6+3=9. They are equal."
+        "explanation": "7+2=9 and 6+3=9. They are equal.",
+        "image": "/curriculum-images/generated/compare-7-vs-2.svg"
       }
     ]
   },
@@ -78941,7 +79056,8 @@
           "5"
         ],
         "answer": "2",
-        "explanation": "Samantha has 3 apples, and she needs to have 5 apples in total. So, she needs 2 more apples to reach her goal."
+        "explanation": "Samantha has 3 apples, and she needs to have 5 apples in total. So, she needs 2 more apples to reach her goal.",
+        "image": "/curriculum-images/generated/count-5-heart.svg"
       },
       {
         "question": "Jack has 2 toy cars. His friend gives him some more. Now Jack has 5 toy cars. How many toy cars did his friend give him?",
@@ -79276,7 +79392,8 @@
           "4"
         ],
         "answer": "2",
-        "explanation": "10 - 8 = 2, so John has 2 crayons left."
+        "explanation": "10 - 8 = 2, so John has 2 crayons left.",
+        "image": "/curriculum-images/generated/count-10-circle.svg"
       }
     ]
   },
@@ -83445,7 +83562,8 @@
           "1000 cm"
         ],
         "answer": "100 cm",
-        "explanation": "There are 100 centimeters in 1 meter."
+        "explanation": "There are 100 centimeters in 1 meter.",
+        "image": "/curriculum-images/generated/count-1-heart.svg"
       },
       {
         "question": "A garden hose is about how many feet long?",
@@ -83531,7 +83649,8 @@
           "32 pencils"
         ],
         "answer": "8 pencils",
-        "explanation": "Since 1 pound = 16 ounces, and each pencil weighs 2 ounces, 8 pencils would weigh 1 pound."
+        "explanation": "Since 1 pound = 16 ounces, and each pencil weighs 2 ounces, 8 pencils would weigh 1 pound.",
+        "image": "/curriculum-images/generated/count-1-apple.svg"
       },
       {
         "question": "If a backpack weighs 3 pounds, and you add 2 books that each weigh 1 pound, what is the new weight of the backpack?",
@@ -83584,7 +83703,8 @@
           "4 packages"
         ],
         "answer": "2 packages",
-        "explanation": "Since 1 kilogram is 1000 grams, and each package weighs 500 grams, 2 packages would be needed to equal 1 kilogram."
+        "explanation": "Since 1 kilogram is 1000 grams, and each package weighs 500 grams, 2 packages would be needed to equal 1 kilogram.",
+        "image": "/curriculum-images/generated/count-1-apple.svg"
       },
       {
         "question": "A bag of apples weighs 1.5 kilograms. How many bags of apples would weigh 4.5 kilograms?",
@@ -83595,7 +83715,8 @@
           "5 bags"
         ],
         "answer": "3 bags",
-        "explanation": "If each bag weighs 1.5 kilograms, and we need 4.5 kilograms, then 3 bags would be needed."
+        "explanation": "If each bag weighs 1.5 kilograms, and we need 4.5 kilograms, then 3 bags would be needed.",
+        "image": "/curriculum-images/generated/count-4-heart.svg"
       },
       {
         "question": "Which of these items would weigh the least?",
@@ -83628,7 +83749,8 @@
           "5 boxes"
         ],
         "answer": "4 boxes",
-        "explanation": "If each box of crayons weighs 0.25 kilograms, then 4 boxes would be needed to equal 1 kilogram (4 x 0.25 = 1)."
+        "explanation": "If each box of crayons weighs 0.25 kilograms, then 4 boxes would be needed to equal 1 kilogram (4 x 0.25 = 1).",
+        "image": "/curriculum-images/generated/count-1-heart.svg"
       },
       {
         "question": "A package of rice weighs 2.5 kilograms. A package of pasta weighs 1.75 kilograms. What is the total weight of the two packages?",
@@ -83692,7 +83814,8 @@
           "5 cartons"
         ],
         "answer": "4 cartons",
-        "explanation": "Since each small milk carton holds 1 cup of milk, to hold 4 cups of milk, you need 4 small milk cartons."
+        "explanation": "Since each small milk carton holds 1 cup of milk, to hold 4 cups of milk, you need 4 small milk cartons.",
+        "image": "/curriculum-images/generated/count-4-circle.svg"
       },
       {
         "question": "Max is filling a bucket with water from the hose. The bucket can hold 5 gallons of water. If Max has already filled the bucket 3 times, how many gallons of water are in the bucket?",
@@ -83745,7 +83868,8 @@
           "12 cups"
         ],
         "answer": "4 cups",
-        "explanation": "There are 4 cups in 1 liter."
+        "explanation": "There are 4 cups in 1 liter.",
+        "image": "/curriculum-images/generated/count-1-star.svg"
       },
       {
         "question": "Which of these is the largest unit of capacity?",
@@ -83831,7 +83955,8 @@
           "16 cups"
         ],
         "answer": "4 cups",
-        "explanation": "There are 4 cups in 1 liter."
+        "explanation": "There are 4 cups in 1 liter.",
+        "image": "/curriculum-images/generated/count-1-apple.svg"
       },
       {
         "question": "Samantha is baking cookies and the recipe calls for 1/2 cup of sugar. How many tablespoons of sugar does she need?",
@@ -83875,7 +84000,8 @@
           "64 cups"
         ],
         "answer": "16 cups",
-        "explanation": "There are 4 cups in 1 gallon, and each cup is 8 ounces, so 1 gallon is equal to 16 cups."
+        "explanation": "There are 4 cups in 1 gallon, and each cup is 8 ounces, so 1 gallon is equal to 16 cups.",
+        "image": "/curriculum-images/generated/count-1-star.svg"
       }
     ]
   },

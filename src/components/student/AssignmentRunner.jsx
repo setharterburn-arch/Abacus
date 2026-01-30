@@ -108,9 +108,9 @@ const AssignmentRunner = ({ assignment, studentId, onClose }) => {
                                     style={{
                                         padding: '1rem',
                                         textAlign: 'left',
-                                        background: answers[i] === opt ? 'var(--color-primary)' : 'white',
+                                        background: answers[i] === opt ? 'var(--color-primary)' : 'var(--color-bg-card)',
                                         color: answers[i] === opt ? 'white' : 'var(--color-text)',
-                                        border: '2px solid #eee'
+                                        border: '2px solid var(--color-text)'
                                     }}
                                 >
                                     {opt}

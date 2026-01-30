@@ -14,12 +14,12 @@ const Shop = () => {
     const { stats, purchaseItem, toggleEquip } = useGamification();
 
     return (
-        <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}>
-            <h1 style={{ fontSize: '3rem', textAlign: 'center', marginBottom: '1rem', color: '#7c3aed' }}>
+        <div style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto', background: 'var(--color-bg)', minHeight: '100vh' }}>
+            <h1 style={{ fontSize: '3rem', textAlign: 'center', marginBottom: '1rem', color: 'var(--color-primary)' }}>
                 Abacus's Fashion Shop 🎩
             </h1>
 
-            <div style={{ textAlign: 'center', fontSize: '1.5rem', marginBottom: '3rem', background: '#fef3c7', padding: '1rem', borderRadius: '50px', display: 'inline-block', border: '2px solid #f59e0b' }}>
+            <div style={{ textAlign: 'center', fontSize: '1.5rem', marginBottom: '3rem', background: 'var(--color-bg-card)', padding: '1rem', borderRadius: '50px', display: 'inline-block', border: '2px solid var(--color-primary)' }}>
                 Your Coins: <strong>{stats.coins} 🪙</strong>
             </div>
 
@@ -34,16 +34,16 @@ const Shop = () => {
                             key={item.id}
                             whileHover={{ y: -5 }}
                             style={{
-                                background: 'white', borderRadius: '20px', padding: '1.5rem',
-                                boxShadow: '0 10px 20px rgba(0,0,0,0.05)', textAlign: 'center',
-                                border: equipped ? '4px solid #16a34a' : '1px solid #e5e7eb'
+                                background: 'var(--color-bg-card)', borderRadius: '20px', padding: '1.5rem',
+                                boxShadow: 'var(--shadow-md)', textAlign: 'center',
+                                border: equipped ? '4px solid var(--color-secondary)' : '2px solid var(--color-text)'
                             }}
                         >
                             <img src={item.img} alt={item.name} style={{ width: '80px', height: '80px', objectFit: 'contain', marginBottom: '1rem' }} />
-                            <h3 style={{ margin: '0 0 0.5rem 0' }}>{item.name}</h3>
+                            <h3 style={{ margin: '0 0 0.5rem 0', color: 'var(--color-text)' }}>{item.name}</h3>
 
                             {!owned && (
-                                <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: '#d97706', marginBottom: '1rem' }}>
+                                <div style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '1rem' }}>
                                     {item.price} 🪙
                                 </div>
                             )}
@@ -52,7 +52,7 @@ const Shop = () => {
                                 <button
                                     className={`btn ${equipped ? 'btn-secondary' : 'btn-primary'}`}
                                     onClick={() => toggleEquip(item)}
-                                    style={{ width: '100%', background: equipped ? '#16a34a' : undefined }}
+                                    style={{ width: '100%', background: equipped ? 'var(--color-secondary)' : undefined }}
                                 >
                                     {equipped ? 'Equipped ✔' : 'Equip'}
                                 </button>

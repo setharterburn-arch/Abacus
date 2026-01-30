@@ -11,7 +11,7 @@ const XPBar = () => {
     const percentage = Math.min((xp / xpNeeded) * 100, 100);
 
     return (
-        <div style={{ padding: '1rem', background: 'white', borderRadius: '15px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)', display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
+        <div style={{ padding: '1rem', background: 'var(--color-bg-card)', borderRadius: '15px', boxShadow: 'var(--shadow-sm)', display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem', border: '2px solid var(--color-text)' }}>
 
             {/* Level Circle */}
             <div style={{
@@ -24,11 +24,11 @@ const XPBar = () => {
 
             {/* Bar Container */}
             <div style={{ flex: 1 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9rem', color: '#6b7280', marginBottom: '0.25rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9rem', color: 'var(--color-text-muted)', marginBottom: '0.25rem' }}>
                     <span>Level {level}</span>
                     <span>{xp} / {xpNeeded} XP</span>
                 </div>
-                <div style={{ width: '100%', height: '10px', background: '#e5e7eb', borderRadius: '5px', overflow: 'hidden' }}>
+                <div style={{ width: '100%', height: '10px', background: 'var(--color-bg)', borderRadius: '5px', overflow: 'hidden' }}>
                     <motion.div
                         initial={{ width: 0 }}
                         animate={{ width: `${percentage}%` }}
@@ -39,11 +39,11 @@ const XPBar = () => {
             </div>
 
             {/* Coins */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem', fontWeight: 'bold', color: '#d97706' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--color-primary)' }}>
                 <motion.span
                     key={coins}
-                    initial={{ scale: 1.5, color: '#fbbf24' }}
-                    animate={{ scale: 1, color: '#d97706' }}
+                    initial={{ scale: 1.5 }}
+                    animate={{ scale: 1 }}
                 >
                     🪙 {coins}
                 </motion.span>

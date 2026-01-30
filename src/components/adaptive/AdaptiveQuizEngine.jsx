@@ -216,15 +216,16 @@ const AdaptiveQuizEngine = ({ studentId, topic, onComplete }) => {
             {showFeedback && (
                 <div style={{
                     padding: '1rem',
-                    background: selectedAnswer === currentQuestion.answer ? '#e8f5e9' : '#ffebee',
+                    background: selectedAnswer === currentQuestion.answer ? 'var(--color-secondary)' : 'var(--color-accent)',
                     borderRadius: 'var(--radius-md)',
-                    marginBottom: '1rem'
+                    marginBottom: '1rem',
+                    color: 'white'
                 }}>
-                    <div style={{ fontWeight: 'bold', marginBottom: '0.5rem', color: '#333' }}>
+                    <div style={{ fontWeight: 'bold', marginBottom: '0.5rem' }}>
                         {selectedAnswer === currentQuestion.answer ? '✅ Correct!' : '❌ Incorrect'}
                     </div>
                     {currentQuestion.explanation && (
-                        <div style={{ fontSize: '0.9rem', color: '#555' }}>
+                        <div style={{ fontSize: '0.9rem', opacity: 0.9 }}>
                             {currentQuestion.explanation}
                         </div>
                     )}

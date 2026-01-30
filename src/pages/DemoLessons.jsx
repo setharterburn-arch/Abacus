@@ -310,7 +310,7 @@ const DemoLessons = () => {
                                     color: 'white'
                                 }}>
                                     <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>
-                                        Want to assign this to your students? �
+                                        Want to assign this to your students? 📚
                                     </h3>
                                     <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem', opacity: 0.9 }}>
                                         Sign up to create classes, assign curriculum, and track progress!
