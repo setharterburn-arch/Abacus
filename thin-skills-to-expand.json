@@ -1,0 +1,2444 @@
+{
+  "0": [
+    {
+      "id": "k-counting-1-20",
+      "title": "Count to 20",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-shapes-basic",
+      "title": "Identify basic shapes",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-comparing-sizes",
+      "title": "Compare sizes: bigger, smaller, same",
+      "topic": "Measurement",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "k-colors-shapes",
+      "title": "Colors and shapes",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-number-order",
+      "title": "Put numbers in order",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "k-more-less",
+      "title": "More than, less than, equal to",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "k-before-after",
+      "title": "Numbers before and after",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "k-sorting",
+      "title": "Data: Sorting Objects",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "k-positional-words",
+      "title": "Geometry: Positional Words",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-counting-1",
+      "title": "Counting to 1",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-2",
+      "title": "Counting to 2",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-3",
+      "title": "Counting to 3",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-4",
+      "title": "Counting to 4",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-5",
+      "title": "Counting to 5",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-6",
+      "title": "Counting to 6",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-7",
+      "title": "Counting to 7",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-8",
+      "title": "Counting to 8",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-9",
+      "title": "Counting to 9",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-10",
+      "title": "Counting to 10",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-11",
+      "title": "Counting to 11",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-12",
+      "title": "Counting to 12",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-13",
+      "title": "Counting to 13",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-14",
+      "title": "Counting to 14",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-15",
+      "title": "Counting to 15",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-16",
+      "title": "Counting to 16",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-17",
+      "title": "Counting to 17",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-18",
+      "title": "Counting to 18",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-counting-19",
+      "title": "Counting to 19",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "k-shapes-circle-0",
+      "title": "Identifying Circles",
+      "topic": "Shapes",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-shapes-square-1",
+      "title": "Identifying Squares",
+      "topic": "Shapes",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-shapes-triangle-2",
+      "title": "Identify and measure angles",
+      "topic": "Shapes",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "k-compare-0",
+      "title": "Comparing Groups",
+      "topic": "Comparison",
+      "current": 3,
+      "needed": 22
+    },
+    {
+      "id": "g0-number-recognition-medium",
+      "title": "Number Recognition 1-20",
+      "topic": "Number Recognition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g0-shapes-medium",
+      "title": "Solid Shapes",
+      "topic": "Shapes",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-div-word-problems",
+      "title": "Solve word problems",
+      "topic": "Division",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "test-interactive-questions",
+      "title": "",
+      "topic": "Test",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "8-exponent-product-rule",
+      "title": "Apply the product rule for exponents",
+      "topic": "Exponents",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-exponent-quotient-rule",
+      "title": "Apply the quotient rule for exponents",
+      "topic": "Exponents",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-exponent-power-rule",
+      "title": "Apply the power rule for exponents",
+      "topic": "Exponents",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-negative-exponents",
+      "title": "Evaluate negative exponents",
+      "topic": "Exponents",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-scientific-notation",
+      "title": "Convert to and from scientific notation",
+      "topic": "Exponents",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-one-step-equations",
+      "title": "Solve one-step equations",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-two-step-equations",
+      "title": "Solve two-step equations",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-multi-step-equations",
+      "title": "Solve equations with variables on both sides",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-slope-from-points",
+      "title": "Find slope from two points",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-slope-intercept-form",
+      "title": "Identify slope and y-intercept",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-write-slope-intercept",
+      "title": "Write equations in slope-intercept form",
+      "topic": "Linear Equations",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-function-notation",
+      "title": "Evaluate functions using function notation",
+      "topic": "Functions",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-linear-vs-nonlinear",
+      "title": "Classify functions as linear or nonlinear",
+      "topic": "Functions",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-rate-of-change",
+      "title": "Find the rate of change",
+      "topic": "Functions",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-pythagorean-theorem",
+      "title": "Use the Pythagorean Theorem",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-pythagorean-word-problems",
+      "title": "Solve Pythagorean Theorem word problems",
+      "topic": "Geometry",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "8-transformations",
+      "title": "Perform translations and reflections",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-dilations",
+      "title": "Perform dilations",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-volume-cylinder",
+      "title": "Find volume of cylinders",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-volume-cone",
+      "title": "Find volume of cones",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-volume-sphere",
+      "title": "Find volume of spheres",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-scatter-plots",
+      "title": "Interpret scatter plots and correlation",
+      "topic": "Statistics",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-systems-of-equations",
+      "title": "Solve systems of equations",
+      "topic": "Algebra",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-rational-irrational",
+      "title": "Classify rational and irrational numbers",
+      "topic": "Number System",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "8-approximate-irrationals",
+      "title": "Approximate irrational numbers",
+      "topic": "Number System",
+      "current": 8,
+      "needed": 17
+    }
+  ],
+  "1": [
+    {
+      "id": "1-add-facts-1-10",
+      "title": "Add within 10",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-sub-facts-1-10",
+      "title": "Subtract within 10",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-counting-to-100",
+      "title": "Count to 100",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "1-patterns",
+      "title": "Identify and extend patterns",
+      "topic": "Patterns",
+      "current": 7,
+      "needed": 18
+    },
+    {
+      "id": "1-add-to-20",
+      "title": "Add within 20",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-doubles-facts",
+      "title": "Doubles facts (1+1 through 10+10)",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-number-bonds-10",
+      "title": "Number bonds to 10",
+      "topic": "Addition",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "1-sub-from-10",
+      "title": "Subtract from 10",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-ordinal-numbers",
+      "title": "Ordinal Numbers",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "1-fact-families",
+      "title": "Understand fact families",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "1-missing-addends",
+      "title": "Add: Missing Addends",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-word-problems-basic",
+      "title": "Solve word problems",
+      "topic": "Problem Solving",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "1-tens-frames",
+      "title": "Use tens frames",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "1-subtraction-visual-0",
+      "title": "Subtraction: 3 - 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-1",
+      "title": "Subtraction: 4 - 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-2",
+      "title": "Subtraction: 5 - 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-3",
+      "title": "Subtraction: 6 - 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-4",
+      "title": "Subtraction: 7 - 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-5",
+      "title": "Subtraction: 8 - 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-6",
+      "title": "Subtraction: 9 - 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-7",
+      "title": "Subtraction: 10 - 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-8",
+      "title": "Subtraction: 3 - 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-9",
+      "title": "Subtraction: 4 - 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-10",
+      "title": "Subtraction: 5 - 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-11",
+      "title": "Subtraction: 6 - 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-12",
+      "title": "Subtraction: 7 - 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-13",
+      "title": "Subtraction: 8 - 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-visual-14",
+      "title": "Subtraction: 9 - 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g1-number-sense-medium",
+      "title": "Understanding Place Value (Tens and Ones)",
+      "topic": "Number Sense",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "g1-measurement-medium",
+      "title": "Measure: Measuring Length with Non-Standard Units",
+      "topic": "Measurement",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g1-time-easy",
+      "title": "Telling Time to the Hour",
+      "topic": "Time",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g1-geometry-easy",
+      "title": "Identifying 2D Shapes",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g1-data-medium",
+      "title": "Data: Creating and Interpreting Bar Graphs",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "1-addition-20",
+      "title": "Add: Facts to 10 - Set 20",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-21",
+      "title": "Add: Facts to 10 - Set 21",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-22",
+      "title": "Add: Facts to 10 - Set 22",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-24",
+      "title": "Add: Facts to 10 - Set 24",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-26",
+      "title": "Add: Facts to 10 - Set 26",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-30",
+      "title": "Add: Facts to 10 - Set 30",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-31",
+      "title": "Add: Facts to 10 - Set 31",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-32",
+      "title": "Add: Facts to 10 - Set 32",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-facts-to-20-1",
+      "title": "Add: Facts to 20 - Set 1",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-facts-to-20-2",
+      "title": "Add: Facts to 20 - Set 2",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-facts-to-20-4",
+      "title": "Add: Facts to 20 - Set 4",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-missing-addends-1",
+      "title": "Add: Missing Addends - Set 1",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-addition-three-numbers-1",
+      "title": "Add three numbers",
+      "topic": "Addition",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "1-subtraction-facts-to-10-1",
+      "title": "Subtract: Facts to 10 - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-10-2",
+      "title": "Subtract: Facts to 10 - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-10-3",
+      "title": "Subtract: Facts to 10 - Set 3",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-10-4",
+      "title": "Subtract: Facts to 10 - Set 4",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-20-1",
+      "title": "Subtract: Facts to 20 - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-20-2",
+      "title": "Subtract: Facts to 20 - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-facts-to-20-4",
+      "title": "Subtract: Facts to 20 - Set 4",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "1-subtraction-missing-numbers-1",
+      "title": "Find the missing number in subtraction",
+      "topic": "Subtraction",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "1-place-value-tens-and-ones-1",
+      "title": "Tens and Ones - Set 1",
+      "topic": "Place Value",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "1-measurement-length-1",
+      "title": "Measure length",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "1-measurement-time-1",
+      "title": "Measure: Time - Set 1",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "1-measurement-money-1",
+      "title": "Measure: Money - Set 1",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "1-measurement-money-4",
+      "title": "Measure: Money - Set 4",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    }
+  ],
+  "2": [
+    {
+      "id": "2-place-value-tens-ones",
+      "title": "Understand tens and ones",
+      "topic": "Place Value",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "2-add-2digit",
+      "title": "Add two-digit numbers",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-sub-2digit",
+      "title": "Subtract two-digit numbers",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-skip-counting",
+      "title": "Skip count by 2s, 5s, and 10s",
+      "topic": "Counting",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "2-time-hours",
+      "title": "Tell time to the hour",
+      "topic": "Time",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "2-money-coins",
+      "title": "Count coins",
+      "topic": "Money",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "2-even-odd",
+      "title": "Identify even and odd numbers",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-add-with-regrouping",
+      "title": "Addition with Regrouping",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-sub-with-regrouping",
+      "title": "Subtraction with Regrouping",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-arrays-intro",
+      "title": "Use arrays to multiply",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "2-estimation",
+      "title": "Estimate sums and differences",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-number-lines",
+      "title": "Use a number line",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-fact-fluency",
+      "title": "Build fact fluency",
+      "topic": "Number Sense",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-temperature",
+      "title": "Reading Temperature",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "2-arrays-0",
+      "title": "Use arrays to multiply",
+      "topic": "Arrays",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "g2-number-sense-medium",
+      "title": "Understanding Place Value (Hundreds, Tens, Ones)",
+      "topic": "Number Sense",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "g2-measurement-medium",
+      "title": "Measure: Measuring Length with Inches and Centimeters",
+      "topic": "Measurement",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g2-time-easy",
+      "title": "Telling Time to the Half Hour",
+      "topic": "Time",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g2-money-easy",
+      "title": "Identifying Coins and Their Values",
+      "topic": "Money",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g2-data-medium",
+      "title": "Data: Creating and Interpreting Pictographs",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g2-geometry-easy",
+      "title": "Identifying 3D Shapes",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g2-number-sense-easy",
+      "title": "Skip count by 2s, 5s, and 10s",
+      "topic": "Number Sense",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "2-addition-2-digit-1",
+      "title": "Add: 2-Digit - Set 1",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-addition-2-digit-2",
+      "title": "Add: 2-Digit - Set 2",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-addition-3-digit-1",
+      "title": "Add: 3-Digit - Set 1",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-addition-3-digit-2",
+      "title": "Add: 3-Digit - Set 2",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-addition-mental-math-1",
+      "title": "Add: Mental Math - Set 1",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-addition-mental-math-2",
+      "title": "Add: Mental Math - Set 2",
+      "topic": "Addition",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-2-digit-1",
+      "title": "Subtract: 2-Digit - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-2-digit-2",
+      "title": "Subtract: 2-Digit - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-3-digit-1",
+      "title": "Subtract: 3-Digit - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-3-digit-2",
+      "title": "Subtract: 3-Digit - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-borrowing-1",
+      "title": "Subtract: Borrowing - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-borrowing-2",
+      "title": "Subtract: Borrowing - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-mental-math-1",
+      "title": "Subtract: Mental Math - Set 1",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-mental-math-2",
+      "title": "Subtract: Mental Math - Set 2",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-mental-math-4",
+      "title": "Subtract: Mental Math - Set 4",
+      "topic": "Subtraction",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-measurement-weight-1",
+      "title": "Measure: Weight - Set 1",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "2-measurement-weight-2",
+      "title": "Measure: Weight - Set 2",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-measurement-time-1",
+      "title": "Measure: Time - Set 1",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-measurement-time-2",
+      "title": "Measure: Time - Set 2",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-measurement-money-1",
+      "title": "Measure: Money - Set 1",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "2-measurement-money-2",
+      "title": "Measure: Money - Set 2",
+      "topic": "Measurement",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "2-geometry-2d-shapes-1",
+      "title": "Geometry: 2D Shapes - Set 1",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-2d-shapes-2",
+      "title": "Geometry: 2D Shapes - Set 2",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-3d-shapes-1",
+      "title": "Geometry: 3D Shapes - Set 1",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-3d-shapes-2",
+      "title": "Geometry: 3D Shapes - Set 2",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-3d-shapes-4",
+      "title": "Geometry: 3D Shapes - Set 4",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-symmetry-2",
+      "title": "Geometry: Symmetry - Set 2",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-geometry-symmetry-3",
+      "title": "Geometry: Symmetry - Set 3",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "2-subtraction-regrouping",
+      "title": "Subtract with regrouping",
+      "topic": "Subtraction",
+      "current": 14,
+      "needed": 11
+    }
+  ],
+  "3": [
+    {
+      "id": "3-mult-tables-2-5",
+      "title": "Multiply by 2 and 5",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-mult-tables-3-4",
+      "title": "Multiply by 3 and 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-mult-tables-6-7",
+      "title": "Multiply by 6 and 7",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-mult-tables-8-9",
+      "title": "Multiply by 8 and 9",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-division-basics",
+      "title": "Divide within 100",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-measurement-length",
+      "title": "Measure length",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "3-data-graphs",
+      "title": "Read and interpret graphs",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "3-mult-tables-10-11-12",
+      "title": "Multiply by 10, 11, and 12",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-division-with-remainders",
+      "title": "Divide: Division with Remainders",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-measurement-weight",
+      "title": "Measurement: Weight",
+      "topic": "Measurement",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "3-perimeter-simple",
+      "title": "Finding Perimeter",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-area-simple",
+      "title": "Finding Area",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-symmetry",
+      "title": "Geometry: Lines of Symmetry",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g3-division-easy",
+      "title": "Divide: Division As Sharing",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g3-addition-medium",
+      "title": "Adding Three-Digit Numbers",
+      "topic": "Addition",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "g3-subtraction-medium",
+      "title": "Subtracting Three-Digit Numbers",
+      "topic": "Subtraction",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "g3-measurement-medium",
+      "title": "Measure: Measuring Area and Perimeter",
+      "topic": "Measurement",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g3-data-medium",
+      "title": "Data: Creating and Interpreting Bar Graphs and Pictographs",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g3-time-medium",
+      "title": "Telling Time to the Minute",
+      "topic": "Time",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "3-multiplication-tables-2-5-1",
+      "title": "Multiply: Tables 2-5 - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-tables-2-5-3",
+      "title": "Multiply: Tables 2-5 - Set 3",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-tables-6-9-1",
+      "title": "Multiply: Tables 6-9 - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-tables-6-9-2",
+      "title": "Multiply: Tables 6-9 - Set 2",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-tables-6-9-3",
+      "title": "Multiply: Tables 6-9 - Set 3",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-tables-6-9-4",
+      "title": "Multiply: Tables 6-9 - Set 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-multiplication-arrays-1",
+      "title": "Use arrays to multiply",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-division-basic-division-1",
+      "title": "Divide: Basic Division - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-basic-division-3",
+      "title": "Divide: Basic Division - Set 3",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-remainders-1",
+      "title": "Divide: Remainders - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-remainders-2",
+      "title": "Divide: Remainders - Set 2",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-remainders-3",
+      "title": "Divide: Remainders - Set 3",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-remainders-4",
+      "title": "Divide: Remainders - Set 4",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-mental-math-1",
+      "title": "Divide: Mental Math - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-mental-math-2",
+      "title": "Divide: Mental Math - Set 2",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-mental-math-3",
+      "title": "Divide: Mental Math - Set 3",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-division-mental-math-4",
+      "title": "Divide: Mental Math - Set 4",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-geometry-area-1",
+      "title": "Geometry: Area - Set 1",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "3-multiply-by-2",
+      "title": "Multiply by 2",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-multiply-by-3",
+      "title": "Multiply by 3",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-multiply-by-4",
+      "title": "Multiply by 4",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-multiply-by-5",
+      "title": "Multiply by 5",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-multiply-by-10",
+      "title": "Multiply by 10",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-multiply-mixed-facts",
+      "title": "Multiply: Mixed Multiplication Facts",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-division-by-6",
+      "title": "Divide by 6: Quotients Up to 10",
+      "topic": "Division",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-division-by-7-8-9",
+      "title": "Divide by 7, 8, and 9",
+      "topic": "Division",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-subtract-3digit-no-regroup",
+      "title": "Subtract 3-Digit Numbers Without Regrouping",
+      "topic": "Subtraction",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-subtract-3digit-regroup",
+      "title": "Subtract 3-Digit Numbers with Regrouping",
+      "topic": "Subtraction",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-area-intro",
+      "title": "Measure: Area",
+      "topic": "Measurement",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-perimeter-intro",
+      "title": "Measure: Perimeter",
+      "topic": "Measurement",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-time-to-minute",
+      "title": "Tell Time to the Minute",
+      "topic": "Time",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-time-am-pm",
+      "title": "A.M. and P.M.",
+      "topic": "Time",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-picture-graphs",
+      "title": "Reading Picture Graphs",
+      "topic": "Data",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-data-questions",
+      "title": "Data: Asking Questions About Data",
+      "topic": "Data",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-geometry-quadrilaterals",
+      "title": "Classify quadrilaterals",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-geometry-partitioning",
+      "title": "Geometry: Partitioning Shapes",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-geometry-attributes",
+      "title": "Geometry: Shape Attributes",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-multiplication-word-problems",
+      "title": "Solve multiplication word problems",
+      "topic": "Problem Solving",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-mult-div-relationship",
+      "title": "Relate multiplication and division",
+      "topic": "Operations",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-properties-multiplication",
+      "title": "Properties of multiplication",
+      "topic": "Multiplication",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-patterns-sequences",
+      "title": "Identify and extend patterns",
+      "topic": "Patterns",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "3-odd-even",
+      "title": "Odd and Even Numbers",
+      "topic": "Number Sense",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "3-area-composite",
+      "title": "Measure: Area of Composite Shapes",
+      "topic": "Measurement",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "3-measurement-mass",
+      "title": "Measure: Measuring Mass and Weight",
+      "topic": "Measurement",
+      "current": 11,
+      "needed": 14
+    }
+  ],
+  "4": [
+    {
+      "id": "4-mult-multi-digit",
+      "title": "Multiply multi-digit numbers",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-decimals-intro",
+      "title": "Understand decimal place value",
+      "topic": "Decimals",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "4-area-perimeter",
+      "title": "Find area and perimeter",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-prime-composite",
+      "title": "Identify prime and composite numbers",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "4-decimals-tenths-hundredths",
+      "title": "Decimals to tenths",
+      "topic": "Decimals",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "4-long-multiplication",
+      "title": "Multiply using the standard algorithm",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-gcf-lcm",
+      "title": "Find GCF and LCM",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "4-coordinate-grid",
+      "title": "Geometry: Coordinate Grid Basics",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-roman-numerals",
+      "title": "Read and write Roman numerals",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "4-line-plots",
+      "title": "Data: Line Plots",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "g4-multiplication-medium",
+      "title": "Multiply: Multiplication with Regrouping",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "g4-division-medium",
+      "title": "Divide: Long Division (No Remainders)",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g4-decimals-easy",
+      "title": "Understanding Decimals (Tenths and Hundredths)",
+      "topic": "Decimals",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "g4-measurement-medium",
+      "title": "Find volume of rectangular prisms",
+      "topic": "Measurement",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g4-geometry-medium",
+      "title": "Identifying Types of Lines",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g4-multiplication-hard",
+      "title": "Solve word problems",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "g4-decimals-medium",
+      "title": "Decimals: Comparing Decimals",
+      "topic": "Decimals",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "g4-data-medium",
+      "title": "Data: Creating and Interpreting Line Plots",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g4-problem-solving-hard",
+      "title": "Solve word problems",
+      "topic": "Problem Solving",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g4-area-medium",
+      "title": "Identify and measure angles",
+      "topic": "Area",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "4-multiplication-multi-digit-1",
+      "title": "Multiply: Multi-Digit - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-multi-digit-4",
+      "title": "Multiply: Multi-Digit - Set 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-factors-1",
+      "title": "Multiply: Factors - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-factors-4",
+      "title": "Multiply: Factors - Set 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-multiples-1",
+      "title": "Multiply: Multiples - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-multiples-2",
+      "title": "Multiply: Multiples - Set 2",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-multiples-3",
+      "title": "Multiply: Multiples - Set 3",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-multiples-4",
+      "title": "Multiply: Multiples - Set 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-prime-numbers-1",
+      "title": "Multiply: Prime Numbers - Set 1",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-prime-numbers-4",
+      "title": "Multiply: Prime Numbers - Set 4",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-division-2-digit-divisors-1",
+      "title": "Divide: 2-Digit Divisors - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-remainders-1",
+      "title": "Divide: Remainders - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-remainders-2",
+      "title": "Divide: Remainders - Set 2",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-remainders-4",
+      "title": "Divide: Remainders - Set 4",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-mental-math-1",
+      "title": "Divide: Mental Math - Set 1",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-mental-math-2",
+      "title": "Divide: Mental Math - Set 2",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-division-mental-math-4",
+      "title": "Divide: Mental Math - Set 4",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-decimals-comparing-1",
+      "title": "Decimals: Comparing - Set 1",
+      "topic": "Decimals",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-multiplication-1digit",
+      "title": "Multiply 2-Digit by 1-Digit Numbers",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-multiplication-2digit",
+      "title": "Multiply 2-Digit by 2-Digit Numbers",
+      "topic": "Multiplication",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "4-division-1digit",
+      "title": "Divide 2-Digit by 1-Digit Numbers",
+      "topic": "Division",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "4-decimals-value",
+      "title": "Identify Decimal Place Values",
+      "topic": "Decimals",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "4-decimals-decimals",
+      "title": "Compare Decimal Numbers",
+      "topic": "Decimals",
+      "current": 14,
+      "needed": 11
+    }
+  ],
+  "5": [
+    {
+      "id": "5-percentages",
+      "title": "Understand percentages",
+      "topic": "Percentages",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "5-order-operations",
+      "title": "Order of operations (PEMDAS)",
+      "topic": "Problem Solving",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "5-mean-median-mode",
+      "title": "Find mean, median, and mode",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "5-geometry-circles",
+      "title": "Geometry: Circles: Radius and Diameter",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-integers-intro",
+      "title": "Work with integers",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "5-exponents-intro",
+      "title": "Understand exponents",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "5-algebraic-expressions",
+      "title": "Evaluate expressions",
+      "topic": "Algebra",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "5-probability-intro",
+      "title": "Data: Probability",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "5-scientific-notation",
+      "title": "Write in scientific notation",
+      "topic": "Number Sense",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "5-stem-leaf-plots",
+      "title": "Data: Stem-and-Leaf Plots",
+      "topic": "Data",
+      "current": 5,
+      "needed": 20
+    },
+    {
+      "id": "g5-measurement-medium",
+      "title": "Converting Units of Measurement",
+      "topic": "Measurement",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g5-geometry-medium",
+      "title": "Identify and measure angles",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "g5-decimals-hard",
+      "title": "Solve word problems",
+      "topic": "Decimals",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "g5-volume-medium",
+      "title": "Find volume of rectangular prisms",
+      "topic": "Volume",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g5-order-of-operations-medium",
+      "title": "PEMDAS",
+      "topic": "Order of Operations",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "5-decimals-converting-1",
+      "title": "Convert fractions and decimals",
+      "topic": "Decimals",
+      "current": 8,
+      "needed": 17
+    },
+    {
+      "id": "5-decimals-comparing-1",
+      "title": "Decimals: Comparing - Set 1",
+      "topic": "Decimals",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-geometry-surface-area-2",
+      "title": "Geometry: Surface Area - Set 2",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-geometry-transformations-1",
+      "title": "Geometry: Transformations - Set 1",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-geometry-transformations-2",
+      "title": "Geometry: Transformations - Set 2",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-geometry-transformations-4",
+      "title": "Geometry: Transformations - Set 4",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "5-decimals-decimals",
+      "title": "Add Decimal Numbers",
+      "topic": "Decimals",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "5-decimals-decimals-1",
+      "title": "Subtract Decimal Numbers",
+      "topic": "Decimals",
+      "current": 13,
+      "needed": 12
+    },
+    {
+      "id": "5-decimals-decimals-2",
+      "title": "Multiply Decimal Numbers",
+      "topic": "Decimals",
+      "current": 14,
+      "needed": 11
+    },
+    {
+      "id": "5-fractions-denom",
+      "title": "Fractions with different denominators",
+      "topic": "Fractions",
+      "current": 14,
+      "needed": 11
+    }
+  ],
+  "6": [
+    {
+      "id": "g6-proportions-medium",
+      "title": "Solving Proportions",
+      "topic": "Proportions",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "g6-geometry-medium",
+      "title": "Geometry: Area of Composite Figures",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "6-algebra-equations",
+      "title": "Solve equations",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-proportions-6",
+      "title": "Percent Proportion Problems",
+      "topic": "Proportions",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-geometry-7",
+      "title": "Identify Quadrants",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "6-algebra-8",
+      "title": "Order of Operations with Parentheses",
+      "topic": "Algebra",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-algebra-9",
+      "title": "Understand exponents",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-proportions-intro",
+      "title": "Understand Proportions",
+      "topic": "Proportions",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-proportions-word-problems",
+      "title": "Solve word problems",
+      "topic": "Proportions",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-rates-intro",
+      "title": "Understand Rates",
+      "topic": "Rates",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-unit-rates",
+      "title": "Calculate Unit Rates",
+      "topic": "Rates",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-rates-compare",
+      "title": "Compare Unit Rates",
+      "topic": "Rates",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-rates-word-problems",
+      "title": "Solve word problems",
+      "topic": "Rates",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-rates-conversions",
+      "title": "Convert Rates Between Units",
+      "topic": "Rates",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-percent-intro",
+      "title": "Understand Percent",
+      "topic": "Percent",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-percent-of-number",
+      "title": "Find Percent of a Number",
+      "topic": "Percent",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-percent-find-whole",
+      "title": "Find the Whole Given a Percent",
+      "topic": "Percent",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-percent-find-percent",
+      "title": "Find What Percent One Number Is of Another",
+      "topic": "Percent",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-percent-increase-decrease",
+      "title": "Percent Increase and Decrease",
+      "topic": "Percent",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-percent-word-problems",
+      "title": "Solve word problems",
+      "topic": "Percent",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-area-triangles",
+      "title": "Identify and measure angles",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-area-parallelograms",
+      "title": "Find the Area of Parallelograms",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    },
+    {
+      "id": "6-area-trapezoids",
+      "title": "Find the Area of Trapezoids",
+      "topic": "Geometry",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-area-composite",
+      "title": "Find Area of Composite Figures",
+      "topic": "Geometry",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-surface-area-prisms",
+      "title": "Find Surface Area of Rectangular Prisms",
+      "topic": "Geometry",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-data-interpret-graphs",
+      "title": "Data: Interpret Data From Graphs",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "6-data-dot-plots",
+      "title": "Data: Create and Interpret Dot Plots",
+      "topic": "Data",
+      "current": 10,
+      "needed": 15
+    }
+  ],
+  "7": [
+    {
+      "id": "7-pre-algebra-order-of-operations-1",
+      "title": "Order of Operations - Set 1",
+      "topic": "Pre-Algebra",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "7-pre-algebra-order-of-operations-3",
+      "title": "Order of Operations - Set 3",
+      "topic": "Pre-Algebra",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "7-pre-algebra-order-of-operations-4",
+      "title": "Order of Operations - Set 4",
+      "topic": "Pre-Algebra",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "7-geometry-circles-1",
+      "title": "Geometry: Circles - Set 1",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "grade7-ratios-medium",
+      "title": "Understand ratios",
+      "topic": "Ratios",
+      "current": 9,
+      "needed": 16
+    },
+    {
+      "id": "grade7-expressions-medium",
+      "title": "Evaluate expressions",
+      "topic": "Expressions",
+      "current": 1,
+      "needed": 24
+    },
+    {
+      "id": "grade7-prealgebra-medium",
+      "title": "Order of Operations",
+      "topic": "Pre-Algebra",
+      "current": 6,
+      "needed": 19
+    },
+    {
+      "id": "7-algebra-2",
+      "title": "Evaluate expressions",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "7-algebra-3",
+      "title": "Solve equations",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "7-geometry-6",
+      "title": "Use Scale Factors",
+      "topic": "Geometry",
+      "current": 11,
+      "needed": 14
+    }
+  ],
+  "8": [
+    {
+      "id": "grade8-linearequations-medium",
+      "title": "Solve equations",
+      "topic": "Linear Equations",
+      "current": 1,
+      "needed": 24
+    },
+    {
+      "id": "grade8-pythagorean-medium",
+      "title": "Applying the Pythagorean Theorem",
+      "topic": "Pythagorean Theorem",
+      "current": 1,
+      "needed": 24
+    },
+    {
+      "id": "8-algebra-1",
+      "title": "Find Slope From Two Points",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "8-algebra-2",
+      "title": "Write Slope-Intercept Form",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    },
+    {
+      "id": "8-geometry-3",
+      "title": "Use Pythagorean Theorem",
+      "topic": "Geometry",
+      "current": 12,
+      "needed": 13
+    },
+    {
+      "id": "8-algebra-6",
+      "title": "Evaluate Functions",
+      "topic": "Algebra",
+      "current": 10,
+      "needed": 15
+    }
+  ],
+  "9": [
+    {
+      "id": "grade9-quadratics-medium",
+      "title": "Solve equations",
+      "topic": "Quadratics",
+      "current": 1,
+      "needed": 24
+    }
+  ]
+}
