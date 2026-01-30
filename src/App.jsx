@@ -23,6 +23,7 @@ const SmartScoreAssignment = lazy(() => import('./components/student/SmartScoreA
 const Shop = lazy(() => import('./pages/Shop'));
 const Beta = lazy(() => import('./pages/Beta'));
 const FAQ = lazy(() => import('./pages/FAQ'));
+const Changelog = lazy(() => import('./pages/Changelog'));
 
 // Beta lessons
 const ApplesLesson = lazy(() => import('./pages/beta/ApplesLesson'));
@@ -104,6 +105,7 @@ const AppRoutes = () => {
           <Route path="/test" element={<TestZone />} />
           <Route path="/interactive-test" element={<InteractiveTest />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/changelog" element={<Changelog />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Suspense>

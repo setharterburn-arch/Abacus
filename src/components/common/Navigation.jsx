@@ -50,7 +50,10 @@ const Navigation = () => {
                 >
                     <img src="/logo.jpg" alt="Abacus Logo" style={{ height: '40px', borderRadius: '50%', border: '2px solid var(--color-text)' }} />
                     Abacus Learn
-                    <span style={{
+                </NavLink>
+                <NavLink
+                    to="/changelog"
+                    style={{
                         fontSize: '0.6rem',
                         fontWeight: 'bold',
                         background: 'var(--color-primary)',
@@ -59,10 +62,13 @@ const Navigation = () => {
                         borderRadius: '4px',
                         marginLeft: '0.5rem',
                         textTransform: 'uppercase',
-                        letterSpacing: '0.5px'
-                    }}>
-                        Beta v2
-                    </span>
+                        letterSpacing: '0.5px',
+                        textDecoration: 'none',
+                        transition: 'opacity 0.2s'
+                    }}
+                    onClick={closeMobileMenu}
+                >
+                    Beta v2
                 </NavLink>
 
                 {/* Hamburger Menu Button */}
