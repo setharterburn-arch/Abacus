@@ -1,0 +1,719 @@
+[
+  {
+    "id": "5-decimal-add-tenths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Add decimals to tenths",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "2.3 + 1.4 = ?", "options": ["3.5", "3.7", "3.9", "4.1"], "answer": "3.7", "hint": "Add tenths: 3+4=7. Add ones: 2+1=3. Answer: 3.7"},
+      {"question": "5.6 + 2.2 = ?", "options": ["7.6", "7.8", "8.0", "8.2"], "answer": "7.8", "hint": "Add tenths: 6+2=8. Add ones: 5+2=7. Answer: 7.8"},
+      {"question": "3.9 + 4.1 = ?", "options": ["7.0", "7.8", "8.0", "8.2"], "answer": "8.0", "hint": "9+1=10, carry 1. 3+4+1=8. Answer: 8.0"},
+      {"question": "1.7 + 2.5 = ?", "options": ["3.2", "4.0", "4.2", "4.5"], "answer": "4.2", "hint": "7+5=12, write 2, carry 1. 1+2+1=4. Answer: 4.2"},
+      {"question": "6.8 + 1.9 = ?", "options": ["7.7", "8.5", "8.7", "9.7"], "answer": "8.7", "hint": "8+9=17, write 7, carry 1. 6+1+1=8. Answer: 8.7"},
+      {"question": "4.5 + 3.5 = ?", "options": ["7.0", "7.5", "8.0", "8.5"], "answer": "8.0", "hint": "5+5=10, write 0, carry 1. 4+3+1=8. Answer: 8.0"},
+      {"question": "0.8 + 0.6 = ?", "options": ["1.2", "1.4", "1.6", "2.4"], "answer": "1.4", "hint": "8+6=14, write 4, carry 1. Answer: 1.4"},
+      {"question": "7.2 + 1.3 = ?", "options": ["8.3", "8.5", "8.7", "9.5"], "answer": "8.5", "hint": "Add tenths: 2+3=5. Add ones: 7+1=8. Answer: 8.5"},
+      {"question": "9.4 + 0.9 = ?", "options": ["9.3", "10.1", "10.3", "10.5"], "answer": "10.3", "hint": "4+9=13, write 3, carry 1. 9+0+1=10. Answer: 10.3"},
+      {"question": "2.6 + 5.7 = ?", "options": ["7.3", "8.1", "8.3", "8.7"], "answer": "8.3", "hint": "6+7=13, write 3, carry 1. 2+5+1=8. Answer: 8.3"},
+      {"question": "8.1 + 3.4 = ?", "options": ["11.3", "11.5", "11.7", "12.5"], "answer": "11.5", "hint": "Add tenths: 1+4=5. Add ones: 8+3=11. Answer: 11.5"},
+      {"question": "4.9 + 5.8 = ?", "options": ["9.7", "10.5", "10.7", "11.7"], "answer": "10.7", "hint": "9+8=17, write 7, carry 1. 4+5+1=10. Answer: 10.7"}
+    ]
+  },
+  {
+    "id": "5-decimal-add-hundredths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Add decimals to hundredths",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "3.45 + 2.31 = ?", "options": ["5.66", "5.76", "5.86", "6.76"], "answer": "5.76", "hint": "Line up decimal points: 3.45 + 2.31 = 5.76"},
+      {"question": "1.28 + 3.47 = ?", "options": ["4.65", "4.75", "4.85", "5.75"], "answer": "4.75", "hint": "8+7=15, carry 1. 2+4+1=7. 1+3=4. Answer: 4.75"},
+      {"question": "5.62 + 2.19 = ?", "options": ["7.71", "7.81", "7.91", "8.81"], "answer": "7.81", "hint": "2+9=11, carry 1. 6+1+1=8. 5+2=7. Answer: 7.81"},
+      {"question": "0.56 + 0.78 = ?", "options": ["1.24", "1.34", "1.44", "2.34"], "answer": "1.34", "hint": "6+8=14, carry 1. 5+7+1=13. Answer: 1.34"},
+      {"question": "4.83 + 1.92 = ?", "options": ["6.65", "6.75", "6.85", "7.75"], "answer": "6.75", "hint": "3+2=5. 8+9=17, carry 1. 4+1+1=6. Answer: 6.75"},
+      {"question": "2.07 + 3.58 = ?", "options": ["5.55", "5.65", "5.75", "6.65"], "answer": "5.65", "hint": "7+8=15, carry 1. 0+5+1=6. 2+3=5. Answer: 5.65"},
+      {"question": "6.99 + 1.01 = ?", "options": ["7.00", "7.90", "8.00", "8.10"], "answer": "8.00", "hint": "99+1=100, so 6.99+1.01=8.00"},
+      {"question": "3.14 + 2.86 = ?", "options": ["5.00", "5.90", "6.00", "6.10"], "answer": "6.00", "hint": "14+86=100, carry 1. 3+2+1=6. Answer: 6.00"},
+      {"question": "7.25 + 4.38 = ?", "options": ["11.53", "11.63", "11.73", "12.63"], "answer": "11.63", "hint": "5+8=13, carry 1. 2+3+1=6. 7+4=11. Answer: 11.63"},
+      {"question": "0.09 + 0.95 = ?", "options": ["0.94", "1.04", "1.14", "1.94"], "answer": "1.04", "hint": "9+5=14, carry 1. 0+9+1=10. Answer: 1.04"},
+      {"question": "8.47 + 2.65 = ?", "options": ["10.12", "11.02", "11.12", "11.22"], "answer": "11.12", "hint": "7+5=12, carry 1. 4+6+1=11, carry 1. 8+2+1=11. Answer: 11.12"}
+    ]
+  },
+  {
+    "id": "5-decimal-sub-tenths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Subtract decimals to tenths",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "5.8 - 2.3 = ?", "options": ["3.3", "3.5", "3.7", "4.5"], "answer": "3.5", "hint": "Subtract tenths: 8-3=5. Subtract ones: 5-2=3. Answer: 3.5"},
+      {"question": "7.6 - 4.2 = ?", "options": ["3.2", "3.4", "3.6", "4.4"], "answer": "3.4", "hint": "6-2=4 tenths. 7-4=3 ones. Answer: 3.4"},
+      {"question": "9.4 - 3.7 = ?", "options": ["5.3", "5.7", "6.3", "6.7"], "answer": "5.7", "hint": "Borrow: 14-7=7 tenths. 8-3=5 ones. Answer: 5.7"},
+      {"question": "6.2 - 1.8 = ?", "options": ["4.2", "4.4", "4.6", "5.4"], "answer": "4.4", "hint": "Borrow: 12-8=4 tenths. 5-1=4 ones. Answer: 4.4"},
+      {"question": "8.5 - 5.5 = ?", "options": ["2.0", "3.0", "3.5", "4.0"], "answer": "3.0", "hint": "5-5=0 tenths. 8-5=3 ones. Answer: 3.0"},
+      {"question": "4.1 - 2.6 = ?", "options": ["1.3", "1.5", "1.7", "2.5"], "answer": "1.5", "hint": "Borrow: 11-6=5 tenths. 3-2=1 one. Answer: 1.5"},
+      {"question": "10.0 - 3.4 = ?", "options": ["6.4", "6.6", "7.4", "7.6"], "answer": "6.6", "hint": "Borrow: 10-4=6 tenths. 9-3=6 ones. Answer: 6.6"},
+      {"question": "3.0 - 1.7 = ?", "options": ["1.1", "1.3", "1.5", "2.3"], "answer": "1.3", "hint": "Borrow: 10-7=3 tenths. 2-1=1 one. Answer: 1.3"},
+      {"question": "12.5 - 7.9 = ?", "options": ["4.4", "4.6", "5.4", "5.6"], "answer": "4.6", "hint": "Borrow: 15-9=6 tenths. 11-7=4 ones. Answer: 4.6"},
+      {"question": "5.3 - 2.8 = ?", "options": ["2.3", "2.5", "2.7", "3.5"], "answer": "2.5", "hint": "Borrow: 13-8=5 tenths. 4-2=2 ones. Answer: 2.5"},
+      {"question": "8.0 - 0.6 = ?", "options": ["7.2", "7.4", "7.6", "8.4"], "answer": "7.4", "hint": "Borrow: 10-6=4 tenths. 7-0=7 ones. Answer: 7.4"}
+    ]
+  },
+  {
+    "id": "5-decimal-sub-hundredths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Subtract decimals to hundredths",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "6.75 - 2.32 = ?", "options": ["4.33", "4.43", "4.53", "5.43"], "answer": "4.43", "hint": "5-2=3, 7-3=4, 6-2=4. Answer: 4.43"},
+      {"question": "8.94 - 3.51 = ?", "options": ["5.33", "5.43", "5.53", "6.43"], "answer": "5.43", "hint": "4-1=3, 9-5=4, 8-3=5. Answer: 5.43"},
+      {"question": "5.00 - 1.25 = ?", "options": ["3.65", "3.75", "3.85", "4.75"], "answer": "3.75", "hint": "Borrow: 10-5=5, 9-2=7, 4-1=3. Answer: 3.75"},
+      {"question": "7.32 - 4.58 = ?", "options": ["2.64", "2.74", "2.84", "3.74"], "answer": "2.74", "hint": "Borrow: 12-8=4, 12-5=7, 6-4=2. Answer: 2.74"},
+      {"question": "10.00 - 6.43 = ?", "options": ["3.47", "3.57", "3.67", "4.57"], "answer": "3.57", "hint": "10.00-6.43: borrow to get 3.57"},
+      {"question": "4.81 - 2.95 = ?", "options": ["1.76", "1.86", "1.96", "2.86"], "answer": "1.86", "hint": "Borrow: 11-5=6, 17-9=8, 3-2=1. Answer: 1.86"},
+      {"question": "9.15 - 3.78 = ?", "options": ["5.27", "5.37", "5.47", "6.37"], "answer": "5.37", "hint": "Borrow: 15-8=7, 10-7=3, 8-3=5. Answer: 5.37"},
+      {"question": "3.20 - 1.84 = ?", "options": ["1.26", "1.36", "1.46", "2.36"], "answer": "1.36", "hint": "Borrow carefully: 3.20-1.84=1.36"},
+      {"question": "12.50 - 8.75 = ?", "options": ["3.65", "3.75", "3.85", "4.75"], "answer": "3.75", "hint": "Borrow: 10-5=5, 14-7=7, 11-8=3. Answer: 3.75"},
+      {"question": "6.03 - 2.47 = ?", "options": ["3.46", "3.56", "3.66", "4.56"], "answer": "3.56", "hint": "Borrow: 13-7=6, 9-4=5, 5-2=3. Answer: 3.56"},
+      {"question": "8.00 - 4.99 = ?", "options": ["2.01", "3.01", "3.11", "4.01"], "answer": "3.01", "hint": "8.00-4.99=3.01 (think: 8-5=3, add 0.01)"}
+    ]
+  },
+  {
+    "id": "5-decimal-add-sub-mixed",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Add and subtract decimals (mixed practice)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "4.5 + 3.2 - 1.4 = ?", "options": ["5.3", "6.3", "7.3", "8.3"], "answer": "6.3", "hint": "4.5+3.2=7.7, then 7.7-1.4=6.3"},
+      {"question": "8.25 - 3.10 + 1.50 = ?", "options": ["5.65", "6.65", "7.65", "8.65"], "answer": "6.65", "hint": "8.25-3.10=5.15, then 5.15+1.50=6.65"},
+      {"question": "10.0 - 4.5 - 2.3 = ?", "options": ["2.2", "3.2", "4.2", "5.2"], "answer": "3.2", "hint": "10.0-4.5=5.5, then 5.5-2.3=3.2"},
+      {"question": "2.75 + 4.25 = ?", "options": ["6.00", "7.00", "7.50", "8.00"], "answer": "7.00", "hint": "75+25=100, so 2.75+4.25=7.00"},
+      {"question": "9.99 + 0.01 = ?", "options": ["9.00", "10.00", "10.10", "11.00"], "answer": "10.00", "hint": "99+1=100, so 9.99+0.01=10.00"},
+      {"question": "15.6 - 8.9 = ?", "options": ["6.5", "6.7", "7.5", "7.7"], "answer": "6.7", "hint": "Borrow: 16-9=7 tenths, 14-8=6 ones. Answer: 6.7"},
+      {"question": "3.33 + 3.33 + 3.34 = ?", "options": ["9.00", "10.00", "10.33", "11.00"], "answer": "10.00", "hint": "3.33+3.33=6.66, then 6.66+3.34=10.00"},
+      {"question": "7.08 - 2.99 = ?", "options": ["4.09", "4.19", "5.09", "5.19"], "answer": "4.09", "hint": "Think: 7.08-3.00=4.08, add 0.01 back: 4.09"},
+      {"question": "5.5 + 2.75 = ?", "options": ["7.25", "8.00", "8.25", "9.25"], "answer": "8.25", "hint": "5.50+2.75: 50+75=125, carry 1. Answer: 8.25"},
+      {"question": "12.34 - 5.67 = ?", "options": ["6.57", "6.67", "6.77", "7.67"], "answer": "6.67", "hint": "Borrow: 14-7=7, 12-6=6, 11-5=6. Answer: 6.67"},
+      {"question": "20.00 - 13.45 = ?", "options": ["6.45", "6.55", "6.65", "7.55"], "answer": "6.55", "hint": "20.00-13.45: borrow to subtract. Answer: 6.55"}
+    ]
+  },
+  {
+    "id": "5-decimal-mult-whole",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Multiply decimals by whole numbers",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "2.5 × 4 = ?", "options": ["8.0", "9.0", "10.0", "11.0"], "answer": "10.0", "hint": "25×4=100, place decimal: 10.0"},
+      {"question": "3.2 × 3 = ?", "options": ["9.2", "9.4", "9.6", "10.6"], "answer": "9.6", "hint": "32×3=96, place decimal: 9.6"},
+      {"question": "1.5 × 6 = ?", "options": ["7.0", "8.0", "9.0", "10.0"], "answer": "9.0", "hint": "15×6=90, place decimal: 9.0"},
+      {"question": "4.8 × 2 = ?", "options": ["8.6", "9.4", "9.6", "10.6"], "answer": "9.6", "hint": "48×2=96, place decimal: 9.6"},
+      {"question": "0.7 × 5 = ?", "options": ["3.2", "3.5", "4.0", "4.5"], "answer": "3.5", "hint": "7×5=35, place decimal: 3.5"},
+      {"question": "6.25 × 4 = ?", "options": ["24.00", "25.00", "26.00", "27.00"], "answer": "25.00", "hint": "625×4=2500, place decimal: 25.00"},
+      {"question": "2.4 × 5 = ?", "options": ["10.0", "11.0", "12.0", "13.0"], "answer": "12.0", "hint": "24×5=120, place decimal: 12.0"},
+      {"question": "0.25 × 8 = ?", "options": ["1.50", "2.00", "2.50", "3.00"], "answer": "2.00", "hint": "25×8=200, place decimal: 2.00"},
+      {"question": "3.5 × 7 = ?", "options": ["21.5", "24.0", "24.5", "25.5"], "answer": "24.5", "hint": "35×7=245, place decimal: 24.5"},
+      {"question": "1.25 × 4 = ?", "options": ["4.00", "4.50", "5.00", "5.50"], "answer": "5.00", "hint": "125×4=500, place decimal: 5.00"},
+      {"question": "8.3 × 3 = ?", "options": ["24.6", "24.9", "25.2", "25.9"], "answer": "24.9", "hint": "83×3=249, place decimal: 24.9"}
+    ]
+  },
+  {
+    "id": "5-decimal-mult-tenths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Multiply decimals (tenths × tenths)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "0.3 × 0.4 = ?", "options": ["0.07", "0.12", "1.2", "12"], "answer": "0.12", "hint": "3×4=12, count 2 decimal places: 0.12"},
+      {"question": "0.5 × 0.6 = ?", "options": ["0.11", "0.30", "3.0", "30"], "answer": "0.30", "hint": "5×6=30, count 2 decimal places: 0.30"},
+      {"question": "0.7 × 0.8 = ?", "options": ["0.15", "0.56", "5.6", "56"], "answer": "0.56", "hint": "7×8=56, count 2 decimal places: 0.56"},
+      {"question": "0.2 × 0.9 = ?", "options": ["0.11", "0.18", "1.1", "1.8"], "answer": "0.18", "hint": "2×9=18, count 2 decimal places: 0.18"},
+      {"question": "0.4 × 0.4 = ?", "options": ["0.08", "0.16", "1.6", "16"], "answer": "0.16", "hint": "4×4=16, count 2 decimal places: 0.16"},
+      {"question": "1.2 × 0.5 = ?", "options": ["0.06", "0.6", "6.0", "60"], "answer": "0.6", "hint": "12×5=60, count 2 decimal places: 0.60=0.6"},
+      {"question": "0.6 × 0.7 = ?", "options": ["0.13", "0.42", "4.2", "42"], "answer": "0.42", "hint": "6×7=42, count 2 decimal places: 0.42"},
+      {"question": "2.5 × 0.4 = ?", "options": ["0.1", "1.0", "10", "100"], "answer": "1.0", "hint": "25×4=100, count 2 decimal places: 1.00=1.0"},
+      {"question": "0.9 × 0.9 = ?", "options": ["0.18", "0.81", "8.1", "81"], "answer": "0.81", "hint": "9×9=81, count 2 decimal places: 0.81"},
+      {"question": "1.5 × 0.2 = ?", "options": ["0.03", "0.3", "3.0", "30"], "answer": "0.3", "hint": "15×2=30, count 2 decimal places: 0.30=0.3"},
+      {"question": "0.8 × 0.5 = ?", "options": ["0.04", "0.4", "4.0", "40"], "answer": "0.4", "hint": "8×5=40, count 2 decimal places: 0.40=0.4"}
+    ]
+  },
+  {
+    "id": "5-decimal-mult-hundredths",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Multiply decimals (hundredths)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "0.25 × 0.4 = ?", "options": ["0.01", "0.1", "1.0", "10"], "answer": "0.1", "hint": "25×4=100, count 3 decimal places: 0.100=0.1"},
+      {"question": "0.12 × 0.5 = ?", "options": ["0.006", "0.06", "0.6", "6"], "answer": "0.06", "hint": "12×5=60, count 3 decimal places: 0.060=0.06"},
+      {"question": "1.5 × 0.25 = ?", "options": ["0.0375", "0.375", "3.75", "37.5"], "answer": "0.375", "hint": "15×25=375, count 3 decimal places: 0.375"},
+      {"question": "0.3 × 0.15 = ?", "options": ["0.045", "0.45", "4.5", "45"], "answer": "0.045", "hint": "3×15=45, count 3 decimal places: 0.045"},
+      {"question": "2.4 × 0.25 = ?", "options": ["0.06", "0.6", "6.0", "60"], "answer": "0.6", "hint": "24×25=600, count 3 decimal places: 0.600=0.6"},
+      {"question": "0.5 × 0.12 = ?", "options": ["0.006", "0.06", "0.6", "6"], "answer": "0.06", "hint": "5×12=60, count 3 decimal places: 0.060=0.06"},
+      {"question": "1.25 × 0.8 = ?", "options": ["0.1", "1.0", "10", "100"], "answer": "1.0", "hint": "125×8=1000, count 3 decimal places: 1.000=1.0"},
+      {"question": "0.2 × 0.35 = ?", "options": ["0.007", "0.07", "0.7", "7"], "answer": "0.07", "hint": "2×35=70, count 3 decimal places: 0.070=0.07"},
+      {"question": "0.75 × 0.4 = ?", "options": ["0.03", "0.3", "3.0", "30"], "answer": "0.3", "hint": "75×4=300, count 3 decimal places: 0.300=0.3"},
+      {"question": "0.6 × 0.45 = ?", "options": ["0.027", "0.27", "2.7", "27"], "answer": "0.27", "hint": "6×45=270, count 3 decimal places: 0.270=0.27"},
+      {"question": "2.5 × 0.12 = ?", "options": ["0.03", "0.3", "3.0", "30"], "answer": "0.3", "hint": "25×12=300, count 3 decimal places: 0.300=0.3"}
+    ]
+  },
+  {
+    "id": "5-decimal-div-whole",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Divide decimals by whole numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "4.8 ÷ 2 = ?", "options": ["2.2", "2.4", "2.6", "2.8"], "answer": "2.4", "hint": "48÷2=24, place decimal: 2.4"},
+      {"question": "9.6 ÷ 4 = ?", "options": ["2.2", "2.4", "2.6", "2.8"], "answer": "2.4", "hint": "96÷4=24, place decimal: 2.4"},
+      {"question": "7.5 ÷ 3 = ?", "options": ["2.3", "2.5", "2.7", "3.5"], "answer": "2.5", "hint": "75÷3=25, place decimal: 2.5"},
+      {"question": "12.6 ÷ 6 = ?", "options": ["2.0", "2.1", "2.2", "2.6"], "answer": "2.1", "hint": "126÷6=21, place decimal: 2.1"},
+      {"question": "8.4 ÷ 7 = ?", "options": ["1.0", "1.2", "1.4", "1.6"], "answer": "1.2", "hint": "84÷7=12, place decimal: 1.2"},
+      {"question": "15.5 ÷ 5 = ?", "options": ["3.0", "3.1", "3.2", "3.5"], "answer": "3.1", "hint": "155÷5=31, place decimal: 3.1"},
+      {"question": "6.3 ÷ 9 = ?", "options": ["0.5", "0.6", "0.7", "0.8"], "answer": "0.7", "hint": "63÷9=7, place decimal: 0.7"},
+      {"question": "24.8 ÷ 8 = ?", "options": ["3.0", "3.1", "3.2", "3.8"], "answer": "3.1", "hint": "248÷8=31, place decimal: 3.1"},
+      {"question": "5.4 ÷ 6 = ?", "options": ["0.8", "0.9", "1.0", "1.1"], "answer": "0.9", "hint": "54÷6=9, place decimal: 0.9"},
+      {"question": "16.8 ÷ 4 = ?", "options": ["4.0", "4.2", "4.4", "4.8"], "answer": "4.2", "hint": "168÷4=42, place decimal: 4.2"},
+      {"question": "3.6 ÷ 12 = ?", "options": ["0.2", "0.3", "0.4", "0.5"], "answer": "0.3", "hint": "36÷12=3, place decimal: 0.3"}
+    ]
+  },
+  {
+    "id": "5-decimal-div-decimal",
+    "grade": 5,
+    "topic": "Decimals",
+    "skill": "Divide whole numbers to get decimal answers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "5 ÷ 2 = ?", "options": ["2.0", "2.5", "3.0", "3.5"], "answer": "2.5", "hint": "5÷2=2 remainder 1, so 2.5"},
+      {"question": "7 ÷ 4 = ?", "options": ["1.5", "1.75", "2.0", "2.25"], "answer": "1.75", "hint": "7÷4=1 remainder 3, 30÷4=7.5, so 1.75"},
+      {"question": "9 ÷ 4 = ?", "options": ["2.0", "2.25", "2.5", "2.75"], "answer": "2.25", "hint": "9÷4=2 remainder 1, 10÷4=2.5, so 2.25"},
+      {"question": "3 ÷ 4 = ?", "options": ["0.5", "0.65", "0.75", "0.85"], "answer": "0.75", "hint": "3÷4: 30÷4=7.5, so 0.75"},
+      {"question": "11 ÷ 4 = ?", "options": ["2.5", "2.75", "3.0", "3.25"], "answer": "2.75", "hint": "11÷4=2 remainder 3, so 2.75"},
+      {"question": "15 ÷ 4 = ?", "options": ["3.5", "3.75", "4.0", "4.25"], "answer": "3.75", "hint": "15÷4=3 remainder 3, so 3.75"},
+      {"question": "1 ÷ 2 = ?", "options": ["0.2", "0.4", "0.5", "0.6"], "answer": "0.5", "hint": "1÷2=0.5 (half)"},
+      {"question": "13 ÷ 4 = ?", "options": ["3.0", "3.25", "3.5", "3.75"], "answer": "3.25", "hint": "13÷4=3 remainder 1, so 3.25"},
+      {"question": "7 ÷ 2 = ?", "options": ["3.0", "3.5", "4.0", "4.5"], "answer": "3.5", "hint": "7÷2=3 remainder 1, so 3.5"},
+      {"question": "1 ÷ 4 = ?", "options": ["0.15", "0.25", "0.35", "0.45"], "answer": "0.25", "hint": "1÷4=0.25 (one quarter)"},
+      {"question": "17 ÷ 4 = ?", "options": ["4.0", "4.25", "4.5", "4.75"], "answer": "4.25", "hint": "17÷4=4 remainder 1, so 4.25"}
+    ]
+  },
+  {
+    "id": "5-frac-add-unlike-simple",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Add fractions with unlike denominators (simple)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1/2 + 1/4 = ?", "options": ["2/6", "1/2", "3/4", "2/4"], "answer": "3/4", "hint": "Convert 1/2 to 2/4, then 2/4+1/4=3/4"},
+      {"question": "1/3 + 1/6 = ?", "options": ["1/2", "2/9", "2/6", "1/3"], "answer": "1/2", "hint": "Convert 1/3 to 2/6, then 2/6+1/6=3/6=1/2"},
+      {"question": "1/4 + 1/2 = ?", "options": ["2/6", "1/2", "3/4", "5/6"], "answer": "3/4", "hint": "Convert 1/2 to 2/4, then 1/4+2/4=3/4"},
+      {"question": "2/3 + 1/6 = ?", "options": ["3/9", "1/2", "5/6", "3/6"], "answer": "5/6", "hint": "Convert 2/3 to 4/6, then 4/6+1/6=5/6"},
+      {"question": "1/2 + 1/6 = ?", "options": ["2/8", "2/3", "4/6", "1/3"], "answer": "2/3", "hint": "Convert 1/2 to 3/6, then 3/6+1/6=4/6=2/3"},
+      {"question": "1/5 + 1/10 = ?", "options": ["2/15", "3/10", "2/10", "1/5"], "answer": "3/10", "hint": "Convert 1/5 to 2/10, then 2/10+1/10=3/10"},
+      {"question": "3/4 + 1/8 = ?", "options": ["4/12", "7/8", "4/8", "5/8"], "answer": "7/8", "hint": "Convert 3/4 to 6/8, then 6/8+1/8=7/8"},
+      {"question": "1/2 + 1/8 = ?", "options": ["2/10", "5/8", "3/8", "4/8"], "answer": "5/8", "hint": "Convert 1/2 to 4/8, then 4/8+1/8=5/8"},
+      {"question": "2/5 + 1/10 = ?", "options": ["3/15", "1/2", "3/10", "2/5"], "answer": "1/2", "hint": "Convert 2/5 to 4/10, then 4/10+1/10=5/10=1/2"},
+      {"question": "1/4 + 1/8 = ?", "options": ["2/12", "3/8", "2/8", "1/4"], "answer": "3/8", "hint": "Convert 1/4 to 2/8, then 2/8+1/8=3/8"},
+      {"question": "1/3 + 1/9 = ?", "options": ["2/12", "4/9", "2/9", "1/3"], "answer": "4/9", "hint": "Convert 1/3 to 3/9, then 3/9+1/9=4/9"}
+    ]
+  },
+  {
+    "id": "5-frac-add-unlike-advanced",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Add fractions with unlike denominators (advanced)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1/3 + 1/4 = ?", "options": ["2/7", "5/12", "7/12", "2/12"], "answer": "7/12", "hint": "LCD is 12: 4/12+3/12=7/12"},
+      {"question": "2/3 + 1/4 = ?", "options": ["3/7", "11/12", "8/12", "5/12"], "answer": "11/12", "hint": "LCD is 12: 8/12+3/12=11/12"},
+      {"question": "1/2 + 1/3 = ?", "options": ["2/5", "5/6", "4/6", "3/5"], "answer": "5/6", "hint": "LCD is 6: 3/6+2/6=5/6"},
+      {"question": "3/4 + 1/3 = ?", "options": ["4/7", "13/12", "10/12", "7/12"], "answer": "13/12", "hint": "LCD is 12: 9/12+4/12=13/12=1 1/12"},
+      {"question": "2/5 + 1/3 = ?", "options": ["3/8", "11/15", "7/15", "5/15"], "answer": "11/15", "hint": "LCD is 15: 6/15+5/15=11/15"},
+      {"question": "1/4 + 2/5 = ?", "options": ["3/9", "13/20", "7/20", "11/20"], "answer": "13/20", "hint": "LCD is 20: 5/20+8/20=13/20"},
+      {"question": "3/5 + 1/4 = ?", "options": ["4/9", "17/20", "13/20", "7/20"], "answer": "17/20", "hint": "LCD is 20: 12/20+5/20=17/20"},
+      {"question": "2/3 + 2/5 = ?", "options": ["4/8", "16/15", "10/15", "4/15"], "answer": "16/15", "hint": "LCD is 15: 10/15+6/15=16/15=1 1/15"},
+      {"question": "1/6 + 1/4 = ?", "options": ["2/10", "5/12", "7/12", "3/12"], "answer": "5/12", "hint": "LCD is 12: 2/12+3/12=5/12"},
+      {"question": "5/6 + 1/4 = ?", "options": ["6/10", "13/12", "11/12", "7/12"], "answer": "13/12", "hint": "LCD is 12: 10/12+3/12=13/12=1 1/12"},
+      {"question": "3/8 + 1/3 = ?", "options": ["4/11", "17/24", "13/24", "9/24"], "answer": "17/24", "hint": "LCD is 24: 9/24+8/24=17/24"}
+    ]
+  },
+  {
+    "id": "5-frac-sub-unlike-simple",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Subtract fractions with unlike denominators (simple)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "3/4 - 1/2 = ?", "options": ["2/4", "1/4", "1/2", "2/2"], "answer": "1/4", "hint": "Convert 1/2 to 2/4, then 3/4-2/4=1/4"},
+      {"question": "5/6 - 1/3 = ?", "options": ["4/6", "1/2", "2/3", "1/3"], "answer": "1/2", "hint": "Convert 1/3 to 2/6, then 5/6-2/6=3/6=1/2"},
+      {"question": "1/2 - 1/4 = ?", "options": ["0", "1/4", "1/2", "3/4"], "answer": "1/4", "hint": "Convert 1/2 to 2/4, then 2/4-1/4=1/4"},
+      {"question": "7/8 - 1/2 = ?", "options": ["6/8", "3/8", "5/8", "1/8"], "answer": "3/8", "hint": "Convert 1/2 to 4/8, then 7/8-4/8=3/8"},
+      {"question": "2/3 - 1/6 = ?", "options": ["1/3", "1/2", "2/6", "1/6"], "answer": "1/2", "hint": "Convert 2/3 to 4/6, then 4/6-1/6=3/6=1/2"},
+      {"question": "3/4 - 1/8 = ?", "options": ["2/4", "5/8", "6/8", "7/8"], "answer": "5/8", "hint": "Convert 3/4 to 6/8, then 6/8-1/8=5/8"},
+      {"question": "4/5 - 1/10 = ?", "options": ["3/5", "7/10", "6/10", "5/10"], "answer": "7/10", "hint": "Convert 4/5 to 8/10, then 8/10-1/10=7/10"},
+      {"question": "5/6 - 1/2 = ?", "options": ["4/6", "1/3", "2/6", "1/6"], "answer": "1/3", "hint": "Convert 1/2 to 3/6, then 5/6-3/6=2/6=1/3"},
+      {"question": "7/10 - 1/2 = ?", "options": ["6/10", "1/5", "2/10", "3/10"], "answer": "1/5", "hint": "Convert 1/2 to 5/10, then 7/10-5/10=2/10=1/5"},
+      {"question": "3/4 - 1/4 = ?", "options": ["2/4", "1/2", "1/4", "0"], "answer": "1/2", "hint": "3/4-1/4=2/4=1/2"},
+      {"question": "5/8 - 1/4 = ?", "options": ["4/8", "3/8", "2/8", "1/8"], "answer": "3/8", "hint": "Convert 1/4 to 2/8, then 5/8-2/8=3/8"}
+    ]
+  },
+  {
+    "id": "5-frac-sub-unlike-advanced",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Subtract fractions with unlike denominators (advanced)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "2/3 - 1/4 = ?", "options": ["1/7", "5/12", "7/12", "8/12"], "answer": "5/12", "hint": "LCD is 12: 8/12-3/12=5/12"},
+      {"question": "3/4 - 1/3 = ?", "options": ["2/7", "5/12", "7/12", "4/12"], "answer": "5/12", "hint": "LCD is 12: 9/12-4/12=5/12"},
+      {"question": "5/6 - 1/4 = ?", "options": ["4/10", "7/12", "9/12", "11/12"], "answer": "7/12", "hint": "LCD is 12: 10/12-3/12=7/12"},
+      {"question": "4/5 - 1/3 = ?", "options": ["3/8", "7/15", "11/15", "5/15"], "answer": "7/15", "hint": "LCD is 15: 12/15-5/15=7/15"},
+      {"question": "3/4 - 2/5 = ?", "options": ["1/9", "7/20", "11/20", "5/20"], "answer": "7/20", "hint": "LCD is 20: 15/20-8/20=7/20"},
+      {"question": "5/6 - 2/3 = ?", "options": ["3/9", "1/6", "2/6", "4/6"], "answer": "1/6", "hint": "Convert 2/3 to 4/6, then 5/6-4/6=1/6"},
+      {"question": "7/8 - 2/3 = ?", "options": ["5/11", "5/24", "9/24", "13/24"], "answer": "5/24", "hint": "LCD is 24: 21/24-16/24=5/24"},
+      {"question": "4/5 - 2/3 = ?", "options": ["2/8", "2/15", "6/15", "4/15"], "answer": "2/15", "hint": "LCD is 15: 12/15-10/15=2/15"},
+      {"question": "5/8 - 1/3 = ?", "options": ["4/11", "7/24", "11/24", "15/24"], "answer": "7/24", "hint": "LCD is 24: 15/24-8/24=7/24"},
+      {"question": "7/10 - 1/4 = ?", "options": ["6/14", "9/20", "11/20", "13/20"], "answer": "9/20", "hint": "LCD is 20: 14/20-5/20=9/20"},
+      {"question": "11/12 - 2/3 = ?", "options": ["9/12", "3/12", "1/4", "5/12"], "answer": "1/4", "hint": "Convert 2/3 to 8/12, then 11/12-8/12=3/12=1/4"}
+    ]
+  },
+  {
+    "id": "5-frac-add-mixed",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Add mixed numbers with unlike denominators",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1 1/2 + 2 1/4 = ?", "options": ["3 1/2", "3 3/4", "4 1/4", "4 3/4"], "answer": "3 3/4", "hint": "1/2=2/4, so 1 2/4 + 2 1/4 = 3 3/4"},
+      {"question": "2 1/3 + 1 1/2 = ?", "options": ["3 1/6", "3 5/6", "4 1/6", "4 5/6"], "answer": "3 5/6", "hint": "LCD is 6: 2 2/6 + 1 3/6 = 3 5/6"},
+      {"question": "1 2/3 + 2 1/4 = ?", "options": ["3 5/12", "3 11/12", "4 5/12", "4 11/12"], "answer": "3 11/12", "hint": "LCD is 12: 1 8/12 + 2 3/12 = 3 11/12"},
+      {"question": "3 1/4 + 1 1/2 = ?", "options": ["4 1/4", "4 3/4", "5 1/4", "5 3/4"], "answer": "4 3/4", "hint": "1/2=2/4, so 3 1/4 + 1 2/4 = 4 3/4"},
+      {"question": "2 3/4 + 1 1/3 = ?", "options": ["3 7/12", "4 1/12", "4 5/12", "4 7/12"], "answer": "4 1/12", "hint": "LCD is 12: 2 9/12 + 1 4/12 = 3 13/12 = 4 1/12"},
+      {"question": "1 1/6 + 2 1/2 = ?", "options": ["3 1/3", "3 2/3", "4 1/3", "4 2/3"], "answer": "3 2/3", "hint": "LCD is 6: 1 1/6 + 2 3/6 = 3 4/6 = 3 2/3"},
+      {"question": "4 1/5 + 1 1/2 = ?", "options": ["5 3/10", "5 7/10", "6 3/10", "6 7/10"], "answer": "5 7/10", "hint": "LCD is 10: 4 2/10 + 1 5/10 = 5 7/10"},
+      {"question": "2 2/3 + 3 1/6 = ?", "options": ["5 1/6", "5 5/6", "6 1/6", "6 5/6"], "answer": "5 5/6", "hint": "LCD is 6: 2 4/6 + 3 1/6 = 5 5/6"},
+      {"question": "1 3/8 + 2 1/4 = ?", "options": ["3 1/8", "3 5/8", "4 1/8", "4 5/8"], "answer": "3 5/8", "hint": "1/4=2/8, so 1 3/8 + 2 2/8 = 3 5/8"},
+      {"question": "3 2/5 + 2 1/2 = ?", "options": ["5 3/10", "5 9/10", "6 3/10", "6 9/10"], "answer": "5 9/10", "hint": "LCD is 10: 3 4/10 + 2 5/10 = 5 9/10"},
+      {"question": "2 5/6 + 1 1/3 = ?", "options": ["3 1/6", "4 1/6", "3 7/6", "4 7/6"], "answer": "4 1/6", "hint": "1/3=2/6, so 2 5/6 + 1 2/6 = 3 7/6 = 4 1/6"}
+    ]
+  },
+  {
+    "id": "5-frac-sub-mixed",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Subtract mixed numbers with unlike denominators",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "3 1/2 - 1 1/4 = ?", "options": ["2 1/4", "2 1/2", "2 3/4", "1 3/4"], "answer": "2 1/4", "hint": "1/2=2/4, so 3 2/4 - 1 1/4 = 2 1/4"},
+      {"question": "4 2/3 - 2 1/6 = ?", "options": ["2 1/6", "2 1/2", "2 5/6", "3 1/6"], "answer": "2 1/2", "hint": "LCD is 6: 4 4/6 - 2 1/6 = 2 3/6 = 2 1/2"},
+      {"question": "5 3/4 - 2 1/3 = ?", "options": ["3 1/12", "3 5/12", "3 7/12", "3 11/12"], "answer": "3 5/12", "hint": "LCD is 12: 5 9/12 - 2 4/12 = 3 5/12"},
+      {"question": "3 1/4 - 1 1/2 = ?", "options": ["1 1/4", "1 1/2", "1 3/4", "2 1/4"], "answer": "1 3/4", "hint": "3 1/4 = 2 5/4, then 2 5/4 - 1 2/4 = 1 3/4"},
+      {"question": "6 1/3 - 2 1/2 = ?", "options": ["3 1/6", "3 5/6", "4 1/6", "4 5/6"], "answer": "3 5/6", "hint": "LCD is 6: 6 2/6 - 2 3/6, borrow: 5 8/6 - 2 3/6 = 3 5/6"},
+      {"question": "4 5/6 - 1 1/3 = ?", "options": ["3 1/6", "3 1/2", "3 5/6", "4 1/6"], "answer": "3 1/2", "hint": "1/3=2/6, so 4 5/6 - 1 2/6 = 3 3/6 = 3 1/2"},
+      {"question": "5 1/2 - 2 2/3 = ?", "options": ["2 1/6", "2 5/6", "3 1/6", "3 5/6"], "answer": "2 5/6", "hint": "LCD is 6: 5 3/6 - 2 4/6, borrow: 4 9/6 - 2 4/6 = 2 5/6"},
+      {"question": "7 1/4 - 3 1/2 = ?", "options": ["3 1/4", "3 3/4", "4 1/4", "4 3/4"], "answer": "3 3/4", "hint": "1/2=2/4, borrow: 6 5/4 - 3 2/4 = 3 3/4"},
+      {"question": "4 1/6 - 1 1/2 = ?", "options": ["2 1/3", "2 2/3", "3 1/3", "3 2/3"], "answer": "2 2/3", "hint": "LCD is 6: 4 1/6 - 1 3/6, borrow: 3 7/6 - 1 3/6 = 2 4/6 = 2 2/3"},
+      {"question": "8 3/8 - 4 3/4 = ?", "options": ["3 1/8", "3 5/8", "4 1/8", "4 5/8"], "answer": "3 5/8", "hint": "3/4=6/8, borrow: 7 11/8 - 4 6/8 = 3 5/8"},
+      {"question": "6 2/5 - 3 1/2 = ?", "options": ["2 3/10", "2 9/10", "3 3/10", "3 9/10"], "answer": "2 9/10", "hint": "LCD is 10: 6 4/10 - 3 5/10, borrow: 5 14/10 - 3 5/10 = 2 9/10"}
+    ]
+  },
+  {
+    "id": "5-frac-multiply",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Multiply fractions",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1/2 × 1/3 = ?", "options": ["1/5", "1/6", "2/5", "2/6"], "answer": "1/6", "hint": "Multiply numerators: 1×1=1. Multiply denominators: 2×3=6. Answer: 1/6"},
+      {"question": "2/3 × 3/4 = ?", "options": ["5/7", "6/12", "1/2", "5/12"], "answer": "1/2", "hint": "2×3=6, 3×4=12. 6/12=1/2"},
+      {"question": "1/4 × 2/5 = ?", "options": ["2/20", "1/10", "3/9", "2/9"], "answer": "1/10", "hint": "1×2=2, 4×5=20. 2/20=1/10"},
+      {"question": "3/5 × 1/2 = ?", "options": ["4/7", "3/10", "3/7", "4/10"], "answer": "3/10", "hint": "3×1=3, 5×2=10. Answer: 3/10"},
+      {"question": "2/3 × 1/4 = ?", "options": ["3/7", "2/12", "1/6", "3/12"], "answer": "1/6", "hint": "2×1=2, 3×4=12. 2/12=1/6"},
+      {"question": "4/5 × 1/2 = ?", "options": ["5/7", "4/10", "2/5", "5/10"], "answer": "2/5", "hint": "4×1=4, 5×2=10. 4/10=2/5"},
+      {"question": "1/3 × 3/5 = ?", "options": ["4/8", "3/15", "1/5", "2/8"], "answer": "1/5", "hint": "1×3=3, 3×5=15. 3/15=1/5"},
+      {"question": "5/6 × 2/5 = ?", "options": ["7/11", "10/30", "1/3", "7/30"], "answer": "1/3", "hint": "5×2=10, 6×5=30. 10/30=1/3"},
+      {"question": "3/4 × 2/3 = ?", "options": ["5/7", "6/12", "1/2", "5/12"], "answer": "1/2", "hint": "3×2=6, 4×3=12. 6/12=1/2"},
+      {"question": "2/5 × 5/8 = ?", "options": ["7/13", "10/40", "1/4", "7/40"], "answer": "1/4", "hint": "2×5=10, 5×8=40. 10/40=1/4"},
+      {"question": "3/7 × 7/9 = ?", "options": ["10/16", "21/63", "1/3", "10/63"], "answer": "1/3", "hint": "3×7=21, 7×9=63. 21/63=1/3"}
+    ]
+  },
+  {
+    "id": "5-frac-multiply-mixed",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Multiply mixed numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1 1/2 × 2 = ?", "options": ["2", "2 1/2", "3", "3 1/2"], "answer": "3", "hint": "1 1/2 = 3/2, then 3/2 × 2 = 6/2 = 3"},
+      {"question": "2 1/4 × 2 = ?", "options": ["4", "4 1/2", "5", "5 1/2"], "answer": "4 1/2", "hint": "2 1/4 = 9/4, then 9/4 × 2 = 18/4 = 4 2/4 = 4 1/2"},
+      {"question": "1 1/3 × 3 = ?", "options": ["3", "3 1/3", "4", "4 1/3"], "answer": "4", "hint": "1 1/3 = 4/3, then 4/3 × 3 = 12/3 = 4"},
+      {"question": "2 1/2 × 1 1/2 = ?", "options": ["3", "3 1/4", "3 3/4", "4 1/4"], "answer": "3 3/4", "hint": "5/2 × 3/2 = 15/4 = 3 3/4"},
+      {"question": "1 1/2 × 1 1/3 = ?", "options": ["1 1/2", "2", "2 1/2", "3"], "answer": "2", "hint": "3/2 × 4/3 = 12/6 = 2"},
+      {"question": "3 1/3 × 1 1/2 = ?", "options": ["4", "4 1/2", "5", "5 1/2"], "answer": "5", "hint": "10/3 × 3/2 = 30/6 = 5"},
+      {"question": "2 2/3 × 3/4 = ?", "options": ["1 1/2", "2", "2 1/2", "3"], "answer": "2", "hint": "8/3 × 3/4 = 24/12 = 2"},
+      {"question": "1 3/4 × 2 = ?", "options": ["3", "3 1/4", "3 1/2", "4"], "answer": "3 1/2", "hint": "7/4 × 2 = 14/4 = 3 2/4 = 3 1/2"},
+      {"question": "4 × 1 1/4 = ?", "options": ["4", "4 1/4", "5", "5 1/4"], "answer": "5", "hint": "4 × 5/4 = 20/4 = 5"},
+      {"question": "2 1/5 × 5 = ?", "options": ["10", "10 1/5", "11", "11 1/5"], "answer": "11", "hint": "11/5 × 5 = 55/5 = 11"},
+      {"question": "1 2/3 × 1 1/5 = ?", "options": ["1 4/5", "2", "2 1/5", "2 2/5"], "answer": "2", "hint": "5/3 × 6/5 = 30/15 = 2"}
+    ]
+  },
+  {
+    "id": "5-frac-divide",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Divide fractions",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1/2 ÷ 1/4 = ?", "options": ["1/8", "1/2", "2", "4"], "answer": "2", "hint": "Flip and multiply: 1/2 × 4/1 = 4/2 = 2"},
+      {"question": "3/4 ÷ 1/2 = ?", "options": ["3/8", "1/2", "1 1/2", "2"], "answer": "1 1/2", "hint": "Flip and multiply: 3/4 × 2/1 = 6/4 = 1 1/2"},
+      {"question": "2/3 ÷ 1/3 = ?", "options": ["2/9", "1", "2", "3"], "answer": "2", "hint": "Flip and multiply: 2/3 × 3/1 = 6/3 = 2"},
+      {"question": "1/2 ÷ 2 = ?", "options": ["1/4", "1/2", "1", "4"], "answer": "1/4", "hint": "1/2 ÷ 2 = 1/2 × 1/2 = 1/4"},
+      {"question": "3/5 ÷ 1/5 = ?", "options": ["3/25", "1", "3", "5"], "answer": "3", "hint": "Flip and multiply: 3/5 × 5/1 = 15/5 = 3"},
+      {"question": "4/5 ÷ 2/5 = ?", "options": ["8/25", "1", "2", "4"], "answer": "2", "hint": "Flip and multiply: 4/5 × 5/2 = 20/10 = 2"},
+      {"question": "1/3 ÷ 2/3 = ?", "options": ["2/9", "1/2", "2/3", "1"], "answer": "1/2", "hint": "Flip and multiply: 1/3 × 3/2 = 3/6 = 1/2"},
+      {"question": "5/6 ÷ 1/3 = ?", "options": ["5/18", "1 1/2", "2 1/2", "5/2"], "answer": "2 1/2", "hint": "Flip and multiply: 5/6 × 3/1 = 15/6 = 2 1/2"},
+      {"question": "2/3 ÷ 4/5 = ?", "options": ["8/15", "5/6", "10/12", "6/5"], "answer": "5/6", "hint": "Flip and multiply: 2/3 × 5/4 = 10/12 = 5/6"},
+      {"question": "3/4 ÷ 3/8 = ?", "options": ["9/32", "1", "2", "3"], "answer": "2", "hint": "Flip and multiply: 3/4 × 8/3 = 24/12 = 2"},
+      {"question": "1/4 ÷ 1/8 = ?", "options": ["1/32", "1/2", "2", "8"], "answer": "2", "hint": "Flip and multiply: 1/4 × 8/1 = 8/4 = 2"}
+    ]
+  },
+  {
+    "id": "5-frac-word-problems",
+    "grade": 5,
+    "topic": "Fractions",
+    "skill": "Fraction word problems",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "A recipe needs 3/4 cup flour. To make half, how much flour?", "options": ["1/4 cup", "3/8 cup", "1/2 cup", "5/8 cup"], "answer": "3/8 cup", "hint": "Half of 3/4 = 1/2 × 3/4 = 3/8"},
+      {"question": "Jake ate 2/5 of pizza, Sam ate 1/4. How much together?", "options": ["3/9", "3/20", "13/20", "7/20"], "answer": "13/20", "hint": "LCD is 20: 8/20 + 5/20 = 13/20"},
+      {"question": "Maria has 5/6 gallon juice, drinks 1/3. How much left?", "options": ["4/6", "1/2", "2/6", "1/6"], "answer": "1/2", "hint": "5/6 - 2/6 = 3/6 = 1/2"},
+      {"question": "A board is 3/4 meter. Cut into 3 equal pieces. Each piece?", "options": ["1/12 m", "1/4 m", "3/12 m", "9/4 m"], "answer": "1/4 m", "hint": "3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4"},
+      {"question": "Tom ran 1 1/2 miles, then 2 1/4 miles. Total distance?", "options": ["3 1/4 miles", "3 1/2 miles", "3 3/4 miles", "4 miles"], "answer": "3 3/4 miles", "hint": "1 2/4 + 2 1/4 = 3 3/4 miles"},
+      {"question": "A tank is 3/4 full. After using 1/2 tank, how full?", "options": ["1/8", "1/4", "3/8", "1/2"], "answer": "1/4", "hint": "3/4 - 2/4 = 1/4"},
+      {"question": "2/3 of 24 students are girls. How many girls?", "options": ["8", "12", "16", "18"], "answer": "16", "hint": "2/3 × 24 = 48/3 = 16"},
+      {"question": "Amy read 3/5 of 100 pages. How many pages?", "options": ["30", "50", "60", "75"], "answer": "60", "hint": "3/5 × 100 = 300/5 = 60"},
+      {"question": "A rope is 4 1/2 feet. Cut 1 3/4 feet. How much left?", "options": ["2 1/4 ft", "2 3/4 ft", "3 1/4 ft", "3 3/4 ft"], "answer": "2 3/4 ft", "hint": "4 2/4 - 1 3/4: borrow to get 3 6/4 - 1 3/4 = 2 3/4"},
+      {"question": "1/4 of a class is 6 students. How many total?", "options": ["18", "24", "30", "36"], "answer": "24", "hint": "If 1/4 = 6, then 4/4 = 6 × 4 = 24"},
+      {"question": "It takes 2/3 hour to mow a lawn. How long for 3 lawns?", "options": ["1 hour", "1 1/2 hours", "2 hours", "2 1/2 hours"], "answer": "2 hours", "hint": "2/3 × 3 = 6/3 = 2 hours"}
+    ]
+  },
+  {
+    "id": "5-mult-2by2",
+    "grade": 5,
+    "topic": "Multiplication",
+    "skill": "Multiply 2-digit by 2-digit numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "23 × 14 = ?", "options": ["302", "312", "322", "332"], "answer": "322", "hint": "23×14: 23×10=230, 23×4=92. 230+92=322"},
+      {"question": "35 × 12 = ?", "options": ["400", "410", "420", "430"], "answer": "420", "hint": "35×12: 35×10=350, 35×2=70. 350+70=420"},
+      {"question": "18 × 25 = ?", "options": ["430", "440", "450", "460"], "answer": "450", "hint": "18×25: 18×20=360, 18×5=90. 360+90=450"},
+      {"question": "42 × 16 = ?", "options": ["652", "662", "672", "682"], "answer": "672", "hint": "42×16: 42×10=420, 42×6=252. 420+252=672"},
+      {"question": "27 × 31 = ?", "options": ["817", "827", "837", "847"], "answer": "837", "hint": "27×31: 27×30=810, 27×1=27. 810+27=837"},
+      {"question": "54 × 23 = ?", "options": ["1232", "1242", "1252", "1262"], "answer": "1242", "hint": "54×23: 54×20=1080, 54×3=162. 1080+162=1242"},
+      {"question": "36 × 45 = ?", "options": ["1600", "1610", "1620", "1630"], "answer": "1620", "hint": "36×45: 36×40=1440, 36×5=180. 1440+180=1620"},
+      {"question": "48 × 52 = ?", "options": ["2486", "2496", "2506", "2516"], "answer": "2496", "hint": "48×52: 48×50=2400, 48×2=96. 2400+96=2496"},
+      {"question": "67 × 19 = ?", "options": ["1263", "1273", "1283", "1293"], "answer": "1273", "hint": "67×19: 67×20=1340, 67×1=67. 1340-67=1273"},
+      {"question": "85 × 34 = ?", "options": ["2870", "2880", "2890", "2900"], "answer": "2890", "hint": "85×34: 85×30=2550, 85×4=340. 2550+340=2890"},
+      {"question": "73 × 28 = ?", "options": ["2034", "2044", "2054", "2064"], "answer": "2044", "hint": "73×28: 73×20=1460, 73×8=584. 1460+584=2044"}
+    ]
+  },
+  {
+    "id": "5-mult-3by1",
+    "grade": 5,
+    "topic": "Multiplication",
+    "skill": "Multiply 3-digit by 1-digit numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "234 × 5 = ?", "options": ["1160", "1170", "1180", "1190"], "answer": "1170", "hint": "234×5: 200×5=1000, 30×5=150, 4×5=20. Sum=1170"},
+      {"question": "156 × 4 = ?", "options": ["614", "624", "634", "644"], "answer": "624", "hint": "156×4: 100×4=400, 50×4=200, 6×4=24. Sum=624"},
+      {"question": "328 × 3 = ?", "options": ["974", "984", "994", "1004"], "answer": "984", "hint": "328×3: 300×3=900, 20×3=60, 8×3=24. Sum=984"},
+      {"question": "415 × 6 = ?", "options": ["2480", "2490", "2500", "2510"], "answer": "2490", "hint": "415×6: 400×6=2400, 10×6=60, 5×6=30. Sum=2490"},
+      {"question": "567 × 8 = ?", "options": ["4526", "4536", "4546", "4556"], "answer": "4536", "hint": "567×8: 500×8=4000, 60×8=480, 7×8=56. Sum=4536"},
+      {"question": "243 × 7 = ?", "options": ["1691", "1701", "1711", "1721"], "answer": "1701", "hint": "243×7: 200×7=1400, 40×7=280, 3×7=21. Sum=1701"},
+      {"question": "189 × 9 = ?", "options": ["1691", "1701", "1711", "1721"], "answer": "1701", "hint": "189×9: 180×9=1620, 9×9=81. Sum=1701"},
+      {"question": "375 × 4 = ?", "options": ["1490", "1500", "1510", "1520"], "answer": "1500", "hint": "375×4: 300×4=1200, 75×4=300. Sum=1500"},
+      {"question": "624 × 5 = ?", "options": ["3110", "3120", "3130", "3140"], "answer": "3120", "hint": "624×5: 600×5=3000, 24×5=120. Sum=3120"},
+      {"question": "847 × 2 = ?", "options": ["1684", "1694", "1704", "1714"], "answer": "1694", "hint": "847×2: 800×2=1600, 47×2=94. Sum=1694"},
+      {"question": "936 × 6 = ?", "options": ["5606", "5616", "5626", "5636"], "answer": "5616", "hint": "936×6: 900×6=5400, 36×6=216. Sum=5616"}
+    ]
+  },
+  {
+    "id": "5-mult-3by2",
+    "grade": 5,
+    "topic": "Multiplication",
+    "skill": "Multiply 3-digit by 2-digit numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "123 × 45 = ?", "options": ["5525", "5535", "5545", "5535"], "answer": "5535", "hint": "123×45: 123×40=4920, 123×5=615. Sum=5535"},
+      {"question": "234 × 12 = ?", "options": ["2798", "2808", "2818", "2828"], "answer": "2808", "hint": "234×12: 234×10=2340, 234×2=468. Sum=2808"},
+      {"question": "156 × 23 = ?", "options": ["3578", "3588", "3598", "3608"], "answer": "3588", "hint": "156×23: 156×20=3120, 156×3=468. Sum=3588"},
+      {"question": "245 × 16 = ?", "options": ["3910", "3920", "3930", "3940"], "answer": "3920", "hint": "245×16: 245×10=2450, 245×6=1470. Sum=3920"},
+      {"question": "312 × 25 = ?", "options": ["7790", "7800", "7810", "7820"], "answer": "7800", "hint": "312×25: 312×25. Tip: ×100÷4. 31200÷4=7800"},
+      {"question": "425 × 32 = ?", "options": ["13590", "13600", "13610", "13620"], "answer": "13600", "hint": "425×32: 425×30=12750, 425×2=850. Sum=13600"},
+      {"question": "186 × 47 = ?", "options": ["8732", "8742", "8752", "8762"], "answer": "8742", "hint": "186×47: 186×40=7440, 186×7=1302. Sum=8742"},
+      {"question": "357 × 24 = ?", "options": ["8558", "8568", "8578", "8588"], "answer": "8568", "hint": "357×24: 357×20=7140, 357×4=1428. Sum=8568"},
+      {"question": "468 × 35 = ?", "options": ["16370", "16380", "16390", "16400"], "answer": "16380", "hint": "468×35: 468×30=14040, 468×5=2340. Sum=16380"},
+      {"question": "529 × 18 = ?", "options": ["9512", "9522", "9532", "9542"], "answer": "9522", "hint": "529×18: 529×10=5290, 529×8=4232. Sum=9522"},
+      {"question": "614 × 53 = ?", "options": ["32532", "32542", "32552", "32562"], "answer": "32542", "hint": "614×53: 614×50=30700, 614×3=1842. Sum=32542"}
+    ]
+  },
+  {
+    "id": "5-div-2digit-divisor",
+    "grade": 5,
+    "topic": "Division",
+    "skill": "Divide by 2-digit numbers",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "144 ÷ 12 = ?", "options": ["11", "12", "13", "14"], "answer": "12", "hint": "12 × 12 = 144"},
+      {"question": "225 ÷ 15 = ?", "options": ["13", "14", "15", "16"], "answer": "15", "hint": "15 × 15 = 225"},
+      {"question": "336 ÷ 14 = ?", "options": ["22", "23", "24", "25"], "answer": "24", "hint": "14 × 24 = 336"},
+      {"question": "468 ÷ 18 = ?", "options": ["24", "25", "26", "27"], "answer": "26", "hint": "18 × 26 = 468"},
+      {"question": "552 ÷ 23 = ?", "options": ["22", "23", "24", "25"], "answer": "24", "hint": "23 × 24 = 552"},
+      {"question": "624 ÷ 24 = ?", "options": ["24", "25", "26", "27"], "answer": "26", "hint": "24 × 26 = 624"},
+      {"question": "756 ÷ 21 = ?", "options": ["34", "35", "36", "37"], "answer": "36", "hint": "21 × 36 = 756"},
+      {"question": "864 ÷ 32 = ?", "options": ["25", "26", "27", "28"], "answer": "27", "hint": "32 × 27 = 864"},
+      {"question": "975 ÷ 25 = ?", "options": ["37", "38", "39", "40"], "answer": "39", "hint": "25 × 39 = 975"},
+      {"question": "1080 ÷ 45 = ?", "options": ["22", "23", "24", "25"], "answer": "24", "hint": "45 × 24 = 1080"},
+      {"question": "1326 ÷ 34 = ?", "options": ["37", "38", "39", "40"], "answer": "39", "hint": "34 × 39 = 1326"}
+    ]
+  },
+  {
+    "id": "5-div-remainders",
+    "grade": 5,
+    "topic": "Division",
+    "skill": "Division with remainders",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "47 ÷ 5 = ? R ?", "options": ["9 R 2", "9 R 3", "8 R 7", "8 R 2"], "answer": "9 R 2", "hint": "5 × 9 = 45, 47 - 45 = 2"},
+      {"question": "83 ÷ 9 = ? R ?", "options": ["9 R 2", "9 R 3", "8 R 11", "9 R 5"], "answer": "9 R 2", "hint": "9 × 9 = 81, 83 - 81 = 2"},
+      {"question": "67 ÷ 8 = ? R ?", "options": ["8 R 3", "8 R 4", "7 R 11", "8 R 2"], "answer": "8 R 3", "hint": "8 × 8 = 64, 67 - 64 = 3"},
+      {"question": "145 ÷ 12 = ? R ?", "options": ["12 R 1", "11 R 13", "12 R 2", "11 R 1"], "answer": "12 R 1", "hint": "12 × 12 = 144, 145 - 144 = 1"},
+      {"question": "259 ÷ 15 = ? R ?", "options": ["17 R 4", "16 R 19", "17 R 5", "16 R 4"], "answer": "17 R 4", "hint": "15 × 17 = 255, 259 - 255 = 4"},
+      {"question": "178 ÷ 11 = ? R ?", "options": ["16 R 2", "15 R 13", "16 R 3", "15 R 2"], "answer": "16 R 2", "hint": "11 × 16 = 176, 178 - 176 = 2"},
+      {"question": "397 ÷ 20 = ? R ?", "options": ["19 R 17", "20 R 3", "19 R 7", "18 R 17"], "answer": "19 R 17", "hint": "20 × 19 = 380, 397 - 380 = 17"},
+      {"question": "523 ÷ 25 = ? R ?", "options": ["20 R 23", "21 R 2", "20 R 22", "21 R 3"], "answer": "20 R 23", "hint": "25 × 20 = 500, 523 - 500 = 23"},
+      {"question": "689 ÷ 30 = ? R ?", "options": ["22 R 29", "23 R 1", "22 R 30", "23 R 29"], "answer": "22 R 29", "hint": "30 × 22 = 660, 689 - 660 = 29"},
+      {"question": "847 ÷ 40 = ? R ?", "options": ["21 R 7", "20 R 47", "21 R 8", "20 R 7"], "answer": "21 R 7", "hint": "40 × 21 = 840, 847 - 840 = 7"},
+      {"question": "953 ÷ 18 = ? R ?", "options": ["52 R 17", "53 R 1", "52 R 18", "53 R 17"], "answer": "52 R 17", "hint": "18 × 52 = 936, 953 - 936 = 17"}
+    ]
+  },
+  {
+    "id": "5-div-3by1",
+    "grade": 5,
+    "topic": "Division",
+    "skill": "Long division: 3-digit by 1-digit",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "432 ÷ 4 = ?", "options": ["106", "107", "108", "109"], "answer": "108", "hint": "4 into 4=1, 4 into 3=0 R3, 4 into 32=8. Answer: 108"},
+      {"question": "567 ÷ 7 = ?", "options": ["79", "80", "81", "82"], "answer": "81", "hint": "7 into 56=8, 7 into 7=1. Answer: 81"},
+      {"question": "624 ÷ 6 = ?", "options": ["102", "103", "104", "105"], "answer": "104", "hint": "6 into 6=1, 6 into 2=0 R2, 6 into 24=4. Answer: 104"},
+      {"question": "738 ÷ 9 = ?", "options": ["80", "81", "82", "83"], "answer": "82", "hint": "9 into 73=8 R1, 9 into 18=2. Answer: 82"},
+      {"question": "845 ÷ 5 = ?", "options": ["167", "168", "169", "170"], "answer": "169", "hint": "5 into 8=1 R3, 5 into 34=6 R4, 5 into 45=9. Answer: 169"},
+      {"question": "936 ÷ 8 = ?", "options": ["115", "116", "117", "118"], "answer": "117", "hint": "8 into 93=11 R5, 8 into 56=7. Answer: 117"},
+      {"question": "504 ÷ 3 = ?", "options": ["166", "167", "168", "169"], "answer": "168", "hint": "3 into 5=1 R2, 3 into 20=6 R2, 3 into 24=8. Answer: 168"},
+      {"question": "672 ÷ 7 = ?", "options": ["94", "95", "96", "97"], "answer": "96", "hint": "7 into 67=9 R4, 7 into 42=6. Answer: 96"},
+      {"question": "828 ÷ 9 = ?", "options": ["90", "91", "92", "93"], "answer": "92", "hint": "9 into 82=9 R1, 9 into 18=2. Answer: 92"},
+      {"question": "765 ÷ 5 = ?", "options": ["151", "152", "153", "154"], "answer": "153", "hint": "5 into 7=1 R2, 5 into 26=5 R1, 5 into 15=3. Answer: 153"},
+      {"question": "984 ÷ 6 = ?", "options": ["162", "163", "164", "165"], "answer": "164", "hint": "6 into 9=1 R3, 6 into 38=6 R2, 6 into 24=4. Answer: 164"}
+    ]
+  },
+  {
+    "id": "5-div-4by1",
+    "grade": 5,
+    "topic": "Division",
+    "skill": "Long division: 4-digit by 1-digit",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "1248 ÷ 4 = ?", "options": ["310", "311", "312", "313"], "answer": "312", "hint": "4 into 12=3, 4 into 4=1, 4 into 8=2. Answer: 312"},
+      {"question": "2565 ÷ 5 = ?", "options": ["511", "512", "513", "514"], "answer": "513", "hint": "5 into 25=5, 5 into 6=1 R1, 5 into 15=3. Answer: 513"},
+      {"question": "3672 ÷ 6 = ?", "options": ["610", "611", "612", "613"], "answer": "612", "hint": "6 into 36=6, 6 into 7=1 R1, 6 into 12=2. Answer: 612"},
+      {"question": "4914 ÷ 7 = ?", "options": ["700", "701", "702", "703"], "answer": "702", "hint": "7 into 49=7, 7 into 1=0 R1, 7 into 14=2. Answer: 702"},
+      {"question": "5832 ÷ 8 = ?", "options": ["727", "728", "729", "730"], "answer": "729", "hint": "8 into 58=7 R2, 8 into 23=2 R7, 8 into 72=9. Answer: 729"},
+      {"question": "6318 ÷ 9 = ?", "options": ["700", "701", "702", "703"], "answer": "702", "hint": "9 into 63=7, 9 into 1=0 R1, 9 into 18=2. Answer: 702"},
+      {"question": "7524 ÷ 3 = ?", "options": ["2506", "2507", "2508", "2509"], "answer": "2508", "hint": "3 into 7=2 R1, 3 into 15=5, 3 into 2=0 R2, 3 into 24=8. Answer: 2508"},
+      {"question": "8436 ÷ 4 = ?", "options": ["2107", "2108", "2109", "2110"], "answer": "2109", "hint": "4 into 8=2, 4 into 4=1, 4 into 3=0 R3, 4 into 36=9. Answer: 2109"},
+      {"question": "9135 ÷ 5 = ?", "options": ["1825", "1826", "1827", "1828"], "answer": "1827", "hint": "5 into 9=1 R4, 5 into 41=8 R1, 5 into 13=2 R3, 5 into 35=7. Answer: 1827"},
+      {"question": "4536 ÷ 6 = ?", "options": ["754", "755", "756", "757"], "answer": "756", "hint": "6 into 45=7 R3, 6 into 33=5 R3, 6 into 36=6. Answer: 756"},
+      {"question": "6384 ÷ 8 = ?", "options": ["796", "797", "798", "799"], "answer": "798", "hint": "8 into 63=7 R7, 8 into 78=9 R6, 8 into 64=8. Answer: 798"}
+    ]
+  },
+  {
+    "id": "5-div-word-problems",
+    "grade": 5,
+    "topic": "Division",
+    "skill": "Division word problems",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "342 stickers shared equally among 6 friends. How many each?", "options": ["55", "56", "57", "58"], "answer": "57", "hint": "342 ÷ 6 = 57"},
+      {"question": "A factory makes 1,248 toys in 8 hours. How many per hour?", "options": ["154", "155", "156", "157"], "answer": "156", "hint": "1248 ÷ 8 = 156"},
+      {"question": "525 books on 15 shelves equally. How many per shelf?", "options": ["33", "34", "35", "36"], "answer": "35", "hint": "525 ÷ 15 = 35"},
+      {"question": "A trip of 486 miles takes 9 hours. Average speed?", "options": ["52 mph", "53 mph", "54 mph", "55 mph"], "answer": "54 mph", "hint": "486 ÷ 9 = 54 mph"},
+      {"question": "672 students in 24 classes equally. How many per class?", "options": ["26", "27", "28", "29"], "answer": "28", "hint": "672 ÷ 24 = 28"},
+      {"question": "A farmer has 936 apples in boxes of 12. How many boxes?", "options": ["76", "77", "78", "79"], "answer": "78", "hint": "936 ÷ 12 = 78"},
+      {"question": "1,350 cookies for 45 students. How many each?", "options": ["28", "29", "30", "31"], "answer": "30", "hint": "1350 ÷ 45 = 30"},
+      {"question": "A rope is 756 cm. Cut into 7 equal pieces. Length of each?", "options": ["106 cm", "107 cm", "108 cm", "109 cm"], "answer": "108 cm", "hint": "756 ÷ 7 = 108 cm"},
+      {"question": "2,184 pencils in packs of 12. How many packs?", "options": ["180", "181", "182", "183"], "answer": "182", "hint": "2184 ÷ 12 = 182"},
+      {"question": "$840 split equally among 7 people. How much each?", "options": ["$118", "$119", "$120", "$121"], "answer": "$120", "hint": "840 ÷ 7 = 120"},
+      {"question": "A bus travels 1,575 km in 25 hours. Average speed?", "options": ["61 km/h", "62 km/h", "63 km/h", "64 km/h"], "answer": "63 km/h", "hint": "1575 ÷ 25 = 63 km/h"}
+    ]
+  },
+  {
+    "id": "5-volume-basics",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Volume of rectangular prisms (basics)",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Volume of a box: 4 × 3 × 2 = ?", "options": ["20 cu units", "22 cu units", "24 cu units", "26 cu units"], "answer": "24 cu units", "hint": "V = l × w × h = 4 × 3 × 2 = 24"},
+      {"question": "Volume of a cube with side 5 = ?", "options": ["100 cu units", "125 cu units", "150 cu units", "175 cu units"], "answer": "125 cu units", "hint": "V = s³ = 5 × 5 × 5 = 125"},
+      {"question": "A box is 6 × 4 × 3. What is its volume?", "options": ["66 cu units", "70 cu units", "72 cu units", "76 cu units"], "answer": "72 cu units", "hint": "V = 6 × 4 × 3 = 72"},
+      {"question": "Volume of prism: length 8, width 5, height 2 = ?", "options": ["78 cu units", "80 cu units", "82 cu units", "84 cu units"], "answer": "80 cu units", "hint": "V = 8 × 5 × 2 = 80"},
+      {"question": "A cube has side 3 cm. Volume = ?", "options": ["9 cu cm", "18 cu cm", "27 cu cm", "36 cu cm"], "answer": "27 cu cm", "hint": "V = 3³ = 27 cu cm"},
+      {"question": "Box dimensions: 10 × 5 × 4. Volume = ?", "options": ["180 cu units", "190 cu units", "200 cu units", "210 cu units"], "answer": "200 cu units", "hint": "V = 10 × 5 × 4 = 200"},
+      {"question": "Volume of prism: 7 × 6 × 5 = ?", "options": ["200 cu units", "205 cu units", "210 cu units", "215 cu units"], "answer": "210 cu units", "hint": "V = 7 × 6 × 5 = 210"},
+      {"question": "A container is 9 × 8 × 3. Volume = ?", "options": ["212 cu units", "214 cu units", "216 cu units", "218 cu units"], "answer": "216 cu units", "hint": "V = 9 × 8 × 3 = 216"},
+      {"question": "Cube with side 4 m. Volume = ?", "options": ["16 cu m", "48 cu m", "64 cu m", "80 cu m"], "answer": "64 cu m", "hint": "V = 4³ = 64 cu m"},
+      {"question": "Volume: 12 × 5 × 2 = ?", "options": ["110 cu units", "115 cu units", "120 cu units", "125 cu units"], "answer": "120 cu units", "hint": "V = 12 × 5 × 2 = 120"},
+      {"question": "A box: 15 × 4 × 3. Volume = ?", "options": ["170 cu units", "175 cu units", "180 cu units", "185 cu units"], "answer": "180 cu units", "hint": "V = 15 × 4 × 3 = 180"}
+    ]
+  },
+  {
+    "id": "5-volume-unit-cubes",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Volume with unit cubes",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "A layer has 6 unit cubes. 4 layers stacked. Total volume?", "options": ["20 cu units", "22 cu units", "24 cu units", "26 cu units"], "answer": "24 cu units", "hint": "6 × 4 = 24 unit cubes"},
+      {"question": "Bottom layer: 3×4=12 cubes. 3 layers high. Volume?", "options": ["32 cu units", "34 cu units", "36 cu units", "38 cu units"], "answer": "36 cu units", "hint": "12 × 3 = 36 unit cubes"},
+      {"question": "Each layer has 15 cubes. 5 layers. Volume?", "options": ["70 cu units", "75 cu units", "80 cu units", "85 cu units"], "answer": "75 cu units", "hint": "15 × 5 = 75 unit cubes"},
+      {"question": "A cube made of 27 unit cubes. What is the side length?", "options": ["2", "3", "4", "5"], "answer": "3", "hint": "27 = 3³, so side = 3"},
+      {"question": "Layer: 5×3=15 cubes. 4 layers. Volume?", "options": ["55 cu units", "58 cu units", "60 cu units", "62 cu units"], "answer": "60 cu units", "hint": "15 × 4 = 60 unit cubes"},
+      {"question": "A prism uses 48 unit cubes. Base is 4×3. Height?", "options": ["3", "4", "5", "6"], "answer": "4", "hint": "Base area = 12, 48 ÷ 12 = 4"},
+      {"question": "Layer: 2×6=12 cubes. 7 layers. Volume?", "options": ["80 cu units", "82 cu units", "84 cu units", "86 cu units"], "answer": "84 cu units", "hint": "12 × 7 = 84 unit cubes"},
+      {"question": "64 unit cubes form a large cube. Side length?", "options": ["3", "4", "5", "6"], "answer": "4", "hint": "64 = 4³, so side = 4"},
+      {"question": "Layer: 8×5=40 cubes. 2 layers. Volume?", "options": ["75 cu units", "78 cu units", "80 cu units", "82 cu units"], "answer": "80 cu units", "hint": "40 × 2 = 80 unit cubes"},
+      {"question": "A prism has 100 unit cubes. Base is 5×4. Height?", "options": ["3", "4", "5", "6"], "answer": "5", "hint": "Base area = 20, 100 ÷ 20 = 5"},
+      {"question": "Each layer: 9 cubes. 6 layers. Volume?", "options": ["50 cu units", "52 cu units", "54 cu units", "56 cu units"], "answer": "54 cu units", "hint": "9 × 6 = 54 unit cubes"}
+    ]
+  },
+  {
+    "id": "5-volume-word-problems",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Volume word problems",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "A fish tank is 20×10×15 cm. Volume in cu cm?", "options": ["2800", "2900", "3000", "3100"], "answer": "3000", "hint": "V = 20 × 10 × 15 = 3000 cu cm"},
+      {"question": "A box is 8×6×5 inches. How many cu inches?", "options": ["220", "230", "240", "250"], "answer": "240", "hint": "V = 8 × 6 × 5 = 240 cu in"},
+      {"question": "A pool is 25×10×2 meters. Volume?", "options": ["480 cu m", "490 cu m", "500 cu m", "510 cu m"], "answer": "500 cu m", "hint": "V = 25 × 10 × 2 = 500 cu m"},
+      {"question": "A gift box is 12×8×4 cm. Volume?", "options": ["374 cu cm", "384 cu cm", "394 cu cm", "404 cu cm"], "answer": "384 cu cm", "hint": "V = 12 × 8 × 4 = 384 cu cm"},
+      {"question": "A fridge is 6×3×2 feet inside. Storage volume?", "options": ["32 cu ft", "34 cu ft", "36 cu ft", "38 cu ft"], "answer": "36 cu ft", "hint": "V = 6 × 3 × 2 = 36 cu ft"},
+      {"question": "Cube-shaped box with side 9 cm. Volume?", "options": ["719 cu cm", "729 cu cm", "739 cu cm", "749 cu cm"], "answer": "729 cu cm", "hint": "V = 9³ = 729 cu cm"},
+      {"question": "A planter is 24×18×12 inches. Volume?", "options": ["5164 cu in", "5174 cu in", "5184 cu in", "5194 cu in"], "answer": "5184 cu in", "hint": "V = 24 × 18 × 12 = 5184 cu in"},
+      {"question": "A cube toy has volume 64 cu cm. Side length?", "options": ["3 cm", "4 cm", "5 cm", "6 cm"], "answer": "4 cm", "hint": "64 = 4³, so side = 4 cm"},
+      {"question": "A sandbox is 5×4×1 feet. How many cu ft of sand?", "options": ["18 cu ft", "19 cu ft", "20 cu ft", "21 cu ft"], "answer": "20 cu ft", "hint": "V = 5 × 4 × 1 = 20 cu ft"},
+      {"question": "A storage unit: 10×8×7 feet. Volume?", "options": ["550 cu ft", "555 cu ft", "560 cu ft", "565 cu ft"], "answer": "560 cu ft", "hint": "V = 10 × 8 × 7 = 560 cu ft"},
+      {"question": "A cube has volume 125 cu in. What is its side?", "options": ["4 in", "5 in", "6 in", "7 in"], "answer": "5 in", "hint": "125 = 5³, so side = 5 in"}
+    ]
+  },
+  {
+    "id": "5-volume-composite",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Volume of composite figures",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Two boxes: 3×2×4 and 5×2×4. Combined volume?", "options": ["62 cu units", "64 cu units", "66 cu units", "68 cu units"], "answer": "64 cu units", "hint": "24 + 40 = 64 cu units"},
+      {"question": "An L-shape: 4×3×2 + 2×3×2. Total volume?", "options": ["34 cu units", "36 cu units", "38 cu units", "40 cu units"], "answer": "36 cu units", "hint": "24 + 12 = 36 cu units"},
+      {"question": "Stacked cubes: bottom 5×5×2, top 3×3×3. Total?", "options": ["75 cu units", "76 cu units", "77 cu units", "78 cu units"], "answer": "77 cu units", "hint": "50 + 27 = 77 cu units"},
+      {"question": "Two prisms: 6×4×3 and 4×4×3. Combined?", "options": ["116 cu units", "118 cu units", "120 cu units", "122 cu units"], "answer": "120 cu units", "hint": "72 + 48 = 120 cu units"},
+      {"question": "T-shape: 8×2×2 + 2×6×2. Volume?", "options": ["54 cu units", "56 cu units", "58 cu units", "60 cu units"], "answer": "56 cu units", "hint": "32 + 24 = 56 cu units"},
+      {"question": "Step shape: 5×4×1 + 5×3×1 + 5×2×1. Volume?", "options": ["43 cu units", "44 cu units", "45 cu units", "46 cu units"], "answer": "45 cu units", "hint": "20 + 15 + 10 = 45 cu units"},
+      {"question": "A large box 6×6×6 with a 2×2×2 cube removed. Volume?", "options": ["206 cu units", "208 cu units", "210 cu units", "212 cu units"], "answer": "208 cu units", "hint": "216 - 8 = 208 cu units"},
+      {"question": "Two cubes: side 4 and side 3 stacked. Total volume?", "options": ["89 cu units", "91 cu units", "93 cu units", "95 cu units"], "answer": "91 cu units", "hint": "64 + 27 = 91 cu units"},
+      {"question": "L-shape floor: (8×3) + (5×4) = base. Height 2. Volume?", "options": ["86 cu units", "88 cu units", "90 cu units", "92 cu units"], "answer": "88 cu units", "hint": "Base: 24+20=44. Volume: 44×2=88"},
+      {"question": "Box 10×8×5 with hole 4×4×5. Remaining volume?", "options": ["310 cu units", "320 cu units", "330 cu units", "340 cu units"], "answer": "320 cu units", "hint": "400 - 80 = 320 cu units"},
+      {"question": "Two prisms: 7×5×3 and 3×5×3. Combined?", "options": ["145 cu units", "148 cu units", "150 cu units", "152 cu units"], "answer": "150 cu units", "hint": "105 + 45 = 150 cu units"}
+    ]
+  },
+  {
+    "id": "5-coord-identify",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Identify points in first quadrant",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "Point A is at (3, 5). What is the x-coordinate?", "options": ["3", "5", "8", "15"], "answer": "3", "hint": "In (x, y), x comes first. So x = 3"},
+      {"question": "Point B is at (7, 2). What is the y-coordinate?", "options": ["2", "5", "7", "9"], "answer": "2", "hint": "In (x, y), y comes second. So y = 2"},
+      {"question": "Which point is at the origin?", "options": ["(1, 1)", "(0, 1)", "(1, 0)", "(0, 0)"], "answer": "(0, 0)", "hint": "The origin is where x=0 and y=0"},
+      {"question": "Point (4, 6): How far right from origin?", "options": ["4 units", "6 units", "10 units", "2 units"], "answer": "4 units", "hint": "x-coordinate tells horizontal distance: 4 units"},
+      {"question": "Point (5, 3): How far up from origin?", "options": ["2 units", "3 units", "5 units", "8 units"], "answer": "3 units", "hint": "y-coordinate tells vertical distance: 3 units"},
+      {"question": "Which point is on the x-axis?", "options": ["(3, 3)", "(0, 4)", "(5, 0)", "(2, 2)"], "answer": "(5, 0)", "hint": "Points on x-axis have y = 0"},
+      {"question": "Which point is on the y-axis?", "options": ["(0, 7)", "(7, 0)", "(3, 4)", "(4, 4)"], "answer": "(0, 7)", "hint": "Points on y-axis have x = 0"},
+      {"question": "Point C is 6 right and 4 up. Coordinates?", "options": ["(4, 6)", "(6, 4)", "(10, 0)", "(0, 10)"], "answer": "(6, 4)", "hint": "Right = x, Up = y. So (6, 4)"},
+      {"question": "Which is farther right: (8, 2) or (5, 9)?", "options": ["(8, 2)", "(5, 9)", "Same", "Cannot tell"], "answer": "(8, 2)", "hint": "Compare x-coordinates: 8 > 5"},
+      {"question": "Which is higher: (3, 7) or (9, 4)?", "options": ["(3, 7)", "(9, 4)", "Same", "Cannot tell"], "answer": "(3, 7)", "hint": "Compare y-coordinates: 7 > 4"},
+      {"question": "Point (0, 5) is on which axis?", "options": ["x-axis", "y-axis", "Both", "Neither"], "answer": "y-axis", "hint": "x = 0 means on y-axis"}
+    ]
+  },
+  {
+    "id": "5-coord-plot",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Plot points in first quadrant",
+    "difficulty": "medium",
+    "questions": [
+      {"question": "To plot (4, 7): Start at origin, move how?", "options": ["Right 4, up 7", "Right 7, up 4", "Left 4, up 7", "Right 4, down 7"], "answer": "Right 4, up 7", "hint": "x = right/left, y = up/down. (4,7) = right 4, up 7"},
+      {"question": "To plot (0, 6): Start at origin, move how?", "options": ["Right 6", "Up 6", "Right 6, up 6", "Stay at origin"], "answer": "Up 6", "hint": "x=0 means no right/left. Just up 6"},
+      {"question": "To plot (5, 0): Start at origin, move how?", "options": ["Right 5", "Up 5", "Right 5, up 5", "Stay at origin"], "answer": "Right 5", "hint": "y=0 means no up/down. Just right 5"},
+      {"question": "Plot (3, 8). Which comes first?", "options": ["Move right 3", "Move up 8", "Move right 8", "Move up 3"], "answer": "Move right 3", "hint": "Always move along x (horizontal) first"},
+      {"question": "Points forming a line: (1,1), (2,2), (3,3), (4,?)", "options": ["(4, 3)", "(4, 4)", "(4, 5)", "(3, 4)"], "answer": "(4, 4)", "hint": "Pattern: x = y. So (4, 4)"},
+      {"question": "To plot (2, 9), which axis do you cross first?", "options": ["x-axis", "y-axis", "Both at once", "Neither"], "answer": "x-axis", "hint": "Starting at origin, you move right (along x-axis) first"},
+      {"question": "(6, 3) is plotted. Move right 2. New point?", "options": ["(6, 5)", "(8, 3)", "(4, 3)", "(6, 1)"], "answer": "(8, 3)", "hint": "Moving right adds to x: 6+2=8, y stays 3"},
+      {"question": "(4, 5) is plotted. Move up 3. New point?", "options": ["(4, 8)", "(7, 5)", "(4, 2)", "(1, 5)"], "answer": "(4, 8)", "hint": "Moving up adds to y: 5+3=8, x stays 4"},
+      {"question": "Which point is in the first quadrant?", "options": ["(-2, 3)", "(3, -2)", "(3, 2)", "(-3, -2)"], "answer": "(3, 2)", "hint": "First quadrant: both x and y positive"},
+      {"question": "Plot the midpoint between (2, 4) and (6, 4)?", "options": ["(3, 4)", "(4, 4)", "(5, 4)", "(4, 0)"], "answer": "(4, 4)", "hint": "Midpoint: (2+6)/2=4, y stays 4"},
+      {"question": "Starting at (5, 2), move left 3 and up 4. Where?", "options": ["(2, 6)", "(8, 6)", "(2, -2)", "(8, -2)"], "answer": "(2, 6)", "hint": "Left 3: 5-3=2. Up 4: 2+4=6. Point: (2, 6)"}
+    ]
+  },
+  {
+    "id": "5-coord-distance",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Distance on coordinate plane",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Distance from (1, 3) to (1, 8)?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "5 units", "hint": "Same x, so distance = |8-3| = 5"},
+      {"question": "Distance from (2, 4) to (7, 4)?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "5 units", "hint": "Same y, so distance = |7-2| = 5"},
+      {"question": "Distance from (0, 0) to (0, 9)?", "options": ["0 units", "9 units", "18 units", "81 units"], "answer": "9 units", "hint": "Same x, so distance = |9-0| = 9"},
+      {"question": "Distance from (3, 5) to (8, 5)?", "options": ["3 units", "4 units", "5 units", "8 units"], "answer": "5 units", "hint": "Same y, so distance = |8-3| = 5"},
+      {"question": "Point A(4, 2), Point B(4, 10). Distance?", "options": ["6 units", "8 units", "10 units", "12 units"], "answer": "8 units", "hint": "Same x, so distance = |10-2| = 8"},
+      {"question": "Distance from (0, 0) to (6, 0)?", "options": ["0 units", "3 units", "6 units", "12 units"], "answer": "6 units", "hint": "Same y, so distance = |6-0| = 6"},
+      {"question": "(2, 7) to (9, 7): horizontal distance?", "options": ["5 units", "6 units", "7 units", "9 units"], "answer": "7 units", "hint": "Horizontal = x difference: |9-2| = 7"},
+      {"question": "(5, 1) to (5, 12): vertical distance?", "options": ["7 units", "9 units", "11 units", "13 units"], "answer": "11 units", "hint": "Vertical = y difference: |12-1| = 11"},
+      {"question": "From origin to (0, 15)?", "options": ["0 units", "15 units", "30 units", "225 units"], "answer": "15 units", "hint": "Distance on y-axis = 15"},
+      {"question": "Distance from (3, 4) to (3, 4)?", "options": ["0 units", "3 units", "4 units", "7 units"], "answer": "0 units", "hint": "Same point = 0 distance"},
+      {"question": "(1, 6) to (10, 6)?", "options": ["6 units", "7 units", "8 units", "9 units"], "answer": "9 units", "hint": "Same y, so distance = |10-1| = 9"}
+    ]
+  },
+  {
+    "id": "5-coord-shapes",
+    "grade": 5,
+    "topic": "Geometry",
+    "skill": "Shapes on coordinate plane",
+    "difficulty": "hard",
+    "questions": [
+      {"question": "Square corners: (1,1), (1,4), (4,4), (4,1). Side length?", "options": ["2 units", "3 units", "4 units", "5 units"], "answer": "3 units", "hint": "Side = |4-1| = 3 units"},
+      {"question": "Rectangle: (2,1), (2,5), (6,5), (6,1). Length?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "4 units", "hint": "Length = |6-2| = 4 units"},
+      {"question": "Rectangle: (2,1), (2,5), (6,5), (6,1). Width?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "4 units", "hint": "Width = |5-1| = 4 units"},
+      {"question": "Square at (0,0), (0,5), (5,5), (5,0). Area?", "options": ["10 sq units", "20 sq units", "25 sq units", "30 sq units"], "answer": "25 sq units", "hint": "Side = 5, Area = 5² = 25"},
+      {"question": "Rectangle (1,2), (1,6), (8,6), (8,2). Perimeter?", "options": ["18 units", "20 units", "22 units", "24 units"], "answer": "22 units", "hint": "L=7, W=4. P = 2(7+4) = 22"},
+      {"question": "Triangle vertices: (0,0), (6,0), (3,4). Base?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "6 units", "hint": "Base on x-axis: |6-0| = 6"},
+      {"question": "Square: (2,3), (2,7), (6,7), (6,3). Perimeter?", "options": ["12 units", "14 units", "16 units", "18 units"], "answer": "16 units", "hint": "Side = 4, P = 4×4 = 16"},
+      {"question": "Rectangle: (0,0), (0,3), (8,3), (8,0). Area?", "options": ["11 sq units", "22 sq units", "24 sq units", "32 sq units"], "answer": "24 sq units", "hint": "L=8, W=3. Area = 8×3 = 24"},
+      {"question": "Square with corners (3,1) and (3,6). Side length?", "options": ["3 units", "4 units", "5 units", "6 units"], "answer": "5 units", "hint": "Side = |6-1| = 5 units"},
+      {"question": "If a square has area 36 sq units,

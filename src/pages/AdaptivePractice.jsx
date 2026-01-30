@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
 import AdaptiveQuizEngine from '../components/adaptive/AdaptiveQuizEngine';
+import SmartScoreQuiz from '../components/adaptive/SmartScoreQuiz';
 // Removed static import: import curriculumData from '../data/curriculum.json';
 
 const AdaptivePractice = () => {
@@ -14,6 +15,7 @@ const AdaptivePractice = () => {
 
     const [topics, setTopics] = useState([]);
     const [loadingTopics, setLoadingTopics] = useState(true);
+    const [useSmartScore, setUseSmartScore] = useState(true); // Default to SmartScore
 
     useEffect(() => {
         // Dynamically load curriculum to get topics
@@ -107,17 +109,79 @@ const AdaptivePractice = () => {
                     /* Topic Selection */
                     <>
                         <div className="card" style={{ marginBottom: '2rem', textAlign: 'center' }}>
-                            <h2 style={{ marginBottom: '1rem' }}>How It Works</h2>
-                            <div style={{ color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
-                                <p style={{ marginBottom: '0.5rem' }}>
-                                    ✨ Questions automatically adjust to your skill level
-                                </p>
-                                <p style={{ marginBottom: '0.5rem' }}>
-                                    🎯 Targets 70% success rate for optimal learning
-                                </p>
-                                <p>
-                                    📊 Tracks your progress and builds mastery
-                                </p>
+                            <h2 style={{ marginBottom: '1rem' }}>
+                                {useSmartScore ? '🏆 SmartScore Mastery' : 'How It Works'}
+                            </h2>
+                            {useSmartScore ? (
+                                <div style={{ color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
+                                    <p style={{ marginBottom: '0.5rem' }}>
+                                        📊 <strong>SmartScore</strong> goes UP and DOWN based on your answers
+                                    </p>
+                                    <p style={{ marginBottom: '0.5rem' }}>
+                                        🎯 Reach <strong>80</strong> for Proficiency, <strong>90</strong> for Challenge Zone
+                                    </p>
+                                    <p style={{ marginBottom: '0.5rem' }}>
+                                        ⭐ Hit <strong>100</strong> to achieve Mastery!
+                                    </p>
+                                    <p>
+                                        🔥 Build streaks in the Challenge Zone for faster progress
+                                    </p>
+                                </div>
+                            ) : (
+                                <div style={{ color: 'var(--color-text-muted)', lineHeight: '1.6' }}>
+                                    <p style={{ marginBottom: '0.5rem' }}>
+                                        ✨ Questions automatically adjust to your skill level
+                                    </p>
+                                    <p style={{ marginBottom: '0.5rem' }}>
+                                        🎯 Targets 70% success rate for optimal learning
+                                    </p>
+                                    <p>
+                                        📊 Tracks your progress and builds mastery
+                                    </p>
+                                </div>
+                            )}
+                            
+                            {/* Mode toggle */}
+                            <div style={{ 
+                                marginTop: '1.5rem', 
+                                padding: '1rem',
+                                background: 'var(--color-bg)',
+                                borderRadius: 'var(--radius-md)',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                gap: '1rem'
+                            }}>
+                                <span style={{ color: !useSmartScore ? 'var(--color-primary)' : 'var(--color-text-muted)' }}>
+                                    Classic
+                                </span>
+                                <button
+                                    onClick={() => setUseSmartScore(!useSmartScore)}
+                                    style={{
+                                        width: '50px',
+                                        height: '26px',
+                                        borderRadius: '13px',
+                                        background: useSmartScore ? 'var(--color-primary)' : 'var(--color-text-muted)',
+                                        border: 'none',
+                                        cursor: 'pointer',
+                                        position: 'relative',
+                                        transition: 'background 0.2s'
+                                    }}
+                                >
+                                    <span style={{
+                                        position: 'absolute',
+                                        top: '3px',
+                                        left: useSmartScore ? '27px' : '3px',
+                                        width: '20px',
+                                        height: '20px',
+                                        borderRadius: '50%',
+                                        background: 'white',
+                                        transition: 'left 0.2s'
+                                    }} />
+                                </button>
+                                <span style={{ color: useSmartScore ? 'var(--color-primary)' : 'var(--color-text-muted)' }}>
+                                    SmartScore
+                                </span>
                             </div>
                         </div>
 
@@ -176,11 +240,21 @@ const AdaptivePractice = () => {
                             <h2 style={{ color: 'var(--color-primary)' }}>{selectedTopic}</h2>
                         </div>
 
-                        <AdaptiveQuizEngine
-                            studentId={state.user.id}
-                            topic={selectedTopic}
-                            onComplete={handleQuizComplete}
-                        />
+                        {useSmartScore ? (
+                            <SmartScoreQuiz
+                                studentId={state.user.id}
+                                topic={selectedTopic}
+                                skillName={selectedTopic}
+                                onComplete={handleQuizComplete}
+                                onExit={handleNewTopic}
+                            />
+                        ) : (
+                            <AdaptiveQuizEngine
+                                studentId={state.user.id}
+                                topic={selectedTopic}
+                                onComplete={handleQuizComplete}
+                            />
+                        )}
                     </>
                 ) : results && (
                     /* Results Screen */
@@ -189,22 +263,53 @@ const AdaptivePractice = () => {
                         animate={{ scale: 1, opacity: 1 }}
                     >
                         <div className="card" style={{ textAlign: 'center' }}>
-                            <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>
-                                🎉 Practice Complete!
-                            </h2>
+                            {results.mastered ? (
+                                <>
+                                    <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>
+                                        🏆 MASTERY ACHIEVED!
+                                    </h2>
+                                    <div style={{
+                                        fontSize: '4rem',
+                                        fontWeight: 'bold',
+                                        background: 'linear-gradient(135deg, #FFD700, #FFA500)',
+                                        WebkitBackgroundClip: 'text',
+                                        WebkitTextFillColor: 'transparent',
+                                        marginBottom: '1rem'
+                                    }}>
+                                        100
+                                    </div>
+                                    <p style={{ fontSize: '1.2rem', marginBottom: '2rem', color: 'var(--color-text-muted)' }}>
+                                        You've proven deep understanding of {selectedTopic}!
+                                    </p>
+                                </>
+                            ) : (
+                                <>
+                                    <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>
+                                        🎉 Practice Complete!
+                                    </h2>
 
-                            <div style={{
-                                fontSize: '4rem',
-                                fontWeight: 'bold',
-                                color: 'var(--color-primary)',
-                                marginBottom: '1rem'
-                            }}>
-                                {((results.score.correct / results.score.total) * 100).toFixed(0)}%
-                            </div>
+                                    <div style={{
+                                        fontSize: '4rem',
+                                        fontWeight: 'bold',
+                                        color: 'var(--color-primary)',
+                                        marginBottom: '1rem'
+                                    }}>
+                                        {results.score !== undefined ? 
+                                            (typeof results.score === 'object' ? 
+                                                ((results.score.correct / results.score.total) * 100).toFixed(0) + '%' :
+                                                Math.round(results.score)
+                                            ) : '0%'
+                                        }
+                                    </div>
 
-                            <div style={{ fontSize: '1.2rem', marginBottom: '2rem', color: 'var(--color-text-muted)' }}>
-                                {results.score.correct} out of {results.score.total} correct
-                            </div>
+                                    <div style={{ fontSize: '1.2rem', marginBottom: '2rem', color: 'var(--color-text-muted)' }}>
+                                        {results.correctCount !== undefined ?
+                                            `${results.correctCount} out of ${results.totalAnswered} correct` :
+                                            `${results.score?.correct || 0} out of ${results.score?.total || 0} correct`
+                                        }
+                                    </div>
+                                </>
+                            )}
 
                             {/* Performance breakdown */}
                             <div style={{
@@ -216,34 +321,60 @@ const AdaptivePractice = () => {
                             }}>
                                 <h3 style={{ marginBottom: '1rem' }}>Performance Summary</h3>
 
+                                {results.score !== undefined && typeof results.score !== 'object' && (
+                                    <div style={{ marginBottom: '0.75rem' }}>
+                                        <strong>SmartScore:</strong>{' '}
+                                        <span style={{
+                                            fontWeight: 'bold',
+                                            color: results.score >= 90 ? '#9C27B0' :
+                                                results.score >= 80 ? '#4CAF50' :
+                                                results.score >= 50 ? '#FF9800' : '#2196F3'
+                                        }}>
+                                            {Math.round(results.score)}
+                                        </span>
+                                    </div>
+                                )}
+
+                                {results.finalDifficulty && (
+                                    <div style={{ marginBottom: '0.75rem' }}>
+                                        <strong>Final Difficulty:</strong>{' '}
+                                        <span className="badge" style={{
+                                            background: results.finalDifficulty === 'easy' ? '#4caf50' :
+                                                results.finalDifficulty === 'medium' ? '#ff9800' : '#f44336',
+                                            color: 'white',
+                                            marginLeft: '0.5rem'
+                                        }}>
+                                            {results.finalDifficulty.toUpperCase()}
+                                        </span>
+                                    </div>
+                                )}
+
                                 <div style={{ marginBottom: '0.75rem' }}>
-                                    <strong>Final Difficulty:</strong>{' '}
-                                    <span className="badge" style={{
-                                        background: results.finalDifficulty === 'easy' ? '#4caf50' :
-                                            results.finalDifficulty === 'medium' ? '#ff9800' : '#f44336',
-                                        color: 'white',
-                                        marginLeft: '0.5rem'
-                                    }}>
-                                        {results.finalDifficulty.toUpperCase()}
-                                    </span>
+                                    <strong>Questions Answered:</strong> {results.totalAnswered || results.score?.total || 0}
                                 </div>
 
                                 <div style={{ marginBottom: '0.75rem' }}>
-                                    <strong>Questions Answered:</strong> {results.score.total}
+                                    <strong>Accuracy:</strong> {
+                                        results.totalAnswered ?
+                                            ((results.correctCount / results.totalAnswered) * 100).toFixed(0) :
+                                            ((results.score?.correct / results.score?.total) * 100 || 0).toFixed(0)
+                                    }%
                                 </div>
 
-                                <div>
-                                    <strong>Accuracy:</strong> {((results.score.correct / results.score.total) * 100).toFixed(0)}%
-                                </div>
+                                {results.timeSpent && (
+                                    <div>
+                                        <strong>Time:</strong> {Math.floor(results.timeSpent / 60)}m {results.timeSpent % 60}s
+                                    </div>
+                                )}
                             </div>
 
                             {/* Action buttons */}
-                            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+                            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
                                 <button
                                     onClick={handleTryAgain}
                                     className="btn btn-primary"
                                 >
-                                    Practice {selectedTopic} Again
+                                    {results.mastered ? 'Practice More' : `Continue ${selectedTopic}`}
                                 </button>
                                 <button
                                     onClick={handleNewTopic}
