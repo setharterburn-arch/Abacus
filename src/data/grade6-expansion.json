@@ -2615,8 +2615,8 @@
       }
     ],
     "grade": 6
-  }
-]  {
+  },
+  {
     "id": "6-area-triangles",
     "title": "Find the Area of Triangles",
     "description": "Calculate the area of triangles using base and height",
