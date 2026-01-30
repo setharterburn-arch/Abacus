@@ -57,7 +57,9 @@ const SmartScoreQuiz = ({
   const [curriculumData, setCurriculumData] = useState([]);
   const [curriculumLoaded, setCurriculumLoaded] = useState(false);
   
-  // Quiz state
+  // Quiz state - using single phase to prevent race conditions
+  // Phase: 'ready' | 'answered' | 'transitioning'
+  const [phase, setPhase] = useState('ready');
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -169,28 +171,19 @@ const SmartScoreQuiz = ({
     }
   }, [skillId, topic, grade, infiniteMode, generateNewQuestion, curriculumLoaded, curriculumData]);
 
-  // Track if we can accept answers (prevents double-click issues)
-  const [canAnswer, setCanAnswer] = useState(true);
-  const isFirstRender = useRef(true);
+  // Removed canAnswer/isFirstRender - using phase state instead
 
   // Reset selection state when question changes
   useEffect(() => {
+    console.log('Question changed to index:', currentIndex);
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
     
-    // Skip the disable logic on first render
-    if (isFirstRender.current) {
-      isFirstRender.current = false;
-      setCanAnswer(true);
-      return;
-    }
-    
-    // Briefly disable answering during transition to prevent click-through
-    // Use longer delay to ensure DOM has updated
-    setCanAnswer(false);
+    // Set phase to ready after a brief delay to prevent click-through
     const timer = setTimeout(() => {
-      setCanAnswer(true);
+      console.log('Setting phase to ready');
+      setPhase('ready');
     }, 300);
     return () => clearTimeout(timer);
   }, [currentIndex]);
@@ -201,26 +194,25 @@ const SmartScoreQuiz = ({
   const lastAnswerTime = useRef(0);
   
   const handleAnswer = useCallback((answer) => {
-    console.log('handleAnswer called:', answer, 'currentIndex:', currentIndex, 'showFeedback:', showFeedback, 'canAnswer:', canAnswer);
+    console.log('handleAnswer called:', answer, 'phase:', phase);
     
-    // Prevent double-firing from touch + click events
+    // Only allow answers in 'ready' phase
+    if (phase !== 'ready') {
+      console.log('Blocked - phase is:', phase);
+      return;
+    }
+    
+    // Prevent double-firing
     const now = Date.now();
-    if (now - lastAnswerTime.current < 500) {
+    if (now - lastAnswerTime.current < 300) {
       console.log('Blocked by debounce');
       return;
     }
     lastAnswerTime.current = now;
     
-    if (showFeedback) {
-      console.log('Blocked by showFeedback');
-      return;
-    }
-    if (!canAnswer) {
-      console.log('Blocked by canAnswer');
-      return;
-    }
-    
     console.log('Processing answer:', answer);
+    // Set phase FIRST to block any other interactions
+    setPhase('answered');
     setSelectedAnswer(answer);
     setShowFeedback(true);
     
@@ -263,12 +255,19 @@ const SmartScoreQuiz = ({
         });
       }, 2000);
     }
-  }, [showFeedback, canAnswer, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
+  }, [phase, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
-    console.log('handleNext called, currentIndex:', currentIndex);
-    // Disable answering BEFORE any state changes
-    setCanAnswer(false);
+    console.log('handleNext called, currentIndex:', currentIndex, 'phase:', phase);
+    
+    // Only allow next in 'answered' phase
+    if (phase !== 'answered') {
+      console.log('handleNext blocked - phase is:', phase);
+      return;
+    }
+    
+    // Set transitioning phase to block everything
+    setPhase('transitioning');
     
     setSelectedAnswer(null);
     setShowFeedback(false);
@@ -512,15 +511,16 @@ const SmartScoreQuiz = ({
                 return (
                   <button
                     key={`${currentIndex}-${idx}-${option}`}
+                    type="button"
                     onClick={(e) => {
                       e.stopPropagation();
                       e.preventDefault();
-                      console.log('Button clicked:', option, 'showFeedback:', showFeedback, 'canAnswer:', canAnswer);
-                      if (!showFeedback && canAnswer) {
+                      console.log('Button clicked:', option, 'phase:', phase);
+                      if (phase === 'ready') {
                         handleAnswer(option);
                       }
                     }}
-                    disabled={showFeedback || !canAnswer}
+                    disabled={phase !== 'ready'}
                     style={{
                       padding: '1rem 1.25rem',
                       textAlign: 'left',
@@ -531,9 +531,9 @@ const SmartScoreQuiz = ({
                       color: (showCorrect || showIncorrect || isSelected) ? 'white' : 'var(--color-text)',
                       border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : 'var(--color-text)'}`,
                       borderRadius: 'var(--radius-md)',
-                      cursor: showFeedback || !canAnswer ? 'default' : 'pointer',
+                      cursor: phase !== 'ready' ? 'default' : 'pointer',
                       transition: 'all 0.2s ease',
-                      opacity: (!canAnswer && !showFeedback) ? 0.5 : 1
+                      opacity: phase === 'transitioning' ? 0.5 : 1
                     }}
                   >
                     <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>
@@ -631,18 +631,13 @@ const SmartScoreQuiz = ({
 
       {/* Actions */}
       <div style={{ display: 'flex', gap: '1rem' }}>
-        {showFeedback && score < 100 && (
+        {phase === 'answered' && score < 100 && (
           <button
+            type="button"
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              // Only allow Next after feedback has been shown for at least 500ms
-              const timeSinceAnswer = Date.now() - lastAnswerTime.current;
-              console.log('Next clicked, time since answer:', timeSinceAnswer);
-              if (timeSinceAnswer < 500) {
-                console.log('Next blocked - too soon after answer');
-                return;
-              }
+              console.log('Next clicked, phase:', phase);
               handleNext();
             }}
             className="btn btn-primary"
