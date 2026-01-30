@@ -201,13 +201,26 @@ const SmartScoreQuiz = ({
   const lastAnswerTime = useRef(0);
   
   const handleAnswer = useCallback((answer) => {
+    console.log('handleAnswer called:', answer, 'currentIndex:', currentIndex, 'showFeedback:', showFeedback, 'canAnswer:', canAnswer);
+    
     // Prevent double-firing from touch + click events
     const now = Date.now();
-    if (now - lastAnswerTime.current < 500) return;
+    if (now - lastAnswerTime.current < 500) {
+      console.log('Blocked by debounce');
+      return;
+    }
     lastAnswerTime.current = now;
     
-    if (showFeedback || !canAnswer) return;
+    if (showFeedback) {
+      console.log('Blocked by showFeedback');
+      return;
+    }
+    if (!canAnswer) {
+      console.log('Blocked by canAnswer');
+      return;
+    }
     
+    console.log('Processing answer:', answer);
     setSelectedAnswer(answer);
     setShowFeedback(true);
     
@@ -253,6 +266,7 @@ const SmartScoreQuiz = ({
   }, [showFeedback, canAnswer, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
+    console.log('handleNext called, currentIndex:', currentIndex);
     // Disable answering BEFORE any state changes
     setCanAnswer(false);
     
@@ -496,20 +510,15 @@ const SmartScoreQuiz = ({
                 const showIncorrect = showFeedback && isSelected && !isCorrect;
 
                 return (
-                  <motion.button
+                  <button
                     key={`${currentIndex}-${idx}-${option}`}
-                    whileHover={!showFeedback && canAnswer ? { scale: 1.02 } : {}}
-                    whileTap={!showFeedback && canAnswer ? { scale: 0.98 } : {}}
                     onClick={(e) => {
                       e.stopPropagation();
                       e.preventDefault();
+                      console.log('Button clicked:', option, 'showFeedback:', showFeedback, 'canAnswer:', canAnswer);
                       if (!showFeedback && canAnswer) {
                         handleAnswer(option);
                       }
-                    }}
-                    onTouchEnd={(e) => {
-                      e.stopPropagation();
-                      // Don't prevent default - let click handle it
                     }}
                     disabled={showFeedback || !canAnswer}
                     style={{
@@ -522,8 +531,9 @@ const SmartScoreQuiz = ({
                       color: (showCorrect || showIncorrect || isSelected) ? 'white' : 'var(--color-text)',
                       border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : 'var(--color-text)'}`,
                       borderRadius: 'var(--radius-md)',
-                      cursor: showFeedback ? 'default' : 'pointer',
-                      transition: 'all 0.2s ease'
+                      cursor: showFeedback || !canAnswer ? 'default' : 'pointer',
+                      transition: 'all 0.2s ease',
+                      opacity: (!canAnswer && !showFeedback) ? 0.5 : 1
                     }}
                   >
                     <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>
@@ -532,7 +542,7 @@ const SmartScoreQuiz = ({
                     {option}
                     {showCorrect && ' ✓'}
                     {showIncorrect && ' ✗'}
-                  </motion.button>
+                  </button>
                 );
               })}
             </div>
