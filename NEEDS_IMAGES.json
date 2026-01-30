@@ -1,0 +1,176 @@
+[
+  {
+    "skill": "0-shapes-1",
+    "grade": 0,
+    "qIndex": 11,
+    "question": "Look at the picture of a house. What shapes do you see the most of?"
+  },
+  {
+    "skill": "0-shapes-6",
+    "grade": 0,
+    "qIndex": 5,
+    "question": "Look at the picture of a window. What shape is it most like?"
+  },
+  {
+    "skill": "0-shapes-11",
+    "grade": 0,
+    "qIndex": 5,
+    "question": "Look at the picture. Which shape is red?"
+  },
+  {
+    "skill": "0-shapes-15",
+    "grade": 0,
+    "qIndex": 4,
+    "question": "Look at the picture of a pizza. What shape is it most like?"
+  },
+  {
+    "skill": "0-shapes-19",
+    "grade": 0,
+    "qIndex": 6,
+    "question": "Look at the picture. Which shape is used to make the roof of the house?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 0,
+    "question": "Look at the picture. There is 1 apple and 1 apple. How many apples are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 1,
+    "question": "Look at the picture. There are 2 balls and 1 ball. How many balls are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 2,
+    "question": "Look at the picture. There are 3 flowers and 1 flower. How many flowers are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 3,
+    "question": "Look at the picture. There are 2 stars and 2 stars. How many stars are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 4,
+    "question": "Look at the picture. There are 4 birds and 1 bird. How many birds are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 5,
+    "question": "Look at the picture. There are 3 cars and 2 cars. How many cars are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 6,
+    "question": "Look at the picture. There are 1 heart, 1 heart, and 1 heart. How many hearts are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 7,
+    "question": "Look at the picture. There are 2 suns, 1 sun, and 1 sun. How many suns are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 8,
+    "question": "Look at the picture. There are 3 cats and 2 dogs. How many animals are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 9,
+    "question": "Look at the picture. There are 4 pencils and 2 erasers. How many things are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 10,
+    "question": "Look at the picture. There are 2 big circles and 3 small circles. How many circles are there in total?"
+  },
+  {
+    "skill": "0-addition-2",
+    "grade": 0,
+    "qIndex": 11,
+    "question": "Look at the picture. There are 3 red blocks and 3 blue blocks. How many blocks are there in total?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 0,
+    "question": "Look at the picture: 🍎 + 🍎 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 1,
+    "question": "Look at the picture: ⭐️ + ⭐️ + ⭐️ = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 2,
+    "question": "Look at the picture: ⚽ + ⚽ + ⚽ + ⚽ = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 3,
+    "question": "Look at the picture: 🌷 + 🌷 + 🌷 + 🌷 + 🌷 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 4,
+    "question": "Look at the picture: 🚗 + 🚗 + 🚗 + 🎈 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 5,
+    "question": "Look at the picture: 🍦 + 🍦 + 🍪 + 🍪 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 6,
+    "question": "Look at the picture: 🐶 + 🐱 + 🐶 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 7,
+    "question": "Look at the picture: 🌳 + ☀️ + ☀️ = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 8,
+    "question": "Look at the picture: 🍎 + 🍎 + 🍌 + 🍌 + 🍌 = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 9,
+    "question": "Look at the picture: 📚 + 📚 + 📚 + 🖍️ + 🖍️ = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 10,
+    "question": "Look at the picture: ⚽ + ⚽ + 🌷 + 🌷 + ⚽ = ?"
+  },
+  {
+    "skill": "0-addition-10",
+    "grade": 0,
+    "qIndex": 11,
+    "question": "Look at the picture: 🚗 + 🎈 + 🎈 + 🚗 + 🚗 = ?"
+  }
+]
