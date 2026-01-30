@@ -57,9 +57,9 @@ const SmartScoreQuiz = ({
   const [curriculumData, setCurriculumData] = useState([]);
   const [curriculumLoaded, setCurriculumLoaded] = useState(false);
   
-  // Quiz state - using single phase to prevent race conditions
-  // Phase: 'ready' | 'answered' | 'transitioning'
-  const [phase, setPhase] = useState('ready');
+  // Quiz state - two-step answer flow
+  // Phase: 'selecting' (pick answer) | 'selected' (ready to check) | 'checked' (feedback shown) | 'transitioning'
+  const [phase, setPhase] = useState('selecting');
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -184,63 +184,52 @@ const SmartScoreQuiz = ({
     setShowHint(false);
     questionAppearedAt.current = Date.now(); // Mark when new question appeared
     
-    // Set phase to ready after a brief delay to prevent click-through
+    // Set phase to selecting after a brief delay
     const timer = setTimeout(() => {
-      console.log('Setting phase to ready, unlocking');
-      isProcessingAnswer.current = false; // Reset synchronous lock
-      setPhase('ready');
-    }, 500); // Increased delay to 500ms
+      console.log('Setting phase to selecting');
+      isProcessingAnswer.current = false;
+      setPhase('selecting');
+    }, 300);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
   const currentQuestion = questions[currentIndex];
 
-  // Track last answer time to prevent double-firing (mobile touch events)
-  const lastAnswerTime = useRef(0);
   // Synchronous lock - refs update immediately unlike state
   const isProcessingAnswer = useRef(false);
   
-  const handleAnswer = useCallback((answer) => {
-    const now = Date.now();
-    const timeSinceQuestionAppeared = now - questionAppearedAt.current;
-    console.log('handleAnswer called:', answer, 'phase:', phase, 'locked:', isProcessingAnswer.current, 'timeSinceAppear:', timeSinceQuestionAppeared);
+  // Step 1: Select an answer (just highlights, doesn't submit)
+  const handleSelectAnswer = useCallback((answer) => {
+    // Only allow selection in 'selecting' or 'selected' phase (can change answer before checking)
+    if (phase !== 'selecting' && phase !== 'selected') {
+      console.log('Select blocked - phase is:', phase);
+      return;
+    }
     
-    // SYNCHRONOUS lock check - this blocks before any async state updates
+    console.log('Selected answer:', answer);
+    setSelectedAnswer(answer);
+    setPhase('selected');
+  }, [phase]);
+
+  // Step 2: Check the answer (submit and show feedback)
+  const handleCheckAnswer = useCallback(() => {
+    if (phase !== 'selected' || selectedAnswer === null) {
+      console.log('Check blocked - phase:', phase, 'selected:', selectedAnswer);
+      return;
+    }
+    
     if (isProcessingAnswer.current) {
-      console.log('Blocked by synchronous lock');
+      console.log('Check blocked - already processing');
       return;
     }
-    
-    // Block if question appeared less than 500ms ago (ghost tap prevention)
-    if (timeSinceQuestionAppeared < 500) {
-      console.log('Blocked - question too new:', timeSinceQuestionAppeared, 'ms');
-      return;
-    }
-    
-    // Only allow answers in 'ready' phase
-    if (phase !== 'ready') {
-      console.log('Blocked - phase is:', phase);
-      return;
-    }
-    
-    // Prevent double-firing
-    if (now - lastAnswerTime.current < 500) {
-      console.log('Blocked by debounce');
-      return;
-    }
-    lastAnswerTime.current = now;
-    
-    // SET LOCK IMMEDIATELY (synchronous)
     isProcessingAnswer.current = true;
     
-    console.log('Processing answer:', answer);
-    // Set phase FIRST to block any other interactions
-    setPhase('answered');
-    setSelectedAnswer(answer);
+    console.log('Checking answer:', selectedAnswer);
     setShowFeedback(true);
+    setPhase('checked');
     
     // Use universal answer checker for all question types
-    const correct = checkAnswer(currentQuestion, answer);
+    const correct = checkAnswer(currentQuestion, selectedAnswer);
     const difficulty = currentQuestion.difficulty || 1;
     
     // Calculate new SmartScore
@@ -278,13 +267,15 @@ const SmartScoreQuiz = ({
         });
       }, 2000);
     }
-  }, [phase, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
+    
+    isProcessingAnswer.current = false;
+  }, [phase, selectedAnswer, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
     console.log('handleNext called, currentIndex:', currentIndex, 'phase:', phase);
     
-    // Only allow next in 'answered' phase
-    if (phase !== 'answered') {
+    // Only allow next in 'checked' phase
+    if (phase !== 'checked') {
       console.log('handleNext blocked - phase is:', phase);
       return;
     }
@@ -496,10 +487,10 @@ const SmartScoreQuiz = ({
          currentQuestion.type !== 'multiple_choice' ? (
           <QuestionRenderer
             question={currentQuestion}
-            onAnswer={handleAnswer}
+            onAnswer={handleSelectAnswer}
             showFeedback={showFeedback}
             isCorrect={checkAnswer(currentQuestion, selectedAnswer)}
-            disabled={showFeedback}
+            disabled={phase === 'checked' || phase === 'transitioning'}
           />
         ) : (
           <>
@@ -530,30 +521,20 @@ const SmartScoreQuiz = ({
                 const isCorrect = option === currentQuestion.answer;
                 const showCorrect = showFeedback && isCorrect;
                 const showIncorrect = showFeedback && isSelected && !isCorrect;
+                const canSelect = phase === 'selecting' || phase === 'selected';
 
                 return (
                   <button
                     key={`${currentIndex}-${idx}-${option}`}
                     type="button"
-                    onTouchEnd={(e) => {
-                      // Handle touch FIRST and prevent click from also firing
-                      e.preventDefault();
-                      e.stopPropagation();
-                      console.log('Touch end:', option, 'phase:', phase);
-                      if (phase === 'ready') {
-                        handleAnswer(option);
-                      }
-                    }}
                     onClick={(e) => {
-                      // Only fires on desktop (touchend preventDefault blocks this on mobile)
                       e.stopPropagation();
                       e.preventDefault();
-                      console.log('Click:', option, 'phase:', phase);
-                      if (phase === 'ready') {
-                        handleAnswer(option);
+                      if (canSelect) {
+                        handleSelectAnswer(option);
                       }
                     }}
-                    disabled={phase !== 'ready'}
+                    disabled={!canSelect}
                     style={{
                       padding: '1rem 1.25rem',
                       textAlign: 'left',
@@ -562,12 +543,12 @@ const SmartScoreQuiz = ({
                         showIncorrect ? '#f44336' :
                         isSelected ? 'var(--color-primary)' : 'var(--color-bg-card)',
                       color: (showCorrect || showIncorrect || isSelected) ? 'white' : 'var(--color-text)',
-                      border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : 'var(--color-text)'}`,
+                      border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : isSelected ? 'var(--color-primary)' : 'var(--color-text)'}`,
                       borderRadius: 'var(--radius-md)',
-                      cursor: phase !== 'ready' ? 'default' : 'pointer',
+                      cursor: canSelect ? 'pointer' : 'default',
                       transition: 'all 0.2s ease',
                       opacity: phase === 'transitioning' ? 0.5 : 1,
-                      pointerEvents: phase !== 'ready' ? 'none' : 'auto',
+                      pointerEvents: canSelect ? 'auto' : 'none',
                       userSelect: 'none',
                       WebkitTapHighlightColor: 'transparent',
                       touchAction: 'manipulation'
@@ -667,24 +648,34 @@ const SmartScoreQuiz = ({
       )}
 
       {/* Actions */}
-      <div style={{ display: 'flex', gap: '1rem' }}>
-        {phase === 'answered' && score < 100 && (
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        {/* Check Answer button - only shows when answer is selected but not yet checked */}
+        {phase === 'selected' && (
           <button
             type="button"
-            onTouchEnd={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              console.log('Next touched, phase:', phase);
-              if (phase === 'answered') handleNext();
-            }}
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              console.log('Next clicked, phase:', phase);
-              if (phase === 'answered') handleNext();
+              handleCheckAnswer();
             }}
             className="btn btn-primary"
-            style={{ flex: 1, touchAction: 'manipulation' }}
+            style={{ flex: 1, minWidth: '150px', touchAction: 'manipulation' }}
+          >
+            ✓ Check Answer
+          </button>
+        )}
+        
+        {/* Next Question button - only shows after answer is checked */}
+        {phase === 'checked' && score < 100 && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              handleNext();
+            }}
+            className="btn btn-primary"
+            style={{ flex: 1, minWidth: '150px', touchAction: 'manipulation' }}
           >
             Next Question →
           </button>
