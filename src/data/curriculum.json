@@ -101688,5 +101688,4570 @@
         "manim_file": "scene_grade7-prealgebra-medium_q5.py"
       }
     ]
+  },
+  {
+    "id": "2-addition-regrouping",
+    "title": "Add two 2-digit numbers with regrouping",
+    "grade_level": 2,
+    "topic": "Addition",
+    "skill_name": "Add two 2-digit numbers with regrouping",
+    "questions": [
+      {
+        "question": "What is 75 + 15?",
+        "options": [
+          "90",
+          "80",
+          "89",
+          "91"
+        ],
+        "answer": "90",
+        "explanation": "75 + 15 = 90. Add the ones first (5 + 5), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "5 + 5 = 10"
+        ]
+      },
+      {
+        "question": "What is 52 + 62?",
+        "options": [
+          "114",
+          "104",
+          "113",
+          "115"
+        ],
+        "answer": "114",
+        "explanation": "52 + 62 = 114. Add the ones first (2 + 2), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "2 + 2 = 4"
+        ]
+      },
+      {
+        "question": "What is 23 + 84?",
+        "options": [
+          "107",
+          "97",
+          "106",
+          "108"
+        ],
+        "answer": "107",
+        "explanation": "23 + 84 = 107. Add the ones first (3 + 4), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "3 + 4 = 7"
+        ]
+      },
+      {
+        "question": "What is 81 + 25?",
+        "options": [
+          "107",
+          "105",
+          "96",
+          "106"
+        ],
+        "answer": "106",
+        "explanation": "81 + 25 = 106. Add the ones first (1 + 5), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "1 + 5 = 6"
+        ]
+      },
+      {
+        "question": "What is 79 + 19?",
+        "options": [
+          "99",
+          "97",
+          "88",
+          "98"
+        ],
+        "answer": "98",
+        "explanation": "79 + 19 = 98. Add the ones first (9 + 9), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "9 + 9 = 18"
+        ]
+      },
+      {
+        "question": "What is 38 + 39?",
+        "options": [
+          "78",
+          "76",
+          "67",
+          "77"
+        ],
+        "answer": "77",
+        "explanation": "38 + 39 = 77. Add the ones first (8 + 9), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "8 + 9 = 17"
+        ]
+      },
+      {
+        "question": "What is 57 + 52?",
+        "options": [
+          "108",
+          "110",
+          "99",
+          "109"
+        ],
+        "answer": "109",
+        "explanation": "57 + 52 = 109. Add the ones first (7 + 2), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "7 + 2 = 9"
+        ]
+      },
+      {
+        "question": "What is 34 + 25?",
+        "options": [
+          "49",
+          "60",
+          "58",
+          "59"
+        ],
+        "answer": "59",
+        "explanation": "34 + 25 = 59. Add the ones first (4 + 5), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "4 + 5 = 9"
+        ]
+      },
+      {
+        "question": "What is 73 + 31?",
+        "options": [
+          "94",
+          "104",
+          "103",
+          "105"
+        ],
+        "answer": "104",
+        "explanation": "73 + 31 = 104. Add the ones first (3 + 1), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "3 + 1 = 4"
+        ]
+      },
+      {
+        "question": "What is 30 + 50?",
+        "options": [
+          "80",
+          "70",
+          "79",
+          "81"
+        ],
+        "answer": "80",
+        "explanation": "30 + 50 = 80. Add the ones first (0 + 0), then add the tens.",
+        "hints": [
+          "Add the ones column first",
+          "Remember to carry if needed",
+          "0 + 0 = 0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2-subtraction-regrouping",
+    "title": "Subtract 2-digit numbers with regrouping",
+    "grade_level": 2,
+    "topic": "Subtraction",
+    "skill_name": "Subtract 2-digit numbers with regrouping",
+    "questions": [
+      {
+        "question": "What is 84 - 45?",
+        "options": [
+          "39",
+          "29",
+          "38",
+          "40"
+        ],
+        "answer": "39",
+        "explanation": "84 - 45 = 39. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 64 - 35?",
+        "options": [
+          "29",
+          "19",
+          "30",
+          "28"
+        ],
+        "answer": "29",
+        "explanation": "64 - 35 = 29. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 50 - 45?",
+        "options": [
+          "15",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "explanation": "50 - 45 = 5. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 66 - 19?",
+        "options": [
+          "48",
+          "37",
+          "47",
+          "46"
+        ],
+        "answer": "47",
+        "explanation": "66 - 19 = 47. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 98 - 26?",
+        "options": [
+          "72",
+          "73",
+          "62",
+          "71"
+        ],
+        "answer": "72",
+        "explanation": "98 - 26 = 72. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 72 - 38?",
+        "options": [
+          "35",
+          "33",
+          "24",
+          "34"
+        ],
+        "answer": "34",
+        "explanation": "72 - 38 = 34. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 85 - 41?",
+        "options": [
+          "43",
+          "44",
+          "45",
+          "34"
+        ],
+        "answer": "44",
+        "explanation": "85 - 41 = 44. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 34 - 17?",
+        "options": [
+          "16",
+          "7",
+          "17",
+          "18"
+        ],
+        "answer": "17",
+        "explanation": "34 - 17 = 17. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 33 - 29?",
+        "options": [
+          "3",
+          "5",
+          "14",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "33 - 29 = 4. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      },
+      {
+        "question": "What is 93 - 57?",
+        "options": [
+          "36",
+          "37",
+          "26",
+          "35"
+        ],
+        "answer": "36",
+        "explanation": "93 - 57 = 36. Sometimes you need to borrow from the tens place.",
+        "hints": [
+          "Start with the ones column",
+          "You may need to borrow from the tens place"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2-place-value-hundreds-1",
+    "title": "Identify place value in 3-digit numbers",
+    "grade_level": 2,
+    "topic": "Place Value",
+    "skill_name": "Identify place value in 3-digit numbers",
+    "questions": [
+      {
+        "question": "In the number 635, what digit is in the ones place?",
+        "options": [
+          "6",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "In 635, the ones digit is 5.",
+        "hints": [
+          "The ones place is the rightmost digit"
+        ]
+      },
+      {
+        "question": "In the number 121, what digit is in the hundreds place?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "2"
+        ],
+        "answer": "1",
+        "explanation": "In 121, the hundreds digit is 1.",
+        "hints": [
+          "The hundreds place is the leftmost digit"
+        ]
+      },
+      {
+        "question": "In the number 606, what digit is in the hundreds place?",
+        "options": [
+          "7",
+          "0",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "In 606, the hundreds digit is 6.",
+        "hints": [
+          "The hundreds place is the leftmost digit"
+        ]
+      },
+      {
+        "question": "In the number 942, what digit is in the hundreds place?",
+        "options": [
+          "9",
+          "4",
+          "2",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "In 942, the hundreds digit is 9.",
+        "hints": [
+          "The hundreds place is the leftmost digit"
+        ]
+      },
+      {
+        "question": "In the number 116, what digit is in the ones place?",
+        "options": [
+          "7",
+          "6",
+          "1",
+          "1"
+        ],
+        "answer": "6",
+        "explanation": "In 116, the ones digit is 6.",
+        "hints": [
+          "The ones place is the rightmost digit"
+        ]
+      },
+      {
+        "question": "In the number 655, what digit is in the hundreds place?",
+        "options": [
+          "7",
+          "5",
+          "5",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "In 655, the hundreds digit is 6.",
+        "hints": [
+          "The hundreds place is the leftmost digit"
+        ]
+      },
+      {
+        "question": "In the number 551, what digit is in the ones place?",
+        "options": [
+          "5",
+          "5",
+          "1",
+          "2"
+        ],
+        "answer": "1",
+        "explanation": "In 551, the ones digit is 1.",
+        "hints": [
+          "The ones place is the rightmost digit"
+        ]
+      },
+      {
+        "question": "In the number 321, what digit is in the tens place?",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "3"
+        ],
+        "answer": "2",
+        "explanation": "In 321, the tens digit is 2.",
+        "hints": [
+          "The tens place is the middle digit"
+        ]
+      },
+      {
+        "question": "In the number 864, what digit is in the hundreds place?",
+        "options": [
+          "8",
+          "9",
+          "6",
+          "4"
+        ],
+        "answer": "8",
+        "explanation": "In 864, the hundreds digit is 8.",
+        "hints": [
+          "The hundreds place is the leftmost digit"
+        ]
+      },
+      {
+        "question": "In the number 297, what digit is in the ones place?",
+        "options": [
+          "7",
+          "2",
+          "9",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "In 297, the ones digit is 7.",
+        "hints": [
+          "The ones place is the rightmost digit"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-multiplication-6",
+    "title": "Multiply by 6: factors up to 10",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill_name": "Multiply by 6: factors up to 10",
+    "questions": [
+      {
+        "question": "What is 6 × 1?",
+        "options": [
+          "6",
+          "12",
+          "5",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "6 × 1 = 6. You can think of this as 1 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 2?",
+        "options": [
+          "18",
+          "11",
+          "6",
+          "12"
+        ],
+        "answer": "12",
+        "explanation": "6 × 2 = 12. You can think of this as 2 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 3?",
+        "options": [
+          "18",
+          "24",
+          "12",
+          "17"
+        ],
+        "answer": "18",
+        "explanation": "6 × 3 = 18. You can think of this as 3 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 4?",
+        "options": [
+          "30",
+          "23",
+          "18",
+          "24"
+        ],
+        "answer": "24",
+        "explanation": "6 × 4 = 24. You can think of this as 4 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 5?",
+        "options": [
+          "30",
+          "36",
+          "29",
+          "24"
+        ],
+        "answer": "30",
+        "explanation": "6 × 5 = 30. You can think of this as 5 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 6?",
+        "options": [
+          "36",
+          "35",
+          "30",
+          "42"
+        ],
+        "answer": "36",
+        "explanation": "6 × 6 = 36. You can think of this as 6 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 7?",
+        "options": [
+          "41",
+          "42",
+          "36",
+          "48"
+        ],
+        "answer": "42",
+        "explanation": "6 × 7 = 42. You can think of this as 7 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 8?",
+        "options": [
+          "42",
+          "54",
+          "47",
+          "48"
+        ],
+        "answer": "48",
+        "explanation": "6 × 8 = 48. You can think of this as 8 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 9?",
+        "options": [
+          "54",
+          "48",
+          "53",
+          "60"
+        ],
+        "answer": "54",
+        "explanation": "6 × 9 = 54. You can think of this as 9 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      },
+      {
+        "question": "What is 6 × 10?",
+        "options": [
+          "60",
+          "54",
+          "66",
+          "59"
+        ],
+        "answer": "60",
+        "explanation": "6 × 10 = 60. You can think of this as 10 groups of 6.",
+        "hints": [
+          "Think of 6 groups",
+          "Count by 6s",
+          "6 + 6 = 12, so 6 × 2 = 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-multiplication-7",
+    "title": "Multiply by 7: factors up to 10",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill_name": "Multiply by 7: factors up to 10",
+    "questions": [
+      {
+        "question": "What is 7 × 1?",
+        "options": [
+          "14",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": "7",
+        "explanation": "7 × 1 = 7. Think of 1 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 2?",
+        "options": [
+          "7",
+          "13",
+          "14",
+          "21"
+        ],
+        "answer": "14",
+        "explanation": "7 × 2 = 14. Think of 2 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 3?",
+        "options": [
+          "21",
+          "20",
+          "14",
+          "28"
+        ],
+        "answer": "21",
+        "explanation": "7 × 3 = 21. Think of 3 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 4?",
+        "options": [
+          "21",
+          "35",
+          "28",
+          "27"
+        ],
+        "answer": "28",
+        "explanation": "7 × 4 = 28. Think of 4 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 5?",
+        "options": [
+          "42",
+          "28",
+          "35",
+          "34"
+        ],
+        "answer": "35",
+        "explanation": "7 × 5 = 35. Think of 5 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 6?",
+        "options": [
+          "42",
+          "35",
+          "49",
+          "41"
+        ],
+        "answer": "42",
+        "explanation": "7 × 6 = 42. Think of 6 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 7?",
+        "options": [
+          "48",
+          "56",
+          "42",
+          "49"
+        ],
+        "answer": "49",
+        "explanation": "7 × 7 = 49. Think of 7 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 8?",
+        "options": [
+          "56",
+          "49",
+          "63",
+          "55"
+        ],
+        "answer": "56",
+        "explanation": "7 × 8 = 56. Think of 8 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 9?",
+        "options": [
+          "62",
+          "70",
+          "56",
+          "63"
+        ],
+        "answer": "63",
+        "explanation": "7 × 9 = 63. Think of 9 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      },
+      {
+        "question": "What is 7 × 10?",
+        "options": [
+          "69",
+          "77",
+          "63",
+          "70"
+        ],
+        "answer": "70",
+        "explanation": "7 × 10 = 70. Think of 10 weeks (7 days each).",
+        "hints": [
+          "There are 7 days in a week",
+          "Count by 7s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-multiplication-8",
+    "title": "Multiply by 8: factors up to 10",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill_name": "Multiply by 8: factors up to 10",
+    "questions": [
+      {
+        "question": "What is 8 × 1?",
+        "options": [
+          "9",
+          "16",
+          "8",
+          "7"
+        ],
+        "answer": "8",
+        "explanation": "8 × 1 = 8. Double the answer for 4 × 1 to get 8 × 1.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 2?",
+        "options": [
+          "24",
+          "16",
+          "15",
+          "8"
+        ],
+        "answer": "16",
+        "explanation": "8 × 2 = 16. Double the answer for 4 × 2 to get 8 × 2.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 3?",
+        "options": [
+          "24",
+          "32",
+          "16",
+          "23"
+        ],
+        "answer": "24",
+        "explanation": "8 × 3 = 24. Double the answer for 4 × 3 to get 8 × 3.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 4?",
+        "options": [
+          "40",
+          "32",
+          "24",
+          "31"
+        ],
+        "answer": "32",
+        "explanation": "8 × 4 = 32. Double the answer for 4 × 4 to get 8 × 4.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 5?",
+        "options": [
+          "39",
+          "48",
+          "32",
+          "40"
+        ],
+        "answer": "40",
+        "explanation": "8 × 5 = 40. Double the answer for 4 × 5 to get 8 × 5.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 6?",
+        "options": [
+          "40",
+          "48",
+          "56",
+          "47"
+        ],
+        "answer": "48",
+        "explanation": "8 × 6 = 48. Double the answer for 4 × 6 to get 8 × 6.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 7?",
+        "options": [
+          "64",
+          "55",
+          "48",
+          "56"
+        ],
+        "answer": "56",
+        "explanation": "8 × 7 = 56. Double the answer for 4 × 7 to get 8 × 7.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 8?",
+        "options": [
+          "63",
+          "56",
+          "64",
+          "72"
+        ],
+        "answer": "64",
+        "explanation": "8 × 8 = 64. Double the answer for 4 × 8 to get 8 × 8.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 9?",
+        "options": [
+          "80",
+          "64",
+          "72",
+          "71"
+        ],
+        "answer": "72",
+        "explanation": "8 × 9 = 72. Double the answer for 4 × 9 to get 8 × 9.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      },
+      {
+        "question": "What is 8 × 10?",
+        "options": [
+          "80",
+          "88",
+          "79",
+          "72"
+        ],
+        "answer": "80",
+        "explanation": "8 × 10 = 80. Double the answer for 4 × 10 to get 8 × 10.",
+        "hints": [
+          "8 is double 4",
+          "Count by 8s"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-multiplication-9",
+    "title": "Multiply by 9: factors up to 10",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill_name": "Multiply by 9: factors up to 10",
+    "questions": [
+      {
+        "question": "What is 9 × 1?",
+        "options": [
+          "10",
+          "9",
+          "18",
+          "8"
+        ],
+        "answer": "9",
+        "explanation": "9 × 1 = 9. Trick: 10 × 1 - 1 = 9.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 2?",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "17"
+        ],
+        "answer": "18",
+        "explanation": "9 × 2 = 18. Trick: 10 × 2 - 2 = 18.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 3?",
+        "options": [
+          "27",
+          "36",
+          "18",
+          "26"
+        ],
+        "answer": "27",
+        "explanation": "9 × 3 = 27. Trick: 10 × 3 - 3 = 27.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 4?",
+        "options": [
+          "35",
+          "45",
+          "27",
+          "36"
+        ],
+        "answer": "36",
+        "explanation": "9 × 4 = 36. Trick: 10 × 4 - 4 = 36.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 5?",
+        "options": [
+          "44",
+          "54",
+          "36",
+          "45"
+        ],
+        "answer": "45",
+        "explanation": "9 × 5 = 45. Trick: 10 × 5 - 5 = 45.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 6?",
+        "options": [
+          "63",
+          "45",
+          "53",
+          "54"
+        ],
+        "answer": "54",
+        "explanation": "9 × 6 = 54. Trick: 10 × 6 - 6 = 54.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 7?",
+        "options": [
+          "63",
+          "62",
+          "54",
+          "72"
+        ],
+        "answer": "63",
+        "explanation": "9 × 7 = 63. Trick: 10 × 7 - 7 = 63.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 8?",
+        "options": [
+          "81",
+          "63",
+          "71",
+          "72"
+        ],
+        "answer": "72",
+        "explanation": "9 × 8 = 72. Trick: 10 × 8 - 8 = 72.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 9?",
+        "options": [
+          "80",
+          "90",
+          "81",
+          "72"
+        ],
+        "answer": "81",
+        "explanation": "9 × 9 = 81. Trick: 10 × 9 - 9 = 81.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      },
+      {
+        "question": "What is 9 × 10?",
+        "options": [
+          "89",
+          "99",
+          "81",
+          "90"
+        ],
+        "answer": "90",
+        "explanation": "9 × 10 = 90. Trick: 10 × 10 - 10 = 90.",
+        "hints": [
+          "9 is one less than 10",
+          "The digits of 9 times a number always add up to 9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-division-2",
+    "title": "Divide by 2: quotients up to 10",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill_name": "Divide by 2: quotients up to 10",
+    "questions": [
+      {
+        "question": "What is 2 ÷ 2?",
+        "options": [
+          "3",
+          "2",
+          "1"
+        ],
+        "answer": "1",
+        "explanation": "2 ÷ 2 = 1. Division is the opposite of multiplication: 2 × 1 = 2.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 2?"
+        ]
+      },
+      {
+        "question": "What is 4 ÷ 2?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "4 ÷ 2 = 2. Division is the opposite of multiplication: 2 × 2 = 4.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 4?"
+        ]
+      },
+      {
+        "question": "What is 6 ÷ 2?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "6 ÷ 2 = 3. Division is the opposite of multiplication: 2 × 3 = 6.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 6?"
+        ]
+      },
+      {
+        "question": "What is 8 ÷ 2?",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "8 ÷ 2 = 4. Division is the opposite of multiplication: 2 × 4 = 8.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 8?"
+        ]
+      },
+      {
+        "question": "What is 10 ÷ 2?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "10 ÷ 2 = 5. Division is the opposite of multiplication: 2 × 5 = 10.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 10?"
+        ]
+      },
+      {
+        "question": "What is 12 ÷ 2?",
+        "options": [
+          "6",
+          "5",
+          "8",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "12 ÷ 2 = 6. Division is the opposite of multiplication: 2 × 6 = 12.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 12?"
+        ]
+      },
+      {
+        "question": "What is 14 ÷ 2?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "14 ÷ 2 = 7. Division is the opposite of multiplication: 2 × 7 = 14.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 14?"
+        ]
+      },
+      {
+        "question": "What is 16 ÷ 2?",
+        "options": [
+          "7",
+          "10",
+          "9",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "16 ÷ 2 = 8. Division is the opposite of multiplication: 2 × 8 = 16.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 16?"
+        ]
+      },
+      {
+        "question": "What is 18 ÷ 2?",
+        "options": [
+          "8",
+          "9",
+          "11",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "18 ÷ 2 = 9. Division is the opposite of multiplication: 2 × 9 = 18.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 18?"
+        ]
+      },
+      {
+        "question": "What is 20 ÷ 2?",
+        "options": [
+          "9",
+          "11",
+          "12",
+          "10"
+        ],
+        "answer": "10",
+        "explanation": "20 ÷ 2 = 10. Division is the opposite of multiplication: 2 × 10 = 20.",
+        "hints": [
+          "Division is splitting into equal groups",
+          "Think: 2 times what equals 20?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-division-3",
+    "title": "Divide by 3: quotients up to 10",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill_name": "Divide by 3: quotients up to 10",
+    "questions": [
+      {
+        "question": "What is 3 ÷ 3?",
+        "options": [
+          "3",
+          "2",
+          "1"
+        ],
+        "answer": "1",
+        "explanation": "3 ÷ 3 = 1. Think: 3 times what equals 3?",
+        "hints": [
+          "How many groups of 3 fit into 3?"
+        ]
+      },
+      {
+        "question": "What is 6 ÷ 3?",
+        "options": [
+          "1",
+          "4",
+          "3",
+          "2"
+        ],
+        "answer": "2",
+        "explanation": "6 ÷ 3 = 2. Think: 3 times what equals 6?",
+        "hints": [
+          "How many groups of 3 fit into 6?"
+        ]
+      },
+      {
+        "question": "What is 9 ÷ 3?",
+        "options": [
+          "5",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": "3",
+        "explanation": "9 ÷ 3 = 3. Think: 3 times what equals 9?",
+        "hints": [
+          "How many groups of 3 fit into 9?"
+        ]
+      },
+      {
+        "question": "What is 12 ÷ 3?",
+        "options": [
+          "3",
+          "6",
+          "5",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "12 ÷ 3 = 4. Think: 3 times what equals 12?",
+        "hints": [
+          "How many groups of 3 fit into 12?"
+        ]
+      },
+      {
+        "question": "What is 15 ÷ 3?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "15 ÷ 3 = 5. Think: 3 times what equals 15?",
+        "hints": [
+          "How many groups of 3 fit into 15?"
+        ]
+      },
+      {
+        "question": "What is 18 ÷ 3?",
+        "options": [
+          "8",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "18 ÷ 3 = 6. Think: 3 times what equals 18?",
+        "hints": [
+          "How many groups of 3 fit into 18?"
+        ]
+      },
+      {
+        "question": "What is 21 ÷ 3?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "21 ÷ 3 = 7. Think: 3 times what equals 21?",
+        "hints": [
+          "How many groups of 3 fit into 21?"
+        ]
+      },
+      {
+        "question": "What is 24 ÷ 3?",
+        "options": [
+          "10",
+          "8",
+          "7",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "24 ÷ 3 = 8. Think: 3 times what equals 24?",
+        "hints": [
+          "How many groups of 3 fit into 24?"
+        ]
+      },
+      {
+        "question": "What is 27 ÷ 3?",
+        "options": [
+          "10",
+          "8",
+          "9",
+          "11"
+        ],
+        "answer": "9",
+        "explanation": "27 ÷ 3 = 9. Think: 3 times what equals 27?",
+        "hints": [
+          "How many groups of 3 fit into 27?"
+        ]
+      },
+      {
+        "question": "What is 30 ÷ 3?",
+        "options": [
+          "12",
+          "11",
+          "9",
+          "10"
+        ],
+        "answer": "10",
+        "explanation": "30 ÷ 3 = 10. Think: 3 times what equals 30?",
+        "hints": [
+          "How many groups of 3 fit into 30?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-division-4",
+    "title": "Divide by 4: quotients up to 10",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill_name": "Divide by 4: quotients up to 10",
+    "questions": [
+      {
+        "question": "What is 4 ÷ 4?",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "explanation": "4 ÷ 4 = 1. Think: 4 times what equals 4?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 8 ÷ 4?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "8 ÷ 4 = 2. Think: 4 times what equals 8?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 12 ÷ 4?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "12 ÷ 4 = 3. Think: 4 times what equals 12?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 16 ÷ 4?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "16 ÷ 4 = 4. Think: 4 times what equals 16?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 20 ÷ 4?",
+        "options": [
+          "7",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "explanation": "20 ÷ 4 = 5. Think: 4 times what equals 20?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 24 ÷ 4?",
+        "options": [
+          "6",
+          "8",
+          "5",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "24 ÷ 4 = 6. Think: 4 times what equals 24?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 28 ÷ 4?",
+        "options": [
+          "9",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": "7",
+        "explanation": "28 ÷ 4 = 7. Think: 4 times what equals 28?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 32 ÷ 4?",
+        "options": [
+          "10",
+          "9",
+          "7",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "32 ÷ 4 = 8. Think: 4 times what equals 32?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 36 ÷ 4?",
+        "options": [
+          "9",
+          "8",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "explanation": "36 ÷ 4 = 9. Think: 4 times what equals 36?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      },
+      {
+        "question": "What is 40 ÷ 4?",
+        "options": [
+          "12",
+          "11",
+          "9",
+          "10"
+        ],
+        "answer": "10",
+        "explanation": "40 ÷ 4 = 10. Think: 4 times what equals 40?",
+        "hints": [
+          "4 quarters make a dollar",
+          "How many groups of 4?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-division-5",
+    "title": "Divide by 5: quotients up to 10",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill_name": "Divide by 5: quotients up to 10",
+    "questions": [
+      {
+        "question": "What is 5 ÷ 5?",
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "explanation": "5 ÷ 5 = 1. Count by 5s to find how many 5s are in 5.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 5?"
+        ]
+      },
+      {
+        "question": "What is 10 ÷ 5?",
+        "options": [
+          "4",
+          "1",
+          "3",
+          "2"
+        ],
+        "answer": "2",
+        "explanation": "10 ÷ 5 = 2. Count by 5s to find how many 5s are in 10.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 10?"
+        ]
+      },
+      {
+        "question": "What is 15 ÷ 5?",
+        "options": [
+          "4",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "15 ÷ 5 = 3. Count by 5s to find how many 5s are in 15.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 15?"
+        ]
+      },
+      {
+        "question": "What is 20 ÷ 5?",
+        "options": [
+          "6",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "20 ÷ 5 = 4. Count by 5s to find how many 5s are in 20.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 20?"
+        ]
+      },
+      {
+        "question": "What is 25 ÷ 5?",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "25 ÷ 5 = 5. Count by 5s to find how many 5s are in 25.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 25?"
+        ]
+      },
+      {
+        "question": "What is 30 ÷ 5?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "30 ÷ 5 = 6. Count by 5s to find how many 5s are in 30.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 30?"
+        ]
+      },
+      {
+        "question": "What is 35 ÷ 5?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "35 ÷ 5 = 7. Count by 5s to find how many 5s are in 35.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 35?"
+        ]
+      },
+      {
+        "question": "What is 40 ÷ 5?",
+        "options": [
+          "10",
+          "7",
+          "9",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "40 ÷ 5 = 8. Count by 5s to find how many 5s are in 40.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 40?"
+        ]
+      },
+      {
+        "question": "What is 45 ÷ 5?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "45 ÷ 5 = 9. Count by 5s to find how many 5s are in 45.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 45?"
+        ]
+      },
+      {
+        "question": "What is 50 ÷ 5?",
+        "options": [
+          "10",
+          "12",
+          "9",
+          "11"
+        ],
+        "answer": "10",
+        "explanation": "50 ÷ 5 = 10. Count by 5s to find how many 5s are in 50.",
+        "hints": [
+          "Count by 5s: 5, 10, 15, 20...",
+          "Think: 5 times what equals 50?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-fractions-fractions",
+    "title": "Identify fractions from models",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill_name": "Identify fractions from models",
+    "questions": [
+      {
+        "question": "A shape is divided into 2 equal parts. 1 parts are shaded. What fraction is shaded?",
+        "options": [
+          "1/3",
+          "2/2",
+          "1/2",
+          "2/1"
+        ],
+        "answer": "1/2",
+        "explanation": "When 1 out of 2 parts are shaded, the fraction is 1/2.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 3 equal parts. 1 parts are shaded. What fraction is shaded?",
+        "options": [
+          "1/3",
+          "2/3",
+          "3/1",
+          "1/4"
+        ],
+        "answer": "1/3",
+        "explanation": "When 1 out of 3 parts are shaded, the fraction is 1/3.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 3 equal parts. 2 parts are shaded. What fraction is shaded?",
+        "options": [
+          "2/3",
+          "3/3",
+          "2/4",
+          "3/2"
+        ],
+        "answer": "2/3",
+        "explanation": "When 2 out of 3 parts are shaded, the fraction is 2/3.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 4 equal parts. 1 parts are shaded. What fraction is shaded?",
+        "options": [
+          "1/5",
+          "2/4",
+          "1/4",
+          "4/1"
+        ],
+        "answer": "1/4",
+        "explanation": "When 1 out of 4 parts are shaded, the fraction is 1/4.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 4 equal parts. 2 parts are shaded. What fraction is shaded?",
+        "options": [
+          "2/4",
+          "3/4",
+          "2/5",
+          "4/2"
+        ],
+        "answer": "2/4",
+        "explanation": "When 2 out of 4 parts are shaded, the fraction is 2/4.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 4 equal parts. 3 parts are shaded. What fraction is shaded?",
+        "options": [
+          "4/3",
+          "3/5",
+          "4/4",
+          "3/4"
+        ],
+        "answer": "3/4",
+        "explanation": "When 3 out of 4 parts are shaded, the fraction is 3/4.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 5 equal parts. 1 parts are shaded. What fraction is shaded?",
+        "options": [
+          "5/1",
+          "1/5",
+          "1/6",
+          "2/5"
+        ],
+        "answer": "1/5",
+        "explanation": "When 1 out of 5 parts are shaded, the fraction is 1/5.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 5 equal parts. 2 parts are shaded. What fraction is shaded?",
+        "options": [
+          "2/5",
+          "3/5",
+          "5/2",
+          "2/6"
+        ],
+        "answer": "2/5",
+        "explanation": "When 2 out of 5 parts are shaded, the fraction is 2/5.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 5 equal parts. 3 parts are shaded. What fraction is shaded?",
+        "options": [
+          "3/5",
+          "4/5",
+          "3/6",
+          "5/3"
+        ],
+        "answer": "3/5",
+        "explanation": "When 3 out of 5 parts are shaded, the fraction is 3/5.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      },
+      {
+        "question": "A shape is divided into 5 equal parts. 4 parts are shaded. What fraction is shaded?",
+        "options": [
+          "4/5",
+          "5/5",
+          "4/6",
+          "5/4"
+        ],
+        "answer": "4/5",
+        "explanation": "When 4 out of 5 parts are shaded, the fraction is 4/5.",
+        "hints": [
+          "The top number (numerator) is how many parts are shaded",
+          "The bottom number (denominator) is the total parts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3-fractions-denom",
+    "title": "Compare fractions with same denominators",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill_name": "Compare fractions with same denominators",
+    "questions": [
+      {
+        "question": "Compare: 7/8 __ 1/8. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "7/8 > 1/8. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 3/4 __ 2/4. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "3/4 > 2/4. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 4/8 __ 2/8. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "4/8 > 2/8. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 4/8 __ 1/8. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "4/8 > 1/8. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 4/5 __ 2/5. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "4/5 > 2/5. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 3/6 __ 1/6. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "3/6 > 1/6. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 2/5 __ 1/5. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "2/5 > 1/5. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 2/6 __ 4/6. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "2/6 < 4/6. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 1/3 __ 2/3. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "1/3 < 2/3. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      },
+      {
+        "question": "Compare: 4/6 __ 5/6. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "4/6 < 5/6. When denominators are the same, compare the numerators.",
+        "hints": [
+          "Same denominator = same size pieces",
+          "Which has more pieces?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-multiplication-1digit",
+    "title": "Multiply 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Multiplication",
+    "skill_name": "Multiply 2-digit by 1-digit numbers",
+    "questions": [
+      {
+        "question": "What is 68 × 2?",
+        "options": [
+          "136",
+          "126",
+          "134",
+          "138"
+        ],
+        "answer": "136",
+        "explanation": "68 × 2 = 136. Multiply 2 by each digit of 68 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "2 × 8 = 16"
+        ]
+      },
+      {
+        "question": "What is 38 × 8?",
+        "options": [
+          "294",
+          "312",
+          "296",
+          "304"
+        ],
+        "answer": "304",
+        "explanation": "38 × 8 = 304. Multiply 8 by each digit of 38 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "8 × 8 = 64"
+        ]
+      },
+      {
+        "question": "What is 81 × 6?",
+        "options": [
+          "476",
+          "492",
+          "480",
+          "486"
+        ],
+        "answer": "486",
+        "explanation": "81 × 6 = 486. Multiply 6 by each digit of 81 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "6 × 1 = 6"
+        ]
+      },
+      {
+        "question": "What is 59 × 2?",
+        "options": [
+          "116",
+          "108",
+          "120",
+          "118"
+        ],
+        "answer": "118",
+        "explanation": "59 × 2 = 118. Multiply 2 by each digit of 59 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "2 × 9 = 18"
+        ]
+      },
+      {
+        "question": "What is 24 × 7?",
+        "options": [
+          "168",
+          "161",
+          "158",
+          "175"
+        ],
+        "answer": "168",
+        "explanation": "24 × 7 = 168. Multiply 7 by each digit of 24 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "7 × 4 = 28"
+        ]
+      },
+      {
+        "question": "What is 29 × 9?",
+        "options": [
+          "261",
+          "252",
+          "270",
+          "251"
+        ],
+        "answer": "261",
+        "explanation": "29 × 9 = 261. Multiply 9 by each digit of 29 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "9 × 9 = 81"
+        ]
+      },
+      {
+        "question": "What is 76 × 9?",
+        "options": [
+          "693",
+          "675",
+          "674",
+          "684"
+        ],
+        "answer": "684",
+        "explanation": "76 × 9 = 684. Multiply 9 by each digit of 76 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "9 × 6 = 54"
+        ]
+      },
+      {
+        "question": "What is 77 × 9?",
+        "options": [
+          "693",
+          "683",
+          "684",
+          "702"
+        ],
+        "answer": "693",
+        "explanation": "77 × 9 = 693. Multiply 9 by each digit of 77 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "9 × 7 = 63"
+        ]
+      },
+      {
+        "question": "What is 47 × 4?",
+        "options": [
+          "188",
+          "184",
+          "178",
+          "192"
+        ],
+        "answer": "188",
+        "explanation": "47 × 4 = 188. Multiply 4 by each digit of 47 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "4 × 7 = 28"
+        ]
+      },
+      {
+        "question": "What is 13 × 7?",
+        "options": [
+          "84",
+          "91",
+          "98",
+          "81"
+        ],
+        "answer": "91",
+        "explanation": "13 × 7 = 91. Multiply 7 by each digit of 13 and add.",
+        "hints": [
+          "Break it into parts: multiply ones, then tens",
+          "7 × 3 = 21"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-multiplication-2digit",
+    "title": "Multiply 2-digit by 2-digit numbers",
+    "grade_level": 4,
+    "topic": "Multiplication",
+    "skill_name": "Multiply 2-digit by 2-digit numbers",
+    "questions": [
+      {
+        "question": "What is 21 × 12?",
+        "options": [
+          "352",
+          "152",
+          "252",
+          "202"
+        ],
+        "answer": "252",
+        "explanation": "21 × 12 = 252. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 39 × 38?",
+        "options": [
+          "1582",
+          "1482",
+          "1382",
+          "1432"
+        ],
+        "answer": "1482",
+        "explanation": "39 × 38 = 1482. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 24 × 34?",
+        "options": [
+          "766",
+          "816",
+          "916",
+          "716"
+        ],
+        "answer": "816",
+        "explanation": "24 × 34 = 816. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 11 × 17?",
+        "options": [
+          "287",
+          "137",
+          "87",
+          "187"
+        ],
+        "answer": "187",
+        "explanation": "11 × 17 = 187. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 25 × 11?",
+        "options": [
+          "225",
+          "375",
+          "175",
+          "275"
+        ],
+        "answer": "275",
+        "explanation": "25 × 11 = 275. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 26 × 17?",
+        "options": [
+          "392",
+          "542",
+          "342",
+          "442"
+        ],
+        "answer": "442",
+        "explanation": "26 × 17 = 442. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 30 × 38?",
+        "options": [
+          "1140",
+          "1040",
+          "1240",
+          "1090"
+        ],
+        "answer": "1140",
+        "explanation": "30 × 38 = 1140. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 28 × 29?",
+        "options": [
+          "912",
+          "762",
+          "712",
+          "812"
+        ],
+        "answer": "812",
+        "explanation": "28 × 29 = 812. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 38 × 36?",
+        "options": [
+          "1318",
+          "1468",
+          "1268",
+          "1368"
+        ],
+        "answer": "1368",
+        "explanation": "38 × 36 = 1368. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      },
+      {
+        "question": "What is 15 × 40?",
+        "options": [
+          "500",
+          "600",
+          "550",
+          "700"
+        ],
+        "answer": "600",
+        "explanation": "15 × 40 = 600. Use the standard algorithm or area model.",
+        "hints": [
+          "Break into parts: (tens × tens) + (tens × ones) + (ones × tens) + (ones × ones)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-division-1digit",
+    "title": "Divide 2-digit by 1-digit numbers",
+    "grade_level": 4,
+    "topic": "Division",
+    "skill_name": "Divide 2-digit by 1-digit numbers",
+    "questions": [
+      {
+        "question": "What is 70 ÷ 5?",
+        "options": [
+          "14",
+          "13",
+          "15",
+          "16"
+        ],
+        "answer": "14",
+        "explanation": "70 ÷ 5 = 14. Check: 5 × 14 = 70.",
+        "hints": [
+          "Think: how many groups of 5 fit in 70?"
+        ]
+      },
+      {
+        "question": "What is 18 ÷ 6?",
+        "options": [
+          "3",
+          "2",
+          "5",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "18 ÷ 6 = 3. Check: 6 × 3 = 18.",
+        "hints": [
+          "Think: how many groups of 6 fit in 18?"
+        ]
+      },
+      {
+        "question": "What is 14 ÷ 2?",
+        "options": [
+          "7",
+          "9",
+          "6",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "14 ÷ 2 = 7. Check: 2 × 7 = 14.",
+        "hints": [
+          "Think: how many groups of 2 fit in 14?"
+        ]
+      },
+      {
+        "question": "What is 50 ÷ 5?",
+        "options": [
+          "11",
+          "10",
+          "9",
+          "12"
+        ],
+        "answer": "10",
+        "explanation": "50 ÷ 5 = 10. Check: 5 × 10 = 50.",
+        "hints": [
+          "Think: how many groups of 5 fit in 50?"
+        ]
+      },
+      {
+        "question": "What is 128 ÷ 8?",
+        "options": [
+          "18",
+          "17",
+          "15",
+          "16"
+        ],
+        "answer": "16",
+        "explanation": "128 ÷ 8 = 16. Check: 8 × 16 = 128.",
+        "hints": [
+          "Think: how many groups of 8 fit in 128?"
+        ]
+      },
+      {
+        "question": "What is 99 ÷ 9?",
+        "options": [
+          "11",
+          "10",
+          "12",
+          "13"
+        ],
+        "answer": "11",
+        "explanation": "99 ÷ 9 = 11. Check: 9 × 11 = 99.",
+        "hints": [
+          "Think: how many groups of 9 fit in 99?"
+        ]
+      },
+      {
+        "question": "What is 32 ÷ 4?",
+        "options": [
+          "8",
+          "7",
+          "10",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "32 ÷ 4 = 8. Check: 4 × 8 = 32.",
+        "hints": [
+          "Think: how many groups of 4 fit in 32?"
+        ]
+      },
+      {
+        "question": "What is 77 ÷ 7?",
+        "options": [
+          "10",
+          "11",
+          "13",
+          "12"
+        ],
+        "answer": "11",
+        "explanation": "77 ÷ 7 = 11. Check: 7 × 11 = 77.",
+        "hints": [
+          "Think: how many groups of 7 fit in 77?"
+        ]
+      },
+      {
+        "question": "What is 36 ÷ 9?",
+        "options": [
+          "3",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "36 ÷ 9 = 4. Check: 9 × 4 = 36.",
+        "hints": [
+          "Think: how many groups of 9 fit in 36?"
+        ]
+      },
+      {
+        "question": "What is 135 ÷ 9?",
+        "options": [
+          "15",
+          "14",
+          "16",
+          "17"
+        ],
+        "answer": "15",
+        "explanation": "135 ÷ 9 = 15. Check: 9 × 15 = 135.",
+        "hints": [
+          "Think: how many groups of 9 fit in 135?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-denom",
+    "title": "Add fractions with same denominators",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "skill_name": "Add fractions with same denominators",
+    "questions": [
+      {
+        "question": "What is 3/5 + 2/5?",
+        "options": [
+          "3/10",
+          "5/6",
+          "5/5",
+          "6/5"
+        ],
+        "answer": "5/5",
+        "explanation": "3/5 + 2/5 = 5/5. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "3 + 2 = 5"
+        ]
+      },
+      {
+        "question": "What is 1/6 + 4/6?",
+        "options": [
+          "6/6",
+          "1/12",
+          "5/7",
+          "5/6"
+        ],
+        "answer": "5/6",
+        "explanation": "1/6 + 4/6 = 5/6. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "1 + 4 = 5"
+        ]
+      },
+      {
+        "question": "What is 2/8 + 6/8?",
+        "options": [
+          "9/8",
+          "8/9",
+          "2/16",
+          "8/8"
+        ],
+        "answer": "8/8",
+        "explanation": "2/8 + 6/8 = 8/8. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "2 + 6 = 8"
+        ]
+      },
+      {
+        "question": "What is 6/10 + 3/10?",
+        "options": [
+          "6/20",
+          "9/11",
+          "10/10",
+          "9/10"
+        ],
+        "answer": "9/10",
+        "explanation": "6/10 + 3/10 = 9/10. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "6 + 3 = 9"
+        ]
+      },
+      {
+        "question": "What is 3/6 + 2/6?",
+        "options": [
+          "3/12",
+          "5/7",
+          "6/6",
+          "5/6"
+        ],
+        "answer": "5/6",
+        "explanation": "3/6 + 2/6 = 5/6. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "3 + 2 = 5"
+        ]
+      },
+      {
+        "question": "What is 2/5 + 3/5?",
+        "options": [
+          "6/5",
+          "2/10",
+          "5/6",
+          "5/5"
+        ],
+        "answer": "5/5",
+        "explanation": "2/5 + 3/5 = 5/5. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "2 + 3 = 5"
+        ]
+      },
+      {
+        "question": "What is 4/6 + 2/6?",
+        "options": [
+          "4/12",
+          "6/6",
+          "7/6",
+          "6/7"
+        ],
+        "answer": "6/6",
+        "explanation": "4/6 + 2/6 = 6/6. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "4 + 2 = 6"
+        ]
+      },
+      {
+        "question": "What is 4/10 + 5/10?",
+        "options": [
+          "4/20",
+          "10/10",
+          "9/11",
+          "9/10"
+        ],
+        "answer": "9/10",
+        "explanation": "4/10 + 5/10 = 9/10. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "4 + 5 = 9"
+        ]
+      },
+      {
+        "question": "What is 2/4 + 2/4?",
+        "options": [
+          "4/5",
+          "5/4",
+          "2/8",
+          "4/4"
+        ],
+        "answer": "4/4",
+        "explanation": "2/4 + 2/4 = 4/4. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "2 + 2 = 4"
+        ]
+      },
+      {
+        "question": "What is 1/4 + 2/4?",
+        "options": [
+          "4/4",
+          "3/5",
+          "3/4",
+          "1/8"
+        ],
+        "answer": "3/4",
+        "explanation": "1/4 + 2/4 = 3/4. Add the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just add the numerators",
+          "1 + 2 = 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-fractions-denom-1",
+    "title": "Subtract fractions with same denominators",
+    "grade_level": 4,
+    "topic": "Fractions",
+    "skill_name": "Subtract fractions with same denominators",
+    "questions": [
+      {
+        "question": "What is 3/5 - 2/5?",
+        "options": [
+          "2/5",
+          "2/5",
+          "1/5",
+          "3/5"
+        ],
+        "answer": "1/5",
+        "explanation": "3/5 - 2/5 = 1/5. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "3 - 2 = 1"
+        ]
+      },
+      {
+        "question": "What is 3/8 - 2/8?",
+        "options": [
+          "2/8",
+          "1/8",
+          "2/8",
+          "3/8"
+        ],
+        "answer": "1/8",
+        "explanation": "3/8 - 2/8 = 1/8. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "3 - 2 = 1"
+        ]
+      },
+      {
+        "question": "What is 4/5 - 1/5?",
+        "options": [
+          "1/5",
+          "4/5",
+          "4/5",
+          "3/5"
+        ],
+        "answer": "3/5",
+        "explanation": "4/5 - 1/5 = 3/5. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "4 - 1 = 3"
+        ]
+      },
+      {
+        "question": "What is 4/10 - 1/10?",
+        "options": [
+          "4/10",
+          "4/10",
+          "1/10",
+          "3/10"
+        ],
+        "answer": "3/10",
+        "explanation": "4/10 - 1/10 = 3/10. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "4 - 1 = 3"
+        ]
+      },
+      {
+        "question": "What is 4/6 - 3/6?",
+        "options": [
+          "3/6",
+          "4/6",
+          "2/6",
+          "1/6"
+        ],
+        "answer": "1/6",
+        "explanation": "4/6 - 3/6 = 1/6. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "4 - 3 = 1"
+        ]
+      },
+      {
+        "question": "What is 3/4 - 2/4?",
+        "options": [
+          "3/4",
+          "2/4",
+          "2/4",
+          "1/4"
+        ],
+        "answer": "1/4",
+        "explanation": "3/4 - 2/4 = 1/4. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "3 - 2 = 1"
+        ]
+      },
+      {
+        "question": "What is 2/4 - 1/4?",
+        "options": [
+          "1/4",
+          "2/4",
+          "2/4",
+          "1/4"
+        ],
+        "answer": "1/4",
+        "explanation": "2/4 - 1/4 = 1/4. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "2 - 1 = 1"
+        ]
+      },
+      {
+        "question": "What is 7/8 - 3/8?",
+        "options": [
+          "4/8",
+          "5/8",
+          "7/8",
+          "3/8"
+        ],
+        "answer": "4/8",
+        "explanation": "7/8 - 3/8 = 4/8. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "7 - 3 = 4"
+        ]
+      },
+      {
+        "question": "What is 3/4 - 1/4?",
+        "options": [
+          "1/4",
+          "3/4",
+          "2/4",
+          "3/4"
+        ],
+        "answer": "2/4",
+        "explanation": "3/4 - 1/4 = 2/4. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "3 - 1 = 2"
+        ]
+      },
+      {
+        "question": "What is 9/10 - 7/10?",
+        "options": [
+          "3/10",
+          "2/10",
+          "7/10",
+          "9/10"
+        ],
+        "answer": "2/10",
+        "explanation": "9/10 - 7/10 = 2/10. Subtract the numerators, keep the denominator.",
+        "hints": [
+          "When denominators are the same, just subtract the numerators",
+          "9 - 7 = 2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-decimals-value",
+    "title": "Identify decimal place values",
+    "grade_level": 4,
+    "topic": "Decimals",
+    "skill_name": "Identify decimal place values",
+    "questions": [
+      {
+        "question": "In 6.66, what digit is in the tenths place?",
+        "options": [
+          "7",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "In 6.66, the tenths digit is 6.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 5.73, what digit is in the hundredths place?",
+        "options": [
+          "7",
+          "5",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "In 5.73, the hundredths digit is 3.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 9.53, what digit is in the tenths place?",
+        "options": [
+          "5",
+          "9",
+          "6",
+          "3"
+        ],
+        "answer": "5",
+        "explanation": "In 9.53, the tenths digit is 5.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 5.62, what digit is in the tenths place?",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "2"
+        ],
+        "answer": "6",
+        "explanation": "In 5.62, the tenths digit is 6.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 8.09, what digit is in the ones place?",
+        "options": [
+          "9",
+          "0",
+          "9",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "In 8.09, the ones digit is 8.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 4.35, what digit is in the hundredths place?",
+        "options": [
+          "6",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "explanation": "In 4.35, the hundredths digit is 5.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 1.95, what digit is in the hundredths place?",
+        "options": [
+          "6",
+          "5",
+          "1",
+          "9"
+        ],
+        "answer": "5",
+        "explanation": "In 1.95, the hundredths digit is 5.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 1.17, what digit is in the hundredths place?",
+        "options": [
+          "1",
+          "7",
+          "1",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "In 1.17, the hundredths digit is 7.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 4.19, what digit is in the tenths place?",
+        "options": [
+          "1",
+          "9",
+          "2",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "In 4.19, the tenths digit is 1.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      },
+      {
+        "question": "In 8.68, what digit is in the ones place?",
+        "options": [
+          "0",
+          "8",
+          "6",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "In 8.68, the ones digit is 8.",
+        "hints": [
+          "Tenths is right after the decimal point",
+          "Hundredths is two places after the decimal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4-decimals-decimals",
+    "title": "Compare decimal numbers",
+    "grade_level": 4,
+    "topic": "Decimals",
+    "skill_name": "Compare decimal numbers",
+    "questions": [
+      {
+        "question": "Compare: 0.1 __ 9. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "0.1 < 9. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 8.3 __ 0.7. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "8.3 > 0.7. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 0.2 __ 1.7. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "0.2 < 1.7. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 2.7 __ 1.4. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "2.7 > 1.4. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 7.7 __ 9. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "7.7 < 9. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 9.9 __ 3.5. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "9.9 > 3.5. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 3.5 __ 8.6. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "3.5 < 8.6. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 4.4 __ 4.1. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": ">",
+        "explanation": "4.4 > 4.1. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 0 __ 9.7. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "0 < 9.7. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      },
+      {
+        "question": "Compare: 3 __ 8. Which symbol goes in the blank?",
+        "options": [
+          ">",
+          "<",
+          "="
+        ],
+        "answer": "<",
+        "explanation": "3 < 8. Compare the digits from left to right.",
+        "hints": [
+          "Compare the ones place first",
+          "If ones are equal, compare tenths"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-decimals",
+    "title": "Add decimal numbers",
+    "grade_level": 5,
+    "topic": "Decimals",
+    "skill_name": "Add decimal numbers",
+    "questions": [
+      {
+        "question": "What is 6.4 + 5.7?",
+        "options": [
+          "12.2",
+          "12.0",
+          "12.1",
+          "13.1"
+        ],
+        "answer": "12.1",
+        "explanation": "6.4 + 5.7 = 12.1. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 8.9 + 5.0?",
+        "options": [
+          "13.9",
+          "14.0",
+          "13.8",
+          "14.9"
+        ],
+        "answer": "13.9",
+        "explanation": "8.9 + 5.0 = 13.9. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 1.3 + 0.5?",
+        "options": [
+          "1.7",
+          "2.8",
+          "1.9",
+          "1.8"
+        ],
+        "answer": "1.8",
+        "explanation": "1.3 + 0.5 = 1.8. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 1.8 + 5.4?",
+        "options": [
+          "8.2",
+          "7.2",
+          "7.3",
+          "7.1"
+        ],
+        "answer": "7.2",
+        "explanation": "1.8 + 5.4 = 7.2. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 6.4 + 6.4?",
+        "options": [
+          "12.8",
+          "13.8",
+          "12.7",
+          "12.9"
+        ],
+        "answer": "12.8",
+        "explanation": "6.4 + 6.4 = 12.8. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 4.6 + 2.5?",
+        "options": [
+          "7.0",
+          "8.1",
+          "7.2",
+          "7.1"
+        ],
+        "answer": "7.1",
+        "explanation": "4.6 + 2.5 = 7.1. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 5.5 + 6.2?",
+        "options": [
+          "11.7",
+          "11.8",
+          "11.6",
+          "12.7"
+        ],
+        "answer": "11.7",
+        "explanation": "5.5 + 6.2 = 11.7. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 6.6 + 8.5?",
+        "options": [
+          "15.0",
+          "15.2",
+          "15.1",
+          "16.1"
+        ],
+        "answer": "15.1",
+        "explanation": "6.6 + 8.5 = 15.1. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 5.0 + 6.5?",
+        "options": [
+          "11.5",
+          "11.6",
+          "11.4",
+          "12.5"
+        ],
+        "answer": "11.5",
+        "explanation": "5.0 + 6.5 = 11.5. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      },
+      {
+        "question": "What is 7.6 + 1.3?",
+        "options": [
+          "8.8",
+          "9.9",
+          "9.0",
+          "8.9"
+        ],
+        "answer": "8.9",
+        "explanation": "7.6 + 1.3 = 8.9. Line up the decimal points and add.",
+        "hints": [
+          "Line up the decimal points",
+          "Add as you would whole numbers, keeping the decimal in place"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-decimals-1",
+    "title": "Subtract decimal numbers",
+    "grade_level": 5,
+    "topic": "Decimals",
+    "skill_name": "Subtract decimal numbers",
+    "questions": [
+      {
+        "question": "What is 8.1 - 6.5?",
+        "options": [
+          "1.7",
+          "1.6",
+          "1.5",
+          "2.6"
+        ],
+        "answer": "1.6",
+        "explanation": "8.1 - 6.5 = 1.6. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 6.6 - 1.9?",
+        "options": [
+          "4.7",
+          "5.7",
+          "4.8",
+          "4.6"
+        ],
+        "answer": "4.7",
+        "explanation": "6.6 - 1.9 = 4.7. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 6.1 - 4.1?",
+        "options": [
+          "3.0",
+          "2.0",
+          "2.1",
+          "1.9"
+        ],
+        "answer": "2.0",
+        "explanation": "6.1 - 4.1 = 2.0. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 5.2 - 3.6?",
+        "options": [
+          "1.6",
+          "1.7",
+          "2.6",
+          "1.5"
+        ],
+        "answer": "1.6",
+        "explanation": "5.2 - 3.6 = 1.6. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 5.9 - 5.2?",
+        "options": [
+          "0.7",
+          "0.8",
+          "0.6",
+          "1.7"
+        ],
+        "answer": "0.7",
+        "explanation": "5.9 - 5.2 = 0.7. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 8.3 - 2.0?",
+        "options": [
+          "6.2",
+          "6.3",
+          "6.4",
+          "7.3"
+        ],
+        "answer": "6.3",
+        "explanation": "8.3 - 2.0 = 6.3. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 5.2 - 1.8?",
+        "options": [
+          "4.4",
+          "3.3",
+          "3.5",
+          "3.4"
+        ],
+        "answer": "3.4",
+        "explanation": "5.2 - 1.8 = 3.4. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 6.7 - 6.4?",
+        "options": [
+          "0.3",
+          "0.4",
+          "0.2",
+          "1.3"
+        ],
+        "answer": "0.3",
+        "explanation": "6.7 - 6.4 = 0.3. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 5.9 - 2.7?",
+        "options": [
+          "4.2",
+          "3.2",
+          "3.3",
+          "3.1"
+        ],
+        "answer": "3.2",
+        "explanation": "5.9 - 2.7 = 3.2. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      },
+      {
+        "question": "What is 8.3 - 3.3?",
+        "options": [
+          "6.0",
+          "4.9",
+          "5.1",
+          "5.0"
+        ],
+        "answer": "5.0",
+        "explanation": "8.3 - 3.3 = 5.0. Line up the decimal points and subtract.",
+        "hints": [
+          "Line up the decimal points first",
+          "You may need to borrow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5-decimals-decimals-2",
+    "title": "Multiply decimal numbers",
+    "grade_level": 5,
+    "topic": "Decimals",
+    "skill_name": "Multiply decimal numbers",
+    "questions": [
+      {
+        "question": "What is 5.4 × 10?",
+        "options": [
+          "54.0",
+          "540",
+          "53.9",
+          "54.1"
+        ],
+        "answer": "54.0",
+        "explanation": "5.4 × 10 = 54.0. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 3.2 × 4?",
+        "options": [
+          "12.8",
+          "12.9",
+          "128",
+          "12.7"
+        ],
+        "answer": "12.8",
+        "explanation": "3.2 × 4 = 12.8. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 5.8 × 6?",
+        "options": [
+          "348",
+          "34.8",
+          "34.9",
+          "34.7"
+        ],
+        "answer": "34.8",
+        "explanation": "5.8 × 6 = 34.8. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 5.1 × 8?",
+        "options": [
+          "40.9",
+          "40.8",
+          "40.7",
+          "408"
+        ],
+        "answer": "40.8",
+        "explanation": "5.1 × 8 = 40.8. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 4.0 × 4?",
+        "options": [
+          "160",
+          "16.0",
+          "16.1",
+          "15.9"
+        ],
+        "answer": "16.0",
+        "explanation": "4.0 × 4 = 16.0. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 1.3 × 9?",
+        "options": [
+          "117",
+          "11.8",
+          "11.6",
+          "11.7"
+        ],
+        "answer": "11.7",
+        "explanation": "1.3 × 9 = 11.7. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 3.2 × 4?",
+        "options": [
+          "12.8",
+          "128",
+          "12.9",
+          "12.7"
+        ],
+        "answer": "12.8",
+        "explanation": "3.2 × 4 = 12.8. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 3.8 × 2?",
+        "options": [
+          "76",
+          "7.6",
+          "7.7",
+          "7.5"
+        ],
+        "answer": "7.6",
+        "explanation": "3.8 × 2 = 7.6. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 5.4 × 5?",
+        "options": [
+          "270",
+          "27.0",
+          "26.9",
+          "27.1"
+        ],
+        "answer": "27.0",
+        "explanation": "5.4 × 5 = 27.0. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      },
+      {
+        "question": "What is 1.7 × 10?",
+        "options": [
+          "17.0",
+          "17.1",
+          "16.9",
+          "170"
+        ],
+        "answer": "17.0",
+        "explanation": "1.7 × 10 = 17.0. Multiply as whole numbers, then count decimal places.",
+        "hints": [
+          "Multiply the numbers ignoring the decimal",
+          "Count the total decimal places in the factors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5-fractions-denom",
+    "title": "Add fractions with different denominators",
+    "grade_level": 5,
+    "topic": "Fractions",
+    "skill_name": "Add fractions with different denominators",
+    "questions": [
+      {
+        "question": "What is 1/2 + 1/4?",
+        "options": [
+          "3/5",
+          "3/4",
+          "4/4",
+          "2/6"
+        ],
+        "answer": "3/4",
+        "explanation": "First find a common denominator (4), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "2 and 4 both divide evenly into 4"
+        ]
+      },
+      {
+        "question": "What is 1/2 + 1/6?",
+        "options": [
+          "4/6",
+          "5/6",
+          "2/8",
+          "4/7"
+        ],
+        "answer": "4/6",
+        "explanation": "First find a common denominator (6), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "2 and 6 both divide evenly into 6"
+        ]
+      },
+      {
+        "question": "What is 1/3 + 1/6?",
+        "options": [
+          "3/7",
+          "3/6",
+          "4/6",
+          "2/9"
+        ],
+        "answer": "3/6",
+        "explanation": "First find a common denominator (6), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "3 and 6 both divide evenly into 6"
+        ]
+      },
+      {
+        "question": "What is 1/3 + 1/6?",
+        "options": [
+          "4/6",
+          "3/6",
+          "2/9",
+          "3/7"
+        ],
+        "answer": "3/6",
+        "explanation": "First find a common denominator (6), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "3 and 6 both divide evenly into 6"
+        ]
+      },
+      {
+        "question": "What is 1/3 + 1/4?",
+        "options": [
+          "7/13",
+          "2/7",
+          "8/12",
+          "7/12"
+        ],
+        "answer": "7/12",
+        "explanation": "First find a common denominator (12), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "3 and 4 both divide evenly into 12"
+        ]
+      },
+      {
+        "question": "What is 1/2 + 1/3?",
+        "options": [
+          "5/6",
+          "6/6",
+          "5/7",
+          "2/5"
+        ],
+        "answer": "5/6",
+        "explanation": "First find a common denominator (6), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "2 and 3 both divide evenly into 6"
+        ]
+      },
+      {
+        "question": "What is 1/4 + 1/6?",
+        "options": [
+          "5/12",
+          "6/12",
+          "2/10",
+          "5/13"
+        ],
+        "answer": "5/12",
+        "explanation": "First find a common denominator (12), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "4 and 6 both divide evenly into 12"
+        ]
+      },
+      {
+        "question": "What is 1/4 + 1/6?",
+        "options": [
+          "5/12",
+          "6/12",
+          "2/10",
+          "5/13"
+        ],
+        "answer": "5/12",
+        "explanation": "First find a common denominator (12), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "4 and 6 both divide evenly into 12"
+        ]
+      },
+      {
+        "question": "What is 1/3 + 1/4?",
+        "options": [
+          "2/7",
+          "8/12",
+          "7/12",
+          "7/13"
+        ],
+        "answer": "7/12",
+        "explanation": "First find a common denominator (12), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "3 and 4 both divide evenly into 12"
+        ]
+      },
+      {
+        "question": "What is 1/4 + 1/6?",
+        "options": [
+          "2/10",
+          "6/12",
+          "5/12",
+          "5/13"
+        ],
+        "answer": "5/12",
+        "explanation": "First find a common denominator (12), then add the numerators.",
+        "hints": [
+          "Find a common denominator first",
+          "4 and 6 both divide evenly into 12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5-percentages-100",
+    "title": "Find percentages of 100",
+    "grade_level": 5,
+    "topic": "Percentages",
+    "skill_name": "Find percentages of 100",
+    "questions": [
+      {
+        "question": "What is 10% of 100?",
+        "options": [
+          "15",
+          "0",
+          "20",
+          "10"
+        ],
+        "answer": "10",
+        "explanation": "10% of 100 = 10. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "10% = 10 per hundred"
+        ]
+      },
+      {
+        "question": "What is 20% of 100?",
+        "options": [
+          "10",
+          "25",
+          "30",
+          "20"
+        ],
+        "answer": "20",
+        "explanation": "20% of 100 = 20. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "20% = 20 per hundred"
+        ]
+      },
+      {
+        "question": "What is 25% of 100?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "15"
+        ],
+        "answer": "25",
+        "explanation": "25% of 100 = 25. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "25% = 25 per hundred"
+        ]
+      },
+      {
+        "question": "What is 50% of 100?",
+        "options": [
+          "60",
+          "50",
+          "55",
+          "40"
+        ],
+        "answer": "50",
+        "explanation": "50% of 100 = 50. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "50% = 50 per hundred"
+        ]
+      },
+      {
+        "question": "What is 75% of 100?",
+        "options": [
+          "75",
+          "85",
+          "65",
+          "80"
+        ],
+        "answer": "75",
+        "explanation": "75% of 100 = 75. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "75% = 75 per hundred"
+        ]
+      },
+      {
+        "question": "What is 30% of 100?",
+        "options": [
+          "40",
+          "35",
+          "20",
+          "30"
+        ],
+        "answer": "30",
+        "explanation": "30% of 100 = 30. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "30% = 30 per hundred"
+        ]
+      },
+      {
+        "question": "What is 40% of 100?",
+        "options": [
+          "40",
+          "45",
+          "30",
+          "50"
+        ],
+        "answer": "40",
+        "explanation": "40% of 100 = 40. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "40% = 40 per hundred"
+        ]
+      },
+      {
+        "question": "What is 60% of 100?",
+        "options": [
+          "65",
+          "50",
+          "70",
+          "60"
+        ],
+        "answer": "60",
+        "explanation": "60% of 100 = 60. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "60% = 60 per hundred"
+        ]
+      },
+      {
+        "question": "What is 80% of 100?",
+        "options": [
+          "80",
+          "90",
+          "85",
+          "70"
+        ],
+        "answer": "80",
+        "explanation": "80% of 100 = 80. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "80% = 80 per hundred"
+        ]
+      },
+      {
+        "question": "What is 90% of 100?",
+        "options": [
+          "80",
+          "100",
+          "90",
+          "95"
+        ],
+        "answer": "90",
+        "explanation": "90% of 100 = 90. Percent means \"per hundred.\"",
+        "hints": [
+          "% means out of 100",
+          "90% = 90 per hundred"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-ratios-ratios",
+    "title": "Simplify ratios to lowest terms",
+    "grade_level": 6,
+    "topic": "Ratios",
+    "skill_name": "Simplify ratios to lowest terms",
+    "questions": [
+      {
+        "question": "Simplify the ratio 2:4",
+        "options": [
+          "2:1",
+          "2:4",
+          "2:2",
+          "1:2"
+        ],
+        "answer": "1:2",
+        "explanation": "2:4 simplifies to 1:2 (divide both by 2).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 3:6",
+        "options": [
+          "2:2",
+          "1:2",
+          "3:6",
+          "2:1"
+        ],
+        "answer": "1:2",
+        "explanation": "3:6 simplifies to 1:2 (divide both by 3).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 4:8",
+        "options": [
+          "1:2",
+          "4:8",
+          "2:2",
+          "2:1"
+        ],
+        "answer": "1:2",
+        "explanation": "4:8 simplifies to 1:2 (divide both by 4).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 6:9",
+        "options": [
+          "3:3",
+          "3:2",
+          "6:9",
+          "2:3"
+        ],
+        "answer": "2:3",
+        "explanation": "6:9 simplifies to 2:3 (divide both by 3).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 8:12",
+        "options": [
+          "2:3",
+          "3:3",
+          "3:2",
+          "8:12"
+        ],
+        "answer": "2:3",
+        "explanation": "8:12 simplifies to 2:3 (divide both by 4).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 10:15",
+        "options": [
+          "3:3",
+          "3:2",
+          "10:15",
+          "2:3"
+        ],
+        "answer": "2:3",
+        "explanation": "10:15 simplifies to 2:3 (divide both by 5).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 12:16",
+        "options": [
+          "4:3",
+          "12:16",
+          "4:4",
+          "3:4"
+        ],
+        "answer": "3:4",
+        "explanation": "12:16 simplifies to 3:4 (divide both by 4).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 15:20",
+        "options": [
+          "3:4",
+          "15:20",
+          "4:4",
+          "4:3"
+        ],
+        "answer": "3:4",
+        "explanation": "15:20 simplifies to 3:4 (divide both by 5).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 18:24",
+        "options": [
+          "4:3",
+          "18:24",
+          "3:4",
+          "4:4"
+        ],
+        "answer": "3:4",
+        "explanation": "18:24 simplifies to 3:4 (divide both by 6).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      },
+      {
+        "question": "Simplify the ratio 20:30",
+        "options": [
+          "2:3",
+          "3:3",
+          "3:2",
+          "20:30"
+        ],
+        "answer": "2:3",
+        "explanation": "20:30 simplifies to 2:3 (divide both by 10).",
+        "hints": [
+          "Find the GCF of both numbers",
+          "Divide both parts by the GCF"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-ratios-rates",
+    "title": "Find unit rates",
+    "grade_level": 6,
+    "topic": "Ratios",
+    "skill_name": "Find unit rates",
+    "questions": [
+      {
+        "question": "If 5 items cost $20, how much does 1 item cost?",
+        "options": [
+          "$3",
+          "$6",
+          "$5",
+          "$4"
+        ],
+        "answer": "$4",
+        "explanation": "$20 ÷ 5 items = $4 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "20 ÷ 5 = ?"
+        ]
+      },
+      {
+        "question": "If 4 items cost $32, how much does 1 item cost?",
+        "options": [
+          "$10",
+          "$9",
+          "$7",
+          "$8"
+        ],
+        "answer": "$8",
+        "explanation": "$32 ÷ 4 items = $8 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "32 ÷ 4 = ?"
+        ]
+      },
+      {
+        "question": "If 3 items cost $9, how much does 1 item cost?",
+        "options": [
+          "$3",
+          "$2",
+          "$4",
+          "$5"
+        ],
+        "answer": "$3",
+        "explanation": "$9 ÷ 3 items = $3 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "9 ÷ 3 = ?"
+        ]
+      },
+      {
+        "question": "If 8 items cost $72, how much does 1 item cost?",
+        "options": [
+          "$8",
+          "$10",
+          "$11",
+          "$9"
+        ],
+        "answer": "$9",
+        "explanation": "$72 ÷ 8 items = $9 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "72 ÷ 8 = ?"
+        ]
+      },
+      {
+        "question": "If 6 items cost $36, how much does 1 item cost?",
+        "options": [
+          "$7",
+          "$6",
+          "$8",
+          "$5"
+        ],
+        "answer": "$6",
+        "explanation": "$36 ÷ 6 items = $6 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "36 ÷ 6 = ?"
+        ]
+      },
+      {
+        "question": "If 4 items cost $28, how much does 1 item cost?",
+        "options": [
+          "$9",
+          "$8",
+          "$6",
+          "$7"
+        ],
+        "answer": "$7",
+        "explanation": "$28 ÷ 4 items = $7 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "28 ÷ 4 = ?"
+        ]
+      },
+      {
+        "question": "If 9 items cost $81, how much does 1 item cost?",
+        "options": [
+          "$9",
+          "$10",
+          "$8",
+          "$11"
+        ],
+        "answer": "$9",
+        "explanation": "$81 ÷ 9 items = $9 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "81 ÷ 9 = ?"
+        ]
+      },
+      {
+        "question": "If 8 items cost $48, how much does 1 item cost?",
+        "options": [
+          "$8",
+          "$5",
+          "$7",
+          "$6"
+        ],
+        "answer": "$6",
+        "explanation": "$48 ÷ 8 items = $6 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "48 ÷ 8 = ?"
+        ]
+      },
+      {
+        "question": "If 6 items cost $42, how much does 1 item cost?",
+        "options": [
+          "$9",
+          "$6",
+          "$8",
+          "$7"
+        ],
+        "answer": "$7",
+        "explanation": "$42 ÷ 6 items = $7 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "42 ÷ 6 = ?"
+        ]
+      },
+      {
+        "question": "If 5 items cost $15, how much does 1 item cost?",
+        "options": [
+          "$2",
+          "$3",
+          "$5",
+          "$4"
+        ],
+        "answer": "$3",
+        "explanation": "$15 ÷ 5 items = $3 per item.",
+        "hints": [
+          "Divide the total by the number of items",
+          "15 ÷ 5 = ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-algebra-expressions",
+    "title": "Evaluate expressions with variables",
+    "grade_level": 6,
+    "topic": "Algebra",
+    "skill_name": "Evaluate expressions with variables",
+    "questions": [
+      {
+        "question": "If x = 3, what is 3x + 0?",
+        "options": [
+          "12",
+          "6",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "3x + 0 = 3(3) + 0 = 9 + 0 = 9",
+        "hints": [
+          "Substitute the value of x",
+          "3 × 3 = 9"
+        ]
+      },
+      {
+        "question": "If x = 9, what is 4x + 7?",
+        "options": [
+          "47",
+          "39",
+          "36",
+          "43"
+        ],
+        "answer": "43",
+        "explanation": "4x + 7 = 4(9) + 7 = 36 + 7 = 43",
+        "hints": [
+          "Substitute the value of x",
+          "4 × 9 = 36"
+        ]
+      },
+      {
+        "question": "If x = 6, what is 3x + 5?",
+        "options": [
+          "20",
+          "23",
+          "18",
+          "26"
+        ],
+        "answer": "23",
+        "explanation": "3x + 5 = 3(6) + 5 = 18 + 5 = 23",
+        "hints": [
+          "Substitute the value of x",
+          "3 × 6 = 18"
+        ]
+      },
+      {
+        "question": "If x = 7, what is 3x + 2?",
+        "options": [
+          "26",
+          "23",
+          "20",
+          "21"
+        ],
+        "answer": "23",
+        "explanation": "3x + 2 = 3(7) + 2 = 21 + 2 = 23",
+        "hints": [
+          "Substitute the value of x",
+          "3 × 7 = 21"
+        ]
+      },
+      {
+        "question": "If x = 4, what is 6x + 2?",
+        "options": [
+          "24",
+          "32",
+          "20",
+          "26"
+        ],
+        "answer": "26",
+        "explanation": "6x + 2 = 6(4) + 2 = 24 + 2 = 26",
+        "hints": [
+          "Substitute the value of x",
+          "6 × 4 = 24"
+        ]
+      },
+      {
+        "question": "If x = 5, what is 2x + 7?",
+        "options": [
+          "17",
+          "15",
+          "19",
+          "10"
+        ],
+        "answer": "17",
+        "explanation": "2x + 7 = 2(5) + 7 = 10 + 7 = 17",
+        "hints": [
+          "Substitute the value of x",
+          "2 × 5 = 10"
+        ]
+      },
+      {
+        "question": "If x = 4, what is 3x + 4?",
+        "options": [
+          "19",
+          "13",
+          "12",
+          "16"
+        ],
+        "answer": "16",
+        "explanation": "3x + 4 = 3(4) + 4 = 12 + 4 = 16",
+        "hints": [
+          "Substitute the value of x",
+          "3 × 4 = 12"
+        ]
+      },
+      {
+        "question": "If x = 2, what is 4x + 8?",
+        "options": [
+          "16",
+          "12",
+          "20",
+          "8"
+        ],
+        "answer": "16",
+        "explanation": "4x + 8 = 4(2) + 8 = 8 + 8 = 16",
+        "hints": [
+          "Substitute the value of x",
+          "4 × 2 = 8"
+        ]
+      },
+      {
+        "question": "If x = 8, what is 4x + 2?",
+        "options": [
+          "32",
+          "34",
+          "30",
+          "38"
+        ],
+        "answer": "34",
+        "explanation": "4x + 2 = 4(8) + 2 = 32 + 2 = 34",
+        "hints": [
+          "Substitute the value of x",
+          "4 × 8 = 32"
+        ]
+      },
+      {
+        "question": "If x = 5, what is 6x + 7?",
+        "options": [
+          "43",
+          "31",
+          "30",
+          "37"
+        ],
+        "answer": "37",
+        "explanation": "6x + 7 = 6(5) + 7 = 30 + 7 = 37",
+        "hints": [
+          "Substitute the value of x",
+          "6 × 5 = 30"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-algebra-equations",
+    "title": "Solve one-step equations",
+    "grade_level": 6,
+    "topic": "Algebra",
+    "skill_name": "Solve one-step equations",
+    "questions": [
+      {
+        "question": "Solve: x + 3 = 19",
+        "options": [
+          "16",
+          "15",
+          "17",
+          "18"
+        ],
+        "answer": "16",
+        "explanation": "x + 3 = 19, so x = 19 - 3 = 16",
+        "hints": [
+          "Subtract the same number from both sides",
+          "19 - 3 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 10 = 12",
+        "options": [
+          "4",
+          "3",
+          "1",
+          "2"
+        ],
+        "answer": "2",
+        "explanation": "x + 10 = 12, so x = 12 - 10 = 2",
+        "hints": [
+          "Subtract the same number from both sides",
+          "12 - 10 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 5 = 17",
+        "options": [
+          "13",
+          "14",
+          "12",
+          "11"
+        ],
+        "answer": "12",
+        "explanation": "x + 5 = 17, so x = 17 - 5 = 12",
+        "hints": [
+          "Subtract the same number from both sides",
+          "17 - 5 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 10 = 15",
+        "options": [
+          "7",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "x + 10 = 15, so x = 15 - 10 = 5",
+        "hints": [
+          "Subtract the same number from both sides",
+          "15 - 10 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 5 = 8",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "2"
+        ],
+        "answer": "3",
+        "explanation": "x + 5 = 8, so x = 8 - 5 = 3",
+        "hints": [
+          "Subtract the same number from both sides",
+          "8 - 5 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 3 = 6",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "x + 3 = 6, so x = 6 - 3 = 3",
+        "hints": [
+          "Subtract the same number from both sides",
+          "6 - 3 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 4 = 20",
+        "options": [
+          "16",
+          "15",
+          "17",
+          "18"
+        ],
+        "answer": "16",
+        "explanation": "x + 4 = 20, so x = 20 - 4 = 16",
+        "hints": [
+          "Subtract the same number from both sides",
+          "20 - 4 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 2 = 18",
+        "options": [
+          "17",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": "16",
+        "explanation": "x + 2 = 18, so x = 18 - 2 = 16",
+        "hints": [
+          "Subtract the same number from both sides",
+          "18 - 2 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 10 = 24",
+        "options": [
+          "15",
+          "13",
+          "16",
+          "14"
+        ],
+        "answer": "14",
+        "explanation": "x + 10 = 24, so x = 24 - 10 = 14",
+        "hints": [
+          "Subtract the same number from both sides",
+          "24 - 10 = ?"
+        ]
+      },
+      {
+        "question": "Solve: x + 8 = 10",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "x + 8 = 10, so x = 10 - 8 = 2",
+        "hints": [
+          "Subtract the same number from both sides",
+          "10 - 8 = ?"
+        ]
+      }
+    ]
   }
 ]
