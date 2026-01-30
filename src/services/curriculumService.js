@@ -43,6 +43,7 @@ export async function getCurriculum() {
         questionsBySkill[q.skill_id] = [];
       }
       questionsBySkill[q.skill_id].push({
+        id: q.id,  // Include ID for CRUD operations
         question: q.question,
         type: q.type,
         options: typeof q.options === 'string' ? JSON.parse(q.options) : q.options,
@@ -149,6 +150,7 @@ export async function getSkillById(skillId) {
     return {
       ...skill,
       questions: questions.map(q => ({
+        id: q.id,
         question: q.question,
         type: q.type,
         options: typeof q.options === 'string' ? JSON.parse(q.options) : q.options,

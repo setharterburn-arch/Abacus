@@ -218,12 +218,20 @@ const Admin = () => {
                     {/* Header with actions */}
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '1rem' }}>
                         <h2 style={{ margin: 0 }}>Curriculum Library ({curriculumData.length} sets)</h2>
-                        <button 
-                            className="btn btn-primary"
-                            onClick={() => navigate('/admin/curriculum-generator')}
-                        >
-                            ➕ Generate New Content
-                        </button>
+                        <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            <button 
+                                className="btn btn-primary"
+                                onClick={() => navigate('/admin/curriculum')}
+                            >
+                                ✏️ Manage Curriculum
+                            </button>
+                            <button 
+                                className="btn"
+                                onClick={() => navigate('/admin/curriculum-generator')}
+                            >
+                                🤖 AI Generator
+                            </button>
+                        </div>
                     </div>
                     
                     {/* Filters */}

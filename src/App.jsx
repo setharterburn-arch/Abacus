@@ -12,6 +12,7 @@ const DiagnosticTest = lazy(() => import('./pages/DiagnosticTest'));
 const AdaptivePractice = lazy(() => import('./pages/AdaptivePractice'));
 const CurriculumGenerator = lazy(() => import('./pages/CurriculumGenerator'));
 const Admin = lazy(() => import('./pages/Admin'));
+const AdminCurriculum = lazy(() => import('./pages/AdminCurriculum'));
 const TestZone = lazy(() => import('./pages/TestZone'));
 const InteractiveTest = lazy(() => import('./pages/InteractiveTest'));
 const Worksheets = lazy(() => import('./pages/Worksheets'));
@@ -96,6 +97,7 @@ const AppRoutes = () => {
           <Route path="/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/admin/curriculum" element={<AdminCurriculum />} />
           <Route path="/admin/curriculum-generator" element={<CurriculumGenerator />} />
           <Route path="/test" element={<TestZone />} />
           <Route path="/interactive-test" element={<InteractiveTest />} />
