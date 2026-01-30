@@ -182,9 +182,10 @@ const SmartScoreQuiz = ({
     
     // Set phase to ready after a brief delay to prevent click-through
     const timer = setTimeout(() => {
-      console.log('Setting phase to ready');
+      console.log('Setting phase to ready, unlocking');
+      isProcessingAnswer.current = false; // Reset synchronous lock
       setPhase('ready');
-    }, 300);
+    }, 400); // Increased delay slightly
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
@@ -192,9 +193,17 @@ const SmartScoreQuiz = ({
 
   // Track last answer time to prevent double-firing (mobile touch events)
   const lastAnswerTime = useRef(0);
+  // Synchronous lock - refs update immediately unlike state
+  const isProcessingAnswer = useRef(false);
   
   const handleAnswer = useCallback((answer) => {
-    console.log('handleAnswer called:', answer, 'phase:', phase);
+    console.log('handleAnswer called:', answer, 'phase:', phase, 'locked:', isProcessingAnswer.current);
+    
+    // SYNCHRONOUS lock check - this blocks before any async state updates
+    if (isProcessingAnswer.current) {
+      console.log('Blocked by synchronous lock');
+      return;
+    }
     
     // Only allow answers in 'ready' phase
     if (phase !== 'ready') {
@@ -204,11 +213,14 @@ const SmartScoreQuiz = ({
     
     // Prevent double-firing
     const now = Date.now();
-    if (now - lastAnswerTime.current < 300) {
+    if (now - lastAnswerTime.current < 500) {
       console.log('Blocked by debounce');
       return;
     }
     lastAnswerTime.current = now;
+    
+    // SET LOCK IMMEDIATELY (synchronous)
+    isProcessingAnswer.current = true;
     
     console.log('Processing answer:', answer);
     // Set phase FIRST to block any other interactions
@@ -533,7 +545,10 @@ const SmartScoreQuiz = ({
                       borderRadius: 'var(--radius-md)',
                       cursor: phase !== 'ready' ? 'default' : 'pointer',
                       transition: 'all 0.2s ease',
-                      opacity: phase === 'transitioning' ? 0.5 : 1
+                      opacity: phase === 'transitioning' ? 0.5 : 1,
+                      pointerEvents: phase !== 'ready' ? 'none' : 'auto',
+                      userSelect: 'none',
+                      WebkitTapHighlightColor: 'transparent'
                     }}
                   >
                     <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>

@@ -194,35 +194,51 @@ const AdaptivePractice = () => {
                             gap: '1rem'
                         }}>
                             {topics.map((topic, idx) => (
-                                <motion.button
+                                <motion.div
                                     key={topic}
                                     initial={{ y: 20, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     transition={{ delay: idx * 0.05 }}
-                                    onClick={() => handleTopicSelect(topic)}
-                                    className="card"
-                                    style={{
-                                        cursor: 'pointer',
-                                        textAlign: 'center',
-                                        padding: '1.5rem',
-                                        border: '2px solid var(--color-text)',
-                                        transition: 'transform 0.2s, box-shadow 0.2s'
-                                    }}
                                     whileHover={{ y: -4 }}
+                                    style={{ cursor: 'pointer' }}
                                 >
-                                    <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>
-                                        {topic === 'Addition' ? '➕' :
-                                            topic === 'Subtraction' ? '➖' :
-                                                topic === 'Multiplication' ? '✖️' :
-                                                    topic === 'Division' ? '➗' :
-                                                        topic === 'Fractions' ? '🍕' :
-                                                            topic === 'Geometry' ? '📐' :
-                                                                topic === 'Counting' ? '🔢' : '📚'}
-                                    </div>
-                                    <div style={{ fontWeight: 'bold', color: 'var(--color-text)' }}>
-                                        {topic}
-                                    </div>
-                                </motion.button>
+                                    <button
+                                        type="button"
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            e.stopPropagation();
+                                            handleTopicSelect(topic);
+                                        }}
+                                        onTouchEnd={(e) => {
+                                            e.preventDefault();
+                                            handleTopicSelect(topic);
+                                        }}
+                                        className="card"
+                                        style={{
+                                            cursor: 'pointer',
+                                            textAlign: 'center',
+                                            padding: '1.5rem',
+                                            border: '2px solid var(--color-text)',
+                                            width: '100%',
+                                            background: 'var(--color-bg-card)',
+                                            WebkitTapHighlightColor: 'transparent',
+                                            touchAction: 'manipulation'
+                                        }}
+                                    >
+                                        <div style={{ fontSize: '2rem', marginBottom: '0.5rem', pointerEvents: 'none' }}>
+                                            {topic === 'Addition' ? '➕' :
+                                                topic === 'Subtraction' ? '➖' :
+                                                    topic === 'Multiplication' ? '✖️' :
+                                                        topic === 'Division' ? '➗' :
+                                                            topic === 'Fractions' ? '🍕' :
+                                                                topic === 'Geometry' ? '📐' :
+                                                                    topic === 'Counting' ? '🔢' : '📚'}
+                                        </div>
+                                        <div style={{ fontWeight: 'bold', color: 'var(--color-text)', pointerEvents: 'none' }}>
+                                            {topic}
+                                        </div>
+                                    </button>
+                                </motion.div>
                             ))}
                         </div>
                     </>
