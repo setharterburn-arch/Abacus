@@ -1,8 +1,9 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { smartScore } from '../../services/smartScore';
 import curriculumData from '../../data/curriculum.json';
 import { QuestionRenderer } from '../questions';
+import { generateQuestion, generateInteractiveQuestion } from '../../services/questionGenerators';
 
 /**
  * Check if answer is correct for any question type
@@ -49,7 +50,8 @@ const SmartScoreQuiz = ({
   grade,
   onComplete,
   onExit,
-  initialScore = 0 
+  initialScore = 0,
+  infiniteMode = true  // Enable infinite practice by default
 }) => {
   // Quiz state
   const [questions, setQuestions] = useState([]);
@@ -72,6 +74,48 @@ const SmartScoreQuiz = ({
   
   // Animation state
   const [scoreAnimation, setScoreAnimation] = useState(null);
+  
+  // Track seen questions to avoid repeats
+  const seenQuestions = useRef(new Set());
+  const skillTypeRef = useRef(topic || 'addition'); // For generating matching questions
+
+  // Determine the skill type for question generation
+  const getSkillType = useCallback(() => {
+    const t = (topic || skillName || '').toLowerCase();
+    if (t.includes('add')) return 'addition';
+    if (t.includes('subtract')) return 'subtraction';
+    if (t.includes('multipl') || t.includes('times')) return 'multiplication';
+    if (t.includes('divis') || t.includes('divide')) return 'division';
+    if (t.includes('frac')) return 'fractions';
+    if (t.includes('decim')) return 'decimals';
+    if (t.includes('word') || t.includes('problem')) return 'word-problems';
+    return 'addition';
+  }, [topic, skillName]);
+
+  // Generate a new question using algorithmic generators
+  const generateNewQuestion = useCallback(() => {
+    const skillType = getSkillType();
+    const g = grade || 3;
+    const difficulty = score < 50 ? 'easy' : score < 80 ? 'medium' : 'hard';
+    
+    // 20% chance of interactive question for variety
+    if (Math.random() < 0.2) {
+      const interactiveTypes = ['number-line', 'fraction-shade', 'array-builder', 'drag-sort'];
+      const type = interactiveTypes[Math.floor(Math.random() * interactiveTypes.length)];
+      
+      // Match interactive type to skill
+      if (skillType.includes('frac')) {
+        return generateInteractiveQuestion('fraction-shade', g, 'fractions');
+      } else if (skillType.includes('multipl')) {
+        return generateInteractiveQuestion('array-builder', g, 'multiplication');
+      } else if (skillType.includes('decim')) {
+        return generateInteractiveQuestion('number-line', g, 'decimals');
+      }
+      return generateInteractiveQuestion('number-line', g, 'fractions');
+    }
+    
+    return generateQuestion(skillType, g, difficulty);
+  }, [getSkillType, grade, score]);
 
   // Load questions for this skill
   useEffect(() => {
@@ -80,6 +124,7 @@ const SmartScoreQuiz = ({
       // Shuffle questions
       const shuffled = [...skillSet.questions].sort(() => Math.random() - 0.5);
       setQuestions(shuffled);
+      skillTypeRef.current = skillSet.topic || topic || 'addition';
     } else {
       // Fallback: get questions from topic
       const topicSets = curriculumData.filter(s => 
@@ -92,7 +137,20 @@ const SmartScoreQuiz = ({
       const shuffled = allQuestions.sort(() => Math.random() - 0.5);
       setQuestions(shuffled);
     }
-  }, [skillId, topic, grade]);
+    
+    // If infiniteMode and we have few questions, add some generated ones
+    if (infiniteMode) {
+      setTimeout(() => {
+        setQuestions(prev => {
+          if (prev.length < 10) {
+            const generated = Array(10 - prev.length).fill(null).map(() => generateNewQuestion());
+            return [...prev, ...generated];
+          }
+          return prev;
+        });
+      }, 100);
+    }
+  }, [skillId, topic, grade, infiniteMode, generateNewQuestion]);
 
   const currentQuestion = questions[currentIndex];
 
@@ -150,8 +208,28 @@ const SmartScoreQuiz = ({
     setMessage('');
     setMilestone(null);
     
-    // Cycle through questions (infinite practice until mastery)
-    setCurrentIndex((currentIndex + 1) % questions.length);
+    // Mark current question as seen
+    if (currentQuestion?.question) {
+      seenQuestions.current.add(currentQuestion.question);
+    }
+    
+    // In infinite mode, generate new questions instead of cycling
+    if (infiniteMode && currentIndex >= questions.length - 2) {
+      // Generate a few more questions
+      const newQuestions = Array(5).fill(null).map(() => {
+        let q = generateNewQuestion();
+        // Avoid duplicates
+        let attempts = 0;
+        while (seenQuestions.current.has(q.question) && attempts < 10) {
+          q = generateNewQuestion();
+          attempts++;
+        }
+        return q;
+      });
+      setQuestions(prev => [...prev, ...newQuestions]);
+    }
+    
+    setCurrentIndex(currentIndex + 1);
   };
 
   const handleExit = () => {
@@ -302,6 +380,20 @@ const SmartScoreQuiz = ({
                 ({8 - (streak % 8)} more for boost)
               </span>
             )}
+          </div>
+        )}
+        
+        {/* Infinite mode indicator */}
+        {infiniteMode && (
+          <div style={{
+            marginTop: '0.5rem',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.5rem',
+            fontSize: '0.75rem',
+            color: 'var(--color-text-muted)'
+          }}>
+            ∞ Infinite Practice Mode
           </div>
         )}
       </div>
