@@ -132020,5 +132020,6655 @@
       }
     ],
     "grade": 8
+  },
+  {
+    "id": "3-multiply-by-2",
+    "title": "Multiply by 2: factors up to 10",
+    "description": "Practice multiplication facts for the 2 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 2: factors up to 10",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "2 × 1 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "2 times 1 means one group of 2"
+      },
+      {
+        "question": "2 × 3 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hint": "Count by 2s: 2, 4, 6"
+      },
+      {
+        "question": "2 × 5 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "hint": "Count by 2s: 2, 4, 6, 8, 10"
+      },
+      {
+        "question": "2 × 4 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "4 + 4 = 8, or count by 2s four times"
+      },
+      {
+        "question": "2 × 6 = ?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12",
+        "hint": "Double 6 is 12"
+      },
+      {
+        "question": "2 × 7 = ?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14",
+        "hint": "Double 7 is 14"
+      },
+      {
+        "question": "2 × 8 = ?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "16",
+        "hint": "8 + 8 = 16"
+      },
+      {
+        "question": "2 × 9 = ?",
+        "options": [
+          "16",
+          "17",
+          "18",
+          "19"
+        ],
+        "answer": "18",
+        "hint": "Double 9 is 18"
+      },
+      {
+        "question": "2 × 10 = ?",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        "answer": "20",
+        "hint": "10 + 10 = 20"
+      },
+      {
+        "question": "2 × 2 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "2 + 2 = 4"
+      },
+      {
+        "question": "What is double 8?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": "16",
+        "hint": "Double means multiply by 2"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-3",
+    "title": "Multiply by 3: factors up to 10",
+    "description": "Practice multiplication facts for the 3 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 3: factors up to 10",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "3 × 1 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "hint": "3 times 1 means one group of 3"
+      },
+      {
+        "question": "3 × 2 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hint": "3 + 3 = 6"
+      },
+      {
+        "question": "3 × 3 = ?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "3 + 3 + 3 = 9"
+      },
+      {
+        "question": "3 × 4 = ?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12",
+        "hint": "Count by 3s: 3, 6, 9, 12"
+      },
+      {
+        "question": "3 × 5 = ?",
+        "options": [
+          "12",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "hint": "Count by 3s: 3, 6, 9, 12, 15"
+      },
+      {
+        "question": "3 × 6 = ?",
+        "options": [
+          "15",
+          "17",
+          "18",
+          "19"
+        ],
+        "answer": "18",
+        "hint": "6 groups of 3: 3, 6, 9, 12, 15, 18"
+      },
+      {
+        "question": "3 × 7 = ?",
+        "options": [
+          "18",
+          "20",
+          "21",
+          "22"
+        ],
+        "answer": "21",
+        "hint": "7 threes: 21 (add 3 to 18)"
+      },
+      {
+        "question": "3 × 8 = ?",
+        "options": [
+          "21",
+          "22",
+          "24",
+          "25"
+        ],
+        "answer": "24",
+        "hint": "8 × 3 = 24 (add 3 to 21)"
+      },
+      {
+        "question": "3 × 9 = ?",
+        "options": [
+          "24",
+          "26",
+          "27",
+          "28"
+        ],
+        "answer": "27",
+        "hint": "9 × 3 = 27 (the digits add to 9!)"
+      },
+      {
+        "question": "3 × 10 = ?",
+        "options": [
+          "27",
+          "28",
+          "30",
+          "33"
+        ],
+        "answer": "30",
+        "hint": "3 × 10 = 30 (just add a zero)"
+      },
+      {
+        "question": "What is 3 groups of 6?",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "18"
+        ],
+        "answer": "18",
+        "hint": "3 × 6 = 18"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-4",
+    "title": "Multiply by 4: factors up to 10",
+    "description": "Practice multiplication facts for the 4 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 4: factors up to 10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "4 × 1 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "4 times 1 is just 4"
+      },
+      {
+        "question": "4 × 2 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Double 4 is 8"
+      },
+      {
+        "question": "4 × 3 = ?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12",
+        "hint": "4 + 4 + 4 = 12"
+      },
+      {
+        "question": "4 × 4 = ?",
+        "options": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ],
+        "answer": "16",
+        "hint": "4 × 4 = 16 (a perfect square!)"
+      },
+      {
+        "question": "4 × 5 = ?",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "20",
+        "hint": "Half of 4 × 10 = half of 40 = 20"
+      },
+      {
+        "question": "4 × 6 = ?",
+        "options": [
+          "20",
+          "22",
+          "24",
+          "26"
+        ],
+        "answer": "24",
+        "hint": "Double 12 (since 2 × 6 = 12)"
+      },
+      {
+        "question": "4 × 7 = ?",
+        "options": [
+          "24",
+          "26",
+          "28",
+          "30"
+        ],
+        "answer": "28",
+        "hint": "4 × 7 = 28 (add 4 to 24)"
+      },
+      {
+        "question": "4 × 8 = ?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
+        "answer": "32",
+        "hint": "Double 16 (since 2 × 8 = 16)"
+      },
+      {
+        "question": "4 × 9 = ?",
+        "options": [
+          "32",
+          "34",
+          "36",
+          "38"
+        ],
+        "answer": "36",
+        "hint": "4 × 9 = 36 (add 4 to 32)"
+      },
+      {
+        "question": "4 × 10 = ?",
+        "options": [
+          "36",
+          "38",
+          "40",
+          "44"
+        ],
+        "answer": "40",
+        "hint": "4 × 10 = 40 (just add a zero)"
+      },
+      {
+        "question": "How many legs do 7 dogs have?",
+        "options": [
+          "21",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "28",
+        "hint": "Each dog has 4 legs: 7 × 4 = 28"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-5",
+    "title": "Multiply by 5: factors up to 10",
+    "description": "Practice multiplication facts for the 5 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 5: factors up to 10",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "5 × 1 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        "answer": "5",
+        "hint": "5 times 1 is just 5"
+      },
+      {
+        "question": "5 × 2 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "hint": "Count by 5s: 5, 10"
+      },
+      {
+        "question": "5 × 3 = ?",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "18"
+        ],
+        "answer": "15",
+        "hint": "Count by 5s: 5, 10, 15"
+      },
+      {
+        "question": "5 × 4 = ?",
+        "options": [
+          "15",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "20",
+        "hint": "Count by 5s: 5, 10, 15, 20"
+      },
+      {
+        "question": "5 × 5 = ?",
+        "options": [
+          "20",
+          "23",
+          "25",
+          "27"
+        ],
+        "answer": "25",
+        "hint": "5 × 5 = 25 (a perfect square!)"
+      },
+      {
+        "question": "5 × 6 = ?",
+        "options": [
+          "25",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "30",
+        "hint": "6 groups of 5: half of 60"
+      },
+      {
+        "question": "5 × 7 = ?",
+        "options": [
+          "30",
+          "33",
+          "35",
+          "37"
+        ],
+        "answer": "35",
+        "hint": "7 × 5 = 35 (ends in 5)"
+      },
+      {
+        "question": "5 × 8 = ?",
+        "options": [
+          "35",
+          "38",
+          "40",
+          "42"
+        ],
+        "answer": "40",
+        "hint": "Half of 8 × 10 = 40"
+      },
+      {
+        "question": "5 × 9 = ?",
+        "options": [
+          "40",
+          "43",
+          "45",
+          "47"
+        ],
+        "answer": "45",
+        "hint": "9 × 5 = 45 (ends in 5)"
+      },
+      {
+        "question": "5 × 10 = ?",
+        "options": [
+          "45",
+          "48",
+          "50",
+          "55"
+        ],
+        "answer": "50",
+        "hint": "5 × 10 = 50 (half of 100)"
+      },
+      {
+        "question": "How many fingers on 6 hands?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "answer": "30",
+        "hint": "Each hand has 5 fingers: 6 × 5 = 30"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-6",
+    "title": "Multiply by 6: factors up to 10",
+    "description": "Practice multiplication facts for the 6 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 6: factors up to 10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "6 × 1 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "6 times 1 is just 6"
+      },
+      {
+        "question": "6 × 2 = ?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "12",
+        "hint": "6 + 6 = 12"
+      },
+      {
+        "question": "6 × 3 = ?",
+        "options": [
+          "15",
+          "16",
+          "18",
+          "20"
+        ],
+        "answer": "18",
+        "hint": "6 + 6 + 6 = 18"
+      },
+      {
+        "question": "6 × 4 = ?",
+        "options": [
+          "22",
+          "23",
+          "24",
+          "25"
+        ],
+        "answer": "24",
+        "hint": "Double 12 (since 6 × 2 = 12)"
+      },
+      {
+        "question": "6 × 5 = ?",
+        "options": [
+          "28",
+          "29",
+          "30",
+          "31"
+        ],
+        "answer": "30",
+        "hint": "Half of 6 × 10 = 30"
+      },
+      {
+        "question": "6 × 6 = ?",
+        "options": [
+          "32",
+          "34",
+          "36",
+          "38"
+        ],
+        "answer": "36",
+        "hint": "6 × 6 = 36 (a perfect square!)"
+      },
+      {
+        "question": "6 × 7 = ?",
+        "options": [
+          "38",
+          "40",
+          "42",
+          "44"
+        ],
+        "answer": "42",
+        "hint": "6 × 7 = 42 (add 6 to 36)"
+      },
+      {
+        "question": "6 × 8 = ?",
+        "options": [
+          "44",
+          "46",
+          "48",
+          "50"
+        ],
+        "answer": "48",
+        "hint": "6 × 8 = 48 (add 6 to 42)"
+      },
+      {
+        "question": "6 × 9 = ?",
+        "options": [
+          "50",
+          "52",
+          "54",
+          "56"
+        ],
+        "answer": "54",
+        "hint": "6 × 9 = 54 (add 6 to 48)"
+      },
+      {
+        "question": "6 × 10 = ?",
+        "options": [
+          "54",
+          "58",
+          "60",
+          "66"
+        ],
+        "answer": "60",
+        "hint": "6 × 10 = 60 (just add a zero)"
+      },
+      {
+        "question": "How many eggs in 6 half-dozens?",
+        "options": [
+          "30",
+          "32",
+          "36",
+          "42"
+        ],
+        "answer": "36",
+        "hint": "Half-dozen is 6: 6 × 6 = 36"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-7",
+    "title": "Multiply by 7: factors up to 10",
+    "description": "Practice multiplication facts for the 7 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 7: factors up to 10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "7 × 1 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "7 times 1 is just 7"
+      },
+      {
+        "question": "7 × 2 = ?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "15"
+        ],
+        "answer": "14",
+        "hint": "7 + 7 = 14"
+      },
+      {
+        "question": "7 × 3 = ?",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "21"
+        ],
+        "answer": "21",
+        "hint": "7 + 7 + 7 = 21"
+      },
+      {
+        "question": "7 × 4 = ?",
+        "options": [
+          "24",
+          "26",
+          "28",
+          "30"
+        ],
+        "answer": "28",
+        "hint": "Double 14 (since 7 × 2 = 14)"
+      },
+      {
+        "question": "7 × 5 = ?",
+        "options": [
+          "30",
+          "33",
+          "35",
+          "37"
+        ],
+        "answer": "35",
+        "hint": "7 × 5 = 35 (ends in 5)"
+      },
+      {
+        "question": "7 × 6 = ?",
+        "options": [
+          "40",
+          "41",
+          "42",
+          "43"
+        ],
+        "answer": "42",
+        "hint": "7 × 6 = 42 (add 7 to 35)"
+      },
+      {
+        "question": "7 × 7 = ?",
+        "options": [
+          "42",
+          "47",
+          "49",
+          "51"
+        ],
+        "answer": "49",
+        "hint": "7 × 7 = 49 (a perfect square!)"
+      },
+      {
+        "question": "7 × 8 = ?",
+        "options": [
+          "54",
+          "55",
+          "56",
+          "57"
+        ],
+        "answer": "56",
+        "hint": "7 × 8 = 56 (5, 6, 7, 8 in order!)"
+      },
+      {
+        "question": "7 × 9 = ?",
+        "options": [
+          "61",
+          "62",
+          "63",
+          "64"
+        ],
+        "answer": "63",
+        "hint": "7 × 9 = 63 (add 7 to 56)"
+      },
+      {
+        "question": "7 × 10 = ?",
+        "options": [
+          "63",
+          "67",
+          "70",
+          "77"
+        ],
+        "answer": "70",
+        "hint": "7 × 10 = 70 (just add a zero)"
+      },
+      {
+        "question": "How many days in 8 weeks?",
+        "options": [
+          "49",
+          "54",
+          "56",
+          "63"
+        ],
+        "answer": "56",
+        "hint": "Each week has 7 days: 8 × 7 = 56"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-8",
+    "title": "Multiply by 8: factors up to 10",
+    "description": "Practice multiplication facts for the 8 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 8: factors up to 10",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "8 × 1 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "8 times 1 is just 8"
+      },
+      {
+        "question": "8 × 2 = ?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "16",
+        "hint": "8 + 8 = 16"
+      },
+      {
+        "question": "8 × 3 = ?",
+        "options": [
+          "21",
+          "22",
+          "24",
+          "26"
+        ],
+        "answer": "24",
+        "hint": "8 + 8 + 8 = 24"
+      },
+      {
+        "question": "8 × 4 = ?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
+        "answer": "32",
+        "hint": "Double 16 (since 8 × 2 = 16)"
+      },
+      {
+        "question": "8 × 5 = ?",
+        "options": [
+          "35",
+          "38",
+          "40",
+          "42"
+        ],
+        "answer": "40",
+        "hint": "8 × 5 = 40 (half of 80)"
+      },
+      {
+        "question": "8 × 6 = ?",
+        "options": [
+          "44",
+          "46",
+          "48",
+          "50"
+        ],
+        "answer": "48",
+        "hint": "8 × 6 = 48 (add 8 to 40)"
+      },
+      {
+        "question": "8 × 7 = ?",
+        "options": [
+          "54",
+          "55",
+          "56",
+          "57"
+        ],
+        "answer": "56",
+        "hint": "8 × 7 = 56 (5, 6, 7, 8!)"
+      },
+      {
+        "question": "8 × 8 = ?",
+        "options": [
+          "60",
+          "62",
+          "64",
+          "66"
+        ],
+        "answer": "64",
+        "hint": "8 × 8 = 64 (a perfect square!)"
+      },
+      {
+        "question": "8 × 9 = ?",
+        "options": [
+          "70",
+          "71",
+          "72",
+          "73"
+        ],
+        "answer": "72",
+        "hint": "8 × 9 = 72 (add 8 to 64)"
+      },
+      {
+        "question": "8 × 10 = ?",
+        "options": [
+          "72",
+          "78",
+          "80",
+          "88"
+        ],
+        "answer": "80",
+        "hint": "8 × 10 = 80 (just add a zero)"
+      },
+      {
+        "question": "How many legs on 8 spiders?",
+        "options": [
+          "56",
+          "60",
+          "64",
+          "72"
+        ],
+        "answer": "64",
+        "hint": "Each spider has 8 legs: 8 × 8 = 64"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-9",
+    "title": "Multiply by 9: factors up to 10",
+    "description": "Practice multiplication facts for the 9 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 9: factors up to 10",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "9 × 1 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "9 times 1 is just 9"
+      },
+      {
+        "question": "9 × 2 = ?",
+        "options": [
+          "16",
+          "17",
+          "18",
+          "19"
+        ],
+        "answer": "18",
+        "hint": "9 + 9 = 18 (digits add to 9!)"
+      },
+      {
+        "question": "9 × 3 = ?",
+        "options": [
+          "24",
+          "25",
+          "27",
+          "28"
+        ],
+        "answer": "27",
+        "hint": "9 × 3 = 27 (2+7=9!)"
+      },
+      {
+        "question": "9 × 4 = ?",
+        "options": [
+          "32",
+          "34",
+          "36",
+          "38"
+        ],
+        "answer": "36",
+        "hint": "9 × 4 = 36 (3+6=9!)"
+      },
+      {
+        "question": "9 × 5 = ?",
+        "options": [
+          "40",
+          "43",
+          "45",
+          "47"
+        ],
+        "answer": "45",
+        "hint": "9 × 5 = 45 (4+5=9!)"
+      },
+      {
+        "question": "9 × 6 = ?",
+        "options": [
+          "52",
+          "53",
+          "54",
+          "55"
+        ],
+        "answer": "54",
+        "hint": "9 × 6 = 54 (5+4=9!)"
+      },
+      {
+        "question": "9 × 7 = ?",
+        "options": [
+          "61",
+          "62",
+          "63",
+          "64"
+        ],
+        "answer": "63",
+        "hint": "9 × 7 = 63 (6+3=9!)"
+      },
+      {
+        "question": "9 × 8 = ?",
+        "options": [
+          "70",
+          "71",
+          "72",
+          "73"
+        ],
+        "answer": "72",
+        "hint": "9 × 8 = 72 (7+2=9!)"
+      },
+      {
+        "question": "9 × 9 = ?",
+        "options": [
+          "79",
+          "80",
+          "81",
+          "82"
+        ],
+        "answer": "81",
+        "hint": "9 × 9 = 81 (8+1=9!)"
+      },
+      {
+        "question": "9 × 10 = ?",
+        "options": [
+          "81",
+          "88",
+          "90",
+          "99"
+        ],
+        "answer": "90",
+        "hint": "9 × 10 = 90 (just add a zero)"
+      },
+      {
+        "question": "The 9s trick: 9 × 7 starts with what digit?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "For 9 × n, tens digit is n-1, so 7-1=6"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-by-10",
+    "title": "Multiply by 10: factors up to 12",
+    "description": "Practice multiplication facts for the 10 times table",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Multiply by 10: factors up to 12",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "10 × 1 = ?",
+        "options": [
+          "1",
+          "10",
+          "11",
+          "100"
+        ],
+        "answer": "10",
+        "hint": "10 times 1 is just 10"
+      },
+      {
+        "question": "10 × 2 = ?",
+        "options": [
+          "12",
+          "20",
+          "22",
+          "100"
+        ],
+        "answer": "20",
+        "hint": "Just add a zero to 2"
+      },
+      {
+        "question": "10 × 3 = ?",
+        "options": [
+          "13",
+          "30",
+          "31",
+          "33"
+        ],
+        "answer": "30",
+        "hint": "Just add a zero to 3"
+      },
+      {
+        "question": "10 × 4 = ?",
+        "options": [
+          "14",
+          "40",
+          "41",
+          "44"
+        ],
+        "answer": "40",
+        "hint": "Just add a zero to 4"
+      },
+      {
+        "question": "10 × 5 = ?",
+        "options": [
+          "15",
+          "50",
+          "51",
+          "55"
+        ],
+        "answer": "50",
+        "hint": "Just add a zero to 5"
+      },
+      {
+        "question": "10 × 6 = ?",
+        "options": [
+          "16",
+          "60",
+          "61",
+          "66"
+        ],
+        "answer": "60",
+        "hint": "Just add a zero to 6"
+      },
+      {
+        "question": "10 × 7 = ?",
+        "options": [
+          "17",
+          "70",
+          "71",
+          "77"
+        ],
+        "answer": "70",
+        "hint": "Just add a zero to 7"
+      },
+      {
+        "question": "10 × 8 = ?",
+        "options": [
+          "18",
+          "80",
+          "81",
+          "88"
+        ],
+        "answer": "80",
+        "hint": "Just add a zero to 8"
+      },
+      {
+        "question": "10 × 9 = ?",
+        "options": [
+          "19",
+          "90",
+          "91",
+          "99"
+        ],
+        "answer": "90",
+        "hint": "Just add a zero to 9"
+      },
+      {
+        "question": "10 × 10 = ?",
+        "options": [
+          "20",
+          "100",
+          "101",
+          "110"
+        ],
+        "answer": "100",
+        "hint": "10 × 10 = 100 (add a zero to 10)"
+      },
+      {
+        "question": "10 × 12 = ?",
+        "options": [
+          "102",
+          "112",
+          "120",
+          "122"
+        ],
+        "answer": "120",
+        "hint": "Just add a zero to 12"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiply-mixed-facts",
+    "title": "Mixed Multiplication Facts",
+    "description": "Practice multiplication facts from all times tables",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Mixed multiplication facts to 10×10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "6 × 8 = ?",
+        "options": [
+          "42",
+          "46",
+          "48",
+          "52"
+        ],
+        "answer": "48",
+        "hint": "Think: 6 × 8 = 48 (4 and 8)"
+      },
+      {
+        "question": "7 × 9 = ?",
+        "options": [
+          "56",
+          "61",
+          "63",
+          "67"
+        ],
+        "answer": "63",
+        "hint": "7 × 9 = 63 (6+3=9!)"
+      },
+      {
+        "question": "4 × 7 = ?",
+        "options": [
+          "21",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "28",
+        "hint": "Double 14 (2 × 7 = 14)"
+      },
+      {
+        "question": "8 × 5 = ?",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "48"
+        ],
+        "answer": "40",
+        "hint": "Half of 8 × 10 = 40"
+      },
+      {
+        "question": "3 × 9 = ?",
+        "options": [
+          "24",
+          "27",
+          "28",
+          "30"
+        ],
+        "answer": "27",
+        "hint": "3 × 9 = 27 (digits add to 9)"
+      },
+      {
+        "question": "9 × 4 = ?",
+        "options": [
+          "32",
+          "34",
+          "36",
+          "38"
+        ],
+        "answer": "36",
+        "hint": "9 × 4 = 36 (3+6=9!)"
+      },
+      {
+        "question": "5 × 8 = ?",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "48"
+        ],
+        "answer": "40",
+        "hint": "5 × 8 = 40"
+      },
+      {
+        "question": "7 × 6 = ?",
+        "options": [
+          "36",
+          "40",
+          "42",
+          "48"
+        ],
+        "answer": "42",
+        "hint": "7 × 6 = 42"
+      },
+      {
+        "question": "8 × 8 = ?",
+        "options": [
+          "56",
+          "60",
+          "64",
+          "68"
+        ],
+        "answer": "64",
+        "hint": "8 × 8 = 64 (perfect square)"
+      },
+      {
+        "question": "6 × 9 = ?",
+        "options": [
+          "48",
+          "52",
+          "54",
+          "56"
+        ],
+        "answer": "54",
+        "hint": "6 × 9 = 54 (5+4=9!)"
+      },
+      {
+        "question": "4 × 9 = ?",
+        "options": [
+          "32",
+          "34",
+          "36",
+          "40"
+        ],
+        "answer": "36",
+        "hint": "4 × 9 = 36"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-2",
+    "title": "Divide by 2: quotients up to 10",
+    "description": "Practice division facts for dividing by 2",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 2: quotients up to 10",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "2 ÷ 2 = ?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "1",
+        "hint": "2 divided into 2 equal groups = 1 each"
+      },
+      {
+        "question": "4 ÷ 2 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Half of 4 is 2"
+      },
+      {
+        "question": "6 ÷ 2 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Half of 6 is 3"
+      },
+      {
+        "question": "8 ÷ 2 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Half of 8 is 4"
+      },
+      {
+        "question": "10 ÷ 2 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Half of 10 is 5"
+      },
+      {
+        "question": "12 ÷ 2 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Half of 12 is 6"
+      },
+      {
+        "question": "14 ÷ 2 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Half of 14 is 7"
+      },
+      {
+        "question": "16 ÷ 2 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "Half of 16 is 8"
+      },
+      {
+        "question": "18 ÷ 2 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "Half of 18 is 9"
+      },
+      {
+        "question": "20 ÷ 2 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Half of 20 is 10"
+      },
+      {
+        "question": "If 14 cookies are shared by 2 friends, how many each?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "14 ÷ 2 = 7"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-3",
+    "title": "Divide by 3: quotients up to 10",
+    "description": "Practice division facts for dividing by 3",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 3: quotients up to 10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "3 ÷ 3 = ?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "hint": "3 divided into 3 equal groups = 1 each"
+      },
+      {
+        "question": "6 ÷ 3 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Think: 3 × 2 = 6"
+      },
+      {
+        "question": "9 ÷ 3 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 3 × 3 = 9"
+      },
+      {
+        "question": "12 ÷ 3 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 3 × 4 = 12"
+      },
+      {
+        "question": "15 ÷ 3 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Think: 3 × 5 = 15"
+      },
+      {
+        "question": "18 ÷ 3 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 3 × 6 = 18"
+      },
+      {
+        "question": "21 ÷ 3 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 3 × 7 = 21"
+      },
+      {
+        "question": "24 ÷ 3 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "Think: 3 × 8 = 24"
+      },
+      {
+        "question": "27 ÷ 3 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "Think: 3 × 9 = 27"
+      },
+      {
+        "question": "30 ÷ 3 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Think: 3 × 10 = 30"
+      },
+      {
+        "question": "24 marbles in 3 bags equally. How many per bag?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "24 ÷ 3 = 8"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-4",
+    "title": "Divide by 4: quotients up to 10",
+    "description": "Practice division facts for dividing by 4",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 4: quotients up to 10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "4 ÷ 4 = ?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "1",
+        "hint": "4 divided into 4 equal groups = 1 each"
+      },
+      {
+        "question": "8 ÷ 4 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Think: 4 × 2 = 8"
+      },
+      {
+        "question": "12 ÷ 4 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 4 × 3 = 12"
+      },
+      {
+        "question": "16 ÷ 4 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 4 × 4 = 16"
+      },
+      {
+        "question": "20 ÷ 4 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Think: 4 × 5 = 20"
+      },
+      {
+        "question": "24 ÷ 4 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 4 × 6 = 24"
+      },
+      {
+        "question": "28 ÷ 4 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 4 × 7 = 28"
+      },
+      {
+        "question": "32 ÷ 4 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "Think: 4 × 8 = 32"
+      },
+      {
+        "question": "36 ÷ 4 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "Think: 4 × 9 = 36"
+      },
+      {
+        "question": "40 ÷ 4 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Think: 4 × 10 = 40"
+      },
+      {
+        "question": "28 stickers for 4 children equally. How many each?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "28 ÷ 4 = 7"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-5",
+    "title": "Divide by 5: quotients up to 10",
+    "description": "Practice division facts for dividing by 5",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 5: quotients up to 10",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "5 ÷ 5 = ?",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "10"
+        ],
+        "answer": "1",
+        "hint": "5 divided into 5 equal groups = 1 each"
+      },
+      {
+        "question": "10 ÷ 5 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": "2",
+        "hint": "Think: 5 × 2 = 10"
+      },
+      {
+        "question": "15 ÷ 5 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 5 × 3 = 15"
+      },
+      {
+        "question": "20 ÷ 5 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 5 × 4 = 20"
+      },
+      {
+        "question": "25 ÷ 5 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Think: 5 × 5 = 25"
+      },
+      {
+        "question": "30 ÷ 5 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 5 × 6 = 30"
+      },
+      {
+        "question": "35 ÷ 5 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 5 × 7 = 35"
+      },
+      {
+        "question": "40 ÷ 5 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "Think: 5 × 8 = 40"
+      },
+      {
+        "question": "45 ÷ 5 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "Think: 5 × 9 = 45"
+      },
+      {
+        "question": "50 ÷ 5 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Think: 5 × 10 = 50"
+      },
+      {
+        "question": "35 cents in nickels. How many nickels?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "35 ÷ 5 = 7 nickels"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-6",
+    "title": "Divide by 6: quotients up to 10",
+    "description": "Practice division facts for dividing by 6",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 6: quotients up to 10",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "6 ÷ 6 = ?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "6"
+        ],
+        "answer": "1",
+        "hint": "6 divided into 6 equal groups = 1 each"
+      },
+      {
+        "question": "12 ÷ 6 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Think: 6 × 2 = 12"
+      },
+      {
+        "question": "18 ÷ 6 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 6 × 3 = 18"
+      },
+      {
+        "question": "24 ÷ 6 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 6 × 4 = 24"
+      },
+      {
+        "question": "30 ÷ 6 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Think: 6 × 5 = 30"
+      },
+      {
+        "question": "36 ÷ 6 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 6 × 6 = 36"
+      },
+      {
+        "question": "42 ÷ 6 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 6 × 7 = 42"
+      },
+      {
+        "question": "48 ÷ 6 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "Think: 6 × 8 = 48"
+      },
+      {
+        "question": "54 ÷ 6 = ?",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "hint": "Think: 6 × 9 = 54"
+      },
+      {
+        "question": "60 ÷ 6 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Think: 6 × 10 = 60"
+      },
+      {
+        "question": "42 eggs in cartons of 6. How many cartons?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "42 ÷ 6 = 7 cartons"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-by-7-8-9",
+    "title": "Divide by 7, 8, and 9",
+    "description": "Practice harder division facts",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Divide by 7, 8, and 9",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "14 ÷ 7 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Think: 7 × 2 = 14"
+      },
+      {
+        "question": "21 ÷ 7 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 7 × 3 = 21"
+      },
+      {
+        "question": "56 ÷ 7 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Think: 7 × 8 = 56"
+      },
+      {
+        "question": "63 ÷ 7 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Think: 7 × 9 = 63"
+      },
+      {
+        "question": "16 ÷ 8 = ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Think: 8 × 2 = 16"
+      },
+      {
+        "question": "32 ÷ 8 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 8 × 4 = 32"
+      },
+      {
+        "question": "64 ÷ 8 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Think: 8 × 8 = 64"
+      },
+      {
+        "question": "72 ÷ 8 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Think: 8 × 9 = 72"
+      },
+      {
+        "question": "27 ÷ 9 = ?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Think: 9 × 3 = 27"
+      },
+      {
+        "question": "81 ÷ 9 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Think: 9 × 9 = 81"
+      },
+      {
+        "question": "56 days is how many weeks?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "56 ÷ 7 = 8 weeks"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-mixed-facts",
+    "title": "Mixed Division Facts",
+    "description": "Practice division facts from all divisors",
+    "grade_level": 3,
+    "topic": "Division",
+    "skill": "Mixed division facts to 100÷10",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "24 ÷ 6 = ?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Think: 6 × 4 = 24"
+      },
+      {
+        "question": "35 ÷ 5 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "Think: 5 × 7 = 35"
+      },
+      {
+        "question": "48 ÷ 8 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 8 × 6 = 48"
+      },
+      {
+        "question": "36 ÷ 4 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Think: 4 × 9 = 36"
+      },
+      {
+        "question": "42 ÷ 7 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 7 × 6 = 42"
+      },
+      {
+        "question": "54 ÷ 9 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Think: 9 × 6 = 54"
+      },
+      {
+        "question": "28 ÷ 4 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 4 × 7 = 28"
+      },
+      {
+        "question": "45 ÷ 5 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Think: 5 × 9 = 45"
+      },
+      {
+        "question": "72 ÷ 9 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Think: 9 × 8 = 72"
+      },
+      {
+        "question": "63 ÷ 9 = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: 9 × 7 = 63"
+      },
+      {
+        "question": "100 ÷ 10 = ?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "hint": "Remove the zero: 100 ÷ 10 = 10"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-add-3digit-no-regroup",
+    "title": "Add 3-digit numbers without regrouping",
+    "description": "Practice adding 3-digit numbers without carrying",
+    "grade_level": 3,
+    "topic": "Addition",
+    "skill": "Add 3-digit numbers without regrouping",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "123 + 456 = ?",
+        "options": [
+          "569",
+          "579",
+          "589",
+          "679"
+        ],
+        "answer": "579",
+        "hint": "Add ones: 3+6=9, tens: 2+5=7, hundreds: 1+4=5"
+      },
+      {
+        "question": "234 + 152 = ?",
+        "options": [
+          "376",
+          "386",
+          "396",
+          "486"
+        ],
+        "answer": "386",
+        "hint": "Add each place: 4+2, 3+5, 2+1"
+      },
+      {
+        "question": "312 + 245 = ?",
+        "options": [
+          "547",
+          "557",
+          "567",
+          "657"
+        ],
+        "answer": "557",
+        "hint": "Add ones: 2+5=7, tens: 1+4=5, hundreds: 3+2=5"
+      },
+      {
+        "question": "421 + 378 = ?",
+        "options": [
+          "789",
+          "799",
+          "809",
+          "899"
+        ],
+        "answer": "799",
+        "hint": "Add: 1+8=9, 2+7=9, 4+3=7"
+      },
+      {
+        "question": "503 + 294 = ?",
+        "options": [
+          "787",
+          "797",
+          "807",
+          "897"
+        ],
+        "answer": "797",
+        "hint": "Add: 3+4=7, 0+9=9, 5+2=7"
+      },
+      {
+        "question": "612 + 183 = ?",
+        "options": [
+          "785",
+          "795",
+          "805",
+          "895"
+        ],
+        "answer": "795",
+        "hint": "Add: 2+3=5, 1+8=9, 6+1=7"
+      },
+      {
+        "question": "241 + 536 = ?",
+        "options": [
+          "767",
+          "777",
+          "787",
+          "877"
+        ],
+        "answer": "777",
+        "hint": "Add: 1+6=7, 4+3=7, 2+5=7"
+      },
+      {
+        "question": "134 + 652 = ?",
+        "options": [
+          "776",
+          "786",
+          "796",
+          "886"
+        ],
+        "answer": "786",
+        "hint": "Add: 4+2=6, 3+5=8, 1+6=7"
+      },
+      {
+        "question": "320 + 458 = ?",
+        "options": [
+          "768",
+          "778",
+          "788",
+          "878"
+        ],
+        "answer": "778",
+        "hint": "Add: 0+8=8, 2+5=7, 3+4=7"
+      },
+      {
+        "question": "415 + 283 = ?",
+        "options": [
+          "688",
+          "698",
+          "708",
+          "798"
+        ],
+        "answer": "698",
+        "hint": "Add: 5+3=8, 1+8=9, 4+2=6"
+      },
+      {
+        "question": "231 + 468 = ?",
+        "options": [
+          "689",
+          "699",
+          "709",
+          "799"
+        ],
+        "answer": "699",
+        "hint": "Add each column from right to left"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-add-3digit-regroup",
+    "title": "Add 3-digit numbers with regrouping",
+    "description": "Practice adding 3-digit numbers with carrying",
+    "grade_level": 3,
+    "topic": "Addition",
+    "skill": "Add 3-digit numbers with regrouping",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "256 + 187 = ?",
+        "options": [
+          "433",
+          "443",
+          "453",
+          "543"
+        ],
+        "answer": "443",
+        "hint": "6+7=13 (carry 1), 5+8+1=14 (carry 1), 2+1+1=4"
+      },
+      {
+        "question": "378 + 245 = ?",
+        "options": [
+          "613",
+          "623",
+          "633",
+          "723"
+        ],
+        "answer": "623",
+        "hint": "8+5=13 (carry 1), 7+4+1=12 (carry 1), 3+2+1=6"
+      },
+      {
+        "question": "459 + 283 = ?",
+        "options": [
+          "732",
+          "742",
+          "752",
+          "842"
+        ],
+        "answer": "742",
+        "hint": "9+3=12 (carry 1), 5+8+1=14 (carry 1), 4+2+1=7"
+      },
+      {
+        "question": "567 + 275 = ?",
+        "options": [
+          "832",
+          "842",
+          "852",
+          "942"
+        ],
+        "answer": "842",
+        "hint": "7+5=12 (carry 1), 6+7+1=14 (carry 1), 5+2+1=8"
+      },
+      {
+        "question": "486 + 357 = ?",
+        "options": [
+          "833",
+          "843",
+          "853",
+          "943"
+        ],
+        "answer": "843",
+        "hint": "6+7=13 (carry 1), 8+5+1=14 (carry 1), 4+3+1=8"
+      },
+      {
+        "question": "294 + 538 = ?",
+        "options": [
+          "822",
+          "832",
+          "842",
+          "932"
+        ],
+        "answer": "832",
+        "hint": "4+8=12, 9+3+1=13, 2+5+1=8"
+      },
+      {
+        "question": "365 + 478 = ?",
+        "options": [
+          "833",
+          "843",
+          "853",
+          "943"
+        ],
+        "answer": "843",
+        "hint": "5+8=13, 6+7+1=14, 3+4+1=8"
+      },
+      {
+        "question": "179 + 456 = ?",
+        "options": [
+          "625",
+          "635",
+          "645",
+          "735"
+        ],
+        "answer": "635",
+        "hint": "9+6=15, 7+5+1=13, 1+4+1=6"
+      },
+      {
+        "question": "287 + 365 = ?",
+        "options": [
+          "642",
+          "652",
+          "662",
+          "752"
+        ],
+        "answer": "652",
+        "hint": "7+5=12, 8+6+1=15, 2+3+1=6"
+      },
+      {
+        "question": "493 + 258 = ?",
+        "options": [
+          "741",
+          "751",
+          "761",
+          "851"
+        ],
+        "answer": "751",
+        "hint": "3+8=11, 9+5+1=15, 4+2+1=7"
+      },
+      {
+        "question": "576 + 348 = ?",
+        "options": [
+          "914",
+          "924",
+          "934",
+          "944"
+        ],
+        "answer": "924",
+        "hint": "Add and carry when sum is 10 or more"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-subtract-3digit-no-regroup",
+    "title": "Subtract 3-digit numbers without regrouping",
+    "description": "Practice subtracting 3-digit numbers without borrowing",
+    "grade_level": 3,
+    "topic": "Subtraction",
+    "skill": "Subtract 3-digit numbers without regrouping",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "589 - 234 = ?",
+        "options": [
+          "345",
+          "355",
+          "365",
+          "455"
+        ],
+        "answer": "355",
+        "hint": "Subtract: 9-4=5, 8-3=5, 5-2=3"
+      },
+      {
+        "question": "697 - 452 = ?",
+        "options": [
+          "235",
+          "245",
+          "255",
+          "345"
+        ],
+        "answer": "245",
+        "hint": "Subtract: 7-2=5, 9-5=4, 6-4=2"
+      },
+      {
+        "question": "876 - 341 = ?",
+        "options": [
+          "525",
+          "535",
+          "545",
+          "635"
+        ],
+        "answer": "535",
+        "hint": "Subtract: 6-1=5, 7-4=3, 8-3=5"
+      },
+      {
+        "question": "758 - 326 = ?",
+        "options": [
+          "422",
+          "432",
+          "442",
+          "532"
+        ],
+        "answer": "432",
+        "hint": "Subtract: 8-6=2, 5-2=3, 7-3=4"
+      },
+      {
+        "question": "965 - 543 = ?",
+        "options": [
+          "412",
+          "422",
+          "432",
+          "522"
+        ],
+        "answer": "422",
+        "hint": "Subtract: 5-3=2, 6-4=2, 9-5=4"
+      },
+      {
+        "question": "847 - 235 = ?",
+        "options": [
+          "602",
+          "612",
+          "622",
+          "712"
+        ],
+        "answer": "612",
+        "hint": "Subtract: 7-5=2, 4-3=1, 8-2=6"
+      },
+      {
+        "question": "678 - 456 = ?",
+        "options": [
+          "212",
+          "222",
+          "232",
+          "322"
+        ],
+        "answer": "222",
+        "hint": "Subtract each column"
+      },
+      {
+        "question": "789 - 367 = ?",
+        "options": [
+          "412",
+          "422",
+          "432",
+          "522"
+        ],
+        "answer": "422",
+        "hint": "Subtract: 9-7=2, 8-6=2, 7-3=4"
+      },
+      {
+        "question": "596 - 284 = ?",
+        "options": [
+          "302",
+          "312",
+          "322",
+          "412"
+        ],
+        "answer": "312",
+        "hint": "Subtract: 6-4=2, 9-8=1, 5-2=3"
+      },
+      {
+        "question": "987 - 654 = ?",
+        "options": [
+          "323",
+          "333",
+          "343",
+          "433"
+        ],
+        "answer": "333",
+        "hint": "Subtract each place value"
+      },
+      {
+        "question": "859 - 437 = ?",
+        "options": [
+          "412",
+          "422",
+          "432",
+          "522"
+        ],
+        "answer": "422",
+        "hint": "Subtract column by column"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-subtract-3digit-regroup",
+    "title": "Subtract 3-digit numbers with regrouping",
+    "description": "Practice subtracting 3-digit numbers with borrowing",
+    "grade_level": 3,
+    "topic": "Subtraction",
+    "skill": "Subtract 3-digit numbers with regrouping",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "523 - 267 = ?",
+        "options": [
+          "246",
+          "256",
+          "266",
+          "356"
+        ],
+        "answer": "256",
+        "hint": "Borrow: 13-7=6, 11-6=5, 4-2=2"
+      },
+      {
+        "question": "614 - 358 = ?",
+        "options": [
+          "246",
+          "256",
+          "266",
+          "356"
+        ],
+        "answer": "256",
+        "hint": "14-8=6, borrow to get 10-5=5, 5-3=2"
+      },
+      {
+        "question": "732 - 485 = ?",
+        "options": [
+          "237",
+          "247",
+          "257",
+          "347"
+        ],
+        "answer": "247",
+        "hint": "Borrow from tens, then hundreds"
+      },
+      {
+        "question": "841 - 376 = ?",
+        "options": [
+          "455",
+          "465",
+          "475",
+          "565"
+        ],
+        "answer": "465",
+        "hint": "11-6=5, 13-7=6, 7-3=4"
+      },
+      {
+        "question": "500 - 234 = ?",
+        "options": [
+          "256",
+          "266",
+          "276",
+          "366"
+        ],
+        "answer": "266",
+        "hint": "Borrow across zeros: 500 becomes 4-9-10"
+      },
+      {
+        "question": "603 - 248 = ?",
+        "options": [
+          "345",
+          "355",
+          "365",
+          "455"
+        ],
+        "answer": "355",
+        "hint": "Borrow from the hundreds place"
+      },
+      {
+        "question": "712 - 456 = ?",
+        "options": [
+          "246",
+          "256",
+          "266",
+          "356"
+        ],
+        "answer": "256",
+        "hint": "12-6=6, 10-5=5, 6-4=2"
+      },
+      {
+        "question": "835 - 479 = ?",
+        "options": [
+          "346",
+          "356",
+          "366",
+          "456"
+        ],
+        "answer": "356",
+        "hint": "15-9=6, 12-7=5, 7-4=3"
+      },
+      {
+        "question": "904 - 567 = ?",
+        "options": [
+          "327",
+          "337",
+          "347",
+          "437"
+        ],
+        "answer": "337",
+        "hint": "Borrow across the zero"
+      },
+      {
+        "question": "621 - 385 = ?",
+        "options": [
+          "226",
+          "236",
+          "246",
+          "336"
+        ],
+        "answer": "236",
+        "hint": "11-5=6, 11-8=3, 5-3=2"
+      },
+      {
+        "question": "700 - 453 = ?",
+        "options": [
+          "237",
+          "247",
+          "257",
+          "347"
+        ],
+        "answer": "247",
+        "hint": "700 = 6 hundreds, 9 tens, 10 ones after borrowing"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-add-subtract-word-problems",
+    "title": "Addition and Subtraction Word Problems",
+    "description": "Solve real-world addition and subtraction problems",
+    "grade_level": 3,
+    "topic": "Problem Solving",
+    "skill": "Add and subtract within 1000 word problems",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A library has 456 books. They get 287 more. How many total?",
+        "options": [
+          "733",
+          "743",
+          "753",
+          "843"
+        ],
+        "answer": "743",
+        "hint": "Add: 456 + 287 = 743"
+      },
+      {
+        "question": "Maria has 500 stickers. She gives away 175. How many left?",
+        "options": [
+          "315",
+          "325",
+          "335",
+          "425"
+        ],
+        "answer": "325",
+        "hint": "Subtract: 500 - 175 = 325"
+      },
+      {
+        "question": "A train has 234 passengers. 158 more get on. How many now?",
+        "options": [
+          "382",
+          "392",
+          "402",
+          "492"
+        ],
+        "answer": "392",
+        "hint": "Add: 234 + 158 = 392"
+      },
+      {
+        "question": "A school has 612 students. 189 are absent. How many present?",
+        "options": [
+          "413",
+          "423",
+          "433",
+          "523"
+        ],
+        "answer": "423",
+        "hint": "Subtract: 612 - 189 = 423"
+      },
+      {
+        "question": "Tom read 145 pages. Then he read 267 more. Total pages?",
+        "options": [
+          "402",
+          "412",
+          "422",
+          "512"
+        ],
+        "answer": "412",
+        "hint": "Add: 145 + 267 = 412"
+      },
+      {
+        "question": "A store had 800 apples. Sold 356. How many left?",
+        "options": [
+          "434",
+          "444",
+          "454",
+          "544"
+        ],
+        "answer": "444",
+        "hint": "Subtract: 800 - 356 = 444"
+      },
+      {
+        "question": "Class A has 189 points. Class B has 276 points. Total?",
+        "options": [
+          "455",
+          "465",
+          "475",
+          "565"
+        ],
+        "answer": "465",
+        "hint": "Add: 189 + 276 = 465"
+      },
+      {
+        "question": "A jar has 425 marbles. 178 are removed. How many left?",
+        "options": [
+          "237",
+          "247",
+          "257",
+          "347"
+        ],
+        "answer": "247",
+        "hint": "Subtract: 425 - 178 = 247"
+      },
+      {
+        "question": "A bakery makes 356 cookies and 287 muffins. Total items?",
+        "options": [
+          "633",
+          "643",
+          "653",
+          "743"
+        ],
+        "answer": "643",
+        "hint": "Add: 356 + 287 = 643"
+      },
+      {
+        "question": "Sam has 503 cards. He trades 249. How many now?",
+        "options": [
+          "244",
+          "254",
+          "264",
+          "354"
+        ],
+        "answer": "254",
+        "hint": "Subtract: 503 - 249 = 254"
+      },
+      {
+        "question": "A farm has 267 cows and 385 sheep. How many animals?",
+        "options": [
+          "642",
+          "652",
+          "662",
+          "752"
+        ],
+        "answer": "652",
+        "hint": "Add: 267 + 385 = 652"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-fractions-parts-of-whole",
+    "title": "Fractions: Parts of a Whole",
+    "description": "Identify fractions as parts of a whole",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill": "Identify fractions as parts of a whole",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "A pizza is cut into 8 equal slices. You eat 3. What fraction did you eat?",
+        "options": [
+          "3/5",
+          "3/8",
+          "5/8",
+          "8/3"
+        ],
+        "answer": "3/8",
+        "hint": "You ate 3 out of 8 slices = 3/8"
+      },
+      {
+        "question": "A pie is cut into 6 equal pieces. 2 are eaten. What fraction is left?",
+        "options": [
+          "2/6",
+          "4/6",
+          "2/4",
+          "6/4"
+        ],
+        "answer": "4/6",
+        "hint": "6-2=4 pieces left out of 6 = 4/6"
+      },
+      {
+        "question": "A rectangle is divided into 4 equal parts. 1 is shaded. What fraction is shaded?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/4",
+        "hint": "1 out of 4 equal parts = 1/4"
+      },
+      {
+        "question": "A circle is divided into 3 equal parts. 2 are colored. What fraction is colored?",
+        "options": [
+          "1/3",
+          "2/3",
+          "3/2",
+          "2/2"
+        ],
+        "answer": "2/3",
+        "hint": "2 out of 3 equal parts = 2/3"
+      },
+      {
+        "question": "In the fraction 5/8, what does the 8 represent?",
+        "options": [
+          "Parts shaded",
+          "Total equal parts",
+          "Parts left",
+          "Nothing"
+        ],
+        "answer": "Total equal parts",
+        "hint": "The bottom number (denominator) shows total parts"
+      },
+      {
+        "question": "In the fraction 3/4, what does the 3 represent?",
+        "options": [
+          "Parts we're talking about",
+          "Total parts",
+          "Parts left",
+          "Nothing"
+        ],
+        "answer": "Parts we're talking about",
+        "hint": "The top number (numerator) shows parts counted"
+      },
+      {
+        "question": "A shape has 5 equal parts. 4 are shaded. What fraction is NOT shaded?",
+        "options": [
+          "1/5",
+          "4/5",
+          "1/4",
+          "5/4"
+        ],
+        "answer": "1/5",
+        "hint": "5-4=1 part not shaded, out of 5 = 1/5"
+      },
+      {
+        "question": "What fraction of a week is 3 days?",
+        "options": [
+          "3/5",
+          "3/6",
+          "3/7",
+          "3/10"
+        ],
+        "answer": "3/7",
+        "hint": "A week has 7 days, so 3 days = 3/7"
+      },
+      {
+        "question": "What fraction of a dozen eggs is 5 eggs?",
+        "options": [
+          "5/10",
+          "5/12",
+          "5/6",
+          "12/5"
+        ],
+        "answer": "5/12",
+        "hint": "A dozen is 12, so 5 eggs = 5/12"
+      },
+      {
+        "question": "A bar is divided into 10 equal parts. 7 are colored. What fraction is colored?",
+        "options": [
+          "3/10",
+          "7/10",
+          "7/3",
+          "10/7"
+        ],
+        "answer": "7/10",
+        "hint": "7 out of 10 equal parts = 7/10"
+      },
+      {
+        "question": "8 out of 8 equal parts are shaded. What fraction is shaded?",
+        "options": [
+          "0/8",
+          "1/8",
+          "8/8",
+          "8/1"
+        ],
+        "answer": "8/8",
+        "hint": "8/8 = 1 whole (all parts shaded)"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-fractions-number-line",
+    "title": "Fractions on a Number Line",
+    "description": "Locate and identify fractions on a number line",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill": "Represent fractions on a number line",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "On a number line from 0 to 1 divided into 4 equal parts, where is 1/4?",
+        "options": [
+          "First mark after 0",
+          "Second mark",
+          "Third mark",
+          "At 1"
+        ],
+        "answer": "First mark after 0",
+        "hint": "1/4 is the first of four equal parts from 0"
+      },
+      {
+        "question": "On a number line from 0 to 1 divided into 2 parts, where is 1/2?",
+        "options": [
+          "At 0",
+          "Halfway between 0 and 1",
+          "At 1",
+          "Before 0"
+        ],
+        "answer": "Halfway between 0 and 1",
+        "hint": "1/2 is exactly in the middle"
+      },
+      {
+        "question": "If 0 to 1 is divided into 8 equal parts, which fraction is at the 3rd mark?",
+        "options": [
+          "1/8",
+          "2/8",
+          "3/8",
+          "4/8"
+        ],
+        "answer": "3/8",
+        "hint": "The 3rd mark from 0 represents 3/8"
+      },
+      {
+        "question": "On a number line, which is closer to 0: 1/4 or 3/4?",
+        "options": [
+          "1/4",
+          "3/4",
+          "Same distance",
+          "Cannot tell"
+        ],
+        "answer": "1/4",
+        "hint": "1/4 is only 1 part from 0, while 3/4 is 3 parts"
+      },
+      {
+        "question": "If 0 to 1 is divided into 6 equal parts, what fraction is at the 6th mark?",
+        "options": [
+          "5/6",
+          "6/6",
+          "6/5",
+          "7/6"
+        ],
+        "answer": "6/6",
+        "hint": "6/6 = 1 whole, at the end of the line"
+      },
+      {
+        "question": "On a number line from 0 to 1, which fraction is between 1/4 and 3/4?",
+        "options": [
+          "1/8",
+          "2/4",
+          "4/4",
+          "5/4"
+        ],
+        "answer": "2/4",
+        "hint": "2/4 (or 1/2) is between 1/4 and 3/4"
+      },
+      {
+        "question": "Where is 0/4 on a number line from 0 to 1?",
+        "options": [
+          "At 0",
+          "At 1/4",
+          "At 1/2",
+          "At 1"
+        ],
+        "answer": "At 0",
+        "hint": "0/4 = 0, which is at the start"
+      },
+      {
+        "question": "If each part on a number line is 1/3, how many parts from 0 to 1?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "3 parts of 1/3 each make a whole"
+      },
+      {
+        "question": "On a number line from 0 to 1 with 5 equal parts, what is at the 4th mark?",
+        "options": [
+          "3/5",
+          "4/5",
+          "5/4",
+          "4/4"
+        ],
+        "answer": "4/5",
+        "hint": "The 4th mark represents 4/5"
+      },
+      {
+        "question": "Which fraction is at the same point as 1 on a number line?",
+        "options": [
+          "3/4",
+          "4/4",
+          "5/4",
+          "4/5"
+        ],
+        "answer": "4/4",
+        "hint": "4/4 = 1 whole"
+      },
+      {
+        "question": "On a number line, 5/8 is between which two fractions?",
+        "options": [
+          "0 and 1/2",
+          "1/2 and 1",
+          "1 and 2",
+          "Before 0"
+        ],
+        "answer": "1/2 and 1",
+        "hint": "5/8 is more than 4/8 (1/2) but less than 8/8 (1)"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-fractions-comparing",
+    "title": "Comparing Fractions",
+    "description": "Compare fractions with same numerator or denominator",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill": "Compare fractions with same numerator or denominator",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Which is larger: 3/4 or 1/4?",
+        "options": [
+          "3/4",
+          "1/4",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "3/4",
+        "hint": "Same denominator: more parts = larger (3 > 1)"
+      },
+      {
+        "question": "Which is larger: 1/3 or 1/5?",
+        "options": [
+          "1/3",
+          "1/5",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "1/3",
+        "hint": "Same numerator: smaller denominator = larger pieces"
+      },
+      {
+        "question": "Which is larger: 5/8 or 3/8?",
+        "options": [
+          "5/8",
+          "3/8",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "5/8",
+        "hint": "Same denominator: 5 parts > 3 parts"
+      },
+      {
+        "question": "Which is larger: 2/6 or 2/4?",
+        "options": [
+          "2/6",
+          "2/4",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "2/4",
+        "hint": "Same numerator: 4ths are bigger pieces than 6ths"
+      },
+      {
+        "question": "Which is larger: 1/2 or 1/8?",
+        "options": [
+          "1/2",
+          "1/8",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "1/2",
+        "hint": "1/2 is a much bigger piece than 1/8"
+      },
+      {
+        "question": "Which is smaller: 4/6 or 2/6?",
+        "options": [
+          "4/6",
+          "2/6",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "2/6",
+        "hint": "Same denominator: fewer parts = smaller"
+      },
+      {
+        "question": "Compare: 3/8 ○ 5/8",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "Cannot compare"
+        ],
+        "answer": "<",
+        "hint": "3/8 is less than 5/8 (3 < 5)"
+      },
+      {
+        "question": "Compare: 1/4 ○ 1/6",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "Cannot compare"
+        ],
+        "answer": ">",
+        "hint": "Fourths are bigger than sixths"
+      },
+      {
+        "question": "Which is larger: 7/8 or 5/8?",
+        "options": [
+          "7/8",
+          "5/8",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "7/8",
+        "hint": "7 eighths > 5 eighths"
+      },
+      {
+        "question": "Which is smaller: 3/4 or 3/8?",
+        "options": [
+          "3/4",
+          "3/8",
+          "Same",
+          "Cannot compare"
+        ],
+        "answer": "3/8",
+        "hint": "Same numerator: 8ths are smaller pieces than 4ths"
+      },
+      {
+        "question": "Compare: 6/6 ○ 4/6",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "Cannot compare"
+        ],
+        "answer": ">",
+        "hint": "6/6 is a whole, which is more than 4/6"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-fractions-equivalent",
+    "title": "Equivalent Fractions",
+    "description": "Recognize and generate simple equivalent fractions",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill": "Recognize and generate equivalent fractions",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Which fraction equals 1/2?",
+        "options": [
+          "1/4",
+          "2/4",
+          "3/4",
+          "2/3"
+        ],
+        "answer": "2/4",
+        "hint": "1/2 = 2/4 (multiply top and bottom by 2)"
+      },
+      {
+        "question": "Which fraction equals 2/4?",
+        "options": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "4/2"
+        ],
+        "answer": "1/2",
+        "hint": "2/4 simplifies to 1/2 (divide both by 2)"
+      },
+      {
+        "question": "Which fraction equals 1/3?",
+        "options": [
+          "2/3",
+          "2/6",
+          "3/6",
+          "1/6"
+        ],
+        "answer": "2/6",
+        "hint": "1/3 = 2/6 (multiply top and bottom by 2)"
+      },
+      {
+        "question": "Which fraction equals 3/6?",
+        "options": [
+          "1/3",
+          "1/2",
+          "2/3",
+          "3/3"
+        ],
+        "answer": "1/2",
+        "hint": "3/6 simplifies to 1/2 (divide both by 3)"
+      },
+      {
+        "question": "Which fraction equals 4/8?",
+        "options": [
+          "1/4",
+          "2/4",
+          "1/2",
+          "4/4"
+        ],
+        "answer": "1/2",
+        "hint": "4/8 = 1/2 (divide both by 4)"
+      },
+      {
+        "question": "1/4 = ?/8",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "1/4 = 2/8 (multiply top and bottom by 2)"
+      },
+      {
+        "question": "2/3 = ?/6",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "2/3 = 4/6 (multiply top and bottom by 2)"
+      },
+      {
+        "question": "Which fraction equals 6/8?",
+        "options": [
+          "1/2",
+          "2/4",
+          "3/4",
+          "4/8"
+        ],
+        "answer": "3/4",
+        "hint": "6/8 = 3/4 (divide both by 2)"
+      },
+      {
+        "question": "3/3 equals what whole number?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "hint": "3/3 = 1 whole"
+      },
+      {
+        "question": "Which is NOT equivalent to 1/2?",
+        "options": [
+          "2/4",
+          "3/6",
+          "4/8",
+          "3/8"
+        ],
+        "answer": "3/8",
+        "hint": "3/8 is not equal to 1/2 (which is 4/8)"
+      },
+      {
+        "question": "2/2 = ?/4",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "4",
+        "hint": "2/2 = 1 whole = 4/4"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-fractions-whole-numbers",
+    "title": "Fractions and Whole Numbers",
+    "description": "Express whole numbers as fractions and understand unit fractions",
+    "grade_level": 3,
+    "topic": "Fractions",
+    "skill": "Express whole numbers as fractions",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How do you write 1 as a fraction with denominator 4?",
+        "options": [
+          "1/4",
+          "2/4",
+          "3/4",
+          "4/4"
+        ],
+        "answer": "4/4",
+        "hint": "1 whole = 4/4 (all 4 parts)"
+      },
+      {
+        "question": "How do you write 1 as a fraction with denominator 6?",
+        "options": [
+          "1/6",
+          "3/6",
+          "5/6",
+          "6/6"
+        ],
+        "answer": "6/6",
+        "hint": "1 whole = 6/6 (all 6 parts)"
+      },
+      {
+        "question": "What whole number does 8/8 equal?",
+        "options": [
+          "0",
+          "1",
+          "8",
+          "16"
+        ],
+        "answer": "1",
+        "hint": "8/8 = 1 whole"
+      },
+      {
+        "question": "What whole number does 3/1 equal?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "hint": "3/1 = 3 (dividing by 1 gives the same number)"
+      },
+      {
+        "question": "How many 1/4s make a whole?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "4 fourths = 4/4 = 1 whole"
+      },
+      {
+        "question": "How many 1/3s make a whole?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "3 thirds = 3/3 = 1 whole"
+      },
+      {
+        "question": "How many 1/8s make a whole?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "10"
+        ],
+        "answer": "8",
+        "hint": "8 eighths = 8/8 = 1 whole"
+      },
+      {
+        "question": "2 = ?/2",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "4",
+        "hint": "2 wholes = 4 halves (4/2)"
+      },
+      {
+        "question": "Which is greater: 1 or 5/6?",
+        "options": [
+          "1",
+          "5/6",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "1",
+        "hint": "1 = 6/6, and 6/6 > 5/6"
+      },
+      {
+        "question": "Which is greater: 7/4 or 1?",
+        "options": [
+          "7/4",
+          "1",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "7/4",
+        "hint": "7/4 is more than 4/4 (which is 1)"
+      },
+      {
+        "question": "What is 6/1?",
+        "options": [
+          "1",
+          "6",
+          "1/6",
+          "0"
+        ],
+        "answer": "6",
+        "hint": "Any number divided by 1 equals itself"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-area-intro",
+    "title": "Introduction to Area",
+    "description": "Understand area as covering a shape with unit squares",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Understand area as covering with unit squares",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is area?",
+        "options": [
+          "Distance around",
+          "Space inside",
+          "How tall",
+          "How heavy"
+        ],
+        "answer": "Space inside",
+        "hint": "Area measures the space inside a flat shape"
+      },
+      {
+        "question": "Area is measured in what units?",
+        "options": [
+          "Inches",
+          "Square inches",
+          "Cubic inches",
+          "Pounds"
+        ],
+        "answer": "Square inches",
+        "hint": "Area uses square units (sq in, sq cm, etc.)"
+      },
+      {
+        "question": "A rectangle is covered by 12 unit squares. What is its area?",
+        "options": [
+          "6 sq units",
+          "12 sq units",
+          "24 sq units",
+          "36 sq units"
+        ],
+        "answer": "12 sq units",
+        "hint": "Count the unit squares to find area"
+      },
+      {
+        "question": "A shape is covered by 8 unit squares. What is its area?",
+        "options": [
+          "4 sq units",
+          "8 sq units",
+          "16 sq units",
+          "24 sq units"
+        ],
+        "answer": "8 sq units",
+        "hint": "Area = number of unit squares"
+      },
+      {
+        "question": "Which has more area: a shape with 15 unit squares or 10 unit squares?",
+        "options": [
+          "15 unit squares",
+          "10 unit squares",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "15 unit squares",
+        "hint": "More unit squares = more area"
+      },
+      {
+        "question": "A rectangle has 4 rows of 5 unit squares. What is its area?",
+        "options": [
+          "9 sq units",
+          "18 sq units",
+          "20 sq units",
+          "25 sq units"
+        ],
+        "answer": "20 sq units",
+        "hint": "4 rows × 5 squares = 20 squares"
+      },
+      {
+        "question": "A square has 3 rows of 3 unit squares. What is its area?",
+        "options": [
+          "6 sq units",
+          "9 sq units",
+          "12 sq units",
+          "15 sq units"
+        ],
+        "answer": "9 sq units",
+        "hint": "3 × 3 = 9 unit squares"
+      },
+      {
+        "question": "Two rectangles both have area 12 sq units. Must they be the same shape?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Cannot tell"
+        ],
+        "answer": "No",
+        "hint": "3×4 and 2×6 both equal 12 but look different"
+      },
+      {
+        "question": "A rectangle has 2 rows of 7 unit squares. What is its area?",
+        "options": [
+          "9 sq units",
+          "14 sq units",
+          "16 sq units",
+          "21 sq units"
+        ],
+        "answer": "14 sq units",
+        "hint": "2 × 7 = 14 unit squares"
+      },
+      {
+        "question": "Which unit would you use for the area of a book cover?",
+        "options": [
+          "Inches",
+          "Square inches",
+          "Cubic inches",
+          "Miles"
+        ],
+        "answer": "Square inches",
+        "hint": "Area is always in square units"
+      },
+      {
+        "question": "A rectangle is 5 units by 6 units. What is its area?",
+        "options": [
+          "11 sq units",
+          "22 sq units",
+          "30 sq units",
+          "56 sq units"
+        ],
+        "answer": "30 sq units",
+        "hint": "5 × 6 = 30 square units"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-area-rectangles",
+    "title": "Area of Rectangles",
+    "description": "Calculate area using length × width",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Calculate area of rectangles using multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A rectangle is 4 cm by 6 cm. What is its area?",
+        "options": [
+          "10 sq cm",
+          "20 sq cm",
+          "24 sq cm",
+          "28 sq cm"
+        ],
+        "answer": "24 sq cm",
+        "hint": "Area = length × width = 4 × 6 = 24"
+      },
+      {
+        "question": "A rectangle is 5 in by 7 in. What is its area?",
+        "options": [
+          "12 sq in",
+          "24 sq in",
+          "35 sq in",
+          "70 sq in"
+        ],
+        "answer": "35 sq in",
+        "hint": "Area = 5 × 7 = 35 square inches"
+      },
+      {
+        "question": "A square has sides of 8 m. What is its area?",
+        "options": [
+          "16 sq m",
+          "32 sq m",
+          "64 sq m",
+          "80 sq m"
+        ],
+        "answer": "64 sq m",
+        "hint": "Area of square = side × side = 8 × 8 = 64"
+      },
+      {
+        "question": "A rectangle is 9 ft by 3 ft. What is its area?",
+        "options": [
+          "12 sq ft",
+          "18 sq ft",
+          "27 sq ft",
+          "36 sq ft"
+        ],
+        "answer": "27 sq ft",
+        "hint": "Area = 9 × 3 = 27 square feet"
+      },
+      {
+        "question": "A rectangle is 10 cm by 4 cm. What is its area?",
+        "options": [
+          "14 sq cm",
+          "28 sq cm",
+          "40 sq cm",
+          "44 sq cm"
+        ],
+        "answer": "40 sq cm",
+        "hint": "Area = 10 × 4 = 40 square cm"
+      },
+      {
+        "question": "A square has sides of 6 in. What is its area?",
+        "options": [
+          "12 sq in",
+          "24 sq in",
+          "36 sq in",
+          "42 sq in"
+        ],
+        "answer": "36 sq in",
+        "hint": "Area = 6 × 6 = 36"
+      },
+      {
+        "question": "A rectangle is 8 m by 5 m. What is its area?",
+        "options": [
+          "13 sq m",
+          "26 sq m",
+          "40 sq m",
+          "80 sq m"
+        ],
+        "answer": "40 sq m",
+        "hint": "Area = 8 × 5 = 40"
+      },
+      {
+        "question": "A rectangle is 7 cm by 7 cm. What is its area?",
+        "options": [
+          "14 sq cm",
+          "28 sq cm",
+          "42 sq cm",
+          "49 sq cm"
+        ],
+        "answer": "49 sq cm",
+        "hint": "This is a square! 7 × 7 = 49"
+      },
+      {
+        "question": "A rug is 3 ft by 9 ft. What is its area?",
+        "options": [
+          "12 sq ft",
+          "18 sq ft",
+          "27 sq ft",
+          "36 sq ft"
+        ],
+        "answer": "27 sq ft",
+        "hint": "Area = 3 × 9 = 27 square feet"
+      },
+      {
+        "question": "A garden is 6 m by 8 m. What is its area?",
+        "options": [
+          "14 sq m",
+          "28 sq m",
+          "48 sq m",
+          "56 sq m"
+        ],
+        "answer": "48 sq m",
+        "hint": "Area = 6 × 8 = 48 square meters"
+      },
+      {
+        "question": "Which formula gives the area of a rectangle?",
+        "options": [
+          "length + width",
+          "length × width",
+          "2 × length + 2 × width",
+          "length ÷ width"
+        ],
+        "answer": "length × width",
+        "hint": "Area = length × width (or l × w)"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-perimeter-intro",
+    "title": "Introduction to Perimeter",
+    "description": "Understand perimeter as distance around a shape",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Understand perimeter as distance around",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is perimeter?",
+        "options": [
+          "Space inside",
+          "Distance around",
+          "How tall",
+          "How heavy"
+        ],
+        "answer": "Distance around",
+        "hint": "Perimeter is the distance around a shape"
+      },
+      {
+        "question": "How do you find perimeter?",
+        "options": [
+          "Multiply sides",
+          "Divide sides",
+          "Add all sides",
+          "Subtract sides"
+        ],
+        "answer": "Add all sides",
+        "hint": "Perimeter = sum of all side lengths"
+      },
+      {
+        "question": "A triangle has sides 3, 4, and 5. What is its perimeter?",
+        "options": [
+          "7",
+          "9",
+          "12",
+          "15"
+        ],
+        "answer": "12",
+        "hint": "Add: 3 + 4 + 5 = 12"
+      },
+      {
+        "question": "A square has sides of 5 cm each. What is its perimeter?",
+        "options": [
+          "10 cm",
+          "15 cm",
+          "20 cm",
+          "25 cm"
+        ],
+        "answer": "20 cm",
+        "hint": "4 sides × 5 cm = 20 cm"
+      },
+      {
+        "question": "Perimeter is measured in what units?",
+        "options": [
+          "Square units",
+          "Cubic units",
+          "Length units",
+          "Weight units"
+        ],
+        "answer": "Length units",
+        "hint": "Perimeter uses length units (cm, m, in, ft)"
+      },
+      {
+        "question": "A rectangle has sides 6 and 4. What is its perimeter?",
+        "options": [
+          "10",
+          "20",
+          "24",
+          "48"
+        ],
+        "answer": "20",
+        "hint": "Two 6s and two 4s: 6+6+4+4 = 20"
+      },
+      {
+        "question": "A pentagon has 5 equal sides of 3 cm. What is its perimeter?",
+        "options": [
+          "8 cm",
+          "12 cm",
+          "15 cm",
+          "18 cm"
+        ],
+        "answer": "15 cm",
+        "hint": "5 sides × 3 cm = 15 cm"
+      },
+      {
+        "question": "Which is perimeter: walking around a field or covering a field with grass?",
+        "options": [
+          "Walking around",
+          "Covering with grass",
+          "Both",
+          "Neither"
+        ],
+        "answer": "Walking around",
+        "hint": "Perimeter is the distance around (like a fence)"
+      },
+      {
+        "question": "A square has perimeter 24 cm. What is each side?",
+        "options": [
+          "4 cm",
+          "6 cm",
+          "8 cm",
+          "12 cm"
+        ],
+        "answer": "6 cm",
+        "hint": "24 ÷ 4 sides = 6 cm per side"
+      },
+      {
+        "question": "A triangle has equal sides. If perimeter is 18 m, what is each side?",
+        "options": [
+          "3 m",
+          "6 m",
+          "9 m",
+          "12 m"
+        ],
+        "answer": "6 m",
+        "hint": "18 ÷ 3 sides = 6 m per side"
+      },
+      {
+        "question": "A hexagon has 6 equal sides of 2 in. What is its perimeter?",
+        "options": [
+          "8 in",
+          "10 in",
+          "12 in",
+          "14 in"
+        ],
+        "answer": "12 in",
+        "hint": "6 sides × 2 in = 12 in"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-perimeter-rectangles",
+    "title": "Perimeter of Rectangles",
+    "description": "Calculate perimeter of rectangles and squares",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Calculate perimeter of rectangles",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A rectangle is 8 cm by 5 cm. What is its perimeter?",
+        "options": [
+          "13 cm",
+          "26 cm",
+          "40 cm",
+          "80 cm"
+        ],
+        "answer": "26 cm",
+        "hint": "P = 2×8 + 2×5 = 16 + 10 = 26"
+      },
+      {
+        "question": "A rectangle is 10 in by 4 in. What is its perimeter?",
+        "options": [
+          "14 in",
+          "28 in",
+          "40 in",
+          "80 in"
+        ],
+        "answer": "28 in",
+        "hint": "P = 2×10 + 2×4 = 20 + 8 = 28"
+      },
+      {
+        "question": "A square has sides of 9 m. What is its perimeter?",
+        "options": [
+          "18 m",
+          "27 m",
+          "36 m",
+          "81 m"
+        ],
+        "answer": "36 m",
+        "hint": "P = 4 × 9 = 36 m"
+      },
+      {
+        "question": "A rectangle is 7 ft by 3 ft. What is its perimeter?",
+        "options": [
+          "10 ft",
+          "20 ft",
+          "21 ft",
+          "42 ft"
+        ],
+        "answer": "20 ft",
+        "hint": "P = 2×7 + 2×3 = 14 + 6 = 20"
+      },
+      {
+        "question": "A rectangle is 12 cm by 6 cm. What is its perimeter?",
+        "options": [
+          "18 cm",
+          "36 cm",
+          "72 cm",
+          "144 cm"
+        ],
+        "answer": "36 cm",
+        "hint": "P = 2×12 + 2×6 = 24 + 12 = 36"
+      },
+      {
+        "question": "A square has sides of 11 in. What is its perimeter?",
+        "options": [
+          "22 in",
+          "33 in",
+          "44 in",
+          "121 in"
+        ],
+        "answer": "44 in",
+        "hint": "P = 4 × 11 = 44"
+      },
+      {
+        "question": "A rectangle is 9 m by 6 m. What is its perimeter?",
+        "options": [
+          "15 m",
+          "30 m",
+          "54 m",
+          "108 m"
+        ],
+        "answer": "30 m",
+        "hint": "P = 2×9 + 2×6 = 18 + 12 = 30"
+      },
+      {
+        "question": "A picture frame is 5 in by 7 in. How much frame material is needed?",
+        "options": [
+          "12 in",
+          "24 in",
+          "35 in",
+          "70 in"
+        ],
+        "answer": "24 in",
+        "hint": "Perimeter = 2×5 + 2×7 = 10 + 14 = 24"
+      },
+      {
+        "question": "A fence around a square garden with 8 m sides needs how many meters?",
+        "options": [
+          "16 m",
+          "24 m",
+          "32 m",
+          "64 m"
+        ],
+        "answer": "32 m",
+        "hint": "P = 4 × 8 = 32 m of fencing"
+      },
+      {
+        "question": "A rectangle has perimeter 30 cm. If length is 10 cm, what is width?",
+        "options": [
+          "5 cm",
+          "10 cm",
+          "15 cm",
+          "20 cm"
+        ],
+        "answer": "5 cm",
+        "hint": "30 = 2×10 + 2×w, so 30 = 20 + 2w, 2w = 10, w = 5"
+      },
+      {
+        "question": "Which formula gives perimeter of a rectangle?",
+        "options": [
+          "l × w",
+          "l + w",
+          "2l + 2w",
+          "4 × s"
+        ],
+        "answer": "2l + 2w",
+        "hint": "Perimeter = 2 × length + 2 × width"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-time-to-minute",
+    "title": "Tell Time to the Minute",
+    "description": "Read clocks and tell time to the nearest minute",
+    "grade_level": 3,
+    "topic": "Time",
+    "skill": "Tell and write time to the nearest minute",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If the minute hand points to 3, how many minutes past the hour?",
+        "options": [
+          "3",
+          "10",
+          "15",
+          "30"
+        ],
+        "answer": "15",
+        "hint": "Each number = 5 minutes. 3 × 5 = 15"
+      },
+      {
+        "question": "If the minute hand points to 7, how many minutes past the hour?",
+        "options": [
+          "7",
+          "28",
+          "35",
+          "42"
+        ],
+        "answer": "35",
+        "hint": "Each number = 5 minutes. 7 × 5 = 35"
+      },
+      {
+        "question": "What time is 25 minutes after 2:00?",
+        "options": [
+          "2:15",
+          "2:20",
+          "2:25",
+          "2:30"
+        ],
+        "answer": "2:25",
+        "hint": "2:00 + 25 minutes = 2:25"
+      },
+      {
+        "question": "What time is 47 minutes after 5:00?",
+        "options": [
+          "5:37",
+          "5:42",
+          "5:47",
+          "5:52"
+        ],
+        "answer": "5:47",
+        "hint": "5:00 + 47 minutes = 5:47"
+      },
+      {
+        "question": "If a clock shows 3:18, how many minutes past 3?",
+        "options": [
+          "8",
+          "13",
+          "18",
+          "28"
+        ],
+        "answer": "18",
+        "hint": "3:18 means 18 minutes past 3 o'clock"
+      },
+      {
+        "question": "What time is it when the hour hand is between 8 and 9, and minute hand on 11?",
+        "options": [
+          "8:11",
+          "8:55",
+          "9:11",
+          "11:08"
+        ],
+        "answer": "8:55",
+        "hint": "Minute hand on 11 = 55 minutes"
+      },
+      {
+        "question": "How many minutes from 4:35 to 5:00?",
+        "options": [
+          "15 min",
+          "20 min",
+          "25 min",
+          "35 min"
+        ],
+        "answer": "25 min",
+        "hint": "60 - 35 = 25 minutes until the next hour"
+      },
+      {
+        "question": "What time is 10 minutes before 9:00?",
+        "options": [
+          "8:10",
+          "8:50",
+          "9:10",
+          "9:50"
+        ],
+        "answer": "8:50",
+        "hint": "9:00 - 10 minutes = 8:50"
+      },
+      {
+        "question": "If it's 7:42, what will time be in 15 minutes?",
+        "options": [
+          "7:57",
+          "8:02",
+          "8:07",
+          "8:12"
+        ],
+        "answer": "7:57",
+        "hint": "7:42 + 15 = 7:57"
+      },
+      {
+        "question": "What time is quarter past 6?",
+        "options": [
+          "6:05",
+          "6:15",
+          "6:30",
+          "6:45"
+        ],
+        "answer": "6:15",
+        "hint": "Quarter past = 15 minutes after"
+      },
+      {
+        "question": "What time is quarter to 10?",
+        "options": [
+          "9:15",
+          "9:45",
+          "10:15",
+          "10:45"
+        ],
+        "answer": "9:45",
+        "hint": "Quarter to = 15 minutes before = 45 minutes past previous hour"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-time-elapsed",
+    "title": "Elapsed Time",
+    "description": "Calculate elapsed time in hours and minutes",
+    "grade_level": 3,
+    "topic": "Time",
+    "skill": "Solve elapsed time problems",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "From 2:00 to 5:00, how much time passed?",
+        "options": [
+          "2 hours",
+          "3 hours",
+          "4 hours",
+          "5 hours"
+        ],
+        "answer": "3 hours",
+        "hint": "Count: 2→3→4→5 = 3 hours"
+      },
+      {
+        "question": "From 8:30 to 9:30, how much time passed?",
+        "options": [
+          "30 min",
+          "1 hour",
+          "1 hour 30 min",
+          "2 hours"
+        ],
+        "answer": "1 hour",
+        "hint": "Same minutes, one hour apart = 1 hour"
+      },
+      {
+        "question": "From 3:15 to 3:45, how much time passed?",
+        "options": [
+          "15 min",
+          "30 min",
+          "45 min",
+          "1 hour"
+        ],
+        "answer": "30 min",
+        "hint": "45 - 15 = 30 minutes"
+      },
+      {
+        "question": "A movie starts at 4:00 and ends at 6:30. How long is it?",
+        "options": [
+          "1 hr 30 min",
+          "2 hr",
+          "2 hr 30 min",
+          "3 hr"
+        ],
+        "answer": "2 hr 30 min",
+        "hint": "4:00 to 6:00 = 2 hr, plus 30 min = 2 hr 30 min"
+      },
+      {
+        "question": "From 11:00 AM to 2:00 PM, how much time passed?",
+        "options": [
+          "2 hours",
+          "3 hours",
+          "4 hours",
+          "5 hours"
+        ],
+        "answer": "3 hours",
+        "hint": "11→12→1→2 = 3 hours"
+      },
+      {
+        "question": "School starts at 8:15 and ends at 3:15. How long is the school day?",
+        "options": [
+          "5 hours",
+          "6 hours",
+          "7 hours",
+          "8 hours"
+        ],
+        "answer": "7 hours",
+        "hint": "8:15 to 3:15 = 7 hours (same minutes)"
+      },
+      {
+        "question": "A game starts at 1:30 and lasts 2 hours. What time does it end?",
+        "options": [
+          "2:30",
+          "3:00",
+          "3:30",
+          "4:30"
+        ],
+        "answer": "3:30",
+        "hint": "1:30 + 2 hours = 3:30"
+      },
+      {
+        "question": "From 9:45 to 10:30, how much time passed?",
+        "options": [
+          "15 min",
+          "30 min",
+          "45 min",
+          "1 hr 15 min"
+        ],
+        "answer": "45 min",
+        "hint": "9:45 to 10:00 = 15 min, 10:00 to 10:30 = 30 min. Total = 45 min"
+      },
+      {
+        "question": "Practice starts at 4:15 and lasts 1 hour 30 minutes. End time?",
+        "options": [
+          "5:15",
+          "5:30",
+          "5:45",
+          "6:00"
+        ],
+        "answer": "5:45",
+        "hint": "4:15 + 1 hr = 5:15, + 30 min = 5:45"
+      },
+      {
+        "question": "From 7:20 to 8:05, how much time passed?",
+        "options": [
+          "35 min",
+          "40 min",
+          "45 min",
+          "55 min"
+        ],
+        "answer": "45 min",
+        "hint": "7:20 to 8:00 = 40 min, + 5 more = 45 min"
+      },
+      {
+        "question": "A trip takes 3 hours 15 minutes. If you leave at 10:00, when do you arrive?",
+        "options": [
+          "12:15",
+          "1:00",
+          "1:15",
+          "1:30"
+        ],
+        "answer": "1:15",
+        "hint": "10:00 + 3 hr = 1:00, + 15 min = 1:15"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-time-am-pm",
+    "title": "A.M. and P.M.",
+    "description": "Understand and use A.M. and P.M. correctly",
+    "grade_level": 3,
+    "topic": "Time",
+    "skill": "Distinguish between A.M. and P.M.",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Which time is in the morning: 8:00 A.M. or 8:00 P.M.?",
+        "options": [
+          "8:00 A.M.",
+          "8:00 P.M.",
+          "Both",
+          "Neither"
+        ],
+        "answer": "8:00 A.M.",
+        "hint": "A.M. = morning (midnight to noon)"
+      },
+      {
+        "question": "Which time is in the evening: 6:00 A.M. or 6:00 P.M.?",
+        "options": [
+          "6:00 A.M.",
+          "6:00 P.M.",
+          "Both",
+          "Neither"
+        ],
+        "answer": "6:00 P.M.",
+        "hint": "P.M. = afternoon and evening (noon to midnight)"
+      },
+      {
+        "question": "When do most people eat breakfast?",
+        "options": [
+          "7:00 A.M.",
+          "7:00 P.M.",
+          "12:00 A.M.",
+          "12:00 P.M."
+        ],
+        "answer": "7:00 A.M.",
+        "hint": "Breakfast is a morning meal (A.M.)"
+      },
+      {
+        "question": "When do most people eat dinner?",
+        "options": [
+          "6:00 A.M.",
+          "6:00 P.M.",
+          "12:00 A.M.",
+          "3:00 A.M."
+        ],
+        "answer": "6:00 P.M.",
+        "hint": "Dinner is an evening meal (P.M.)"
+      },
+      {
+        "question": "What does A.M. stand for?",
+        "options": [
+          "After Morning",
+          "Ante Meridiem (before midday)",
+          "After Midnight",
+          "All Morning"
+        ],
+        "answer": "Ante Meridiem (before midday)",
+        "hint": "A.M. is Latin for 'before midday'"
+      },
+      {
+        "question": "What does P.M. stand for?",
+        "options": [
+          "Past Morning",
+          "Post Meridiem (after midday)",
+          "Prior Midnight",
+          "Past Midday"
+        ],
+        "answer": "Post Meridiem (after midday)",
+        "hint": "P.M. is Latin for 'after midday'"
+      },
+      {
+        "question": "When is noon?",
+        "options": [
+          "12:00 A.M.",
+          "12:00 P.M.",
+          "6:00 A.M.",
+          "6:00 P.M."
+        ],
+        "answer": "12:00 P.M.",
+        "hint": "Noon (midday) is 12:00 P.M."
+      },
+      {
+        "question": "When is midnight?",
+        "options": [
+          "12:00 A.M.",
+          "12:00 P.M.",
+          "6:00 A.M.",
+          "6:00 P.M."
+        ],
+        "answer": "12:00 A.M.",
+        "hint": "Midnight is 12:00 A.M."
+      },
+      {
+        "question": "School usually starts at what time?",
+        "options": [
+          "8:30 A.M.",
+          "8:30 P.M.",
+          "12:30 A.M.",
+          "12:30 P.M."
+        ],
+        "answer": "8:30 A.M.",
+        "hint": "School is in the morning (A.M.)"
+      },
+      {
+        "question": "Most people sleep at what time?",
+        "options": [
+          "9:00 A.M.",
+          "9:00 P.M.",
+          "3:00 P.M.",
+          "12:00 P.M."
+        ],
+        "answer": "9:00 P.M.",
+        "hint": "Bedtime is usually in the evening (P.M.)"
+      },
+      {
+        "question": "3:00 in the afternoon is written as:",
+        "options": [
+          "3:00 A.M.",
+          "3:00 P.M.",
+          "15:00 A.M.",
+          "15:00 P.M."
+        ],
+        "answer": "3:00 P.M.",
+        "hint": "Afternoon is P.M."
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-bar-graphs",
+    "title": "Reading Bar Graphs",
+    "description": "Read and interpret data from bar graphs",
+    "grade_level": 3,
+    "topic": "Data",
+    "skill": "Read and interpret bar graphs",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "In a bar graph, what does the height of a bar show?",
+        "options": [
+          "The category name",
+          "The value or amount",
+          "The color",
+          "Nothing"
+        ],
+        "answer": "The value or amount",
+        "hint": "Taller bar = larger value"
+      },
+      {
+        "question": "A bar graph shows: Red=5, Blue=8, Green=3. Which color has the most?",
+        "options": [
+          "Red",
+          "Blue",
+          "Green",
+          "They're equal"
+        ],
+        "answer": "Blue",
+        "hint": "Blue has 8, which is the largest number"
+      },
+      {
+        "question": "A bar graph shows: Apples=12, Oranges=8, Bananas=10. How many more apples than oranges?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "12 - 8 = 4 more apples"
+      },
+      {
+        "question": "In a bar graph, the scale goes 0, 2, 4, 6... A bar reaches 6. What's the value?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "18"
+        ],
+        "answer": "6",
+        "hint": "Read where the bar ends on the scale"
+      },
+      {
+        "question": "A bar graph shows votes: Pizza=15, Tacos=10, Burgers=12. Total votes?",
+        "options": [
+          "32",
+          "35",
+          "37",
+          "40"
+        ],
+        "answer": "37",
+        "hint": "Add all: 15 + 10 + 12 = 37"
+      },
+      {
+        "question": "A bar reaches halfway between 4 and 6 on the scale. What's the value?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "10"
+        ],
+        "answer": "5",
+        "hint": "Halfway between 4 and 6 is 5"
+      },
+      {
+        "question": "A bar graph shows: Dogs=7, Cats=9, Birds=4. Which pet is least popular?",
+        "options": [
+          "Dogs",
+          "Cats",
+          "Birds",
+          "All equal"
+        ],
+        "answer": "Birds",
+        "hint": "Birds has the smallest bar (4)"
+      },
+      {
+        "question": "If the scale is 0, 5, 10, 15... and a bar reaches 10, what's the value?",
+        "options": [
+          "2",
+          "5",
+          "10",
+          "15"
+        ],
+        "answer": "10",
+        "hint": "Read the value where the bar stops"
+      },
+      {
+        "question": "A bar graph shows: Monday=6, Tuesday=4, Wednesday=8. Average (mean)?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Add: 6+4+8=18, divide by 3 = 6"
+      },
+      {
+        "question": "Two bars show 12 and 8. What is their difference?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4",
+        "hint": "12 - 8 = 4"
+      },
+      {
+        "question": "A bar graph has scale by 5s. A bar is between 15 and 20. What could it be?",
+        "options": [
+          "12",
+          "17",
+          "22",
+          "25"
+        ],
+        "answer": "17",
+        "hint": "Between 15 and 20, so could be 16, 17, 18, or 19"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-picture-graphs",
+    "title": "Reading Picture Graphs",
+    "description": "Read and interpret data from picture graphs (pictographs)",
+    "grade_level": 3,
+    "topic": "Data",
+    "skill": "Read and interpret picture graphs",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "In a pictograph, each ★ = 2. If a row shows ★★★, what is the value?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "3 stars × 2 each = 6"
+      },
+      {
+        "question": "Each 🍎 = 5 apples. A row shows 🍎🍎🍎🍎. How many apples?",
+        "options": [
+          "4",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": "20",
+        "hint": "4 symbols × 5 each = 20"
+      },
+      {
+        "question": "Each symbol = 10. A row has 3 symbols. What's the total?",
+        "options": [
+          "3",
+          "10",
+          "13",
+          "30"
+        ],
+        "answer": "30",
+        "hint": "3 symbols × 10 each = 30"
+      },
+      {
+        "question": "Each 📚 = 2 books. Ann has 📚📚📚, Ben has 📚📚. How many more does Ann have?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Ann: 3×2=6, Ben: 2×2=4. Difference: 6-4=2"
+      },
+      {
+        "question": "If half a symbol = half the value, and ☀ = 4, what does ☀ with half show?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Full symbol (4) + half symbol (2) = 6"
+      },
+      {
+        "question": "Each 🌟 = 5. Row A: 🌟🌟🌟, Row B: 🌟🌟🌟🌟. Total of both rows?",
+        "options": [
+          "25",
+          "30",
+          "35",
+          "40"
+        ],
+        "answer": "35",
+        "hint": "A: 3×5=15, B: 4×5=20. Total: 15+20=35"
+      },
+      {
+        "question": "Each 🎈 = 3 balloons. To show 12 balloons, how many 🎈 symbols needed?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "12 ÷ 3 = 4 symbols needed"
+      },
+      {
+        "question": "Each ⭐ = 10 points. Team A: ⭐⭐⭐, Team B: ⭐⭐. Difference?",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "10",
+        "hint": "A: 30 points, B: 20 points. Difference: 10"
+      },
+      {
+        "question": "Each symbol = 4. A row shows 5 symbols. What's the value?",
+        "options": [
+          "5",
+          "9",
+          "16",
+          "20"
+        ],
+        "answer": "20",
+        "hint": "5 symbols × 4 each = 20"
+      },
+      {
+        "question": "Key says each 🐱 = 3 cats. To show 9 cats, how many symbols?",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "9"
+        ],
+        "answer": "3",
+        "hint": "9 ÷ 3 = 3 symbols"
+      },
+      {
+        "question": "Each 🚗 = 5 cars. Row shows 🚗🚗 and half 🚗. How many cars?",
+        "options": [
+          "10",
+          "12",
+          "12.5",
+          "15"
+        ],
+        "answer": "12.5",
+        "hint": "2 full (10) + half (2.5) = 12.5 cars"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-data-questions",
+    "title": "Asking Questions About Data",
+    "description": "Generate questions and draw conclusions from data sets",
+    "grade_level": 3,
+    "topic": "Data",
+    "skill": "Draw conclusions from data",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Favorite fruits: Apples=12, Bananas=8, Oranges=10. How many students voted?",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "30",
+        "hint": "Add all: 12 + 8 + 10 = 30"
+      },
+      {
+        "question": "Books read: Week 1=5, Week 2=7, Week 3=6. Which week had the most?",
+        "options": [
+          "Week 1",
+          "Week 2",
+          "Week 3",
+          "All same"
+        ],
+        "answer": "Week 2",
+        "hint": "Week 2 had 7, which is the highest"
+      },
+      {
+        "question": "Pet survey: Dogs=15, Cats=12, Fish=8. How many more dogs than fish?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "12"
+        ],
+        "answer": "7",
+        "hint": "15 - 8 = 7 more dogs"
+      },
+      {
+        "question": "Scores: Test 1=85, Test 2=90, Test 3=88. What's the range?",
+        "options": [
+          "3",
+          "5",
+          "88",
+          "90"
+        ],
+        "answer": "5",
+        "hint": "Range = highest - lowest = 90 - 85 = 5"
+      },
+      {
+        "question": "Weather: Sunny=10 days, Rainy=5 days, Cloudy=8 days. Total days recorded?",
+        "options": [
+          "18",
+          "20",
+          "23",
+          "25"
+        ],
+        "answer": "23",
+        "hint": "Add all: 10 + 5 + 8 = 23"
+      },
+      {
+        "question": "Sports: Soccer=20, Basketball=15, Baseball=10. What fraction chose soccer?",
+        "options": [
+          "20/45",
+          "20/35",
+          "15/45",
+          "10/45"
+        ],
+        "answer": "20/45",
+        "hint": "Total = 45, Soccer = 20, so 20/45"
+      },
+      {
+        "question": "Heights: 48 in, 52 in, 50 in, 46 in. What's the tallest height?",
+        "options": [
+          "46 in",
+          "48 in",
+          "50 in",
+          "52 in"
+        ],
+        "answer": "52 in",
+        "hint": "52 is the largest number"
+      },
+      {
+        "question": "Stickers earned: Mon=4, Tue=6, Wed=5, Thu=3, Fri=7. Busiest day?",
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "answer": "Friday",
+        "hint": "Friday had 7 stickers (the most)"
+      },
+      {
+        "question": "Sales: Jan=100, Feb=80, Mar=120. How much more in Mar than Feb?",
+        "options": [
+          "20",
+          "40",
+          "80",
+          "120"
+        ],
+        "answer": "40",
+        "hint": "120 - 80 = 40 more in March"
+      },
+      {
+        "question": "Coins: Pennies=25, Nickels=10, Dimes=15. What's the mode (most common)?",
+        "options": [
+          "10",
+          "15",
+          "25",
+          "50"
+        ],
+        "answer": "25",
+        "hint": "Mode is the most frequent. Pennies (25) is the largest count"
+      },
+      {
+        "question": "If Red=8, Blue=12, Green=8, which colors have the same amount?",
+        "options": [
+          "Red and Blue",
+          "Blue and Green",
+          "Red and Green",
+          "All different"
+        ],
+        "answer": "Red and Green",
+        "hint": "Red and Green both have 8"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-geometry-quadrilaterals",
+    "title": "Classifying Quadrilaterals",
+    "description": "Identify and classify quadrilaterals by their properties",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "skill": "Classify quadrilaterals by properties",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many sides does a quadrilateral have?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "Quad = 4, so quadrilateral = 4 sides"
+      },
+      {
+        "question": "A shape has 4 equal sides and 4 right angles. What is it?",
+        "options": [
+          "Rectangle",
+          "Square",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "answer": "Square",
+        "hint": "Equal sides + right angles = square"
+      },
+      {
+        "question": "A shape has 4 right angles but sides are not all equal. What is it?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "answer": "Rectangle",
+        "hint": "Right angles but different side lengths = rectangle"
+      },
+      {
+        "question": "A shape has 4 equal sides but no right angles. What is it?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "answer": "Rhombus",
+        "hint": "Equal sides but tilted (no right angles) = rhombus"
+      },
+      {
+        "question": "Which quadrilateral has exactly one pair of parallel sides?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Rhombus",
+          "Trapezoid"
+        ],
+        "answer": "Trapezoid",
+        "hint": "Trapezoid has one pair of parallel sides"
+      },
+      {
+        "question": "Is a square also a rectangle?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Never"
+        ],
+        "answer": "Yes",
+        "hint": "A square has all rectangle properties plus equal sides"
+      },
+      {
+        "question": "Is a rectangle also a square?",
+        "options": [
+          "Yes",
+          "No",
+          "Sometimes",
+          "Never"
+        ],
+        "answer": "Sometimes",
+        "hint": "Only if all sides are equal (then it's a square)"
+      },
+      {
+        "question": "How many right angles does a rectangle have?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "All 4 corners of a rectangle are right angles"
+      },
+      {
+        "question": "Which shape is NOT a quadrilateral?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Triangle",
+          "Trapezoid"
+        ],
+        "answer": "Triangle",
+        "hint": "Triangle has 3 sides, not 4"
+      },
+      {
+        "question": "A parallelogram has how many pairs of parallel sides?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Parallelogram has 2 pairs of parallel sides"
+      },
+      {
+        "question": "Which quadrilateral has 4 equal sides?",
+        "options": [
+          "Rectangle only",
+          "Square only",
+          "Square and Rhombus",
+          "All quadrilaterals"
+        ],
+        "answer": "Square and Rhombus",
+        "hint": "Both square and rhombus have 4 equal sides"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-geometry-partitioning",
+    "title": "Partitioning Shapes",
+    "description": "Divide shapes into equal parts and relate to fractions",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "skill": "Partition shapes into equal parts",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "A rectangle is divided into 4 equal parts. Each part is what fraction?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/4",
+        "hint": "4 equal parts means each is 1/4"
+      },
+      {
+        "question": "A circle is divided into 6 equal parts. Each part is what fraction?",
+        "options": [
+          "1/3",
+          "1/4",
+          "1/5",
+          "1/6"
+        ],
+        "answer": "1/6",
+        "hint": "6 equal parts means each is 1/6"
+      },
+      {
+        "question": "A square is divided in half. How many equal parts?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "Half means 2 equal parts"
+      },
+      {
+        "question": "A pie is cut into 8 equal slices. What fraction is 3 slices?",
+        "options": [
+          "3/5",
+          "3/6",
+          "3/8",
+          "5/8"
+        ],
+        "answer": "3/8",
+        "hint": "3 out of 8 equal parts = 3/8"
+      },
+      {
+        "question": "To divide a rectangle into thirds, how many lines do you draw?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "2 lines create 3 equal sections"
+      },
+      {
+        "question": "A shape is divided into 5 equal parts. 2 are shaded. What fraction is shaded?",
+        "options": [
+          "2/3",
+          "2/5",
+          "3/5",
+          "5/2"
+        ],
+        "answer": "2/5",
+        "hint": "2 shaded out of 5 equal parts = 2/5"
+      },
+      {
+        "question": "To divide a circle into quarters, how many lines through the center?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "2 lines through center make 4 equal parts"
+      },
+      {
+        "question": "A rectangle is divided into 3 equal rows and 2 equal columns. How many parts?",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "6",
+        "hint": "3 rows × 2 columns = 6 parts"
+      },
+      {
+        "question": "If a shape has 8 equal parts and 8 are shaded, what fraction is shaded?",
+        "options": [
+          "0/8",
+          "1/8",
+          "8/8",
+          "8/1"
+        ],
+        "answer": "8/8",
+        "hint": "All 8 parts shaded = 8/8 = 1 whole"
+      },
+      {
+        "question": "A square is divided into 4 equal triangles. What fraction is each triangle?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/4",
+        "hint": "4 equal parts, each is 1/4"
+      },
+      {
+        "question": "To show 2/3 of a rectangle, divide into 3 parts and shade how many?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "2/3 means shade 2 out of 3 parts"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-geometry-attributes",
+    "title": "Shape Attributes",
+    "description": "Describe shapes by their attributes (sides, angles, vertices)",
+    "grade_level": 3,
+    "topic": "Geometry",
+    "skill": "Describe shapes by attributes",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is a vertex?",
+        "options": [
+          "A side",
+          "A corner point",
+          "An angle",
+          "The center"
+        ],
+        "answer": "A corner point",
+        "hint": "Vertex = corner where two sides meet"
+      },
+      {
+        "question": "How many vertices does a triangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "Triangle has 3 corners (vertices)"
+      },
+      {
+        "question": "How many vertices does a rectangle have?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "Rectangle has 4 corners (vertices)"
+      },
+      {
+        "question": "A pentagon has how many sides?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Penta = 5, so pentagon has 5 sides"
+      },
+      {
+        "question": "A hexagon has how many sides?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Hex = 6, so hexagon has 6 sides"
+      },
+      {
+        "question": "An octagon has how many sides?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Oct = 8, so octagon has 8 sides"
+      },
+      {
+        "question": "What type of angle is in the corner of a square?",
+        "options": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "answer": "Right",
+        "hint": "Square corners are right angles (90°)"
+      },
+      {
+        "question": "An angle smaller than a right angle is called:",
+        "options": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "answer": "Acute",
+        "hint": "Acute angles are smaller than 90°"
+      },
+      {
+        "question": "An angle larger than a right angle is called:",
+        "options": [
+          "Acute",
+          "Right",
+          "Obtuse",
+          "Straight"
+        ],
+        "answer": "Obtuse",
+        "hint": "Obtuse angles are larger than 90°"
+      },
+      {
+        "question": "Does a circle have vertices?",
+        "options": [
+          "Yes, 1",
+          "Yes, many",
+          "No, zero",
+          "Yes, infinite"
+        ],
+        "answer": "No, zero",
+        "hint": "A circle has no corners (vertices)"
+      },
+      {
+        "question": "A shape has 3 sides and 3 vertices. What is it?",
+        "options": [
+          "Triangle",
+          "Rectangle",
+          "Pentagon",
+          "Hexagon"
+        ],
+        "answer": "Triangle",
+        "hint": "3 sides and 3 vertices = triangle"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-multiplication-word-problems",
+    "title": "Multiplication Word Problems",
+    "description": "Solve real-world problems using multiplication",
+    "grade_level": 3,
+    "topic": "Problem Solving",
+    "skill": "Solve multiplication word problems",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Each box has 6 crayons. How many crayons in 4 boxes?",
+        "options": [
+          "10",
+          "18",
+          "24",
+          "30"
+        ],
+        "answer": "24",
+        "hint": "4 boxes × 6 crayons = 24 crayons"
+      },
+      {
+        "question": "A spider has 8 legs. How many legs do 5 spiders have?",
+        "options": [
+          "13",
+          "32",
+          "40",
+          "45"
+        ],
+        "answer": "40",
+        "hint": "5 spiders × 8 legs = 40 legs"
+      },
+      {
+        "question": "Each row has 7 chairs. There are 6 rows. How many chairs total?",
+        "options": [
+          "13",
+          "35",
+          "42",
+          "48"
+        ],
+        "answer": "42",
+        "hint": "6 rows × 7 chairs = 42 chairs"
+      },
+      {
+        "question": "A pack has 5 gum pieces. How many pieces in 9 packs?",
+        "options": [
+          "14",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "45",
+        "hint": "9 packs × 5 pieces = 45 pieces"
+      },
+      {
+        "question": "Each shelf holds 8 books. How many books on 7 shelves?",
+        "options": [
+          "15",
+          "48",
+          "56",
+          "64"
+        ],
+        "answer": "56",
+        "hint": "7 shelves × 8 books = 56 books"
+      },
+      {
+        "question": "A car has 4 wheels. How many wheels on 9 cars?",
+        "options": [
+          "13",
+          "32",
+          "36",
+          "40"
+        ],
+        "answer": "36",
+        "hint": "9 cars × 4 wheels = 36 wheels"
+      },
+      {
+        "question": "Each bag has 3 apples. How many apples in 8 bags?",
+        "options": [
+          "11",
+          "21",
+          "24",
+          "27"
+        ],
+        "answer": "24",
+        "hint": "8 bags × 3 apples = 24 apples"
+      },
+      {
+        "question": "A week has 7 days. How many days in 4 weeks?",
+        "options": [
+          "11",
+          "21",
+          "28",
+          "35"
+        ],
+        "answer": "28",
+        "hint": "4 weeks × 7 days = 28 days"
+      },
+      {
+        "question": "Each page has 9 stickers. How many stickers on 6 pages?",
+        "options": [
+          "15",
+          "45",
+          "54",
+          "63"
+        ],
+        "answer": "54",
+        "hint": "6 pages × 9 stickers = 54 stickers"
+      },
+      {
+        "question": "A hand has 5 fingers. How many fingers on 8 hands?",
+        "options": [
+          "13",
+          "35",
+          "40",
+          "45"
+        ],
+        "answer": "40",
+        "hint": "8 hands × 5 fingers = 40 fingers"
+      },
+      {
+        "question": "Each team has 6 players. How many players on 7 teams?",
+        "options": [
+          "13",
+          "36",
+          "42",
+          "48"
+        ],
+        "answer": "42",
+        "hint": "7 teams × 6 players = 42 players"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-division-word-problems",
+    "title": "Division Word Problems",
+    "description": "Solve real-world problems using division",
+    "grade_level": 3,
+    "topic": "Problem Solving",
+    "skill": "Solve division word problems",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "24 cookies shared equally among 6 friends. How many each?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "hint": "24 ÷ 6 = 4 cookies each"
+      },
+      {
+        "question": "35 pencils in 5 equal groups. How many per group?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "35 ÷ 5 = 7 pencils per group"
+      },
+      {
+        "question": "48 students in 8 equal teams. How many per team?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "48 ÷ 8 = 6 students per team"
+      },
+      {
+        "question": "42 marbles shared among 7 children. How many each?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "42 ÷ 7 = 6 marbles each"
+      },
+      {
+        "question": "27 flowers in vases with 9 flowers each. How many vases?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "hint": "27 ÷ 9 = 3 vases"
+      },
+      {
+        "question": "56 cards dealt to 8 players equally. How many each?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "56 ÷ 8 = 7 cards each"
+      },
+      {
+        "question": "30 books on 6 equal shelves. How many per shelf?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "30 ÷ 6 = 5 books per shelf"
+      },
+      {
+        "question": "36 muffins in boxes of 4. How many boxes?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "36 ÷ 4 = 9 boxes"
+      },
+      {
+        "question": "63 photos in albums with 9 photos each. How many albums?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "63 ÷ 9 = 7 albums"
+      },
+      {
+        "question": "45 minutes for 5 activities. How many minutes each?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "45 ÷ 5 = 9 minutes each"
+      },
+      {
+        "question": "32 students in 4 equal lines. How many per line?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "32 ÷ 4 = 8 students per line"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-mult-div-relationship",
+    "title": "Relationship Between Multiplication and Division",
+    "description": "Understand how multiplication and division are related",
+    "grade_level": 3,
+    "topic": "Operations",
+    "skill": "Use multiplication to solve division problems",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If 6 × 7 = 42, then 42 ÷ 7 = ?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "hint": "Multiplication and division are inverse operations"
+      },
+      {
+        "question": "If 8 × 5 = 40, then 40 ÷ 8 = ?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": "5",
+        "hint": "If a × b = c, then c ÷ a = b"
+      },
+      {
+        "question": "If 9 × 4 = 36, then 36 ÷ 4 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Use the multiplication fact to find the division answer"
+      },
+      {
+        "question": "If 7 × 8 = 56, what is 56 ÷ 8?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "Think: what times 8 equals 56?"
+      },
+      {
+        "question": "If 5 × 9 = 45, what is 45 ÷ 5?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "Division undoes multiplication"
+      },
+      {
+        "question": "Which multiplication helps solve 54 ÷ 6?",
+        "options": [
+          "6 × 8 = 48",
+          "6 × 9 = 54",
+          "6 × 7 = 42",
+          "6 × 10 = 60"
+        ],
+        "answer": "6 × 9 = 54",
+        "hint": "Find 6 × ? = 54"
+      },
+      {
+        "question": "Which multiplication helps solve 72 ÷ 9?",
+        "options": [
+          "9 × 7 = 63",
+          "9 × 8 = 72",
+          "9 × 9 = 81",
+          "9 × 6 = 54"
+        ],
+        "answer": "9 × 8 = 72",
+        "hint": "Find 9 × ? = 72"
+      },
+      {
+        "question": "If 4 × ? = 28, then ? = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "hint": "28 ÷ 4 = 7"
+      },
+      {
+        "question": "If ? × 6 = 48, then ? = ?",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "48 ÷ 6 = 8"
+      },
+      {
+        "question": "What are the fact family members for 3, 8, and 24?",
+        "options": [
+          "3×8=24, 8×3=24, 24÷3=8, 24÷8=3",
+          "Only multiplication",
+          "Only division",
+          "Cannot make a fact family"
+        ],
+        "answer": "3×8=24, 8×3=24, 24÷3=8, 24÷8=3",
+        "hint": "Fact families have 2 multiplication and 2 division facts"
+      },
+      {
+        "question": "Complete the fact family: 7 × 9 = 63, 9 × 7 = 63, 63 ÷ 7 = 9, __ = __",
+        "options": [
+          "63 ÷ 9 = 7",
+          "63 × 9 = 7",
+          "7 ÷ 63 = 9",
+          "9 ÷ 7 = 63"
+        ],
+        "answer": "63 ÷ 9 = 7",
+        "hint": "The missing fact divides 63 by 9"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-properties-multiplication",
+    "title": "Properties of Multiplication",
+    "description": "Understand commutative, associative, and distributive properties",
+    "grade_level": 3,
+    "topic": "Multiplication",
+    "skill": "Apply properties of multiplication",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If 4 × 7 = 28, what is 7 × 4?",
+        "options": [
+          "24",
+          "28",
+          "32",
+          "47"
+        ],
+        "answer": "28",
+        "hint": "Commutative property: order doesn't matter"
+      },
+      {
+        "question": "Which property says 3 × 5 = 5 × 3?",
+        "options": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "answer": "Commutative",
+        "hint": "Commutative = you can 'commute' (switch) the numbers"
+      },
+      {
+        "question": "What is 6 × 0?",
+        "options": [
+          "0",
+          "6",
+          "60",
+          "1"
+        ],
+        "answer": "0",
+        "hint": "Zero property: any number × 0 = 0"
+      },
+      {
+        "question": "What is 8 × 1?",
+        "options": [
+          "0",
+          "1",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "Identity property: any number × 1 = that number"
+      },
+      {
+        "question": "Which equals (2 × 3) × 4?",
+        "options": [
+          "2 × (3 × 4)",
+          "2 × 3 + 4",
+          "(2 + 3) × 4",
+          "2 × 3 × 4"
+        ],
+        "answer": "2 × (3 × 4)",
+        "hint": "Associative property: you can regroup"
+      },
+      {
+        "question": "(2 × 3) × 4 = ?",
+        "options": [
+          "18",
+          "20",
+          "24",
+          "26"
+        ],
+        "answer": "24",
+        "hint": "6 × 4 = 24"
+      },
+      {
+        "question": "2 × (3 × 4) = ?",
+        "options": [
+          "18",
+          "20",
+          "24",
+          "26"
+        ],
+        "answer": "24",
+        "hint": "2 × 12 = 24 (same as above!)"
+      },
+      {
+        "question": "To find 6 × 8, you can add 6 × 5 and 6 × 3. Why?",
+        "options": [
+          "Commutative property",
+          "Associative property",
+          "Distributive property",
+          "Zero property"
+        ],
+        "answer": "Distributive property",
+        "hint": "Distributive: 6 × 8 = 6 × (5+3) = 6×5 + 6×3"
+      },
+      {
+        "question": "What property does 1 × 9 = 9 show?",
+        "options": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "answer": "Identity",
+        "hint": "1 is the identity for multiplication"
+      },
+      {
+        "question": "7 × 3 = 3 × 7. This is called the ___ property.",
+        "options": [
+          "Commutative",
+          "Associative",
+          "Distributive",
+          "Identity"
+        ],
+        "answer": "Commutative",
+        "hint": "Switching order = commutative"
+      },
+      {
+        "question": "What is 15 × 0 × 100?",
+        "options": [
+          "0",
+          "15",
+          "100",
+          "1500"
+        ],
+        "answer": "0",
+        "hint": "If any factor is 0, the product is 0"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-rounding-estimation",
+    "title": "Rounding and Estimation",
+    "description": "Round numbers and estimate sums and differences",
+    "grade_level": 3,
+    "topic": "Number Sense",
+    "skill": "Round to nearest 10 or 100 and estimate",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Round 47 to the nearest 10",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "100"
+        ],
+        "answer": "50",
+        "hint": "47 is closer to 50 than to 40"
+      },
+      {
+        "question": "Round 83 to the nearest 10",
+        "options": [
+          "80",
+          "85",
+          "90",
+          "100"
+        ],
+        "answer": "80",
+        "hint": "83 is closer to 80 than to 90"
+      },
+      {
+        "question": "Round 256 to the nearest 100",
+        "options": [
+          "200",
+          "250",
+          "260",
+          "300"
+        ],
+        "answer": "300",
+        "hint": "256 is closer to 300 than to 200"
+      },
+      {
+        "question": "Round 341 to the nearest 100",
+        "options": [
+          "300",
+          "340",
+          "350",
+          "400"
+        ],
+        "answer": "300",
+        "hint": "341 is closer to 300 than to 400"
+      },
+      {
+        "question": "Round 75 to the nearest 10",
+        "options": [
+          "70",
+          "75",
+          "80",
+          "100"
+        ],
+        "answer": "80",
+        "hint": "When it's exactly 5, round up"
+      },
+      {
+        "question": "Estimate 48 + 31 by rounding to nearest 10",
+        "options": [
+          "70",
+          "80",
+          "90",
+          "100"
+        ],
+        "answer": "80",
+        "hint": "50 + 30 = 80"
+      },
+      {
+        "question": "Estimate 87 - 42 by rounding to nearest 10",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "55"
+        ],
+        "answer": "50",
+        "hint": "90 - 40 = 50"
+      },
+      {
+        "question": "Estimate 523 + 289 by rounding to nearest 100",
+        "options": [
+          "700",
+          "800",
+          "900",
+          "1000"
+        ],
+        "answer": "800",
+        "hint": "500 + 300 = 800"
+      },
+      {
+        "question": "Round 649 to the nearest 100",
+        "options": [
+          "600",
+          "640",
+          "650",
+          "700"
+        ],
+        "answer": "600",
+        "hint": "649 is closer to 600 than to 700"
+      },
+      {
+        "question": "Estimate 76 × 4 by rounding 76 to nearest 10",
+        "options": [
+          "280",
+          "300",
+          "320",
+          "340"
+        ],
+        "answer": "320",
+        "hint": "80 × 4 = 320"
+      },
+      {
+        "question": "Is 52 closer to 50 or 60?",
+        "options": [
+          "50",
+          "60",
+          "Exactly between",
+          "Neither"
+        ],
+        "answer": "50",
+        "hint": "52 is only 2 away from 50, but 8 away from 60"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-patterns-sequences",
+    "title": "Number Patterns and Sequences",
+    "description": "Identify and continue arithmetic patterns",
+    "grade_level": 3,
+    "topic": "Patterns",
+    "skill": "Identify arithmetic patterns",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Continue: 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "23",
+          "24",
+          "25"
+        ],
+        "answer": "25",
+        "hint": "Adding 5 each time"
+      },
+      {
+        "question": "Continue: 3, 6, 9, 12, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "hint": "Adding 3 each time"
+      },
+      {
+        "question": "Continue: 4, 8, 12, 16, __",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "24"
+        ],
+        "answer": "20",
+        "hint": "Adding 4 each time"
+      },
+      {
+        "question": "What is the rule for: 2, 4, 6, 8, 10?",
+        "options": [
+          "Add 1",
+          "Add 2",
+          "Add 3",
+          "Multiply by 2"
+        ],
+        "answer": "Add 2",
+        "hint": "Each number is 2 more than the last"
+      },
+      {
+        "question": "Continue: 100, 90, 80, 70, __",
+        "options": [
+          "50",
+          "55",
+          "60",
+          "65"
+        ],
+        "answer": "60",
+        "hint": "Subtracting 10 each time"
+      },
+      {
+        "question": "What is the rule for: 50, 45, 40, 35?",
+        "options": [
+          "Add 5",
+          "Subtract 5",
+          "Add 10",
+          "Subtract 10"
+        ],
+        "answer": "Subtract 5",
+        "hint": "Each number is 5 less than the last"
+      },
+      {
+        "question": "Continue: 7, 14, 21, 28, __",
+        "options": [
+          "32",
+          "33",
+          "34",
+          "35"
+        ],
+        "answer": "35",
+        "hint": "Adding 7 each time (×7 table!)"
+      },
+      {
+        "question": "Find the missing number: 12, __, 24, 30, 36",
+        "options": [
+          "15",
+          "16",
+          "18",
+          "20"
+        ],
+        "answer": "18",
+        "hint": "Adding 6 each time: 12 + 6 = 18"
+      },
+      {
+        "question": "Continue: 8, 16, 24, 32, __",
+        "options": [
+          "36",
+          "38",
+          "40",
+          "42"
+        ],
+        "answer": "40",
+        "hint": "Adding 8 each time"
+      },
+      {
+        "question": "What is the 6th number: 9, 18, 27, 36, 45, __",
+        "options": [
+          "50",
+          "52",
+          "54",
+          "56"
+        ],
+        "answer": "54",
+        "hint": "Adding 9 each time: 45 + 9 = 54"
+      },
+      {
+        "question": "Continue backwards: 48, 42, 36, 30, __",
+        "options": [
+          "22",
+          "24",
+          "26",
+          "28"
+        ],
+        "answer": "24",
+        "hint": "Subtracting 6 each time"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-odd-even",
+    "title": "Odd and Even Numbers",
+    "description": "Identify odd and even numbers and their properties",
+    "grade_level": 3,
+    "topic": "Number Sense",
+    "skill": "Identify odd and even numbers",
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Is 24 odd or even?",
+        "options": [
+          "Odd",
+          "Even",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even",
+        "hint": "24 ends in 4, so it's even"
+      },
+      {
+        "question": "Is 37 odd or even?",
+        "options": [
+          "Odd",
+          "Even",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Odd",
+        "hint": "37 ends in 7, so it's odd"
+      },
+      {
+        "question": "Which number is even: 15, 28, 43, 71?",
+        "options": [
+          "15",
+          "28",
+          "43",
+          "71"
+        ],
+        "answer": "28",
+        "hint": "Even numbers end in 0, 2, 4, 6, or 8"
+      },
+      {
+        "question": "Which number is odd: 12, 36, 47, 80?",
+        "options": [
+          "12",
+          "36",
+          "47",
+          "80"
+        ],
+        "answer": "47",
+        "hint": "Odd numbers end in 1, 3, 5, 7, or 9"
+      },
+      {
+        "question": "Even + Even = ?",
+        "options": [
+          "Always Odd",
+          "Always Even",
+          "Sometimes Odd",
+          "Cannot tell"
+        ],
+        "answer": "Always Even",
+        "hint": "Example: 4 + 6 = 10 (even)"
+      },
+      {
+        "question": "Odd + Odd = ?",
+        "options": [
+          "Always Odd",
+          "Always Even",
+          "Sometimes Odd",
+          "Cannot tell"
+        ],
+        "answer": "Always Even",
+        "hint": "Example: 3 + 5 = 8 (even)"
+      },
+      {
+        "question": "Even + Odd = ?",
+        "options": [
+          "Always Odd",
+          "Always Even",
+          "Sometimes Odd",
+          "Cannot tell"
+        ],
+        "answer": "Always Odd",
+        "hint": "Example: 4 + 3 = 7 (odd)"
+      },
+      {
+        "question": "Even × Even = ?",
+        "options": [
+          "Always Odd",
+          "Always Even",
+          "Sometimes Odd",
+          "Cannot tell"
+        ],
+        "answer": "Always Even",
+        "hint": "Example: 2 × 4 = 8 (even)"
+      },
+      {
+        "question": "Is 100 odd or even?",
+        "options": [
+          "Odd",
+          "Even",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even",
+        "hint": "100 ends in 0, so it's even"
+      },
+      {
+        "question": "How many even numbers from 1 to 10?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "hint": "2, 4, 6, 8, 10 are even"
+      },
+      {
+        "question": "Is 0 odd or even?",
+        "options": [
+          "Odd",
+          "Even",
+          "Neither",
+          "Both"
+        ],
+        "answer": "Even",
+        "hint": "0 is considered even (0 ÷ 2 = 0 with no remainder)"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-area-composite",
+    "title": "Area of Composite Shapes",
+    "description": "Find area by decomposing into rectangles",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Find area of composite shapes",
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "An L-shape is made of a 4×3 rectangle and a 2×3 rectangle. Total area?",
+        "options": [
+          "14 sq units",
+          "18 sq units",
+          "20 sq units",
+          "24 sq units"
+        ],
+        "answer": "18 sq units",
+        "hint": "4×3=12, 2×3=6, total=18"
+      },
+      {
+        "question": "A shape is made of two 5×2 rectangles. Total area?",
+        "options": [
+          "10 sq units",
+          "14 sq units",
+          "20 sq units",
+          "25 sq units"
+        ],
+        "answer": "20 sq units",
+        "hint": "5×2=10, and 10+10=20"
+      },
+      {
+        "question": "A 6×4 rectangle has a 2×2 square cut out. Remaining area?",
+        "options": [
+          "16 sq units",
+          "18 sq units",
+          "20 sq units",
+          "22 sq units"
+        ],
+        "answer": "20 sq units",
+        "hint": "6×4=24, minus 2×2=4, equals 20"
+      },
+      {
+        "question": "Two squares: one is 3×3, one is 4×4. Combined area?",
+        "options": [
+          "21 sq units",
+          "23 sq units",
+          "25 sq units",
+          "49 sq units"
+        ],
+        "answer": "25 sq units",
+        "hint": "3×3=9, 4×4=16, total=25"
+      },
+      {
+        "question": "A T-shape: 6×2 rectangle on top of a 2×4 rectangle. Total area?",
+        "options": [
+          "16 sq units",
+          "18 sq units",
+          "20 sq units",
+          "24 sq units"
+        ],
+        "answer": "20 sq units",
+        "hint": "6×2=12, 2×4=8, total=20"
+      },
+      {
+        "question": "To find area of an L-shape, you should:",
+        "options": [
+          "Measure the perimeter",
+          "Break it into rectangles",
+          "Count only corners",
+          "Multiply all sides"
+        ],
+        "answer": "Break it into rectangles",
+        "hint": "Decompose complex shapes into simple rectangles"
+      },
+      {
+        "question": "A shape is 8×5 with a 3×3 square removed. What's the area?",
+        "options": [
+          "31 sq units",
+          "34 sq units",
+          "37 sq units",
+          "40 sq units"
+        ],
+        "answer": "31 sq units",
+        "hint": "8×5=40, minus 3×3=9, equals 31"
+      },
+      {
+        "question": "An H-shape: two 2×5 rectangles connected by a 4×2 rectangle. Total area?",
+        "options": [
+          "24 sq units",
+          "26 sq units",
+          "28 sq units",
+          "30 sq units"
+        ],
+        "answer": "28 sq units",
+        "hint": "2×5=10 (×2=20) + 4×2=8 = 28"
+      },
+      {
+        "question": "A 5×5 square with a 2×3 rectangle attached. Total area?",
+        "options": [
+          "25 sq units",
+          "28 sq units",
+          "31 sq units",
+          "35 sq units"
+        ],
+        "answer": "31 sq units",
+        "hint": "5×5=25 + 2×3=6 = 31"
+      },
+      {
+        "question": "A room is 10×8 with a 3×3 closet. What's the room area without closet?",
+        "options": [
+          "68 sq units",
+          "71 sq units",
+          "77 sq units",
+          "80 sq units"
+        ],
+        "answer": "71 sq units",
+        "hint": "10×8=80, minus 3×3=9, equals 71"
+      },
+      {
+        "question": "Two touching rectangles: 4×6 and 4×3. Total area?",
+        "options": [
+          "33 sq units",
+          "36 sq units",
+          "42 sq units",
+          "72 sq units"
+        ],
+        "answer": "36 sq units",
+        "hint": "4×6=24 + 4×3=12 = 36"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-measurement-mass",
+    "title": "Measuring Mass and Weight",
+    "description": "Estimate and measure mass in grams and kilograms",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Measure mass in grams and kilograms",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many grams in 1 kilogram?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "1000",
+        "hint": "Kilo means 1000, so 1 kg = 1000 g"
+      },
+      {
+        "question": "Which is heavier: 500 g or 1 kg?",
+        "options": [
+          "500 g",
+          "1 kg",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "1 kg",
+        "hint": "1 kg = 1000 g, which is more than 500 g"
+      },
+      {
+        "question": "A paperclip weighs about how much?",
+        "options": [
+          "1 gram",
+          "1 kilogram",
+          "10 kilograms",
+          "100 grams"
+        ],
+        "answer": "1 gram",
+        "hint": "Very light objects are measured in grams"
+      },
+      {
+        "question": "A watermelon weighs about how much?",
+        "options": [
+          "5 grams",
+          "50 grams",
+          "5 kilograms",
+          "50 kilograms"
+        ],
+        "answer": "5 kilograms",
+        "hint": "Heavier objects use kilograms"
+      },
+      {
+        "question": "3 kg = ? grams",
+        "options": [
+          "30",
+          "300",
+          "3000",
+          "30000"
+        ],
+        "answer": "3000",
+        "hint": "3 × 1000 = 3000 grams"
+      },
+      {
+        "question": "4000 g = ? kg",
+        "options": [
+          "4",
+          "40",
+          "400",
+          "0.4"
+        ],
+        "answer": "4",
+        "hint": "4000 ÷ 1000 = 4 kg"
+      },
+      {
+        "question": "Which unit for measuring a dog's weight?",
+        "options": [
+          "Grams",
+          "Kilograms",
+          "Meters",
+          "Liters"
+        ],
+        "answer": "Kilograms",
+        "hint": "Dogs are measured in kilograms"
+      },
+      {
+        "question": "Which unit for measuring flour for cookies?",
+        "options": [
+          "Grams",
+          "Kilometers",
+          "Liters",
+          "Meters"
+        ],
+        "answer": "Grams",
+        "hint": "Small amounts of ingredients use grams"
+      },
+      {
+        "question": "A book weighs about 500 g. 2 books weigh?",
+        "options": [
+          "500 g",
+          "700 g",
+          "1 kg",
+          "2 kg"
+        ],
+        "answer": "1 kg",
+        "hint": "500 + 500 = 1000 g = 1 kg"
+      },
+      {
+        "question": "2 kg 500 g = ? grams",
+        "options": [
+          "2500",
+          "2050",
+          "250",
+          "25000"
+        ],
+        "answer": "2500",
+        "hint": "2000 + 500 = 2500 grams"
+      },
+      {
+        "question": "Which is lighter: 1500 g or 2 kg?",
+        "options": [
+          "1500 g",
+          "2 kg",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "1500 g",
+        "hint": "2 kg = 2000 g, which is more than 1500 g"
+      }
+    ],
+    "grade": 3
+  },
+  {
+    "id": "3-measurement-capacity",
+    "title": "Measuring Capacity (Volume of Liquids)",
+    "description": "Estimate and measure liquid volume in liters and milliliters",
+    "grade_level": 3,
+    "topic": "Measurement",
+    "skill": "Measure liquid volume in liters and milliliters",
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "How many milliliters in 1 liter?",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "1000",
+        "hint": "1 liter = 1000 milliliters"
+      },
+      {
+        "question": "A water bottle holds about how much?",
+        "options": [
+          "5 mL",
+          "50 mL",
+          "500 mL",
+          "5000 mL"
+        ],
+        "answer": "500 mL",
+        "hint": "A typical water bottle is about 500 mL or half a liter"
+      },
+      {
+        "question": "A bathtub holds about how much?",
+        "options": [
+          "150 mL",
+          "15 L",
+          "150 L",
+          "1500 L"
+        ],
+        "answer": "150 L",
+        "hint": "Large containers use liters"
+      },
+      {
+        "question": "2 L = ? mL",
+        "options": [
+          "20",
+          "200",
+          "2000",
+          "20000"
+        ],
+        "answer": "2000",
+        "hint": "2 × 1000 = 2000 mL"
+      },
+      {
+        "question": "3000 mL = ? L",
+        "options": [
+          "0.3",
+          "3",
+          "30",
+          "300"
+        ],
+        "answer": "3",
+        "hint": "3000 ÷ 1000 = 3 L"
+      },
+      {
+        "question": "A teaspoon holds about how much?",
+        "options": [
+          "5 mL",
+          "50 mL",
+          "500 mL",
+          "5 L"
+        ],
+        "answer": "5 mL",
+        "hint": "Very small amounts use milliliters"
+      },
+      {
+        "question": "Which is more: 1 L or 800 mL?",
+        "options": [
+          "1 L",
+          "800 mL",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "1 L",
+        "hint": "1 L = 1000 mL, which is more than 800 mL"
+      },
+      {
+        "question": "A fish tank holds 20 L. That's how many mL?",
+        "options": [
+          "200",
+          "2000",
+          "20000",
+          "200000"
+        ],
+        "answer": "20000",
+        "hint": "20 × 1000 = 20000 mL"
+      },
+      {
+        "question": "Which unit for measuring juice in a glass?",
+        "options": [
+          "Liters",
+          "Milliliters",
+          "Grams",
+          "Meters"
+        ],
+        "answer": "Milliliters",
+        "hint": "A glass holds a few hundred milliliters"
+      },
+      {
+        "question": "1 L 250 mL = ? mL",
+        "options": [
+          "125",
+          "1025",
+          "1250",
+          "12500"
+        ],
+        "answer": "1250",
+        "hint": "1000 + 250 = 1250 mL"
+      },
+      {
+        "question": "Which is less: 2500 mL or 3 L?",
+        "options": [
+          "2500 mL",
+          "3 L",
+          "Same",
+          "Cannot tell"
+        ],
+        "answer": "2500 mL",
+        "hint": "3 L = 3000 mL, which is more than 2500 mL"
+      }
+    ],
+    "grade": 3
   }
 ]
