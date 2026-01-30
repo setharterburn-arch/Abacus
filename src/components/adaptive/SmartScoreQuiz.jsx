@@ -62,6 +62,8 @@ const SmartScoreQuiz = ({
   const [phase, setPhase] = useState('selecting');
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  // displayedIndex is the question we actually SHOW - updates only AFTER state is cleared
+  const [displayedIndex, setDisplayedIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
   const [showHint, setShowHint] = useState(false);
@@ -179,26 +181,30 @@ const SmartScoreQuiz = ({
   // Reset selection state when question changes
   useEffect(() => {
     console.log('Question changed to index:', currentIndex);
+    // IMMEDIATELY clear all answer-related state
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
-    setCanProceed(false); // Reset cooldown
-    questionAppearedAt.current = Date.now(); // Mark when new question appeared
+    setCanProceed(false);
+    setPhase('transitioning'); // Ensure transitioning during reset
+    questionAppearedAt.current = Date.now();
     
     // Extend the global block for new question
     blockedUntil.current = Math.max(blockedUntil.current, Date.now() + 800);
     
-    // Set phase to selecting after delay (must be longer than block)
+    // THEN update displayed index and phase after a delay
     const timer = setTimeout(() => {
-      console.log('Setting phase to selecting, clearing blocks');
+      console.log('Setting phase to selecting, updating displayedIndex to:', currentIndex);
+      setDisplayedIndex(currentIndex); // NOW safe to show the new question
       isProcessingAnswer.current = false;
-      blockedUntil.current = 0; // Clear block
+      blockedUntil.current = 0;
       setPhase('selecting');
-    }, 800);
+    }, 100); // Short delay - state is already cleared
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
-  const currentQuestion = questions[currentIndex];
+  // Use displayedIndex for rendering to prevent stale state issues
+  const currentQuestion = questions[displayedIndex];
 
   // Synchronous lock - refs update immediately unlike state
   const isProcessingAnswer = useRef(false);
@@ -559,7 +565,7 @@ const SmartScoreQuiz = ({
           <div style={{ color: 'var(--color-text-muted)' }}>Loading next question...</div>
         </div>
       ) : (
-      <div key={`question-${currentIndex}`} style={{ marginBottom: '1.5rem' }}>
+      <div key={`question-${displayedIndex}`} style={{ marginBottom: '1.5rem' }}>
         {/* Use QuestionRenderer for interactive types, inline for multiple choice */}
         {currentQuestion.type && 
          currentQuestion.type !== 'multiple-choice' && 
@@ -604,7 +610,7 @@ const SmartScoreQuiz = ({
 
                 return (
                   <button
-                    key={`${currentIndex}-${idx}-${option}`}
+                    key={`${displayedIndex}-${idx}-${option}`}
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
