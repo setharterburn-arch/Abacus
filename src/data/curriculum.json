@@ -145440,5 +145440,97 @@
       }
     ],
     "grade": 6
+  },
+  {
+    "id": "test-interactive-questions",
+    "name": "Interactive Question Types (Test)",
+    "grade": 3,
+    "topic": "Test",
+    "questions": [
+      {
+        "type": "number-line",
+        "question": "Place 1/2 on the number line",
+        "range": [
+          0,
+          1
+        ],
+        "divisions": 4,
+        "answer": 0.5,
+        "tolerance": 0.05
+      },
+      {
+        "type": "number-line",
+        "question": "Place 3/4 on the number line",
+        "range": [
+          0,
+          1
+        ],
+        "divisions": 4,
+        "answer": 0.75,
+        "tolerance": 0.05
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 2/4 of the rectangle",
+        "shape": "rectangle",
+        "parts": 4,
+        "answer": 2,
+        "orientation": "horizontal"
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 3/8 of the circle",
+        "shape": "circle",
+        "parts": 8,
+        "answer": 3
+      },
+      {
+        "type": "drag-sort",
+        "question": "Order from smallest to largest",
+        "items": [
+          "1/2",
+          "1/4",
+          "3/4",
+          "1/8"
+        ],
+        "answer": [
+          "1/8",
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      {
+        "type": "array-builder",
+        "question": "Build an array to show 3 × 4",
+        "maxRows": 6,
+        "maxCols": 6,
+        "answer": {
+          "rows": 3,
+          "cols": 4
+        }
+      },
+      {
+        "type": "array-builder",
+        "question": "Build an array to show 2 × 5",
+        "maxRows": 6,
+        "maxCols": 6,
+        "answer": {
+          "rows": 2,
+          "cols": 5
+        }
+      },
+      {
+        "type": "multiple-choice",
+        "question": "What is 3 + 4?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7"
+      }
+    ]
   }
 ]
