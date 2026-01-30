@@ -14,6 +14,13 @@ const Admin = () => {
     const [assignments, setAssignments] = useState([]);
     const [submissions, setSubmissions] = useState([]);
     const [loading, setLoading] = useState(true);
+    
+    // Curriculum filters
+    const [gradeFilter, setGradeFilter] = useState('all');
+    const [topicFilter, setTopicFilter] = useState('all');
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedSkill, setSelectedSkill] = useState(null);
+    const [showCount, setShowCount] = useState(20);
 
     useEffect(() => {
         if (!state.loading && state.profile?.role !== 'admin') {
@@ -196,31 +203,146 @@ const Admin = () => {
             {/* Curriculum Tab */}
             {activeTab === 'curriculum' && (
                 <div>
-                    <h2 style={{ marginBottom: '1rem' }}>Curriculum Library ({curriculumData.length} sets)</h2>
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
-                        {curriculumData.slice(0, 20).map(set => (
-                            <div key={set.id} className="card">
-                                <h4 style={{ margin: '0 0 0.5rem 0' }}>{set.title}</h4>
-                                <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.9rem', color: 'gray' }}>{set.description}</p>
-                                <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-                                    <span className="badge" style={{ background: '#e3f2fd', color: '#1565c0', fontSize: '0.75rem' }}>
-                                        Grade {set.grade_level === 0 ? 'K' : set.grade_level}
-                                    </span>
-                                    <span className="badge" style={{ background: '#f3e5f5', color: '#7b1fa2', fontSize: '0.75rem' }}>
-                                        {set.topic}
-                                    </span>
-                                    <span className="badge" style={{ background: '#e8f5e9', color: '#2e7d32', fontSize: '0.75rem' }}>
-                                        {set.questions.length} questions
-                                    </span>
-                                </div>
-                            </div>
-                        ))}
+                    {/* Header with actions */}
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '1rem' }}>
+                        <h2 style={{ margin: 0 }}>Curriculum Library ({curriculumData.length} sets)</h2>
+                        <button 
+                            className="btn btn-primary"
+                            onClick={() => navigate('/admin/curriculum-generator')}
+                        >
+                            ➕ Generate New Content
+                        </button>
                     </div>
-                    {curriculumData.length > 20 && (
-                        <p style={{ marginTop: '1rem', color: 'gray', textAlign: 'center' }}>
-                            Showing first 20 of {curriculumData.length} sets
-                        </p>
-                    )}
+                    
+                    {/* Filters */}
+                    <div className="card" style={{ marginBottom: '1rem', padding: '1rem' }}>
+                        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
+                            <div>
+                                <label style={{ fontSize: '0.85rem', color: 'gray', display: 'block', marginBottom: '0.25rem' }}>Search</label>
+                                <input
+                                    type="text"
+                                    placeholder="Search skills..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc', minWidth: '200px' }}
+                                />
+                            </div>
+                            <div>
+                                <label style={{ fontSize: '0.85rem', color: 'gray', display: 'block', marginBottom: '0.25rem' }}>Grade</label>
+                                <select
+                                    value={gradeFilter}
+                                    onChange={(e) => setGradeFilter(e.target.value)}
+                                    style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc' }}
+                                >
+                                    <option value="all">All Grades</option>
+                                    <option value="0">Kindergarten</option>
+                                    {[1,2,3,4,5,6,7,8].map(g => (
+                                        <option key={g} value={g}>Grade {g}</option>
+                                    ))}
+                                </select>
+                            </div>
+                            <div>
+                                <label style={{ fontSize: '0.85rem', color: 'gray', display: 'block', marginBottom: '0.25rem' }}>Topic</label>
+                                <select
+                                    value={topicFilter}
+                                    onChange={(e) => setTopicFilter(e.target.value)}
+                                    style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc' }}
+                                >
+                                    <option value="all">All Topics</option>
+                                    {[...new Set(curriculumData.map(s => s.topic))].sort().map(t => (
+                                        <option key={t} value={t}>{t}</option>
+                                    ))}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    {/* Filtered results */}
+                    {(() => {
+                        const filtered = curriculumData.filter(set => {
+                            const matchesGrade = gradeFilter === 'all' || set.grade === parseInt(gradeFilter) || set.grade_level === parseInt(gradeFilter);
+                            const matchesTopic = topicFilter === 'all' || set.topic === topicFilter;
+                            const matchesSearch = !searchQuery || 
+                                set.title?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                set.description?.toLowerCase().includes(searchQuery.toLowerCase());
+                            return matchesGrade && matchesTopic && matchesSearch;
+                        });
+                        
+                        return (
+                            <>
+                                <p style={{ color: 'gray', marginBottom: '1rem' }}>
+                                    Showing {Math.min(showCount, filtered.length)} of {filtered.length} matching sets
+                                </p>
+                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
+                                    {filtered.slice(0, showCount).map(set => (
+                                        <div 
+                                            key={set.id} 
+                                            className="card"
+                                            style={{ cursor: 'pointer', transition: 'transform 0.2s' }}
+                                            onClick={() => setSelectedSkill(selectedSkill?.id === set.id ? null : set)}
+                                        >
+                                            <h4 style={{ margin: '0 0 0.5rem 0' }}>{set.title}</h4>
+                                            <p style={{ margin: '0 0 0.5rem 0', fontSize: '0.9rem', color: 'gray' }}>{set.description}</p>
+                                            <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+                                                <span className="badge" style={{ background: '#e3f2fd', color: '#1565c0', fontSize: '0.75rem' }}>
+                                                    Grade {(set.grade || set.grade_level) === 0 ? 'K' : (set.grade || set.grade_level)}
+                                                </span>
+                                                <span className="badge" style={{ background: '#f3e5f5', color: '#7b1fa2', fontSize: '0.75rem' }}>
+                                                    {set.topic}
+                                                </span>
+                                                <span className="badge" style={{ background: '#e8f5e9', color: '#2e7d32', fontSize: '0.75rem' }}>
+                                                    {set.questions?.length || 0} questions
+                                                </span>
+                                            </div>
+                                            
+                                            {/* Expanded view */}
+                                            {selectedSkill?.id === set.id && (
+                                                <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid #eee' }}>
+                                                    <h5 style={{ margin: '0 0 0.5rem 0' }}>Sample Questions:</h5>
+                                                    {set.questions?.slice(0, 3).map((q, i) => (
+                                                        <div key={i} style={{ 
+                                                            background: 'var(--color-bg)', 
+                                                            padding: '0.5rem', 
+                                                            borderRadius: '4px',
+                                                            marginBottom: '0.5rem',
+                                                            fontSize: '0.85rem'
+                                                        }}>
+                                                            {q.question}
+                                                            {q.type && q.type !== 'multiple-choice' && (
+                                                                <span className="badge" style={{ 
+                                                                    marginLeft: '0.5rem',
+                                                                    background: '#fff3e0', 
+                                                                    color: '#e65100', 
+                                                                    fontSize: '0.7rem' 
+                                                                }}>
+                                                                    {q.type}
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                    ))}
+                                                    {set.questions?.length > 3 && (
+                                                        <p style={{ color: 'gray', fontSize: '0.8rem', margin: 0 }}>
+                                                            +{set.questions.length - 3} more questions
+                                                        </p>
+                                                    )}
+                                                </div>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
+                                {filtered.length > showCount && (
+                                    <div style={{ textAlign: 'center', marginTop: '1rem' }}>
+                                        <button 
+                                            className="btn"
+                                            onClick={() => setShowCount(prev => prev + 20)}
+                                        >
+                                            Load More
+                                        </button>
+                                    </div>
+                                )}
+                            </>
+                        );
+                    })()}
                 </div>
             )}
 
