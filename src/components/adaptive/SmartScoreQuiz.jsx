@@ -169,17 +169,24 @@ const SmartScoreQuiz = ({
     }
   }, [skillId, topic, grade, infiniteMode, generateNewQuestion, curriculumLoaded, curriculumData]);
 
+  // Track if we can accept answers (prevents double-click issues)
+  const [canAnswer, setCanAnswer] = useState(true);
+
   // Reset selection state when question changes
   useEffect(() => {
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
+    // Briefly disable answering during transition to prevent click-through
+    setCanAnswer(false);
+    const timer = setTimeout(() => setCanAnswer(true), 100);
+    return () => clearTimeout(timer);
   }, [currentIndex]);
 
   const currentQuestion = questions[currentIndex];
 
   const handleAnswer = useCallback((answer) => {
-    if (showFeedback) return;
+    if (showFeedback || !canAnswer) return;
     
     setSelectedAnswer(answer);
     setShowFeedback(true);
@@ -466,10 +473,14 @@ const SmartScoreQuiz = ({
                 return (
                   <motion.button
                     key={`${currentIndex}-${idx}-${option}`}
-                    whileHover={!showFeedback ? { scale: 1.02 } : {}}
-                    whileTap={!showFeedback ? { scale: 0.98 } : {}}
-                    onClick={() => handleAnswer(option)}
-                    disabled={showFeedback}
+                    whileHover={!showFeedback && canAnswer ? { scale: 1.02 } : {}}
+                    whileTap={!showFeedback && canAnswer ? { scale: 0.98 } : {}}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      e.preventDefault();
+                      handleAnswer(option);
+                    }}
+                    disabled={showFeedback || !canAnswer}
                     style={{
                       padding: '1rem 1.25rem',
                       textAlign: 'left',
@@ -581,7 +592,11 @@ const SmartScoreQuiz = ({
       <div style={{ display: 'flex', gap: '1rem' }}>
         {showFeedback && score < 100 && (
           <button
-            onClick={handleNext}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+              handleNext();
+            }}
             className="btn btn-primary"
             style={{ flex: 1 }}
           >
