@@ -173,19 +173,23 @@ const SmartScoreQuiz = ({
 
   // Removed canAnswer/isFirstRender - using phase state instead
 
+  // Track when question appeared - prevents ghost taps on new questions
+  const questionAppearedAt = useRef(Date.now());
+  
   // Reset selection state when question changes
   useEffect(() => {
     console.log('Question changed to index:', currentIndex);
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
+    questionAppearedAt.current = Date.now(); // Mark when new question appeared
     
     // Set phase to ready after a brief delay to prevent click-through
     const timer = setTimeout(() => {
       console.log('Setting phase to ready, unlocking');
       isProcessingAnswer.current = false; // Reset synchronous lock
       setPhase('ready');
-    }, 400); // Increased delay slightly
+    }, 500); // Increased delay to 500ms
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
@@ -197,11 +201,19 @@ const SmartScoreQuiz = ({
   const isProcessingAnswer = useRef(false);
   
   const handleAnswer = useCallback((answer) => {
-    console.log('handleAnswer called:', answer, 'phase:', phase, 'locked:', isProcessingAnswer.current);
+    const now = Date.now();
+    const timeSinceQuestionAppeared = now - questionAppearedAt.current;
+    console.log('handleAnswer called:', answer, 'phase:', phase, 'locked:', isProcessingAnswer.current, 'timeSinceAppear:', timeSinceQuestionAppeared);
     
     // SYNCHRONOUS lock check - this blocks before any async state updates
     if (isProcessingAnswer.current) {
       console.log('Blocked by synchronous lock');
+      return;
+    }
+    
+    // Block if question appeared less than 500ms ago (ghost tap prevention)
+    if (timeSinceQuestionAppeared < 500) {
+      console.log('Blocked - question too new:', timeSinceQuestionAppeared, 'ms');
       return;
     }
     
@@ -212,7 +224,6 @@ const SmartScoreQuiz = ({
     }
     
     // Prevent double-firing
-    const now = Date.now();
     if (now - lastAnswerTime.current < 500) {
       console.log('Blocked by debounce');
       return;
@@ -524,10 +535,20 @@ const SmartScoreQuiz = ({
                   <button
                     key={`${currentIndex}-${idx}-${option}`}
                     type="button"
+                    onTouchEnd={(e) => {
+                      // Handle touch FIRST and prevent click from also firing
+                      e.preventDefault();
+                      e.stopPropagation();
+                      console.log('Touch end:', option, 'phase:', phase);
+                      if (phase === 'ready') {
+                        handleAnswer(option);
+                      }
+                    }}
                     onClick={(e) => {
+                      // Only fires on desktop (touchend preventDefault blocks this on mobile)
                       e.stopPropagation();
                       e.preventDefault();
-                      console.log('Button clicked:', option, 'phase:', phase);
+                      console.log('Click:', option, 'phase:', phase);
                       if (phase === 'ready') {
                         handleAnswer(option);
                       }
@@ -548,7 +569,8 @@ const SmartScoreQuiz = ({
                       opacity: phase === 'transitioning' ? 0.5 : 1,
                       pointerEvents: phase !== 'ready' ? 'none' : 'auto',
                       userSelect: 'none',
-                      WebkitTapHighlightColor: 'transparent'
+                      WebkitTapHighlightColor: 'transparent',
+                      touchAction: 'manipulation'
                     }}
                   >
                     <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>
@@ -649,14 +671,20 @@ const SmartScoreQuiz = ({
         {phase === 'answered' && score < 100 && (
           <button
             type="button"
+            onTouchEnd={(e) => {
+              e.preventDefault();
+              e.stopPropagation();
+              console.log('Next touched, phase:', phase);
+              if (phase === 'answered') handleNext();
+            }}
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
               console.log('Next clicked, phase:', phase);
-              handleNext();
+              if (phase === 'answered') handleNext();
             }}
             className="btn btn-primary"
-            style={{ flex: 1 }}
+            style={{ flex: 1, touchAction: 'manipulation' }}
           >
             Next Question →
           </button>
