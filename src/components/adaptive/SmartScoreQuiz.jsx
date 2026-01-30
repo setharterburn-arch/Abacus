@@ -182,6 +182,7 @@ const SmartScoreQuiz = ({
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
+    setCanProceed(false); // Reset cooldown
     questionAppearedAt.current = Date.now(); // Mark when new question appeared
     
     // Set phase to selecting after a brief delay
@@ -197,12 +198,19 @@ const SmartScoreQuiz = ({
 
   // Synchronous lock - refs update immediately unlike state
   const isProcessingAnswer = useRef(false);
+  // Cooldown after checking - blocks Next button from appearing too soon
+  const [canProceed, setCanProceed] = useState(false);
   
   // Step 1: Select an answer (just highlights, doesn't submit)
   const handleSelectAnswer = useCallback((answer) => {
     // Only allow selection in 'selecting' or 'selected' phase (can change answer before checking)
     if (phase !== 'selecting' && phase !== 'selected') {
       console.log('Select blocked - phase is:', phase);
+      return;
+    }
+    
+    if (isProcessingAnswer.current) {
+      console.log('Select blocked - processing');
       return;
     }
     
@@ -222,7 +230,10 @@ const SmartScoreQuiz = ({
       console.log('Check blocked - already processing');
       return;
     }
+    
+    // LOCK everything
     isProcessingAnswer.current = true;
+    setCanProceed(false);
     
     console.log('Checking answer:', selectedAnswer);
     setShowFeedback(true);
@@ -268,7 +279,12 @@ const SmartScoreQuiz = ({
       }, 2000);
     }
     
-    isProcessingAnswer.current = false;
+    // UNLOCK after 1 second cooldown - Next button won't appear until then
+    setTimeout(() => {
+      console.log('Cooldown complete, can proceed');
+      isProcessingAnswer.current = false;
+      setCanProceed(true);
+    }, 1000);
   }, [phase, selectedAnswer, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
@@ -665,20 +681,34 @@ const SmartScoreQuiz = ({
           </button>
         )}
         
-        {/* Next Question button - only shows after answer is checked */}
-        {phase === 'checked' && score < 100 && (
+        {/* Next Question button - only shows after answer is checked AND cooldown passed */}
+        {phase === 'checked' && canProceed && score < 100 && (
           <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              handleNext();
+              if (canProceed) handleNext();
             }}
             className="btn btn-primary"
             style={{ flex: 1, minWidth: '150px', touchAction: 'manipulation' }}
           >
             Next Question →
           </button>
+        )}
+        
+        {/* Show "checking..." indicator during cooldown */}
+        {phase === 'checked' && !canProceed && score < 100 && (
+          <div style={{ 
+            flex: 1, 
+            minWidth: '150px', 
+            padding: '0.75rem', 
+            textAlign: 'center',
+            color: 'var(--color-text-muted)',
+            fontSize: '0.9rem'
+          }}>
+            ⏳ Checking...
+          </div>
         )}
         
         <button
