@@ -106253,5 +106253,3288 @@
         ]
       }
     ]
+  },
+  {
+    "id": "6-integers-1",
+    "title": "Add integers",
+    "grade_level": 6,
+    "topic": "Integers",
+    "skill_name": "Add integers",
+    "questions": [
+      {
+        "question": "What is (-3) + (-1)?",
+        "options": [
+          "4",
+          "-3",
+          "-5",
+          "-4"
+        ],
+        "answer": "-4",
+        "explanation": "-3 + -1 = -4. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-6) + 3?",
+        "options": [
+          "-3",
+          "-4",
+          "-2",
+          "3"
+        ],
+        "answer": "-3",
+        "explanation": "-6 + 3 = -3. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is 4 + 8?",
+        "options": [
+          "12",
+          "11",
+          "13",
+          "-12"
+        ],
+        "answer": "12",
+        "explanation": "4 + 8 = 12. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-7) + 6?",
+        "options": [
+          "1",
+          "-1",
+          "-2",
+          "0"
+        ],
+        "answer": "-1",
+        "explanation": "-7 + 6 = -1. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is 6 + 2?",
+        "options": [
+          "-8",
+          "9",
+          "7",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "6 + 2 = 8. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-5) + 5?",
+        "options": [
+          "0",
+          "-1",
+          "1",
+          "-10"
+        ],
+        "answer": "0",
+        "explanation": "-5 + 5 = 0. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-5) + (-3)?",
+        "options": [
+          "-7",
+          "-9",
+          "-8",
+          "8"
+        ],
+        "answer": "-8",
+        "explanation": "-5 + -3 = -8. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-7) + (-8)?",
+        "options": [
+          "-15",
+          "-16",
+          "15",
+          "-14"
+        ],
+        "answer": "-15",
+        "explanation": "-7 + -8 = -15. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-7) + (-6)?",
+        "options": [
+          "-13",
+          "13",
+          "-14",
+          "-12"
+        ],
+        "answer": "-13",
+        "explanation": "-7 + -6 = -13. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      },
+      {
+        "question": "What is (-7) + 2?",
+        "options": [
+          "5",
+          "-4",
+          "-6",
+          "-5"
+        ],
+        "answer": "-5",
+        "explanation": "-7 + 2 = -5. When adding integers, combine the values.",
+        "hints": [
+          "Same signs: add and keep the sign",
+          "Different signs: subtract and keep the sign of the larger absolute value"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-integers-2",
+    "title": "Subtract integers",
+    "grade_level": 6,
+    "topic": "Integers",
+    "skill_name": "Subtract integers",
+    "questions": [
+      {
+        "question": "What is 6 - 3?",
+        "options": [
+          "4",
+          "3",
+          "9",
+          "2"
+        ],
+        "answer": "3",
+        "explanation": "6 - 3 = 3. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "6 - 3 = 6 + -3"
+        ]
+      },
+      {
+        "question": "What is 10 - (-1)?",
+        "options": [
+          "9",
+          "11",
+          "12",
+          "10"
+        ],
+        "answer": "11",
+        "explanation": "10 - -1 = 11. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "10 - -1 = 10 + 1"
+        ]
+      },
+      {
+        "question": "What is 10 - 7?",
+        "options": [
+          "17",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": "3",
+        "explanation": "10 - 7 = 3. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "10 - 7 = 10 + -7"
+        ]
+      },
+      {
+        "question": "What is 1 - 3?",
+        "options": [
+          "4",
+          "-2",
+          "-3",
+          "-1"
+        ],
+        "answer": "-2",
+        "explanation": "1 - 3 = -2. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "1 - 3 = 1 + -3"
+        ]
+      },
+      {
+        "question": "What is 6 - (-1)?",
+        "options": [
+          "8",
+          "5",
+          "7",
+          "6"
+        ],
+        "answer": "7",
+        "explanation": "6 - -1 = 7. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "6 - -1 = 6 + 1"
+        ]
+      },
+      {
+        "question": "What is 10 - 6?",
+        "options": [
+          "4",
+          "3",
+          "16",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "10 - 6 = 4. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "10 - 6 = 10 + -6"
+        ]
+      },
+      {
+        "question": "What is (-9) - 2?",
+        "options": [
+          "-11",
+          "-12",
+          "-7",
+          "-10"
+        ],
+        "answer": "-11",
+        "explanation": "-9 - 2 = -11. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "-9 - 2 = -9 + -2"
+        ]
+      },
+      {
+        "question": "What is (-2) - 6?",
+        "options": [
+          "4",
+          "-7",
+          "-9",
+          "-8"
+        ],
+        "answer": "-8",
+        "explanation": "-2 - 6 = -8. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "-2 - 6 = -2 + -6"
+        ]
+      },
+      {
+        "question": "What is 6 - (-8)?",
+        "options": [
+          "-2",
+          "15",
+          "13",
+          "14"
+        ],
+        "answer": "14",
+        "explanation": "6 - -8 = 14. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "6 - -8 = 6 + 8"
+        ]
+      },
+      {
+        "question": "What is 8 - 1?",
+        "options": [
+          "9",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "8 - 1 = 7. To subtract, add the opposite.",
+        "hints": [
+          "Subtracting is the same as adding the opposite",
+          "8 - 1 = 8 + -1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-integers-3",
+    "title": "Multiply integers",
+    "grade_level": 6,
+    "topic": "Integers",
+    "skill_name": "Multiply integers",
+    "questions": [
+      {
+        "question": "What is (-2) × 1?",
+        "options": [
+          "-1",
+          "-3",
+          "-2",
+          "2"
+        ],
+        "answer": "-2",
+        "explanation": "-2 × 1 = -2. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-5) × 4?",
+        "options": [
+          "-21",
+          "-20",
+          "-19",
+          "20"
+        ],
+        "answer": "-20",
+        "explanation": "-5 × 4 = -20. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-6) × (-5)?",
+        "options": [
+          "30",
+          "29",
+          "31",
+          "-30"
+        ],
+        "answer": "30",
+        "explanation": "-6 × -5 = 30. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 3 × 3?",
+        "options": [
+          "-9",
+          "10",
+          "8",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "3 × 3 = 9. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-6) × 1?",
+        "options": [
+          "-6",
+          "-7",
+          "-5",
+          "6"
+        ],
+        "answer": "-6",
+        "explanation": "-6 × 1 = -6. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 1 × (-5)?",
+        "options": [
+          "-6",
+          "-4",
+          "-5",
+          "5"
+        ],
+        "answer": "-5",
+        "explanation": "1 × -5 = -5. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 6 × 2?",
+        "options": [
+          "-12",
+          "13",
+          "11",
+          "12"
+        ],
+        "answer": "12",
+        "explanation": "6 × 2 = 12. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-6) × 1?",
+        "options": [
+          "-7",
+          "6",
+          "-6",
+          "-5"
+        ],
+        "answer": "-6",
+        "explanation": "-6 × 1 = -6. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive × Positive = Positive",
+          "Negative × Negative = Positive",
+          "Positive × Negative = Negative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-integers-4",
+    "title": "Divide integers",
+    "grade_level": 6,
+    "topic": "Integers",
+    "skill_name": "Divide integers",
+    "questions": [
+      {
+        "question": "What is (-12) ÷ (-6)?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "-2"
+        ],
+        "answer": "2",
+        "explanation": "-12 ÷ -6 = 2. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-21) ÷ (-7)?",
+        "options": [
+          "2",
+          "4",
+          "-3",
+          "3"
+        ],
+        "answer": "3",
+        "explanation": "-21 ÷ -7 = 3. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 30 ÷ (-5)?",
+        "options": [
+          "-6",
+          "-7",
+          "6",
+          "-5"
+        ],
+        "answer": "-6",
+        "explanation": "30 ÷ -5 = -6. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-25) ÷ (-5)?",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "-5"
+        ],
+        "answer": "5",
+        "explanation": "-25 ÷ -5 = 5. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 24 ÷ (-6)?",
+        "options": [
+          "-4",
+          "-5",
+          "-3",
+          "4"
+        ],
+        "answer": "-4",
+        "explanation": "24 ÷ -6 = -4. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-24) ÷ (-4)?",
+        "options": [
+          "-6",
+          "7",
+          "5",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "-24 ÷ -4 = 6. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 10 ÷ (-2)?",
+        "options": [
+          "-4",
+          "-6",
+          "-5",
+          "5"
+        ],
+        "answer": "-5",
+        "explanation": "10 ÷ -2 = -5. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is (-21) ÷ 7?",
+        "options": [
+          "-2",
+          "-4",
+          "3",
+          "-3"
+        ],
+        "answer": "-3",
+        "explanation": "-21 ÷ 7 = -3. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 28 ÷ 7?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "explanation": "28 ÷ 7 = 4. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      },
+      {
+        "question": "What is 9 ÷ 9?",
+        "options": [
+          "1",
+          "0",
+          "2",
+          "-1"
+        ],
+        "answer": "1",
+        "explanation": "9 ÷ 9 = 1. Same signs = positive, different signs = negative.",
+        "hints": [
+          "Positive ÷ Positive = Positive",
+          "Negative ÷ Negative = Positive",
+          "Positive ÷ Negative = Negative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-proportions-5",
+    "title": "Solve proportions",
+    "grade_level": 6,
+    "topic": "Proportions",
+    "skill_name": "Solve proportions",
+    "questions": [
+      {
+        "question": "Solve for x: 3/8 = 9/x",
+        "options": [
+          "24",
+          "23",
+          "25",
+          "26"
+        ],
+        "answer": "24",
+        "explanation": "3/8 = 9/x means x = (8 × 9)/3 = 24",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "3 × x = 8 × 9"
+        ]
+      },
+      {
+        "question": "Solve for x: 7/6 = 35/x",
+        "options": [
+          "30",
+          "32",
+          "29",
+          "31"
+        ],
+        "answer": "30",
+        "explanation": "7/6 = 35/x means x = (6 × 35)/7 = 30",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "7 × x = 6 × 35"
+        ]
+      },
+      {
+        "question": "Solve for x: 4/9 = 8/x",
+        "options": [
+          "18",
+          "17",
+          "19",
+          "20"
+        ],
+        "answer": "18",
+        "explanation": "4/9 = 8/x means x = (9 × 8)/4 = 18",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "4 × x = 9 × 8"
+        ]
+      },
+      {
+        "question": "Solve for x: 5/4 = 25/x",
+        "options": [
+          "21",
+          "19",
+          "20",
+          "22"
+        ],
+        "answer": "20",
+        "explanation": "5/4 = 25/x means x = (4 × 25)/5 = 20",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "5 × x = 4 × 25"
+        ]
+      },
+      {
+        "question": "Solve for x: 4/3 = 12/x",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "8"
+        ],
+        "answer": "9",
+        "explanation": "4/3 = 12/x means x = (3 × 12)/4 = 9",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "4 × x = 3 × 12"
+        ]
+      },
+      {
+        "question": "Solve for x: 7/5 = 28/x",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "22"
+        ],
+        "answer": "20",
+        "explanation": "7/5 = 28/x means x = (5 × 28)/7 = 20",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "7 × x = 5 × 28"
+        ]
+      },
+      {
+        "question": "Solve for x: 6/5 = 30/x",
+        "options": [
+          "25",
+          "24",
+          "27",
+          "26"
+        ],
+        "answer": "25",
+        "explanation": "6/5 = 30/x means x = (5 × 30)/6 = 25",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "6 × x = 5 × 30"
+        ]
+      },
+      {
+        "question": "Solve for x: 8/5 = 16/x",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "explanation": "8/5 = 16/x means x = (5 × 16)/8 = 10",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "8 × x = 5 × 16"
+        ]
+      },
+      {
+        "question": "Solve for x: 3/8 = 15/x",
+        "options": [
+          "42",
+          "41",
+          "39",
+          "40"
+        ],
+        "answer": "40",
+        "explanation": "3/8 = 15/x means x = (8 × 15)/3 = 40",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "3 × x = 8 × 15"
+        ]
+      },
+      {
+        "question": "Solve for x: 4/4 = 20/x",
+        "options": [
+          "20",
+          "19",
+          "21",
+          "22"
+        ],
+        "answer": "20",
+        "explanation": "4/4 = 20/x means x = (4 × 20)/4 = 20",
+        "hints": [
+          "Cross multiply: a × x = b × c",
+          "4 × x = 4 × 20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-proportions-6",
+    "title": "Percent proportion problems",
+    "grade_level": 6,
+    "topic": "Proportions",
+    "skill_name": "Percent proportion problems",
+    "questions": [
+      {
+        "question": "What is 10% of 20?",
+        "options": [
+          "7",
+          "2",
+          "12"
+        ],
+        "answer": "2",
+        "explanation": "10% of 20 = 10/100 × 20 = 2",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "10% = 0.1"
+        ]
+      },
+      {
+        "question": "What is 20% of 50?",
+        "options": [
+          "15",
+          "5",
+          "10",
+          "20"
+        ],
+        "answer": "10",
+        "explanation": "20% of 50 = 20/100 × 50 = 10",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "20% = 0.2"
+        ]
+      },
+      {
+        "question": "What is 25% of 30?",
+        "options": [
+          "7.5",
+          "2.5",
+          "12.5",
+          "17.5"
+        ],
+        "answer": "7.5",
+        "explanation": "25% of 30 = 25/100 × 30 = 7.5",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "25% = 0.25"
+        ]
+      },
+      {
+        "question": "What is 30% of 20?",
+        "options": [
+          "6",
+          "1",
+          "11",
+          "16"
+        ],
+        "answer": "6",
+        "explanation": "30% of 20 = 30/100 × 20 = 6",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "30% = 0.3"
+        ]
+      },
+      {
+        "question": "What is 40% of 90?",
+        "options": [
+          "41",
+          "31",
+          "26",
+          "36"
+        ],
+        "answer": "36",
+        "explanation": "40% of 90 = 40/100 × 90 = 36",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "40% = 0.4"
+        ]
+      },
+      {
+        "question": "What is 50% of 40?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "10"
+        ],
+        "answer": "20",
+        "explanation": "50% of 40 = 50/100 × 40 = 20",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "50% = 0.5"
+        ]
+      },
+      {
+        "question": "What is 60% of 50?",
+        "options": [
+          "30",
+          "20",
+          "25",
+          "35"
+        ],
+        "answer": "30",
+        "explanation": "60% of 50 = 60/100 × 50 = 30",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "60% = 0.6"
+        ]
+      },
+      {
+        "question": "What is 75% of 110?",
+        "options": [
+          "72.5",
+          "77.5",
+          "82.5",
+          "87.5"
+        ],
+        "answer": "82.5",
+        "explanation": "75% of 110 = 75/100 × 110 = 82.5",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "75% = 0.75"
+        ]
+      },
+      {
+        "question": "What is 80% of 80?",
+        "options": [
+          "54",
+          "69",
+          "59",
+          "64"
+        ],
+        "answer": "64",
+        "explanation": "80% of 80 = 80/100 × 80 = 64",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "80% = 0.8"
+        ]
+      },
+      {
+        "question": "What is 100% of 60?",
+        "options": [
+          "50",
+          "60",
+          "65",
+          "55"
+        ],
+        "answer": "60",
+        "explanation": "100% of 60 = 100/100 × 60 = 60",
+        "hints": [
+          "Convert percent to decimal: divide by 100",
+          "100% = 1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-geometry-7",
+    "title": "Identify quadrants",
+    "grade_level": 6,
+    "topic": "Geometry",
+    "skill_name": "Identify quadrants",
+    "questions": [
+      {
+        "question": "In which quadrant is the point (5, -4)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "IV",
+        "explanation": "Point (5, -4) is in Quadrant IV. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (4, 7)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "I",
+        "explanation": "Point (4, 7) is in Quadrant I. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (6, -2)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "IV",
+        "explanation": "Point (6, -2) is in Quadrant IV. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (-8, -4)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "III",
+        "explanation": "Point (-8, -4) is in Quadrant III. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (-6, 6)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "II",
+        "explanation": "Point (-6, 6) is in Quadrant II. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (2, -6)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "IV",
+        "explanation": "Point (2, -6) is in Quadrant IV. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (-1, 8)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "II",
+        "explanation": "Point (-1, 8) is in Quadrant II. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (-9, -4)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "III",
+        "explanation": "Point (-9, -4) is in Quadrant III. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (9, 2)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "I",
+        "explanation": "Point (9, 2) is in Quadrant I. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      },
+      {
+        "question": "In which quadrant is the point (4, -2)?",
+        "options": [
+          "I",
+          "II",
+          "III",
+          "IV"
+        ],
+        "answer": "IV",
+        "explanation": "Point (4, -2) is in Quadrant IV. Quadrant I: (+, +), II: (-, +), III: (-, -), IV: (+, -)",
+        "hints": [
+          "Q I is top right, Q II is top left, Q III is bottom left, Q IV is bottom right"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-algebra-8",
+    "title": "Order of operations with parentheses",
+    "grade_level": 6,
+    "topic": "Algebra",
+    "skill_name": "Order of operations with parentheses",
+    "questions": [
+      {
+        "question": "What is (5 + 5) × 5?",
+        "options": [
+          "15",
+          "50",
+          "30",
+          "30"
+        ],
+        "answer": "50",
+        "explanation": "(5 + 5) × 5 = 10 × 5 = 50. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "5 + 5 = 10"
+        ]
+      },
+      {
+        "question": "What is (2 + 2) × 2?",
+        "options": [
+          "8",
+          "6",
+          "6",
+          "6"
+        ],
+        "answer": "8",
+        "explanation": "(2 + 2) × 2 = 4 × 2 = 8. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "2 + 2 = 4"
+        ]
+      },
+      {
+        "question": "What is (2 + 4) × 5?",
+        "options": [
+          "13",
+          "22",
+          "30",
+          "11"
+        ],
+        "answer": "30",
+        "explanation": "(2 + 4) × 5 = 6 × 5 = 30. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "2 + 4 = 6"
+        ]
+      },
+      {
+        "question": "What is (8 + 8) × 3?",
+        "options": [
+          "19",
+          "67",
+          "32",
+          "48"
+        ],
+        "answer": "48",
+        "explanation": "(8 + 8) × 3 = 16 × 3 = 48. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "8 + 8 = 16"
+        ]
+      },
+      {
+        "question": "What is (6 + 9) × 5?",
+        "options": [
+          "75",
+          "51",
+          "59",
+          "20"
+        ],
+        "answer": "75",
+        "explanation": "(6 + 9) × 5 = 15 × 5 = 75. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "6 + 9 = 15"
+        ]
+      },
+      {
+        "question": "What is (5 + 7) × 5?",
+        "options": [
+          "60",
+          "40",
+          "17",
+          "40"
+        ],
+        "answer": "60",
+        "explanation": "(5 + 7) × 5 = 12 × 5 = 60. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "5 + 7 = 12"
+        ]
+      },
+      {
+        "question": "What is (2 + 6) × 3?",
+        "options": [
+          "20",
+          "24",
+          "11",
+          "15"
+        ],
+        "answer": "24",
+        "explanation": "(2 + 6) × 3 = 8 × 3 = 24. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "2 + 6 = 8"
+        ]
+      },
+      {
+        "question": "What is (3 + 2) × 2?",
+        "options": [
+          "10",
+          "7",
+          "8",
+          "7"
+        ],
+        "answer": "10",
+        "explanation": "(3 + 2) × 2 = 5 × 2 = 10. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "3 + 2 = 5"
+        ]
+      },
+      {
+        "question": "What is (4 + 3) × 2?",
+        "options": [
+          "14",
+          "10",
+          "9"
+        ],
+        "answer": "14",
+        "explanation": "(4 + 3) × 2 = 7 × 2 = 14. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "4 + 3 = 7"
+        ]
+      },
+      {
+        "question": "What is (4 + 7) × 4?",
+        "options": [
+          "44",
+          "32",
+          "32",
+          "15"
+        ],
+        "answer": "44",
+        "explanation": "(4 + 7) × 4 = 11 × 4 = 44. Parentheses first!",
+        "hints": [
+          "Do parentheses first",
+          "4 + 7 = 11"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6-algebra-9",
+    "title": "Order of operations with exponents",
+    "grade_level": 6,
+    "topic": "Algebra",
+    "skill_name": "Order of operations with exponents",
+    "questions": [
+      {
+        "question": "What is 6² + 7?",
+        "options": [
+          "19",
+          "43",
+          "44",
+          "42"
+        ],
+        "answer": "43",
+        "explanation": "6² + 7 = 36 + 7 = 43. Exponents before addition.",
+        "hints": [
+          "6² means 6 × 6",
+          "6² = 36"
+        ]
+      },
+      {
+        "question": "What is 5² + 8?",
+        "options": [
+          "32",
+          "34",
+          "18",
+          "33"
+        ],
+        "answer": "33",
+        "explanation": "5² + 8 = 25 + 8 = 33. Exponents before addition.",
+        "hints": [
+          "5² means 5 × 5",
+          "5² = 25"
+        ]
+      },
+      {
+        "question": "What is 3² + 8?",
+        "options": [
+          "18",
+          "16",
+          "14",
+          "17"
+        ],
+        "answer": "17",
+        "explanation": "3² + 8 = 9 + 8 = 17. Exponents before addition.",
+        "hints": [
+          "3² means 3 × 3",
+          "3² = 9"
+        ]
+      },
+      {
+        "question": "What is 5² + 8?",
+        "options": [
+          "34",
+          "33",
+          "18",
+          "32"
+        ],
+        "answer": "33",
+        "explanation": "5² + 8 = 25 + 8 = 33. Exponents before addition.",
+        "hints": [
+          "5² means 5 × 5",
+          "5² = 25"
+        ]
+      },
+      {
+        "question": "What is 2² + 3?",
+        "options": [
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": "7",
+        "explanation": "2² + 3 = 4 + 3 = 7. Exponents before addition.",
+        "hints": [
+          "2² means 2 × 2",
+          "2² = 4"
+        ]
+      },
+      {
+        "question": "What is 2² + 8?",
+        "options": [
+          "12",
+          "11",
+          "13"
+        ],
+        "answer": "12",
+        "explanation": "2² + 8 = 4 + 8 = 12. Exponents before addition.",
+        "hints": [
+          "2² means 2 × 2",
+          "2² = 4"
+        ]
+      },
+      {
+        "question": "What is 5² + 9?",
+        "options": [
+          "35",
+          "33",
+          "19",
+          "34"
+        ],
+        "answer": "34",
+        "explanation": "5² + 9 = 25 + 9 = 34. Exponents before addition.",
+        "hints": [
+          "5² means 5 × 5",
+          "5² = 25"
+        ]
+      },
+      {
+        "question": "What is 3² + 7?",
+        "options": [
+          "16",
+          "13",
+          "15",
+          "17"
+        ],
+        "answer": "16",
+        "explanation": "3² + 7 = 9 + 7 = 16. Exponents before addition.",
+        "hints": [
+          "3² means 3 × 3",
+          "3² = 9"
+        ]
+      },
+      {
+        "question": "What is 6² + 5?",
+        "options": [
+          "17",
+          "41",
+          "40",
+          "42"
+        ],
+        "answer": "41",
+        "explanation": "6² + 5 = 36 + 5 = 41. Exponents before addition.",
+        "hints": [
+          "6² means 6 × 6",
+          "6² = 36"
+        ]
+      },
+      {
+        "question": "What is 3² + 4?",
+        "options": [
+          "13",
+          "12",
+          "10",
+          "14"
+        ],
+        "answer": "13",
+        "explanation": "3² + 4 = 9 + 4 = 13. Exponents before addition.",
+        "hints": [
+          "3² means 3 × 3",
+          "3² = 9"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-ratios-1",
+    "title": "Identify proportional relationships",
+    "grade_level": 7,
+    "topic": "Ratios",
+    "skill_name": "Identify proportional relationships",
+    "questions": [
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 4, 8, 12",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "explanation": "Yes, y = 4x. The ratio y/x is always 4.",
+        "hints": [
+          "Check if y/x is the same for all pairs",
+          "4/1 = 8/2 = 12/3 = 4"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 8, 16, 24",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "explanation": "Yes, y = 8x. The ratio y/x is always 8.",
+        "hints": [
+          "Check if y/x is the same for all pairs",
+          "8/1 = 16/2 = 24/3 = 8"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 5, 10, 15",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "explanation": "Yes, y = 5x. The ratio y/x is always 5.",
+        "hints": [
+          "Check if y/x is the same for all pairs",
+          "5/1 = 10/2 = 15/3 = 5"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 8, 16, 24",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "explanation": "Yes, y = 8x. The ratio y/x is always 8.",
+        "hints": [
+          "Check if y/x is the same for all pairs",
+          "8/1 = 16/2 = 24/3 = 8"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 4, 8, 12",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "explanation": "Yes, y = 4x. The ratio y/x is always 4.",
+        "hints": [
+          "Check if y/x is the same for all pairs",
+          "4/1 = 8/2 = 12/3 = 4"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 6, 8, 10",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No",
+        "explanation": "No, the ratios are different: 6/1 ≠ 8/2 ≠ 10/3",
+        "hints": [
+          "For proportional relationships, y/x must be constant",
+          "Check each ratio"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 6, 11, 16",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No",
+        "explanation": "No, the ratios are different: 6/1 ≠ 11/2 ≠ 16/3",
+        "hints": [
+          "For proportional relationships, y/x must be constant",
+          "Check each ratio"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 8, 13, 18",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No",
+        "explanation": "No, the ratios are different: 8/1 ≠ 13/2 ≠ 18/3",
+        "hints": [
+          "For proportional relationships, y/x must be constant",
+          "Check each ratio"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 8, 11, 14",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No",
+        "explanation": "No, the ratios are different: 8/1 ≠ 11/2 ≠ 14/3",
+        "hints": [
+          "For proportional relationships, y/x must be constant",
+          "Check each ratio"
+        ]
+      },
+      {
+        "question": "Is the relationship proportional? x: 1, 2, 3  y: 7, 11, 15",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "No",
+        "explanation": "No, the ratios are different: 7/1 ≠ 11/2 ≠ 15/3",
+        "hints": [
+          "For proportional relationships, y/x must be constant",
+          "Check each ratio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-algebra-2",
+    "title": "Write expressions with variables",
+    "grade_level": 7,
+    "topic": "Algebra",
+    "skill_name": "Write expressions with variables",
+    "questions": [
+      {
+        "question": "Write an expression for: 5 more than a number n",
+        "options": [
+          "n - 5",
+          "5/n",
+          "5n",
+          "n + 5"
+        ],
+        "answer": "n + 5",
+        "explanation": "\"5 more than a number n\" translates to n + 5",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: 3 less than a number x",
+        "options": [
+          "x + 3",
+          "3x",
+          "x - 3",
+          "3 - x"
+        ],
+        "answer": "x - 3",
+        "explanation": "\"3 less than a number x\" translates to x - 3",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: twice a number y",
+        "options": [
+          "y²",
+          "y/2",
+          "y + 2",
+          "2y"
+        ],
+        "answer": "2y",
+        "explanation": "\"twice a number y\" translates to 2y",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: a number m divided by 4",
+        "options": [
+          "m/4",
+          "4m",
+          "4/m",
+          "m - 4"
+        ],
+        "answer": "m/4",
+        "explanation": "\"a number m divided by 4\" translates to m/4",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: the product of 6 and a number p",
+        "options": [
+          "6 - p",
+          "p/6",
+          "6 + p",
+          "6p"
+        ],
+        "answer": "6p",
+        "explanation": "\"the product of 6 and a number p\" translates to 6p",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: 7 less than twice a number z",
+        "options": [
+          "2 - 7z",
+          "2z + 7",
+          "7 - 2z",
+          "2z - 7"
+        ],
+        "answer": "2z - 7",
+        "explanation": "\"7 less than twice a number z\" translates to 2z - 7",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: the sum of a number w and 9",
+        "options": [
+          "9w",
+          "w + 9",
+          "w - 9",
+          "w/9"
+        ],
+        "answer": "w + 9",
+        "explanation": "\"the sum of a number w and 9\" translates to w + 9",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: the quotient of 20 and a number k",
+        "options": [
+          "20/k",
+          "k/20",
+          "20k",
+          "20 - k"
+        ],
+        "answer": "20/k",
+        "explanation": "\"the quotient of 20 and a number k\" translates to 20/k",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: 4 times the sum of a number t and 3",
+        "options": [
+          "4 + t + 3",
+          "t + 12",
+          "4t + 3",
+          "4(t + 3)"
+        ],
+        "answer": "4(t + 3)",
+        "explanation": "\"4 times the sum of a number t and 3\" translates to 4(t + 3)",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      },
+      {
+        "question": "Write an expression for: half of a number h",
+        "options": [
+          "h/2",
+          "h + 2",
+          "2h",
+          "h - 2"
+        ],
+        "answer": "h/2",
+        "explanation": "\"half of a number h\" translates to h/2",
+        "hints": [
+          "Identify the operation",
+          "Variables represent unknown numbers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-algebra-3",
+    "title": "Solve two-step equations",
+    "grade_level": 7,
+    "topic": "Algebra",
+    "skill_name": "Solve two-step equations",
+    "questions": [
+      {
+        "question": "Solve: 4x + 6 = 30",
+        "options": [
+          "8",
+          "5",
+          "7",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "4x + 6 = 30 → 4x = 24 → x = 6",
+        "hints": [
+          "First subtract 6 from both sides",
+          "Then divide by 4"
+        ]
+      },
+      {
+        "question": "Solve: 5x + 3 = 28",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "4"
+        ],
+        "answer": "5",
+        "explanation": "5x + 3 = 28 → 5x = 25 → x = 5",
+        "hints": [
+          "First subtract 3 from both sides",
+          "Then divide by 5"
+        ]
+      },
+      {
+        "question": "Solve: 4x + 7 = 19",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "4x + 7 = 19 → 4x = 12 → x = 3",
+        "hints": [
+          "First subtract 7 from both sides",
+          "Then divide by 4"
+        ]
+      },
+      {
+        "question": "Solve: 3x + 2 = 26",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "3x + 2 = 26 → 3x = 24 → x = 8",
+        "hints": [
+          "First subtract 2 from both sides",
+          "Then divide by 3"
+        ]
+      },
+      {
+        "question": "Solve: 4x + 3 = 23",
+        "options": [
+          "4",
+          "6",
+          "7",
+          "5"
+        ],
+        "answer": "5",
+        "explanation": "4x + 3 = 23 → 4x = 20 → x = 5",
+        "hints": [
+          "First subtract 3 from both sides",
+          "Then divide by 4"
+        ]
+      },
+      {
+        "question": "Solve: 6x + 1 = 55",
+        "options": [
+          "11",
+          "10",
+          "9",
+          "8"
+        ],
+        "answer": "9",
+        "explanation": "6x + 1 = 55 → 6x = 54 → x = 9",
+        "hints": [
+          "First subtract 1 from both sides",
+          "Then divide by 6"
+        ]
+      },
+      {
+        "question": "Solve: 6x + 1 = 37",
+        "options": [
+          "8",
+          "5",
+          "7",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "6x + 1 = 37 → 6x = 36 → x = 6",
+        "hints": [
+          "First subtract 1 from both sides",
+          "Then divide by 6"
+        ]
+      },
+      {
+        "question": "Solve: 5x + 1 = 36",
+        "options": [
+          "8",
+          "6",
+          "9",
+          "7"
+        ],
+        "answer": "7",
+        "explanation": "5x + 1 = 36 → 5x = 35 → x = 7",
+        "hints": [
+          "First subtract 1 from both sides",
+          "Then divide by 5"
+        ]
+      },
+      {
+        "question": "Solve: 6x + 4 = 28",
+        "options": [
+          "6",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "6x + 4 = 28 → 6x = 24 → x = 4",
+        "hints": [
+          "First subtract 4 from both sides",
+          "Then divide by 6"
+        ]
+      },
+      {
+        "question": "Solve: 3x + 5 = 32",
+        "options": [
+          "11",
+          "8",
+          "10",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "3x + 5 = 32 → 3x = 27 → x = 9",
+        "hints": [
+          "First subtract 5 from both sides",
+          "Then divide by 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-geometry-4",
+    "title": "Find complementary angles",
+    "grade_level": 7,
+    "topic": "Geometry",
+    "skill_name": "Find complementary angles",
+    "questions": [
+      {
+        "question": "If one angle is 21°, what is its complement?",
+        "options": [
+          "159°",
+          "59°",
+          "79°",
+          "69°"
+        ],
+        "answer": "69°",
+        "explanation": "Complementary angles add to 90°. 21° + 69° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 21 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 73°, what is its complement?",
+        "options": [
+          "7°",
+          "27°",
+          "17°",
+          "107°"
+        ],
+        "answer": "17°",
+        "explanation": "Complementary angles add to 90°. 73° + 17° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 73 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 46°, what is its complement?",
+        "options": [
+          "134°",
+          "34°",
+          "54°",
+          "44°"
+        ],
+        "answer": "44°",
+        "explanation": "Complementary angles add to 90°. 46° + 44° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 46 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 78°, what is its complement?",
+        "options": [
+          "22°",
+          "102°",
+          "2°",
+          "12°"
+        ],
+        "answer": "12°",
+        "explanation": "Complementary angles add to 90°. 78° + 12° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 78 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 23°, what is its complement?",
+        "options": [
+          "67°",
+          "157°",
+          "77°",
+          "57°"
+        ],
+        "answer": "67°",
+        "explanation": "Complementary angles add to 90°. 23° + 67° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 23 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 26°, what is its complement?",
+        "options": [
+          "64°",
+          "54°",
+          "74°",
+          "154°"
+        ],
+        "answer": "64°",
+        "explanation": "Complementary angles add to 90°. 26° + 64° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 26 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 52°, what is its complement?",
+        "options": [
+          "28°",
+          "48°",
+          "128°",
+          "38°"
+        ],
+        "answer": "38°",
+        "explanation": "Complementary angles add to 90°. 52° + 38° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 52 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 35°, what is its complement?",
+        "options": [
+          "55°",
+          "145°",
+          "45°",
+          "65°"
+        ],
+        "answer": "55°",
+        "explanation": "Complementary angles add to 90°. 35° + 55° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 35 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 54°, what is its complement?",
+        "options": [
+          "126°",
+          "46°",
+          "26°",
+          "36°"
+        ],
+        "answer": "36°",
+        "explanation": "Complementary angles add to 90°. 54° + 36° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 54 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 59°, what is its complement?",
+        "options": [
+          "121°",
+          "31°",
+          "21°",
+          "41°"
+        ],
+        "answer": "31°",
+        "explanation": "Complementary angles add to 90°. 59° + 31° = 90°",
+        "hints": [
+          "Complementary angles sum to 90°",
+          "90 - 59 = ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-geometry-5",
+    "title": "Find supplementary angles",
+    "grade_level": 7,
+    "topic": "Geometry",
+    "skill_name": "Find supplementary angles",
+    "questions": [
+      {
+        "question": "If one angle is 146°, what is its supplement?",
+        "options": [
+          "34°",
+          "44°",
+          "54°",
+          "24°"
+        ],
+        "answer": "34°",
+        "explanation": "Supplementary angles add to 180°. 146° + 34° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 146 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 50°, what is its supplement?",
+        "options": [
+          "40°",
+          "120°",
+          "140°",
+          "130°"
+        ],
+        "answer": "130°",
+        "explanation": "Supplementary angles add to 180°. 50° + 130° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 50 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 33°, what is its supplement?",
+        "options": [
+          "57°",
+          "137°",
+          "157°",
+          "147°"
+        ],
+        "answer": "147°",
+        "explanation": "Supplementary angles add to 180°. 33° + 147° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 33 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 129°, what is its supplement?",
+        "options": [
+          "61°",
+          "71°",
+          "41°",
+          "51°"
+        ],
+        "answer": "51°",
+        "explanation": "Supplementary angles add to 180°. 129° + 51° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 129 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 81°, what is its supplement?",
+        "options": [
+          "109°",
+          "99°",
+          "89°",
+          "9°"
+        ],
+        "answer": "99°",
+        "explanation": "Supplementary angles add to 180°. 81° + 99° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 81 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 63°, what is its supplement?",
+        "options": [
+          "27°",
+          "117°",
+          "127°",
+          "107°"
+        ],
+        "answer": "117°",
+        "explanation": "Supplementary angles add to 180°. 63° + 117° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 63 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 80°, what is its supplement?",
+        "options": [
+          "90°",
+          "110°",
+          "10°",
+          "100°"
+        ],
+        "answer": "100°",
+        "explanation": "Supplementary angles add to 180°. 80° + 100° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 80 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 140°, what is its supplement?",
+        "options": [
+          "40°",
+          "50°",
+          "30°",
+          "60°"
+        ],
+        "answer": "40°",
+        "explanation": "Supplementary angles add to 180°. 140° + 40° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 140 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 115°, what is its supplement?",
+        "options": [
+          "55°",
+          "65°",
+          "75°",
+          "85°"
+        ],
+        "answer": "65°",
+        "explanation": "Supplementary angles add to 180°. 115° + 65° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 115 = ?"
+        ]
+      },
+      {
+        "question": "If one angle is 76°, what is its supplement?",
+        "options": [
+          "104°",
+          "114°",
+          "14°",
+          "94°"
+        ],
+        "answer": "104°",
+        "explanation": "Supplementary angles add to 180°. 76° + 104° = 180°",
+        "hints": [
+          "Supplementary angles sum to 180°",
+          "180 - 76 = ?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7-geometry-6",
+    "title": "Use scale factors",
+    "grade_level": 7,
+    "topic": "Geometry",
+    "skill_name": "Use scale factors",
+    "questions": [
+      {
+        "question": "A side is 10 cm. With scale factor 3, what is the new length?",
+        "options": [
+          "27 cm",
+          "30 cm",
+          "13 cm",
+          "33 cm"
+        ],
+        "answer": "30 cm",
+        "explanation": "10 × 3 = 30 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 11 cm. With scale factor 6, what is the new length?",
+        "options": [
+          "66 cm",
+          "17 cm",
+          "72 cm",
+          "60 cm"
+        ],
+        "answer": "66 cm",
+        "explanation": "11 × 6 = 66 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 11 cm. With scale factor 6, what is the new length?",
+        "options": [
+          "66 cm",
+          "72 cm",
+          "60 cm",
+          "17 cm"
+        ],
+        "answer": "66 cm",
+        "explanation": "11 × 6 = 66 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 5 cm. With scale factor 4, what is the new length?",
+        "options": [
+          "20 cm",
+          "9 cm",
+          "16 cm",
+          "24 cm"
+        ],
+        "answer": "20 cm",
+        "explanation": "5 × 4 = 20 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 2 cm. With scale factor 5, what is the new length?",
+        "options": [
+          "15 cm",
+          "7 cm",
+          "10 cm",
+          "5 cm"
+        ],
+        "answer": "10 cm",
+        "explanation": "2 × 5 = 10 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 4 cm. With scale factor 4, what is the new length?",
+        "options": [
+          "20 cm",
+          "12 cm",
+          "8 cm",
+          "16 cm"
+        ],
+        "answer": "16 cm",
+        "explanation": "4 × 4 = 16 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 8 cm. With scale factor 2, what is the new length?",
+        "options": [
+          "14 cm",
+          "18 cm",
+          "10 cm",
+          "16 cm"
+        ],
+        "answer": "16 cm",
+        "explanation": "8 × 2 = 16 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 2 cm. With scale factor 4, what is the new length?",
+        "options": [
+          "8 cm",
+          "4 cm",
+          "12 cm",
+          "6 cm"
+        ],
+        "answer": "8 cm",
+        "explanation": "2 × 4 = 8 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 10 cm. With scale factor 4, what is the new length?",
+        "options": [
+          "40 cm",
+          "44 cm",
+          "14 cm",
+          "36 cm"
+        ],
+        "answer": "40 cm",
+        "explanation": "10 × 4 = 40 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      },
+      {
+        "question": "A side is 7 cm. With scale factor 3, what is the new length?",
+        "options": [
+          "10 cm",
+          "24 cm",
+          "21 cm",
+          "18 cm"
+        ],
+        "answer": "21 cm",
+        "explanation": "7 × 3 = 21 cm",
+        "hints": [
+          "Multiply the original by the scale factor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-algebra-1",
+    "title": "Find slope from two points",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "skill_name": "Find slope from two points",
+    "questions": [
+      {
+        "question": "Find the slope of the line through (3, 3) and (7, 1)",
+        "options": [
+          "-1/2",
+          "4/-2",
+          "1/2",
+          "-0.25"
+        ],
+        "answer": "-1/2",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (1 - 3)/(7 - 3) = -2/4",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (1, 0) and (3, 0)",
+        "options": [
+          "0",
+          "2/0",
+          "0.5",
+          "0/1"
+        ],
+        "answer": "0",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (0 - 0)/(3 - 1) = 0/2",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (3, 5) and (7, 5)",
+        "options": [
+          "0.25",
+          "4/0",
+          "0",
+          "0/1"
+        ],
+        "answer": "0",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (5 - 5)/(7 - 3) = 0/4",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (5, 5) and (8, 3)",
+        "options": [
+          "-2/3",
+          "3/-2",
+          "2/3",
+          "-0.3333333333333333"
+        ],
+        "answer": "-2/3",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (3 - 5)/(8 - 5) = -2/3",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (3, 5) and (6, 6)",
+        "options": [
+          "1/3",
+          "3/1",
+          "0.6666666666666666",
+          "-1/3"
+        ],
+        "answer": "1/3",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (6 - 5)/(6 - 3) = 1/3",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (1, 1) and (6, 2)",
+        "options": [
+          "1/5",
+          "5/1",
+          "-1/5",
+          "0.4"
+        ],
+        "answer": "1/5",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (2 - 1)/(6 - 1) = 1/5",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (3, 5) and (7, 6)",
+        "options": [
+          "0.5",
+          "-1/4",
+          "4/1",
+          "1/4"
+        ],
+        "answer": "1/4",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (6 - 5)/(7 - 3) = 1/4",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (3, 1) and (6, 5)",
+        "options": [
+          "1.6666666666666667",
+          "-4/3",
+          "3/4",
+          "4/3"
+        ],
+        "answer": "4/3",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (5 - 1)/(6 - 3) = 4/3",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (5, 5) and (6, 5)",
+        "options": [
+          "1/0",
+          "0/1",
+          "1",
+          "0"
+        ],
+        "answer": "0",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (5 - 5)/(6 - 5) = 0/1",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      },
+      {
+        "question": "Find the slope of the line through (3, 3) and (4, 0)",
+        "options": [
+          "3/1",
+          "1/-3",
+          "-2",
+          "-3"
+        ],
+        "answer": "-3",
+        "explanation": "Slope = (y₂ - y₁)/(x₂ - x₁) = (0 - 3)/(4 - 3) = -3/1",
+        "hints": [
+          "Slope = rise/run",
+          "slope = (y₂ - y₁)/(x₂ - x₁)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-algebra-2",
+    "title": "Write slope-intercept form",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "skill_name": "Write slope-intercept form",
+    "questions": [
+      {
+        "question": "Write in slope-intercept form: slope = 2, y-intercept = 3",
+        "options": [
+          "y = 2x - 3",
+          "x = 2y + 3",
+          "y = 3x + 2",
+          "y = 2x + 3"
+        ],
+        "answer": "y = 2x + 3",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 2x + 3",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -1, y-intercept = -4",
+        "options": [
+          "x = -1y - 4",
+          "y = -1x + 4",
+          "y = -4x - 1",
+          "y = -1x - 4"
+        ],
+        "answer": "y = -1x - 4",
+        "explanation": "Slope-intercept form is y = mx + b, so y = -1x + -4",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -2, y-intercept = -2",
+        "options": [
+          "y = -2x - 2",
+          "y = -2x - 2",
+          "y = -2x + 2",
+          "x = -2y - 2"
+        ],
+        "answer": "y = -2x - 2",
+        "explanation": "Slope-intercept form is y = mx + b, so y = -2x + -2",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 1, y-intercept = -4",
+        "options": [
+          "y = 1x + 4",
+          "y = -4x + 1",
+          "y = 1x - 4",
+          "x = 1y - 4"
+        ],
+        "answer": "y = 1x - 4",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 1x + -4",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -1, y-intercept = -2",
+        "options": [
+          "x = -1y - 2",
+          "y = -1x - 2",
+          "y = -2x - 1",
+          "y = -1x + 2"
+        ],
+        "answer": "y = -1x - 2",
+        "explanation": "Slope-intercept form is y = mx + b, so y = -1x + -2",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 3, y-intercept = -1",
+        "options": [
+          "y = -1x + 3",
+          "y = 3x + 1",
+          "y = 3x - 1",
+          "x = 3y - 1"
+        ],
+        "answer": "y = 3x - 1",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 3x + -1",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 3, y-intercept = 3",
+        "options": [
+          "x = 3y + 3",
+          "y = 3x - 3",
+          "y = 3x + 3",
+          "y = 3x + 3"
+        ],
+        "answer": "y = 3x + 3",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 3x + 3",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 0, y-intercept = -2",
+        "options": [
+          "y = 0x + 2",
+          "y = -2x + 0",
+          "y = 0x - 2",
+          "x = 0y - 2"
+        ],
+        "answer": "y = 0x - 2",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 0x + -2",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 2, y-intercept = -4",
+        "options": [
+          "y = -4x + 2",
+          "x = 2y - 4",
+          "y = 2x - 4",
+          "y = 2x + 4"
+        ],
+        "answer": "y = 2x - 4",
+        "explanation": "Slope-intercept form is y = mx + b, so y = 2x + -4",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -3, y-intercept = 3",
+        "options": [
+          "y = 3x - 3",
+          "y = -3x - 3",
+          "y = -3x + 3",
+          "x = -3y + 3"
+        ],
+        "answer": "y = -3x + 3",
+        "explanation": "Slope-intercept form is y = mx + b, so y = -3x + 3",
+        "hints": [
+          "y = mx + b",
+          "m is slope, b is y-intercept"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-geometry-3",
+    "title": "Use Pythagorean theorem",
+    "grade_level": 8,
+    "topic": "Geometry",
+    "skill_name": "Use Pythagorean theorem",
+    "questions": [
+      {
+        "question": "A right triangle has legs 3 and 4. Find the hypotenuse.",
+        "options": [
+          "7",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "explanation": "c² = a² + b² = 3² + 4² = 9 + 16 = 25, so c = 5",
+        "hints": [
+          "Pythagorean theorem: a² + b² = c²",
+          "c is the hypotenuse"
+        ]
+      },
+      {
+        "question": "A right triangle has leg 4 and hypotenuse 5. Find the other leg.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ],
+        "answer": "3",
+        "explanation": "a² = c² - b² = 5² - 4² = 25 - 16 = 9, so a = 3",
+        "hints": [
+          "Rearrange: a² = c² - b²",
+          "5² - 4² = 25 - 16"
+        ]
+      },
+      {
+        "question": "A right triangle has legs 5 and 12. Find the hypotenuse.",
+        "options": [
+          "13",
+          "17",
+          "12",
+          "14"
+        ],
+        "answer": "13",
+        "explanation": "c² = a² + b² = 5² + 12² = 25 + 144 = 169, so c = 13",
+        "hints": [
+          "Pythagorean theorem: a² + b² = c²",
+          "c is the hypotenuse"
+        ]
+      },
+      {
+        "question": "A right triangle has leg 12 and hypotenuse 13. Find the other leg.",
+        "options": [
+          "1",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "a² = c² - b² = 13² - 12² = 169 - 144 = 25, so a = 5",
+        "hints": [
+          "Rearrange: a² = c² - b²",
+          "13² - 12² = 169 - 144"
+        ]
+      },
+      {
+        "question": "A right triangle has legs 6 and 8. Find the hypotenuse.",
+        "options": [
+          "9",
+          "14",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "explanation": "c² = a² + b² = 6² + 8² = 36 + 64 = 100, so c = 10",
+        "hints": [
+          "Pythagorean theorem: a² + b² = c²",
+          "c is the hypotenuse"
+        ]
+      },
+      {
+        "question": "A right triangle has leg 8 and hypotenuse 10. Find the other leg.",
+        "options": [
+          "6",
+          "5",
+          "2",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "a² = c² - b² = 10² - 8² = 100 - 64 = 36, so a = 6",
+        "hints": [
+          "Rearrange: a² = c² - b²",
+          "10² - 8² = 100 - 64"
+        ]
+      },
+      {
+        "question": "A right triangle has legs 8 and 15. Find the hypotenuse.",
+        "options": [
+          "23",
+          "17",
+          "16",
+          "18"
+        ],
+        "answer": "17",
+        "explanation": "c² = a² + b² = 8² + 15² = 64 + 225 = 289, so c = 17",
+        "hints": [
+          "Pythagorean theorem: a² + b² = c²",
+          "c is the hypotenuse"
+        ]
+      },
+      {
+        "question": "A right triangle has leg 15 and hypotenuse 17. Find the other leg.",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "2"
+        ],
+        "answer": "8",
+        "explanation": "a² = c² - b² = 17² - 15² = 289 - 225 = 64, so a = 8",
+        "hints": [
+          "Rearrange: a² = c² - b²",
+          "17² - 15² = 289 - 225"
+        ]
+      },
+      {
+        "question": "A right triangle has legs 9 and 12. Find the hypotenuse.",
+        "options": [
+          "14",
+          "21",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "explanation": "c² = a² + b² = 9² + 12² = 81 + 144 = 225, so c = 15",
+        "hints": [
+          "Pythagorean theorem: a² + b² = c²",
+          "c is the hypotenuse"
+        ]
+      },
+      {
+        "question": "A right triangle has leg 12 and hypotenuse 15. Find the other leg.",
+        "options": [
+          "3",
+          "10",
+          "8",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "a² = c² - b² = 15² - 12² = 225 - 144 = 81, so a = 9",
+        "hints": [
+          "Rearrange: a² = c² - b²",
+          "15² - 12² = 225 - 144"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-algebra-4",
+    "title": "Simplify expressions with exponents",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "skill_name": "Simplify expressions with exponents",
+    "questions": [
+      {
+        "question": "Simplify: 3^4 × 3^3",
+        "options": [
+          "3^1",
+          "9^4",
+          "3^12",
+          "3^7"
+        ],
+        "answer": "3^7",
+        "explanation": "3^4 × 3^3 = 3^(4+3) = 3^7",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 3^4 × 3^2",
+        "options": [
+          "3^2",
+          "9^4",
+          "3^8",
+          "3^6"
+        ],
+        "answer": "3^6",
+        "explanation": "3^4 × 3^2 = 3^(4+2) = 3^6",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^5 × 2^3",
+        "options": [
+          "2^8",
+          "2^2",
+          "2^15",
+          "4^5"
+        ],
+        "answer": "2^8",
+        "explanation": "2^5 × 2^3 = 2^(5+3) = 2^8",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 3^4 × 3^3",
+        "options": [
+          "3^7",
+          "3^12",
+          "9^4",
+          "3^1"
+        ],
+        "answer": "3^7",
+        "explanation": "3^4 × 3^3 = 3^(4+3) = 3^7",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 4^3 × 4^2",
+        "options": [
+          "16^3",
+          "4^1",
+          "4^6",
+          "4^5"
+        ],
+        "answer": "4^5",
+        "explanation": "4^3 × 4^2 = 4^(3+2) = 4^5",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 3^2 × 3^1",
+        "options": [
+          "3^2",
+          "3^1",
+          "3^3",
+          "9^2"
+        ],
+        "answer": "3^3",
+        "explanation": "3^2 × 3^1 = 3^(2+1) = 3^3",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 5^2 × 5^3",
+        "options": [
+          "5^1",
+          "25^2",
+          "5^6",
+          "5^5"
+        ],
+        "answer": "5^5",
+        "explanation": "5^2 × 5^3 = 5^(2+3) = 5^5",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 4^4 × 4^3",
+        "options": [
+          "16^4",
+          "4^1",
+          "4^7",
+          "4^12"
+        ],
+        "answer": "4^7",
+        "explanation": "4^4 × 4^3 = 4^(4+3) = 4^7",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 3^3 × 3^1",
+        "options": [
+          "3^2",
+          "9^3",
+          "3^3",
+          "3^4"
+        ],
+        "answer": "3^4",
+        "explanation": "3^3 × 3^1 = 3^(3+1) = 3^4",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^2 × 2^3",
+        "options": [
+          "2^6",
+          "2^1",
+          "2^5",
+          "4^2"
+        ],
+        "answer": "2^5",
+        "explanation": "2^2 × 2^3 = 2^(2+3) = 2^5",
+        "hints": [
+          "When multiplying same bases, add exponents",
+          "aⁿ × aᵐ = aⁿ⁺ᵐ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-algebra-5",
+    "title": "Divide expressions with exponents",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "skill_name": "Divide expressions with exponents",
+    "questions": [
+      {
+        "question": "Simplify: 3^4 ÷ 3^3",
+        "options": [
+          "1/3^-1",
+          "3^7",
+          "3^12",
+          "3^1"
+        ],
+        "answer": "3^1",
+        "explanation": "3^4 ÷ 3^3 = 3^(4-3) = 3^1",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^6 ÷ 2^5",
+        "options": [
+          "2^11",
+          "2^1",
+          "1/2^-1",
+          "2^30"
+        ],
+        "answer": "2^1",
+        "explanation": "2^6 ÷ 2^5 = 2^(6-5) = 2^1",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 5^4 ÷ 5^3",
+        "options": [
+          "5^12",
+          "5^7",
+          "1/5^-1",
+          "5^1"
+        ],
+        "answer": "5^1",
+        "explanation": "5^4 ÷ 5^3 = 5^(4-3) = 5^1",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 5^4 ÷ 5^2",
+        "options": [
+          "5^8",
+          "5^6",
+          "5^2",
+          "1/5^-2"
+        ],
+        "answer": "5^2",
+        "explanation": "5^4 ÷ 5^2 = 5^(4-2) = 5^2",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^4 ÷ 2^1",
+        "options": [
+          "2^3",
+          "2^5",
+          "1/2^-3",
+          "2^4"
+        ],
+        "answer": "2^3",
+        "explanation": "2^4 ÷ 2^1 = 2^(4-1) = 2^3",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 5^5 ÷ 5^1",
+        "options": [
+          "5^5",
+          "1/5^-4",
+          "5^4",
+          "5^6"
+        ],
+        "answer": "5^4",
+        "explanation": "5^5 ÷ 5^1 = 5^(5-1) = 5^4",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 5^4 ÷ 5^2",
+        "options": [
+          "5^2",
+          "5^6",
+          "5^8",
+          "1/5^-2"
+        ],
+        "answer": "5^2",
+        "explanation": "5^4 ÷ 5^2 = 5^(4-2) = 5^2",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^4 ÷ 2^1",
+        "options": [
+          "2^5",
+          "2^3",
+          "1/2^-3",
+          "2^4"
+        ],
+        "answer": "2^3",
+        "explanation": "2^4 ÷ 2^1 = 2^(4-1) = 2^3",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 2^5 ÷ 2^2",
+        "options": [
+          "1/2^-3",
+          "2^3",
+          "2^10",
+          "2^7"
+        ],
+        "answer": "2^3",
+        "explanation": "2^5 ÷ 2^2 = 2^(5-2) = 2^3",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      },
+      {
+        "question": "Simplify: 4^7 ÷ 4^4",
+        "options": [
+          "1/4^-3",
+          "4^28",
+          "4^11",
+          "4^3"
+        ],
+        "answer": "4^3",
+        "explanation": "4^7 ÷ 4^4 = 4^(7-4) = 4^3",
+        "hints": [
+          "When dividing same bases, subtract exponents",
+          "aⁿ ÷ aᵐ = aⁿ⁻ᵐ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8-algebra-6",
+    "title": "Evaluate functions",
+    "grade_level": 8,
+    "topic": "Algebra",
+    "skill_name": "Evaluate functions",
+    "questions": [
+      {
+        "question": "If f(x) = 5x + 2, find f(1)",
+        "options": [
+          "7",
+          "2",
+          "12",
+          "11"
+        ],
+        "answer": "7",
+        "explanation": "f(1) = 5(1) + 2 = 5 + 2 = 7",
+        "hints": [
+          "Substitute the value for x",
+          "f(1) means replace x with 1"
+        ]
+      },
+      {
+        "question": "If f(x) = 2x + 1, find f(5)",
+        "options": [
+          "7",
+          "9",
+          "11",
+          "13"
+        ],
+        "answer": "11",
+        "explanation": "f(5) = 2(5) + 1 = 10 + 1 = 11",
+        "hints": [
+          "Substitute the value for x",
+          "f(5) means replace x with 5"
+        ]
+      },
+      {
+        "question": "If f(x) = 1x - 4, find f(4)",
+        "options": [
+          "1",
+          "-1",
+          "-1",
+          "0"
+        ],
+        "answer": "0",
+        "explanation": "f(4) = 1(4) - 4 = 4 - 4 = 0",
+        "hints": [
+          "Substitute the value for x",
+          "f(4) means replace x with 4"
+        ]
+      },
+      {
+        "question": "If f(x) = 4x - 2, find f(7)",
+        "options": [
+          "22",
+          "26",
+          "30",
+          "-1"
+        ],
+        "answer": "26",
+        "explanation": "f(7) = 4(7) - 2 = 28 - 2 = 26",
+        "hints": [
+          "Substitute the value for x",
+          "f(7) means replace x with 7"
+        ]
+      },
+      {
+        "question": "If f(x) = 2x + 1, find f(6)",
+        "options": [
+          "8",
+          "13",
+          "11",
+          "15"
+        ],
+        "answer": "13",
+        "explanation": "f(6) = 2(6) + 1 = 12 + 1 = 13",
+        "hints": [
+          "Substitute the value for x",
+          "f(6) means replace x with 6"
+        ]
+      },
+      {
+        "question": "If f(x) = 5x - 3, find f(8)",
+        "options": [
+          "37",
+          "32",
+          "-7",
+          "42"
+        ],
+        "answer": "37",
+        "explanation": "f(8) = 5(8) - 3 = 40 - 3 = 37",
+        "hints": [
+          "Substitute the value for x",
+          "f(8) means replace x with 8"
+        ]
+      },
+      {
+        "question": "If f(x) = 2x - 3, find f(8)",
+        "options": [
+          "2",
+          "11",
+          "15",
+          "13"
+        ],
+        "answer": "13",
+        "explanation": "f(8) = 2(8) - 3 = 16 - 3 = 13",
+        "hints": [
+          "Substitute the value for x",
+          "f(8) means replace x with 8"
+        ]
+      },
+      {
+        "question": "If f(x) = 5x - 4, find f(5)",
+        "options": [
+          "21",
+          "16",
+          "26",
+          "-15"
+        ],
+        "answer": "21",
+        "explanation": "f(5) = 5(5) - 4 = 25 - 4 = 21",
+        "hints": [
+          "Substitute the value for x",
+          "f(5) means replace x with 5"
+        ]
+      },
+      {
+        "question": "If f(x) = 3x + 2, find f(4)",
+        "options": [
+          "10",
+          "14",
+          "17",
+          "11"
+        ],
+        "answer": "14",
+        "explanation": "f(4) = 3(4) + 2 = 12 + 2 = 14",
+        "hints": [
+          "Substitute the value for x",
+          "f(4) means replace x with 4"
+        ]
+      },
+      {
+        "question": "If f(x) = 1x - 2, find f(5)",
+        "options": [
+          "2",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": "3",
+        "explanation": "f(5) = 1(5) - 2 = 5 - 2 = 3",
+        "hints": [
+          "Substitute the value for x",
+          "f(5) means replace x with 5"
+        ]
+      }
+    ]
   }
 ]
