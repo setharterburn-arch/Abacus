@@ -552,8 +552,14 @@ const SmartScoreQuiz = ({
         )}
       </div>
 
-      {/* Question */}
-      <div style={{ marginBottom: '1.5rem' }}>
+      {/* Question - key forces React to unmount/remount on question change, preventing stale state flicker */}
+      {phase === 'transitioning' ? (
+        <div style={{ marginBottom: '1.5rem', textAlign: 'center', padding: '2rem' }}>
+          <div style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>⏳</div>
+          <div style={{ color: 'var(--color-text-muted)' }}>Loading next question...</div>
+        </div>
+      ) : (
+      <div key={`question-${currentIndex}`} style={{ marginBottom: '1.5rem' }}>
         {/* Use QuestionRenderer for interactive types, inline for multiple choice */}
         {currentQuestion.type && 
          currentQuestion.type !== 'multiple-choice' && 
@@ -640,6 +646,7 @@ const SmartScoreQuiz = ({
           </>
         )}
       </div>
+      )}
 
       {/* Hint toggle */}
       {!showFeedback && currentQuestion.hint && (
