@@ -185,12 +185,16 @@ const SmartScoreQuiz = ({
     setCanProceed(false); // Reset cooldown
     questionAppearedAt.current = Date.now(); // Mark when new question appeared
     
-    // Set phase to selecting after a brief delay
+    // Extend the global block for new question
+    blockedUntil.current = Math.max(blockedUntil.current, Date.now() + 800);
+    
+    // Set phase to selecting after delay (must be longer than block)
     const timer = setTimeout(() => {
-      console.log('Setting phase to selecting');
+      console.log('Setting phase to selecting, clearing blocks');
       isProcessingAnswer.current = false;
+      blockedUntil.current = 0; // Clear block
       setPhase('selecting');
-    }, 300);
+    }, 800);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
@@ -198,11 +202,26 @@ const SmartScoreQuiz = ({
 
   // Synchronous lock - refs update immediately unlike state
   const isProcessingAnswer = useRef(false);
+  // Global interaction block timestamp - nothing can happen until this time passes
+  const blockedUntil = useRef(0);
   // Cooldown after checking - blocks Next button from appearing too soon
   const [canProceed, setCanProceed] = useState(false);
   
+  // Check if interactions are currently blocked
+  const isInteractionBlocked = () => {
+    const now = Date.now();
+    if (now < blockedUntil.current) {
+      console.log('BLOCKED by timestamp, wait:', blockedUntil.current - now, 'ms');
+      return true;
+    }
+    return false;
+  };
+  
   // Step 1: Select an answer (just highlights, doesn't submit)
   const handleSelectAnswer = useCallback((answer) => {
+    // GLOBAL BLOCK CHECK
+    if (isInteractionBlocked()) return;
+    
     // Only allow selection in 'selecting' or 'selected' phase (can change answer before checking)
     if (phase !== 'selecting' && phase !== 'selected') {
       console.log('Select blocked - phase is:', phase);
@@ -221,6 +240,9 @@ const SmartScoreQuiz = ({
 
   // Step 2: Check the answer (submit and show feedback)
   const handleCheckAnswer = useCallback(() => {
+    // GLOBAL BLOCK CHECK
+    if (isInteractionBlocked()) return;
+    
     if (phase !== 'selected' || selectedAnswer === null) {
       console.log('Check blocked - phase:', phase, 'selected:', selectedAnswer);
       return;
@@ -231,8 +253,9 @@ const SmartScoreQuiz = ({
       return;
     }
     
-    // LOCK everything
+    // LOCK everything - block ALL interactions for 1.5 seconds
     isProcessingAnswer.current = true;
+    blockedUntil.current = Date.now() + 1500;
     setCanProceed(false);
     
     console.log('Checking answer:', selectedAnswer);
@@ -290,11 +313,22 @@ const SmartScoreQuiz = ({
   const handleNext = () => {
     console.log('handleNext called, currentIndex:', currentIndex, 'phase:', phase);
     
+    // GLOBAL BLOCK CHECK
+    if (isInteractionBlocked()) return;
+    
     // Only allow next in 'checked' phase
     if (phase !== 'checked') {
       console.log('handleNext blocked - phase is:', phase);
       return;
     }
+    
+    if (!canProceed) {
+      console.log('handleNext blocked - canProceed is false');
+      return;
+    }
+    
+    // Block interactions during transition and for 500ms after new question loads
+    blockedUntil.current = Date.now() + 1000;
     
     // Set transitioning phase to block everything
     setPhase('transitioning');
@@ -350,8 +384,31 @@ const SmartScoreQuiz = ({
 
   const estimatedRemaining = smartScore.estimateQuestionsToTarget(score, 100);
 
+  // Block ALL interactions when not in a stable state
+  const isBlocked = phase === 'transitioning' || (phase === 'checked' && !canProceed);
+  
   return (
-    <div className="card" style={{ maxWidth: '700px', margin: '0 auto' }}>
+    <div className="card" style={{ maxWidth: '700px', margin: '0 auto', position: 'relative' }}>
+      {/* TOUCH BLOCKER - invisible overlay that captures all events during transitions */}
+      {isBlocked && (
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            zIndex: 9999,
+            background: 'transparent',
+            touchAction: 'none'
+          }}
+          onTouchStart={(e) => { e.preventDefault(); e.stopPropagation(); }}
+          onTouchEnd={(e) => { e.preventDefault(); e.stopPropagation(); }}
+          onTouchMove={(e) => { e.preventDefault(); e.stopPropagation(); }}
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); }}
+          onMouseDown={(e) => { e.preventDefault(); e.stopPropagation(); }}
+        />
+      )}
       {/* SmartScore Header */}
       <div style={{ marginBottom: '1.5rem' }}>
         <div style={{ 
