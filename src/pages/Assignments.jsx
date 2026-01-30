@@ -44,8 +44,16 @@ const Assignments = () => {
             .update({ status: 'in_progress' })
             .eq('id', assignment.id);
 
-        // Navigate to practice with assignment context
-        if (assignment.assignment_type === 'curriculum_set') {
+        // Route based on assignment mode
+        if (assignment.assignment_mode === 'smartscore') {
+            // SmartScore mastery mode - adaptive practice
+            const params = new URLSearchParams({
+                assignment: assignment.id,
+                skill: assignment.skill_id || '',
+                topic: assignment.topic || ''
+            });
+            navigate(`/assignment/smartscore?${params.toString()}`);
+        } else if (assignment.assignment_type === 'curriculum_set') {
             navigate(`/practice?set=${assignment.curriculum_set_id}&assignment=${assignment.id}`);
         } else {
             navigate(`/practice?path=${assignment.learning_path_id}&assignment=${assignment.id}`);

@@ -19,6 +19,7 @@ const Worksheets = lazy(() => import('./pages/Worksheets'));
 const Feedback = lazy(() => import('./pages/Feedback'));
 const LearningPaths = lazy(() => import('./pages/LearningPaths'));
 const Assignments = lazy(() => import('./pages/Assignments'));
+const SmartScoreAssignment = lazy(() => import('./components/student/SmartScoreAssignment'));
 const Shop = lazy(() => import('./pages/Shop'));
 const Beta = lazy(() => import('./pages/Beta'));
 const FAQ = lazy(() => import('./pages/FAQ'));
@@ -95,6 +96,7 @@ const AppRoutes = () => {
           <Route path="/beta/interactive-addition" element={<InteractiveAddition />} />
           <Route path="/learning-paths" element={<LearningPaths />} />
           <Route path="/assignments" element={<Assignments />} />
+          <Route path="/assignment/smartscore" element={<SmartScoreAssignment />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/admin/curriculum" element={<AdminCurriculum />} />
