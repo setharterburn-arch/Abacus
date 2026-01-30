@@ -169,6 +169,13 @@ const SmartScoreQuiz = ({
     }
   }, [skillId, topic, grade, infiniteMode, generateNewQuestion, curriculumLoaded, curriculumData]);
 
+  // Reset selection state when question changes
+  useEffect(() => {
+    setSelectedAnswer(null);
+    setShowFeedback(false);
+    setShowHint(false);
+  }, [currentIndex]);
+
   const currentQuestion = questions[currentIndex];
 
   const handleAnswer = useCallback((answer) => {
@@ -458,7 +465,7 @@ const SmartScoreQuiz = ({
 
                 return (
                   <motion.button
-                    key={idx}
+                    key={`${currentIndex}-${idx}-${option}`}
                     whileHover={!showFeedback ? { scale: 1.02 } : {}}
                     whileTap={!showFeedback ? { scale: 0.98 } : {}}
                     onClick={() => handleAnswer(option)}
