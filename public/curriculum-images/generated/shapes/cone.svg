@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140">
+  <rect width="100%" height="100%" fill="#F8F9FA" rx="12"/>
+  <!-- Cone body -->
+  <polygon points="70,30 30,105 110,105" fill="#F39C12" stroke="#333" stroke-width="2"/>
+  <!-- Base ellipse -->
+  <ellipse cx="70" cy="105" rx="40" ry="15" fill="#F39C12" stroke="#333" stroke-width="2"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 140" width="140" height="140">
+  <rect width="100%" height="100%" fill="#F8F9FA" rx="12"/>
+  <!-- Front face -->
+  <polygon points="70,20 30,120 110,120" fill="#FFEAA7" stroke="#333" stroke-width="2"/>
+  <!-- Side edge -->
+  <line x1="70" y1="20" x2="102" y2="110" stroke="#333" stroke-width="2"/>
+  <!-- Base edge -->
+  <line x1="30" y1="120" x2="102" y2="110" stroke="#333" stroke-width="2" stroke-dasharray="4,4"/>
+</svg>
