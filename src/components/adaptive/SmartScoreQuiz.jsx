@@ -2,6 +2,40 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { smartScore } from '../../services/smartScore';
 import curriculumData from '../../data/curriculum.json';
+import { QuestionRenderer } from '../questions';
+
+/**
+ * Check if answer is correct for any question type
+ */
+const checkAnswer = (question, userAnswer) => {
+  if (userAnswer === null || userAnswer === undefined) return false;
+  
+  const type = question.type || 'multiple-choice';
+  const correctAnswer = question.answer;
+  
+  switch (type) {
+    case 'number-line':
+      const tolerance = question.tolerance || 0.05;
+      return Math.abs(userAnswer - correctAnswer) <= tolerance;
+    
+    case 'fraction-shade':
+      return userAnswer === correctAnswer;
+    
+    case 'drag-sort':
+      if (!Array.isArray(userAnswer) || !Array.isArray(correctAnswer)) return false;
+      return JSON.stringify(userAnswer) === JSON.stringify(correctAnswer);
+    
+    case 'array-builder':
+      if (typeof correctAnswer === 'number') {
+        return userAnswer?.product === correctAnswer;
+      }
+      return userAnswer?.rows === correctAnswer?.rows && userAnswer?.cols === correctAnswer?.cols;
+    
+    case 'multiple-choice':
+    default:
+      return String(userAnswer) === String(correctAnswer);
+  }
+};
 
 /**
  * SmartScore Quiz Component
@@ -68,7 +102,8 @@ const SmartScoreQuiz = ({
     setSelectedAnswer(answer);
     setShowFeedback(true);
     
-    const correct = answer === currentQuestion.answer;
+    // Use universal answer checker for all question types
+    const correct = checkAnswer(currentQuestion, answer);
     const difficulty = currentQuestion.difficulty || 1;
     
     // Calculate new SmartScore
@@ -273,65 +308,78 @@ const SmartScoreQuiz = ({
 
       {/* Question */}
       <div style={{ marginBottom: '1.5rem' }}>
-        <h2 style={{ 
-          fontSize: '1.4rem', 
-          marginBottom: '1.5rem',
-          color: 'var(--color-text)',
-          lineHeight: 1.4
-        }}>
-          {currentQuestion.question}
-        </h2>
+        {/* Use QuestionRenderer for interactive types, inline for multiple choice */}
+        {currentQuestion.type && currentQuestion.type !== 'multiple-choice' ? (
+          <QuestionRenderer
+            question={currentQuestion}
+            onAnswer={handleAnswer}
+            showFeedback={showFeedback}
+            isCorrect={checkAnswer(currentQuestion, selectedAnswer)}
+            disabled={showFeedback}
+          />
+        ) : (
+          <>
+            <h2 style={{ 
+              fontSize: '1.4rem', 
+              marginBottom: '1.5rem',
+              color: 'var(--color-text)',
+              lineHeight: 1.4
+            }}>
+              {currentQuestion.question}
+            </h2>
 
-        {/* Question image if present */}
-        {currentQuestion.image && (
-          <div style={{ marginBottom: '1rem', textAlign: 'center' }}>
-            <img 
-              src={currentQuestion.image} 
-              alt="Question illustration"
-              style={{ maxWidth: '100%', maxHeight: '200px', borderRadius: '8px' }}
-            />
-          </div>
+            {/* Question image if present */}
+            {currentQuestion.image && (
+              <div style={{ marginBottom: '1rem', textAlign: 'center' }}>
+                <img 
+                  src={currentQuestion.image} 
+                  alt="Question illustration"
+                  style={{ maxWidth: '100%', maxHeight: '200px', borderRadius: '8px' }}
+                />
+              </div>
+            )}
+
+            {/* Answer options - multiple choice */}
+            <div style={{ display: 'grid', gap: '0.75rem' }}>
+              {currentQuestion.options?.map((option, idx) => {
+                const isSelected = selectedAnswer === option;
+                const isCorrect = option === currentQuestion.answer;
+                const showCorrect = showFeedback && isCorrect;
+                const showIncorrect = showFeedback && isSelected && !isCorrect;
+
+                return (
+                  <motion.button
+                    key={idx}
+                    whileHover={!showFeedback ? { scale: 1.02 } : {}}
+                    whileTap={!showFeedback ? { scale: 0.98 } : {}}
+                    onClick={() => handleAnswer(option)}
+                    disabled={showFeedback}
+                    style={{
+                      padding: '1rem 1.25rem',
+                      textAlign: 'left',
+                      fontSize: '1.1rem',
+                      background: showCorrect ? '#4CAF50' :
+                        showIncorrect ? '#f44336' :
+                        isSelected ? 'var(--color-primary)' : 'var(--color-bg-card)',
+                      color: (showCorrect || showIncorrect || isSelected) ? 'white' : 'var(--color-text)',
+                      border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : 'var(--color-text)'}`,
+                      borderRadius: 'var(--radius-md)',
+                      cursor: showFeedback ? 'default' : 'pointer',
+                      transition: 'all 0.2s ease'
+                    }}
+                  >
+                    <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>
+                      {String.fromCharCode(65 + idx)}.
+                    </span>
+                    {option}
+                    {showCorrect && ' ✓'}
+                    {showIncorrect && ' ✗'}
+                  </motion.button>
+                );
+              })}
+            </div>
+          </>
         )}
-
-        {/* Answer options */}
-        <div style={{ display: 'grid', gap: '0.75rem' }}>
-          {currentQuestion.options.map((option, idx) => {
-            const isSelected = selectedAnswer === option;
-            const isCorrect = option === currentQuestion.answer;
-            const showCorrect = showFeedback && isCorrect;
-            const showIncorrect = showFeedback && isSelected && !isCorrect;
-
-            return (
-              <motion.button
-                key={idx}
-                whileHover={!showFeedback ? { scale: 1.02 } : {}}
-                whileTap={!showFeedback ? { scale: 0.98 } : {}}
-                onClick={() => handleAnswer(option)}
-                disabled={showFeedback}
-                style={{
-                  padding: '1rem 1.25rem',
-                  textAlign: 'left',
-                  fontSize: '1.1rem',
-                  background: showCorrect ? '#4CAF50' :
-                    showIncorrect ? '#f44336' :
-                    isSelected ? 'var(--color-primary)' : 'var(--color-bg-card)',
-                  color: (showCorrect || showIncorrect || isSelected) ? 'white' : 'var(--color-text)',
-                  border: `2px solid ${showCorrect ? '#4CAF50' : showIncorrect ? '#f44336' : 'var(--color-text)'}`,
-                  borderRadius: 'var(--radius-md)',
-                  cursor: showFeedback ? 'default' : 'pointer',
-                  transition: 'all 0.2s ease'
-                }}
-              >
-                <span style={{ marginRight: '0.75rem', opacity: 0.6 }}>
-                  {String.fromCharCode(65 + idx)}.
-                </span>
-                {option}
-                {showCorrect && ' ✓'}
-                {showIncorrect && ' ✗'}
-              </motion.button>
-            );
-          })}
-        </div>
       </div>
 
       {/* Hint toggle */}
