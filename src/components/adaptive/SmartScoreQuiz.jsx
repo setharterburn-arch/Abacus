@@ -197,7 +197,15 @@ const SmartScoreQuiz = ({
 
   const currentQuestion = questions[currentIndex];
 
+  // Track last answer time to prevent double-firing (mobile touch events)
+  const lastAnswerTime = useRef(0);
+  
   const handleAnswer = useCallback((answer) => {
+    // Prevent double-firing from touch + click events
+    const now = Date.now();
+    if (now - lastAnswerTime.current < 500) return;
+    lastAnswerTime.current = now;
+    
     if (showFeedback || !canAnswer) return;
     
     setSelectedAnswer(answer);
@@ -242,7 +250,7 @@ const SmartScoreQuiz = ({
         });
       }, 2000);
     }
-  }, [showFeedback, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
+  }, [showFeedback, canAnswer, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
     // Disable answering BEFORE any state changes
@@ -495,7 +503,13 @@ const SmartScoreQuiz = ({
                     onClick={(e) => {
                       e.stopPropagation();
                       e.preventDefault();
-                      handleAnswer(option);
+                      if (!showFeedback && canAnswer) {
+                        handleAnswer(option);
+                      }
+                    }}
+                    onTouchEnd={(e) => {
+                      e.stopPropagation();
+                      // Don't prevent default - let click handle it
                     }}
                     disabled={showFeedback || !canAnswer}
                     style={{
@@ -612,7 +626,10 @@ const SmartScoreQuiz = ({
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              handleNext();
+              if (canAnswer) handleNext();
+            }}
+            onTouchEnd={(e) => {
+              e.stopPropagation();
             }}
             className="btn btn-primary"
             style={{ flex: 1 }}
