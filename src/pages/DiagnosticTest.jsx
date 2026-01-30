@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useStore } from '../services/store';
 import { supabase } from '../services/supabase';
-import curriculumData from '../data/curriculum.json';
+import { getCurriculum } from '../services/curriculumService';
 
 const DiagnosticTest = () => {
     const navigate = useNavigate();
@@ -13,6 +13,14 @@ const DiagnosticTest = () => {
     const [answers, setAnswers] = useState([]);
     const [questions, setQuestions] = useState([]);
     const [gradeLevel, setGradeLevel] = useState(null);
+    const [curriculumData, setCurriculumData] = useState([]);
+
+    // Load curriculum data
+    useEffect(() => {
+        getCurriculum().then(data => {
+            setCurriculumData(data);
+        }).catch(err => console.error('Failed to load curriculum:', err));
+    }, []);
 
     useEffect(() => {
         if (step === 'intro' && !gradeLevel && profile) {

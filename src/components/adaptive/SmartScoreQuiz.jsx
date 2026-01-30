@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { smartScore } from '../../services/smartScore';
-import curriculumData from '../../data/curriculum.json';
+import { getCurriculum } from '../../services/curriculumService';
 import { QuestionRenderer } from '../questions';
 import { generateQuestion, generateInteractiveQuestion } from '../../services/questionGenerators';
 
@@ -53,6 +53,10 @@ const SmartScoreQuiz = ({
   initialScore = 0,
   infiniteMode = true  // Enable infinite practice by default
 }) => {
+  // Curriculum data from Supabase
+  const [curriculumData, setCurriculumData] = useState([]);
+  const [curriculumLoaded, setCurriculumLoaded] = useState(false);
+  
   // Quiz state
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -117,8 +121,21 @@ const SmartScoreQuiz = ({
     return generateQuestion(skillType, g, difficulty);
   }, [getSkillType, grade, score]);
 
+  // Load curriculum data from Supabase
+  useEffect(() => {
+    getCurriculum().then(data => {
+      setCurriculumData(data);
+      setCurriculumLoaded(true);
+    }).catch(err => {
+      console.error('Failed to load curriculum:', err);
+      setCurriculumLoaded(true); // Continue anyway
+    });
+  }, []);
+
   // Load questions for this skill
   useEffect(() => {
+    if (!curriculumLoaded) return;
+    
     const skillSet = curriculumData.find(s => s.id === skillId);
     if (skillSet && skillSet.questions) {
       // Shuffle questions
@@ -150,7 +167,7 @@ const SmartScoreQuiz = ({
         });
       }, 100);
     }
-  }, [skillId, topic, grade, infiniteMode, generateNewQuestion]);
+  }, [skillId, topic, grade, infiniteMode, generateNewQuestion, curriculumLoaded, curriculumData]);
 
   const currentQuestion = questions[currentIndex];
 

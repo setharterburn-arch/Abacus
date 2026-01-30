@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import { getCurriculum } from '../services/curriculumService';
 
 
 const DemoLessons = () => {
@@ -9,11 +10,11 @@ const DemoLessons = () => {
     const [curriculumData, setCurriculumData] = useState([]);
     const [loading, setLoading] = useState(true);
 
-    // Lazy load curriculum data
+    // Load curriculum from Supabase (with JSON fallback)
     useEffect(() => {
-        import('../data/curriculum.json')
-            .then(module => {
-                setCurriculumData(module.default);
+        getCurriculum()
+            .then(data => {
+                setCurriculumData(data);
                 setLoading(false);
             })
             .catch(err => {

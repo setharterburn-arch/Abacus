@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
 import AdaptiveQuizEngine from '../components/adaptive/AdaptiveQuizEngine';
 import SmartScoreQuiz from '../components/adaptive/SmartScoreQuiz';
-// Removed static import: import curriculumData from '../data/curriculum.json';
+import { getTopics } from '../services/curriculumService';
 
 const AdaptivePractice = () => {
     const { state } = useStore();
@@ -18,11 +18,12 @@ const AdaptivePractice = () => {
     const [useSmartScore, setUseSmartScore] = useState(true); // Default to SmartScore
 
     useEffect(() => {
-        // Dynamically load curriculum to get topics
-        import('../data/curriculum.json').then(module => {
-            const data = module.default;
-            const uniqueTopics = [...new Set(data.map(set => set.topic))].sort();
-            setTopics(uniqueTopics);
+        // Load topics from Supabase (with JSON fallback)
+        getTopics().then(topicsList => {
+            setTopics(topicsList.sort());
+            setLoadingTopics(false);
+        }).catch(err => {
+            console.error('Failed to load topics:', err);
             setLoadingTopics(false);
         });
     }, []);

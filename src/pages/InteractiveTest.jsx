@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { QuestionRenderer } from '../components/questions';
-import curriculumData from '../data/curriculum.json';
+import { getCurriculum } from '../services/curriculumService';
 
 /**
  * Test page for interactive question types
@@ -10,6 +10,11 @@ const InteractiveTest = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
+  const [curriculumData, setCurriculumData] = useState([]);
+  
+  useEffect(() => {
+    getCurriculum().then(setCurriculumData).catch(console.error);
+  }, []);
   
   // Get the test skill with interactive questions
   const testSkill = curriculumData.find(s => s.id === 'test-interactive-questions');

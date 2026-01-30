@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useStore } from '../services/store';
 import { supabase } from '../services/supabase';
-import curriculumData from '../data/curriculum.json';
+import { getCurriculum, getTopics } from '../services/curriculumService';
 
 const Admin = () => {
     const { state } = useStore();
@@ -14,6 +14,10 @@ const Admin = () => {
     const [assignments, setAssignments] = useState([]);
     const [submissions, setSubmissions] = useState([]);
     const [loading, setLoading] = useState(true);
+    
+    // Curriculum data from Supabase
+    const [curriculumData, setCurriculumData] = useState([]);
+    const [topics, setTopics] = useState([]);
     
     // Curriculum filters
     const [gradeFilter, setGradeFilter] = useState('all');
@@ -32,6 +36,14 @@ const Admin = () => {
     const loadAdminData = async () => {
         setLoading(true);
         try {
+            // Load curriculum from Supabase
+            const [curriculum, topicsList] = await Promise.all([
+                getCurriculum(),
+                getTopics()
+            ]);
+            setCurriculumData(curriculum);
+            setTopics(topicsList);
+
             // Load all teachers
             const { data: teachersData } = await supabase
                 .from('profiles')
@@ -249,7 +261,7 @@ const Admin = () => {
                                     style={{ padding: '0.5rem', borderRadius: '4px', border: '1px solid #ccc' }}
                                 >
                                     <option value="all">All Topics</option>
-                                    {[...new Set(curriculumData.map(s => s.topic))].sort().map(t => (
+                                    {topics.sort().map(t => (
                                         <option key={t} value={t}>{t}</option>
                                     ))}
                                 </select>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import curriculumData from '../../data/curriculum.json';
+import { getCurriculum } from '../../services/curriculumService';
 import performanceTracker from '../../services/performanceTracker';
 
 /**
@@ -15,11 +15,11 @@ const AdaptiveQuizEngine = ({ studentId, topic, onComplete }) => {
     const [currentDifficulty, setCurrentDifficulty] = useState('medium');
     const [startTime, setStartTime] = useState(Date.now());
     const [score, setScore] = useState({ correct: 0, total: 0 });
-
-    // Get curriculum sets for this topic
-    const topicSets = curriculumData.filter(set =>
-        set.topic.toLowerCase().includes(topic.toLowerCase())
-    );
+    
+    // Curriculum data from Supabase
+    const [curriculumData, setCurriculumData] = useState([]);
+    const [topicSets, setTopicSets] = useState([]);
+    const [isLoaded, setIsLoaded] = useState(false);
 
     // Select next question based on current difficulty
     const selectNextQuestion = () => {
@@ -58,10 +58,27 @@ const AdaptiveQuizEngine = ({ studentId, topic, onComplete }) => {
         setStartTime(Date.now());
     };
 
-    // Initialize first question
+    // Load curriculum data from Supabase
     useEffect(() => {
-        selectNextQuestion();
-    }, []);
+        getCurriculum().then(data => {
+            setCurriculumData(data);
+            const filtered = data.filter(set =>
+                set.topic?.toLowerCase().includes(topic.toLowerCase())
+            );
+            setTopicSets(filtered);
+            setIsLoaded(true);
+        }).catch(err => {
+            console.error('Failed to load curriculum:', err);
+            setIsLoaded(true);
+        });
+    }, [topic]);
+
+    // Initialize first question when data is loaded
+    useEffect(() => {
+        if (isLoaded && topicSets.length > 0) {
+            selectNextQuestion();
+        }
+    }, [isLoaded, topicSets]);
 
     const handleAnswer = async (answer) => {
         setSelectedAnswer(answer);
