@@ -6,6 +6,69 @@ import AdaptiveQuizEngine from '../components/adaptive/AdaptiveQuizEngine';
 import SmartScoreQuiz from '../components/adaptive/SmartScoreQuizV2';
 import { getTopics } from '../services/curriculumService';
 
+// Topic icon mapping - visually distinct icons for each math topic
+const topicIcons = {
+    // Basic Operations
+    'Addition': '➕',
+    'Subtraction': '➖', 
+    'Multiplication': '✖️',
+    'Division': '➗',
+    'Operations': '🔣',
+    'Order of Operations': '📋',
+    
+    // Numbers
+    'Counting': '🔢',
+    'Number Recognition': '🔍',
+    'Number Sense': '🧠',
+    'Number System': '🔢',
+    'Place Value': '🏛️',
+    'Integers': '📊',
+    'Decimals': '🔹',
+    'Percent': '💯',
+    'Percentages': '💯',
+    
+    // Fractions & Ratios
+    'Fractions': '🍕',
+    'Ratios': '⚖️',
+    'Ratios and Proportions': '⚖️',
+    'Proportions': '📏',
+    'Rates': '⏱️',
+    
+    // Geometry
+    'Geometry': '📐',
+    'Shapes': '🔷',
+    'Area': '⬛',
+    'Volume': '📦',
+    'Measurement': '📏',
+    'Pythagorean Theorem': '📐',
+    
+    // Algebra
+    'Algebra': '🔤',
+    'Pre-Algebra': '🔤',
+    'Expressions': '📝',
+    'Equations': '⚖️',
+    'Linear Equations': '📈',
+    'Inequalities': '↔️',
+    'Functions': '📉',
+    'Quadratics': '〰️',
+    'Exponents': '²',
+    
+    // Data & Statistics
+    'Data': '📊',
+    'Statistics': '📈',
+    'Patterns': '🔄',
+    
+    // Other
+    'Arrays': '▦',
+    'Comparison': '🔀',
+    'Money': '💰',
+    'Time': '🕐',
+    'Problem Solving': '💡',
+    'Test': '📝',
+};
+
+const getTopicIcon = (topic) => topicIcons[topic] || '📚';
+
 const AdaptivePractice = () => {
     const { state } = useStore();
     const navigate = useNavigate();
@@ -226,13 +289,7 @@ const AdaptivePractice = () => {
                                         }}
                                     >
                                         <div style={{ fontSize: '2rem', marginBottom: '0.5rem', pointerEvents: 'none' }}>
-                                            {topic === 'Addition' ? '➕' :
-                                                topic === 'Subtraction' ? '➖' :
-                                                    topic === 'Multiplication' ? '✖️' :
-                                                        topic === 'Division' ? '➗' :
-                                                            topic === 'Fractions' ? '🍕' :
-                                                                topic === 'Geometry' ? '📐' :
-                                                                    topic === 'Counting' ? '🔢' : '📚'}
+                                            {getTopicIcon(topic)}
                                         </div>
                                         <div style={{ fontWeight: 'bold', color: 'var(--color-text)', pointerEvents: 'none' }}>
                                             {topic}
