@@ -50,6 +50,19 @@ const Navigation = () => {
                 >
                     <img src="/logo.jpg" alt="Abacus Logo" style={{ height: '40px', borderRadius: '50%', border: '2px solid var(--color-text)' }} />
                     Abacus Learn
+                    <span style={{
+                        fontSize: '0.6rem',
+                        fontWeight: 'bold',
+                        background: 'var(--color-primary)',
+                        color: 'white',
+                        padding: '0.15rem 0.4rem',
+                        borderRadius: '4px',
+                        marginLeft: '0.5rem',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.5px'
+                    }}>
+                        Beta v2
+                    </span>
                 </NavLink>
 
                 {/* Hamburger Menu Button */}
