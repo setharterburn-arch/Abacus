@@ -171,15 +171,23 @@ const SmartScoreQuiz = ({
 
   // Track if we can accept answers (prevents double-click issues)
   const [canAnswer, setCanAnswer] = useState(true);
+  const isFirstRender = useRef(true);
 
   // Reset selection state when question changes
   useEffect(() => {
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
+    
+    // Skip the disable logic on first render
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    
     // Briefly disable answering during transition to prevent click-through
     setCanAnswer(false);
-    const timer = setTimeout(() => setCanAnswer(true), 100);
+    const timer = setTimeout(() => setCanAnswer(true), 150);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
