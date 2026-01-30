@@ -154156,5 +154156,3674 @@
       }
     ],
     "title": ""
+  },
+  {
+    "id": "8-exponent-product-rule",
+    "title": "Apply the product rule for exponents",
+    "topic": "Exponents",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Simplify: 2^3 × 2^3",
+        "options": [
+          "2^9",
+          "4^6",
+          "2^0",
+          "2^6"
+        ],
+        "answer": "2^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "2^3 × 2^3 = 2^(3+3) = 2^6"
+      },
+      {
+        "question": "Simplify: 2^3 × 2^2",
+        "options": [
+          "2^1",
+          "4^5",
+          "2^5",
+          "2^6"
+        ],
+        "answer": "2^5",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "2^3 × 2^2 = 2^(3+2) = 2^5"
+      },
+      {
+        "question": "Simplify: 3^4 × 3^5",
+        "options": [
+          "6^9",
+          "3^20",
+          "3^1",
+          "3^9"
+        ],
+        "answer": "3^9",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "3^4 × 3^5 = 3^(4+5) = 3^9"
+      },
+      {
+        "question": "Simplify: 5^3 × 5^2",
+        "options": [
+          "5^6",
+          "5^5",
+          "10^5",
+          "5^1"
+        ],
+        "answer": "5^5",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "5^3 × 5^2 = 5^(3+2) = 5^5"
+      },
+      {
+        "question": "Simplify: 4^3 × 4^3",
+        "options": [
+          "4^0",
+          "8^6",
+          "4^9",
+          "4^6"
+        ],
+        "answer": "4^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "4^3 × 4^3 = 4^(3+3) = 4^6"
+      },
+      {
+        "question": "Simplify: 5^2 × 5^4",
+        "options": [
+          "5^2",
+          "5^6",
+          "5^8",
+          "10^6"
+        ],
+        "answer": "5^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "5^2 × 5^4 = 5^(2+4) = 5^6"
+      },
+      {
+        "question": "Simplify: 5^2 × 5^2",
+        "options": [
+          "10^4",
+          "5^4",
+          "5^0",
+          "5^4"
+        ],
+        "answer": "5^4",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "5^2 × 5^2 = 5^(2+2) = 5^4"
+      },
+      {
+        "question": "Simplify: 4^2 × 4^5",
+        "options": [
+          "8^7",
+          "4^10",
+          "4^3",
+          "4^7"
+        ],
+        "answer": "4^7",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "4^2 × 4^5 = 4^(2+5) = 4^7"
+      },
+      {
+        "question": "Simplify: 2^3 × 2^3",
+        "options": [
+          "4^6",
+          "2^0",
+          "2^9",
+          "2^6"
+        ],
+        "answer": "2^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "2^3 × 2^3 = 2^(3+3) = 2^6"
+      },
+      {
+        "question": "Simplify: 4^3 × 4^2",
+        "options": [
+          "4^1",
+          "8^5",
+          "4^6",
+          "4^5"
+        ],
+        "answer": "4^5",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "4^3 × 4^2 = 4^(3+2) = 4^5"
+      },
+      {
+        "question": "Simplify: 2^2 × 2^4",
+        "options": [
+          "4^6",
+          "2^6",
+          "2^8",
+          "2^2"
+        ],
+        "answer": "2^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "2^2 × 2^4 = 2^(2+4) = 2^6"
+      },
+      {
+        "question": "Simplify: 3^2 × 3^4",
+        "options": [
+          "3^2",
+          "6^6",
+          "3^8",
+          "3^6"
+        ],
+        "answer": "3^6",
+        "hint": "When multiplying same bases, add the exponents",
+        "explanation": "3^2 × 3^4 = 3^(2+4) = 3^6"
+      }
+    ]
+  },
+  {
+    "id": "8-exponent-quotient-rule",
+    "title": "Apply the quotient rule for exponents",
+    "topic": "Exponents",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Simplify: 4^6 ÷ 4^3",
+        "options": [
+          "4^3",
+          "4^9",
+          "4^18",
+          "1/4^-3"
+        ],
+        "answer": "4^3",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "4^6 ÷ 4^3 = 4^(6-3) = 4^3"
+      },
+      {
+        "question": "Simplify: 3^9 ÷ 3^2",
+        "options": [
+          "1/3^-7",
+          "3^11",
+          "3^18",
+          "3^7"
+        ],
+        "answer": "3^7",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "3^9 ÷ 3^2 = 3^(9-2) = 3^7"
+      },
+      {
+        "question": "Simplify: 5^9 ÷ 5^3",
+        "options": [
+          "1/5^-6",
+          "5^27",
+          "5^12",
+          "5^6"
+        ],
+        "answer": "5^6",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "5^9 ÷ 5^3 = 5^(9-3) = 5^6"
+      },
+      {
+        "question": "Simplify: 4^6 ÷ 4^2",
+        "options": [
+          "4^12",
+          "4^4",
+          "1/4^-4",
+          "4^8"
+        ],
+        "answer": "4^4",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "4^6 ÷ 4^2 = 4^(6-2) = 4^4"
+      },
+      {
+        "question": "Simplify: 4^6 ÷ 4^3",
+        "options": [
+          "1/4^-3",
+          "4^3",
+          "4^18",
+          "4^9"
+        ],
+        "answer": "4^3",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "4^6 ÷ 4^3 = 4^(6-3) = 4^3"
+      },
+      {
+        "question": "Simplify: 5^7 ÷ 5^4",
+        "options": [
+          "5^28",
+          "1/5^-3",
+          "5^11",
+          "5^3"
+        ],
+        "answer": "5^3",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "5^7 ÷ 5^4 = 5^(7-4) = 5^3"
+      },
+      {
+        "question": "Simplify: 4^5 ÷ 4^3",
+        "options": [
+          "4^15",
+          "4^8",
+          "1/4^-2",
+          "4^2"
+        ],
+        "answer": "4^2",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "4^5 ÷ 4^3 = 4^(5-3) = 4^2"
+      },
+      {
+        "question": "Simplify: 2^5 ÷ 2^3",
+        "options": [
+          "1/2^-2",
+          "2^15",
+          "2^8",
+          "2^2"
+        ],
+        "answer": "2^2",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "2^5 ÷ 2^3 = 2^(5-3) = 2^2"
+      },
+      {
+        "question": "Simplify: 3^7 ÷ 3^2",
+        "options": [
+          "3^5",
+          "1/3^-5",
+          "3^9",
+          "3^14"
+        ],
+        "answer": "3^5",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "3^7 ÷ 3^2 = 3^(7-2) = 3^5"
+      },
+      {
+        "question": "Simplify: 5^5 ÷ 5^4",
+        "options": [
+          "5^1",
+          "5^9",
+          "1/5^-1",
+          "5^20"
+        ],
+        "answer": "5^1",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "5^5 ÷ 5^4 = 5^(5-4) = 5^1"
+      },
+      {
+        "question": "Simplify: 4^8 ÷ 4^3",
+        "options": [
+          "4^5",
+          "1/4^-5",
+          "4^11",
+          "4^24"
+        ],
+        "answer": "4^5",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "4^8 ÷ 4^3 = 4^(8-3) = 4^5"
+      },
+      {
+        "question": "Simplify: 5^7 ÷ 5^3",
+        "options": [
+          "5^4",
+          "5^10",
+          "5^21",
+          "1/5^-4"
+        ],
+        "answer": "5^4",
+        "hint": "When dividing same bases, subtract the exponents",
+        "explanation": "5^7 ÷ 5^3 = 5^(7-3) = 5^4"
+      }
+    ]
+  },
+  {
+    "id": "8-exponent-power-rule",
+    "title": "Apply the power rule for exponents",
+    "topic": "Exponents",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Simplify: (2^4)^3",
+        "options": [
+          "2^4",
+          "2^12",
+          "2^7",
+          "6^4"
+        ],
+        "answer": "2^12",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(2^4)^3 = 2^(4×3) = 2^12"
+      },
+      {
+        "question": "Simplify: (4^4)^3",
+        "options": [
+          "4^7",
+          "4^4",
+          "4^12",
+          "12^4"
+        ],
+        "answer": "4^12",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^4)^3 = 4^(4×3) = 4^12"
+      },
+      {
+        "question": "Simplify: (4^2)^4",
+        "options": [
+          "4^6",
+          "4^8",
+          "16^2",
+          "4^2"
+        ],
+        "answer": "4^8",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^2)^4 = 4^(2×4) = 4^8"
+      },
+      {
+        "question": "Simplify: (4^3)^2",
+        "options": [
+          "4^3",
+          "8^3",
+          "4^5",
+          "4^6"
+        ],
+        "answer": "4^6",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^3)^2 = 4^(3×2) = 4^6"
+      },
+      {
+        "question": "Simplify: (3^2)^4",
+        "options": [
+          "3^2",
+          "3^8",
+          "3^6",
+          "12^2"
+        ],
+        "answer": "3^8",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(3^2)^4 = 3^(2×4) = 3^8"
+      },
+      {
+        "question": "Simplify: (4^2)^4",
+        "options": [
+          "4^2",
+          "16^2",
+          "4^6",
+          "4^8"
+        ],
+        "answer": "4^8",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^2)^4 = 4^(2×4) = 4^8"
+      },
+      {
+        "question": "Simplify: (2^2)^3",
+        "options": [
+          "2^6",
+          "2^2",
+          "6^2",
+          "2^5"
+        ],
+        "answer": "2^6",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(2^2)^3 = 2^(2×3) = 2^6"
+      },
+      {
+        "question": "Simplify: (4^3)^2",
+        "options": [
+          "4^6",
+          "4^5",
+          "8^3",
+          "4^3"
+        ],
+        "answer": "4^6",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^3)^2 = 4^(3×2) = 4^6"
+      },
+      {
+        "question": "Simplify: (2^3)^2",
+        "options": [
+          "2^3",
+          "4^3",
+          "2^5",
+          "2^6"
+        ],
+        "answer": "2^6",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(2^3)^2 = 2^(3×2) = 2^6"
+      },
+      {
+        "question": "Simplify: (4^3)^3",
+        "options": [
+          "4^9",
+          "4^3",
+          "4^6",
+          "12^3"
+        ],
+        "answer": "4^9",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(4^3)^3 = 4^(3×3) = 4^9"
+      },
+      {
+        "question": "Simplify: (3^3)^3",
+        "options": [
+          "3^9",
+          "3^6",
+          "3^3",
+          "9^3"
+        ],
+        "answer": "3^9",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(3^3)^3 = 3^(3×3) = 3^9"
+      },
+      {
+        "question": "Simplify: (3^2)^4",
+        "options": [
+          "3^6",
+          "3^8",
+          "3^2",
+          "12^2"
+        ],
+        "answer": "3^8",
+        "hint": "When raising a power to a power, multiply the exponents",
+        "explanation": "(3^2)^4 = 3^(2×4) = 3^8"
+      }
+    ]
+  },
+  {
+    "id": "8-negative-exponents",
+    "title": "Evaluate negative exponents",
+    "topic": "Exponents",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Rewrite with positive exponents: 4^(-3)",
+        "options": [
+          "-1/64",
+          "-64",
+          "1/64",
+          "64"
+        ],
+        "answer": "1/64",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "4^(-3) = 1/4^3 = 1/64"
+      },
+      {
+        "question": "Rewrite with positive exponents: 2^(-3)",
+        "options": [
+          "-8",
+          "8",
+          "-1/8",
+          "1/8"
+        ],
+        "answer": "1/8",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "2^(-3) = 1/2^3 = 1/8"
+      },
+      {
+        "question": "Rewrite with positive exponents: 5^(-1)",
+        "options": [
+          "1/5",
+          "-5",
+          "5",
+          "-1/5"
+        ],
+        "answer": "1/5",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "5^(-1) = 1/5^1 = 1/5"
+      },
+      {
+        "question": "Rewrite with positive exponents: 3^(-2)",
+        "options": [
+          "9",
+          "-1/9",
+          "-9",
+          "1/9"
+        ],
+        "answer": "1/9",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "3^(-2) = 1/3^2 = 1/9"
+      },
+      {
+        "question": "Rewrite with positive exponents: 4^(-3)",
+        "options": [
+          "1/64",
+          "-64",
+          "64",
+          "-1/64"
+        ],
+        "answer": "1/64",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "4^(-3) = 1/4^3 = 1/64"
+      },
+      {
+        "question": "Rewrite with positive exponents: 3^(-2)",
+        "options": [
+          "-1/9",
+          "9",
+          "-9",
+          "1/9"
+        ],
+        "answer": "1/9",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "3^(-2) = 1/3^2 = 1/9"
+      },
+      {
+        "question": "Rewrite with positive exponents: 5^(-3)",
+        "options": [
+          "-1/125",
+          "125",
+          "-125",
+          "1/125"
+        ],
+        "answer": "1/125",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "5^(-3) = 1/5^3 = 1/125"
+      },
+      {
+        "question": "Rewrite with positive exponents: 4^(-2)",
+        "options": [
+          "1/16",
+          "-16",
+          "16",
+          "-1/16"
+        ],
+        "answer": "1/16",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "4^(-2) = 1/4^2 = 1/16"
+      },
+      {
+        "question": "Rewrite with positive exponents: 5^(-1)",
+        "options": [
+          "-1/5",
+          "1/5",
+          "-5",
+          "5"
+        ],
+        "answer": "1/5",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "5^(-1) = 1/5^1 = 1/5"
+      },
+      {
+        "question": "Rewrite with positive exponents: 3^(-2)",
+        "options": [
+          "1/9",
+          "-9",
+          "9",
+          "-1/9"
+        ],
+        "answer": "1/9",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "3^(-2) = 1/3^2 = 1/9"
+      },
+      {
+        "question": "Rewrite with positive exponents: 4^(-3)",
+        "options": [
+          "1/64",
+          "-64",
+          "64",
+          "-1/64"
+        ],
+        "answer": "1/64",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "4^(-3) = 1/4^3 = 1/64"
+      },
+      {
+        "question": "Rewrite with positive exponents: 2^(-3)",
+        "options": [
+          "8",
+          "-1/8",
+          "-8",
+          "1/8"
+        ],
+        "answer": "1/8",
+        "hint": "A negative exponent means take the reciprocal",
+        "explanation": "2^(-3) = 1/2^3 = 1/8"
+      }
+    ]
+  },
+  {
+    "id": "8-scientific-notation",
+    "title": "Convert to and from scientific notation",
+    "topic": "Exponents",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Write in scientific notation: 100,000",
+        "options": [
+          "0.1 × 10^6",
+          "1 × 10^4",
+          "1 × 10^5",
+          "1 × 10^6"
+        ],
+        "answer": "1 × 10^5",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "100,000 = 1 × 10^5"
+      },
+      {
+        "question": "Write in scientific notation: 20,000",
+        "options": [
+          "0.2 × 10^5",
+          "2 × 10^5",
+          "2 × 10^3",
+          "2 × 10^4"
+        ],
+        "answer": "2 × 10^4",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "20,000 = 2 × 10^4"
+      },
+      {
+        "question": "Write in scientific notation: 300,000",
+        "options": [
+          "3 × 10^6",
+          "0.3 × 10^6",
+          "3 × 10^4",
+          "3 × 10^5"
+        ],
+        "answer": "3 × 10^5",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "300,000 = 3 × 10^5"
+      },
+      {
+        "question": "Write in scientific notation: 4,000,000",
+        "options": [
+          "4 × 10^7",
+          "0.4 × 10^7",
+          "4 × 10^5",
+          "4 × 10^6"
+        ],
+        "answer": "4 × 10^6",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "4,000,000 = 4 × 10^6"
+      },
+      {
+        "question": "Write in scientific notation: 700,000",
+        "options": [
+          "7 × 10^5",
+          "0.7 × 10^6",
+          "7 × 10^4",
+          "7 × 10^6"
+        ],
+        "answer": "7 × 10^5",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "700,000 = 7 × 10^5"
+      },
+      {
+        "question": "Write in scientific notation: 9,000,000",
+        "options": [
+          "9 × 10^6",
+          "9 × 10^5",
+          "9 × 10^7",
+          "0.9 × 10^7"
+        ],
+        "answer": "9 × 10^6",
+        "hint": "Move the decimal point until you have a number between 1 and 10",
+        "explanation": "9,000,000 = 9 × 10^6"
+      },
+      {
+        "question": "Write in standard form: 3.6 × 10^3",
+        "options": [
+          "3,600",
+          "360",
+          "10.8",
+          "36,000"
+        ],
+        "answer": "3,600",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "3.6 × 10^3 = 3,600"
+      },
+      {
+        "question": "Write in standard form: 4.3 × 10^2",
+        "options": [
+          "8.6",
+          "43",
+          "4,300",
+          "430"
+        ],
+        "answer": "430",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "4.3 × 10^2 = 430"
+      },
+      {
+        "question": "Write in standard form: 5.4 × 10^3",
+        "options": [
+          "540",
+          "16.2",
+          "54,000",
+          "5,400"
+        ],
+        "answer": "5,400",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "5.4 × 10^3 = 5,400"
+      },
+      {
+        "question": "Write in standard form: 7.3 × 10^2",
+        "options": [
+          "14.6",
+          "73",
+          "7,300",
+          "730"
+        ],
+        "answer": "730",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "7.3 × 10^2 = 730"
+      },
+      {
+        "question": "Write in standard form: 2.6 × 10^3",
+        "options": [
+          "7.8",
+          "260",
+          "26,000",
+          "2,600"
+        ],
+        "answer": "2,600",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "2.6 × 10^3 = 2,600"
+      },
+      {
+        "question": "Write in standard form: 7.5 × 10^4",
+        "options": [
+          "30",
+          "7,500",
+          "75,000",
+          "750,000"
+        ],
+        "answer": "75,000",
+        "hint": "Move the decimal point to the right by the exponent",
+        "explanation": "7.5 × 10^4 = 75,000"
+      }
+    ]
+  },
+  {
+    "id": "8-one-step-equations",
+    "title": "Solve one-step equations",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Solve for x: x + 12 = 19",
+        "options": [
+          "-7",
+          "6",
+          "8",
+          "7"
+        ],
+        "answer": "7",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 12 = 19, so x = 19 - 12 = 7"
+      },
+      {
+        "question": "Solve for x: x + 2 = 4",
+        "options": [
+          "2",
+          "3",
+          "-2",
+          "1"
+        ],
+        "answer": "2",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 2 = 4, so x = 4 - 2 = 2"
+      },
+      {
+        "question": "Solve for x: x + 9 = 5",
+        "options": [
+          "4",
+          "-5",
+          "-3",
+          "-4"
+        ],
+        "answer": "-4",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 9 = 5, so x = 5 - 9 = -4"
+      },
+      {
+        "question": "Solve for x: x + 12 = 19",
+        "options": [
+          "7",
+          "6",
+          "-7",
+          "8"
+        ],
+        "answer": "7",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 12 = 19, so x = 19 - 12 = 7"
+      },
+      {
+        "question": "Solve for x: x + 4 = 3",
+        "options": [
+          "-2",
+          "-1",
+          "0",
+          "1"
+        ],
+        "answer": "-1",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 4 = 3, so x = 3 - 4 = -1"
+      },
+      {
+        "question": "Solve for x: x + 9 = 7",
+        "options": [
+          "-2",
+          "2",
+          "-3",
+          "-1"
+        ],
+        "answer": "-2",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 9 = 7, so x = 7 - 9 = -2"
+      },
+      {
+        "question": "Solve for x: x + 5 = 7",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 5 = 7, so x = 7 - 5 = 2"
+      },
+      {
+        "question": "Solve for x: x + 15 = 8",
+        "options": [
+          "-7",
+          "7",
+          "-6",
+          "-8"
+        ],
+        "answer": "-7",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 15 = 8, so x = 8 - 15 = -7"
+      },
+      {
+        "question": "Solve for x: x + 10 = 0",
+        "options": [
+          "-11",
+          "10",
+          "-9",
+          "-10"
+        ],
+        "answer": "-10",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 10 = 0, so x = 0 - 10 = -10"
+      },
+      {
+        "question": "Solve for x: x + 8 = 7",
+        "options": [
+          "-1",
+          "0",
+          "-2",
+          "1"
+        ],
+        "answer": "-1",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 8 = 7, so x = 7 - 8 = -1"
+      },
+      {
+        "question": "Solve for x: x + 2 = 11",
+        "options": [
+          "-9",
+          "8",
+          "10",
+          "9"
+        ],
+        "answer": "9",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 2 = 11, so x = 11 - 2 = 9"
+      },
+      {
+        "question": "Solve for x: x + 8 = 16",
+        "options": [
+          "8",
+          "9",
+          "-8",
+          "7"
+        ],
+        "answer": "8",
+        "hint": "Subtract the same number from both sides",
+        "explanation": "x + 8 = 16, so x = 16 - 8 = 8"
+      }
+    ]
+  },
+  {
+    "id": "8-two-step-equations",
+    "title": "Solve two-step equations",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Solve for x: 3x + 1 = 10",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "6"
+        ],
+        "answer": "3",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 1 = 10 → 3x = 9 → x = 3"
+      },
+      {
+        "question": "Solve for x: 3x + 7 = 37",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "20"
+        ],
+        "answer": "10",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 7 = 37 → 3x = 30 → x = 10"
+      },
+      {
+        "question": "Solve for x: 3x + 7 = 31",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "16"
+        ],
+        "answer": "8",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 7 = 31 → 3x = 24 → x = 8"
+      },
+      {
+        "question": "Solve for x: 3x + 10 = 13",
+        "options": [
+          "2",
+          "0",
+          "2",
+          "1"
+        ],
+        "answer": "1",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 10 = 13 → 3x = 3 → x = 1"
+      },
+      {
+        "question": "Solve for x: 4x + 1 = 33",
+        "options": [
+          "8",
+          "7",
+          "16",
+          "9"
+        ],
+        "answer": "8",
+        "hint": "First subtract, then divide",
+        "explanation": "4x + 1 = 33 → 4x = 32 → x = 8"
+      },
+      {
+        "question": "Solve for x: 5x + 9 = 29",
+        "options": [
+          "8",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": "4",
+        "hint": "First subtract, then divide",
+        "explanation": "5x + 9 = 29 → 5x = 20 → x = 4"
+      },
+      {
+        "question": "Solve for x: 3x + 2 = 29",
+        "options": [
+          "18",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 2 = 29 → 3x = 27 → x = 9"
+      },
+      {
+        "question": "Solve for x: 5x + 1 = 31",
+        "options": [
+          "6",
+          "7",
+          "5",
+          "12"
+        ],
+        "answer": "6",
+        "hint": "First subtract, then divide",
+        "explanation": "5x + 1 = 31 → 5x = 30 → x = 6"
+      },
+      {
+        "question": "Solve for x: 3x + 7 = 10",
+        "options": [
+          "1",
+          "2",
+          "2",
+          "0"
+        ],
+        "answer": "1",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 7 = 10 → 3x = 3 → x = 1"
+      },
+      {
+        "question": "Solve for x: 5x + 6 = 21",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": "3",
+        "hint": "First subtract, then divide",
+        "explanation": "5x + 6 = 21 → 5x = 15 → x = 3"
+      },
+      {
+        "question": "Solve for x: 2x + 3 = 19",
+        "options": [
+          "7",
+          "9",
+          "16",
+          "8"
+        ],
+        "answer": "8",
+        "hint": "First subtract, then divide",
+        "explanation": "2x + 3 = 19 → 2x = 16 → x = 8"
+      },
+      {
+        "question": "Solve for x: 3x + 9 = 15",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "4"
+        ],
+        "answer": "2",
+        "hint": "First subtract, then divide",
+        "explanation": "3x + 9 = 15 → 3x = 6 → x = 2"
+      }
+    ]
+  },
+  {
+    "id": "8-multi-step-equations",
+    "title": "Solve equations with variables on both sides",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Solve for x: 4x + 3 = 1x + 24",
+        "options": [
+          "8",
+          "-7",
+          "7",
+          "6"
+        ],
+        "answer": "7",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "4x - 1x = 24 - 3 → 3x = 21 → x = 7"
+      },
+      {
+        "question": "Solve for x: 6x + 4 = 3x + 19",
+        "options": [
+          "-5",
+          "4",
+          "6",
+          "5"
+        ],
+        "answer": "5",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "6x - 3x = 19 - 4 → 3x = 15 → x = 5"
+      },
+      {
+        "question": "Solve for x: 5x + 5 = 1x + 21",
+        "options": [
+          "4",
+          "5",
+          "-4",
+          "3"
+        ],
+        "answer": "4",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "5x - 1x = 21 - 5 → 4x = 16 → x = 4"
+      },
+      {
+        "question": "Solve for x: 5x + 3 = 4x + 4",
+        "options": [
+          "1",
+          "-1",
+          "2",
+          "0"
+        ],
+        "answer": "1",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "5x - 4x = 4 - 3 → 1x = 1 → x = 1"
+      },
+      {
+        "question": "Solve for x: 6x + 2 = 2x + 26",
+        "options": [
+          "5",
+          "7",
+          "-6",
+          "6"
+        ],
+        "answer": "6",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "6x - 2x = 26 - 2 → 4x = 24 → x = 6"
+      },
+      {
+        "question": "Solve for x: 6x + 4 = 3x + 7",
+        "options": [
+          "-1",
+          "0",
+          "2",
+          "1"
+        ],
+        "answer": "1",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "6x - 3x = 7 - 4 → 3x = 3 → x = 1"
+      },
+      {
+        "question": "Solve for x: 3x + 4 = 2x + 6",
+        "options": [
+          "2",
+          "3",
+          "1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "3x - 2x = 6 - 4 → 1x = 2 → x = 2"
+      },
+      {
+        "question": "Solve for x: 3x + 2 = 1x + 16",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "-7"
+        ],
+        "answer": "7",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "3x - 1x = 16 - 2 → 2x = 14 → x = 7"
+      },
+      {
+        "question": "Solve for x: 7x + 2 = 5x + 16",
+        "options": [
+          "8",
+          "-7",
+          "7",
+          "6"
+        ],
+        "answer": "7",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "7x - 5x = 16 - 2 → 2x = 14 → x = 7"
+      },
+      {
+        "question": "Solve for x: 5x + 3 = 3x + 17",
+        "options": [
+          "-7",
+          "7",
+          "8",
+          "6"
+        ],
+        "answer": "7",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "5x - 3x = 17 - 3 → 2x = 14 → x = 7"
+      },
+      {
+        "question": "Solve for x: 6x + 6 = 5x + 12",
+        "options": [
+          "7",
+          "-6",
+          "6",
+          "5"
+        ],
+        "answer": "6",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "6x - 5x = 12 - 6 → 1x = 6 → x = 6"
+      },
+      {
+        "question": "Solve for x: 4x + 6 = 3x + 10",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "Get all x terms on one side, constants on the other",
+        "explanation": "4x - 3x = 10 - 6 → 1x = 4 → x = 4"
+      }
+    ]
+  },
+  {
+    "id": "8-slope-from-points",
+    "title": "Find slope from two points",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the slope of the line through (3, -5) and (6, -4)",
+        "options": [
+          "2",
+          "3/1",
+          "-1/3",
+          "1/3"
+        ],
+        "answer": "1/3",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-4 - -5)/(6 - 3) = 1/3 = 1/3"
+      },
+      {
+        "question": "Find the slope of the line through (-5, -3) and (-4, 1)",
+        "options": [
+          "-4/1",
+          "4",
+          "1/4",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (1 - -3)/(-4 - -5) = 4/1 = 4"
+      },
+      {
+        "question": "Find the slope of the line through (-2, -1) and (-3, -4)",
+        "options": [
+          "-2",
+          "3",
+          "3/-1",
+          "-1/-3"
+        ],
+        "answer": "3",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-4 - -1)/(-3 - -2) = -3/-1 = 3"
+      },
+      {
+        "question": "Find the slope of the line through (5, -5) and (8, -8)",
+        "options": [
+          "1/-1",
+          "0",
+          "1/1",
+          "-1"
+        ],
+        "answer": "-1",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-8 - -5)/(8 - 5) = -3/3 = -1"
+      },
+      {
+        "question": "Find the slope of the line through (-5, -4) and (-9, -3)",
+        "options": [
+          "-1/-4",
+          "-4/1",
+          "-1/4",
+          "2"
+        ],
+        "answer": "-1/4",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-3 - -4)/(-9 - -5) = 1/-4 = -1/4"
+      },
+      {
+        "question": "Find the slope of the line through (5, -5) and (4, -9)",
+        "options": [
+          "4",
+          "4/-1",
+          "-3",
+          "-1/-4"
+        ],
+        "answer": "4",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-9 - -5)/(4 - 5) = -4/-1 = 4"
+      },
+      {
+        "question": "Find the slope of the line through (-1, 2) and (-3, 2)",
+        "options": [
+          "1",
+          "-1/0",
+          "0/-1",
+          "0"
+        ],
+        "answer": "0",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (2 - 2)/(-3 - -1) = 0/-2 = 0"
+      },
+      {
+        "question": "Find the slope of the line through (-1, 3) and (0, 7)",
+        "options": [
+          "-4/1",
+          "4",
+          "5",
+          "1/4"
+        ],
+        "answer": "4",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (7 - 3)/(0 - -1) = 4/1 = 4"
+      },
+      {
+        "question": "Find the slope of the line through (-4, -3) and (-5, -2)",
+        "options": [
+          "-1/1",
+          "2",
+          "-1/-1",
+          "-1"
+        ],
+        "answer": "-1",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-2 - -3)/(-5 - -4) = 1/-1 = -1"
+      },
+      {
+        "question": "Find the slope of the line through (-2, -3) and (-3, 0)",
+        "options": [
+          "4",
+          "-3",
+          "-1/3",
+          "-3/-1"
+        ],
+        "answer": "-3",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (0 - -3)/(-3 - -2) = 3/-1 = -3"
+      },
+      {
+        "question": "Find the slope of the line through (-2, 1) and (-1, -3)",
+        "options": [
+          "-3",
+          "1/-4",
+          "4/1",
+          "-4"
+        ],
+        "answer": "-4",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-3 - 1)/(-1 - -2) = -4/1 = -4"
+      },
+      {
+        "question": "Find the slope of the line through (-4, -5) and (-1, -9)",
+        "options": [
+          "3/-4",
+          "-4/3",
+          "-3",
+          "4/3"
+        ],
+        "answer": "-4/3",
+        "hint": "Slope = rise/run = (y₂ - y₁)/(x₂ - x₁)",
+        "explanation": "m = (-9 - -5)/(-1 - -4) = -4/3 = -4/3"
+      }
+    ]
+  },
+  {
+    "id": "8-slope-intercept-form",
+    "title": "Identify slope and y-intercept",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "What is the slope of y = 2x - 3?",
+        "options": [
+          "2",
+          "-3",
+          "-1",
+          "-2"
+        ],
+        "answer": "2",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is 2"
+      },
+      {
+        "question": "What is the slope of y = -2x - 4?",
+        "options": [
+          "-2",
+          "-4",
+          "2",
+          "-6"
+        ],
+        "answer": "-2",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is -2"
+      },
+      {
+        "question": "What is the slope of y = -1x + 0?",
+        "options": [
+          "-1",
+          "-1",
+          "0",
+          "1"
+        ],
+        "answer": "-1",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is -1"
+      },
+      {
+        "question": "What is the slope of y = -2x - 5?",
+        "options": [
+          "-2",
+          "-5",
+          "2",
+          "-7"
+        ],
+        "answer": "-2",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is -2"
+      },
+      {
+        "question": "What is the slope of y = 3x + 5?",
+        "options": [
+          "3",
+          "5",
+          "8",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is 3"
+      },
+      {
+        "question": "What is the slope of y = -5x - 8?",
+        "options": [
+          "-13",
+          "-8",
+          "-5",
+          "5"
+        ],
+        "answer": "-5",
+        "hint": "In y = mx + b, m is the slope",
+        "explanation": "The slope is the coefficient of x, which is -5"
+      },
+      {
+        "question": "What is the y-intercept of y = -1x - 8?",
+        "options": [
+          "-8",
+          "-1",
+          "8",
+          "8"
+        ],
+        "answer": "-8",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is -8"
+      },
+      {
+        "question": "What is the y-intercept of y = 0x + 3?",
+        "options": [
+          "0",
+          "0",
+          "3",
+          "-3"
+        ],
+        "answer": "3",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is 3"
+      },
+      {
+        "question": "What is the y-intercept of y = -3x + 4?",
+        "options": [
+          "-3",
+          "-12",
+          "4",
+          "-4"
+        ],
+        "answer": "4",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is 4"
+      },
+      {
+        "question": "What is the y-intercept of y = 1x + 3?",
+        "options": [
+          "-3",
+          "1",
+          "3",
+          "3"
+        ],
+        "answer": "3",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is 3"
+      },
+      {
+        "question": "What is the y-intercept of y = 3x - 5?",
+        "options": [
+          "3",
+          "-5",
+          "-15",
+          "5"
+        ],
+        "answer": "-5",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is -5"
+      },
+      {
+        "question": "What is the y-intercept of y = -4x + 8?",
+        "options": [
+          "-32",
+          "8",
+          "-4",
+          "-8"
+        ],
+        "answer": "8",
+        "hint": "In y = mx + b, b is the y-intercept",
+        "explanation": "The y-intercept is 8"
+      }
+    ]
+  },
+  {
+    "id": "8-write-slope-intercept",
+    "title": "Write equations in slope-intercept form",
+    "topic": "Linear Equations",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Write in slope-intercept form: slope = 0, y-intercept = 2",
+        "options": [
+          "x = 0y + 2",
+          "y = 0x + 2",
+          "y = 2x + 0",
+          "y = 0x + 2"
+        ],
+        "answer": "y = 0x + 2",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 0 and b = 2: y = 0x + 2"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -2, y-intercept = -5",
+        "options": [
+          "y = -2x - 5",
+          "y = -5x - 2",
+          "y = 2x - 5",
+          "x = -2y - 5"
+        ],
+        "answer": "y = -2x - 5",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -2 and b = -5: y = -2x - 5"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -4, y-intercept = -5",
+        "options": [
+          "y = -4x - 5",
+          "y = 4x - 5",
+          "x = -4y - 5",
+          "y = -5x - 4"
+        ],
+        "answer": "y = -4x - 5",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -4 and b = -5: y = -4x - 5"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 4, y-intercept = -8",
+        "options": [
+          "y = -4x - 8",
+          "y = -8x - 4",
+          "x = 4y - 8",
+          "y = 4x - 8"
+        ],
+        "answer": "y = 4x - 8",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 4 and b = -8: y = 4x - 8"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -3, y-intercept = 7",
+        "options": [
+          "y = -3x + 7",
+          "y = 7x + 3",
+          "y = 3x + 7",
+          "x = -3y + 7"
+        ],
+        "answer": "y = -3x + 7",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -3 and b = 7: y = -3x + 7"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 2, y-intercept = -7",
+        "options": [
+          "y = 2x - 7",
+          "x = 2y - 7",
+          "y = -2x - 7",
+          "y = -7x - 2"
+        ],
+        "answer": "y = 2x - 7",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 2 and b = -7: y = 2x - 7"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 1, y-intercept = -4",
+        "options": [
+          "y = x - 4",
+          "y = -4x - 1",
+          "x = 1y - 4",
+          "y = -1x - 4"
+        ],
+        "answer": "y = x - 4",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 1 and b = -4: y = x - 4"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -4, y-intercept = -2",
+        "options": [
+          "y = -4x - 2",
+          "y = -2x - 4",
+          "x = -4y - 2",
+          "y = 4x - 2"
+        ],
+        "answer": "y = -4x - 2",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -4 and b = -2: y = -4x - 2"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -3, y-intercept = 7",
+        "options": [
+          "x = -3y + 7",
+          "y = 7x + 3",
+          "y = 3x + 7",
+          "y = -3x + 7"
+        ],
+        "answer": "y = -3x + 7",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -3 and b = 7: y = -3x + 7"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = -2, y-intercept = -4",
+        "options": [
+          "y = 2x - 4",
+          "x = -2y - 4",
+          "y = -4x - 2",
+          "y = -2x - 4"
+        ],
+        "answer": "y = -2x - 4",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = -2 and b = -4: y = -2x - 4"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 2, y-intercept = 6",
+        "options": [
+          "y = 2x + 6",
+          "y = 6x + 2",
+          "y = -2x + 6",
+          "x = 2y + 6"
+        ],
+        "answer": "y = 2x + 6",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 2 and b = 6: y = 2x + 6"
+      },
+      {
+        "question": "Write in slope-intercept form: slope = 2, y-intercept = -4",
+        "options": [
+          "y = -2x - 4",
+          "y = -4x - 2",
+          "y = 2x - 4",
+          "x = 2y - 4"
+        ],
+        "answer": "y = 2x - 4",
+        "hint": "Slope-intercept form is y = mx + b",
+        "explanation": "With m = 2 and b = -4: y = 2x - 4"
+      }
+    ]
+  },
+  {
+    "id": "8-function-notation",
+    "title": "Evaluate functions using function notation",
+    "topic": "Functions",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "If f(x) = 4x + 7, find f(2)",
+        "options": [
+          "19",
+          "60",
+          "15",
+          "11"
+        ],
+        "answer": "15",
+        "hint": "Replace x with the given value",
+        "explanation": "f(2) = 4(2) + 7 = 8 + 7 = 15"
+      },
+      {
+        "question": "If f(x) = 1x - 1, find f(-3)",
+        "options": [
+          "-4",
+          "-3",
+          "-4",
+          "-5"
+        ],
+        "answer": "-4",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-3) = 1(-3) - 1 = -3 - 1 = -4"
+      },
+      {
+        "question": "If f(x) = 1x + 9, find f(-2)",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "7"
+        ],
+        "answer": "7",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-2) = 1(-2) + 9 = -2 + 9 = 7"
+      },
+      {
+        "question": "If f(x) = 2x + 8, find f(3)",
+        "options": [
+          "14",
+          "16",
+          "28",
+          "12"
+        ],
+        "answer": "14",
+        "hint": "Replace x with the given value",
+        "explanation": "f(3) = 2(3) + 8 = 6 + 8 = 14"
+      },
+      {
+        "question": "If f(x) = 5x - 3, find f(3)",
+        "options": [
+          "60",
+          "7",
+          "17",
+          "12"
+        ],
+        "answer": "12",
+        "hint": "Replace x with the given value",
+        "explanation": "f(3) = 5(3) - 3 = 15 - 3 = 12"
+      },
+      {
+        "question": "If f(x) = 2x + 7, find f(1)",
+        "options": [
+          "18",
+          "7",
+          "11",
+          "9"
+        ],
+        "answer": "9",
+        "hint": "Replace x with the given value",
+        "explanation": "f(1) = 2(1) + 7 = 2 + 7 = 9"
+      },
+      {
+        "question": "If f(x) = 3x + 9, find f(-2)",
+        "options": [
+          "6",
+          "0",
+          "9",
+          "3"
+        ],
+        "answer": "3",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-2) = 3(-2) + 9 = -6 + 9 = 3"
+      },
+      {
+        "question": "If f(x) = 3x + 0, find f(-2)",
+        "options": [
+          "-18",
+          "-9",
+          "-3",
+          "-6"
+        ],
+        "answer": "-6",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-2) = 3(-2) + 0 = -6 + 0 = -6"
+      },
+      {
+        "question": "If f(x) = 1x + 5, find f(1)",
+        "options": [
+          "6",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "hint": "Replace x with the given value",
+        "explanation": "f(1) = 1(1) + 5 = 1 + 5 = 6"
+      },
+      {
+        "question": "If f(x) = 3x + 5, find f(-3)",
+        "options": [
+          "-12",
+          "-7",
+          "-1",
+          "-4"
+        ],
+        "answer": "-4",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-3) = 3(-3) + 5 = -9 + 5 = -4"
+      },
+      {
+        "question": "If f(x) = 3x + 9, find f(-3)",
+        "options": [
+          "0",
+          "3",
+          "0",
+          "-3"
+        ],
+        "answer": "0",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-3) = 3(-3) + 9 = -9 + 9 = 0"
+      },
+      {
+        "question": "If f(x) = 1x + 6, find f(-1)",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "5"
+        ],
+        "answer": "5",
+        "hint": "Replace x with the given value",
+        "explanation": "f(-1) = 1(-1) + 6 = -1 + 6 = 5"
+      }
+    ]
+  },
+  {
+    "id": "8-linear-vs-nonlinear",
+    "title": "Classify functions as linear or nonlinear",
+    "topic": "Functions",
+    "grade": 8,
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Is y = 3x + 2 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = 3x + 2 is linear because x has an exponent of 1"
+      },
+      {
+        "question": "Is y = x² a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = x² is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = -x + 5 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = -x + 5 is linear because x has an exponent of 1"
+      },
+      {
+        "question": "Is y = 1/x a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = 1/x is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = x/2 + 3 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = x/2 + 3 is linear because x has an exponent of 1"
+      },
+      {
+        "question": "Is y = 2x a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = 2x is linear because x has an exponent of 1"
+      },
+      {
+        "question": "Is y = 0.5x - 2 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = 0.5x - 2 is linear because x has an exponent of 1"
+      },
+      {
+        "question": "Is y = √x a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = √x is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = x³ a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = x³ is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = 2^x a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = 2^x is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = 3x² + 1 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Nonlinear",
+        "hint": "Nonlinear functions have x squared, cubed, or in denominators/roots",
+        "explanation": "y = 3x² + 1 is nonlinear because x is not to the first power"
+      },
+      {
+        "question": "Is y = -4x - 1 a linear or nonlinear function?",
+        "options": [
+          "Linear",
+          "Nonlinear"
+        ],
+        "answer": "Linear",
+        "hint": "Linear functions have x to the first power only",
+        "explanation": "y = -4x - 1 is linear because x has an exponent of 1"
+      }
+    ]
+  },
+  {
+    "id": "8-rate-of-change",
+    "title": "Find the rate of change",
+    "topic": "Functions",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the rate of change: When x = 5, y = 48. When x = 10, y = 88.",
+        "options": [
+          "40",
+          "7",
+          "9",
+          "8"
+        ],
+        "answer": "8",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (88 - 48)/(10 - 5) = 40/5 = 8"
+      },
+      {
+        "question": "Find the rate of change: When x = 1, y = 18. When x = 5, y = 38.",
+        "options": [
+          "20",
+          "5",
+          "6",
+          "4"
+        ],
+        "answer": "5",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (38 - 18)/(5 - 1) = 20/4 = 5"
+      },
+      {
+        "question": "Find the rate of change: When x = 2, y = 26. When x = 7, y = 56.",
+        "options": [
+          "6",
+          "7",
+          "30",
+          "5"
+        ],
+        "answer": "6",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (56 - 26)/(7 - 2) = 30/5 = 6"
+      },
+      {
+        "question": "Find the rate of change: When x = 2, y = 14. When x = 5, y = 23.",
+        "options": [
+          "3",
+          "4",
+          "2",
+          "9"
+        ],
+        "answer": "3",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (23 - 14)/(5 - 2) = 9/3 = 3"
+      },
+      {
+        "question": "Find the rate of change: When x = 5, y = 47. When x = 10, y = 77.",
+        "options": [
+          "6",
+          "7",
+          "30",
+          "5"
+        ],
+        "answer": "6",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (77 - 47)/(10 - 5) = 30/5 = 6"
+      },
+      {
+        "question": "Find the rate of change: When x = 2, y = 27. When x = 3, y = 35.",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "8"
+        ],
+        "answer": "8",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (35 - 27)/(3 - 2) = 8/1 = 8"
+      },
+      {
+        "question": "Find the rate of change: When x = 5, y = 50. When x = 7, y = 66.",
+        "options": [
+          "7",
+          "9",
+          "8",
+          "16"
+        ],
+        "answer": "8",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (66 - 50)/(7 - 5) = 16/2 = 8"
+      },
+      {
+        "question": "Find the rate of change: When x = 5, y = 35. When x = 9, y = 47.",
+        "options": [
+          "3",
+          "12",
+          "4",
+          "2"
+        ],
+        "answer": "3",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (47 - 35)/(9 - 5) = 12/4 = 3"
+      },
+      {
+        "question": "Find the rate of change: When x = 2, y = 7. When x = 4, y = 11.",
+        "options": [
+          "1",
+          "4",
+          "3",
+          "2"
+        ],
+        "answer": "2",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (11 - 7)/(4 - 2) = 4/2 = 2"
+      },
+      {
+        "question": "Find the rate of change: When x = 4, y = 59. When x = 7, y = 89.",
+        "options": [
+          "9",
+          "11",
+          "30",
+          "10"
+        ],
+        "answer": "10",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (89 - 59)/(7 - 4) = 30/3 = 10"
+      },
+      {
+        "question": "Find the rate of change: When x = 5, y = 42. When x = 10, y = 77.",
+        "options": [
+          "7",
+          "8",
+          "6",
+          "35"
+        ],
+        "answer": "7",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (77 - 42)/(10 - 5) = 35/5 = 7"
+      },
+      {
+        "question": "Find the rate of change: When x = 1, y = 21. When x = 2, y = 31.",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "10"
+        ],
+        "answer": "10",
+        "hint": "Rate of change = (change in y)/(change in x)",
+        "explanation": "Rate = (31 - 21)/(2 - 1) = 10/1 = 10"
+      }
+    ]
+  },
+  {
+    "id": "8-pythagorean-theorem",
+    "title": "Use the Pythagorean Theorem",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "A right triangle has legs of 3 and 4. Find the hypotenuse.",
+        "options": [
+          "5",
+          "6",
+          "4",
+          "7"
+        ],
+        "answer": "5",
+        "hint": "Use a² + b² = c²",
+        "explanation": "3² + 4² = 9 + 16 = 25, so c = 5"
+      },
+      {
+        "question": "A right triangle has legs of 5 and 12. Find the hypotenuse.",
+        "options": [
+          "14",
+          "13",
+          "17",
+          "12"
+        ],
+        "answer": "13",
+        "hint": "Use a² + b² = c²",
+        "explanation": "5² + 12² = 25 + 144 = 169, so c = 13"
+      },
+      {
+        "question": "A right triangle has legs of 8 and 15. Find the hypotenuse.",
+        "options": [
+          "23",
+          "17",
+          "18",
+          "16"
+        ],
+        "answer": "17",
+        "hint": "Use a² + b² = c²",
+        "explanation": "8² + 15² = 64 + 225 = 289, so c = 17"
+      },
+      {
+        "question": "A right triangle has legs of 7 and 24. Find the hypotenuse.",
+        "options": [
+          "25",
+          "31",
+          "26",
+          "24"
+        ],
+        "answer": "25",
+        "hint": "Use a² + b² = c²",
+        "explanation": "7² + 24² = 49 + 576 = 625, so c = 25"
+      },
+      {
+        "question": "A right triangle has legs of 6 and 8. Find the hypotenuse.",
+        "options": [
+          "9",
+          "11",
+          "10",
+          "14"
+        ],
+        "answer": "10",
+        "hint": "Use a² + b² = c²",
+        "explanation": "6² + 8² = 36 + 64 = 100, so c = 10"
+      },
+      {
+        "question": "A right triangle has legs of 9 and 12. Find the hypotenuse.",
+        "options": [
+          "21",
+          "14",
+          "16",
+          "15"
+        ],
+        "answer": "15",
+        "hint": "Use a² + b² = c²",
+        "explanation": "9² + 12² = 81 + 144 = 225, so c = 15"
+      },
+      {
+        "question": "A right triangle has a leg of 3 and hypotenuse of 5. Find the other leg.",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": "4",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "5² - 3² = 25 - 9 = 16, so b = 4"
+      },
+      {
+        "question": "A right triangle has a leg of 5 and hypotenuse of 13. Find the other leg.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "8"
+        ],
+        "answer": "12",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "13² - 5² = 169 - 25 = 144, so b = 12"
+      },
+      {
+        "question": "A right triangle has a leg of 8 and hypotenuse of 17. Find the other leg.",
+        "options": [
+          "14",
+          "16",
+          "9",
+          "15"
+        ],
+        "answer": "15",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "17² - 8² = 289 - 64 = 225, so b = 15"
+      },
+      {
+        "question": "A right triangle has a leg of 7 and hypotenuse of 25. Find the other leg.",
+        "options": [
+          "25",
+          "18",
+          "24",
+          "23"
+        ],
+        "answer": "24",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "25² - 7² = 625 - 49 = 576, so b = 24"
+      },
+      {
+        "question": "A right triangle has a leg of 6 and hypotenuse of 10. Find the other leg.",
+        "options": [
+          "4",
+          "7",
+          "9",
+          "8"
+        ],
+        "answer": "8",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "10² - 6² = 100 - 36 = 64, so b = 8"
+      },
+      {
+        "question": "A right triangle has a leg of 9 and hypotenuse of 15. Find the other leg.",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "6"
+        ],
+        "answer": "12",
+        "hint": "Use a² + b² = c², solve for the missing leg",
+        "explanation": "15² - 9² = 225 - 81 = 144, so b = 12"
+      }
+    ]
+  },
+  {
+    "id": "8-pythagorean-word-problems",
+    "title": "Solve Pythagorean Theorem word problems",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "A ladder is 10 feet long and reaches 8 feet up a wall. How far is the base from the wall?",
+        "options": [
+          "6",
+          "8",
+          "4",
+          "11"
+        ],
+        "answer": "6",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 6² + 8² = 10²"
+      },
+      {
+        "question": "A TV is advertised as 40 inches (diagonal). It is 32 inches wide. How tall is it?",
+        "options": [
+          "26",
+          "24",
+          "29",
+          "22"
+        ],
+        "answer": "24",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 32² + 24² = 40²"
+      },
+      {
+        "question": "A plane flies 30 miles east and 40 miles north. How far is it from the start?",
+        "options": [
+          "50",
+          "55",
+          "48",
+          "52"
+        ],
+        "answer": "50",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 30² + 40² = 50²"
+      },
+      {
+        "question": "A kite string is 15 feet long. The kite is 12 feet above the ground directly over a point 9 feet away. Is this possible?",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "answer": "Yes",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 9² + 12² = 15²"
+      },
+      {
+        "question": "A ramp is 5 feet long and rises 3 feet. How far does it extend horizontally?",
+        "options": [
+          "6",
+          "9",
+          "4",
+          "2"
+        ],
+        "answer": "4",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 3² + 4² = 5²"
+      },
+      {
+        "question": "A rectangular park is 60 meters by 80 meters. What is the diagonal distance?",
+        "options": [
+          "105",
+          "100",
+          "102",
+          "98"
+        ],
+        "answer": "100",
+        "hint": "Draw a right triangle and use a² + b² = c²",
+        "explanation": "Using Pythagorean theorem: 60² + 80² = 100²"
+      }
+    ]
+  },
+  {
+    "id": "8-transformations",
+    "title": "Perform translations and reflections",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Translate point (5, 1) by -2 in x and +1 in y. What is the new point?",
+        "options": [
+          "(10, 2)",
+          "(7, 0)",
+          "(3, 2)",
+          "(6, -1)"
+        ],
+        "answer": "(3, 2)",
+        "hint": "Add the translation to each coordinate",
+        "explanation": "(5+-2, 1+1) = (3, 2)"
+      },
+      {
+        "question": "Translate point (1, 4) by +1 in x and -2 in y. What is the new point?",
+        "options": [
+          "(2, 2)",
+          "(0, 6)",
+          "(-1, 5)",
+          "(2, 8)"
+        ],
+        "answer": "(2, 2)",
+        "hint": "Add the translation to each coordinate",
+        "explanation": "(1+1, 4+-2) = (2, 2)"
+      },
+      {
+        "question": "Translate point (5, 4) by +2 in x and -2 in y. What is the new point?",
+        "options": [
+          "(10, 8)",
+          "(3, 6)",
+          "(7, 2)",
+          "(3, 6)"
+        ],
+        "answer": "(7, 2)",
+        "hint": "Add the translation to each coordinate",
+        "explanation": "(5+2, 4+-2) = (7, 2)"
+      },
+      {
+        "question": "Translate point (4, 2) by +1 in x and -2 in y. What is the new point?",
+        "options": [
+          "(3, 4)",
+          "(2, 3)",
+          "(5, 0)",
+          "(8, 4)"
+        ],
+        "answer": "(5, 0)",
+        "hint": "Add the translation to each coordinate",
+        "explanation": "(4+1, 2+-2) = (5, 0)"
+      },
+      {
+        "question": "Reflect point (5, 1) over the x-axis. What is the new point?",
+        "options": [
+          "(5, -1)",
+          "(-5, 1)",
+          "(-5, -1)",
+          "(1, 5)"
+        ],
+        "answer": "(5, -1)",
+        "hint": "Reflecting over x-axis changes the sign of y",
+        "explanation": "Reflecting (5, 1) over x-axis gives (5, -1)"
+      },
+      {
+        "question": "Reflect point (1, 3) over the x-axis. What is the new point?",
+        "options": [
+          "(3, 1)",
+          "(-1, -3)",
+          "(-1, 3)",
+          "(1, -3)"
+        ],
+        "answer": "(1, -3)",
+        "hint": "Reflecting over x-axis changes the sign of y",
+        "explanation": "Reflecting (1, 3) over x-axis gives (1, -3)"
+      },
+      {
+        "question": "Reflect point (5, 5) over the x-axis. What is the new point?",
+        "options": [
+          "(-5, -5)",
+          "(-5, 5)",
+          "(5, -5)",
+          "(5, 5)"
+        ],
+        "answer": "(5, -5)",
+        "hint": "Reflecting over x-axis changes the sign of y",
+        "explanation": "Reflecting (5, 5) over x-axis gives (5, -5)"
+      },
+      {
+        "question": "Reflect point (4, 5) over the x-axis. What is the new point?",
+        "options": [
+          "(4, -5)",
+          "(5, 4)",
+          "(-4, 5)",
+          "(-4, -5)"
+        ],
+        "answer": "(4, -5)",
+        "hint": "Reflecting over x-axis changes the sign of y",
+        "explanation": "Reflecting (4, 5) over x-axis gives (4, -5)"
+      },
+      {
+        "question": "Reflect point (3, 6) over the y-axis. What is the new point?",
+        "options": [
+          "(-3, -6)",
+          "(3, -6)",
+          "(-3, 6)",
+          "(6, 3)"
+        ],
+        "answer": "(-3, 6)",
+        "hint": "Reflecting over y-axis changes the sign of x",
+        "explanation": "Reflecting (3, 6) over y-axis gives (-3, 6)"
+      },
+      {
+        "question": "Reflect point (5, 2) over the y-axis. What is the new point?",
+        "options": [
+          "(-5, 2)",
+          "(2, 5)",
+          "(5, -2)",
+          "(-5, -2)"
+        ],
+        "answer": "(-5, 2)",
+        "hint": "Reflecting over y-axis changes the sign of x",
+        "explanation": "Reflecting (5, 2) over y-axis gives (-5, 2)"
+      },
+      {
+        "question": "Reflect point (4, 2) over the y-axis. What is the new point?",
+        "options": [
+          "(-4, 2)",
+          "(4, -2)",
+          "(-4, -2)",
+          "(2, 4)"
+        ],
+        "answer": "(-4, 2)",
+        "hint": "Reflecting over y-axis changes the sign of x",
+        "explanation": "Reflecting (4, 2) over y-axis gives (-4, 2)"
+      },
+      {
+        "question": "Reflect point (5, 5) over the y-axis. What is the new point?",
+        "options": [
+          "(-5, 5)",
+          "(5, -5)",
+          "(-5, -5)",
+          "(5, 5)"
+        ],
+        "answer": "(-5, 5)",
+        "hint": "Reflecting over y-axis changes the sign of x",
+        "explanation": "Reflecting (5, 5) over y-axis gives (-5, 5)"
+      }
+    ]
+  },
+  {
+    "id": "8-dilations",
+    "title": "Perform dilations",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Dilate point (4, 6) by a scale factor of 4 from the origin. What is the new point?",
+        "options": [
+          "(8, 10)",
+          "(4, 24)",
+          "(16, 24)",
+          "(16, 6)"
+        ],
+        "answer": "(16, 24)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(4×4, 6×4) = (16, 24)"
+      },
+      {
+        "question": "Dilate point (3, 4) by a scale factor of 2 from the origin. What is the new point?",
+        "options": [
+          "(6, 8)",
+          "(5, 6)",
+          "(6, 4)",
+          "(3, 8)"
+        ],
+        "answer": "(6, 8)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(3×2, 4×2) = (6, 8)"
+      },
+      {
+        "question": "Dilate point (2, 3) by a scale factor of 4 from the origin. What is the new point?",
+        "options": [
+          "(8, 12)",
+          "(6, 7)",
+          "(8, 3)",
+          "(2, 12)"
+        ],
+        "answer": "(8, 12)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(2×4, 3×4) = (8, 12)"
+      },
+      {
+        "question": "Dilate point (5, 5) by a scale factor of 4 from the origin. What is the new point?",
+        "options": [
+          "(9, 9)",
+          "(20, 5)",
+          "(20, 20)",
+          "(5, 20)"
+        ],
+        "answer": "(20, 20)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(5×4, 5×4) = (20, 20)"
+      },
+      {
+        "question": "Dilate point (6, 6) by a scale factor of 2 from the origin. What is the new point?",
+        "options": [
+          "(6, 12)",
+          "(12, 6)",
+          "(8, 8)",
+          "(12, 12)"
+        ],
+        "answer": "(12, 12)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(6×2, 6×2) = (12, 12)"
+      },
+      {
+        "question": "Dilate point (6, 6) by a scale factor of 4 from the origin. What is the new point?",
+        "options": [
+          "(24, 24)",
+          "(10, 10)",
+          "(6, 24)",
+          "(24, 6)"
+        ],
+        "answer": "(24, 24)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(6×4, 6×4) = (24, 24)"
+      },
+      {
+        "question": "Dilate point (3, 3) by a scale factor of 3 from the origin. What is the new point?",
+        "options": [
+          "(9, 9)",
+          "(3, 9)",
+          "(6, 6)",
+          "(9, 3)"
+        ],
+        "answer": "(9, 9)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(3×3, 3×3) = (9, 9)"
+      },
+      {
+        "question": "Dilate point (5, 4) by a scale factor of 4 from the origin. What is the new point?",
+        "options": [
+          "(20, 4)",
+          "(9, 8)",
+          "(5, 16)",
+          "(20, 16)"
+        ],
+        "answer": "(20, 16)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(5×4, 4×4) = (20, 16)"
+      },
+      {
+        "question": "Dilate point (4, 4) by a scale factor of 2 from the origin. What is the new point?",
+        "options": [
+          "(4, 8)",
+          "(8, 4)",
+          "(6, 6)",
+          "(8, 8)"
+        ],
+        "answer": "(8, 8)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(4×2, 4×2) = (8, 8)"
+      },
+      {
+        "question": "Dilate point (5, 6) by a scale factor of 2 from the origin. What is the new point?",
+        "options": [
+          "(10, 6)",
+          "(7, 8)",
+          "(10, 12)",
+          "(5, 12)"
+        ],
+        "answer": "(10, 12)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(5×2, 6×2) = (10, 12)"
+      },
+      {
+        "question": "Dilate point (2, 5) by a scale factor of 3 from the origin. What is the new point?",
+        "options": [
+          "(2, 15)",
+          "(6, 5)",
+          "(5, 8)",
+          "(6, 15)"
+        ],
+        "answer": "(6, 15)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(2×3, 5×3) = (6, 15)"
+      },
+      {
+        "question": "Dilate point (4, 5) by a scale factor of 3 from the origin. What is the new point?",
+        "options": [
+          "(12, 5)",
+          "(7, 8)",
+          "(4, 15)",
+          "(12, 15)"
+        ],
+        "answer": "(12, 15)",
+        "hint": "Multiply both coordinates by the scale factor",
+        "explanation": "(4×3, 5×3) = (12, 15)"
+      }
+    ]
+  },
+  {
+    "id": "8-volume-cylinder",
+    "title": "Find volume of cylinders",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "Find the volume of a cylinder with radius 5 and height 4. Use π ≈ 3.14",
+        "options": [
+          "314",
+          "340",
+          "63",
+          "299"
+        ],
+        "answer": "314",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 5² × 4 = 79 × 4 ≈ 314"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 6 and height 4. Use π ≈ 3.14",
+        "options": [
+          "468",
+          "452",
+          "432",
+          "75"
+        ],
+        "answer": "452",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 6² × 4 = 113 × 4 ≈ 452"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 6 and height 4. Use π ≈ 3.14",
+        "options": [
+          "75",
+          "439",
+          "480",
+          "452"
+        ],
+        "answer": "452",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 6² × 4 = 113 × 4 ≈ 452"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 3 and height 4. Use π ≈ 3.14",
+        "options": [
+          "38",
+          "90",
+          "113",
+          "128"
+        ],
+        "answer": "113",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 3² × 4 = 28 × 4 ≈ 113"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 6 and height 4. Use π ≈ 3.14",
+        "options": [
+          "75",
+          "452",
+          "471",
+          "436"
+        ],
+        "answer": "452",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 6² × 4 = 113 × 4 ≈ 452"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 4 and height 9. Use π ≈ 3.14",
+        "options": [
+          "452",
+          "429",
+          "466",
+          "113"
+        ],
+        "answer": "452",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 4² × 9 = 50 × 9 ≈ 452"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 4 and height 4. Use π ≈ 3.14",
+        "options": [
+          "228",
+          "180",
+          "201",
+          "50"
+        ],
+        "answer": "201",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 4² × 4 = 50 × 4 ≈ 201"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 3 and height 5. Use π ≈ 3.14",
+        "options": [
+          "47",
+          "141",
+          "171",
+          "122"
+        ],
+        "answer": "141",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 3² × 5 = 28 × 5 ≈ 141"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 4 and height 7. Use π ≈ 3.14",
+        "options": [
+          "339",
+          "366",
+          "88",
+          "352"
+        ],
+        "answer": "352",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 4² × 7 = 50 × 7 ≈ 352"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 6 and height 7. Use π ≈ 3.14",
+        "options": [
+          "132",
+          "775",
+          "814",
+          "792"
+        ],
+        "answer": "792",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 6² × 7 = 113 × 7 ≈ 792"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 4 and height 7. Use π ≈ 3.14",
+        "options": [
+          "88",
+          "370",
+          "327",
+          "352"
+        ],
+        "answer": "352",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 4² × 7 = 50 × 7 ≈ 352"
+      },
+      {
+        "question": "Find the volume of a cylinder with radius 6 and height 7. Use π ≈ 3.14",
+        "options": [
+          "792",
+          "821",
+          "775",
+          "132"
+        ],
+        "answer": "792",
+        "hint": "V = πr²h",
+        "explanation": "V = π × 6² × 7 = 113 × 7 ≈ 792"
+      }
+    ]
+  },
+  {
+    "id": "8-volume-cone",
+    "title": "Find volume of cones",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Find the volume of a cone with radius 2 and height 7. Use π ≈ 3.14",
+        "options": [
+          "29",
+          "88",
+          "36",
+          "14"
+        ],
+        "answer": "29",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 2² × 7 ≈ 29"
+      },
+      {
+        "question": "Find the volume of a cone with radius 5 and height 8. Use π ≈ 3.14",
+        "options": [
+          "195",
+          "218",
+          "209",
+          "628"
+        ],
+        "answer": "209",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 5² × 8 ≈ 209"
+      },
+      {
+        "question": "Find the volume of a cone with radius 6 and height 8. Use π ≈ 3.14",
+        "options": [
+          "905",
+          "292",
+          "302",
+          "315"
+        ],
+        "answer": "302",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 6² × 8 ≈ 302"
+      },
+      {
+        "question": "Find the volume of a cone with radius 3 and height 9. Use π ≈ 3.14",
+        "options": [
+          "79",
+          "100",
+          "85",
+          "254"
+        ],
+        "answer": "85",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 3² × 9 ≈ 85"
+      },
+      {
+        "question": "Find the volume of a cone with radius 4 and height 9. Use π ≈ 3.14",
+        "options": [
+          "143",
+          "452",
+          "159",
+          "151"
+        ],
+        "answer": "151",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 4² × 9 ≈ 151"
+      },
+      {
+        "question": "Find the volume of a cone with radius 5 and height 9. Use π ≈ 3.14",
+        "options": [
+          "707",
+          "227",
+          "256",
+          "236"
+        ],
+        "answer": "236",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 5² × 9 ≈ 236"
+      },
+      {
+        "question": "Find the volume of a cone with radius 5 and height 4. Use π ≈ 3.14",
+        "options": [
+          "314",
+          "100",
+          "125",
+          "105"
+        ],
+        "answer": "105",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 5² × 4 ≈ 105"
+      },
+      {
+        "question": "Find the volume of a cone with radius 6 and height 3. Use π ≈ 3.14",
+        "options": [
+          "339",
+          "127",
+          "113",
+          "100"
+        ],
+        "answer": "113",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 6² × 3 ≈ 113"
+      },
+      {
+        "question": "Find the volume of a cone with radius 2 and height 6. Use π ≈ 3.14",
+        "options": [
+          "75",
+          "14",
+          "36",
+          "25"
+        ],
+        "answer": "25",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 2² × 6 ≈ 25"
+      },
+      {
+        "question": "Find the volume of a cone with radius 5 and height 8. Use π ≈ 3.14",
+        "options": [
+          "226",
+          "628",
+          "200",
+          "209"
+        ],
+        "answer": "209",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 5² × 8 ≈ 209"
+      },
+      {
+        "question": "Find the volume of a cone with radius 5 and height 6. Use π ≈ 3.14",
+        "options": [
+          "143",
+          "171",
+          "471",
+          "157"
+        ],
+        "answer": "157",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 5² × 6 ≈ 157"
+      },
+      {
+        "question": "Find the volume of a cone with radius 6 and height 3. Use π ≈ 3.14",
+        "options": [
+          "113",
+          "339",
+          "106",
+          "124"
+        ],
+        "answer": "113",
+        "hint": "V = (1/3)πr²h",
+        "explanation": "V = (1/3) × π × 6² × 3 ≈ 113"
+      }
+    ]
+  },
+  {
+    "id": "8-volume-sphere",
+    "title": "Find volume of spheres",
+    "topic": "Geometry",
+    "grade": 8,
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Find the volume of a sphere with radius 4. Use π ≈ 3.14",
+        "options": [
+          "268",
+          "50",
+          "295",
+          "238"
+        ],
+        "answer": "268",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 4³ ≈ 268"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 3. Use π ≈ 3.14",
+        "options": [
+          "113",
+          "140",
+          "28",
+          "88"
+        ],
+        "answer": "113",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 3³ ≈ 113"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 3. Use π ≈ 3.14",
+        "options": [
+          "123",
+          "28",
+          "113",
+          "91"
+        ],
+        "answer": "113",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 3³ ≈ 113"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 2. Use π ≈ 3.14",
+        "options": [
+          "13",
+          "34",
+          "52",
+          "22"
+        ],
+        "answer": "34",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 2³ ≈ 34"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 4. Use π ≈ 3.14",
+        "options": [
+          "268",
+          "308",
+          "250",
+          "50"
+        ],
+        "answer": "268",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 4³ ≈ 268"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 3. Use π ≈ 3.14",
+        "options": [
+          "113",
+          "128",
+          "103",
+          "28"
+        ],
+        "answer": "113",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 3³ ≈ 113"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 3. Use π ≈ 3.14",
+        "options": [
+          "113",
+          "152",
+          "28",
+          "85"
+        ],
+        "answer": "113",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 3³ ≈ 113"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 4. Use π ≈ 3.14",
+        "options": [
+          "268",
+          "50",
+          "300",
+          "240"
+        ],
+        "answer": "268",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 4³ ≈ 268"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 5. Use π ≈ 3.14",
+        "options": [
+          "79",
+          "563",
+          "524",
+          "505"
+        ],
+        "answer": "524",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 5³ ≈ 524"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 5. Use π ≈ 3.14",
+        "options": [
+          "79",
+          "502",
+          "552",
+          "524"
+        ],
+        "answer": "524",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 5³ ≈ 524"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 3. Use π ≈ 3.14",
+        "options": [
+          "113",
+          "28",
+          "149",
+          "97"
+        ],
+        "answer": "113",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 3³ ≈ 113"
+      },
+      {
+        "question": "Find the volume of a sphere with radius 5. Use π ≈ 3.14",
+        "options": [
+          "560",
+          "524",
+          "513",
+          "79"
+        ],
+        "answer": "524",
+        "hint": "V = (4/3)πr³",
+        "explanation": "V = (4/3) × π × 5³ ≈ 524"
+      }
+    ]
+  },
+  {
+    "id": "8-scatter-plots",
+    "title": "Interpret scatter plots and correlation",
+    "topic": "Statistics",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "What type of correlation? \"As study time increases, test scores increase\"",
+        "options": [
+          "Negative",
+          "No correlation",
+          "Positive"
+        ],
+        "answer": "Positive",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a positive correlation"
+      },
+      {
+        "question": "What type of correlation? \"As temperature rises, hot cocoa sales decrease\"",
+        "options": [
+          "No correlation",
+          "Negative",
+          "Positive"
+        ],
+        "answer": "Negative",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a negative correlation"
+      },
+      {
+        "question": "What type of correlation? \"Shoe size and math test scores show no clear pattern\"",
+        "options": [
+          "No correlation",
+          "Negative",
+          "Positive"
+        ],
+        "answer": "No correlation",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a no correlation correlation"
+      },
+      {
+        "question": "What type of correlation? \"As hours of exercise increase, resting heart rate decreases\"",
+        "options": [
+          "No correlation",
+          "Negative",
+          "Positive"
+        ],
+        "answer": "Negative",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a negative correlation"
+      },
+      {
+        "question": "What type of correlation? \"As height increases, weight tends to increase\"",
+        "options": [
+          "Positive",
+          "No correlation",
+          "Negative"
+        ],
+        "answer": "Positive",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a positive correlation"
+      },
+      {
+        "question": "What type of correlation? \"Phone number and GPA show no relationship\"",
+        "options": [
+          "Positive",
+          "Negative",
+          "No correlation"
+        ],
+        "answer": "No correlation",
+        "hint": "Positive = both increase together, Negative = one increases while other decreases",
+        "explanation": "This is a no correlation correlation"
+      },
+      {
+        "question": "A line of best fit is y = 4x + 5. Predict y when x = 11.",
+        "options": [
+          "45",
+          "53",
+          "20",
+          "49"
+        ],
+        "answer": "49",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 4(11) + 5 = 49"
+      },
+      {
+        "question": "A line of best fit is y = 1x + 4. Predict y when x = 11.",
+        "options": [
+          "14",
+          "16",
+          "4",
+          "15"
+        ],
+        "answer": "15",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 1(11) + 4 = 15"
+      },
+      {
+        "question": "A line of best fit is y = 4x + 2. Predict y when x = 8.",
+        "options": [
+          "34",
+          "38",
+          "30",
+          "8"
+        ],
+        "answer": "34",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 4(8) + 2 = 34"
+      },
+      {
+        "question": "A line of best fit is y = 4x + 6. Predict y when x = 10.",
+        "options": [
+          "24",
+          "46",
+          "50",
+          "42"
+        ],
+        "answer": "46",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 4(10) + 6 = 46"
+      },
+      {
+        "question": "A line of best fit is y = 1x + 2. Predict y when x = 9.",
+        "options": [
+          "11",
+          "12",
+          "10",
+          "2"
+        ],
+        "answer": "11",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 1(9) + 2 = 11"
+      },
+      {
+        "question": "A line of best fit is y = 4x + 0. Predict y when x = 10.",
+        "options": [
+          "0",
+          "36",
+          "44",
+          "40"
+        ],
+        "answer": "40",
+        "hint": "Substitute the x value into the equation",
+        "explanation": "y = 4(10) + 0 = 40"
+      }
+    ]
+  },
+  {
+    "id": "8-systems-of-equations",
+    "title": "Solve systems of equations",
+    "topic": "Algebra",
+    "grade": 8,
+    "difficulty": "hard",
+    "questions": [
+      {
+        "question": "Solve: x + y = 6 and x - y = 2. Find x.",
+        "options": [
+          "4",
+          "2",
+          "5",
+          "3"
+        ],
+        "answer": "4",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 8, so x = 4"
+      },
+      {
+        "question": "Solve: x + y = 7 and x - y = -1. Find x.",
+        "options": [
+          "4",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": "3",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 6, so x = 3"
+      },
+      {
+        "question": "Solve: x + y = 3 and x - y = -1. Find x.",
+        "options": [
+          "0",
+          "2",
+          "2",
+          "1"
+        ],
+        "answer": "1",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 2, so x = 1"
+      },
+      {
+        "question": "Solve: x + y = 9 and x - y = -1. Find x.",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "5"
+        ],
+        "answer": "4",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 8, so x = 4"
+      },
+      {
+        "question": "Solve: x + y = 10 and x - y = 0. Find x.",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "5"
+        ],
+        "answer": "5",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 10, so x = 5"
+      },
+      {
+        "question": "Solve: x + y = 7 and x - y = 3. Find x.",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": "5",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 10, so x = 5"
+      },
+      {
+        "question": "Solve: x + y = 4 and x - y = 0. Find x.",
+        "options": [
+          "2",
+          "3",
+          "2",
+          "1"
+        ],
+        "answer": "2",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 4, so x = 2"
+      },
+      {
+        "question": "Solve: x + y = 4 and x - y = 0. Find x.",
+        "options": [
+          "3",
+          "2",
+          "1",
+          "2"
+        ],
+        "answer": "2",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 4, so x = 2"
+      },
+      {
+        "question": "Solve: x + y = 9 and x - y = 1. Find x.",
+        "options": [
+          "4",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "5",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 10, so x = 5"
+      },
+      {
+        "question": "Solve: x + y = 5 and x - y = 1. Find x.",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": "3",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 6, so x = 3"
+      },
+      {
+        "question": "Solve: x + y = 7 and x - y = 3. Find x.",
+        "options": [
+          "5",
+          "2",
+          "6",
+          "4"
+        ],
+        "answer": "5",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 10, so x = 5"
+      },
+      {
+        "question": "Solve: x + y = 6 and x - y = 2. Find x.",
+        "options": [
+          "5",
+          "3",
+          "2",
+          "4"
+        ],
+        "answer": "4",
+        "hint": "Add the equations to eliminate y",
+        "explanation": "Adding: 2x = 8, so x = 4"
+      }
+    ]
+  },
+  {
+    "id": "8-rational-irrational",
+    "title": "Classify rational and irrational numbers",
+    "topic": "Number System",
+    "grade": 8,
+    "difficulty": "easy",
+    "questions": [
+      {
+        "question": "Is 0.125 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "0.125 is rational"
+      },
+      {
+        "question": "Is √3 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "√3 is irrational"
+      },
+      {
+        "question": "Is -7 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "-7 is rational"
+      },
+      {
+        "question": "Is 3/4 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "3/4 is rational"
+      },
+      {
+        "question": "Is π rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "π is irrational"
+      },
+      {
+        "question": "Is √9 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "√9 is rational"
+      },
+      {
+        "question": "Is -2/5 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "-2/5 is rational"
+      },
+      {
+        "question": "Is 0.333... rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "0.333... is rational"
+      },
+      {
+        "question": "Is √10 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "√10 is irrational"
+      },
+      {
+        "question": "Is 0.5 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "0.5 is rational"
+      },
+      {
+        "question": "Is √7 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "√7 is irrational"
+      },
+      {
+        "question": "Is √2 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "√2 is irrational"
+      },
+      {
+        "question": "Is √5 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Irrational",
+        "hint": "Irrational numbers cannot be written as simple fractions",
+        "explanation": "√5 is irrational"
+      },
+      {
+        "question": "Is √4 rational or irrational?",
+        "options": [
+          "Rational",
+          "Irrational"
+        ],
+        "answer": "Rational",
+        "hint": "Rational numbers can be written as a fraction of integers",
+        "explanation": "√4 is rational"
+      }
+    ]
+  },
+  {
+    "id": "8-approximate-irrationals",
+    "title": "Approximate irrational numbers",
+    "topic": "Number System",
+    "grade": 8,
+    "difficulty": "medium",
+    "questions": [
+      {
+        "question": "√2 is between which two integers?",
+        "options": [
+          "1 and 2",
+          "0 and 1",
+          "2 and 3",
+          "0 and 3"
+        ],
+        "answer": "1 and 2",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "1² = 1 and 2² = 4, so √2 ≈ 1.414 is between 1 and 2"
+      },
+      {
+        "question": "√3 is between which two integers?",
+        "options": [
+          "0 and 3",
+          "2 and 3",
+          "1 and 2",
+          "0 and 1"
+        ],
+        "answer": "1 and 2",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "1² = 1 and 2² = 4, so √3 ≈ 1.732 is between 1 and 2"
+      },
+      {
+        "question": "√5 is between which two integers?",
+        "options": [
+          "2 and 3",
+          "1 and 2",
+          "1 and 4",
+          "3 and 4"
+        ],
+        "answer": "2 and 3",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "2² = 4 and 3² = 9, so √5 ≈ 2.236 is between 2 and 3"
+      },
+      {
+        "question": "√6 is between which two integers?",
+        "options": [
+          "2 and 3",
+          "1 and 2",
+          "1 and 4",
+          "3 and 4"
+        ],
+        "answer": "2 and 3",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "2² = 4 and 3² = 9, so √6 ≈ 2.449 is between 2 and 3"
+      },
+      {
+        "question": "√7 is between which two integers?",
+        "options": [
+          "2 and 3",
+          "1 and 2",
+          "3 and 4",
+          "1 and 4"
+        ],
+        "answer": "2 and 3",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "2² = 4 and 3² = 9, so √7 ≈ 2.646 is between 2 and 3"
+      },
+      {
+        "question": "√8 is between which two integers?",
+        "options": [
+          "1 and 4",
+          "3 and 4",
+          "1 and 2",
+          "2 and 3"
+        ],
+        "answer": "2 and 3",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "2² = 4 and 3² = 9, so √8 ≈ 2.828 is between 2 and 3"
+      },
+      {
+        "question": "√10 is between which two integers?",
+        "options": [
+          "2 and 3",
+          "2 and 5",
+          "4 and 5",
+          "3 and 4"
+        ],
+        "answer": "3 and 4",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "3² = 9 and 4² = 16, so √10 ≈ 3.162 is between 3 and 4"
+      },
+      {
+        "question": "√11 is between which two integers?",
+        "options": [
+          "2 and 5",
+          "4 and 5",
+          "2 and 3",
+          "3 and 4"
+        ],
+        "answer": "3 and 4",
+        "hint": "Think about which perfect squares it is between",
+        "explanation": "3² = 9 and 4² = 16, so √11 ≈ 3.317 is between 3 and 4"
+      }
+    ]
   }
 ]
