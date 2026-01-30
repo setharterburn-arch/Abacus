@@ -182,12 +182,16 @@ const SmartScoreQuiz = ({
     // Skip the disable logic on first render
     if (isFirstRender.current) {
       isFirstRender.current = false;
+      setCanAnswer(true);
       return;
     }
     
     // Briefly disable answering during transition to prevent click-through
+    // Use longer delay to ensure DOM has updated
     setCanAnswer(false);
-    const timer = setTimeout(() => setCanAnswer(true), 150);
+    const timer = setTimeout(() => {
+      setCanAnswer(true);
+    }, 300);
     return () => clearTimeout(timer);
   }, [currentIndex]);
 
@@ -241,6 +245,9 @@ const SmartScoreQuiz = ({
   }, [showFeedback, currentQuestion, score, streak, totalAnswered, correctCount, startTime, onComplete]);
 
   const handleNext = () => {
+    // Disable answering BEFORE any state changes
+    setCanAnswer(false);
+    
     setSelectedAnswer(null);
     setShowFeedback(false);
     setShowHint(false);
@@ -440,7 +447,9 @@ const SmartScoreQuiz = ({
       {/* Question */}
       <div style={{ marginBottom: '1.5rem' }}>
         {/* Use QuestionRenderer for interactive types, inline for multiple choice */}
-        {currentQuestion.type && currentQuestion.type !== 'multiple-choice' ? (
+        {currentQuestion.type && 
+         currentQuestion.type !== 'multiple-choice' && 
+         currentQuestion.type !== 'multiple_choice' ? (
           <QuestionRenderer
             question={currentQuestion}
             onAnswer={handleAnswer}
