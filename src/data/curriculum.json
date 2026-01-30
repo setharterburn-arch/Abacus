@@ -2286,6 +2286,67 @@
         ],
         "answer": "1/2",
         "hint": "Divide top and bottom by the same number"
+      },
+      {
+        "type": "number-line",
+        "question": "Place 1/2 on the number line",
+        "range": [
+          0,
+          1
+        ],
+        "divisions": 4,
+        "answer": 0.5,
+        "tolerance": 0.1
+      },
+      {
+        "type": "number-line",
+        "question": "Place 1/4 on the number line",
+        "range": [
+          0,
+          1
+        ],
+        "divisions": 4,
+        "answer": 0.25,
+        "tolerance": 0.1
+      },
+      {
+        "type": "number-line",
+        "question": "Place 3/4 on the number line",
+        "range": [
+          0,
+          1
+        ],
+        "divisions": 4,
+        "answer": 0.75,
+        "tolerance": 0.1
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 1/2 of the rectangle",
+        "shape": "rectangle",
+        "parts": 2,
+        "answer": 1
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 1/4 of the circle",
+        "shape": "circle",
+        "parts": 4,
+        "answer": 1
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 2/4 of the rectangle",
+        "shape": "rectangle",
+        "parts": 4,
+        "answer": 2
+      },
+      {
+        "type": "fraction-shade",
+        "question": "Shade 3/4 of the circle",
+        "shape": "circle",
+        "parts": 4,
+        "answer": 3
       }
     ],
     "grade": 3
@@ -6328,6 +6389,36 @@
         ],
         "answer": ">",
         "hint": "6/6 is a whole, which is more than 4/6"
+      },
+      {
+        "type": "drag-sort",
+        "question": "Order from smallest to largest",
+        "items": [
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "answer": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      {
+        "type": "drag-sort",
+        "question": "Order from smallest to largest",
+        "items": [
+          "1/3",
+          "1/2",
+          "1/6",
+          "1/4"
+        ],
+        "answer": [
+          "1/6",
+          "1/4",
+          "1/3",
+          "1/2"
+        ]
       }
     ],
     "grade": 3
@@ -29774,6 +29865,36 @@
         ],
         "answer": "5",
         "hint": "Think: 5 groups of 1, or skip count by 1, 5 times"
+      },
+      {
+        "type": "array-builder",
+        "question": "Build an array to show 2 × 3",
+        "maxRows": 5,
+        "maxCols": 5,
+        "answer": {
+          "rows": 2,
+          "cols": 3
+        }
+      },
+      {
+        "type": "array-builder",
+        "question": "Build an array to show 3 × 4",
+        "maxRows": 6,
+        "maxCols": 6,
+        "answer": {
+          "rows": 3,
+          "cols": 4
+        }
+      },
+      {
+        "type": "array-builder",
+        "question": "Build an array to show 4 × 2",
+        "maxRows": 5,
+        "maxCols": 5,
+        "answer": {
+          "rows": 4,
+          "cols": 2
+        }
       }
     ],
     "grade": 3
