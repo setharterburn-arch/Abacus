@@ -636,10 +636,14 @@ const SmartScoreQuiz = ({
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              if (canAnswer) handleNext();
-            }}
-            onTouchEnd={(e) => {
-              e.stopPropagation();
+              // Only allow Next after feedback has been shown for at least 500ms
+              const timeSinceAnswer = Date.now() - lastAnswerTime.current;
+              console.log('Next clicked, time since answer:', timeSinceAnswer);
+              if (timeSinceAnswer < 500) {
+                console.log('Next blocked - too soon after answer');
+                return;
+              }
+              handleNext();
             }}
             className="btn btn-primary"
             style={{ flex: 1 }}
