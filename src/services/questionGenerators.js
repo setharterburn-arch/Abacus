@@ -452,6 +452,118 @@ export const generateArrayBuilder = (grade = 3) => {
   };
 };
 
+// ========== TIME/CLOCK GENERATORS ==========
+
+export const generateClockReading = (grade = 1, difficulty = 'medium') => {
+  let hour, minute;
+  
+  if (grade <= 1 || difficulty === 'easy') {
+    // Hour only or :30
+    hour = rand(1, 12);
+    minute = pick([0, 30]);
+  } else if (grade === 2 || difficulty === 'medium') {
+    // Quarter hours
+    hour = rand(1, 12);
+    minute = pick([0, 15, 30, 45]);
+  } else {
+    // Any 5-minute interval
+    hour = rand(1, 12);
+    minute = rand(0, 11) * 5;
+  }
+  
+  const formatTime = (h, m) => {
+    return `${h}:${m.toString().padStart(2, '0')}`;
+  };
+  
+  const correctAnswer = formatTime(hour, minute);
+  
+  // Generate wrong answers
+  const wrongs = [];
+  while (wrongs.length < 3) {
+    const wrongHour = rand(1, 12);
+    const wrongMinute = rand(0, 11) * 5;
+    const wrong = formatTime(wrongHour, wrongMinute);
+    if (wrong !== correctAnswer && !wrongs.includes(wrong)) {
+      wrongs.push(wrong);
+    }
+  }
+  
+  return {
+    type: 'clock-face',
+    question: `What time is shown on the clock?`,
+    mode: 'read',
+    displayTime: { hour, minute },
+    options: shuffle([correctAnswer, ...wrongs]),
+    answer: correctAnswer,
+    showDigital: false
+  };
+};
+
+export const generateClockSetting = (grade = 2, difficulty = 'medium') => {
+  let hour, minute;
+  
+  if (grade <= 1 || difficulty === 'easy') {
+    hour = rand(1, 12);
+    minute = pick([0, 30]);
+  } else if (grade === 2 || difficulty === 'medium') {
+    hour = rand(1, 12);
+    minute = pick([0, 15, 30, 45]);
+  } else {
+    hour = rand(1, 12);
+    minute = rand(0, 11) * 5;
+  }
+  
+  const formatTime = (h, m) => {
+    return `${h}:${m.toString().padStart(2, '0')}`;
+  };
+  
+  return {
+    type: 'clock-face',
+    question: `Set the clock to ${formatTime(hour, minute)}`,
+    mode: 'set',
+    answer: { hour, minute },
+    showDigital: true,
+    allowQuarter: grade <= 2
+  };
+};
+
+export const generateTimeElapsed = (grade = 3, difficulty = 'medium') => {
+  const startHour = rand(1, 10);
+  const startMinute = pick([0, 15, 30, 45]);
+  
+  let elapsedHours, elapsedMinutes;
+  if (difficulty === 'easy') {
+    elapsedHours = rand(1, 3);
+    elapsedMinutes = 0;
+  } else if (difficulty === 'medium') {
+    elapsedHours = rand(0, 2);
+    elapsedMinutes = pick([0, 15, 30, 45]);
+  } else {
+    elapsedHours = rand(0, 4);
+    elapsedMinutes = rand(0, 11) * 5;
+  }
+  
+  let endHour = startHour + elapsedHours;
+  let endMinute = startMinute + elapsedMinutes;
+  if (endMinute >= 60) {
+    endHour += 1;
+    endMinute -= 60;
+  }
+  if (endHour > 12) endHour -= 12;
+  
+  const formatTime = (h, m) => `${h}:${m.toString().padStart(2, '0')}`;
+  const startTime = formatTime(startHour, startMinute);
+  const endTime = formatTime(endHour, endMinute);
+  const elapsed = `${elapsedHours > 0 ? elapsedHours + ' hour' + (elapsedHours > 1 ? 's' : '') : ''}${elapsedHours > 0 && elapsedMinutes > 0 ? ' and ' : ''}${elapsedMinutes > 0 ? elapsedMinutes + ' minutes' : ''}`;
+  
+  return {
+    question: `If it is ${startTime} now, what time will it be in ${elapsed || '0 minutes'}?`,
+    options: shuffle([endTime, formatTime(rand(1, 12), rand(0, 11) * 5), formatTime(rand(1, 12), rand(0, 11) * 5), formatTime(rand(1, 12), rand(0, 11) * 5)].filter((v, i, a) => a.indexOf(v) === i).slice(0, 4)),
+    answer: endTime,
+    hint: `Start at ${startTime} and count forward ${elapsed}`
+  };
+};
+
 export const generateDragSort = (grade = 3, topic = 'numbers') => {
   if (topic === 'fractions' && grade >= 3) {
     const fractions = ['1/4', '1/3', '1/2', '2/3', '3/4'];
@@ -521,6 +633,15 @@ export const generateQuestion = (skillType, grade = 3, difficulty = 'medium') =>
     return generateWordProblem(pick(ops), grade);
   }
   
+  // Time
+  if (type.includes('time') || type.includes('clock')) {
+    return pick([
+      () => generateClockReading(grade, difficulty),
+      () => generateClockSetting(grade, difficulty),
+      () => generateTimeElapsed(grade, difficulty)
+    ])();
+  }
+  
   // Default to addition for unknown types
   return generateAddition(grade, difficulty);
 };
@@ -567,6 +688,9 @@ export const generateInteractiveQuestion = (interactiveType, grade = 3, topic = 
       return generateArrayBuilder(grade);
     case 'drag-sort':
       return generateDragSort(grade, topic);
+    case 'clock-face':
+    case 'clock':
+      return pick([generateClockReading, generateClockSetting])(grade, 'medium');
     default:
       return generateNumberLine(grade, topic);
   }
@@ -591,5 +715,8 @@ export default {
   generateNumberLine,
   generateFractionShade,
   generateArrayBuilder,
-  generateDragSort
+  generateDragSort,
+  generateClockReading,
+  generateClockSetting,
+  generateTimeElapsed
 };
