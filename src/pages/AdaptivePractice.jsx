@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useStore } from '../services/store';
@@ -79,6 +79,9 @@ const AdaptivePractice = () => {
     const [topics, setTopics] = useState([]);
     const [loadingTopics, setLoadingTopics] = useState(true);
     const [useSmartScore, setUseSmartScore] = useState(true); // Default to SmartScore
+    
+    // Track touch position to distinguish taps from scrolls
+    const touchStartRef = useRef({ x: 0, y: 0 });
 
     useEffect(() => {
         // Load topics from Supabase (with JSON fallback)
@@ -268,13 +271,24 @@ const AdaptivePractice = () => {
                                     <button
                                         type="button"
                                         onClick={(e) => {
-                                            e.preventDefault();
-                                            e.stopPropagation();
-                                            handleTopicSelect(topic);
+                                            // Only handle click on non-touch devices
+                                            if (e.detail > 0) { // Real click, not programmatic
+                                                handleTopicSelect(topic);
+                                            }
+                                        }}
+                                        onTouchStart={(e) => {
+                                            const touch = e.touches[0];
+                                            touchStartRef.current = { x: touch.clientX, y: touch.clientY };
                                         }}
                                         onTouchEnd={(e) => {
-                                            e.preventDefault();
-                                            handleTopicSelect(topic);
+                                            const touch = e.changedTouches[0];
+                                            const dx = Math.abs(touch.clientX - touchStartRef.current.x);
+                                            const dy = Math.abs(touch.clientY - touchStartRef.current.y);
+                                            // Only trigger if finger moved less than 10px (tap, not scroll)
+                                            if (dx < 10 && dy < 10) {
+                                                e.preventDefault();
+                                                handleTopicSelect(topic);
+                                            }
                                         }}
                                         className="card"
                                         style={{
