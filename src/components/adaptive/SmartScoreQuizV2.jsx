@@ -495,7 +495,8 @@ const SmartScoreQuizV2 = ({
             {/* Answer Options */}
             <div style={{ display: 'grid', gap: '0.75rem' }}>
               {currentQuestion.options?.map((option, idx) => {
-                const isSelected = state.selectedAnswer === option;
+                // Strict comparison - ensure both are same type
+                const isSelected = state.selectedAnswer !== null && String(state.selectedAnswer) === String(option);
                 const isCorrect = option === currentQuestion.answer;
                 const showCorrect = state.phase === 'feedback' && isCorrect;
                 const showIncorrect = state.phase === 'feedback' && isSelected && !isCorrect;
@@ -503,7 +504,7 @@ const SmartScoreQuizV2 = ({
 
                 return (
                   <button
-                    key={`${state.questionIndex}-${idx}`}
+                    key={`q${state.questionIndex}-opt${idx}-${option.substring(0,10)}`}
                     type="button"
                     onClick={() => canSelect && handleSelectAnswer(option)}
                     disabled={!canSelect}
