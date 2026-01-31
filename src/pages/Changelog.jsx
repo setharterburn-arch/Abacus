@@ -36,6 +36,81 @@ const Changelog = () => {
                     ← Back to Home
                 </Link>
 
+                {/* Beta v2.1 Release */}
+                <div className="card" style={{ marginBottom: '2rem' }}>
+                    <div style={{ 
+                        display: 'flex', 
+                        alignItems: 'center', 
+                        gap: '1rem',
+                        marginBottom: '1.5rem',
+                        paddingBottom: '1rem',
+                        borderBottom: '2px solid var(--color-bg)'
+                    }}>
+                        <span style={{
+                            background: '#22c55e',
+                            color: 'white',
+                            padding: '0.25rem 0.75rem',
+                            borderRadius: '4px',
+                            fontWeight: 'bold',
+                            fontSize: '0.9rem'
+                        }}>
+                            Beta v2.1
+                        </span>
+                        <span style={{ color: 'var(--color-text-muted)' }}>
+                            January 31, 2026
+                        </span>
+                    </div>
+
+                    {/* New Interactive Components */}
+                    <section style={{ marginBottom: '2rem' }}>
+                        <h3 style={{ color: 'var(--color-primary)', marginBottom: '1rem' }}>
+                            ✨ New Interactive Question Types
+                        </h3>
+                        <ul style={{ lineHeight: 1.8, color: 'var(--color-text)' }}>
+                            <li><strong>Clock Face</strong> - Drag clock hands to set times for telling time questions</li>
+                            <li><strong>Coordinate Grid</strong> - Plot points on a coordinate plane for geometry</li>
+                            <li><strong>Bar Graph</strong> - Read and create bar graphs for data/statistics</li>
+                        </ul>
+                    </section>
+
+                    {/* Gamification */}
+                    <section style={{ marginBottom: '2rem' }}>
+                        <h3 style={{ color: '#f97316', marginBottom: '1rem' }}>
+                            🎮 Enhanced Gamification
+                        </h3>
+                        <ul style={{ lineHeight: 1.8, color: 'var(--color-text)' }}>
+                            <li><strong>Streak Celebrations</strong> - Confetti and animations for answer streaks (3+, 5+, 10+)</li>
+                            <li><strong>Daily Challenge</strong> - Complete 5 questions daily for bonus XP and streak rewards</li>
+                            <li><strong>Mastery Map</strong> - Visual skill tree showing progress across topics</li>
+                            <li><strong>SmartScore Badge</strong> - New badge component showing mastery level at a glance</li>
+                        </ul>
+                    </section>
+
+                    {/* Content */}
+                    <section style={{ marginBottom: '2rem' }}>
+                        <h3 style={{ color: 'var(--color-secondary)', marginBottom: '1rem' }}>
+                            📚 Content Expansion
+                        </h3>
+                        <ul style={{ lineHeight: 1.8, color: 'var(--color-text)' }}>
+                            <li><strong>New AI curriculum generator</strong> - Uses Gemini to generate IXL-style content</li>
+                            <li><strong>Math accuracy audit</strong> - Script to validate arithmetic in generated questions</li>
+                            <li><strong>700+ skills</strong> across K-8 with 20,000+ questions</li>
+                        </ul>
+                    </section>
+
+                    {/* UX */}
+                    <section>
+                        <h3 style={{ color: '#a855f7', marginBottom: '1rem' }}>
+                            🎨 UX Improvements
+                        </h3>
+                        <ul style={{ lineHeight: 1.8, color: 'var(--color-text)' }}>
+                            <li><strong>Breadcrumb navigation</strong> - Better wayfinding throughout the app</li>
+                            <li><strong>Improved animations</strong> - Smoother transitions with Framer Motion</li>
+                            <li><strong>Progress indicators</strong> - Clear visual feedback during practice sessions</li>
+                        </ul>
+                    </section>
+                </div>
+
                 {/* Beta v2 Release */}
                 <div className="card" style={{ marginBottom: '2rem' }}>
                     <div style={{ 

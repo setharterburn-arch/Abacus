@@ -36,6 +36,7 @@ const CosmicConstellationsLesson = lazy(() => import('./pages/beta/CosmicConstel
 const CrystalVaultLesson = lazy(() => import('./pages/beta/CrystalVaultLesson'));
 const VideoTutorials = lazy(() => import('./pages/beta/VideoTutorials'));
 const InteractiveAddition = lazy(() => import('./pages/beta/InteractiveAddition'));
+const MultiplicationRace = lazy(() => import('./pages/beta/MultiplicationRace'));
 
 // Loading component
 const PageLoader = () => (
@@ -95,6 +96,7 @@ const AppRoutes = () => {
           <Route path="/beta/crystal-vault" element={<CrystalVaultLesson />} />
           <Route path="/beta/videos" element={<VideoTutorials />} />
           <Route path="/beta/interactive-addition" element={<InteractiveAddition />} />
+          <Route path="/beta/multiplication-race" element={<MultiplicationRace />} />
           <Route path="/learning-paths" element={<LearningPaths />} />
           <Route path="/assignments" element={<Assignments />} />
           <Route path="/assignment/smartscore" element={<SmartScoreAssignment />} />

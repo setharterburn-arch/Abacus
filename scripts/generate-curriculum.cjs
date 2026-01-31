@@ -149,7 +149,41 @@ async function generateWithClaude(prompt) {
   return response.content[0].text;
 }
 
-async function generateCurriculum(provider, grade, topic, skillCount) {
+function cleanupJSON(text) {
+  // Remove markdown code blocks
+  text = text.trim();
+  if (text.startsWith('```json')) text = text.slice(7);
+  if (text.startsWith('```')) text = text.slice(3);
+  if (text.endsWith('```')) text = text.slice(0, -3);
+  text = text.trim();
+  
+  // Fix common JSON issues from LLMs
+  // 1. Replace Python-style None/True/False
+  text = text.replace(/\bNone\b/g, 'null');
+  text = text.replace(/\bTrue\b/g, 'true');
+  text = text.replace(/\bFalse\b/g, 'false');
+  
+  // 2. Fix trailing commas before ] or }
+  text = text.replace(/,(\s*[}\]])/g, '$1');
+  
+  // 3. Fix unquoted keys (simple cases)
+  text = text.replace(/([{,]\s*)(\w+)(\s*:)/g, '$1"$2"$3');
+  
+  // 4. Replace single quotes with double quotes (careful with apostrophes)
+  text = text.replace(/:\s*'([^']*?)'/g, ': "$1"');
+  
+  // 5. Remove any BOM or special characters at the start
+  text = text.replace(/^\uFEFF/, '');
+  
+  // 6. Fix incomplete arrays with placeholder values
+  text = text.replace(/\[\s*\?\s*,/g, '[null,');
+  text = text.replace(/,\s*\?\s*\]/g, ', null]');
+  text = text.replace(/,\s*\?\s*,/g, ', null,');
+  
+  return text;
+}
+
+async function generateCurriculum(provider, grade, topic, skillCount, retryCount = 0) {
   console.log(`\n🎯 Generating ${skillCount} skills for Grade ${grade}${topic ? ` (${topic})` : ''}...`);
   console.log(`   Using: ${provider === 'gemini' ? 'Gemini 2.5 Flash (FREE)' : 'Claude Sonnet ($)'}`);
   
@@ -162,22 +196,29 @@ async function generateCurriculum(provider, grade, topic, skillCount) {
     text = await generateWithClaude(prompt);
   }
   
-  // Extract JSON from response
+  // Extract and clean JSON from response
   let json;
   try {
-    // Clean up common issues
-    text = text.trim();
-    if (text.startsWith('```json')) text = text.slice(7);
-    if (text.startsWith('```')) text = text.slice(3);
-    if (text.endsWith('```')) text = text.slice(0, -3);
-    text = text.trim();
-    
+    text = cleanupJSON(text);
     json = JSON.parse(text);
   } catch (e) {
     // Try to find JSON object in the response
     const match = text.match(/\{[\s\S]*\}/);
     if (match) {
-      json = JSON.parse(match[0]);
+      try {
+        const cleanedMatch = cleanupJSON(match[0]);
+        json = JSON.parse(cleanedMatch);
+      } catch (e2) {
+        // Retry up to 2 times with smaller batch
+        if (retryCount < 2) {
+          console.log(`   ⚠️ JSON parse failed, retrying (attempt ${retryCount + 2}/3)...`);
+          await new Promise(r => setTimeout(r, 2000));
+          const smallerBatch = Math.max(2, Math.floor(skillCount / 2));
+          return generateCurriculum(provider, grade, topic, smallerBatch, retryCount + 1);
+        }
+        console.error('Raw response:', text.substring(0, 500));
+        throw new Error('Could not parse JSON from response: ' + e.message);
+      }
     } else {
       console.error('Raw response:', text.substring(0, 500));
       throw new Error('Could not parse JSON from response: ' + e.message);

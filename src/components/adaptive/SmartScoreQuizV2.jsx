@@ -1,9 +1,10 @@
-import React, { useReducer, useEffect, useCallback, useRef, useMemo } from 'react';
+import React, { useReducer, useEffect, useCallback, useRef, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { smartScore } from '../../services/smartScore';
 import { getCurriculum } from '../../services/curriculumService';
 import { QuestionRenderer } from '../questions';
 import { generateQuestion, generateInteractiveQuestion } from '../../services/questionGenerators';
+import StreakCelebration from '../gamification/StreakCelebration';
 
 /**
  * Check if answer is correct for any question type
@@ -196,6 +197,10 @@ const SmartScoreQuizV2 = ({
   const startTime = useRef(Date.now());
   const seenQuestions = useRef(new Set());
   
+  // Streak celebration state
+  const [showStreakCelebration, setShowStreakCelebration] = useState(false);
+  const prevStreak = useRef(0);
+  
   // Get current question safely
   const currentQuestion = state.questions[state.questionIndex] || null;
   
@@ -296,6 +301,14 @@ const SmartScoreQuizV2 = ({
     }
   }, [state.scoreAnimation]);
   
+  // Show streak celebration when streak increases
+  useEffect(() => {
+    if (state.isCorrect && state.streak > prevStreak.current && state.streak >= 3) {
+      setShowStreakCelebration(true);
+    }
+    prevStreak.current = state.streak;
+  }, [state.streak, state.isCorrect]);
+  
   // Handle completion
   useEffect(() => {
     if (state.phase === 'complete') {
@@ -356,7 +369,15 @@ const SmartScoreQuizV2 = ({
   }
 
   return (
-    <div className="card" style={{ maxWidth: '700px', margin: '0 auto' }}>
+    <>
+      {/* Streak Celebration Overlay */}
+      <StreakCelebration 
+        streak={state.streak}
+        show={showStreakCelebration}
+        onComplete={() => setShowStreakCelebration(false)}
+      />
+      
+      <div className="card" style={{ maxWidth: '700px', margin: '0 auto' }}>
       {/* SmartScore Header */}
       <div style={{ marginBottom: '1.5rem' }}>
         <div style={{ 
@@ -665,7 +686,8 @@ const SmartScoreQuizV2 = ({
           <span>~{estimatedRemaining} more to mastery</span>
         )}
       </div>
-    </div>
+      </div>
+    </>
   );
 };
 

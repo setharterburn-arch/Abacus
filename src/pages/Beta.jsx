@@ -21,6 +21,13 @@ const Beta = () => {
             tags: ['Grade 2', 'Multiplication']
         },
         {
+            id: 'multiplication-race',
+            title: '🏎️ Multiplication Race',
+            description: 'Speed test! How many can you answer in 60 seconds?',
+            path: '/beta/multiplication-race',
+            tags: ['Grade 3-5', 'Multiplication', 'Speed']
+        },
+        {
             id: 'pizza',
             title: '🍕 Pizza Party',
             description: 'Fractions Intro. Identify 1/2 and 1/4 of a pizza.',
